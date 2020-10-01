@@ -1,5 +1,5 @@
 {
-	"@ProductDocs": {
+	"ProductDocs": {
 		"pendingPayment": {
 			"name": "Pending Payment",
 			"demo_desc": "Demo of Pending Payment",
