@@ -1,0 +1,32 @@
+{
+	"ProductDocs": {
+		"pendingPayment": {
+			"name": "Pending Payment",
+			"demo_desc": "Demo of Pending Payment",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.",
+			"pendingPayment_desc_1": "Merchant wants to provide user an option to process their order but pay for them after a time period",
+			"pendingPayment_desc_2": "Merchant wants to simplify the checkout process without payment procedures",
+			"when_to_use": "When to use Pending Payment",
+			"integrating_title": "Integrating Pending Payment",
+			"createPayment_title": "Create a Pending Payment",
+			"createPayment_desc": "In order to create a pending payment, you will need to send a request to us with the following parameters:",
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"get_payment_details": {
+				"desc_1": "Now that you have created a pending payment, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+				"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful creation of pending payment, the status will be CREATED. If the pending order is cancelled, the status will be CANCELED. Once the user completes the payment, the status will be COMPLETED."
+			},
+			"cancel_a_payment": {
+				"title": "Cancel a payment",
+				"desc_1": "This is used when you want to delete the pending order",
+				"desc_2": "処理を実施する場合には、以下のパラメーターを使用してリクエストしてください。",
+				"table": {
+					"desc_1": "加盟店から提供された一意の支払い取引ID"
+				},
+				"desc_3": "SUCCESS が返却された場合APIは正しく実行されています。",
+				"desc_4_1": "レスポンス項目について詳細に知りたい 場合には、",
+				"desc_4_2": " [APIドキュメントガイド]",
+				"desc_4_3": "をご確認ください。"
+			}
+		}
+	}
+}
