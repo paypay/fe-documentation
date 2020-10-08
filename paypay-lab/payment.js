@@ -1,4 +1,4 @@
- identifier: "go_payments",
+{identifier: "go_payments",
   name: "Payments",
   points: [
     {
@@ -789,3 +789,4 @@
       },
     },
   ]
+}
