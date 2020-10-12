@@ -1,0 +1,3094 @@
+{
+	"home": {
+		"title": ["PayPay for", "Developers"],
+		"hero": "Get everything you need to quickly and easily integrate PayPay into your website or app. Offer your customers in Japan a fast, easy way to send you payments.",
+		"domore-title": "Build with PayPay",
+		"domore-body": "Payment experiences that let you integrate the PayPay into your service, in the way that suits you best.",
+		"features-title": "Features of PayPay for Developers",
+		"features-subtitle": "With APIs, sandbox testing environments and access to internal PayPay Developer support, you’ve got everything needed to quickly integrate PayPay into your own website or app and start receiving payments from your customers.",
+		"feature-1": {
+			"title": "Installation is easy",
+			"body": "SDKs, reference APIs and sample code integrations for web and mobile app projects."
+		},
+		"feature-2": {
+			"title": "Support",
+			"body": "Browse documentation, see examples and get professional developer support."
+		},
+		"feature-3": {
+			"title": "API driven",
+			"body": "Test in PayPay Lab, a secure sandbox environment that lets you simulate the entire payment flow."
+		},
+		"feature-4": {
+			"title": "Dashboard",
+			"body": "Developer dashboard helps you track the usage and performance of your PayPay integration."
+		},
+		"menu-products": {
+			"title": "Products",
+			"body": "Payment experiences that let you integrate the PayPay into your service, in the way that suits you best."
+		},
+		"menu-joinus": {
+			"title": "Join Us"
+		},
+		"menu-develop": {
+			"title": "Develop",
+			"body": "APIs, sample code implementations and a secure testing environment so you can quickly integrate PayPay and focus on building your website or app."
+		},
+		"menu-support": {
+			"title": "Support"
+		},
+		"domore-1": {
+			"title": "Dynamic QR code",
+			"subtitle": "Generate a unique QR code and ask the customer to scan and pay."
+		},
+		"domore-2": {
+			"title": "App Invoke",
+			"subtitle": "Call up PayPay on a customers device so that they can pay with a single tap."
+		},
+		"domore-3": {
+			"title": "Web Payment",
+			"subtitle": "Allow a user to log in or pay via the PayPay app from your website."
+		},
+		"domore-4": {
+			"title": "Native Payment",
+			"subtitle": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time."
+		},
+		"domore-develop-1": {
+			"title": "Integration",
+			"subtitle": "PayPay analysis provides you a seamless experience to troubleshoot your integration errors."
+		},
+		"domore-develop-2": {
+			"title": "Documentation",
+			"subtitle": "PayPay analysis provides you a seamless experience to troubleshoot your integration errors."
+		},
+		"domore-develop-3": {
+			"title": "PayPay Lab",
+			"subtitle": "PayPay analysis provides you a seamless experience to troubleshoot your integration errors."
+		},
+		"domore-develop-4": {
+			"title": "PayPay Resolve",
+			"subtitle": "PayPay analysis provides you a seamless experience to troubleshoot your integration errors."
+		},
+		"transaction-list": "Transaction List",
+		"api-reference-cashback": "Cashback",
+		"api-reference-requestmoney": "Request Money",
+		"api-reference-qr-code": "Dynamic QR",
+		"api-reference-app-invoke": "App Invoke",
+		"api-reference-subscription": "Continuous Payments",
+		"testimonial-title": "What PayPay Develop Partner Have to Say",
+		"notice_for_merchants": "Merchant Announcements",
+		"notice_for_developers": "Developer Announcements ",
+		"stats": {
+			"usersCount": "30",
+			"storesCount": "2.3",
+			"transactionsCount": "1",
+			"users": "USERS",
+			"stores": "STORES",
+			"transactions": "TRANSACTIONS",
+			"section1": "Million",
+			"section2": "Million+",
+			"section3": "Billion+"
+		},
+		"testimonyList": "testimonyList"
+	},
+	"footer": {
+		"links": ["About PayPay", "Contact Us", "Careers", "Blog"],
+		"copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
+		"address": ["Tokyo Garden Terrace Kioi-cho, Kioi tower 1-3 Kioi-cho", "Chiyoda-Ku, Tokyo - 102-0094"]
+	},
+	"product": {
+		"app-invoke": {
+			"title": ["Take your business to next level with", "App Invoke", "Option"],
+			"overview": "Demo Integration",
+			"desc": "Empower your business by creating a code which can be used to call PayPay app and receive Payments"
+		},
+		"QR-Code": {
+			"title": ["Take your business to next level with", "QR Code", "Operation"],
+			"overview": "PayPay Dynamic QR Code - Overview",
+			"desc": "Empower your business by creating a QR Code which can be scanned by the user using PayPay App to process the payment."
+		},
+		"auto-debit": {
+			"title": ["Take your business to next level with", "Native Payment", "Option"],
+			"overview": "Native Payment debit - Overview",
+			"desc": "Take your business to next level with Native Payment Option"
+		},
+		"web-cashier": {
+			"title": ["Take your business to next level with", "Cashback", "Option"],
+			"overview": "PayPay Cashback - Overview",
+			"desc": ""
+		}
+	},
+	"dataList": {
+		"AppInvoke": {
+			"subHeadding": "How it works",
+			"key": "App Invoke",
+			"header_title": ["App", "Invoke", "Overview"],
+			"mainTitle": "App <br>*Invoke*",
+			"subTitle": "Call the PayPay app on a user`s mobile device and instantly display a payment request. From here, the user can make a payment to you with one tap, in exactly the same way they would when making any other PayPay in-app payment.",
+			"prodTitle": "Empower your business by creating a code which can be used to call *PayPay App* and *Receive Payments*",
+			"introduction": "Empower your business by creating a code which can be used to call PayPay app and receive Payments",
+			"product": [{
+					"title": "Create the order",
+					"description": "You create the order in your app and add a pay with PayPay button or link on your payment screen.",
+
+					"buttonText": "CREATE QR ORDER",
+					"isButton": true,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020",
+						"Redirect URL": "www.mercha.."
+					}
+				},
+				{
+					"title": "Open PayPay",
+					"description": "By choosing this option, the user is redirected to their PayPay app with the order confirmation screen displayed.",
+					"isWebCash": "true",
+					"marchentlog": "https://picsum.photos/50/50/?image=41",
+					"marchent": "Red velvet cake",
+					"amount": "100 YEN",
+					"footer": "Scan wiht PayPay app",
+					"isButton": false,
+					"buttonText": "GENERATE QR Code"
+				},
+				{
+					"title": "Order Completion",
+					"description": "The user confirms the payment and you receive an instant notification.",
+					"isQrCode": true,
+					"isAutoDebit": "true",
+					"isButton": false,
+					"data": {
+						"header": "Please use the PayPay App to scan the QR Code",
+						"text": "https://goo.gl/9eIWP9",
+						"footer": "For testing purposes; the payment will be cancelled automatically within 1 minute"
+					}
+				},
+				{
+					"title": "Redirect to merchant app",
+					"description": "After the user finishes paying, we will redirect to where they left off(I.E, redirect to the url you specified in the creation)!",
+					"isButton": false,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020",
+						"Status": "Paid"
+					}
+				}
+			]
+		},
+		"DynamicQRCode": {
+			"key": "Dynamic QR Code",
+			"header_title": ["Dynamic QR Code", "Overview"],
+			"mainTitle": "Dynamic <br>*QR Code*",
+			"subTitle": "Dynamic QR codes can be displayed on the screen of your app or web page, for a user to scan and make a payment. For your customers, this is exactly the same payment experience that they are using everyday at millions of offline stores that support PayPay.",
+			"prodTitle": "Empower your business by creating a *QR Code* which can be scanned by the user using PayPay App to process the payment.",
+			"introduction": "Empower your business by creating a QR Code which can be scanned by the user using PayPay App to process the payment.",
+			"product": [{
+					"title": "QR Code Generation",
+					"description": "Use the X API to call PayPay API to have it the QR code created dynamically. ",
+					"buttonText": "CREATE QR ORDER",
+					"isButton": true,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020"
+					}
+				},
+				{
+					"title": "Display QR Code",
+					"description": "You display the QR code or link to it in your service, and the user scans it with their phone.",
+
+					"isWebCash": "true",
+					"marchentlog": "https://picsum.photos/50/50/?image=41",
+					"marchent": "Red velvet cake",
+					"amount": "100 YEN",
+					"footer": "Scan wiht PayPay app",
+					"isButton": false,
+					"buttonText": "GENERATE QR Code"
+				},
+				{
+					"title": "Order Completion",
+					"isAutoDebit": "true",
+					"description": "Once the user confirms the payment, you will be instantly notified and can update the user status on your end.",
+					"isQrCode": true,
+					"data": {
+						"header": "Please use the PayPay App to scan the QR Code",
+						"text": "https://goo.gl/9eIWP9",
+						"footer": "For testing purposes; the payment will be cancelled automatically within 1 minute"
+					}
+				},
+				{
+					"title": "Display payment status",
+					"description": "Once an user makes the payment, fetch actual status of payment and display it to user",
+					"isButton": false,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020",
+						"Status": "Paid"
+					}
+				}
+			]
+		},
+		"Autodirectdebit": {
+			"key": "Auto direct debit",
+			"header_title": ["Native Payment", "Overview"],
+			"mainTitle": "Native </br>*Payment*",
+			"subTitle": "Request your customer link their PayPay account with their account on your service. After the link is authorized, you can offer one-click payments for all future orders made by that customer. Perfect for easy, repeat payments.",
+			"prodTitle": "Take your business to next level with *Native Payment* Option",
+			"introduction": "Take your business to next level with Native Payment Option",
+			"product": [{
+					"title": "Link accounts ",
+					"description": "A customer visits your website or mobile app and receives a request to link his/her PayPay account.",
+					"buttonText": "LOGIN",
+					"data": {
+						"Username": "08045674567",
+						"Password": "*********"
+					}
+				},
+				{
+					"title": "Authorize",
+					"buttonText": "AUTHORISE",
+
+					"description": "You initiate the account linking process using Send OTB API and Validate OTP API. Once it is successfully linked PayPay will share a token with you.",
+					"isWebCash": "true",
+					"marchentlog": "https://picsum.photos/50/50/?image=41",
+					"marchent": "Mune’s cake shop is requesting permission to read balance from your wallet and debit funds.",
+					"amount": "MUNE’S CAKE SHOP",
+					"footer": "",
+					"isButton": true
+				},
+				{
+					"title": "Order Fulfillment",
+					"isQrCode": false,
+					"isAutoDebit": "false",
+					"description": "You are then able to instantly fulfill a payment when a user makes a repeat purchase in your service, without the need to call PayPay or request a new QR code scan.",
+					"buttonText": "CREATE QR ORDER",
+					"isButton": true,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020"
+					}
+				},
+				{
+					"title": "Display payment status",
+					"description": "Once the payment is created, get the final status of the payment with merchant payment ID with which you created an order.",
+					"isButton": false,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020",
+						"Status": "Paid"
+					}
+				}
+			]
+		},
+		"Cashback": {
+			"key": "Cashback",
+			"header_title": ["Web Payment", "Overview"],
+			"mainTitle": "Web </br>*Payment*",
+			"subTitle": "Web Payment provides an easy and secure way to receive payments in your website, with minimal coding requirements. By adding a small code snippet to your site, you can allow your customers to log in and complete a payment with their PayPay account. Or you can request the payment be made on the users mobile device. The ease of use is designed to help grow your conversion rates while offering peace of mind to your customers.",
+			"prodTitle": "Empower your business by creating a code which can be used as a link to collect payment using *PayPay Web page/ PayPay App*",
+			"introduction": "",
+			"product": [{
+					"title": "Add the code snippet",
+					"description": "Generate the code snippet from your developer dashboard and deploy in your site.",
+					"buttonText": "CREATE QR ORDER",
+					"isButton": true,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020"
+					}
+				},
+				{
+					"title": "Receive the payment request",
+					"buttonText": "SEND",
+					"isAutoDebit": "true",
+					"isWebCash": "false",
+					"cashbackImg": "@/assets/products/cashback/webcash.png",
+
+					"description": "When the user selects to pay with PayPay a JS module will render a ashier page in their browser, with your merchant name, logo and order amount displayed. ",
+					"data": {
+						"url": "https://goo.gl/9eIWP9"
+					}
+				},
+				{
+					"title": "Order Fulfillment",
+					"isQrCode": true,
+					"isAutoDebit": "true",
+					"description": "The user completes a login with their PayPay account and completes the payment.",
+
+					"data": {
+						"header": "Please use the PayPay App to scan the QR Code",
+						"text": "https://goo.gl/9eIWP9",
+						"footer": "For testing purposes; the payment will be cancelled automatically within 1 minute"
+					}
+				},
+				{
+					"title": "Display payment status",
+					"description": "Once an user makes the payment, fetch actual status of payment and display it to user",
+					"isButton": false,
+					"data": {
+						"Amount": "100 YEN",
+						"Order description": "Red velvet cake",
+						"Request date": "10-Feb-2020",
+						"Status": "Paid"
+					}
+				}
+			]
+		},
+		"MiniApp": {
+			"key": "MiniApp",
+			"header_title": ["PayPay", "Mini App"],
+			"header_desc": "With PayPay Mini Apps, you can put your service inside PayPay, in front of millions of users, all over Japan. These users can engage with your service, and make payments, without the need to visit any other app or web page ",
+			"header_actionsbtn_txt": "Documentation",
+			"mamain_hdiconpath": "require('@/assets/products/mini-app/miniapp_main_infograhpic.svg')",
+			"mamain_engagedusers": "require('@/assets/products/mini-app/miniapp_engagedusers.svg')",
+			"mamain_qrcode": "require('@/assets/products/mini-app/miniapp_qrcode.svg')",
+			"mamain_smoothpayment": "require('@/assets/products/mini-app/miniapp_smoothpayment.png')",
+			"mamain_section2_title": "Why PayPay Mini App?",
+			"mamain_section3_title": "Engaged Users",
+			"mamain_section3_subheading": ["30M + ", "Registered", "Users"],
+			"mamain_section3_descriptions": "Every day, millions of people from all  over Japan are using PayPay to pay for goods and services from both online and offiline merchants. Mini Apps can reach these users any time, giving you a unique opportunity to impact customers and expand your business.",
+			"mamain_section4_title": "Open from Anywhere",
+			"mamain_section4_descriptions": "Mini apps can be opened by its own icon within PayPay, or via a user scanning a QR code or tapping on a link. A user does not need to download anything or launch an unfamiliar web page, allowing them to quickly engage with your service. ",
+			"mamain_section4_subheading": ["Scanning", "QR code", "Offline & Online"],
+			"mamain_section5_title": "Seamless User Experience",
+			"mamain_section5_descriptions": "A user of PayPay knows that their payment information is completely secure and that they have full control over any personal data that they choose to share. Mini apps on the PayPay platform can offer the same safe and familiar payment experience, significantly reducing the hurdles in making a new customer and fulfilling an order. ",
+			"mamain_section5_subheading": ["smooth", "payment", "flow"]
+		}
+	},
+	"SignupFooter": {
+		"contactus": "Contact Us",
+		"copyright": "Copyright (C) PayPay Corporation. All Rights Reserved."
+	},
+	"SignupCreateAccount": {
+		"section1": {
+			"sca_form_title": "Sign Up",
+			"sca_form_subtitle": "PayPay Developer Account",
+			"sca_email_label": "Email *",
+			"sca_email_placeholder": "Email",
+			"sca_password_label": "Password *",
+			"sca_password_placeholder": "Password",
+			"sca_form_btn": "Create Account",
+			"sca_signin_hint": "Already have PayPay Developer Account?",
+			"sca_signin_hintlink": "SIGN IN",
+			"sca_terms_hint": "By creating this account, you agree to our",
+			"sca_terms_tclink": "Terms & Conditions",
+			"sca_terms_pplink": "Privacy Policy",
+			"sca_form_error": "Please enter valid Mobile Number and Password"
+		},
+		"section2": {
+			"sca_content_tholder1": "Most popular",
+			"sca_content_tholder2": "payment platform",
+			"sca_content_tholder3": "in Japan",
+			"sca_content_text": "PayPay is the Best online Payment Systems in Japan. We have handled over 1 billion + transactions in total.With Simple, Easy and Fast integration you are just 30 minutes away from powering your product with our Payment Systems."
+		}
+	},
+	"SignupTimeout": {
+		"section1": {
+			"sto_sh1error_title": "Timed out",
+			"sto_sh1error_chip": "error",
+			"sto_sh1error_hint": "Timed out, please sign in again to continue",
+			"sto_sh1_signinbtn": "Sign In"
+		},
+		"section2": {
+			"sto_s2_txt1": "Hey, its",
+			"sto_s2_txt2": "timed Out!!",
+			"sto_s2_txt3": "Try again by signing in"
+		}
+	},
+	"SignupVerification": {
+		"section1": {
+			"svn_s1h_txt": "We have sent a verification email. Please click on the link sent to you on email to proceed."
+		}
+	},
+	"SignupMerchant": {
+		"section1": {
+			"smt_s1mart_skip": "Skip",
+			"smt_s1mart_upload": "+Add Your Logo",
+			"smt_s1mart_hint": "Maximum size 222 X 222 pixels",
+			"smt_merchant_label": "Merchant Name",
+			"smt_merchant_placeholder": "Merchant Name",
+			"smt_s1mart_continuebtn": "Sign In"
+		},
+		"section2": {
+			"smt_s2_txt1": "Welcome!",
+			"smt_s2_txt2": "Successfully",
+			"smt_s2_txt3": "verified email",
+			"smt_s2_txt4": "Please fill in the details to proceed ahead."
+		}
+	},
+	"SignupProducts": {
+		"section1": {
+			"sgp_s1_back": "Back",
+			"sgp_s1mart_title": "Select OPA Products",
+			"sgp_s1mart_subtitle": "You can select multiple options",
+			"sgp_pname1": "App Invoke",
+			"sgp_pname1_1": "App Invoke",
+			"sgp_pname2": "Dynamic QR Code",
+			"sgp_pname2_1": "Dynamic QR Code",
+			"sgp_pname3": "Native Payment",
+			"sgp_pname4": "Web Payment",
+			"sgp_pname5": "Pre-auth & Capture",
+			"sgp_s1mart_submit": "Register"
+		},
+		"section2": {
+			"sgp_s2_txt1": "Customized for",
+			"sgp_s2_txt2": "various needs",
+			"sgp_s2_txt3": "PayPay has a variety of tools to help you build what you need."
+		}
+	},
+	"SignupSecurityKey": {
+		"section1": {
+			"ssk_s1mart_heading": "New Key",
+			"ssk_keyid_label": "Key Id",
+			"ssk_keysecret_label": "Key Secret",
+			"ssk_s1mart_downloadhint1": "Download Key Details",
+			"ssk_s1mart_downloadhint2": "Key Details will not be available to download again",
+			"ssk_s1mart_submit": "Finish"
+		},
+		"section2": {
+			"ssk_s2_txt1": "Hurray!",
+			"ssk_s2_txt2": "success",
+			"ssk_s2_txt3": "You have been successfully signed in, You are one of our delighted customer. Download the Key and store on your device.",
+			"ssk_s2_txt4": "Done"
+		}
+	},
+	"SignUpPageInfo": {
+		"header": "Make accepting",
+		"header2": "payments easier.",
+		"points": [{
+				"title": "Ask questions and connect with PayPay Developers.",
+				"iconurl": "require('@/assets/signupred-icn_simple.png')"
+			},
+			{
+				"title": "View sample code and documentation, including API references.",
+				"iconurl": "require('@/assets/signupred-icn_easy.png')"
+			},
+			{
+				"title": "Access PayPay Lab sandbox testing environment.",
+				"iconurl": "require('@/assets/signupred-icn_fast.png')"
+			}
+		],
+		"otpText1": "A one time password has been sent to",
+		"otpText2": "",
+		"addLogo": "Add your business logo",
+		"opaPageSubTitle": "PayPay has a variety of tools to help you build what you need",
+		"selectProducts": "Please select one or more required payment methods",
+		"selectProductsInfo": "Get Started - Select one or more",
+		"signupSuccess": "Finished! You are ready to get started with PayPay Developer Tools.",
+		"otpTextBtn": "Verify",
+		"otpTextResend": "Resend",
+		"otpTextResendTxt": "Din’t receive the OTP?",
+		"smt_subtitle": "maximum size 222x222 pixels (1:1 ratio) logo file should be .JPG or .PNG format only.",
+		"uMerchantNameLabel": "Merchant Name",
+		"uMerchantNamePlaceholder": "Enter Merchant Name",
+		"uMerchantBtn": "Continue",
+		"uMerchantEmsg": "Kindly upload your logo!"
+	},
+	"OPAAPIDocs": {
+		"appInvoke": "https://www.paypay.ne.jp/opa/doc/v1.0/appinvoke",
+		"dynamicQRCode": "https://www.paypay.ne.jp/opa/doc/v1.0/dynamicqrcode",
+		"directDebit": "https://www.paypay.ne.jp/opa/doc/v1.0/direct_debit",
+		"webCashier": "https://www.paypay.ne.jp/opa/doc/v1.0/webcashier",
+		"cashback": "https://www.paypay.ne.jp/opa/doc/v1.0/cashback",
+		"requestMoney": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments",
+		"continuousPayments": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments",
+		"preauthCapture": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture",
+		"pendingPayment": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+	},
+	"ProductComponents": {
+		"webPayment": {
+			"name": "Web Payment",
+			"description": "Allow a user to log in or pay via the PayPay app from your website.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/webcashier"
+		},
+		"nativePayment": {
+			"name": "Native Payment",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/direct_debit"
+		},
+		"qrCode": {
+			"name": "Dynamic QR Code",
+			"description": "Generate a unique QR code and ask the customer to scan and pay.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/dynamicqrcode"
+		},
+		"appInvoke": {
+			"name": "App Invoke",
+			"description": "Call up PayPay on a customers device so that they can pay with a single tap.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/appinvoke"
+		},
+		"continuousPayment": {
+			"name": "Continuous Payment",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments"
+		},
+		"preAuthCapture": {
+			"name": "PreAuth & Capture",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture"
+		},
+		"pendingPayment": {
+			"name": "Request Money",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.",
+			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+		}
+	},
+	"Notice": {
+		"developer": "https://paypay.ne.jp/notice-developers/",
+		"merchant": "https://paypay.ne.jp/notice-merchant/"
+	},
+	"SigninSignupDashboard": {
+		"txt_sign_up": "Sign up",
+		"txt_paypay_for_dev": "PayPay for Developers",
+		"txt_email_address": "Email Address",
+		"txt_enter_email": "Enter Email",
+		"txt_confirm_email": "Confirm Email Address",
+		"txt_email_notification": "PayPay will send verification link to",
+		"txt_send_verification": "Send verification Link",
+		"txt_password": "Password",
+		"txt_balance": "Balance",
+		"txt_sandbox_txt1": "Please use these test users while Logging in to your Sandbox App.",
+		"txt_sandbox_txt2": "To know how to login to sandbox app, please ",
+		"txt_sandbox_txt_href": "click here",
+		"txt_sandbox_faq": "https://paypay.ne.jp/developers-faq/en/sandbox_environment/how-to-use-sandbox-app/",
+		"txt_sandbox_txt3": "",
+		"txt_enter_password": "Enter Password",
+		"txt_create_account": "Agree and Create Account",
+		"txt_have_dev_account": "Already have PayPay Developer Account?",
+		"txt_keep_sign_in": "Keep me signed in",
+		"txt_dnt_dev_acc": "Don’t have PayPay developer account?",
+		"txt_sign_in": "Sign In",
+		"txt_signinup_euname": "Email is not valid!",
+		"txt_signinup_eupass": "Password is not valid!",
+		"txt_signinup_euname_upass": "Email & Password is not valid!",
+		"txt_welcome": "Welcome!",
+		"txt_activate_apikeys": "Please activate your account to receive your live API keys",
+		"txt_activate_apikeys_2": "",
+		"txt_test_mode_enabled": "Test mode enabled",
+		"txt_view_keys": "View test keys and",
+		"txt_use_products": "access testing environments.",
+		"txt_activate_acc": "Account Activation",
+		"txt_get_details": "Share a few details to",
+		"txt_start_transaction": "activate your account.",
+		"txt_live_payments": "Live Payments",
+		"txt_fill_account_d1": "Complete the activation form",
+		"txt_fill_account_d2": "to accept live payments",
+		"txt_fill_account_d3": "",
+		"txt_activate_acco": "Activate Account",
+		"txt_home": "Home",
+		"txt_key": "Key ID",
+		"txt_secret": "Key Secret",
+		"txt_test_user": "Test User",
+		"txt_username": "Username",
+		"txt_test_mode": "Test Mode",
+		"txt_live_mode": "Live Mode",
+		"txt_livemode_d1": "Please activate account",
+		"txt_livemode_d2": ["For", "Live Mode"],
+		"txt_activate_now": "Activate now",
+		"txt_will_be_coming_d1": "Will be",
+		"txt_will_be_coming_d2": "COMING SOON",
+		"txt_close": "Close",
+		"txt_get_started": "Get started",
+		"txt_what_dev_say": "What Developers have to say",
+		"txt_opa_products": "Products",
+		"txt_api_ref": "API Reference",
+		"txt_sample_projects": "Sample Projects",
+		"txt_pay_lab_resolve": "PayPay resolve provides you a seamless experience to troubleshoot your integration errors",
+		"txt_pay_lab_response": "Resolve your Raw Response text",
+		"txt_resolve_response": "Resolve your response",
+		"txt_api_endpoint": "API Endpoint",
+		"txt_response_code": "Response Code",
+		"txt_response_text": "Response Text",
+		"txt_resolve": "Resolve",
+		"txt_pay_offers": "PayPay offers you a live experience of using our API and services.",
+		"txt_pay_lab": "PayPay Lab",
+		"txt_menu_dboard": "Dashboard",
+		"txt_fgotpassword": "Forgot password?",
+		"txt_resolve_rawtxt": "Raw Text",
+		"txt_resolve_title": "PayPay Resolve",
+		"txt_resolve_button": "Resolve",
+		"txt_dboard_apikeys": "API keys",
+		"txt_password_cases": {
+			"txt1": "* Password should be minimum 6, maximum 32",
+			"txt2": "* The Password should contain at least 1 special characters",
+			"txt3": "* The Password should contain at least 1 digit (0-9)",
+			"txt4": "* The Password should contain at least 1 lower case alphabet (a-z)",
+			"txt5": "* The Password should contain at least 1 upper case alphabet (A-Z)"
+		},
+		"txt_tandc": {
+			"txt1": "By creating this account, you agree to our",
+			"txt2": "Terms & Conditions",
+			"txt3": "Privacy Policy.",
+			"txt4": "",
+			"txt5": ""
+		},
+		"txt_signupopa_register": "Register",
+		"txt_merchant_logoload": ["Drag and drop an image", "or", "browse", "to choose file"],
+		"txt_notice": "Announcements",
+		"txt_livemode_notice": "Live Payments Enabled",
+		"txt_live_heading": "Welcome back, getting started with PayPay!",
+		"txt_live_desc": "You have successfully Activated your account",
+		"txt_live_desc_2": "acccepting payments.",
+		"txt_live_acc_active": "Account Activated",
+		"txt_live_acc_active_desc_1": "Personalise your",
+		"txt_live_acc_active_desc_2": "Account",
+		"txt_live_integrate": "Integrate & Create Live Payment",
+		"txt_live_integrate_desc_1": "Go through our",
+		"txt_live_integrate_desc_2": "Documentation"
+	},
+	"ProductDocs": {
+		"docsHeadline": "Empower your business by creating a code which can be used to call PayPay App and Receive Payments.",
+		"integration": "Integration",
+		"overview": "Overview",
+		"overview_dsc": "PayPay's Payment SDK is the simplest way to achieve a smooth, quick integration. With PayPay's Payment SDK, you can build a custom Payment checkout process to suit your needs and fit within your branding guidelines.",
+		"overview_dsc_sub": "flow is recommended normally in the following scenarios",
+		"title_payment_flow": "Understanding the Payment Flow",
+		"payment_flow_desc_1": "Following diagram defines the flow for",
+		"payment_flow_desc_2": "",
+		"payment_flow_sub": "We recommend that the merchant implements a Polling of the Get payment Details API with a 4-5 second interval in order to know the status of the transaction.",
+		"start_title": "Lets get Started",
+		"start_desc_1": "Once you have understood the payment flow, before we start the integration make sure you have:",
+		"start_desc_2": "Before integrating with the SDK, run through this checklist:",
+		"start_reg": "Registered",
+		"start_desc_point_1": "for a PayPay developer/merchant Account",
+		"start_desc_point_2": "Get the",
+		"start_desc_point_2_1": " API key",
+		"start_desc_point_2_2": "and",
+		"start_desc_point_2_3": " secret",
+		"start_desc_point_2_4": "from the Developer Panel",
+		"start_desc_point_3": "Use the sandbox",
+		"start_desc_point_3_1": "API key",
+		"start_desc_point_3_2": "to test out the integration",
+		"start_desc_point_3_3": "",
+		"start_desc_point_3_4": "",
+		"start_desc_point_4": "",
+		"integrating_sub": "Installation",
+		"build_title": "Build your Client",
+		"build_desc_1": "Build your client by adding your API Key and Secret like defined below. We enable API Authentication using HMAC, however the SDK will take care of the authentication by itself.",
+		"build_desc_2": "if you want to know more about the authentication.",
+		"build_desc_3": "Click here",
+		"create_qr_title": "Create a QR Code",
+		"create_qr_desc": "In order to receive payments using this flow, first of all you will need to create a QR Code. Following are the important parameters that you can provide for this method:",
+		"create_qr_table": {
+			"desc_1": "The unique payment transaction id provided by merchant",
+			"desc_2": "Amount the user has to Pay",
+			"desc_3": "Please pass the fixed value 'ORDER_QR'",
+			"desc_4_1": "Description of the Order,",
+			"desc_4_2": "Click here",
+			"desc_4_3": "to check how it will show up",
+			"desc_5": "By default it will be false, please set true if the amount will be captured later (preauth and capture payment)",
+			"desc_6": "The url of the page/app to open after the payment is complete, this can be a Web URL or a Deep link to your app",
+			"desc_7": "This can either be 'WEB_LINK' if the payment is happening on web browser or 'APP_DEEP_LINK' if the payment is happening on your app",
+			"desc_8": "The user agent of the web browser from where transaction is originating"
+		},
+		"create_qr_desc_2": "When userAgent parameter is provided, on mobile devices post payment PayPay tries to open the browser that the merchant website is using. This can be found by using the javascript function navigator.userAgent. Following web browsers are supported for auto redirect post transaction -",
+		"create_qr_desc_point_1": "Android - Chrome, Firefox, UC Browser",
+		"create_qr_desc_point_2": "iOS - Safari, Chrome, Firefox, UC Browser",
+		"create_qr_desc_3": "In case of any other user agent the default browser of the user is opened post transaction.",
+		"create_qr_desc_4": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful payment, the status in response.data.status will change from CREATED to COMPLETED In case of a Preauth for Payment, the status in response.data.status will change from CREATED to AUTHORIZED",
+		"create_qr_desc_5_1": "For details of all the request and response parameters , check our",
+		"create_qr_desc_5_2": "API Documentation guide.",
+		"create_qr_desc_5_3": "",
+		"create_qr_desc_6": "You need to open the URL received in the response and open PayPay App, if PayPay app is not installed, we will open the web payment page inside the browser/ webview. Please ensure you test this first and your webview settings do not block the opening of our App.",
+		"delete_qr_title": "Delete a QR Code",
+		"delete_qr_desc": "So you want to delete a Code that you have already generated. Following can be possible reasons to use this API:",
+		"delete_qr_desc_2_1": "User has cancelled the order",
+		"delete_qr_desc_2_2": "Ensuring race conditions don't come up in the form user has scanned the QR Code and not made the payment and in the meantime the order expires at your end",
+		"delete_qr_desc_3": "Following are the important parameters that you can provide for this method:",
+		"delete_qr_table": {
+			"desc_1": "This is given as a response in the Create a QR Code method"
+		},
+		"delete_qr_desc_4": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+		"delete_qr_desc_5_1": "For details of all the request and response parameters , check our",
+		"delete_qr_desc_5_2": "API Documentation guide.",
+		"delete_qr_desc_5_3": "",
+		"get_payment_details": {
+			"title": "Get Payment Details",
+			"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+			"table": {
+				"desc_1": "The unique payment transaction id provided by merchant"
+			},
+			"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful payment, the status in response.data.status will change from CREATED to COMPLETED In case of a Preauth for Payment, the status in response.data.status will change from CREATED to AUTHORIZED",
+			"desc_3_1": "For details of all the request and response parameters , check our ",
+			"desc_3_2": "API Documentation guide.",
+			"desc_3_3": ""
+		},
+		"cancel_a_payment": {
+			"title": "Cancel a payment",
+			"desc_1": "So you want to cancel a Payment. In most cases this should not be needed for payment happening in this flow, however following can be a case when this might be needed.",
+			"desc_2": "--Polling for Get Payment Details timeout, and you are uncertain of the status",
+			"desc_2_1": "",
+			"desc_2_2": "",
+			"desc_2_3": "",
+			"desc_2_4": "",
+			"desc_2_5": "",
+			"desc_3": "Note: The Cancel API can be used until 00:14:59 AM the day after the Payment has happened. For 00:15 AM or later, please call the refund API to refund the payment.",
+			"desc_4": "Following are the important parameters that you can provide for this method:",
+			"table": {
+				"desc_1": "The unique payment transaction id provided by merchant"
+			},
+			"desc_5": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"desc_6_1": "For details of all the request and response parameters , check our",
+			"desc_6_2": "API Documentation guide.",
+			"desc_6_3": ""
+		},
+		"refund_payment": {
+			"title": "Refund payment",
+			"desc_1": "So the user has decided to return the goods they have purchased and needs to be given a refund. Following are the important parameters that you can provide for this method:",
+			"table": {
+				"row_desc_1": "The unique refund transaction id provided by merchant",
+				"row_desc_2": "The payment transaction id provided by PayPay",
+				"row_desc_3": "The payment transaction id provided by PayPay",
+				"row_desc_4": "Reason for reverting the payment authorization",
+				"row_desc_5": "Epoch timestamp in seconds"
+			},
+			"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"desc_3_1": "For details of all the request and response parameters , check our",
+			"desc_3_2": "API Documentation guide.",
+			"desc_3_3": "Please note that currently we only support 1 refund per order."
+		},
+		"refund_status": {
+			"title": "Fetch refund status and details",
+			"desc_1": "So you want to confirm the status of the refund, maybe because the request for the refund timed out when you were processing the same. Following are the important parameters that you can provide for this method:",
+			"table": {
+				"row_desc_1": "The unique refund transaction id provided by merchant"
+			},
+			"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"desc_3_1": "For details of all the request and response parameters , check our",
+			"desc_3_2": "API Documentation guide.",
+			"desc_3_3": ""
+		},
+		"capture_payment_auth": {
+			"title": "Capture a payment authorization",
+			"desc_1": "So you are implementing a PreAuth and Capture, and hence want to capture the payment later. In this case, please ensure you have passed isAuthorization as true in create a code method. Following are the important parameters that you can provide for this method:",
+			"table": {
+				"row_desc_1": "The unique payment transaction id provided by merchant",
+				"row_desc_2": "The unique capture transaction id provided by merchant",
+				"row_desc_3": "Amount to be captured",
+				"row_desc_4": "Description of the Capture for the user",
+				"row_desc_5": "Epoch timestamp in seconds"
+			},
+			"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"desc_3_1": "For details of all the request and response parameters , check our",
+			"desc_3_2": "API Documentation guide.",
+			"desc_3_3": ""
+		},
+		"revert_payment_auth": {
+			"title": "Revert a payment authorization",
+			"desc_1": "So the user has cancelled the order while the payment was still Authorized, please use the revert a payment authorization method to refund back to the user. Following are the important parameters that you can provide for this method:",
+			"table": {
+				"row_desc_1": "The unique revert transaction id provided by merchant",
+				"row_desc_2": "The payment transaction id provided by PayPay",
+				"row_desc_3": "Reason for reverting the payment authorization",
+				"row_desc_4": "Epoch timestamp in seconds"
+			},
+			"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"desc_3_1": "For details of all the request and response parameters , check our",
+			"desc_3_2": "API Documentation guide.",
+			"desc_3_3": ""
+		},
+		"error_handling": {
+			"title": "Error Handling",
+			"desc_1": "PayPay uses HTTP response status codes and error code to indicate the success or failure of the requests. With this information, you can decide what error handling strategy to use. In general, PayPay returns the following http status codes.",
+			"http_2xx": {
+				"title": "HTTP 2xx",
+				"desc_1": "Everything works as expected.",
+				"desc_2": "The requested resource(e.g. dynamic QR code) was created.",
+				"desc_3": "Means the request is received, and will be processed sometime later."
+			},
+			"http_4xx": {
+				"title": "HTTP 4xx",
+				"desc_400": "This status code indicates an error because the information provided in request is not able to be processed. The following OPA error code may be returned.",
+				"points_400": {
+					"INVALID_PARAMS": "INVALID_PARAMS The information provided by the request contains invalid data. E.g. unsupported currency.",
+					"UNACCEPTABLE_OP": "UNACCEPTABLE_OP The requested operation is not able to be processed due to the current condition. E.g. the transaction limit exceeded.",
+					"NO_SUFFICIENT_FUND": "NO_SUFFICIENT_FUND There is no sufficient fund for the transaction."
+				},
+				"desc_401": "401 This status code indicates an authorization error. The following OPA error code may be returned.",
+				"points_401": {
+					"UNAUTHORIZED": "UNAUTHORIZED No valid api key and secret provided.",
+					"OP_OUT_OF_SCOPE": "OP_OUT_OF_SCOPE The operation is not permitted."
+				},
+				"desc_404": "This status code indicates that the requested resource is not existing in the system.",
+				"desc_429": "This status code indicates that the client sent too many requests in a specific period of time, and hit the rate limits. You should slow down the request sending or contact us to rise your limit."
+			},
+			"http_5xx": {
+				"title": "HTTP 5xx",
+				"desc_500": "This status code indicates that something went wrong on the PayPay side. A few OPA error code could be returned.",
+				"points_500": {
+					"TRANSACTION_FAILED": "TRANSACTION_FAILED This code means the transaction is failed on the PayPay side. You can create new transactions for the same purpose with reasonable backoff time.",
+					"INTERNAL_SERVER_ERROR": "INTERNAL_SERVER_ERROR This code means that something goes wrong, but we don't know exactly if the transaction has happened or not. It should be treated as unknown payment status."
+				},
+				"desc_1": "Treated as unknown payment status."
+			},
+			"timeout_title": "Timeout",
+			"timeout_desc": "The recommended timeout setting is specified in each API. The most important one is for the payment creation api, where the read timeout should not be less than 30 seconds. When timeout happens, it should be treated as unknown payment status.",
+			"unknown_payment_status_title": "Handle unknown payment status",
+			"unknown_payment_status_desc": "There are two ways to react with this situation:",
+			"unknown_payment_status_point_1": "Use the query api to query the transaction status. If the original transaction was failed or not found in PayPay, you can start a new transaction for the same purpose.",
+			"unknown_payment_status_point_2": "Or, you can cancel the transaction, if the cancel api is provided. After the cancellation is accepted, you can start a new transaction for the same purpose."
+		},
+		"webPayment": {
+			"name": "Web Payment",
+			"demo_desc": "Demo of Web Payment",
+			"description": "Allow a user to log in or pay via the PayPay app from your website.",
+			"webpayment_desc_1": "You have a mobile app where Payments is needed",
+			"webpayment_desc_2": "You have a website where you want to accept payments",
+			"webpayment_desc_3": "You need to accept payment cross device types like mobile/ desktop",
+			"when_to_use": "When to use Web Payment",
+			"integrating_title": "Integrating Web Payment"
+		},
+		"nativePayment": {
+			"name": "Native Payment",
+			"demo_desc": "Demo of Native Payment",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
+			"nativePayment_desc_1": "If you want provide your customers with the easiest possible checkout",
+			"nativePayment_desc_2": "You have the security in place to ensure our mutual customers money is safe (We have a strict evaluation procedure to enforce the same)",
+			"user_authorization_title": "Acquire User Authorization",
+			"user_authorization_desc_1": "First of all you need to acquire a user Authorization. Following diagram defines the flow to acquire a user authorization.",
+			"user_authorization_desc_2": "In order to acquire an authorization you need to create a JWT Token -",
+			"user_authorization_desc_3": "Once the user has granted authorization, we will return the UserAuthorizationID as a part of the JWT Token in response/ webhook",
+			"userAuth_table": {
+				"desc_1": "Items Enum: 'direct_debit' 'cashback' 'get_balance' 'quick_pay' 'continuous_payments' 'merchant_topup' 'pending_payments' 'user_notification' 'user_topup' 'user_profile' 'preauth_capture_native' 'preauth_capture_transaction' 'push_notification' 'notification_center_ob' 'notification_center_ab' 'notification_center_tl' Scopes of the user authorization",
+				"desc_2": "Random generated string",
+				"desc_3": "Default: 'WEB_LINK' Enum: 'APP_DEEP_LINK' 'WEB_LINK' Parameter to decide whether to redirect to merchant app or merchant web application",
+				"desc_4": "The callback endpoint provided by client. For 'WEB_LINK' it must be HTTPS, and its domain should be in the allowed authorization callback domains",
+				"desc_5": "The id used to identify the user in merchant system. It will be stored in the PayPay db for reconsilliation purpose",
+				"desc_6": "The user mobile phone number",
+				"desc_7": "The user mobile phone device id. If it is provided, we can use it to verify the user and skip the SMS verification, so as to provide more fluent UX",
+				"desc_8": "The User agent of the web browser. When redirectType is 'WEB_LINK' this parameter is provided, on mobile devices PayPay tries to open the browser that the merchant website is using."
+			},
+			"createPayment_title": "Create a Payment",
+			"createPayment_desc": "In order to take a payment, you will need to send a request to us with the following parameters:",
+			"createPayment_table": {
+				"desc_1": "The unique payment transaction id provided by merchant",
+				"desc_2": "The PayPay user reference id returned by the user authorization flow",
+				"desc_3": "Amount the user has to Pay",
+				"desc_4": "Description of the Order, Click here to check how it will show up",
+				"desc_4_1": "Description of the Order,",
+				"desc_4_2": "Click here",
+				"desc_4_3": "to check how it will show up"
+			},
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"createPayment_desc_2_1": "For details of all the request and response parameters ,",
+			"createPayment_desc_2_2": "check our",
+			"createPayment_desc_2_3": "API Documentation guide",
+			"createPayment_desc_2_4": "",
+			"when_to_use": "When to use Native Payment",
+			"integrating_title": "Integrating Native Payment"
+		},
+		"qrCode": {
+			"name": "Dynamic QR Code",
+			"demo_desc": "Demo of Dynamic QR Code",
+			"description": "Generate a unique QR code and ask the customer to scan and pay.",
+			"qrCode_desc_1": "Payment to happen on a Tablet",
+			"qrCode_desc_2": "Payments on Vending Machines",
+			"qrCode_desc_3": "Payment to happen on a TV Screen",
+			"qrCode_desc_4": "Printing a QR Code for Bill Payment",
+			"when_to_use": "When to use Dynamic QR Code",
+			"integrating_title": "Integrating Dynamic QR Code"
+		},
+		"appInvoke": {
+			"name": "App Invoke",
+			"demo_desc": "Demo of App Invoke",
+			"description": "Call up PayPay on a customers device so that they can pay with a single tap.",
+			"appInvoke_desc_1": "You have a mobile app where Payments is needed",
+			"appInvoke_desc_2": "Most of your transactions come from mobile web",
+			"when_to_use": "When to use App Invoke",
+			"integrating_title": "Integrating App Invoke"
+		},
+		"continuousPayment": {
+			"name": "Continuous Payment",
+			"demo_desc": "Demo of Continuous Payment",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.",
+			"continuousPayment_desc_1": "You have a subscription product or service such as video streaming services, gaming services, etc",
+			"continuousPayment_desc_2": "You want the ability to request money from the users for your subscription services with minimum integration",
+			"when_to_use": "When to use Continuous Payment",
+			"integrating_title": "Integrating Continuous Payment",
+			"createPayment_title": "Create a continuous payment",
+			"createPayment_desc": "In order to take a payment, you will need to send a request to us with the following parameters:",
+			"createPayment_table": {
+				"desc_1": "The unique payment transaction id provided by merchant",
+				"desc_2": "The PayPay user reference id returned by the user authorization flow",
+				"desc_3": "The amount to be paid",
+				"desc_4": "Epoch timestamp in seconds",
+				"desc_5": "Id to identify store under merchan",
+				"desc_6": "Id to identify terminal device under store",
+				"desc_7": "Receipt number provided by merchant",
+				"desc_8": "Description of the orde",
+				"desc_9": "List of Order Items",
+				"desc_10": "Extra information the merchant want to add"
+			},
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"createPayment_desc_2_1": "For details of all the request and response parameters ,",
+			"createPayment_desc_2_2": "check our",
+			"createPayment_desc_2_3": "API Documentation guide",
+			"createPayment_desc_2_4": "",
+			"refund_payment": {
+				"desc_1": "So the user has decided to return the goods they have purchased and needs to be given a refund. Following are the important parameters that you can provide for this method:"
+			},
+			"get_payment_details": {
+				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:"
+			}
+		},
+		"preAuthCapture": {
+			"name": "PreAuth & Capture",
+			"demo_desc": "Demo of PreAuth & Capture",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.",
+			"preAuthCapture_desc_1": "Merchant need to block money at the time of creating an order and take the money at the time of fulfilling the order",
+			"preAuthCapture_desc_2": "It is used in On demand taxis, On demand services, Ecommerce websites, etc",
+			"when_to_use": "When to use PreAuth & Capture",
+			"integrating_title": "Integrating PreAuth & Capture",
+			"createPayment_title": "Create a Payment Authorization",
+			"createPayment_desc": "In order to create a payment authorization, you will need to send a request to us with the following parameters:",
+			"createPayment_table": {
+				"desc_1": "The unique payment transaction id provided by merchant",
+				"desc_2": "The PayPay user reference id returned by the user authorization flow",
+				"desc_3": "Amount the user has to Pay",
+				"desc_4": "Epoch timestamp in seconds",
+				"desc_5": "Description of the Order"
+			},
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above and status is 'AUTHORIZED', if yes then the API execution has happened correctly.",
+			"get_payment_details": {
+				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+				"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful payment authorization, the status will be AUTHORIZED. Once the payment is captured, the status will be COMPLETED."
+			},
+			"capture_payment_auth": {
+				"desc_1": "So you are implementing a PreAuth and Capture, and hence want to capture the payment later. If you want to increase the amount, we will send a notification to the user asking for consent. In this case, please ensure you have created payment authorization. Following are the important parameters that you can provide for this method:"
+			},
+			"refund_payment": {
+				"desc_1": "So the user has decided to return the goods they have purchased and needs to be given a refund. Following are the important parameters that you can provide for this method:"
+			},
+			"refund_payment_table": {
+				"row_1": "The unique refund transaction id provided by merchant",
+				"row_2": "The payment transaction id provided by PayPay",
+				"row_3": "The amount to be refunded",
+				"row_4": "Epoch timestamp in seconds",
+				"row_5": "The reason for refund"
+			}
+		},
+		"pendingPayment": {
+			"name": "Request Money",
+			"demo_desc": "Demo of Request Money",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.",
+			"pendingPayment_desc_1": "Merchant wants to provide user an option to process their order but pay for them after a time period",
+			"pendingPayment_desc_2": "Merchant wants to simplify the checkout process without payment procedures",
+			"when_to_use": "When to use Request Money",
+			"integrating_title": "Integrating Request Money",
+			"createPayment_title": "Create a Request Money",
+			"createPayment_desc": "In order to create a Request Money, you will need to send a request to us with the following parameters:",
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"get_payment_details": {
+				"desc_1": "Now that you have created a Request Money, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+				"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful creation of request money, the status will be CREATED. If the pending order is cancelled, the status will be CANCELED. Once the user completes the payment, the status will be COMPLETED."
+			},
+			"cancel_a_payment": {
+				"title": "Cancel a payment",
+				"desc_1": "This is used when you want to delete the pending order",
+				"desc_2": "Following are the important parameters that you can provide for this method:",
+				"table": {
+					"desc_1": "The unique payment transaction id provided by merchant"
+				},
+				"desc_3": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+				"desc_4_1": "For details of all the request and response parameters , check our",
+				"desc_4_2": "API Documentation guide.",
+				"desc_4_3": ""
+			}
+		}
+	},
+	"General": {
+		"cake_not_delivered": "Cake is actually not delivered"
+	},
+	"Documentation": {
+		"title": "Documentation",
+		"description": "PayPay has a variety of tools to help you build what you need.",
+		"docsHeadline": "Welcome to the PayPay Developer Documentation. Here you can find everything needed to quickly integrate PayPay using our APIs and other libraries. Integration SDKs Start by choosing the PayPay payment service you want to integrate into your project."
+	},
+	"ProductImages": {
+		"webPayment": {
+			"image_1": "require('@/assets/products/webpayment01.png')",
+			"image_2": "require('@/assets/products/webpayment02.png')",
+			"image_3": "require('@/assets/products/webpayment03.png')"
+		},
+		"nativePayment": {
+			"image_1": "require('@/assets/products/nativepayment01.png')",
+			"image_2": "require('@/assets/products/nativepayment02.png')",
+			"image_3": "require('@/assets/products/nativepayment03.png')"
+		},
+		"qrCode": {
+			"image_1": "require('@/assets/products/code01.png')",
+			"image_2": "require('@/assets/products/code02.png')",
+			"image_3": "require('@/assets/products/code03.png')",
+			"image_4": "require('@/assets/products/code04.png)"
+		},
+		"appInvoke": {
+			"image_1": "require('@/assets/products/appinvoke01.png')",
+			"image_2": "require('@/assets/products/appinvoke02.png')",
+			"image_3": "require('@/assets/products/appinvoke03.png')"
+		}
+	},
+	"ProductDemo": {
+		"shop_name": "MUNE’S CAKE SHOP",
+		"menu": "MENU",
+		"select_product": "Select your cake",
+		"native_payment": "Native Payment",
+		"merchant": "Merchant",
+		"paypay_user": "PayPay User",
+		"amount_lower": "Amount",
+		"menu_items": [{
+				"title": "Red Velvet cake",
+				"description": "Made with kesar"
+			},
+			{
+				"title": "Vanilla Cake ",
+				"description": "Vanilla flavoured"
+			},
+			{
+				"title": "Chocolate Cake ",
+				"description": "Vegan-dairy free"
+			}
+		],
+		"link_paypay": "Link your PayPay account",
+		"link": "Link",
+		"xtra_info": "To process the Native Payment option, link your PayPay account.",
+		"payment_success": "Payment Success",
+		"order_id": "ORDER ID",
+		"amount": "AMOUNT",
+		"disclaimer": "For testing purposes; the payment will be cancelled automatically within 1 minute.",
+		"warning": "Please DO NOT close the browser after paying",
+		"payment_refund": "The payment will be refunded within 24 hours"
+	},
+	"ErrorCode": {
+		"default": "Something went wrong please try again!",
+		"txt_ecode_040000019": "The Email address is already registered. Please SignIn or SignUp with a different email address",
+		"txt_ecode_040000018": "The Email address is already registered. Please SignIn or SignUp with a different email address",
+		"txt_ecode_040000002": "There is no developer account with your email address, please sign up to continue",
+		"txt_ecode_01102004": "The email address or password is not correct, kindly check the same and retry"
+	},
+	"MiniDocs": {
+		"txt_miniapp_title": "Mini App",
+		"txt_overview_header": "Overview",
+		"txt_overview_desc": "Welcome to the PayPay Mini App Developer Documentation. Here you can find everything needed to quickly build and design a PayPay Mini App using our APIs and other libraries.",
+		"txt_overview_titles": [{
+				"router": "miniFeatures",
+				"name": "Features"
+			},
+			{
+				"router": "gettingstarted",
+				"name": "Getting Started"
+			},
+			{
+				"router": "apireference",
+				"name": "API References"
+			},
+			{
+				"router": "guideline",
+				"name": "Design Guidelines"
+			},
+			{
+				"router": "minipolicy",
+				"name": "Mini App Policy"
+			},
+			{
+				"router": "requestform",
+				"name": "Request Form"
+			}
+		],
+		"txt_features_header": "Features",
+		"txt_features_desc": "PayPay Mini App provides various features that can be integrated conveniently with our open APIs. Our open APIs can significantly reduce the development burden on our PayPay Mini App providers.",
+		"txt_features_subheading1": "Basic functionalities",
+		"txt_features_subheading2": "Payment",
+		"txt_features_subheading3": "User communication methods",
+		"txt_features_thead": {
+			"basicfunctions": ["Functions", "Description"],
+			"payments": ["Functions", "Description"],
+			"usercommunications": ["Methods", "Description"]
+		},
+		"txt_features_basicfunclists": [{
+				"functionName": "User Consent",
+				"functionUrl": "./features/userConsent?passcode=",
+				"desc": "Obtain user information to provide personalized user experience",
+				"descUrl": []
+			},
+			{
+				"functionName": "HTML5 Location Data",
+				"functionUrl": "./features/html5Location?passcode=",
+				"desc": "Utilize HTML5 to acquire user location",
+				"descUrl": []
+			},
+			{
+				"functionName": "Generate QR Codes",
+				"functionUrl": "./features/mfGenerateQR?passcode=",
+				"desc": "Generate QR codes to be used within your service",
+				"descUrl": []
+			}
+		],
+		"txt_features_paymentlists": [{
+				"functionName": "Show Balance",
+				"functionUrl": "./features/mfShowBalance?passcode=",
+				"desc": "Show real time balance inside PayPay Mini Apps. Users can check their PayPay balance and top up when balance is insufficient",
+				"descUrl": []
+			},
+			{
+				"functionName": "Mini App Payment",
+				"functionUrl": "./features/mfPayment?passcode=",
+				"desc": "Implement quick payments via PayPay within Mini Apps",
+				"descUrl": []
+			},
+			{
+				"functionName": "Top up PayPay Wallet",
+				"functionUrl": "./features/mfTopupPaypayWallet?passcode=",
+				"desc": "Enable PayPay wallet top up from PayPay Mini Apps",
+				"descUrl": []
+			},
+			{
+				"functionName": "Direct Debit Payment",
+				"functionUrl": "./features/mfDirectDebitPayment?passcode=",
+				"desc": "Users don’t have to authorize payments every time a transaction happens.",
+				"descUrl": []
+			},
+			{
+				"functionName": "Pre-authorization and Capture",
+				"functionUrl": "./features/mfPreAuthCapture?passcode=",
+				"desc": "Engage in pre-authorization and block a certain amount of money to be charged later",
+				"descUrl": []
+			}
+		],
+		"txt_features_usercomlist": [{
+				"functionName": "Push Notification",
+				"functionUrl": "./features/pushNotification?passcode=",
+				"desc": "Send important messages via push notifications to users",
+				"descUrl": []
+			},
+			{
+				"functionName": "PayPay Home Notification",
+				"functionUrl": "./features/homeNotification?passcode=",
+				"desc": "Display important service notifications on PayPay Home screen",
+				"descUrl": []
+			},
+			{
+				"functionName": "Notification Center",
+				"functionUrl": "./features/notificationCenter?passcode=",
+				"desc": "Post promotional messages in the Notification Center Timeline from PayPay Home screen or within Mini App Notification Center",
+				"descUrl": []
+			}
+		],
+		"txt_feat_uct_title": "User Consent",
+		"txt_feat_uct_desc": "PayPay Mini Apps can obtain user information upon user’s consent. With the obtained information, PayPay Mini Apps are able to provide a personalized experience to the users. Please note that users also have the choice of opting out of the consent from the Mini App settings at any times afterwards.",
+		"txt_feat_usc_hinttxt": "PayPay Mini Apps can trigger the user consent screen on demand.",
+		"txt_feat_usc_context3": "A user can confirm what PayPay information they are sharing from the consent screen and can decide to opt out of sharing parts of that information.",
+		"txt_feat_usc_heading4": "Consent screen guidelines",
+		"txt_feat_usc_heading5": "Mini App Preview",
+		"txt_feat_usc_desc5": "PayPay Mini Apps can provide a short preview of the service at the upper section of the user consent screen. Preview provides users with the opportunity to understand what the Mini App has to offer and can motivate users to give their consent and explore the service.",
+		"txt_feat_usc_heading6": "Preview Guidelines",
+		"txt_feat_usc_heading7": "Image card examples:",
+		"txt_feat_usc_desc7": "Here are some recommended image samples:",
+		"txt_feat_usc_heading8": "API",
+		"txt_feat_usc_desc8": "Use the following API(s) to create this feature: ",
+		"txt_feat_usc_descpoint_name8": "pp.requestPermission# : To trigger the preview, please define the image path and link in# app.json# ",
+		"txt_feat_usc_descpoint_url8": ["/miniapp/docs/apireference/permissions?passcode=#pp-requestPermission", "", "/miniapp/docs/getstarted?passcode=#start-from-scratch"],
+		"txt_feat_usc_desc12": [
+			"You can have up to 5 images.",
+			"Image cards can be used to communicate the purpose of the service and to introduce different features available that can appeal to the users.",
+			"Each image card can be linked to a web page with more information that can be accessed with a single tap. You can link the image card to your guide page as well. ",
+			"Placing campaign and promotional information on the image card is prohibited.",
+			"Image size:",
+			"690px*690px",
+			"Resolution: 230px*230px",
+			"How images will show on screen:",
+			"All images will automatically have rounded edges within the PayPay Mini App. ",
+			"Rounded edges will be 8px.",
+			"Please be careful to place texts around the rounded edges."
+		],
+		"mfucc_uc_section4_title": ["1. Close button - ", "Mandatory"],
+		"mfucc_uc_section4_desc": "Closes the user consent screen.",
+		"mfucc_uc_section5_title": ["2. Service provider name -", "Mandatory"],
+		"mfucc_uc_section5_desc": "Displays the corporate name of the service provider.",
+		"mfucc_uc_section6_title": ["3-6. Specify information being obtained -", "Optional"],
+		"mfucc_uc_section6_desc": "PayPay Mini Apps can obtain the following information categories from users: ",
+		"mfucc_uc_section6_content": [
+			"- Registered user info in PayPay",
+			"- Identify verification information",
+			"- Payment method",
+			"- Location information"
+		],
+		"mfucc_uc_section6_hint": "Mini App providers can also request users to provide email address information. You can also make obtaining specific information compulsory to enjoy your service.",
+		"mfucc_uc_section7_title": ["7. Hyperlinks - ", "Mandatory"],
+		"mfucc_uc_section7_desc": "Mini App providers must include legal documents in this section. You are also allowed to include other information that needs user confirmation.",
+		"mfucc_uc_section8_title": ["8. Additional text - ", "Optional"],
+		"mfucc_uc_section8_desc": "PayPay Mini Apps can utilize this space to write additional information. However, campaign or promotional texts are prohibited.",
+		"mfucc_uc_section9_title": ["9. Agree and continue button - ", "Mandatory"],
+		"mfucc_uc_section9_desc": "Leads to the Mini App’s home screen.",
+		"mfucc_uc_section9_hint": "“Agree and continue” button on the consent screen will be activated once users scroll to the end of the screen. This is to make sure users are fully aware of the information being obtained.",
+		"mfucc_uc_section10_title": ["10. Cancel button - ", "Mandatory"],
+		"mfucc_uc_section10_desc": "Mini App providers have to provide an error screen and decide on what options to show users.",
+		"mfucc_uc_section10_hint": ["PayPay Mini App providers can customize the user consent screen header. Choose from the following options: ", " 1) White  2) Color  3) Photo (1125px * 465px)"],
+		"mfucc_uc_section11_title": ["1. Service name and icon - ", "Mandatory"],
+		"mfucc_uc_section11_desc": "Displays service’s icon & name. ",
+		"mfucc_uc_section12_title": ["2. Image card - ", "Mandatory"],
+		"mfucc_uc_imgcardexamp_hinttitle": "Select clean & simple images",
+		"mfucc_uc_imgcardexamp_hintdesc": [
+			"Please consider visibility & readability when positioning texts",
+			"When positioning texts on top of images, consider making the image background darker for readability",
+			"Ensure sufficient difference in color and brightness between background and text color",
+			"Recommended text size is over 16pt (48px on design tools). Minimum text size is 12pt (36pt).",
+			"You may place text that encourage users to tap the image, such as “See more”"
+		],
+		"txt_policy_title": "PayPay Mini App Policy",
+		"txt_policy_intro": "Introduction",
+		"txt_policy_intro_text_1": "Please understand and observe the following with respect to the developing, displaying, etc. of PayPay’s Mini-Application.",
+		"txt_policy_intro_text_2": "Please note in advance that PayPay may take necessary measures under each terms prescribed by PayPay in the case of violation against these Guidelines. Unless otherwise stipulated, definitions of the terms used in these Guidelines are subject to",
+		"txt_policy_intro_text_2_sub_1": "PayPay Merchant Stores Terms of Service (Mini Application)",
+		"txt_policy_intro_text_2_sub_2": "Special Provisions for Utilisation of PayPay Data (Mini Application)",
+		"txt_policy_intro_toc_1": "PayPay Merchant Stores Terms of Service (Mini Application)",
+		"txt_policy_intro_toc_2": "Special Provisions for Utilisation of PayPay Data (Mini Application)",
+		"txt_policy_utilisation_standards": "Utilisation Standards",
+		"txt_policy_ut_1": "The Mini-Application Merchant Store shall make the contents of the Mini-Application conform to the rules such as terms or guidelines prescribed on App Store and Google Play.  The Mini-Application Merchant Store shall provide PayPay with the information which is submitted to the App Store or Google Play and specified by PayPay separately.",
+		"txt_policy_ut_2": "The Mini-Application Merchant Store shall provide the contents which conform to the ratings by age specified by PayPay.",
+		"txt_policy_ut_3": "The Mini-Application Merchant Store shall not impose any condition, such as downloading or installing any application other than PayPay Application, on the Users for the Users’ utilisation of the Mini-Application.",
+		"txt_policy_ut_4": "The account required for the utilisation of the service provided by the Mini-Application Merchant Store via the Mini-Application must be enabled only by the account information provided by PayPay.",
+		"txt_policy_ut_5": "The settlement mean used in the Mini-Application must be the settlement mean designated by PayPay from among the ones which PayPay provides.",
+		"txt_policy_ut_6": "Any action which lead the Users to outside websites or applications (including, but not limited to, set links) by the Mini-Application is prohibited except for the cases that it is approved in accordance with the procedure prescribed by PayPay. Depending on the kind of business of the destination, perhaps it requires significant period of advance preparation because of the condition of obtaining the licence by the destination and/or PayPay.",
+		"txt_policy_ut_7": "The Mini-Application Merchant Store shall, strictly observe the related Laws and Regulations with respect to the utilisation, possession, storage, record, etc. of all information relating to the service of the Mini-Application, and, particularly, pay attention to the protection of personal information, and obtain the consent necessary for observing the Laws and Regulations from the Users of PayPay and/or the Mini-Application Merchant Store in accordance with the related Laws and Regulations.  The Mini-Application Merchant Store shall, in the event that the User opts to cease provision of the personal information to the Mini-Application Merchant Store (i.e. opt-out), promptly take measures to cease utilisation of such personal information.  The Mini-Application Merchant Store shall assume sole and full responsibility for protection of the Users’ personal information.",
+		"txt_policy_ut_8": "PayPay has the right to request to erase etc. of the information which PayPay provides, and the Mini-Application Merchant Store shall follow this",
+		"txt_policy_ut_9": "PayPay prohibits the Mini-Application Merchant Store from accessing data inside the application via bridge connection. Example 1) Accessing the User’s contacts information or photo data by accessing the native API. Example 2) Accessing the location information from the Mini-Application without the User’s consent, while the location information is disclosed in the native application.",
+		"txt_policy_ut_10": "The Mini-Application Merchant Store is prohibited from making advertisement, notification, announcement, etc. (PayPay will determine whether it falls into advertisement, notification, announcement, etc. or not) in the Mini-Application without PayPay’s prior permission.",
+		"txt_policy_ut_11": "The Mini-Application Merchant Store shall assume any and all responsibility for the contents of the service which it provides, the manner of display, etc., and in the cases of changes, it shall obtain PayPay’s prior approval.",
+		"txt_policy_ut_12": "The Mini-Application Merchant Store shall, in the case of technical defect or failure with respect to the contents of the service which it provides, the manner of display, etc., have the obligation to promptly notify it to PayPay.  In such a case, the Mini-Application Merchant Store shall assume any and all responsibility for it.",
+		"txt_policy_ut_13": "PayPay conducts a strict examination of the display in the Mini-Application and the contents of the service to be provided (including function test, performance test, UI/UX, etc.) from the view of compliance with the Laws and Regulations, and in the case that it does not meet the examination criteria, PayPay has the right to request the Mini-Application Merchant Store to change, erase, etc. of such display or contents of the service, and the Mini-Application Merchant Store shall follow this.",
+		"txt_policy_ut_14": "The Mini-Application Merchant Store shall use PayPay as the settlement means on its websites or applications, and enable the payment instrument which is added on the Mini-Application also on PayPay Application. ",
+		"txt_policy_ut_15": "The Mini-Application Merchant Store shall make the UI/UX to conform to the guidelines on UI/UX which PayPay provides separately. ",
+		"txt_policy_ut_16": "The Mini-Application Merchant Store shall, if it provides the Users with some economic benefit for the purpose of marketing on the Mini-Application, offer PayPay Bonus in a manner prescribed by PayPay; provided, that the Mini-Application Merchant Store may offer any economic benefit other than PayPay Bonus if PayPay approves in advance.",
+		"txt_policy_ut_17": "PayPay will conduct a function test, performance test, UI test, UX test and other necessary tests with respect to the Mini-Application, and examine the contents thereof, then determine its release.",
+		"txt_policy_ut_18": "With respect to the development of the Mini-Application, the Mini-Application Merchant Store may use only the interface formally approved by PayPay.",
+		"txt_policy_ut_19": "The Mini-Application Merchant Store shall not conduct any act which infringes, obstructs, commits unauthorised access to, or otherwise gives damage to, any network, server or other property of PayPay or third parties.",
+		"txt_policy_ut_20": "The Mini-Application Merchant Store has the confidential obligation for the information which it may access from API and in the development environment of the Mini-Application.",
+		"txt_policy_ut_21": "PayPay has the right to conduct audits on the Mini-Application.  Such audits include access to and utilisation of the Mini-Application.",
+		"txt_policy_ut_22": "PayPay may use the Statistical Information etc. for the purpose of management of security and operation, making statistical analysis, and study and development",
+		"txt_policy_ut_23": "The Mini-Application Merchant Store may, only when PayPay approves in advance, give a push and/or SMS notification to the Users via the Mini-Application. ",
+		"txt_policy_ut_24": "The Mini-Application Merchant Store shall prescribe the matters described in the Exhibit in the terms of use which applies to the Users. ",
+		"txt_policy_ut_25": "The Mini-Application Merchant Store shall, if it updates the program etc. necessary for the Provision etc. of the Mini-Application, notify it to PayPay in a manner prescribed by PayPay.",
+		"txt_policy_sales_products": "Sales Products",
+		"txt_policy_sales_products_txt": "Products able to be sold via the Mini-Application are limited to the products (excluding digital contents) which are permitted by the PayPay Merchant Stores Terms of Service (for Online Settlement), the Guidelines for PayPay Merchant Stores (for Online Settlement) or other terms and guidelines applicable to the Mini-Application Merchant Store.  The Mini-Application Merchant Store may decide the price; provided, that it may not sell products or provide services at an obviously too high price via the Mini-Application.  Any Mini-Application which charges the Users undue large amount should be rejected.",
+		"txt_policy_others": "Others",
+		"txt_policy_others_txt_1": "Other than the above, please observe provisions stipulated in each manual and application documents.",
+		"txt_policy_others_txt_2": "These Guidelines may be revised at any time at PayPay’s discretion. The latest version of these Guidelines always apply with respect to the operation of the Mini-Application.",
+		"txt_request_form_title": "Request Form",
+		"txt_request_form_intro": "Please make sure you have read through all the documents below:",
+		"txt_request_form_bullet_1": "Features",
+		"txt_request_form_bullet_2": "Getting Started",
+		"txt_request_form_bullet_3": "API References",
+		"txt_request_form_bullet_4": "Design Guidelines",
+		"txt_request_form_bullet_5": "PayPay Mini App Policy",
+		"txt_request_form_content": "If you are ready to create one of your own Mini Apps to be shared with millions of PayPay users, please click on the Google form link below and send us your interests. We will review your requests and will reach out to you individually if we decide to pursue further with your service.",
+		"txt_request_form": "Request Form",
+		"txt_request_form_note_title": "Please note that, ",
+		"txt_request_form_note_1": "We will not be responding to general inquiries related to PayPay and questions regarding approval status.",
+		"txt_request_form_note_2": "All PayPay Mini App services must comply with the policies and guidelines stated in the Mini App Policy section.",
+		"push_notification": {
+			"title": "Push Notification",
+			"description": "Selected PayPay Mini Apps providers will have the option to send push notifications to users. Please bear in mind that PayPay Mini Apps have to agree and oblige by the notification policies indicated in the",
+			"desc_link": "PayPay Mini App Policies",
+			"policy_link": "minipolicy"
+		},
+		"home_notification": {
+			"title": "PayPay Home Notification",
+			"description": "Selected PayPay Mini App providers will have the option to push notifications on PayPay Home screen. Please bear in mind that PayPay Mini Apps have to agree and oblige by the notification policies indicated in the",
+			"desc_link": "PayPay Mini App Policies",
+			"policy_link": "minipolicy"
+		},
+		"notification_center": {
+			"title": "Notification Center",
+			"description": "PayPay Mini App can post promotional messages or announcements in the notification center timeline or inside the PayPay Mini App notification center. Please bear in mind that PayPay Mini Apps have to agree and oblige by the notification policies indicated in the",
+			"desc_link": "PayPay Mini App Policies",
+			"policy_link": "minipolicy",
+			"sub_title_timeline": "Notification Center Timeline",
+			"sub_title_nf_center": "PayPay Mini App Notification Center",
+			"sub_title_api": "API",
+			"sub_title_api_description": "Use the following API(s) to create this feature:",
+			"sub_api_descroption": "PayPay Notification OPA",
+			"sub_api_link": ""
+		},
+		"mfucc_uc_badimgcardexamp_hinttitle": "Examples of bad images cards:",
+		"mfucc_uc_badimgcardexamp_hintdesc": [
+			"(A) Too much information",
+			"(B) Avoid expressions that incite user anxiety",
+			"(C) Do not ensure visibilty & readability",
+			"(D) Excessive font that devalues PayPay’s brand image ",
+			"(E) Does not ensure sufficient color contrast between background and foreground",
+			"(F) Does not ensure visibility & readability",
+			"(G) Too many color schemes"
+		],
+		"mfucc_uc_apiconheading": [
+			"Category",
+			"Permission Name",
+			"Description",
+			"Japanese Text rendered in UI"
+		],
+		"mfucc_uc_apicontext": [
+			[
+				"Registered info in PayPay",
+				["mini_app_user_name",
+					"mini_app_user_nickname",
+					"mini_app_user_avatar",
+					"mini_app_payment_balance",
+					"mini_app_user_email_address",
+					"mini_app_user_phone_number"
+				],
+				["user's name",
+					"user's nickname",
+					"user's avatar",
+					"get user’s payment balance from wallet",
+					"user's email address",
+					"user's phone number"
+				],
+				["氏名",
+					"表示名",
+					"プロフィール画像",
+					"PayPay残高の参照",
+					"メールアドレス",
+					"電話番号"
+				]
+			],
+			[
+				"KYC Info",
+				["mini_app_kyc"],
+				["user’s kyc info "],
+				["本人確認情報"]
+			],
+			[
+				"Notification",
+				["mini_app_notification_center"],
+				["use notification center"],
+				["サービスからのお知らせ"]
+			],
+			[
+				"Payment method ",
+				["direct_debit"],
+				["enable backend checkout"],
+				["決済時にPayPayでの支払い"]
+			]
+		],
+		"txt_hlocdata_title": "HTML5 Location Data",
+		"txt_hlocdata_desc": "PayPay Mini Apps can use the standard Geolocation API to acquire user’s location information. An additional permission window to obtain device location would be triggered even though users might have already consented to giving information to your Mini App. User’s decision to allow or decline the use of location data cannot be reversed by PayPay. Therefore, it is highly recommended to do the following: ",
+		"txt_hlocdata_descpoints": [
+			"(1) clearly explain the usage of the obtained data before the permission window is called",
+			"(2) prepare alternative logics in case user declines the usage of location data, such as providing a list of locations/stores that users can choose from"
+		],
+		"txt_mfgenqr_title": "Generate QR Codes in PayPay Mini App",
+		"txt_mfgenqr_desc": "PayPay Mini App providers can generate QR codes to be used within your service. ",
+		"txt_mfgenqr_descpoint": "For example, you can have users create their own profile specific QR codes that can be shared and scanned by friends.",
+		"txt_mfgenqr_apiheading": "API",
+		"txt_mfgenqr_apidesc": "Use the following API(s) to create this feature:",
+		"txt_mfgenqr_api_section": "pp-generateCodeImage",
+		"txt_mfgenqr_api_url": "/miniapp/docs/apireference/ui",
+		"txt_mfddp_title": "Direct Debit Payment",
+		"txt_mfddp_desc": "After obtaining user consent, selected PayPay Mini Apps can provide direct debit payments. This means that users do not have to authorize payments every time a transaction happens. A transaction will take place automatically and users will receive a push notification on whether or not the payment succeeded or has failed. ",
+		"txt_mfddp_apiheading": "API",
+		"txt_mfddp_apidesc": "Use the following API(s) to create this feature: ",
+		"txt_mfpacap_title": "Pre-authorization and Capture",
+		"txt_mfpacap_desc": "After obtaining user consent, selected PayPay Mini Apps can provide direct debit payments. This means that users do not have to authorize payments every time a transaction happens. A transaction will take place automatically and users will receive a push notification on whether or not the payment succeeded or has failed. ",
+		"txt_mfpacap_apiheading": "API",
+		"txt_mfpacap_apidesc": "Use the following API(s) to create this feature: ",
+		"txt_mfpacap_descpoint_name": "Setting isAuthorization to true in the #pp.makePayment# API would initiate a pre-auth flow.",
+		"txt_mfpacap_descpoint_url": ["", "/miniapp/docs/apireference/functionalities?passcode=#pp-makepayment", ""],
+		"txt_mfsbal_title": "Show Balance",
+		"txt_mfsbal_desc": "Mini App providers can display PayPay balance information in real time within their PayPay Mini Apps. Users would be able to easily confirm their balance before proceeding with payment.",
+		"txt_mfsbal_apiheading": "API",
+		"txt_mfsbal_apidesc": "Use the following API(s) to create this feature: ",
+		"txt_mfsbal_descpoint_name": "pp.getBalance# : Need user’s consent to trigger this API. Otherwise, this API will return an authorization error.#",
+		"txt_mfsbal_descpoint_url": ["/miniapp/docs/apireference/functionalities?passcode=#pp-getBalance", ""],
+		"txt_design_guideline": "Design Guidelines",
+		"txt_main_ui_components": "Main UI Components",
+		"txt_main_ui_body": "PayPay Mini App can be broken down into 3 main parts:",
+		"txt_main_ui_body_content": "A) Navigation bar, B) Bottom navigation, C) Service menu.",
+		"txt_mini_app_icon": "PayPay Mini App Icon",
+		"txt_loading_icon": "Loading Icon",
+		"txt_loading_icon_content": "Loading icon that appears when users open the Mini App is provided by PayPay and will not be customizable. However, loading icons within the Mini App can be designed freely with no design guidelines.",
+		"txt_paypay_icon_content": "Your PayPay Mini App icon will be seen by all users in different places such as on the consent screen, Mini App menu, and the Home screen notification bar. Please comply to the following design guidelines: ",
+		"txt_paypay_icon_guide_1": "Size: 300x300px",
+		"txt_paypay_icon_guide_2": "PNG image file",
+		"txt_paypay_icon_guide_3": "No background transparency",
+		"txt_paypay_icon_guide_4": "Icon must be a single symbol or a wordmark",
+		"txt_main_ui_component_content": "PayPay Mini App can be broken down into 3 main parts:",
+		"txt_navigation_bar": "Navigation bar",
+		"txt_navigation_bar_content": "Below are the components you can have in your Mini App navigation bar. Some of them are mandatory or automatically generated by PayPay. ",
+		"txt_navigation_bar_note": "You have three options for your navigation bar color. Please note that by depending on what color you choose, the icon and text color will be automatically set accordingly. ",
+		"txt_navigation_bar_note_1": "White navigation header (icon/text : black)",
+		"txt_navigation_bar_note_2": "Any color  (icon/text : white) ",
+		"txt_navigation_bar_note_3": "Transparent  (icon/text : white) ",
+		"txt_bottom_navigation": "Bottom navigation",
+		"txt_bottom_navigation_content": "Feel free to add items necessary for your service in the bottom navigation. Just ensure that the size of the icons are 24px*24px. ",
+		"txt_bottom_navigation_note": "To avoid confusion, PayPay Mini Apps are not allowed to use the PayPay home icon in the bottom navigation. PayPay may also request you to change icon style to improve user experience or avoid confusion with PayPay brand.",
+		"txt_menu_content": "When tapping on the “Menu” button from the navigation bar, it opens the half view menu at the bottom of the screen. ",
+		"txt_menu": "Service menu",
+		"txt_navigation_section_1_title": ["1. Back button - ", "Automatic"],
+		"txt_navigation_section_1_title_desc": "Displays previous screen. Back button is automatically generated based on screen hierarchy.",
+		"txt_navigation_section_2_title": ["2. Screen name - ", "Optional"],
+		"txt_navigation_section_2_title_desc": "Please specify each screen name within your service accordingly. Font is fixed by PayPay and the color of the text will be automatically set based on the navigation bar color. ",
+		"txt_navigation_section_3_title": ["3. Notification center button - ", "Optional"],
+		"txt_navigation_section_3_title_desc": "Show all notifications from your service. ",
+		"txt_navigation_section_4_title": ["4. Menu button - ", "Mandatory"],
+		"txt_navigation_section_4_title_desc": "Show all menu items. Please check the",
+		"txt_navigation_section_4_title_desc1": "Menu",
+		"txt_navigation_section_4_title_desc2": "part of this documentation for details.",
+		"txt_navigation_section_5_title": ["5. Close button - ", "Mandatory"],
+		"txt_navigation_section_5_title_desc": "Closes PayPay Mini App.",
+		"txt_menu_section_1_title": ["1. Service icon & name - ", "Mandatory"],
+		"txt_menu_section_1_title_desc": "Displays service’s icon & name as menu title. ",
+		"txt_menu_section_2_title": ["2. Service details button - ", "Optional"],
+		"txt_menu_section_2_title_desc": "Takes the user to the merchant's store top page. This option is only available for Mini App services that are registered as a PayPay Merchant. ",
+		"txt_menu_section_3_title": ["3. Settings button - ", "Mandatory"],
+		"txt_menu_section_3_title_desc": "Leads to the service’s setting screen. Users can control various permission settings.",
+		"txt_menu_section_4_title": ["4. Share button - ", "Optional"],
+		"txt_menu_section_4_title_desc": "Generates a deep link to the Mini App that users can share via social media. You must specify the text and the image that will be sent with the deep link. For users who do not have PayPay, deep link will redirect to Apple Store/Google Play Store.",
+		"txt_menu_section_5_title": ["5. Guide button - ", "Optional"],
+		"txt_menu_section_5_title_desc": "Opens service guide page.",
+		"txt_menu_section_6_title": ["6. Help button - ", "Optional"],
+		"txt_menu_section_6_title_desc": "Opens the help page for your service.",
+		"txt_menu_section_7_title": ["7. Text - ", "Automatic"],
+		"txt_menu_section_7_title_desc": "Closes the menu.",
+		"txt_getstarted_title": "Getting Started",
+		"txt_getstarted_desc": "When developing a PayPay Mini App, you have the choice to write the codes from scratch yourself based on our directory structure or have your codes generated into our structure through the developer tool. In this section, you will find all the basic information you need to get warmed up and start developing.",
+		"txt_getstarted_subheading1": "Specifications",
+		"txt_getstarted_subheading2": "Developer Tool",
+		"txt_getstarted_subheading3": "Via Command Line ",
+		"txt_getstarted_subheading4": "Tip: ",
+		"txt_getstarted_subheading5": "Via UI",
+		"txt_getstarted_subheading6": "Quick Start",
+		"txt_getstarted_subheading7": "Start from Scratch",
+		"txt_getstarted_subheading8": "Directory Structure",
+		"txt_getstarted_subheading9": "app.json",
+		"txt_getstarted_subheading10": "pages",
+		"txt_getstarted_subheading11": "window",
+		"txt_getstarted_subheading12": "tabBar",
+		"txt_getstarted_subheading13": "whiteListDomains",
+		"txt_getstarted_subheading14": "pages folder",
+		"txt_getstarted_subheading15": "Debug Configurations",
+		"txt_getstarted_desc1": "PayPay Mini App is supported on the following OS versions: ",
+		"txt_getstarted_desc2": "Please find the minimum PayPay version for each features below:  ",
+		"txt_getstarted_desc3": "PayPay DevTool is an extension to the popular ",
+		"txt_getstarted_desc3_line1": "Visual Studio Code",
+		"txt_getstarted_desc3_line2": "editor. It can either be installed by using the ",
+		"txt_getstarted_desc3_line3": "Command Line ",
+		"txt_getstarted_desc3_line4": "or ",
+		"txt_getstarted_desc3_line5": "UI",
+		"txt_getstarted_desc3_line6": ".",
+		"txt_getstarted_desc4": "If the code command is not available on macOS, it can be enabled by following# this guide.# ",
+		"txt_getstarted_desc4_api": ["", "https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"],
+		"txt_getstarted_desc5": "Please open the Extensions view on the left Activity Bar and select ‘Install from VSIX….” by pressing the “...” button on the top of the screen. Afterwards, select the downloaded paypay-devtool.visx file to install. ",
+		"txt_getstarted_desc6": "After successfully installing the extension, you should be able to open the PayPay DevTool sidebar as illustrated in the following screenshot: ",
+		"txt_getstarted_desc7": "Open the Command Palette F1 and type PayPay: Generate Sample Project to run the command or use the shortcut in the DevTool sidebar.",
+		"txt_getstarted_desc8": "The sample project includes everything needed to start developing and debugging F5 right away.",
+		"txt_getstarted_desc9": "If you choose to start writing code from scratch, please make sure to read the directory structure below. ",
+		"txt_getstarted_desc10": "Mini App comes with an app directory that describes the overall program and multiple page directories that describe the respective pages. Mini App is composed of three files that must be placed in the project’s root directory",
+		"txt_getstarted_desc11": "This is a high level configuration file defining basic app info. Below is the full list of configurations.",
+		"txt_getstarted_desc12": "“pages” entry lists up all the screen’s html file names that are included in this Mini App. If you have a root folder structure as below,",
+		"txt_getstarted_desc13": "Then you should specify page entry as the following (you don’t need to specify “.html” as extension. The SDK will handle it) : ",
+		"txt_getstarted_desc14": "Please note that the first element (page) in the pages array would be the entrance screen of the Mini App. ",
+		"txt_getstarted_desc15": "“window” entry specifies the basic visual theme of the Mini App, including Navigation bar text, color, transparency, screen background color, etc. Each page could have its own <page_name>.json to override this global app setting. All values are optional. ",
+		"txt_getstarted_desc16": "\"tabBar\" attribute specifies the number/style/path of the tab bar. Currently, tab bars are all positioned at the bottom of the screen. ",
+		"txt_getstarted_desc16_1": "Below is the object in the \"list\" entry.",
+		"txt_getstarted_desc17": "Here is an example of tabBar attribute:",
+		"txt_getstarted_desc18": "whiteListDomains is a list of domains that a Mini App could communicate with. Any other requests that are sent besides the domain specified in this list will be ignored. ",
+		"txt_getstarted_desc19": "“Pages” folder stores all the screen’s root folder as shown previously. Each screen must have their own folder with the screen name. Folder could contain 4 files inside",
+		"txt_getstarted_desc20": "json file has the same content as window property. Values defined in page json would be prioritized over the previous app level window setting.",
+		"txt_getstarted_desc21": "Please extend the project from the developer tool with a launch configuration .vscode/launch.json  to enable debugging with the simulator. Sample configurations for selected environments are listed below: ",
+		"txt_getstarted_cmd1": "code --install-extension paypay-devtool.vsix",
+		"txt_getstarted_ex_txt4": "Sample Javascript debug configuration:",
+		"txt_getstarted_ex_txt5": "Sample Vuejs debug configuration",
+		"txt_getstarted_ex": "Example:",
+		"mfgs_spec_section1_content": [
+			"-  Android 5.0 or later ",
+			"-  iOS 11.0 or later"
+		],
+		"mfgs_quickstart_content": [
+			"  Select base directory",
+			"  Choose your preferred environment (js, ts, Vuejs)",
+			"  Enter a project name"
+		],
+		"mfgs_qs_content1": [
+			"A folder is created in the base directory with the specified project name and opened in the editor."
+		],
+		"txt_getstarted_thead": [
+			"Feature ",
+			"PayPay Version "
+		],
+		"txt_getstarted_speclist": [{
+				"functionName": "User Consent",
+				"desc": "2.41.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "HTML 5 Location Data",
+				"desc": "2.31.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Generate QR Codes",
+				"desc": "2.39.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Show Balance",
+				"desc": "2.31.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Mini App Payment",
+				"desc": "2.40.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Top up PayPay Wallet",
+				"desc": "2.42.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Direct Debit Payment",
+				"functionUrl": ["./features/notificationCenter?passcode="],
+				"desc": "2.33.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Pre-authorization and Capture",
+				"functionUrl": ["./features/notificationCenter?passcode="],
+				"desc": "2.31.0",
+				"descUrl": []
+			},
+			{
+				"functionName": "Notification Center",
+				"functionUrl": ["./features/notificationCenter?passcode="],
+				"desc": "2.35.0",
+				"descUrl": []
+			}
+		],
+		"gs_ds_header": [
+			"Content",
+			"Type",
+			"Description"
+		],
+		"gs_ds_content": [{
+				"content": "app.json",
+				"type": "file",
+				"description": "configuration file that defines the app's metadata and screens"
+			},
+			{
+				"content": "pages",
+				"type": "folder",
+				"description": "folder that contains screen folders"
+			}
+		],
+		"gs_app_header": [
+			"Attribute",
+			"Type",
+			"Mandatory",
+			"Description"
+		],
+		"gs_app_content": [{
+				"attribute": "appName",
+				"type": "string",
+				"mandatory": "yes",
+				"description": "App name. Ex: \"My Awesome Mini App\""
+			},
+			{
+				"attribute": "version",
+				"type": "string",
+				"mandatory": "yes",
+				"description": "Version of this Mini App bundle Ex: \"1.0.0\" "
+			},
+			{
+				"attribute": "baseLibraryVersion",
+				"type": "string",
+				"mandatory": "yes",
+				"description": "Minimum Mini App SDK version that this Mini App supports Ex: \"1.0.0\""
+			},
+			{
+				"attribute": "headerImage",
+				"type": "string",
+				"mandatory": "no",
+				"description": "Image that will be set in permission screen header"
+			},
+			{
+				"attribute": "previewImages",
+				"type": "string[]",
+				"mandatory": "no",
+				"description": "Images that would be shown in the preview page. Ex: [\"images/preview1.png\", \"images/preview1.png\"]"
+			},
+			{
+				"attribute": "page",
+				"type": "string[]",
+				"mandatory": "yes",
+				"description": "An array of all screens' folder"
+			},
+			{
+				"attribute": "window",
+				"type": "object",
+				"mandatory": "no",
+				"description": "Global UI configuration"
+			},
+			{
+				"attribute": "tabBar",
+				"type": "object",
+				"mandatory": "no",
+				"description": "Tab bar configuration"
+			},
+			{
+				"attribute": "whiteListDomains",
+				"type": "string[]",
+				"mandatory": "no",
+				"description": "An array of domains to which Mini App could send networking request"
+			}
+		],
+		"gs_window_header": [
+			"Attribute",
+			"Type",
+			"Default Value",
+			"Description"
+		],
+		"gs_window_content": [{
+				"attribute": "navigationBarBackgroundColor",
+				"type": "HexColor",
+				"default_value": "#000000",
+				"description": "Background color of the navigation bar"
+			},
+			{
+				"attribute": "navigationBarTextStyle",
+				"type": "string",
+				"default_value": "\"black\"",
+				"description": "Text color style of the navigation bar. Only white and black are supported. "
+			},
+			{
+				"attribute": "navigationBarTitleText",
+				"type": "string",
+				"default_value": "\"\"",
+				"description": "Navigation bar text"
+			},
+			{
+				"attribute": "navigationStyle",
+				"type": "string",
+				"default_value": "\"default\"",
+				"description": "Opacity of the navigation bar. \"default\" is non-transparent, \"custom\" will make transparent navigation bar, \"none\" will complete hide the navigation bar"
+			},
+			{
+				"attribute": "backgroundColor",
+				"type": "HexColor",
+				"default_value": "#000000",
+				"description": "Background color of screen"
+			},
+			{
+				"attribute": "enablePullDownRefresh",
+				"type": "boolean",
+				"default_value": "false",
+				"description": "Enables pull to refresh"
+			}
+		],
+		"gs_tab_content": [{
+				"attribute": "textColor",
+				"type": "HexColor",
+				"default_value": "#000000",
+				"description": "Text color"
+			},
+			{
+				"attribute": "backgroundColor",
+				"type": "HexColor",
+				"default_value": "#fffff",
+				"description": "Background color"
+			},
+			{
+				"attribute": "selectedColor",
+				"type": "HexColor",
+				"default_value": "#aaaaaa",
+				"description": "Background color when tab is selected"
+			},
+			{
+				"attribute": "list",
+				"type": "object[]",
+				"default_value": "-",
+				"description": "Screens that are in the tab bar. Must have 2 - 5 elements"
+			}
+		],
+		"gs_list_content": [{
+				"attribute": "pagePath",
+				"type": "string",
+				"mandatory": "yes",
+				"description": "Path to the page in this tab. Page must have been registered in app.json."
+			},
+			{
+				"attribute": "text",
+				"type": "string",
+				"mandatory": "yes",
+				"description": "Text of the tab"
+			},
+			{
+				"attribute": "iconPath",
+				"type": "string",
+				"mandatory": "no",
+				"description": "Icon image path of tab"
+			},
+
+			{
+				"attribute": "selectedIconPath",
+				"type": "string",
+				"mandatory": "no",
+				"description": "Selected icon image path of tab"
+			}
+		],
+		"gs_pages_header": [
+			"File Type",
+			"Mandatory",
+			"Description"
+		],
+		"gs_pages_content": [{
+				"type": "html",
+				"mandatory": "yes",
+				"description": "UI of the page. Must have the same name as the folder"
+			},
+			{
+				"type": "js",
+				"mandatory": "no",
+				"description": "javascript code where logics is written"
+			},
+			{
+				"type": "css",
+				"mandatory": "no",
+				"description": "Style sheet"
+			},
+			{
+				"type": "json",
+				"mandatory": "no",
+				"description": "UI configuration file that overrides the global window settings in app.json for current screen. Must have the same name as folder."
+			}
+		],
+		"txt_api_ref_title": "API References",
+		"txt_api_ref_comm_spec_title": "Common specifications",
+		"txt_api_ref_comm_spec_text": "APIs in this document use Javascript language in the examples. ",
+		"txt_api_ref_example": "Example:",
+		"txt_api_ref_parameters": "Parameters:",
+		"txt_api_ref_note": "NOTE:",
+		"txt_api_ref_style_object": "Style object:",
+		"txt_api_ref_callback_title": "Callbacks",
+		"txt_api_ref_callback_text_1": "For every Javascript API, there will be 3 defined callbacks: success, fail and complete",
+		"txt_api_ref_callback_text_2": "Success callback will be called when the operation was successfully handled, along with the callback there will be an associated response object containing some data with key/value format if any. For bridges that don't have any logic data upon return, this response object will be a blank dictionary object.",
+		"txt_api_ref_callback_text_3": "Fail callback will be called when there was some error happening during the processing of the bridge. Same as success callback, there is, and would always be a response object containing an errorCode string representing the error. Some bridges would have more parameters than just an errorCode, those additional parameters would be specified in each bridge specification.",
+		"txt_api_ref_callback_text_4": "Complete callback will be called when the platform finishes bridge handling and decides that the platform will not return anything more. The concept is like the Complete of the stream in a reactive world. In most cases complete will be called right after a success or fail callback, however there are exceptions that multiple success/fail would be called before a complete. For example in a web socket session, whenever we receive a response from server success or fail would be called depending on the response, however complete would be called only when the session terminates. There are also some very rare scenarios that complete would not be called at all, like those page life cycle events, because once a complete is called the sequence will be terminated, but in those certain scenarios we need to notify those events whenever it happens thus we need to keep it in memory. A complete callback doesn't contain a response object.",
+		"txt_api_ref_callback_text_5": "Above could be summarized as following table:",
+		"txt_api_ref_callback_tab_head_1": "Callback",
+		"txt_api_ref_callback_tab_head_2": "Have Response Object",
+		"txt_api_ref_callback_tab_head_3": "Times be called",
+		"txt_api_ref_callback_tab_row_title_1": "success",
+		"txt_api_ref_callback_tab_row_resp_1": "yes",
+		"txt_api_ref_callback_tab_row_times_1": "1 or more times",
+		"txt_api_ref_callback_tab_row_title_2": "fail",
+		"txt_api_ref_callback_tab_row_resp_2": "yes",
+		"txt_api_ref_callback_tab_row_times_2": "1 or more times",
+		"txt_api_ref_callback_tab_row_title_3": "complete",
+		"txt_api_ref_callback_tab_row_resp_3": "no",
+		"txt_api_ref_callback_tab_row_times_3": "1 or 0 time",
+		"txt_api_ref_errorcode_title": "Error code",
+		"txt_api_ref_errorcode_text": "When fail callback is returned, there is always, but limited to, an errorCode property in the response.",
+		"txt_property": "Property",
+		"txt_type": "Type",
+		"txt_description": "Description",
+		"txt_default": "Default",
+		"txt_required": "Required",
+		"txt_parameter": "Parameter",
+		"txt_undefined": "undefined",
+		"txt_value": "Value",
+		"txt_error_code": "error code",
+		"txt_api_ref_errorcode_tab_head_1": "Property",
+		"txt_api_ref_errorcode_tab_head_2": "Type",
+		"txt_api_ref_errorcode_tab_head_3": "Description",
+		"txt_api_ref_errorcode_tab_row_title_1": "errorCode",
+		"txt_api_ref_errorcode_tab_row_resp_1": "string",
+		"txt_api_ref_errorcode_tab_row_times_1": "a code that indicates error type",
+		"txt_api_ref_errorcode_example_text_1": "The value differs from API to another API. Some are common errors while others are more API specific. Please refer to each of the API documentations for details. ",
+		"txt_api_ref_errorcode_example_text_2": "Some of the general error codes are: ",
+		"txt_api_ref_gen_errorcode_tab_head_1": "Value",
+		"txt_api_ref_gen_errorcode_tab_head_2": "Description",
+		"txt_api_ref_gen_errorcode_tab_row_1_col_1": "SERVER_ERROR",
+		"txt_api_ref_gen_errorcode_tab_row_1_col_2": "Internal error occurred in PayPay backend",
+		"txt_api_ref_gen_errorcode_tab_row_2_col_1": "INSUFFICIENT_SCOPE",
+		"txt_api_ref_gen_errorcode_tab_row_2_col_2": "Your Mini App hasn't obtained get required scope for this operation",
+		"txt_api_ref_gen_errorcode_tab_row_3_col_1": "USER_CANCELED",
+		"txt_api_ref_gen_errorcode_tab_row_3_col_2": "User canceled the operation",
+		"txt_api_ref_gen_errorcode_tab_row_4_col_1": "NO_VALUE_FOUND",
+		"txt_api_ref_gen_errorcode_tab_row_4_col_2": "No desired value found for the operation",
+		"txt_api_ref_gen_errorcode_tab_row_5_col_1": "UNKNOWN",
+		"txt_api_ref_gen_errorcode_tab_row_5_col_2": "Any error that we can't identify",
+		"txt_api_ref_nav_title": "Navigation",
+		"txt_api_ref_nav_text": "Below are lists of APIs that are used to navigate between screens within the Mini App.",
+		"txt_api_ref_nav_navto_title": "pp.navigateTo",
+		"txt_api_ref_nav_navto_text": "Navigates to different screens that are specified in the parameter.",
+		"txt_api_ref_tab_param_head_1": "Property",
+		"txt_api_ref_tab_param_head_2": "Type",
+		"txt_api_ref_tab_param_head_3": "Default",
+		"txt_api_ref_tab_param_head_4": "Required",
+		"txt_api_ref_tab_param_head_5": "Description",
+		"txt_api_ref_nav_navto_tab_head_1": "Property",
+		"txt_api_ref_nav_navto_tab_head_2": "Type",
+		"txt_api_ref_nav_navto_tab_head_3": "Default",
+		"txt_api_ref_nav_navto_tab_head_4": "Required",
+		"txt_api_ref_nav_navto_tab_head_5": "Description",
+		"txt_api_ref_nav_navto_tab_row_1_col_1": "url",
+		"txt_api_ref_nav_navto_tab_row_1_col_2": "string",
+		"txt_api_ref_nav_navto_tab_row_1_col_3": "-",
+		"txt_api_ref_nav_navto_tab_row_1_col_4": "yes",
+		"txt_api_ref_nav_navto_tab_row_1_col_5": "URL of destination screen",
+		"txt_api_ref_nav_navto_desc": "You can add parameters to the end of the URL but you need to parse them with your own javascript code embedded in the destination screen. If the destination page couldn't be found, this method does nothing.",
+		"txt_api_ref_nav_navback_title": "pp.navigateBack",
+		"txt_api_ref_nav_navback_text": "Navigates to the previous screen of the stack. If there are no previous screens to navigate back to nothing will happen.",
+		"txt_api_ref_nav_popall_title": "pp.popAll",
+		"txt_api_ref_nav_popall_text": "Instead of just going back just one level, this method will pop all screens in the stack except the first one. If the current screen is the only screen in the stack then nothing will happen. ",
+		"txt_api_ref_nav_switchtab_title": "pp.switchTab",
+		"txt_api_ref_nav_switchtab_text": "Navigates to specified tab",
+		"txt_api_ref_nav_switchtab_tab_head_1": "Property",
+		"txt_api_ref_nav_switchtab_tab_head_2": "Type",
+		"txt_api_ref_nav_switchtab_tab_head_3": "Default",
+		"txt_api_ref_nav_switchtab_tab_head_4": "Required",
+		"txt_api_ref_nav_switchtab_tab_head_5": "Description",
+		"txt_api_ref_nav_switchtab_tab_row_1_col_1": "url",
+		"txt_api_ref_nav_switchtab_tab_row_1_col_2": "string",
+		"txt_api_ref_nav_switchtab_tab_row_1_col_3": "-",
+		"txt_api_ref_nav_switchtab_tab_row_1_col_4": "yes",
+		"txt_api_ref_nav_switchtab_tab_row_1_col_5": "URL of destination screen",
+		"txt_api_ref_nav_switchtab_desc": "You must register the destination in tabBar of app.json. You cannot pass parameters to the URL of the tab screen.",
+		"txt_api_ref_nav_redirectto_title": "pp.redirectTo",
+		"txt_api_ref_nav_redirectto_text": "Redirects to a new page, replacing the current view stack. ",
+		"txt_api_ref_nav_redirectto_tab_head_1": "Property",
+		"txt_api_ref_nav_redirectto_tab_head_2": "Type",
+		"txt_api_ref_nav_redirectto_tab_head_3": "Default",
+		"txt_api_ref_nav_redirectto_tab_head_4": "Required",
+		"txt_api_ref_nav_redirectto_tab_head_5": "Description",
+		"txt_api_ref_nav_redirectto_tab_row_1_col_1": "url",
+		"txt_api_ref_nav_redirectto_tab_row_1_col_2": "string",
+		"txt_api_ref_nav_redirectto_tab_row_1_col_3": "-",
+		"txt_api_ref_nav_redirectto_tab_row_1_col_4": "yes",
+		"txt_api_ref_nav_redirectto_tab_row_1_col_5": "URL of destination screen",
+		"txt_api_ref_nav_redirectto_desc": "You can add parameters to the end of the url but you need to parse them with your own javascript code embedded in the destination screen. If the destination page couldn't be found nothing will happen.",
+		"txt_api_ref_nav_backButtonDidTap_title": "pp.backButtonDidTap",
+		"txt_api_ref_nav_backButtonDidTap_text": "Registers a listener on the native back button tap event.  ",
+		"txt_api_ref_nav_openWebview_title": "pp.openWebview",
+		"txt_api_ref_nav_openWebview_text": "Opens webview from within the Mini App. Please note that URL hostname needs to be registered in the white list domains. ",
+		"txt_api_ref_nav_openWebview_tab_head_1": "Property",
+		"txt_api_ref_nav_openWebview_tab_head_2": "Type",
+		"txt_api_ref_nav_openWebview_tab_head_3": "Default",
+		"txt_api_ref_nav_openWebview_tab_head_4": "Required",
+		"txt_api_ref_nav_openWebview_tab_head_5": "Description",
+		"txt_api_ref_nav_openWebview_tab_row_1_col_1": "url",
+		"txt_api_ref_nav_openWebview_tab_row_1_col_2": "string",
+		"txt_api_ref_nav_openWebview_tab_row_1_col_3": "-",
+		"txt_api_ref_nav_openWebview_tab_row_1_col_4": "yes",
+		"txt_api_ref_nav_openWebview_tab_row_1_col_5": "URL of destination screen",
+		"txt_api_ref_nav_openWebview_tab_row_2_col_1": "style",
+		"txt_api_ref_nav_openWebview_tab_row_2_col_2": "Style",
+		"txt_api_ref_nav_openWebview_tab_row_2_col_3": "modal",
+		"txt_api_ref_nav_openWebview_tab_row_2_col_4": "no",
+		"txt_api_ref_nav_openWebview_tab_row_2_col_5": "Screen transition style when opening web view",
+		"txt_api_ref_nav_openWebview_style_tab_head_1": "Value",
+		"txt_api_ref_nav_openWebview_style_tab_head_2": "Description",
+		"txt_api_ref_nav_openWebview_style_tab_row_1_col_1": "modal",
+		"txt_api_ref_nav_openWebview_style_tab_row_1_col_2": "From-bottom-to-up modal transition",
+		"txt_api_ref_nav_openWebview_style_tab_row_2_col_1": "slide",
+		"txt_api_ref_nav_openWebview_style_tab_row_2_col_2": "From-right-to-left slide transition",
+		"txt_api_ref_nav_openWebview_style_tab_row_3_col_1": "external",
+		"txt_api_ref_nav_openWebview_style_tab_row_3_col_2": "Web page will be opened with external browser",
+
+		"txt_api_ref_nav_openmap_title": "pp.openMap",
+		"txt_api_ref_nav_openmap_text_1": "Opens the map app that users have installed with given location information. ",
+		"txt_api_ref_nav_openmap_text_2": "On iOS, you could specify a list of apps that you want your users to use. It can't be either a universal link or a custom scheme. For custom schemes, it will be evaluated by canOpenUrl call first. If the user doesn't have any map app installed that could open the URL, this option will not work.",
+		"txt_api_ref_nav_openmap_text_3": "On Android, there will be a system popup asking users to choose any desired app to open the location. ",
+		"txt_api_ref_nav_openmap_tab_head_1": "Property",
+		"txt_api_ref_nav_openmap_tab_head_2": "Type",
+		"txt_api_ref_nav_openmap_tab_head_3": "Default",
+		"txt_api_ref_nav_openmap_tab_head_4": "Required",
+		"txt_api_ref_nav_openmap_tab_head_5": "Description",
+		"txt_api_ref_nav_openmap_tab_row_1_col_1": "ios",
+		"txt_api_ref_nav_openmap_tab_row_1_col_2": "iOS object",
+		"txt_api_ref_nav_openmap_tab_row_1_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_row_1_col_4": "yes",
+		"txt_api_ref_nav_openmap_tab_row_1_col_5": "iOS specific parameters",
+		"txt_api_ref_nav_openmap_tab_row_2_col_1": "android",
+		"txt_api_ref_nav_openmap_tab_row_2_col_2": "Android object",
+		"txt_api_ref_nav_openmap_tab_row_2_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_row_2_col_4": "yes",
+		"txt_api_ref_nav_openmap_tab_row_2_col_5": "Android specific parameters",
+		"txt_api_ref_nav_openmap_tab_ios_desc": "iOS object",
+		"txt_api_ref_nav_openmap_tab_ios_head_1": "Property",
+		"txt_api_ref_nav_openmap_tab_ios_head_2": "Type",
+		"txt_api_ref_nav_openmap_tab_ios_head_3": "Default",
+		"txt_api_ref_nav_openmap_tab_ios_head_4": "Required",
+		"txt_api_ref_nav_openmap_tab_ios_head_5": "Description",
+		"txt_api_ref_nav_openmap_tab_ios_row_1_col_1": "label",
+		"txt_api_ref_nav_openmap_tab_ios_row_1_col_2": "iOS object",
+		"txt_api_ref_nav_openmap_tab_ios_row_1_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_ios_row_1_col_4": "yes",
+		"txt_api_ref_nav_openmap_tab_ios_row_1_col_5": "Label that would be shown in map app list",
+		"txt_api_ref_nav_openmap_tab_ios_row_2_col_1": "scheme",
+		"txt_api_ref_nav_openmap_tab_ios_row_2_col_2": "Android object",
+		"txt_api_ref_nav_openmap_tab_ios_row_2_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_ios_row_2_col_4": "no",
+		"txt_api_ref_nav_openmap_tab_ios_row_2_col_5": "Custom scheme of the map app",
+		"txt_api_ref_nav_openmap_tab_ios_row_3_col_1": "url",
+		"txt_api_ref_nav_openmap_tab_ios_row_3_col_2": "Android object",
+		"txt_api_ref_nav_openmap_tab_ios_row_3_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_ios_row_3_col_4": "yes",
+		"txt_api_ref_nav_openmap_tab_ios_row_3_col_5": "URL that opens the map app, could be either custom scheme link or universal link",
+		"txt_api_ref_nav_openmap_tab_andrid_desc": "Android object",
+		"txt_api_ref_nav_openmap_tab_andrid_head_1": "Property",
+		"txt_api_ref_nav_openmap_tab_andrid_head_2": "Type",
+		"txt_api_ref_nav_openmap_tab_andrid_head_3": "Default",
+		"txt_api_ref_nav_openmap_tab_andrid_head_4": "Required",
+		"txt_api_ref_nav_openmap_tab_andrid_head_5": "Description",
+		"txt_api_ref_nav_openmap_tab_andrid_row_1_col_1": "parameters",
+		"txt_api_ref_nav_openmap_tab_andrid_row_1_col_2": "iOS object",
+		"txt_api_ref_nav_openmap_tab_andrid_row_1_col_3": "-",
+		"txt_api_ref_nav_openmap_tab_andrid_row_1_col_4": "yes",
+		"txt_api_ref_nav_openmap_tab_andrid_row_1_col_5": "Label that would be shown in map app list",
+		"txt_api_ref_nav_openmap_errorcode_desc": "Error code",
+		"txt_api_ref_nav_openmap_errorcode_tab_head_1": "Value",
+		"txt_api_ref_nav_openmap_errorcode_tab_head_2": "Description",
+		"txt_api_ref_nav_openmap_errorcode_tab_row_1_col_1": "MAP_APP_NOT_FOUND",
+		"txt_api_ref_nav_openmap_errorcode_tab_row_1_col_2": "The parameters that could be recognized by Android platform",
+		"txt_api_ref_nav_openmap_desc": "For the details of how to compose parameters, refer to iOS/Android's official documentation for details.",
+		"txt_api_ref_nav_closeapp_title": "pp.closeApp",
+		"txt_api_ref_nav_closeapp_text": "Closes your Mini App.",
+		"txt_api_ref_nav_closeapp_desc": "When there is essential information missing or based on some other logic that you decide the user can't use your service anymore, you could call this function to dismiss your Mini App.",
+
+		"txt_api_data_title": "Data",
+		"txt_api_data_ssess_data_title": "pp.setSessionData",
+		"txt_api_data_ssess_data_desc": "Sets custom data in memory, but will be deleted when users close the Mini App. To persistently store data, please refer to $pp.setStorageData$",
+		"txt_api_data_ssess_data_desc_url": ["", "#pp-setStorageData"],
+		"txt_api_data_ssess_data_tab_row_1_col_1": "key",
+		"txt_api_data_ssess_data_tab_row_1_col_2": "string",
+		"txt_api_data_ssess_data_tab_row_1_col_3": "-",
+		"txt_api_data_ssess_data_tab_row_1_col_4": "Yes",
+		"txt_api_data_ssess_data_tab_row_1_col_5": "key of data",
+		"txt_api_data_ssess_data_tab_row_2_col_1": "value",
+		"txt_api_data_ssess_data_tab_row_2_col_2": "any",
+		"txt_api_data_ssess_data_tab_row_2_col_3": "-",
+		"txt_api_data_ssess_data_tab_row_2_col_4": "Yes",
+		"txt_api_data_ssess_data_tab_row_2_col_5": "value of data",
+
+		"txt_api_data_gsess_success_param": "Success callback parameter.",
+		"txt_api_data_gsess_data_success_tab_row_1_col_1": "value",
+		"txt_api_data_gsess_data_success_tab_row_1_col_2": "Any",
+		"txt_api_data_gsess_data_success_tab_row_1_col_3": "Returned value. Blank string will be returned if key is not found.",
+
+		"txt_api_data_gsess_data_title": "pp.getSessionData",
+		"txt_api_data_gsess_data_desc": "Retrieves memory data that was set via $pp.setSessionData$.",
+		"txt_api_data_gsess_data_desc_url": ["", "#pp-setSessionData"],
+		"txt_api_data_gsess_data_tab_row_1_col_1": "key",
+		"txt_api_data_gsess_data_tab_row_1_col_2": "string",
+		"txt_api_data_gsess_data_tab_row_1_col_3": "-",
+		"txt_api_data_gsess_data_tab_row_1_col_4": "Yes",
+		"txt_api_data_gsess_data_tab_row_1_col_5": "key of data",
+
+		"txt_api_data_gstorage_data_title": "pp.getStorageData",
+		"txt_api_data_gstorage_data_desc": "Retrieves stored data that was set via $pp.setStorageData$. Please refer to the $pp.setSessionData$ API Interface.",
+		"txt_api_data_gstorage_data_desc_url": ["", "#pp-setStorageData", "", "#pp-setSessionData", ""],
+		"txt_api_data_sstorage_data_title": "pp.setStorageData",
+		"txt_api_data_sstorage_data_desc": "Persistently stores custom data on disk. However, stored data will be deleted when users unlink from your Mini App. Please refer to the $pp.setSessionData$ API interface.",
+		"txt_api_data_sstorage_data_desc_url": ["", "#pp-setSessionData", ""],
+		"txt_api_data_rstorage_data_title": "pp.removeStorageData",
+		"txt_api_data_rstorage_data_desc": "Completely deletes data that was saved persistently.",
+
+		"txt_api_data_rstorage_data_tab_row_1_col_1": "key",
+		"txt_api_data_rstorage_data_tab_row_1_col_2": "string",
+		"txt_api_data_rstorage_data_tab_row_1_col_3": "-",
+		"txt_api_data_rstorage_data_tab_row_1_col_4": "Yes",
+		"txt_api_data_rstorage_data_tab_row_1_col_5": "key of data",
+
+		"txt_api_system_title": "System",
+		"txt_api_system_plat_info_title": "pp.getPlatformInformation",
+		"txt_api_system_plat_info_desc": "Gets the version information of the current base library.",
+		"txt_api_system_plat_info_tab_row_1_col_1": "key",
+		"txt_api_system_plat_info_tab_row_1_col_2": "string",
+		"txt_api_system_plat_info_tab_row_1_col_3": "-",
+		"txt_api_system_plat_info_tab_row_1_col_4": "Yes",
+		"txt_api_system_plat_info_tab_row_1_col_5": "Callback function upon result returns",
+
+		"txt_api_system_plat_info_callback_desc": "Complete callback function parameters.",
+		"txt_api_system_plat_info_callback_tab_row_1_col_1": "appVersion",
+		"txt_api_system_plat_info_callback_tab_row_1_col_2": "string",
+		"txt_api_system_plat_info_callback_tab_row_1_col_3": "Mini App version",
+		"txt_api_system_plat_info_callback_tab_row_2_col_1": "sdkVersion",
+		"txt_api_system_plat_info_callback_tab_row_2_col_2": "string",
+		"txt_api_system_plat_info_callback_tab_row_2_col_3": "Version of current base library",
+
+		"txt_api_system_check_app_install_title": "pp.checkAppInstall",
+		"txt_api_system_check_app_install_desc": "Checks if a specific native app has been installed on the device.",
+
+		"txt_api_system_check_app_install_tab_row_1_col_1": "ios",
+		"txt_api_system_check_app_install_tab_row_1_col_2": "ios object",
+		"txt_api_system_check_app_install_tab_row_1_col_3": "-",
+		"txt_api_system_check_app_install_tab_row_1_col_4": "Yes",
+		"txt_api_system_check_app_install_tab_row_1_col_5": "iOS specific settings",
+		"txt_api_system_check_app_install_tab_row_2_col_1": "android",
+		"txt_api_system_check_app_install_tab_row_2_col_2": "android object",
+		"txt_api_system_check_app_install_tab_row_2_col_3": "-",
+		"txt_api_system_check_app_install_tab_row_2_col_4": "Yes",
+		"txt_api_system_check_app_install_tab_row_2_col_5": "Android specific settings",
+
+		"txt_api_system_check_app_install_ios_title": "iOS object",
+		"txt_api_system_check_app_install_ios_tab_row_1_col_1": "scheme",
+		"txt_api_system_check_app_install_ios_tab_row_1_col_2": "string",
+		"txt_api_system_check_app_install_ios_tab_row_1_col_3": "-",
+		"txt_api_system_check_app_install_ios_tab_row_1_col_4": "Yes",
+		"txt_api_system_check_app_install_ios_tab_row_1_col_5": "Custom scheme of the target app",
+
+		"txt_api_system_check_app_install_android_title": "Android object",
+		"txt_api_system_check_app_install_android_tab_row_1_col_1": "scheme",
+		"txt_api_system_check_app_install_android_tab_row_1_col_2": "string",
+		"txt_api_system_check_app_install_android_tab_row_1_col_3": "-",
+		"txt_api_system_check_app_install_android_tab_row_1_col_4": "Yes",
+		"txt_api_system_check_app_install_android_tab_row_1_col_5": "Package name of the target app",
+
+		"txt_api_system_check_app_install_success_title": "Success fallback parameters",
+		"txt_api_system_check_app_install_success_tab_row_1_col_1": "result",
+		"txt_api_system_check_app_install_success_tab_row_1_col_2": "string",
+		"txt_api_system_check_app_install_success_tab_row_1_col_3": "Result of the operation",
+
+		"txt_api_system_check_app_install_result_value_title": "Values of result",
+		"txt_api_system_check_app_install_result_value_tab_header_1": "Value",
+		"txt_api_system_check_app_install_result_value_tab_header_2": "Type",
+		"txt_api_system_check_app_install_result_value_tab_row_1_col_1": "INSTALLED",
+		"txt_api_system_check_app_install_result_value_tab_row_1_col_2": "Target is installed",
+		"txt_api_system_check_app_install_result_value_tab_row_2_col_1": "NOT_INSTALLED",
+		"txt_api_system_check_app_install_result_value_tab_row_2_col_2": "Target is not installed",
+		"txt_api_ref_deeplink_title": "Deeplink & Share",
+		"txt_api_ref_deeplink_desc": "These APIs are used for registering Mini App launch options that will be included in the deep link URL when generated. ",
+		"txt_api_ref_deeplink_reg_title": "pp.registerAppLaunchOptions",
+		"txt_api_ref_deeplink_reg_desc": "Registers Mini App launch options which will be included in the deep link URL. ",
+		"txt_api_ref_deeplink_reg_tab_row_1_col_1": "text",
+		"txt_api_ref_deeplink_reg_tab_row_1_col_2": "string",
+		"txt_api_ref_deeplink_reg_tab_row_1_col_3": "-",
+		"txt_api_ref_deeplink_reg_tab_row_1_col_4": "No",
+		"txt_api_ref_deeplink_reg_tab_row_1_col_5": "A custom text that will be appended when sharing",
+		"txt_api_ref_deeplink_reg_tab_row_2_col_1": "options",
+		"txt_api_ref_deeplink_reg_tab_row_2_col_2": "dictionary",
+		"txt_api_ref_deeplink_reg_tab_row_2_col_3": "undefined",
+		"txt_api_ref_deeplink_reg_tab_row_2_col_4": "Yes",
+		"txt_api_ref_deeplink_reg_tab_row_2_col_5": "Options that will be included in the deep link URL",
+
+		"txt_api_ref_deeplink_reg_error_val": "Valid value for errors",
+		"txt_api_ref_deeplink_reg_error_tab_row_1_col_1": "NULL_OPTION",
+		"txt_api_ref_deeplink_reg_error_tab_row_1_col_2": "Option is null",
+		"txt_api_ref_deeplink_reg_error_tab_row_2_col_1": "INVALID_DATA",
+		"txt_api_ref_deeplink_reg_error_tab_row_2_col_2": "Option can't be serialized",
+
+		"txt_api_ref_deeplink_lo_title": "pp.getAppLaunchOptions",
+		"txt_api_ref_deeplink_lo_desc": "Retrieves the launch option you have set and passes it on to the Mini App",
+		"txt_api_ref_deeplink_lo_success_val": "success function parameter",
+		"txt_api_ref_deeplink_lo_tab_row_1_col_1": "options",
+		"txt_api_ref_deeplink_lo_tab_row_1_col_2": "dictionary",
+		"txt_api_ref_deeplink_lo_tab_row_1_col_3": "Options that are passed to the Mini App",
+
+		"txt_api_ref_deeplink_lo_error_val": "valid value for errors",
+		"txt_api_ref_deeplink_lo_error_tab_row_1_col_1": "INVALID_DATA",
+		"txt_api_ref_deeplink_lo_error_tab_row_1_col_2": "Option can't be serialized",
+
+		"txt_api_ref_ui_title": "UI",
+		"txt_api_ref_ui_desc": "APIs that manipulates native UI components",
+
+		"txt_api_ref_ui_sa_title": "pp.showAlert",
+		"txt_api_ref_ui_sa_desc": "Shows an alert dialog with one positive button only. ",
+
+		"txt_api_ref_ui_sa_tab_row_1_col_1": "title",
+		"txt_api_ref_ui_sa_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_sa_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_sa_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_sa_tab_row_1_col_5": "Title of the dialog",
+		"txt_api_ref_ui_sa_tab_row_2_col_1": "text",
+		"txt_api_ref_ui_sa_tab_row_2_col_2": "string",
+		"txt_api_ref_ui_sa_tab_row_2_col_3": "-",
+		"txt_api_ref_ui_sa_tab_row_2_col_4": "Yes",
+		"txt_api_ref_ui_sa_tab_row_2_col_5": "Text of the dialog",
+		"txt_api_ref_ui_sa_tab_row_3_col_1": "buttonTitle",
+		"txt_api_ref_ui_sa_tab_row_3_col_2": "string",
+		"txt_api_ref_ui_sa_tab_row_3_col_3": "\"OK\"",
+		"txt_api_ref_ui_sa_tab_row_3_col_4": "No",
+		"txt_api_ref_ui_sa_tab_row_3_col_5": "Title of the positive button",
+
+		"txt_api_ref_ui_st_title": "pp.setTitle",
+		"txt_api_ref_ui_st_desc": "Overwrites the current navigation bar title. ",
+
+		"txt_api_ref_ui_st_tab_row_1_col_1": "title",
+		"txt_api_ref_ui_st_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_st_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_st_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_st_tab_row_1_col_5": "Desired title of navigation bar",
+
+		"txt_api_ref_ui_es_title": "pp.showErrorSheet",
+		"txt_api_ref_ui_es_desc": "Shows a standard PayPay error sheet. ",
+
+		"txt_api_ref_ui_es_tab_row_1_col_1": "title",
+		"txt_api_ref_ui_es_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_es_tab_row_1_col_3": "-",
+		"txt_api_ref_ui_es_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_es_tab_row_1_col_5": "Title of the error sheet",
+		"txt_api_ref_ui_es_tab_row_2_col_1": "text",
+		"txt_api_ref_ui_es_tab_row_2_col_2": "string",
+		"txt_api_ref_ui_es_tab_row_2_col_3": "undefined",
+		"txt_api_ref_ui_es_tab_row_2_col_4": "Yes",
+		"txt_api_ref_ui_es_tab_row_2_col_5": "Description of the error sheet",
+
+		"txt_api_ref_ui_dsm_title": "pp.detectShakeMotion",
+		"txt_api_ref_ui_dsm_desc": "Registers a callback listening to shake motion. ",
+
+		"txt_api_ref_ui_gtbh_title": "pp.getTopBarHeight",
+		"txt_api_ref_ui_gtbh_desc": "Gets the total height of the navigation bar and status bar.",
+
+		"txt_api_ref_ui_gtbh_tab_desc": "Success callback parameter",
+		"txt_api_ref_ui_gtbh_tab_row_1_col_1": "height",
+		"txt_api_ref_ui_gtbh_tab_row_1_col_2": "float",
+		"txt_api_ref_ui_gtbh_tab_row_1_col_5": "Height of the top bar",
+
+		"txt_api_ref_ui_nbb_title": "pp.setNavigationBarBackgroundColor",
+		"txt_api_ref_ui_nbb_desc": "Sets the background color of the navigation bar. If the color value is malformed, nothing will happen. ",
+
+		"txt_api_ref_ui_nbb_tab_row_1_col_1": "color",
+		"txt_api_ref_ui_nbb_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_nbb_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_nbb_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_nbb_tab_row_1_col_5": "HexColor value of desired color",
+
+		"txt_api_ref_ui_nbts_title": "pp.setNavigationBarTextStyle",
+		"txt_api_ref_ui_nbts_desc": "Sets the text color of the navigation bar. Only “white” and “black” colors are supported for texts. If type value is malformed, nothing will happen.",
+
+		"txt_api_ref_ui_nbts_tab_row_1_col_1": "style",
+		"txt_api_ref_ui_nbts_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_nbts_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_nbts_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_nbts_tab_row_1_col_5": "Desired style",
+
+		"txt_api_ref_ui_nbts_style_desc": "Valid values for style",
+		"txt_api_ref_ui_nbts_style_tab_head_1": "Value",
+		"txt_api_ref_ui_nbts_style_tab_head_2": "Description",
+		"txt_api_ref_ui_nbts_style_row_1_col_1": "white",
+		"txt_api_ref_ui_nbts_style_row_1_col_2": "white text",
+		"txt_api_ref_ui_nbts_style_row_2_col_1": "black",
+		"txt_api_ref_ui_nbts_style_row_2_col_2": "black text",
+
+		"txt_api_ref_ui_bc_title": "pp.setBackgroundColor",
+		"txt_api_ref_ui_bc_desc": "Sets the color of the page background color. If the color value is malformed, nothing will happen.",
+
+		"txt_api_ref_ui_bc_tab_row_1_col_1": "style",
+		"txt_api_ref_ui_bc_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_bc_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_bc_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_bc_tab_row_1_col_5": "HexColor value of desired color",
+
+		"txt_api_ref_ui_epdr_title": "pp.setEnablePullDownRefresh",
+		"txt_api_ref_ui_epdr_desc": "Disables or enables pull-to-fresh.",
+
+		"txt_api_ref_ui_epdr_tab_row_1_col_1": "enabled",
+		"txt_api_ref_ui_epdr_tab_row_1_col_2": "boolean",
+		"txt_api_ref_ui_epdr_tab_row_1_col_3": "undefined",
+		"txt_api_ref_ui_epdr_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_epdr_tab_row_1_col_5": "If pull-to-refresh is enabled",
+
+		"txt_api_ref_ui_uw_title": "pp.showUpdateWarning",
+		"txt_api_ref_ui_uw_desc": "Displays an update warning dialog, prompting users to update their PayPay app. ",
+
+		"txt_api_ref_ui_uw_tab_row_1_col_1": "isMandatory",
+		"txt_api_ref_ui_uw_tab_row_1_col_2": "boolean",
+		"txt_api_ref_ui_uw_tab_row_1_col_3": "false",
+		"txt_api_ref_ui_uw_tab_row_1_col_4": "No",
+		"txt_api_ref_ui_uw_tab_row_1_col_5": "If set to true, user can't continue use your Mini App before he updates PayPay app",
+
+		"txt_api_ref_ui_uw_tab_desc": "Success callback parameters",
+		"txt_api_ref_ui_uw_tab_head_1": "Property",
+		"txt_api_ref_ui_uw_tab_head_2": "Description",
+		"txt_api_ref_ui_uw_row_1_col_1": "userAction",
+		"txt_api_ref_ui_uw_row_1_col_2": "String",
+
+		"txt_api_ref_ui_sb_title": "pp.setScreenBrightness",
+		"txt_api_ref_ui_sb_desc": "Sets the brightness of the screen.",
+
+		"txt_api_ref_ui_sb_tab_row_1_col_1": "value",
+		"txt_api_ref_ui_sb_tab_row_1_col_2": "float",
+		"txt_api_ref_ui_sb_tab_row_1_col_3": "-",
+		"txt_api_ref_ui_sb_tab_row_1_col_4": "Yes",
+		"txt_api_ref_ui_sb_tab_row_1_col_5": "value must be between 0.0 and 1.0. Setting to 0 resets the brightness to the original level",
+
+		"txt_api_ref_ui_ns_title": "pp.setNavigationStyle",
+		"txt_api_ref_ui_ns_desc": "Sets navigation bar style programmatically. Values are safe as navigationStyle entry in app.json. ",
+
+		"txt_api_ref_ui_ns_tab_row_1_col_1": "style",
+		"txt_api_ref_ui_ns_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_ns_tab_row_1_col_3": "-",
+		"txt_api_ref_ui_ns_tab_row_1_col_4": "Yes",
+		"txt_api_ref_ui_ns_tab_row_1_col_5": "Desired navigation bar style",
+
+		"txt_api_ref_ui_ns_style_tab_desc": "Values for style",
+		"txt_api_ref_ui_ns_style_tab_head_1": "Property",
+		"txt_api_ref_ui_ns_style_tab_head_2": "Description",
+		"txt_api_ref_ui_ns_style_row_1_col_1": "default",
+		"txt_api_ref_ui_ns_style_row_1_col_2": "Default style",
+		"txt_api_ref_ui_ns_style_row_2_col_1": "custom",
+		"txt_api_ref_ui_ns_style_row_2_col_2": "Transparent style",
+		"txt_api_ref_ui_ns_style_row_3_col_1": "none",
+		"txt_api_ref_ui_ns_style_row_3_col_2": "Navigation bar is invisible",
+
+		"txt_api_ref_ui_lns_title": "pp.loadNotificationStatus",
+		"txt_api_ref_ui_lns_desc": "Loads the latest notification status. Mini App needs to support notification center to use this API. Note that this API will not return anything if there is a notification. Instead, a red dot will be displayed in the top right corner of the notification icon to show that there is new notification. ",
+
+		"txt_api_ref_ui_gci_title": "pp.generateCodeImage",
+		"txt_api_ref_ui_gci_desc": "Generates a QR code image. Result will be returned as a local file path.",
+
+		"txt_api_ref_ui_gci_tab_row_1_col_1": "data",
+		"txt_api_ref_ui_gci_tab_row_1_col_2": "string",
+		"txt_api_ref_ui_gci_tab_row_1_col_3": "-",
+		"txt_api_ref_ui_gci_tab_row_1_col_4": "Yes",
+		"txt_api_ref_ui_gci_tab_row_1_col_5": "Data that needs to be put into the code",
+		"txt_api_ref_ui_gci_tab_row_2_col_1": "type",
+		"txt_api_ref_ui_gci_tab_row_2_col_2": "string",
+		"txt_api_ref_ui_gci_tab_row_2_col_3": "\"qrcode\"",
+		"txt_api_ref_ui_gci_tab_row_2_col_4": "No",
+		"txt_api_ref_ui_gci_tab_row_2_col_5": "Currently only \"qrcode\" type is supported",
+		"txt_api_ref_ui_gci_tab_row_3_col_1": "size",
+		"txt_api_ref_ui_gci_tab_row_3_col_2": "size object",
+		"txt_api_ref_ui_gci_tab_row_3_col_3": "-",
+		"txt_api_ref_ui_gci_tab_row_3_col_4": "No",
+		"txt_api_ref_ui_gci_tab_row_3_col_5": "Desired size of the generated code image",
+
+		"txt_api_ref_ui_gci_size_tab_desc": "Size object",
+		"txt_api_ref_ui_gci_size_tab_head_1": "Value",
+		"txt_api_ref_ui_gci_size_tab_head_2": "Description",
+		"txt_api_ref_ui_gci_size_row_1_col_1": "width",
+		"txt_api_ref_ui_gci_size_row_1_col_2": "Desired width of the returned photo",
+		"txt_api_ref_ui_gci_size_row_2_col_1": "height",
+		"txt_api_ref_ui_gci_size_row_2_col_2": "Desired height of the returned photo",
+
+		"txt_api_ref_ui_gci_success_tab_desc": "Success callback parameters",
+		"txt_api_ref_ui_gci_success_row_1_col_1": "path",
+		"txt_api_ref_ui_gci_success_row_1_col_2": "string",
+		"txt_api_ref_ui_gci_success_row_1_col_5": "Local file path for the photo file. You can use this directly in img tags src property.",
+
+		"txt_api_ref_ui_gci_error_tab_desc": "Error code",
+		"txt_api_ref_ui_gci_error_tab_head_1": "Value",
+		"txt_api_ref_ui_gci_error_tab_head_2": "Description",
+		"txt_api_ref_ui_gci_error_row_1_col_1": "BAD_REQUEST_INSUFFICIENT_PARAMETER",
+		"txt_api_ref_ui_gci_error_row_1_col_2": "Required parameter(s) is missing",
+		"txt_api_ref_ui_gci_error_row_2_col_1": "COULD_NOT_GENERATE_BARCODE",
+		"txt_api_ref_ui_gci_error_row_2_col_2": "Failed to generate the code",
+
+		"txt_api_ref_plc_title": "Page Lifecycle",
+		"txt_api_ref_plc_desc": "These APIs will receive page lifecycle events.",
+		"txt_api_ref_plc_note_1": "Callback timing",
+		"txt_api_ref_plc_note_2": "Only success will be called",
+
+		"txt_api_ref_plc_n1_desc1": "Since we are hooking native components' lifecycle events with JSBridges, if native components’ lifecycle events happen before the html of a  page has been loaded where your javascript file will be executed, those lifecycle events won't be received.",
+		"txt_api_ref_plc_n1_desc2": "This could happen when your page is being rendered for the first time. You might not receive pp.pageWillAppear if the mobile device couldn't finish rendering your html before it presents the screen to the user.",
+		"txt_api_ref_plc_n1_desc3": "So for first time loadings, please use what your framework provides, like mounted() in Vuejs.",
+		"txt_api_ref_plc_n1_desc4": "Thus, the use case for this bridge is when users navigate back to this page. In this case, mounted() won't be called so instead please refer to this event.",
+
+		"txt_api_ref_plc_n2_desc1": "Note that page lifecycle events are not a one-time transaction. As long as the page still remains in memory, it could receive those events several times during its lifetime and depending on the user's action. Thus for those APIs, only success callback will be called upon receiving events. Fail and Complete will never be called. ",
+
+		"txt_api_ref_plc_wa_title": "pp.pageWillAppear",
+		"txt_api_ref_plc_wa_desc": "Registers a callback that would be called when the current page appears to the user.",
+
+		"txt_api_ref_plc_wd_title": "pp.pageWillDisappear",
+		"txt_api_ref_plc_wd_desc": "Registers a callback that will be called when the current page disappears from the user.",
+
+		"txt_api_ref_perm_title": "Permissions",
+		"txt_api_ref_perm_desc": "Below are the APIs that are related to tasks that need to obtain user’s permission before execution.",
+
+		"txt_api_ref_perm_rp_title": "pp.requestPermission",
+		"txt_api_ref_perm_rp_desc": "Requests permissions when you onboard users to your Mini App. Please note that all permissions will be called at once. ",
+
+		"txt_api_ref_perm_rp_tab_desc": "Success function parameter",
+		"txt_api_ref_perm_rp_row_1_col_1": "granted_permissions",
+		"txt_api_ref_perm_rp_row_1_col_2": "[string]",
+		"txt_api_ref_perm_rp_row_1_col_5": "Permissions that have been granted",
+
+		"txt_api_ref_perm_ps_title": "getPermissionStatus",
+		"txt_api_ref_perm_ps_desc": "Gets the status of a specific permission.",
+
+		"txt_api_ref_perm_ps_tab_row_1_col_1": "name",
+		"txt_api_ref_perm_ps_tab_row_1_col_2": "string",
+		"txt_api_ref_perm_ps_tab_row_1_col_3": "-",
+		"txt_api_ref_perm_ps_tab_row_1_col_4": "No",
+		"txt_api_ref_perm_ps_tab_row_1_col_5": "Name of the permission. If not specified, this bridge will return all granted scopes",
+
+		"txt_api_ref_perm_ps_cp_tab_desc": "Complete parameters",
+		"txt_api_ref_perm_ps_cp_tab_row_1_col_1": "status",
+		"txt_api_ref_perm_ps_cp_tab_row_1_col_2": "string",
+		"txt_api_ref_perm_ps_cp_tab_row_1_col_5": "A string indicating if the permission has been granted. Only exist when name is specified",
+		"txt_api_ref_perm_ps_cp_tab_row_2_col_1": "granted_permissions",
+		"txt_api_ref_perm_ps_cp_tab_row_2_col_2": "array of string",
+		"txt_api_ref_perm_ps_cp_tab_row_2_col_5": "An array containing all granted scopes strings. Only exist when name is not specified.",
+
+		"txt_api_ref_perm_ps_val_tab_desc": "Values for status",
+		"txt_api_ref_perm_ps_val_tab_row_1_head_1": "Property",
+		"txt_api_ref_perm_ps_val_tab_row_1_head_2": "Description",
+		"txt_api_ref_perm_ps_val_tab_row_1_col_1": "GRANTED",
+		"txt_api_ref_perm_ps_val_tab_row_1_col_2": "Permission has been granted",
+		"txt_api_ref_perm_ps_val_tab_row_2_col_1": "DENIED",
+		"txt_api_ref_perm_ps_val_tab_row_2_col_2": "Permission was denied",
+
+		"txt_api_ref_perm_oas_title": "pp.OpenAppSettings",
+		"txt_api_ref_perm_oas_desc": "Opens user’s operation system settings.",
+
+		"txt_api_ref_func_title": "PayPay Functionalities",
+		"txt_api_ref_func_sec_warning": "Security Warning!",
+		"txt_api_ref_func_desc1": "Retrieving user information and initiating payment related functions will require APIs that interact with PayPay’s backend service. For every API request to PayPay’s backend service, along with the decoded result, we will pass a base64 encoded JWT which contains the original result. ",
+		"txt_api_ref_func_desc2": "For critical operations such as displaying payment results, it is your responsibility to confirm whether or not the decoded result is correct by sending JWT to your backend and verify the result with the private key obtained from our OPA. ",
+		"txt_api_ref_func_desc3": "Please refer to #this document# on how to verify JWT yourself.",
+		"txt_api_ref_func_desc3_url": ["", "https://www.paypay.ne.jp/opa/doc/v1.0/get_public_key#section/HTTP-5xx", ""],
+
+		"txt_api_ref_func_uaid_title": "pp.getUAID",
+		"txt_api_ref_func_uaid_desc": "Gets user authorization ID for your Mini App. ",
+		"txt_success_callback_params": "Success callback parameters",
+		"txt_callback_param": "jws",
+		"txt_string_param_type": "string",
+		"txt_callback_param_desc": "Encrypted result of UAID",
+
+		"txt_api_ref_func_up_title": "pp.getUserProfile",
+		"txt_api_ref_func_up_desc": "Gets user profile information.",
+		"txt_success_function_parameter": "Success function parameters",
+		"txt_user_prof_param_1": "fullName",
+		"txt_user_prof_param_1_desc": "full name of current user",
+		"txt_user_prof_param_2": "nickName",
+		"txt_user_prof_param_2_desc": "nickname of current user",
+		"txt_user_prof_param_3": "avatarUrl",
+		"txt_user_prof_param_3_desc": "avatar URL of current user",
+		"txt_user_prof_param_4": "email",
+		"txt_user_prof_param_4_desc": "email address of current user",
+		"txt_user_prof_param_5": "phoneNumber",
+		"txt_user_prof_param_5_desc": "phone number address of current user",
+		"txt_status": "status",
+		"txt_status_desc": "COMPLETED or NOT_COMPLETED. Indicates whether or not a user has completed KYC.",
+		"txt_kycAt": "kycAt",
+		"txt_kycAt_desc": "Timestamp of when the user finished KYC. Ex) \"2020-07-17T12:34:56Z\"",
+		"txt_kycInfo": "kycInfo",
+		"txt_kycInfo_desc": "KYC information of the user",
+		"txt_kycInfo_type": "KycInfo object",
+		"txt_last_name": "lastName",
+		"txt_last_name_desc": "Last name",
+		"txt_first_name": "firstName",
+		"txt_first_name_desc": "First name",
+		"txt_last_name_kana": "lastNameKana",
+		"txt_last_name_kana_desc": "Kana of last name",
+		"txt_first_name_kana": "firstNameKana",
+		"txt_first_name_kana_desc": "Kana of first name",
+		"txt_dob": "dateOfBirth",
+		"txt_dob_desc": "Birthday in yyyyMMdd format",
+		"txt_job": "job",
+		"txt_job_desc": "Job title",
+		"txt_address_obj": "address",
+		"txt_address_obj_type": "Address object",
+		"txt_address_obj_desc": "Address information",
+		"txt_zip_code": "zipCode",
+		"txt_country_code": "countryCode",
+		"txt_state": "state",
+		"txt_city": "city",
+		"txt_street_1": "street1",
+		"txt_street_2": "street2",
+		"txt_zip_code_desc": "Zip code",
+		"txt_country_code_desc": "Only JP will be returned at this moment",
+		"txt_state_desc": "Prefecture Ex, \"東京都\"",
+		"txt_city_desc": "City/town Ex, \"港区\"",
+		"txt_street_1_desc": "Street Ex, \"赤坂1-1-1\"",
+		"txt_street_2_desc": "Apartment name, room number Ex, \"ペイマンション101\"",
+		"txt_balance": "balance",
+		"txt_balance_desc": "Balance of current user",
+		"txt_number_type": "number",
+		"txt_boolean": "boolean",
+		"txt_int": "int",
+		"txt_amount_type": "Amount",
+		"txt_obj_order_item": "OrderItem object",
+		"txt_arr_order_item": "array(OrderItem)",
+		"txt_merchant_desc": "Merchant alias",
+		"txt_merchant_payment_id_desc": "Unique payment transaction id provided by the merchant",
+		"txt_amount_desc": "Amount object of the payment",
+		"txt_order_desc_desc": "Description of the order",
+		"txt_order_items_desc": "Items that are included in this payment",
+		"txt_meta_data_desc": "Extra information merchant wants to add",
+		"txt_store_info_desc": "Store info for the merchant",
+		"txt_store_id_desc": "Id to identify store under merchant",
+		"txt_prepaid_only_desc": "Whether or not to limit payment method to prepaid only",
+		"txt_requested_at_desc": "Epoch timestamp in seconds",
+		"txt_is_authorisation_desc": "By default this value will be false. Please set it to true if the amount will be captured later.",
+		"txt_amount_obj_desc": "Amount of the payment. This number always has to be greater than 0.",
+		"txt_currency_desc": "Currency of the amount",
+		"txt_item_name_desc": "Name of the item",
+		"txt_category_desc": "Category of the item",
+		"txt_quantity_desc": "Quantity of the item",
+		"txt_product_id_desc": "Product Id in merchant’s system",
+		"txt_unit_price_desc": "Unit price of the item",
+		"txt_payment_result": "Encrypted result of payment execution",
+		"txt_payment_failed_desc": "payment failed",
+		"txt_user_cancelled_desc": "user canceled the payment",
+		"txt_merchant_topup_id_desc": "The unique topup transaction id provided by merchant",
+		"txt_requested_at_txt": "Epoch timestamp in seconds",
+		"txt_topup_prepaid_only": "Limit topup method to prepaid only",
+		"txt_topup_failed": "Topup failed",
+		"txt_topup_error_not_success": "Topup succeeded but balance is not added",
+		"txt_user_cancelled": "User canceled the payment",
+
+		"txt_api_ref_perm_kyci_title": "pp.getKycInformation",
+		"txt_api_ref_perm_kyci_desc": "Gets user’s kyc information. mini_app_kyc is required to call this API. ",
+
+		"txt_api_ref_func_bal_title": "pp.getBalance",
+		"txt_api_ref_func_bal_desc": "Gets PayPay wallet balance information for the current user.",
+
+		"txt_api_ref_func_mp_title": "pp.makePayment",
+		"txt_api_ref_func_mp_desc": "Initiates payment request. After calling this API, PayPay app will automatically bring up the checkout screen. The checkout screen will include the following functionalities: change payment method, charge insufficient funds, and execute payment.",
+
+		"txt_api_ref_func_tu_title": "pp.topup",
+		"txt_api_ref_func_tu_desc": "Initiates a Top Up flow.",
+
+		"txt_api_ref_si_title": "Server Integration",
+		"txt_api_ref_si_desc": "PayPay Mini App is aiming to contain most of the integration with front end APIs to reduce the necessity of hosting a backend infrastructure on the Mini App provider side. However, there are still some tasks that need backend support. ",
+
+		"txt_api_ref_si_jwt_title": "JWT",
+		"txt_api_ref_si_jwt_desc1": "For some responses, especially those returned to PayPay’s financial services, we will append a raw jws field as the original response. ",
+		"txt_api_ref_si_jwt_example_desc": "For example, a response of pp.makePayment() would be something like the below: ",
+
+		"txt_api_ref_si_jwt_desc2": "This string value is a #JWT# string, containing a header, payload, and signature signed with our public key. ",
+		"txt_api_ref_si_jwt_desc3": "You could send this JWT to your backend to verify if this response has not been tampered as a security check. You could obtain our public key to decode this response. ",
+		"txt_api_ref_si_jwt_desc2_url": ["", "https://jwt.io/", ""],
+
+		"txt_api_ref_network": {
+			"title": "Network",
+			"desc": "Network APIs are needed to communicate with remote servers.",
+			"request": {
+				"title": "pp.request",
+				"desc": "Initiates https request.",
+				"param": {
+
+					"row1": {
+						"col1": "url",
+						"col2": "string",
+						"col3": "-",
+						"col4": "Yes",
+						"col5": "URL of the remote server"
+					},
+					"row2": {
+						"col1": "data",
+						"col2": "dictionary",
+						"col3": "undefined",
+						"col4": "No",
+						"col5": "Request Parameter"
+					},
+					"row3": {
+						"col1": "header",
+						"col2": "dictionary",
+						"col3": "[content-type: application/json]",
+						"col4": "No",
+						"col5": "Request header. Referer is not available in Header. content-type is application/json by default."
+					},
+					"row4": {
+						"col1": "method",
+						"col2": "dictionary",
+						"col3": "GET",
+						"col4": "No",
+						"col5": "HTTP request method."
+					},
+					"row5": {
+						"col1": "filePath",
+						"col2": "dictionary",
+						"col3": "-",
+						"col4": "No",
+						"col5": "filePath that points to the file that you want to upload. Specify a key/value parameter as {'your file name': your file path'} if you indicate 'multipart/form-data' as content-type  in the header."
+					}
+				}
+			}
+		},
+
+		"txt_api_ref_network_n1_desc": "PayPay Mini App will either invoke success or fail callback under the following criterias:",
+		"txt_api_ref_network_n1_i1": "If the properties for url/data/header/method is invalid, fail callback will be invoked and display invalid url/data/header/method error messages",
+		"txt_api_ref_network_n1_i2": "If network is not reachable, fail callback will be invoked with \"networking not reachable\" error.",
+		"txt_api_ref_network_n1_i3": "If request times out, fail callback will be invoked with \"request time out\" error.",
+		"txt_api_ref_network_n1_i4": "If response status code is out of 200 - 299, fail callback will be invoked with \"none 200 status code {statusCode}\" error.",
+		"txt_api_ref_network_n1_i5": "If response data can not be stringified, fail callback will be invoked with \"invalid response\" error.",
+		"txt_api_ref_network_n1_i6": "In all other cases, success callback will be invoked.",
+
+		"txt_api_ref_network_om_tab_desc": "Valid values of object.method",
+		"txt_api_ref_network_om_tab_row_1_head_1": "Value",
+		"txt_api_ref_network_om_tab_row_1_head_2": "Description",
+		"txt_api_ref_network_om_tab_row_1_col_1": "GET",
+		"txt_api_ref_network_om_tab_row_1_col_2": "HTTP request GET",
+		"txt_api_ref_network_om_tab_row_2_col_1": "POST",
+		"txt_api_ref_network_om_tab_row_2_col_2": "HTTP request POST",
+		"txt_api_ref_network_om_tab_row_3_col_1": "PUT",
+		"txt_api_ref_network_om_tab_row_3_col_2": "HTTP request PUT",
+		"txt_api_ref_network_om_tab_row_4_col_1": "DELETE",
+		"txt_api_ref_network_om_tab_row_4_col_2": "HTTP request DELETE",
+
+
+		"txt_api_ref_network_os_tab_desc": "object.success callback function parameters",
+		"txt_api_ref_network_os_tab_row_1_col_1": "statusCode",
+		"txt_api_ref_network_os_tab_row_1_col_2": "number",
+		"txt_api_ref_network_os_tab_row_1_col_5": "HTTP status code returned by the developer server",
+		"txt_api_ref_network_os_tab_row_2_col_1": "data",
+		"txt_api_ref_network_os_tab_row_2_col_2": "string",
+		"txt_api_ref_network_os_tab_row_2_col_5": "Data returned by the remote server",
+
+		"txt_api_ref_network_of_tab_desc": "object.fail callback function parameters",
+		"txt_api_ref_network_of_tab_row_1_col_1": "errorCode",
+		"txt_api_ref_network_of_tab_row_1_col_2": "string",
+		"txt_api_ref_network_of_tab_row_1_col_5": "A code that indicates error type",
+
+		"txt_api_ref_network_ec_tab_desc": "Valid values of error code",
+		"txt_api_ref_network_ec_tab_row_1_head_1": "Value",
+		"txt_api_ref_network_ec_tab_row_1_head_2": "Description",
+		"txt_api_ref_network_ec_tab_row_1_col_1": "INVALID_URL",
+		"txt_api_ref_network_ec_tab_row_1_col_2": "url is invalid",
+		"txt_api_ref_network_ec_tab_row_2_col_1": "INVALID_DATA",
+		"txt_api_ref_network_ec_tab_row_2_col_2": "data is invalid",
+		"txt_api_ref_network_ec_tab_row_3_col_1": "INVALID_HEADER",
+		"txt_api_ref_network_ec_tab_row_3_col_2": "header is invalid",
+		"txt_api_ref_network_ec_tab_row_4_col_1": "INVALID_METHOD",
+		"txt_api_ref_network_ec_tab_row_4_col_2": "method is invalid",
+		"txt_api_ref_network_ec_tab_row_5_col_1": "NOT_REACHABLE",
+		"txt_api_ref_network_ec_tab_row_5_col_2": "device not connected to Internet",
+		"txt_api_ref_network_ec_tab_row_6_col_1": "TIME_OUT",
+		"txt_api_ref_network_ec_tab_row_6_col_2": "request time out",
+		"txt_api_ref_network_ec_tab_row_7_col_1": "NONE_WHITELIST_DOMAIN",
+		"txt_api_ref_network_ec_tab_row_7_col_2": "remote server's domain is not registered in white list inside app.json",
+		"txt_api_ref_network_ec_tab_row_8_col_1": "STATUS_CODE_ERROR",
+		"txt_api_ref_network_ec_tab_row_8_col_2": "received non-20x status code",
+		"txt_api_ref_network_ec_tab_row_9_col_1": "INVALID_RESPONSE",
+		"txt_api_ref_network_ec_tab_row_9_col_2": "can't stringify response data",
+
+		"txt_mfmap_title": "Mini App Payment",
+		"txt_mfmap_description": "Mini Apps providers can implement quick payments within PayPay Mini Apps. Users would be able to engage in a seamless payment process without having to leave the service.",
+		"txt_mfmap_guidelines": "Guidelines",
+		"txt_mfmap_guidedesc": "All payment related screens are generated by PayPay via API integration.",
+		"txt_mfmap_guidesubheading1": "Check out screen",
+		"txt_mfmap_guidesubheading2": "Payment completion screen",
+		"txt_mfmap_hint1": "When users choose to pay via PayPay wallet and there is insufficient balance, the following error screen will come up after the check out screen. Users would be able to top up their PayPay wallets and proceed to payment straight away from this screen:",
+		"txt_mfmap_apiheading": "API",
+		"txt_mfmap_apidesc": "Use the following API(s) to create this feature: ",
+		"txt_mfmap_descpoint_name": "pp.makePayment#",
+		"txt_mfmap_descpoint_url": ["/miniapp/docs/apireference/functionalities?passcode=#pp-makepayment"],
+		"txt_mfmap_sec1_heading": "1. Close button",
+		"txt_mfmap_sec1_description": "Closes the half view check out screen.",
+		"txt_mfmap_sec2_heading": "2. Screen name",
+		"txt_mfmap_sec2_description": "Displays screen name: “Payment”",
+		"txt_mfmap_sec3_heading": "3. Amount (including tax)",
+		"txt_mfmap_sec3_description": "Displays the total amount customers have to pay. This amount will always have to be a positive integer.",
+		"txt_mfmap_sec4_heading": "4. Select payment method",
+		"txt_mfmap_sec4_description": "Users will be able to select a different payment method. ",
+		"txt_mfmap_sec5_heading": "5. Payment button",
+		"txt_mfmap_sec5_description": "Will lead to payment after pressing this button. ",
+		"txt_mfmap_sec6_heading": "1. Service name and icon",
+		"txt_mfmap_sec6_description": "Displays service’s icon & name.",
+		"txt_mfmap_sec7_heading": "2. Amount",
+		"txt_mfmap_sec7_description": "Displays the total amount customers paid.",
+		"txt_mfmap_sec8_heading": "3. Payment status",
+		"txt_mfmap_sec8_description": "Displays the status of the payment. There are three statuses: 1) Success 2) Failed 3) Pre-auth",
+		"txt_mfmap_sec9_heading": "4. Cash back module",
+		"txt_mfmap_sec9_description": "Informs the user the amount of cash back they will receive from this payment. ",
+		"txt_mfmap_sec10_heading": "5. Order ID",
+		"txt_mfmap_sec10_description": "Displays unique ID that was created for this payment.",
+		"txt_mfmap_sec11_heading": "6. Close button",
+		"txt_mfmap_sec11_description": "Closes the payment complete screen.",
+		"txt_mftupw_title": "Topup PayPay Wallet",
+		"txt_mftupw_description": "Users can conveniently purchase goods through the Mini App payment functionality. In addition to that, a user can also top up their PayPay wallet from within a PayPay Mini App in the event that they have an insufficient balance.",
+		"txt_mftupw_guidelines": "Guidelines",
+		"txt_mftupw_guidedesc": "All payment related screens are generated by PayPay via API integration.",
+		"txt_mftupw_apiheading": "API",
+		"txt_mftupw_apidesc": "Use the following API(s) to create this feature: ",
+		"txt_mftupw_descpoint_name": "pp.topup#",
+		"txt_mftupw_descpoint_url": ["/miniapp/docs/apireference/functionalities?passcode=#pp-topup"],
+		"txt_mftupw_sec1_heading": "1. Back button",
+		"txt_mftupw_sec1_description": "Shows the screen before the top up screen.",
+		"txt_mftupw_sec2_heading": "2. Screen name",
+		"txt_mftupw_sec2_description": "Displays screen name: Top up",
+		"txt_mftupw_sec3_heading": "3. Top up amount input box",
+		"txt_mftupw_sec3_description": "Will show a keyboard when pressing this box area. Users would be able to input the top up amount themselves.",
+		"txt_mftupw_sec4_heading": "4. Top up amount options: More",
+		"txt_mftupw_sec4_description": "Display more fixed top up amount options",
+		"txt_mftupw_sec5_heading": "5. Top up amount options: Input",
+		"txt_mftupw_sec5_description": "Leads to top up input full screen",
+		"txt_mftupw_sec6_heading": "6. Select top up method",
+		"txt_mftupw_sec6_description": "Users are able to select different payment methods for top up",
+		"txt_mftupw_sec7_heading": "7. Charge button",
+		"txt_mftupw_sec7_description": "Will lead to top up completion screen",
+		"side_menu": {
+			"txt_miniapp": "Mini App",
+			"txt_feature": "Features",
+			"txt_user_consent": "User Consent",
+			"txt_HTML5_location": "HTML5 Location Data",
+			"txt_generate_qr_codes": "Generate QR Codes",
+			"txt_show_balance": "Show Balance",
+			"txt_miniapp_payment": "Mini App payment",
+			"txt_topup_payment": "Topup Payment",
+			"txt_direct_debit_payment": "Direct Debit Payment",
+			"txt_preauth_capture": "PreAuth & Capture",
+			"txt_push_notification": "Push Notification",
+			"txt_home_notification": "Home Notification",
+			"txt_notification_center": "Notification Center",
+			"txt_getting_started": "Getting Started",
+			"txt_api_reference": "API References",
+			"txt_common_spec": "Common specifications",
+			"txt_navigation": "Navigation",
+			"txt_network": "Network",
+			"txt_functionalities": "Functionalities",
+			"txt_data": "Data",
+			"txt_permissions": "Permissions",
+			"txt_deeplinkandshare": "Deeplink & Share",
+			"txt_pagelifecycle": "Page Lifecycle",
+			"txt_system": "System",
+			"txt_ui": "UI",
+			"txt_serverIntegration": "Server Integration",
+			"txt_designGuidelines": "Design Guidelines",
+			"txt_mainComponents": "Main UI Components",
+			"txt_miniappicons": "PayPay Mini App Icon",
+			"txt_loadingIcon": "Loading Icon",
+			"txt_policy": "Policy",
+			"txt_requestForm": "Request Form"
+		},
+		"routerLink": {
+			"Index": [{
+					"displayName": "Home",
+					"routerPath": "/"
+				},
+				{
+					"displayName": "Mini App",
+					"routerPath": "#"
+				}
+			],
+			"Feature": {
+				"Index": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "#"
+					}
+				],
+				"mfUserContestComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "User Consent",
+						"routerPath": "#"
+					}
+				],
+				"mfdHtml5LocationComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "HTML5 Location Data",
+						"routerPath": "#"
+					}
+				],
+				"mfGenerateQRComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Generate QR Codes in PayPay Mini App",
+						"routerPath": "#"
+					}
+				],
+				"mfShowBalanceComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Show Balance",
+						"routerPath": "#"
+					}
+				],
+				"mfDirectDebitComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Direct Debit Payment",
+						"routerPath": "#"
+					}
+				],
+				"mfPreAuthCaptureComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Pre-authorization and Capture",
+						"routerPath": "#"
+					}
+				],
+				"mfMiniAppPaymentComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Mini App Payment",
+						"routerPath": "#"
+					}
+				],
+				"mfTopupWalletComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Topup PayPay Wallet",
+						"routerPath": "#"
+					}
+				],
+				"mfPushNotificationComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Push Notification",
+						"routerPath": "#"
+					}
+				],
+				"mfHomeNotificationComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "PayPay Home Notification",
+						"routerPath": "#"
+					}
+				],
+				"mfNotificationCenterComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Feature",
+						"routerPath": "/miniapp/docs/features?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Notification Center",
+						"routerPath": "#"
+					}
+				]
+			},
+			"GettingStarted": {
+				"Index": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Getting Started",
+						"routerPath": "#"
+					}
+				]
+			},
+			"ApiReference": {
+				"marCommonSpecsComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Common specifications",
+						"routerPath": "#"
+					}
+				],
+				"marNavigationComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Navigation",
+						"routerPath": "#"
+					}
+				],
+				"marNetworkComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Network",
+						"routerPath": "#"
+					}
+				],
+				"marFunctionalitiesComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "PayPay Functionalities",
+						"routerPath": "#"
+					}
+				],
+				"marDataComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Data",
+						"routerPath": "#"
+					}
+				],
+				"marPermissionsComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Permissions",
+						"routerPath": "#"
+					}
+				],
+				"marDeeplinkShareComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Deeplink & Share",
+						"routerPath": "#"
+					}
+				],
+				"marLifecycleComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Page Lifecycle",
+						"routerPath": "#"
+					}
+				],
+				"marSystemComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "System",
+						"routerPath": "#"
+					}
+				],
+				"marUIComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "UI",
+						"routerPath": "#"
+					}
+				],
+				"marServerIntegrationComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Server Integration",
+						"routerPath": "#"
+					}
+				]
+			},
+			"DesignGuideLines": {
+				"mainuiComponent": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Main UI Components",
+						"routerPath": "#"
+					}
+				],
+				"paypayIcon": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "PayPay Mini App Icon",
+						"routerPath": "#"
+					}
+				],
+				"loadingIcon": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Loading Icon",
+						"routerPath": "#"
+					}
+				]
+			},
+			"MiniPolicy": {
+				"Index": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "PayPay Mini App Policy",
+						"routerPath": "#"
+					}
+				]
+			},
+			"RequestForm": {
+				"Index": [{
+						"displayName": "Home",
+						"routerPath": "/"
+					},
+					{
+						"displayName": "Mini App",
+						"routerPath": "/miniapp/docs?passcode=qwerty1234abc"
+					},
+					{
+						"displayName": "Request Form",
+						"routerPath": "#"
+					}
+				]
+			}
+		}
+	}
+}
