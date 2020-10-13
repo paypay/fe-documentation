@@ -171,7 +171,18 @@
 				"node": "const merchantRefundId = [\"merchant_refund_id\"];\n\n  // Calling the method to get Refund Details\n  PAYPAY.GetRefundDetails(merchantRefundId, (response) => {\n    // Printing if the method call was SUCCESS\n    console.log(response);\n  });",
 				"java": "// Calling the method to get Refund Details\nPendingPaymentApi apiInstance = new PendingPaymentApi(apiClient);\nRefundDetails response = apiInstance.getRefundDetails(\"merchantRefundId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
 			}
-
+		},
+		"userAuthStatus": {
+			"python": "# Calling the method to get user authorization status\nresponse = client.User.get_authorization_status(\"<userAuthorizationId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+			"php": "/*\n.....initialize SDK\n*/\n\n$response =  $client->user->getUserAuthorizationStatus('userAuthorizationId');\nvar_dump($response['resultInfo']['code']);",
+			"node": "// Calling the method to get user authorization status\n'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\nlet userAuthorizationId = 'userAuthorizationid';\n  PAYPAY.getUserAuthorizationStatus(userAuthorizationId, (response) => {\n    // Printing if the method call was SUCCESS\n    console.log(response.BODY.resultInfo.code);\n  });",
+			"java": "// Calling the method to get user authorization status\nUserApi userApi = new UserApi(apiClient);\nUserAuthorizationStatus response = userApi.getUserAuthorizationStatus(\"userAuthorizationId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
+		},
+		"unlinkUser": {
+			"python": "# Calling the method to unlink the user from the client\nresponse = client.User.unlink_user_athorization(\"<userAuthorizationId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+			"php": "/*\n.....initialize SDK\n*/\n\n$response =  $client->user->unlinkUser('userAuthorizationId');\nvar_dump($response['resultInfo']['code']);",
+			"node": "// Calling the method to unlink the user from the client\n'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\nlet userAuthorizationId = 'userAuthorizationid';\n  PAYPAY.unlinkUser(userAuthorizationId, (response) => {\n    // Printing if the method call was SUCCESS\n    console.log(response.BODY.resultInfo.code);\n  });",
+			"java": "// Calling the method to unlink the user from the client\nUserApi userApi = new UserApi(apiClient);\nNotDataResponse response = userApi.unlinkUser(\"userAuthorizationId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
 		}
 	}
 }
