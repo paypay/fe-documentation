@@ -29,7 +29,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to create a payment authorization",
+               "question":"支払い承認を作成できるようにする必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -97,7 +97,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API with incorrect token",
+               "question":"不正なトークンでAPIにアクセスしているときにエラーが表示されるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -178,7 +178,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to see payment details after creating a payment authorization",
+               "question":"支払い承認を作成した後、支払いの詳細を確認することができます。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -199,7 +199,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to get payment details after capturing the payment authorization for amount higher than merchant threshold",
+               "question":"マーチャント閾値以上の金額の支払い承認を取得した後、支払い詳細を取得することができるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -244,7 +244,7 @@
                ]
             },
             "model3":{
-               "question":"I should be able to get payment details after cancelling a payment authorization",
+               "question":"支払い承認をキャンセルした後、支払いの詳細を取得できるようにする必要があります。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -289,7 +289,7 @@
                ]
             },
             "model4":{
-               "question":"I should not be able to access with incorrect token",
+               "question":"不正なトークンでアクセスできません",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -357,7 +357,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to cancel a payment authorization",
+               "question":"支払い承認を取り消すことができるはずなのですが",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -378,7 +378,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API with incorrect token",
+               "question":"不正なトークンでAPIにアクセスしているときにエラーが表示されるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -478,7 +478,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to capture the payment authorized for amount equals to merchant's threshold value",
+               "question":"マーチャントのしきい値に等しい金額の支払いを許可することができるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -561,7 +561,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to capture the payment authorized for amount less than merchant's threshold value ",
+               "question":"マーチャントのしきい値未満の金額で承認された支払いをキャプチャできるようにする必要があります。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -644,7 +644,7 @@
                ]
             },
             "model3":{
-               "question":"I should be able to capture the payment authorized for amount higher than merchant threshold value",
+               "question":"マーチャントのしきい値よりも高い金額で承認された支払いをキャプチャできるようにする必要があります。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -727,7 +727,7 @@
                ]
             },
             "model4":{
-               "question":"I should not be able to capture already captured acquiring order for amount higher than merchant's threshold",
+               "question":"マーチャントのしきい値よりも高い金額のためにすでにキャプチャされたアクワイアリングオーダーをキャプチャすることができないはずです",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -810,7 +810,7 @@
                ]
             },
             "model5":{
-               "question":"I should not be able to capture already captured acquiring order for amount less than merchant's threshold",
+               "question":"マーチャントのしきい値未満の金額のためにすでにキャプチャされたアクワイアリングオーダーをキャプチャすることができないはずです",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -893,7 +893,7 @@
                ]
             },
             "model6":{
-               "question":"I should not be able to capture already captured acquiring order for amount equal to merchant's threshold",
+               "question":"マーチャントのしきい値に等しい金額のためにすでにキャプチャされたアクワイアリングオーダーをキャプチャすることができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -976,7 +976,7 @@
                ]
             },
             "model7":{
-               "question":"I should not be able to capture the payment for the expired payment preauth for amount equals to merchant threshold value",
+               "question":"マーチャントの閾値に等しい金額の期限切れの支払いpreauthの支払いをキャプチャすることができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1059,7 +1059,7 @@
                ]
             },
             "model8":{
-               "question":"I should not be able to capture the payment for the expired payment preauth for amount less than merchant threshold value",
+               "question":"マーチャントのしきい値よりも少ない金額の期限切れの支払プレ認証の支払をキャプチャすることができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1142,7 +1142,7 @@
                ]
             },
             "model9":{
-               "question":"I should not be able to capture the payment for the expired payment preauth for amount greater than merchant threshold value",
+               "question":"マーチャントのしきい値よりも大きい金額の期限切れの支払プレ認証の支払をキャプチャすることができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1225,7 +1225,7 @@
                ]
             },
             "model10":{
-               "question":"I should be able to see error while accessing API with incorrect token",
+               "question":"不正なトークンでAPIにアクセスしているときにエラーが表示されるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1362,7 +1362,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to revert a payment authorization",
+               "question":"支払い承認を元に戻すことができるはずなのですが",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1416,7 +1416,7 @@
                ]
             },
             "model2":{
-               "question":"I should not be able to revert a payment authorization after the payment is captured for amount equals to merchant's threshold value",
+               "question":"マーチャントのしきい値に等しい金額の支払いをキャプチャした後に、支払い承認を元に戻すことができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1470,7 +1470,7 @@
                ]
             },
             "model3":{
-               "question":"I should not be able to revert a payment authorization after the payment is captured for amount less than merchant's threshold value",
+               "question":"マーチャントのしきい値未満の金額の支払いをキャプチャした後に、支払い承認を元に戻すことができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1524,7 +1524,7 @@
                ]
             },
             "model4":{
-               "question":"I should not be able to revert a payment authorization after the payment is captured for amount higher than merchant's threshold value",
+               "question":"マーチャントのしきい値よりも高い金額の支払いをキャプチャした後に、支払い承認を元に戻すことができません。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1578,7 +1578,7 @@
                ]
             },
             "model5":{
-               "question":"I should be able to see error while accessing API with incorrect token",
+               "question":"不正なトークンでAPIにアクセスしているときにエラーが表示されるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1694,7 +1694,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to refund a payment once the payment is captured for amount equals to merchant's threshold value",
+               "question":"支払いがマーチャントのしきい値に等しい金額でキャプチャされた後、支払いを返金することができるはずです。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1761,7 +1761,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to refund a payment once the payment is captured for amount less than merchant's threshold value",
+               "question":"マーチャントのしきい値未満の金額の支払いを捕捉した後、支払いを返金することができます。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1828,7 +1828,7 @@
                ]
             },
             "model3":{
-               "question":"I should be able to refund a payment once the payment is captured for amount higher than merchant's threshold value",
+               "question":"マーチャントのしきい値よりも高い金額の支払いをキャプチャした後、支払いを返金することができます。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -1895,7 +1895,7 @@
                ]
             },
             "model4":{
-               "question":"I should not be able to access with incorrect token",
+               "question":"不正なトークンでアクセスできません",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -2009,7 +2009,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to make V2 online payments and should get the refund details",
+               "question":"私はV2オンラインでの支払いを行うことができますし、払い戻しの詳細を取得する必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -2030,7 +2030,7 @@
                ]
             },
             "model2":{
-               "question":"I should not be able to access with incorrect token",
+               "question":"不正なトークンでアクセスできません",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -2098,7 +2098,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to get user authorization status",
+               "question":"ユーザ認証ステータスを取得できるようにする必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -2119,7 +2119,7 @@
                ]
             },
             "model2":{
-               "question":"I should not be able to access with incorrect token",
+               "question":"不正なトークンでアクセスできません",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -2183,7 +2183,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to get the masked phone number of the user",
+               "question":"ユーザーのマスクされた電話番号を取得できるようにしないといけないのですが",
                "schema":[
                   {
                      "fmClass":"irq_inputs",

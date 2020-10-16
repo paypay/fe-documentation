@@ -32,7 +32,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to create a online payment",
+                "question":"オンライン決済を作成できるようにすべき",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -116,7 +116,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -207,7 +207,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to make V2 online payments and get payment details using merchantPaymentId",
+                "question":"V2オンライン決済を行い、merchantPaymentIdを使用して決済情報を取得する必要があります。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -228,7 +228,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -296,7 +296,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to make V2 online payments and cancel the payment",
+                "question":"V2オンライン決済をしてキャンセルできるようにしたいのですが",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -317,7 +317,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -394,7 +394,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to make V2 online payments and merchant should be able refund it",
+                "question":"私はV2のオンライン決済を行うことができるべきであり、商人はそれを返金することができるはずです。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -461,7 +461,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -575,7 +575,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to make V2 online payments and should get the refund details",
+                "question":"私はV2オンラインでの支払いを行うことができますし、払い戻しの詳細を取得する必要があります",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -596,7 +596,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -666,7 +666,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to check enough balance in wallet to make a payment",
+                "question":"お財布の残高を十分に確認して支払いができるようにしておかないと",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -685,7 +685,7 @@
                 ]
              },
              "model2":{
-                "question":"As a user I should not be able to check the wallet balance with incorrect authorization",
+                "question":"ユーザーとして、不正な権限でウォレットの残高を確認できないようにすべきではありません。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -751,7 +751,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to get user authorization status",
+                "question":"ユーザ認証ステータスを取得できるようにする必要があります",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -772,7 +772,7 @@
                 ]
              },
              "model2":{
-                "question":"I should not be able to access with incorrect token",
+                "question":"不正なトークンでアクセスできません",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -836,7 +836,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"I should be able to get the masked phone number of the user",
+                "question":"ユーザーのマスクされた電話番号を取得できるようにしないといけないのですが",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
