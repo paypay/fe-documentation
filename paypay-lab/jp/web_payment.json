@@ -33,7 +33,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to create dynamic QR code",
+               "question":"動的なQRコードを作成できるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -84,7 +84,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to create a pre-auth dynamic QR code",
+               "question":"認証前の動的QRコードを作成できるようにしたいのですが",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -169,7 +169,7 @@
                ]
             },
             "model3":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -281,7 +281,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"When consumer makes a payment, I should see payment details",
+               "question":"消費者が支払いをするとき、私は支払いの詳細を表示する必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -302,7 +302,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -370,7 +370,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to access dynamic QR code and delete dynamic QR code",
+               "question":"動的QRコードにアクセスして動的QRコードを削除できるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -392,7 +392,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -461,7 +461,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"When consumer makes a payment, I should cancel it",
+               "question":"消費者が支払いをした場合、私はそれをキャンセルする必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -482,7 +482,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -559,7 +559,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to refund payment",
+               "question":"私は支払いを返金することができるようにする必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -626,7 +626,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -740,7 +740,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"I should be able to see refund details",
+               "question":"返金の詳細を見ることができるようにする必要があります",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -761,7 +761,7 @@
                ]
             },
             "model2":{
-               "question":"I should be able to see error while accessing API incorrectly",
+               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
