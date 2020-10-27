@@ -1,0 +1,61 @@
+{
+	"data": [{
+			"title": "ウェブペイメント】第1回 PayPay Integration Webinar",
+			"date": "18-Aug-2020",
+			"description": "ウェブペイメント】第1回 PayPay Integration Webinar",
+			"Youtube_Link": "https://www.youtube.com/watch?v=Zh6BYvHyDGs&t=34s",
+			"sub_title": [{
+				"title": "Set up PayPay",
+				"description_1": "First, you need a PayPay account. Register now.",
+				"description_2": "Use our official libraries for access to the PayPay API from your application:",
+				"code_snippet": [{
+					"node": "",
+					"python": "# Install through pip Bundle bundle = new Bundle(); bundle.putDouble('nativeSdkForMerchantAmount', Amount); bundle.putString('orderid', OrderID);",
+					"java": "",
+					"php": ""
+				}]
+			}],
+			"Integration_title": "Steps for Integtaion",
+			"Integration": [{
+				"title": "Create the order",
+				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay."
+			}, {
+				"title": "Pay with PayPay",
+				"description": "The user is redirected to his PayPay App for Payment process."
+			}, {
+				"title": "Display Payment Status",
+				"description": "Information about the Payment is displayed to the User in his PayPay App."
+			}]
+		},
+		{
+			"title": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
+			"date": "15-Sep-2020",
+			"description": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
+			"Youtube_Link": "https://www.youtube.com/watch?v=4H8vqj0Nn2Q",
+			"sub_title": [{
+				"title": "Set up PayPay",
+				"description_1": "First, you need a PayPay account. Register now.",
+				"description_2": "Use our official libraries for access to the PayPay API from your application:",
+				"code_snippet": [{
+					"node": "",
+					"python": "# Install through pip Bundle bundle = new Bundle(); bundle.putDouble('nativeSdkForMerchantAmount', Amount); bundle.putString('orderid', OrderID);",
+					"java": "",
+					"php": ""
+				}]
+			}],
+			"Integration_title": "Steps for Integtaion",
+			"Integration": [{
+				"title": "Create the order",
+				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay."
+			}, {
+				"title": "Pay with PayPay",
+				"description": "The user is redirected to his PayPay App for Payment process."
+			}, {
+				"title": "Display Payment Status",
+				"description": "Information about the Payment is displayed to the User in his PayPay App."
+			}]
+		}
+
+	]
+
+}
