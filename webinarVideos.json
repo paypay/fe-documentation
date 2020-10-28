@@ -1,6 +1,6 @@
 {
 	"data": [{
-			"title": "ウェブペイメント】第1回 PayPay Integration Webinar",
+			"title": "PayPay Integration Webinar",
 			"date": "18-Aug-2020",
 			"description": "ウェブペイメント】第1回 PayPay Integration Webinar",
 			"Youtube_Link": "https://www.youtube.com/watch?v=Zh6BYvHyDGs&t=34s",
@@ -24,6 +24,9 @@
 				"description": "The user is redirected to his PayPay App for Payment process."
 			}, {
 				"title": "Display Payment Status",
+				"description": "Information about the Payment is displayed to the User in his PayPay App."
+			}, {
+				"title": "Display Payment",
 				"description": "Information about the Payment is displayed to the User in his PayPay App."
 			}]
 		},
