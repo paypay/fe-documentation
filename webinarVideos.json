@@ -10,7 +10,7 @@
 				"description_2": "Use our official libraries for access to the PayPay API from your application:",
 				"code_snippet": [{
 					"node": "",
-					"python": "# Install through pip Bundle bundle = new Bundle(); \n bundle.putDouble('nativeSdkForMerchantAmount', Amount); \n bundle.putString('orderid', OrderID);",
+					"python": "# Install through pip \n Bundle bundle = new Bundle(); \n bundle.putDouble('nativeSdkForMerchantAmount', Amount); \n bundle.putString('orderid', OrderID);",
 					"java": "",
 					"php": ""
 				}]
