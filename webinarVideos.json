@@ -36,9 +36,9 @@
 			"description": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
 			"Youtube_Link": "https://www.youtube.com/watch?v=4H8vqj0Nn2Q",
 			"sub_title": [{
-				"title": "Set up PayPay",
-				"description_1": "First, you need a PayPay account. Register now.",
-				"description_2": "Use our official libraries for access to the PayPay API from your application:",
+				"title": "Set up PayPay 2",
+				"description_1": "First, you need a PayPay account. Register now. 2",
+				"description_2": "Use our official libraries for access to the PayPay API from your application: 2",
 				"code_snippet": [{
 					"node": "",
 					"python": "import paypayopa \n #Set True for Production Environment.By Default this is set False for Sandbox Environment. \n client = paypayopa.Client(auth = (API_KEY, API_SECRET), production_mode = False) \n client.set_assume_merchant('MERCHANT_ID')",
@@ -46,16 +46,16 @@
 					"php": ""
 				}]
 			}],
-			"Integration_title": "Steps for Integtaion",
+			"Integration_title": "Steps for Integtaion 2",
 			"Integration": [{
-				"title": "Create the order",
-				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay."
+				"title": "Create the order 2",
+				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay. 2"
 			}, {
-				"title": "Pay with PayPay",
-				"description": "The user is redirected to his PayPay App for Payment process."
+				"title": "Pay with PayPay 2",
+				"description": "The user is redirected to his PayPay App for Payment process. 2"
 			}, {
-				"title": "Display Payment Status",
-				"description": "Information about the Payment is displayed to the User in his PayPay App."
+				"title": "Display Payment Status 2",
+				"description": "Information about the Payment is displayed to the User in his PayPay App. 2"
 			}]
 		}
 
