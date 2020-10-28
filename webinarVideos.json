@@ -9,10 +9,10 @@
 				"description_1": "First, you need a PayPay account. Register now.",
 				"description_2": "Use our official libraries for access to the PayPay API from your application:",
 				"code_snippet": [{
-					"node": "",
-					"python": "# Install through pip \n Bundle bundle = new Bundle(); \n bundle.putDouble('nativeSdkForMerchantAmount', Amount); \n bundle.putString('orderid', OrderID);",
-					"java": "",
-					"php": ""
+					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+			"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
+			"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
+			"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
 				}]
 			}],
 			"Integration_title": "Steps for Integtaion",
