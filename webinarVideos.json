@@ -41,10 +41,7 @@
 				"description_2": "Use our official libraries for access to the PayPay API from your application:",
 				"code_snippet": [{
 					"node": "",
-					"python": "import paypayopa
-#Set True for Production Environment. By Default this is set False for Sandbox Environment.
-client = paypayopa.Client(auth=(API_KEY, API_SECRET), production_mode=False)
-client.set_assume_merchant("MERCHANT_ID")",
+					"python": "import paypayopa \n #Set True for Production Environment.By Default this is set False for Sandbox Environment. \n client = paypayopa.Client(auth = (API_KEY, API_SECRET), production_mode = False) \n client.set_assume_merchant('MERCHANT_ID')",
 					"java": "",
 					"php": ""
 				}]
