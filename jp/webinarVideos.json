@@ -28,31 +28,31 @@
 			}]
 		},
 		{
-			"title": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
-			"date": "15-Sep-2020",
-			"description": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
-			"Youtube_Link": "https://www.youtube.com/watch?v=4H8vqj0Nn2Q",
+			"title": "【ウェブペイメント】第1回 PayPay Integration Webinar",
+			"date": "2020年8月30日",
+			"description": "【ウェブペイメント】第1回 PayPay Integration Webinar",
+			"Youtube_Link": "https://www.youtube.com/watch?v=Zh6BYvHyDGs&t=34s",
 			"sub_title": [{
 				"title": "Set up PayPay 2",
-				"description_1": "First, you need a PayPay account. Register now. 2",
-				"description_2": "Use our official libraries for access to the PayPay API from your application: 2",
+				"description_1": "最初に、PayPayアカウントを作成する必要があります。ここから登録してください。",
+				"description_2": "あなたのアプリケーションからPayPayの公式ライブラリを使用することで、PayPay APIにアクセスすることができます。",
 				"code_snippet": [{
+					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+					"php": "",
 					"node": "",
-					"python": "import paypayopa \n #Set True for Production Environment.By Default this is set False for Sandbox Environment. \n client = paypayopa.Client(auth = (API_KEY, API_SECRET), production_mode = False) \n client.set_assume_merchant('MERCHANT_ID')",
-					"java": "",
-					"php": ""
+					"java": ""
 				}]
 			}],
 			"Integration_title": "Steps for Integtaion 2",
 			"Integration": [{
-				"title": "Create the order 2",
-				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay. 2"
+				"title": " 注文を作成する",
+				"description": "「PayPayで支払う」ボタンを提供します。そして、必要な注文情報を使用して注文を作成します。"
 			}, {
-				"title": "Pay with PayPay 2",
-				"description": "The user is redirected to his PayPay App for Payment process. 2"
+				"title": "PayPayで支払う",
+				"description": "ユーザーは、自分のPayPayアプリを使用して支払いを行います。"
 			}, {
-				"title": "Display Payment Status 2",
-				"description": "Information about the Payment is displayed to the User in his PayPay App. 2"
+				"title": "支払いステータスの表示",
+				"description": "支払いに関する情報は、ユーザのPayPayアプリで表示されます。"
 			}]
 		}
 
