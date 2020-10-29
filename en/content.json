@@ -1006,7 +1006,30 @@
 		"title": "Documentation",
 		"integration": "Integration SDKs",
 		"description": "PayPay has a variety of tools to help you build what you need.",
-		"docsHeadline": "Welcome to the PayPay Developer Documentation. Here you can find everything needed to quickly integrate PayPay using our APIs and other libraries. Integration SDKs Start by choosing the PayPay payment service you want to integrate into your project."
+		"docsHeadline": "Welcome to the PayPay Developer Documentation. Here you can find everything needed to quickly integrate PayPay using our APIs and other libraries. Integration SDKs Start by choosing the PayPay payment service you want to integrate into your project.",
+		"sampleProjects": {
+			"title": "Sample Projects",
+			"python": {
+				"description": "A simple and functional E-Commerce site developed in VueJS to demonstrate PayPay's Python SDK's implementations.",
+				"url": "https://github.com/paypay/paypay-sample-ecommerce-backend-python"
+			},
+			"node": {
+				"description": "A simple and functional E-Commerce site developed in VueJS to demonstrate PayPay's Node SDK's implementations.",
+				"url": "https://github.com/paypay/paypay-sample-ecommerce-backend-node"
+			},
+			"java": {
+				"description": "A simple and functional E-Commerce site developed in VueJS to demonstrate PayPay's Java SDK's implementations.",
+				"url": "https://github.com/paypay/paypay-sample-ecommerce-backend-java"
+			},
+			"php": {
+				"description": "A simple and functional E-Commerce site developed in VueJS to demonstrate PayPay's PHP SDK's implementations.",
+				"url": "https://github.com/paypay/paypay-sample-ecommerce-backend-php"
+			},
+			"vue": {
+				"description": "A simple and functional E-Commerce site developed in VueJS to demonstrate PayPay's different language SDK's implementations.",
+				"url": "https://github.com/paypay/paypay-sample-ecommerce-frontend"
+			}
+		}
 	},
 	"ProductImages": {
 		"webPayment": {

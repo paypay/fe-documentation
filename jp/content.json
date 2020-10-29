@@ -1002,7 +1002,30 @@
       "title": "PayPay ガイド",
       "integration": "インテグレーション SDKs",
       "description": "PayPayには、構築するのに必要なさまざまなツールがあります。",
-      "docsHeadline": "PayPay for Developersのドキュメントへようこそ 。私たちは累計10億回以上のトランザクションを処理しています。このページではPayPayとのAPI連携方法や他のコンテンツについて確認できます。インテグレートしたい決済方法を選んで、始めましょう。"
+      "docsHeadline": "PayPay for Developersのドキュメントへようこそ 。私たちは累計10億回以上のトランザクションを処理しています。このページではPayPayとのAPI連携方法や他のコンテンツについて確認できます。インテグレートしたい決済方法を選んで、始めましょう。",
+      "sampleProjects": {
+        "title": "プロジェクトサンプル",
+        "python": {
+          "description": "PayPayのPythonSDKの実装を示すために、VueJSで開発されたシンプルで機能的なEコマースサイト。",
+          "url": "https://github.com/paypay/paypay-sample-ecommerce-backend-python"
+        },
+        "node": {
+          "description": "PayPayのNodeSDKの実装を示すために、VueJSで開発されたシンプルで機能的なEコマースサイト。",
+          "url": "https://github.com/paypay/paypay-sample-ecommerce-backend-node"
+        },
+        "java": {
+          "description": "PayPayのJavaSDKの実装を示すために、VueJSで開発されたシンプルで機能的なEコマースサイト。",
+          "url": "https://github.com/paypay/paypay-sample-ecommerce-backend-java"
+        },
+        "php": {
+          "description": "PayPayのPHPSDKの実装を示すために、VueJSで開発されたシンプルで機能的なEコマースサイト。",
+          "url": "https://github.com/paypay/paypay-sample-ecommerce-backend-php"
+        },
+        "vue": {
+          "description": "PayPayの異なる言語SDKの実装を示すためにVueJSで開発されたシンプルで機能的なEコマースサイト。",
+          "url": "https://github.com/paypay/paypay-sample-ecommerce-frontend"
+        }
+      }
     },
     "ProductImages": {
       "webPayment": {
