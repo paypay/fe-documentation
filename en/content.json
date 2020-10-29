@@ -1004,6 +1004,7 @@
 	},
 	"Documentation": {
 		"title": "Documentation",
+		"integration": "Integration SDKs",
 		"description": "PayPay has a variety of tools to help you build what you need.",
 		"docsHeadline": "Welcome to the PayPay Developer Documentation. Here you can find everything needed to quickly integrate PayPay using our APIs and other libraries. Integration SDKs Start by choosing the PayPay payment service you want to integrate into your project."
 	},
