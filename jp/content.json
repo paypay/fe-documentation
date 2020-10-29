@@ -1000,6 +1000,7 @@
     },
     "Documentation": {
       "title": "PayPay ガイド",
+      "integration": "インテグレーション SDKs",
       "description": "PayPayには、構築するのに必要なさまざまなツールがあります。",
       "docsHeadline": "PayPay for Developersのドキュメントへようこそ 。私たちは累計10億回以上のトランザクションを処理しています。このページではPayPayとのAPI連携方法や他のコンテンツについて確認できます。インテグレートしたい決済方法を選んで、始めましょう。"
     },
