@@ -1,18 +1,23 @@
 {
 	"data": [{
-			"title": "【ウェブペイメント】第1回 PayPay Integration Webinar",
-			"date": "2020年8月8日",
+			"title": "Open Payment API",
+			"date": "2020年8月18日",
 			"description": "【ウェブペイメント】第1回 PayPay Integration Webinar",
 			"Youtube_Link": "https://youtu.be/Zh6BYvHyDGs",
+			"webinar_txt": "WEBINAR",
+			"webinar_videos_txt": "ビデオ",
+			"youtube_link_txt": "Youtubeリンク",
+			"summary_txt": "概要",
 			"sub_title": [{
 				"title": "Set up PayPay",
-				"description_1": "最初に、PayPayアカウントを作成する必要があります。ここから登録してください。",
+				"description_1": "最初に、PayPayアカウントを作成する必要があります。",
+				"description_1_1": "ここから登録してください。",
 				"description_2": "あなたのアプリケーションからPayPayの公式ライブラリを使用することで、PayPay APIにアクセスすることができます。",
 				"code_snippet": [{
 					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-			"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
-			"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
-			"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
+					"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
+					"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
+					"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
 				}]
 			}],
 			"Integration_title": "Steps for Integtaion",
@@ -28,22 +33,27 @@
 			}]
 		},
 		{
-			"title": "【ウェブペイメント】第1回 PayPay Integration Webinar",
-			"date": "2020年8月30日",
-			"description": "【ウェブペイメント】第1回 PayPay Integration Webinar",
+			"title": "Open Payment API",
+			"date": "2020年9月15日",
+			"description": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
 			"Youtube_Link": "https://youtu.be/4H8vqj0Nn2Q",
+			"webinar_txt": "WEBINAR",
+			"webinar_videos_txt": "ビデオ",
+			"youtube_link_txt": "Youtubeリンク",
+			"summary_txt": "概要",
 			"sub_title": [{
-				"title": "Set up PayPay 2",
-				"description_1": "最初に、PayPayアカウントを作成する必要があります。ここから登録してください。",
+				"title": "Set up PayPay",
+				"description_1": "最初に、PayPayアカウントを作成する必要があります。",
+				"description_1_1": "ここから登録してください。",
 				"description_2": "あなたのアプリケーションからPayPayの公式ライブラリを使用することで、PayPay APIにアクセスすることができます。",
 				"code_snippet": [{
 					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-					"php": "",
-					"node": "",
-					"java": ""
+					"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
+					"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
+					"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
 				}]
 			}],
-			"Integration_title": "Steps for Integtaion 2",
+			"Integration_title": "Steps for Integtaion",
 			"Integration": [{
 				"title": " 注文を作成する",
 				"description": "「PayPayで支払う」ボタンを提供します。そして、必要な注文情報を使用して注文を作成します。"
