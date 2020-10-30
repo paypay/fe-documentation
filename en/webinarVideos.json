@@ -53,7 +53,7 @@
 					"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
 				}]
 			}],
-			"Integration_title": "Steps for Integtaion",
+			"Integration_title": "Steps for Integration",
 			"Integration": [{
 				"title": "Create the order",
 				"description": "Create the order with the necessary Order information and provide a button to Pay with PayPay."
