@@ -1,68 +1,126 @@
 {
 	"data": [{
 			"title": "Open Payment API",
-			"date": "2020年8月18日",
+			"date": "Aug 18, 2020",
 			"description": "【ウェブペイメント】第1回 PayPay Integration Webinar",
 			"Youtube_Link": "https://youtu.be/Zh6BYvHyDGs",
 			"webinar_txt": "WEBINAR",
-			"webinar_videos_txt": "ビデオ",
-			"youtube_link_txt": "Youtubeリンク",
-			"summary_txt": "概要",
+			"webinar_videos_txt": "Videos",
+			"youtube_link_txt": "Youtube Link",
+			"summary_txt": "Summary",
 			"sub_title": [{
-				"title": "Set up PayPay",
-				"description_1": "最初に、PayPayアカウントを作成する必要があります。",
-				"description_1_1": "ここから登録してください。",
-				"description_2": "あなたのアプリケーションからPayPayの公式ライブラリを使用することで、PayPay APIにアクセスすることができます。",
-				"code_snippet": [{
-					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-					"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
-					"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
-					"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
-				}]
+				"title": "PayPay オンライン決済のご紹介 - ウェブペイメント - ",
+				"description_1": "この動画では、PayPayのオンライン決済、ウェブペイメントついてご紹介しています。",
+				"description_1_1": "",
+				"description_2": ""
+			},
+			{
+				"title": "ウェブペイメントとは",
+				"description_1": "PayPayが提供するオンライン決済のパターンの一つです。",
+				"description_1_1": "",
+				"description_2": "APIでPayPayの支払いページを作成し、ユーザーがページ上で操作を行うことで支払が完了します。"
 			}],
-			"Integration_title": "Steps for Integration",
+			"code_snippet": [{
+					"title": "Create Payment",
+					"code": [{
+						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Refund",
+					"code": [{					
+						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				}
+			],
+			"Integration_title": "Topic",
 			"Integration": [{
-				"title": " 注文を作成する",
-				"description": "「PayPayで支払う」ボタンを提供します。そして、必要な注文情報を使用して注文を作成します。"
+				"title": "PayPayとは",
+				"description": ""
 			}, {
-				"title": "PayPayで支払う",
-				"description": "ユーザーは、自分のPayPayアプリを使用して支払いを行います。"
+				"title": "PayPayのオンライン決済とは",
+				"description": ""
 			}, {
-				"title": "支払いステータスの表示",
-				"description": "支払いに関する情報は、ユーザのPayPayアプリで表示されます。"
+				"title": "ウェブペイメントとは",
+				"description": ""
+			}, {
+				"title": "PayPay for Developersとは",
+				"description": ""
+			}, {
+				"title": "開発手順の説明",
+				"description": ""
+			}, {
+				"title": "Q&A",
+				"description": ""
 			}]
 		},
 		{
 			"title": "Open Payment API",
-			"date": "2020年9月15日",
+			"date": "Sep 15, 2020",
 			"description": "【ネイティブペイメント】第2回 PayPay Integration Webinar",
 			"Youtube_Link": "https://youtu.be/4H8vqj0Nn2Q",
 			"webinar_txt": "WEBINAR",
-			"webinar_videos_txt": "ビデオ",
-			"youtube_link_txt": "Youtubeリンク",
-			"summary_txt": "概要",
+			"webinar_videos_txt": "Videos",
+			"youtube_link_txt": "Youtube Link",
+			"summary_txt": "Summary",
 			"sub_title": [{
-				"title": "Set up PayPay",
-				"description_1": "最初に、PayPayアカウントを作成する必要があります。",
-				"description_1_1": "ここから登録してください。",
-				"description_2": "あなたのアプリケーションからPayPayの公式ライブラリを使用することで、PayPay APIにアクセスすることができます。",
-				"code_snippet": [{
-					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-					"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
-					"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
-					"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
-				}]
-			}],
-			"Integration_title": "Steps for Integration",
+					"title": "PayPay オンライン決済のご紹介 - ネイティブペイメント -",
+					"description_1": "この動画では、PayPayのオンライン決済、ネイティブペイメントついてご紹介しています。",
+					"description_1_1": "",
+					"description_2": ""	
+				},
+				{
+					"title": "ネイティブペイメントとは",
+					"description_1": "PayPayが提供するオンライン決済のパターンの一つです。",
+					"description_1_1": "",
+					"description_2": "事前に加盟店サービスとユーザーのPayPayアカウントの連携を行います。",
+					"description_3": "アカウント連携時にPayPayから返却されたユーザー識別子を使い、加盟店サービスから直接ユーザーのウォレットから引き落としを行い、支払いを完了させることができます。"
+				}
+			],
+			"code_snippet": [{
+					"title": "Create Payment",
+					"code": [{
+						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Refund",
+					"code": [{
+						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\n\npayload = {\n    \"assumeMerchant\": \"assume_merchant\",\n    \"merchantRefundId\": \"merchant_refund_id\",\n    \"paymentId\": \"paypay_payment_id\",\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n    \"reason\": \"reason for refund\"\n}\n\n# Calling the method to refund a Payment\nresponse = client.Pending.refund_payment(payload)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				}
+			],
+			"Integration_title": "Topic",
 			"Integration": [{
-				"title": " 注文を作成する",
-				"description": "「PayPayで支払う」ボタンを提供します。そして、必要な注文情報を使用して注文を作成します。"
+				"title": "PayPayとは",
+				"description": ""
 			}, {
-				"title": "PayPayで支払う",
-				"description": "ユーザーは、自分のPayPayアプリを使用して支払いを行います。"
+				"title": "PayPayのオンライン決済とは",
+				"description": ""
 			}, {
-				"title": "支払いステータスの表示",
-				"description": "支払いに関する情報は、ユーザのPayPayアプリで表示されます。"
+				"title": "ネイティブペイメントとは",
+				"description": ""
+			}, {
+				"title": "PayPay for Developersとは",
+				"description": ""
+			}, {
+				"title": "開発手順の説明",
+				"description": ""
+			}, {
+				"title": "Q&A",
+				"description": ""
 			}]
 		}
 
