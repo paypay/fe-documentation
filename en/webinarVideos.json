@@ -24,24 +24,69 @@
 			"code_snippet": [{
 					"title": "Installation",
 					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-						"php": "##  Minimum required software requirements\n  #  To use the Paypay OPA PHP SDK you need:\n\n  #  A server compute environment (local machines, docker containers, VPS or dedicated servers, cloud infrastructure etc. )\n  #  A web server to serve your API responses and html documents.\n  #  PHP version 7.x interpreter to execute your backend code.\n  #  Composer to manage your dependencies(recommended) or a release version from this repo to manually maintain your dependencies.\n  \n  #To install the bindings via Composer, add the following to composer.json:\n    composer require paypayopa/php-sdk",
-						"node": "// To install the client library using npm, execute the following\n  npm i @paypayopa/paypayopa-sdk-node\n  // To install the client library using yarn, execute the following\n  yarn add @paypayopa/paypayopa-sdk-node",
-						"java": "<!-- To install the API client library to your local Maven repository, simply execute: -->\n  gradle install\n  <!-- Maven: Add this dependency to your project's POM: -->\n  <dependency>\n    <groupId>jp.ne.paypay</groupId>\n    <artifactId>paypayopa</artifactId>\n    <version>0.8.0</version>\n    <scope>compile</scope>\n  </dependency>\n  <!-- Gradle: Add this dependency to your project's build file: -->\n  compile \"jp.ne.paypay:paypayopa:0.8.0\""
-					}]
-				}, {
-					"title": "Create Payment",
-					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"python": "# If you love Python, you will love our pip installation package, \n # simply run the following to ensure you have all the methods needed to make the integration \n $ pip install paypayopa",
 						"php": "",
 						"node": "",
-						"java": "ApiClient apiClient = new Configuration().getDefaultApiClient();\n  //Set True for Production Environment. By Default this is set False for Sandbox Environment.\n  apiClient.setProductionMode(false); \n  apiClient.setApiKey(\"YOUR_API_KEY\");\n  apiClient.setApiSecretKey(\"YOUR_API_SECRET\");\n  apiClient.setAssumeMerchant(\"YOUR_MERCHANT_KEY\");"
+						"java": ""
+					}]
+				}, {
+					"title": "Build your Client",
+					"code": [{
+						"python": "import paypayopa\n  #Set True for Production Environment. By Default this is set False for Sandbox Environment.\n  client = paypayopa.Client(auth=(API_KEY, API_SECRET), production_mode=False)\n  client.set_assume_merchant(\"MERCHANT_ID\")",
+						"php": "",
+						"node": "",
+						"java": ""
 					}]
 				},
 				{
-					"title": "Refund",
+					"title": "Create a QR Code",
+					"code": [{
+						"python": "# Creating the payload to create a QR Code, additional parameters can be added basis the API Documentation\n  request = {\n    \"merchantPaymentId\": \"merchant_payment_id\",\n    \"codeType\": \"ORDER_QR\",\n    \"redirectUrl\": \"http://foobar.com\",\n    \redirectType\":\"WEB_LINK\",\n    \"orderDescription\":\"Example - Mune Cake shop\",\n    \"orderItems\": [{\n        \"name\": \"Moon cake\",\n        \"category\": \"pasteries\",\n        \"quantity\": 1,\n        \"productId\": \"67678\",\n        \"unitPrice\": {\n            \"amount\": 1,\n            \"currency\": \"JPY\"\n        }\n    }],\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n}\n# Calling the method to create a qr code\nresponse = client.Code.create_qr_code(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Delete a QR Code",
+					"code": [{
+						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Get Payment Details",
+					"code": [{
+						"python": "# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response.data.status)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Cancel a payment",
+					"code": [{
+						"python": "# Calling the method to cancel a Payment\nresponse = client.Payment.cancel_payment(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Refund payment",
 					"code": [{
 						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Fetch refund status and details",
+					"code": [{
+						"python": "# Calling the method to get Refund Details\nresponse = client.Payment.refund_status(\"<merchantRefundId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
 						"java": ""
@@ -93,7 +138,7 @@
 				}
 			],
 			"code_snippet": [{
-					"title": "Create Payment",
+					"title": "Installation",
 					"code": [{
 						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
 						"php": "",
@@ -102,9 +147,54 @@
 					}]
 				},
 				{
-					"title": "Refund",
+					"title": "Build your Client",
 					"code": [{
-						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\n\npayload = {\n    \"assumeMerchant\": \"assume_merchant\",\n    \"merchantRefundId\": \"merchant_refund_id\",\n    \"paymentId\": \"paypay_payment_id\",\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n    \"reason\": \"reason for refund\"\n}\n\n# Calling the method to refund a Payment\nresponse = client.Pending.refund_payment(payload)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "import paypayopa\n  #Set True for Production Environment. By Default this is set False for Sandbox Environment.\n  client = paypayopa.Client(auth=(API_KEY, API_SECRET), production_mode=False)\n  client.set_assume_merchant(\"MERCHANT_ID\")",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Acquire User Authorization",
+					"code": [{
+						"python": "payload = {\n  \"scopes\": [\n    \"direct_debit\"\n  ],\n  \"nonce\": \"rtyuhghj7989\",\n  \"redirectType\": \"WEB_LINK\",\n  \"redirectUrl\": \"merchant.domain\",\n  \"referenceId\": \"uioiugf789\",\n  \"phoneNumber\": \"90999999999\",\n  \"deviceId\": \"qwertyuiopoiuytre54567\",\n  \"userAgent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36\"\n}\nclient.Account.create_qr_session(payload)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Create a Payment",
+					"code": [{
+						"python": "# Creating the payload to create a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantPaymentId = \"my_payment_id\",\n    userAuthorizationId = \"my_user_authorization_id\",\n    amount = {\n      amount = 1, \n      currency = \"JPY\"\n    },\n    orderDescription = \"Mune's Favourite Cake\"\n}\n# Calling the method to create a payment\nresponse = client.Payment.create(request)\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Get Payment Details",
+					"code": [{
+						"python": "# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response.data.status)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Refund payment",
+					"code": [{
+						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				},
+				{
+					"title": "Fetch refund status and details",
+					"code": [{
+						"python": "# Calling the method to get Refund Details\nresponse = client.Payment.refund_status(\"<merchantRefundId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
 						"java": ""
