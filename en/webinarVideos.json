@@ -9,7 +9,7 @@
 			"youtube_link_txt": "Youtube Link",
 			"summary_txt": "Summary",
 			"sub_title": [{
-					"title": "Introducing PayPay Online Payment - Web Payment -",
+					"title": "Introd`ucing PayPay Online Payment - Web Payment -",
 					"description_1": "This video introduces PayPay's Web Payment of online payments.",
 					"description_1_1": "",
 					"description_2": ""
@@ -93,7 +93,7 @@
 					}]
 				}
 			],
-			"Integration_title": "Topic",
+			"Integration_title": "Topics",
 			"Integration": [{
 				"title": "What is PayPay?",
 				"description": ""
@@ -201,7 +201,7 @@
 					}]
 				}
 			],
-			"Integration_title": "Topic",
+			"Integration_title": "Topics",
 			"Integration": [{
 				"title": "What is PayPay?",
 				"description": ""
