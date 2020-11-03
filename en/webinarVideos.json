@@ -32,7 +32,7 @@
 				{
 					"title": "Refund",
 					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
 						"java": ""
@@ -95,7 +95,7 @@
 				{
 					"title": "Refund",
 					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\n\npayload = {\n    \"assumeMerchant\": \"assume_merchant\",\n    \"merchantRefundId\": \"merchant_refund_id\",\n    \"paymentId\": \"paypay_payment_id\",\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n    \"reason\": \"reason for refund\"\n}\n\n# Calling the method to refund a Payment\nresponse = client.Pending.refund_payment(payload)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
 						"java": ""
