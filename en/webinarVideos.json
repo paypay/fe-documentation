@@ -42,29 +42,31 @@
 			"youtube_link_txt": "Youtube Link",
 			"summary_txt": "Summary",
 			"sub_title": [{
-				"title": "Introducing PayPay Online Payments - Native Payment - ",
-				"description_1": "This video introduces PayPay's Native Payment of online payments.",
-				"description_1_1": "",
-				"description_2": "",
-				"code_snippet": [{
-					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-					"php": "",
-					"node": "",
-					"java": ""
+					"title": "Introducing PayPay Online Payments - Native Payment - ",
+					"description_1": "This video introduces PayPay's Native Payment of online payments.",
+					"description_1_1": "",
+					"description_2": "",
+					"code_snippet": [{
+						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
 				},
 				{
-				"title": "What is Native Payment",
-				"description_1": "Native Payment is one of the online payment patterns provided by PayPay.",
-				"description_1_1": "",
-				"description_2": "The first step is to link the merchant service to the user's PayPay account.",
-				"description_3":"Using the user identifier returned by PayPay at the time of account linkage, the merchant service can debit the user's wallet directly from the merchant service to complete the payment.",	
-				"code_snippet": [{
-					"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
-					"php": "",
-					"node": "",
-					"java": ""
-				}]
-			}],
+					"title": "What is Native Payment",
+					"description_1": "Native Payment is one of the online payment patterns provided by PayPay.",
+					"description_1_1": "",
+					"description_2": "The first step is to link the merchant service to the user's PayPay account.",
+					"description_3": "Using the user identifier returned by PayPay at the time of account linkage, the merchant service can debit the user's wallet directly from the merchant service to complete the payment.",
+					"code_snippet": [{
+						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"php": "",
+						"node": "",
+						"java": ""
+					}]
+				}
+			],
 			"Integration_title": "Topic",
 			"Integration": [{
 				"title": "What is PayPay?",
