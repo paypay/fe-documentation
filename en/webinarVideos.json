@@ -22,97 +22,52 @@
 				}
 			],
 			"code_snippet": [{
-					"title": "Installation",
+					"title": "Create Client",
 					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n # simply run the following to ensure you have all the methods needed to make the integration \n $ pip install paypayopa",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static ApiClient createApiClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  apiClient.setProductionMode( \n false); // Set True for Production Environment. By Default this is set False for Sandbox \n  // Environment. \n apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
 					}]
 				}, {
-					"title": "Build your Client",
+					"title": "Create a Payment",
 					"code": [{
-						"python": "import paypayopa\n  #Set True for Production Environment. By Default this is set False for Sandbox Environment.\n  client = paypayopa.Client(auth=(API_KEY, API_SECRET), production_mode=False)\n  client.set_assume_merchant(\"MERCHANT_ID\")",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Create a QR Code",
-					"code": [{
-						"python": "# Creating the payload to create a QR Code, additional parameters can be added basis the API Documentation\n  request = {\n    \"merchantPaymentId\": \"merchant_payment_id\",\n    \"codeType\": \"ORDER_QR\",\n    \"redirectUrl\": \"http://foobar.com\",\n    \redirectType\":\"WEB_LINK\",\n    \"orderDescription\":\"Example - Mune Cake shop\",\n    \"orderItems\": [{\n        \"name\": \"Moon cake\",\n        \"category\": \"pasteries\",\n        \"quantity\": 1,\n        \"productId\": \"67678\",\n        \"unitPrice\": {\n            \"amount\": 1,\n            \"currency\": \"JPY\"\n        }\n    }],\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n}\n# Calling the method to create a qr code\nresponse = client.Code.create_qr_code(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
-						"php": "",
-						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Delete a QR Code",
-					"code": [{
-						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
-						"php": "",
-						"node": "",
-						"java": ""
+						"java": "private static void createQRCode() { \n   // Creating the payload to create a QR Code, additional parameters can be added basis the API \n   // Documentation \n   QRCode qrCode = new QRCode(); \n   qrCode.setAmount(new MoneyAmount().amount(4001).currency(MoneyAmount.CurrencyEnum.JPY)); \n   qrCode.setMerchantPaymentId(\"merchant_payment_id\"); \n   qrCode.setCodeType(\"ORDER_QR\"); \n   qrCode.setOrderDescription(\"Mune's Favourite Cake\"); \n   qrCode.isAuthorization(false); \n   qrCode.redirectUrl(\"https://paypay.ne.jp/\"); \n   qrCode.redirectType( \n   QRCode.RedirectTypeEnum.WEB_LINK); // For Deep Link, RedirectTypeEnum.APP_DEEP_LINK \n   qrCode.setUserAgent( \n   \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1\"); \n   // Calling the method to create a qr code \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   QRCodeDetails response = null; \n   try { \n   response = apiInstance.createQRCode(qrCode); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
 					}]
 				},
 				{
 					"title": "Get Payment Details",
 					"code": [{
-						"python": "# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response.data.status)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void getPaymentDetails() { \n   // Calling the method to get payment details \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   PaymentDetails response = null; \n   try { \n   response = apiInstance.getCodesPaymentDetails(\"merchantPaymentId\"); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS, this does not mean the payment was a success \n   System.out.println(response); \n }"
 					}]
 				},
 				{
-					"title": "Cancel a payment",
+					"title": "Initiate a Refund",
 					"code": [{
-						"python": "# Calling the method to cancel a Payment\nresponse = client.Payment.cancel_payment(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void refund() { \n   // Creating the payload to refund a Payment, additional parameters can be added basis the API \n   // Documentation \n   Refund refund = new Refund(); \n   refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n   refund.setMerchantRefundId(\"merchant_refund_id\"); \n   refund.setPaymentId(\"payment_id\"); \n   refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n   refund.setReason(\"間違って注文した\"); \n   // Calling the method to refund a Payment \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   RefundDetails response = null; \n   try { \n   response = apiInstance.refundPayment(refund); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
 					}]
 				},
 				{
-					"title": "Refund payment",
+					"title": "Get Refund Details",
 					"code": [{
-						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Fetch refund status and details",
-					"code": [{
-						"python": "# Calling the method to get Refund Details\nresponse = client.Payment.refund_status(\"<merchantRefundId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
-						"php": "",
-						"node": "",
-						"java": ""
+						"java": "private static void getRefundDetails() { \n   // Calling the method to get Refund Details \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   RefundDetails response = null; \n   try { \n   response = apiInstance.getRefundDetails(\"merchantRefundId\"); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
 					}]
 				}
 			],
-			"Integration_title": "Topics",
-			"Integration": [{
-				"title": "What is PayPay?",
-				"description": ""
-			}, {
-				"title": "What is PayPay's online payment system?",
-				"description": ""
-			}, {
-				"title": "What is Web Payment?",
-				"description": ""
-			}, {
-				"title": "What is PayPay for Developers?",
-				"description": ""
-			}, {
-				"title": "Explanation of development procedures",
-				"description": ""
-			}, {
-				"title": "Q&A",
-				"description": ""
-			}]
+			"Integration_title": "",
+			"Integration": []
 		},
 		{
 			"title": "Open Payment API",
@@ -124,7 +79,7 @@
 			"youtube_link_txt": "Youtube Link",
 			"summary_txt": "Summary",
 			"sub_title": [{
-					"title": "Introducing PayPay Online Payments - Native Payment - ",
+					"title": "Introducing PayPay Online Payments - Native Payment -",
 					"description_1": "This video introduces PayPay's Native Payment of online payments.",
 					"description_1_1": "",
 					"description_2": ""
@@ -138,89 +93,71 @@
 				}
 			],
 			"code_snippet": [{
-					"title": "Installation",
+					"title": "Create Client",
 					"code": [{
-						"python": "# If you love Python, you will love our pip installation package, \n  # simply run the following to ensure you have all the methods needed to make the integration\n  $ pip install paypayopa",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static ApiClient createClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  //Set True for Production Environment. By Default this is set False for Sandbox Environment. \n  apiClient.setProductionMode(false); \n  apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
 					}]
 				},
 				{
-					"title": "Build your Client",
+					"title": "Initiate AccountLinking",
 					"code": [{
-						"python": "import paypayopa\n  #Set True for Production Environment. By Default this is set False for Sandbox Environment.\n  client = paypayopa.Client(auth=(API_KEY, API_SECRET), production_mode=False)\n  client.set_assume_merchant(\"MERCHANT_ID\")",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void createAccountLinkQRCode(ApiClient apiClient) throws ApiException { \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n  AccountLinkQRCode accountLinkQRCode = new AccountLinkQRCode(); \n  List<AuthorizationScope> scopes = new ArrayList<>(); \n  scopes.add(AuthorizationScope.DIRECT_DEBIT); \n  accountLinkQRCode.setScopes(scopes); \n  accountLinkQRCode.setNonce(RandomStringUtils.randomAlphanumeric(8).toLowerCase()); \n  accountLinkQRCode.setDeviceId(\"dummy_device_id\"); \n  accountLinkQRCode.setRedirectUrl(\"https://paypay.ne.jp/\"); \n  accountLinkQRCode.setPhoneNumber(\"phone_number\"); \n  accountLinkQRCode.setReferenceId(\"reference_id-001\"); \n  accountLinkQRCode.setRedirectType(QRCode.RedirectTypeEnum.WEB_LINK); \n  LinkQRCodeResponse response = apiInstance.createAccountLinkQRCode(accountLinkQRCode); \n  System.out.println(response); \n  }"
 					}]
 				},
 				{
-					"title": "Acquire User Authorization",
+					"title": "Parse JW Token",
 					"code": [{
-						"python": "payload = {\n  \"scopes\": [\n    \"direct_debit\"\n  ],\n  \"nonce\": \"rtyuhghj7989\",\n  \"redirectType\": \"WEB_LINK\",\n  \"redirectUrl\": \"merchant.domain\",\n  \"referenceId\": \"uioiugf789\",\n  \"phoneNumber\": \"90999999999\",\n  \"deviceId\": \"qwertyuiopoiuytre54567\",\n  \"userAgent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36\"\n}\nclient.Account.create_qr_session(payload)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void parseJWT() throws JwtException { \n  // Retrieving userAuthorizationId from response JWT \n  String jwtToken = \"JW_TOKEN\"; \n  String apiSecretKey = \"API_SECRET\"; \n  JwtResponseDto jwtResponseDto = JwtUtil.validateJWT(jwtToken, apiSecretKey); \n  System.out.println(jwtResponseDto); \n  }"
 					}]
 				},
 				{
 					"title": "Create a Payment",
 					"code": [{
-						"python": "# Creating the payload to create a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantPaymentId = \"my_payment_id\",\n    userAuthorizationId = \"my_user_authorization_id\",\n    amount = {\n      amount = 1, \n      currency = \"JPY\"\n    },\n    orderDescription = \"Mune's Favourite Cake\"\n}\n# Calling the method to create a payment\nresponse = client.Payment.create(request)\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void createPayment(ApiClient apiClient) throws ApiException { \n  // Creating the payload to create a Payment, additional parameters can be added basis the API Documentation \n  Payment payment = new Payment(); \n  payment.setAmount(new MoneyAmount().amount(10).currency(MoneyAmount.CurrencyEnum.JPY)); \n  payment.setMerchantPaymentId(\"my_payment_id-0001\"); \n  payment.setUserAuthorizationId(\"userAuthorization_id\"); \n  payment.setOrderDescription(\"10円の決済です。\"); \n  payment.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n  // Calling the method to create a payment \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n  String agreeSimilarTransanction = \"false\"; \n  PaymentDetails response = apiInstance.createPayment(payment, agreeSimilarTransanction); \n  // Printing if the method call is SUCCESS, this does not mean the payment is a success \n  System.out.println(response); \n  }"
 					}]
 				},
 				{
 					"title": "Get Payment Details",
 					"code": [{
-						"python": "# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response.data.status)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void getPaymentDetails(ApiClient apiClient) throws ApiException { \n  // Calling the method to get payment details \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n  PaymentDetails response = apiInstance.getPaymentDetails(\"my_payment_id-0001\"); \n  // Printing if the method call was SUCCESS, this does not mean the payment was a success \n  System.out.println(response); \n  }"
 					}]
 				},
 				{
-					"title": "Refund payment",
+					"title": "Initiate a Refund",
 					"code": [{
-						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void refundPayment(ApiClient apiClient) throws ApiException { \n  // Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation \n  Refund refund = new Refund(); \n  refund.setAmount(new MoneyAmount().amount(6).currency(MoneyAmount.CurrencyEnum.JPY)); \n  refund.setMerchantRefundId(\"merchant_refund_id-0001\"); \n  refund.setPaymentId(\"payment_id\"); \n  refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n  refund.setReason(\"6円の返金を行います。\"); \n  // Calling the method to refund a Payment \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n  RefundDetails response = apiInstance.refundPayment(refund); \n  // Printing if the method call was SUCCESS \n  System.out.println(response); \n  }"
 					}]
 				},
 				{
-					"title": "Fetch refund status and details",
+					"title": "Get Refund Details",
 					"code": [{
-						"python": "# Calling the method to get Refund Details\nresponse = client.Payment.refund_status(\"<merchantRefundId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void getRefundDetails(ApiClient apiClient) throws ApiException { \n  // Calling the method to get Refund Details \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n  RefundDetails response = apiInstance.getRefundDetails(\"merchant_refund_id-0001\"); \n  // Printing if the method call was SUCCESS \n  System.out.println(response); \n  }"
 					}]
 				}
 			],
-			"Integration_title": "Topics",
-			"Integration": [{
-				"title": "What is PayPay?",
-				"description": ""
-			}, {
-				"title": "What is PayPay's online payment system?",
-				"description": ""
-			}, {
-				"title": "What is Native Payment?",
-				"description": ""
-			}, {
-				"title": "What is PayPay for Developers?",
-				"description": ""
-			}, {
-				"title": "Explanation of development procedures",
-				"description": ""
-			}, {
-				"title": "Q&A",
-				"description": ""
-			}]
+			"Integration_title": "",
+			"Integration": []
 		}
 
 	]
