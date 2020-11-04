@@ -53,7 +53,7 @@
 						"python": "",
 						"php": "",
 						"node": "",
-						"java": "private static void refund() { \n // Creating the payload to refund a Payment, additional parameters can be added basis the API \n // Documentation \n  Refund refund = new Refund(); \n refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n refund.setMerchantRefundId(\"4575971 C - 0255 - 4 AAE - AFB7 - 091 B987B0EA2\"); \n refund.setPaymentId(\"03423971722589028352\"); \n refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n refund.setReason(\"間違って注文した\"); \n // Calling the method to refund a Payment \n PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null; \n try { \n response = apiInstance.refundPayment(refund); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Pinting if the method call was SUCCESS \n System.out.println(response); \n }"
+						"java": "private static void refund() { \n // Creating the payload to refund a Payment, additional parameters can be added basis the API \n // Documentation \n  Refund refund = new Refund(); \n refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n refund.setMerchantRefundId(\"merchant_refund_id\"); \n refund.setPaymentId(\"paypay_payment_id\"); \n refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n refund.setReason(\"間違って注文した\"); \n // Calling the method to refund a Payment \n PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null; \n try { \n response = apiInstance.refundPayment(refund); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Pinting if the method call was SUCCESS \n System.out.println(response); \n }"
 					}]
 				},
 				{
@@ -62,7 +62,7 @@
 						"python": "",
 						"php": "",
 						"node": "",
-						"java": "private static void getRefundDetails() { \n  // Calling the method to get Refund Details \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null;  \n  try {  \n response = apiInstance.getRefundDetails(\"4575971C-0255-4AAE-AFB7-091B987B0EA1\"); \n } catch (ApiException e) { \n e.printStackTrace();  \n  }  \n // Printing if the method call was SUCCESS \n System.out.println(response); \n }"
+						"java": "private static void getRefundDetails() { \n  // Calling the method to get Refund Details \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null;  \n  try {  \n response = apiInstance.getRefundDetails(\"merchantRefundId\"); \n } catch (ApiException e) { \n e.printStackTrace();  \n  }  \n // Printing if the method call was SUCCESS \n System.out.println(response); \n }"
 					}]
 				}
 			],
