@@ -50,7 +50,7 @@
 				{
 					"title": "Initiate a Refund",
 					"code": [{
-						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
 						"java": "private static void refund() { \n // Creating the payload to refund a Payment, additional parameters can be added basis the API \n // Documentation \n  Refund refund = new Refund(); \n refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n refund.setMerchantRefundId(\"4575971 C - 0255 - 4 AAE - AFB7 - 091 B987B0EA2\"); \n refund.setPaymentId(\"03423971722589028352\"); \n refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n refund.setReason(\"間違って注文した\"); \n // Calling the method to refund a Payment \n PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null; \n try { \n response = apiInstance.refundPayment(refund); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Pinting if the method call was SUCCESS \n System.out.println(response); \n }"
@@ -59,15 +59,15 @@
 				{
 					"title": "Get Refund Details",
 					"code": [{
-						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void getRefundDetails() { \n  // Calling the method to get Refund Details \n  PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null;  \n  try {  \n response = apiInstance.getRefundDetails(\"4575971C-0255-4AAE-AFB7-091B987B0EA1\"); \n } catch (ApiException e) { \n e.printStackTrace();  \n  }  \n // Printing if the method call was SUCCESS \n System.out.println(response); \n }"
 					}]
 				}
 			],
 			"Integration_title": "",
-			"Integration": [ ]
+			"Integration": []
 		},
 		{
 			"title": "Open Payment API",
@@ -156,26 +156,8 @@
 					}]
 				}
 			],
-			"Integration_title": "Topics",
-			"Integration": [{
-				"title": "What is PayPay?",
-				"description": ""
-			}, {
-				"title": "What is PayPay's online payment system?",
-				"description": ""
-			}, {
-				"title": "What is Native Payment?",
-				"description": ""
-			}, {
-				"title": "What is PayPay for Developers?",
-				"description": ""
-			}, {
-				"title": "Explanation of development procedures",
-				"description": ""
-			}, {
-				"title": "Q&A",
-				"description": ""
-			}]
+			"Integration_title": "",
+			"Integration": []
 		}
 
 	]
