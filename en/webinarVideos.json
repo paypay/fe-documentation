@@ -94,25 +94,7 @@
 				}
 			],
 			"Integration_title": "",
-			"Integration": [{
-				"title": "",
-				"description": ""
-			}, {
-				"title": "",
-				"description": ""
-			}, {
-				"title": "",
-				"description": ""
-			}, {
-				"title": "",
-				"description": ""
-			}, {
-				"title": "",
-				"description": ""
-			}, {
-				"title": "",
-				"description": ""
-			}]
+			"Integration": [ ]
 		},
 		{
 			"title": "Open Payment API",
