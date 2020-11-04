@@ -44,7 +44,7 @@
 						"python": "",
 						"php": "",
 						"node": "",
-						"java": "private static void createQRCode() { \n // Creating the payload to create a QR Code, additional parameters can be added basis the API Documentation\nQRCode qrCode = new QRCode();\n      qrCode.setAmount(new MoneyAmount().amount(4001).currency(MoneyAmount.CurrencyEnum.JPY));\n      qrCode.setMerchantPaymentId(\"my_payment_id\");\n      qrCode.setCodeType(\"ORDER_QR\");\n      qrCode.setOrderDescription(\"Mune's Favourite Cake\");\n      qrCode.isAuthorization(false);\n  qrCode.redirectUrl(\"https://paypay.ne.jp/\"); \n qrCode.redirectType(\n  QRCode.RedirectTypeEnum.WEB_LINK); // For Deep Link, RedirectTypeEnum.APP_DEEP_LINK \n qrCode.setUserAgent(\n \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1\"); \n// Calling the method to create a qr code\n PaymentApi apiInstance = new PaymentApi(apiClient);\n QRCodeDetails response = null;\n try { \n response = apiInstance.createQRCode(qrCode); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Printing if the method call was SUCCESS\n System.out.println(response); \n }"
+						"java": "private static void getPaymentDetails() { \n // Calling the method to get payment details \n PaymentApi apiInstance = new PaymentApi(apiClient); \n PaymentDetails response = null; \n try { \n response = apiInstance.getCodesPaymentDetails(\"merchantPaymentId\"); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Printing if the method call was SUCCESS, this does not mean the payment was a success \n System.out.println(response); \n }"
 					}]
 				},
 				{
