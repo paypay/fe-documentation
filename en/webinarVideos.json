@@ -48,45 +48,18 @@
 					}]
 				},
 				{
-					"title": "Delete a QR Code",
+					"title": "Initiate a Refund",
 					"code": [{
 						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void refund() { \n // Creating the payload to refund a Payment, additional parameters can be added basis the API \n // Documentation \n  Refund refund = new Refund(); \n refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n refund.setMerchantRefundId(\"4575971 C - 0255 - 4 AAE - AFB7 - 091 B987B0EA2\"); \n refund.setPaymentId(\"03423971722589028352\"); \n refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n refund.setReason(\"間違って注文した\"); \n // Calling the method to refund a Payment \n PaymentApi apiInstance = new PaymentApi(apiClient); \n RefundDetails response = null; \n try { \n response = apiInstance.refundPayment(refund); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Pinting if the method call was SUCCESS \n System.out.println(response); \n }"
 					}]
 				},
 				{
-					"title": "Get Payment Details",
+					"title": "Get Refund Details",
 					"code": [{
-						"python": "# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response.resultInfo.code)\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response.data.status)",
-						"php": "",
-						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Cancel a payment",
-					"code": [{
-						"python": "# Calling the method to cancel a Payment\nresponse = client.Payment.cancel_payment(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
-						"php": "",
-						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Refund payment",
-					"code": [{
-						"python": "# Creating the payload to refund a Payment, additional parameters can be added basis the API Documentation\nrequest = {\n    merchantRefundId = \"merchant_refund_id\",\n    paymentId = \"paypay_payment_id\",\n    amount = 1,\n    reason = \"reason for refund\"\n}\n# Calling the method to refund a Payment\nresponse = client.Payment.refund_payment(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
-						"php": "",
-						"node": "",
-						"java": ""
-					}]
-				},
-				{
-					"title": "Fetch refund status and details",
-					"code": [{
-						"python": "# Calling the method to get Refund Details\nresponse = client.Payment.refund_status(\"<merchantRefundId>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "# Calling the method to delete a QR Code\nresponse = client.Code.delete_qr_code(\"<CodeID>\")\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
 						"php": "",
 						"node": "",
 						"java": ""
