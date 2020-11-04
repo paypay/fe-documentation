@@ -39,12 +39,12 @@
 					}]
 				},
 				{
-					"title": "Create a QR Code",
+					"title": "Get Payment Details",
 					"code": [{
-						"python": "# Creating the payload to create a QR Code, additional parameters can be added basis the API Documentation\n  request = {\n    \"merchantPaymentId\": \"merchant_payment_id\",\n    \"codeType\": \"ORDER_QR\",\n    \"redirectUrl\": \"http://foobar.com\",\n    \redirectType\":\"WEB_LINK\",\n    \"orderDescription\":\"Example - Mune Cake shop\",\n    \"orderItems\": [{\n        \"name\": \"Moon cake\",\n        \"category\": \"pasteries\",\n        \"quantity\": 1,\n        \"productId\": \"67678\",\n        \"unitPrice\": {\n            \"amount\": 1,\n            \"currency\": \"JPY\"\n        }\n    }],\n    \"amount\": {\n        \"amount\": 1,\n        \"currency\": \"JPY\"\n    },\n}\n# Calling the method to create a qr code\nresponse = client.Code.create_qr_code(request)\n# Printing if the method call was SUCCESS\nprint(response.resultInfo.code)",
+						"python": "",
 						"php": "",
 						"node": "",
-						"java": ""
+						"java": "private static void createQRCode() { \n // Creating the payload to create a QR Code, additional parameters can be added basis the API Documentation\nQRCode qrCode = new QRCode();\n      qrCode.setAmount(new MoneyAmount().amount(4001).currency(MoneyAmount.CurrencyEnum.JPY));\n      qrCode.setMerchantPaymentId(\"my_payment_id\");\n      qrCode.setCodeType(\"ORDER_QR\");\n      qrCode.setOrderDescription(\"Mune's Favourite Cake\");\n      qrCode.isAuthorization(false);\n  qrCode.redirectUrl(\"https://paypay.ne.jp/\"); \n qrCode.redirectType(\n  QRCode.RedirectTypeEnum.WEB_LINK); // For Deep Link, RedirectTypeEnum.APP_DEEP_LINK \n qrCode.setUserAgent(\n \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1\"); \n// Calling the method to create a qr code\n PaymentApi apiInstance = new PaymentApi(apiClient);\n QRCodeDetails response = null;\n try { \n response = apiInstance.createQRCode(qrCode); \n } catch (ApiException e) { \n e.printStackTrace(); \n } \n // Printing if the method call was SUCCESS\n System.out.println(response); \n }"
 					}]
 				},
 				{
