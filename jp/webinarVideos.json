@@ -24,15 +24,15 @@
 			"code_snippet": [{
 					"title": "Create Client",
 					"code": [{
-						"python": "test python",
-						"php": "test php",
-						"node": "test node",
+						"python": "",
+						"php": "",
+						"node": "",
 						"java": "private static ApiClient createApiClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  apiClient.setProductionMode( \n false); // Set True for Production Environment. By Default this is set False for Sandbox \n  // Environment. \n apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
 					}]
 				}, {
 					"title": "Create a Payment",
 					"code": [{
-						"python": "test python",
+						"python": "",
 						"php": "",
 						"node": "",
 						"java": "private static void createQRCode() { \n   // Creating the payload to create a QR Code, additional parameters can be added basis the API \n   // Documentation \n   QRCode qrCode = new QRCode(); \n   qrCode.setAmount(new MoneyAmount().amount(4001).currency(MoneyAmount.CurrencyEnum.JPY)); \n   qrCode.setMerchantPaymentId(\"merchant_payment_id\"); \n   qrCode.setCodeType(\"ORDER_QR\"); \n   qrCode.setOrderDescription(\"Mune's Favourite Cake\"); \n   qrCode.isAuthorization(false); \n   qrCode.redirectUrl(\"https://paypay.ne.jp/\"); \n   qrCode.redirectType( \n   QRCode.RedirectTypeEnum.WEB_LINK); // For Deep Link, RedirectTypeEnum.APP_DEEP_LINK \n   qrCode.setUserAgent( \n   \"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1\"); \n   // Calling the method to create a qr code \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   QRCodeDetails response = null; \n   try { \n   response = apiInstance.createQRCode(qrCode); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
@@ -42,7 +42,7 @@
 					"title": "Get Payment Details",
 					"code": [{
 						"python": "",
-						"php": "text php",
+						"php": "",
 						"node": "",
 						"java": "private static void getPaymentDetails() { \n   // Calling the method to get payment details \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   PaymentDetails response = null; \n   try { \n   response = apiInstance.getCodesPaymentDetails(\"merchantPaymentId\"); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS, this does not mean the payment was a success \n   System.out.println(response); \n }"
 					}]
@@ -51,8 +51,8 @@
 					"title": "Initiate a Refund",
 					"code": [{
 						"python": "",
-						"php": "test php",
-						"node": "test node",
+						"php": "",
+						"node": "",
 						"java": "private static void refund() { \n   // Creating the payload to refund a Payment, additional parameters can be added basis the API \n   // Documentation \n   Refund refund = new Refund(); \n   refund.setAmount(new MoneyAmount().amount(1).currency(MoneyAmount.CurrencyEnum.JPY)); \n   refund.setMerchantRefundId(\"merchant_refund_id\"); \n   refund.setPaymentId(\"payment_id\"); \n   refund.setRequestedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)); \n   refund.setReason(\"間違って注文した\"); \n   // Calling the method to refund a Payment \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   RefundDetails response = null; \n   try { \n   response = apiInstance.refundPayment(refund); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
 					}]
 				},
@@ -61,7 +61,7 @@
 					"code": [{
 						"python": "",
 						"php": "",
-						"node": "test node",
+						"node": "",
 						"java": "private static void getRefundDetails() { \n   // Calling the method to get Refund Details \n   PaymentApi apiInstance = new PaymentApi(apiClient); \n   RefundDetails response = null; \n   try { \n   response = apiInstance.getRefundDetails(\"merchantRefundId\"); \n   } catch (ApiException e) { \n   e.printStackTrace(); \n   } \n   // Printing if the method call was SUCCESS \n   System.out.println(response); \n }"
 					}]
 				}
