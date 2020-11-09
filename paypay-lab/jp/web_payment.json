@@ -33,7 +33,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"動的なQRコードを作成できるようにしたい",
+               "question":"動的QRコードを作成する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -84,7 +84,7 @@
                ]
             },
             "model2":{
-               "question":"認証前の動的QRコードを作成できるようにしたいのですが",
+               "question":"承認付き動的QRコードを作成する",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -169,7 +169,7 @@
                ]
             },
             "model3":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -281,7 +281,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"消費者が支払いをするとき、私は支払いの詳細を表示する必要があります",
+               "question":"エンドユーザが実施した支払い状況の詳細を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -302,7 +302,7 @@
                ]
             },
             "model2":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -370,7 +370,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"動的QRコードにアクセスして動的QRコードを削除できるようにしたい",
+               "question":"作成した動的QRコードを削除する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -392,7 +392,7 @@
                ]
             },
             "model2":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -461,7 +461,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"消費者が支払いをした場合、私はそれをキャンセルする必要があります",
+               "question":"エイドユーザが決済した取引をキャンセルする。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -482,7 +482,7 @@
                ]
             },
             "model2":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -559,7 +559,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"私は支払いを返金することができるようにする必要があります",
+               "question":"エンドユーザが決済した取引に対して返金する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -626,7 +626,7 @@
                ]
             },
             "model2":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -740,7 +740,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"返金の詳細を見ることができるようにする必要があります",
+               "question":"返金状況の詳細を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -761,7 +761,7 @@
                ]
             },
             "model2":{
-               "question":"APIへのアクセス中にエラーが表示されるようにしたい",
+               "question":"不正なトークンでAPIにアクセスするときのエラー表示を確認する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
