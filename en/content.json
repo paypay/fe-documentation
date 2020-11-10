@@ -93,7 +93,7 @@
 	"footer": {
 		"links": ["About PayPay", "Contact Us", "Careers", "Blog"],
 		"copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
-		"address": ["Tokyo Garden Terrace Kioi-cho, Kioi tower 1-3 Kioi-cho", "Chiyoda-Ku, Tokyo - 102-0094"]
+		"address": ["WeWork, Kamiyacho Trust Tower", "4-1-1 Toranomon", "Minato-ku, Tokyo - 105-6921"]
 	},
 	"product": {
 		"app-invoke": {
