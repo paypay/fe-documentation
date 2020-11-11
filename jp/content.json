@@ -1073,7 +1073,7 @@
       ],
       "link_paypay": "PayPayアカウントを連携",
       "link": "連携する",
-      "xtra_info": "ネイティブペイメントを利用するには、PyaPayアカウントの連携が必要です",
+      "xtra_info": "ネイティブペイメントを利用するには、PayPayアカウントの連携が必要です",
       "payment_success": "支払い成功",
       "order_id": "決済番号",
       "amount": "金額",
