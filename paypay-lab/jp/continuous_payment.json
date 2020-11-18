@@ -302,7 +302,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"継続課金トランザクションを取り消す。",
+                "question":"継続課金トランザクションに対すてキャンセルリクエストを実行する。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -400,7 +400,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"継続課金トランザクションを返金する。",
+                "question":"継続課金トランザクションに対する返金リクエストを実行する。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",

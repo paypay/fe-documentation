@@ -461,7 +461,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"エイドユーザが決済した取引をキャンセルする。",
+               "question":"エンドユーザが決済した取引に対してキャンセルリクエストを実行する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
@@ -559,7 +559,7 @@
          },
          "scenario":{
             "model1":{
-               "question":"エンドユーザが決済した取引に対して返金する。",
+               "question":"エンドユーザが決済した取引に対して返金リクエストを実行する。",
                "schema":[
                   {
                      "fmClass":"irq_inputs",
