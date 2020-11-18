@@ -507,7 +507,7 @@
 		},
 		"nativePayment": {
 			"name": "Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> This feature may not be available depending on the security level of your service.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/direct_debit"
 		},
 		"qrCode": {
@@ -741,7 +741,7 @@
 			"table": {
 				"row_desc_1": "The unique refund transaction id provided by merchant",
 				"row_desc_2": "The payment transaction id provided by PayPay",
-				"row_desc_3": "The payment transaction id provided by PayPay",
+				"row_desc_3": "Amount of the transaction to be refunded",
 				"row_desc_4": "Reason for reverting the payment authorization",
 				"row_desc_5": "Epoch timestamp in seconds"
 			},
@@ -844,7 +844,7 @@
 		"nativePayment": {
 			"name": "Native Payment",
 			"demo_desc": "Demo of Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> This feature may not be available depending on the security level of your service.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
 			"nativePayment_desc_1": "If you want provide your customers with the easiest possible checkout",
 			"nativePayment_desc_2": "You have the security in place to ensure our mutual customers money is safe (We have a strict evaluation procedure to enforce the same)",
 			"user_authorization_title": "Acquire User Authorization",
