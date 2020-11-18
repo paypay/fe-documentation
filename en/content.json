@@ -507,7 +507,7 @@
 		},
 		"nativePayment": {
 			"name": "Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.\n *This feature may not be available depending on the security level of your service.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> *This feature may not be available depending on the security level of your service.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/direct_debit"
 		},
 		"qrCode": {
@@ -522,17 +522,17 @@
 		},
 		"continuousPayment": {
 			"name": "Continuous Payment",
-			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.\n *This feature is only available to corporate customers.",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.<br> *This feature is only available to corporate customers.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments"
 		},
 		"preAuthCapture": {
 			"name": "PreAuth & Capture",
-			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.\n *This feature may not be available depending on the security level of your service.",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.<br> *This feature may not be available depending on the security level of your service.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture"
 		},
 		"pendingPayment": {
 			"name": "Request Money",
-			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.\n *This feature is only available to corporate customers.",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.<br> *This feature is only available to corporate customers.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
 		}
 	},
@@ -844,7 +844,7 @@
 		"nativePayment": {
 			"name": "Native Payment",
 			"demo_desc": "Demo of Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.\n *This feature may not be available depending on the security level of your service.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> *This feature may not be available depending on the security level of your service.",
 			"nativePayment_desc_1": "If you want provide your customers with the easiest possible checkout",
 			"nativePayment_desc_2": "You have the security in place to ensure our mutual customers money is safe (We have a strict evaluation procedure to enforce the same)",
 			"user_authorization_title": "Acquire User Authorization",
@@ -903,7 +903,7 @@
 		"continuousPayment": {
 			"name": "Continuous Payment",
 			"demo_desc": "Demo of Continuous Payment",
-			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.\n *This feature is only available to corporate customers.",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.<br> *This feature is only available to corporate customers.",
 			"continuousPayment_desc_1": "You have a subscription product or service such as video streaming services, gaming services, etc",
 			"continuousPayment_desc_2": "You want the ability to request money from the users for your subscription services with minimum integration",
 			"when_to_use": "When to use Continuous Payment",
@@ -937,7 +937,7 @@
 		"preAuthCapture": {
 			"name": "PreAuth & Capture",
 			"demo_desc": "Demo of PreAuth & Capture",
-			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.\n *This feature may not be available depending on the security level of your service.",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.<br> *This feature may not be available depending on the security level of your service.",
 			"preAuthCapture_desc_1": "Merchant need to block money at the time of creating an order and take the money at the time of fulfilling the order",
 			"preAuthCapture_desc_2": "It is used in On demand taxis, On demand services, Ecommerce websites, etc",
 			"when_to_use": "When to use PreAuth & Capture",
@@ -973,7 +973,7 @@
 		"pendingPayment": {
 			"name": "Request Money",
 			"demo_desc": "Demo of Request Money",
-			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.\n *This feature is only available to corporate customers.",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.<br> *This feature is only available to corporate customers.",
 			"pendingPayment_desc_1": "Merchant wants to provide user an option to process their order but pay for them after a time period",
 			"pendingPayment_desc_2": "Merchant wants to simplify the checkout process without payment procedures",
 			"when_to_use": "When to use Request Money",
