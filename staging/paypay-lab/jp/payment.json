@@ -296,7 +296,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"実行したオンライン決済をキャンセルする",
+                "question":"実行したオンライン決済に対してキャンセルリクエストを実行する",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
@@ -394,7 +394,7 @@
           },
           "scenario":{
              "model1":{
-                "question":"実行したオンライン決済に対し、返金を行う。",
+                "question":"実行したオンライン決済に対し返金リクエストを実行する。",
                 "schema":[
                    {
                       "fmClass":"irq_inputs",
