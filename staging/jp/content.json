@@ -3074,71 +3074,70 @@
       }
     },
     "CheckList": {
-      "data": [
-      {
-        "title": "共通",
-        "points": [{
-            "content": "で決済/キャンセル/返品ができること 出荷課金の場合は、Preauth / revert / capture / cancel / refund ができること"
-          },
-          {
-            "content": "Apikey / secret を クライアント(ブラウザ、加盟店Nativeアプリ)に保存しないでください"
-          }
-        ]
-      },
-      {
-        "title": "Web Payment",
-        "points": [{
-            "content": "スマートフォンでPayPayアプリ保持している場合には、PayPayアプリが立ち上がり決済できること (Native AppからもPayPayアプリを立ち上げる必要があります）"
-          },
-          {
-            "content": "PayPayアプリの決済後も加盟店サイトにリダイレクトできること Native APPの場合にuniversal linkなどを用意し起動することができること (リダイレクトが必要な場合のみ)"
-          },
-          {
-            "content": "バックエンドのステータスで決済ステータス判定をしていること 決済後の画面の遷移がない場合にエラーとしてキャンセルしていないこと"
-          },
-          {
-            "content": "画面の遷移が複数回遷移があった場合にも決済ステータス判定に基づき処理できること(エッジケース) <span>これは書かなくてよいかもしれません。</span>"
-          },
-          {
-            "content": "webhookを利用する場合は、webhookを受信できないことを考慮し、バックエンドのステータスを確認するようにしてください"
-          },
-          {
-            "content": "webhookを複数回受信する場合があります。冪等性を考慮した実装にしてください"
-          }
-        ]
-      },
-      {
-        "title": "Native Payment",
-        "points": [{
-            "content": "2要素認証を導入していること"
-          },
-          {
-            "content": "アカウントリンクをもちいてIDのlinkageをしていること"
-          },
-          {
-            "content": "userAuthorizationIdをクライアント(ブラウザ、加盟店Nativeアプリ)に保存しないでください"
-          },
-          {
-            "content": "NO_SUFFICIENT_FUNDが返却された場合には、残高が不足していることをユーザーに通知し、チャージが必要であることを伝えてください"
-          },
-          {
-            "content": "SUSPECTED_DUPLICATE_PAYMENTが返却された場合には、多重決済が疑われる場合(短時間に同じ金額で、userAuthorizationIdで決済があった場合に)エラー返却する処理があります。障害時の多重送信を防ぐためおすすめしませんが、短期間で同じ金額で決済があることが想定される場合には、agreeSimilarTransaction に trueを設定していただくことで、エラーを回避することが可能です。詳しくはこちらを参照ください。<a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
-          },
-          {
-            "content": "Paymentをリクエストした結果、タイムアウト、https 500 番台が返却された場合には、getpaymentdetails でステータスを参照する、もしくはキャンセルが実施してください。詳しくは、こちらを参照ください。 <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
-          }
-        ]
-      },
-      {
-        "title": "共通(3TPS以上が予想される加盟店)",
-        "points": [{
-            "content": "PayPayとパフォーマンス試験環境にて、パフォーマンス試験を実施していること (3TPS以上が予想される加盟店)"
-          },
-          {
-            "content": "Reconファイルを取得し、トランザクションのステータスに差異がないことを確認していること (3TPS以上が予想される加盟店)"
-          }
-        ]
-      }
-    ]
-  }
+      "data": [{
+          "title": "共通",
+          "points": [{
+              "content": "で決済/キャンセル/返品ができること 出荷課金の場合は、Preauth / revert / capture / cancel / refund ができること"
+            },
+            {
+              "content": "Apikey / secret を クライアント(ブラウザ、加盟店Nativeアプリ)に保存しないでください"
+            }
+          ]
+        },
+        {
+          "title": "Web Payment",
+          "points": [{
+              "content": "スマートフォンでPayPayアプリ保持している場合には、PayPayアプリが立ち上がり決済できること (Native AppからもPayPayアプリを立ち上げる必要があります）"
+            },
+            {
+              "content": "PayPayアプリの決済後も加盟店サイトにリダイレクトできること Native APPの場合にuniversal linkなどを用意し起動することができること (リダイレクトが必要な場合のみ)"
+            },
+            {
+              "content": "バックエンドのステータスで決済ステータス判定をしていること 決済後の画面の遷移がない場合にエラーとしてキャンセルしていないこと"
+            },
+            {
+              "content": "画面の遷移が複数回遷移があった場合にも決済ステータス判定に基づき処理できること(エッジケース) <span>これは書かなくてよいかもしれません。</span>"
+            },
+            {
+              "content": "webhookを利用する場合は、webhookを受信できないことを考慮し、バックエンドのステータスを確認するようにしてください"
+            },
+            {
+              "content": "webhookを複数回受信する場合があります。冪等性を考慮した実装にしてください"
+            }
+          ]
+        },
+        {
+          "title": "Native Payment",
+          "points": [{
+              "content": "2要素認証を導入していること"
+            },
+            {
+              "content": "アカウントリンクをもちいてIDのlinkageをしていること"
+            },
+            {
+              "content": "userAuthorizationIdをクライアント(ブラウザ、加盟店Nativeアプリ)に保存しないでください"
+            },
+            {
+              "content": "NO_SUFFICIENT_FUNDが返却された場合には、残高が不足していることをユーザーに通知し、チャージが必要であることを伝えてください"
+            },
+            {
+              "content": "SUSPECTED_DUPLICATE_PAYMENTが返却された場合には、多重決済が疑われる場合(短時間に同じ金額で、userAuthorizationIdで決済があった場合に)エラー返却する処理があります。障害時の多重送信を防ぐためおすすめしませんが、短期間で同じ金額で決済があることが想定される場合には、agreeSimilarTransaction に trueを設定していただくことで、エラーを回避することが可能です。詳しくはこちらを参照ください。<a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+            },
+            {
+              "content": "Paymentをリクエストした結果、タイムアウト、https 500 番台が返却された場合には、getpaymentdetails でステータスを参照する、もしくはキャンセルが実施してください。詳しくは、こちらを参照ください。 <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
+            }
+          ]
+        },
+        {
+          "title": "共通(3TPS以上が予想される加盟店)",
+          "points": [{
+              "content": "PayPayとパフォーマンス試験環境にて、パフォーマンス試験を実施していること (3TPS以上が予想される加盟店)"
+            },
+            {
+              "content": "Reconファイルを取得し、トランザクションのステータスに差異がないことを確認していること (3TPS以上が予想される加盟店)"
+            }
+          ]
+        }
+      ]
+    }
   }
