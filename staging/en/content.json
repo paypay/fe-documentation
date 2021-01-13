@@ -37,7 +37,7 @@
 			"title": "Support"
 		},
 		"domore-1": {
-			"title": "Dynamic QR code",
+			"title": "Dynamic QR",
 			"subtitle": "Generate a unique QR code and ask the customer to scan and pay."
 		},
 		"domore-2": {
@@ -103,7 +103,7 @@
 		},
 		"QR-Code": {
 			"title": ["Take your business to next level with", "QR Code", "Operation"],
-			"overview": "PayPay Dynamic QR Code - Overview",
+			"overview": "PayPay Dynamic QR - Overview",
 			"desc": "Empower your business by creating a QR Code which can be scanned by the user using PayPay App to process the payment."
 		},
 		"auto-debit": {
@@ -176,10 +176,10 @@
 			]
 		},
 		"DynamicQRCode": {
-			"key": "Dynamic QR Code",
-			"header_title": ["Dynamic QR Code", "Overview"],
+			"key": "Dynamic QR",
+			"header_title": ["Dynamic QR", "Overview"],
 			"mainTitle": "Dynamic <br>*QR Code*",
-			"subTitle": "Dynamic QR codes can be displayed on the screen of your app or web page, for a user to scan and make a payment. For your customers, this is exactly the same payment experience that they are using everyday at millions of offline stores that support PayPay.",
+			"subTitle": "Dynamic QRs can be displayed on the screen of your app or web page, for a user to scan and make a payment. For your customers, this is exactly the same payment experience that they are using everyday at millions of offline stores that support PayPay.",
 			"prodTitle": "Empower your business by creating a *QR Code* which can be scanned by the user using PayPay App to process the payment.",
 			"introduction": "Empower your business by creating a QR Code which can be scanned by the user using PayPay App to process the payment.",
 			"product": [{
@@ -427,8 +427,8 @@
 			"sgp_s1mart_subtitle": "You can select multiple options",
 			"sgp_pname1": "App Invoke",
 			"sgp_pname1_1": "App Invoke",
-			"sgp_pname2": "Dynamic QR Code",
-			"sgp_pname2_1": "Dynamic QR Code",
+			"sgp_pname2": "Dynamic QR",
+			"sgp_pname2_1": "Dynamic QR",
 			"sgp_pname3": "Native Payment",
 			"sgp_pname4": "Web Payment",
 			"sgp_pname5": "Pre-auth & Capture",
@@ -507,11 +507,11 @@
 		},
 		"nativePayment": {
 			"name": "Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> *This feature may not be available depending on the security level of your service.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/direct_debit"
 		},
 		"qrCode": {
-			"name": "Dynamic QR Code",
+			"name": "Dynamic QR",
 			"description": "Generate a unique QR code and ask the customer to scan and pay.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/dynamicqrcode"
 		},
@@ -522,17 +522,17 @@
 		},
 		"continuousPayment": {
 			"name": "Continuous Payment",
-			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.<br> *This feature is only available to corporate customers.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments"
 		},
 		"preAuthCapture": {
 			"name": "PreAuth & Capture",
-			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.<br> *This feature may not be available depending on the security level of your service.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture"
 		},
 		"pendingPayment": {
 			"name": "Request Money",
-			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.<br> *This feature is only available to corporate customers.",
 			"doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
 		}
 	},
@@ -741,7 +741,7 @@
 			"table": {
 				"row_desc_1": "The unique refund transaction id provided by merchant",
 				"row_desc_2": "The payment transaction id provided by PayPay",
-				"row_desc_3": "The payment transaction id provided by PayPay",
+				"row_desc_3": "Amount of the transaction to be refunded",
 				"row_desc_4": "Reason for reverting the payment authorization",
 				"row_desc_5": "Epoch timestamp in seconds"
 			},
@@ -796,7 +796,7 @@
 			"http_2xx": {
 				"title": "HTTP 2xx",
 				"desc_1": "Everything works as expected.",
-				"desc_2": "The requested resource(e.g. dynamic QR code) was created.",
+				"desc_2": "The requested resource(e.g. Dynamic QR) was created.",
 				"desc_3": "Means the request is received, and will be processed sometime later."
 			},
 			"http_4xx": {
@@ -844,7 +844,7 @@
 		"nativePayment": {
 			"name": "Native Payment",
 			"demo_desc": "Demo of Native Payment",
-			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.",
+			"description": "Allow a customer to link PayPay with your service, allowing future payments without needing to call PayPay each time.<br> *This feature may not be available depending on the security level of your service.",
 			"nativePayment_desc_1": "If you want provide your customers with the easiest possible checkout",
 			"nativePayment_desc_2": "You have the security in place to ensure our mutual customers money is safe (We have a strict evaluation procedure to enforce the same)",
 			"user_authorization_title": "Acquire User Authorization",
@@ -881,15 +881,15 @@
 			"integrating_title": "Integrating Native Payment"
 		},
 		"qrCode": {
-			"name": "Dynamic QR Code",
-			"demo_desc": "Demo of Dynamic QR Code",
+			"name": "Dynamic QR",
+			"demo_desc": "Demo of Dynamic QR",
 			"description": "Generate a unique QR code and ask the customer to scan and pay.",
 			"qrCode_desc_1": "Payment to happen on a Tablet",
 			"qrCode_desc_2": "Payments on Vending Machines",
 			"qrCode_desc_3": "Payment to happen on a TV Screen",
 			"qrCode_desc_4": "Printing a QR Code for Bill Payment",
-			"when_to_use": "When to use Dynamic QR Code",
-			"integrating_title": "Integrating Dynamic QR Code"
+			"when_to_use": "When to use Dynamic QR",
+			"integrating_title": "Integrating Dynamic QR"
 		},
 		"appInvoke": {
 			"name": "App Invoke",
@@ -903,7 +903,7 @@
 		"continuousPayment": {
 			"name": "Continuous Payment",
 			"demo_desc": "Demo of Continuous Payment",
-			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.",
+			"description": "To provide continuous payments and also allow to go live with minimum integration and ensure low failure rate.<br> *This feature is only available to corporate customers.",
 			"continuousPayment_desc_1": "You have a subscription product or service such as video streaming services, gaming services, etc",
 			"continuousPayment_desc_2": "You want the ability to request money from the users for your subscription services with minimum integration",
 			"when_to_use": "When to use Continuous Payment",
@@ -937,7 +937,7 @@
 		"preAuthCapture": {
 			"name": "PreAuth & Capture",
 			"demo_desc": "Demo of PreAuth & Capture",
-			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.",
+			"description": "Block the money at the time of creating an order and take the money at the time of fulfilling the order thereby reduce risk factor.<br> *This feature may not be available depending on the security level of your service.",
 			"preAuthCapture_desc_1": "Merchant need to block money at the time of creating an order and take the money at the time of fulfilling the order",
 			"preAuthCapture_desc_2": "It is used in On demand taxis, On demand services, Ecommerce websites, etc",
 			"when_to_use": "When to use PreAuth & Capture",
@@ -973,7 +973,7 @@
 		"pendingPayment": {
 			"name": "Request Money",
 			"demo_desc": "Demo of Request Money",
-			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.",
+			"description": "Gives merchants another payment option for the users to pay for their order after a time period and makes the checkout process simple.<br> *This feature is only available to corporate customers.",
 			"pendingPayment_desc_1": "Merchant wants to provide user an option to process their order but pay for them after a time period",
 			"pendingPayment_desc_2": "Merchant wants to simplify the checkout process without payment procedures",
 			"when_to_use": "When to use Request Money",
@@ -3114,5 +3114,73 @@
 				]
 			}
 		}
+	},
+	"CheckList": {
+	    "data": [
+			{
+				"title": "Common",
+				"points": [{
+						"content": "To check payment/cancel/refund in sandbox environment. In the case of shipment sales, that can Preauth / capture / cancel / refund."
+					},
+					{
+						"content": "API Key and Secret should not be stored in the client side."
+					}
+				]
+			},
+			{
+				"title": "Web Payment",
+				"points": [{
+						"content": "If you are PayPay app held in the smart phone, you can be settled rise PayPay app."
+					},
+					{
+						"content": "That after the settlement of PayPay app can also be redirected to the merchant site (If the redirect is required only)."
+					},
+					{
+						"content": "That you have a settlement status determined by the back-end status.It has not been canceled as an error if there is no transition of the screen after settlement. "
+					},
+					{
+						"content": "Even if there are multiple screen transitions, it can be processed based on the settlement status judgment (edge case) <span>may not have to write this.</span>"
+					},
+					{
+						"content": "When using webhooks, check the backend starter status if webhooks are not received."
+					},
+					{
+						"content": "When a webhook is received multiple times, the implementation should consider Idempotent."
+					}
+				]
+			},
+			{
+				"title": "Native Payment",
+				"points": [{
+						"content": "It has introduced a two-factor authentication."
+					},
+					{
+						"content": "That you have the linkage of the ID by using the account link."
+					},
+					{
+						"content": "User Auth ID should not be stored in the client side."
+					},
+					{
+						"content": "For the error code, NO_SUFFICIENT_FUND handling has been done appropriately by telling the user the user does not have sufficient funds."
+					},
+					{
+						"content": "Proper handling has been made for possible duplicate transactions <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+					},
+					{
+						"content": "Handling Error Codes with unknown status has been handled properly <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
+					}
+				]
+			},
+			{
+				"title": "Merchants more than 3TPS is expected",
+				"points": [{
+						"content": "Merchants more than 3TPS is expected By PayPay and performance test environment, we have conducted a performance test."
+					},
+					{
+						"content": "Get the Recon file, it has been confirmed that there is no difference in the transaction status of."
+					}
+				]
+			}
+		]
 	}
 }
