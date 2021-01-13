@@ -3114,5 +3114,73 @@
 				]
 			}
 		}
+	},
+	"CheckList": {
+	    "data": [
+			{
+				"title": "Common",
+				"points": [{
+						"content": "To check payment/cancel/refund in sandbox environment. In the case of shipment sales, that can Preauth / capture / cancel / refund."
+					},
+					{
+						"content": "API Key and Secret should not be stored in the client side."
+					}
+				]
+			},
+			{
+				"title": "Web Payment",
+				"points": [{
+						"content": "If you are PayPay app held in the smart phone, you can be settled rise PayPay app."
+					},
+					{
+						"content": "That after the settlement of PayPay app can also be redirected to the merchant site (If the redirect is required only)."
+					},
+					{
+						"content": "That you have a settlement status determined by the back-end status.It has not been canceled as an error if there is no transition of the screen after settlement. "
+					},
+					{
+						"content": "Even if there are multiple screen transitions, it can be processed based on the settlement status judgment (edge case) <span>may not have to write this.</span>"
+					},
+					{
+						"content": "When using webhooks, check the backend starter status if webhooks are not received."
+					},
+					{
+						"content": "When a webhook is received multiple times, the implementation should consider Idempotent."
+					}
+				]
+			},
+			{
+				"title": "Native Payment",
+				"points": [{
+						"content": "It has introduced a two-factor authentication."
+					},
+					{
+						"content": "That you have the linkage of the ID by using the account link."
+					},
+					{
+						"content": "User Auth ID should not be stored in the client side."
+					},
+					{
+						"content": "For the error code, NO_SUFFICIENT_FUND handling has been done appropriately by telling the user the user does not have sufficient funds."
+					},
+					{
+						"content": "Proper handling has been made for possible duplicate transactions <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+					},
+					{
+						"content": "Handling Error Codes with unknown status has been handled properly <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
+					}
+				]
+			},
+			{
+				"title": "Merchants more than 3TPS is expected",
+				"points": [{
+						"content": "Merchants more than 3TPS is expected By PayPay and performance test environment, we have conducted a performance test."
+					},
+					{
+						"content": "Get the Recon file, it has been confirmed that there is no difference in the transaction status of."
+					}
+				]
+			}
+		]
 	}
 }
