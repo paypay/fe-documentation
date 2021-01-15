@@ -3074,7 +3074,7 @@
       }
     },
     "CheckList": {
-      "checklist_lisk_desc": "本番展開の準備が整っているかどうかは、弊社推奨のチェックリストでご確認",
+      "checklist_link_desc": "本番展開の準備が整っているかどうかは、弊社推奨のチェックリストでご確認",
 		  "checklist_link": "ください。",
       "data": [{
           "title": "共通",

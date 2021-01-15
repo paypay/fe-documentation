@@ -3116,7 +3116,7 @@
 		}
 	},
 	"CheckList": {
-		"checklist_lisk_desc": "To check if you are production ready, please go through our recommended",
+		"checklist_link_desc": "To check if you are production ready, please go through our recommended",
 		"checklist_link": "checklist",
 	    "data": [
 			{
