@@ -78,7 +78,7 @@
 		"notice_for_merchants": "Merchant Announcements",
 		"notice_for_developers": "Developer Announcements ",
 		"stats": {
-			"usersCount": "33",
+			"usersCount": "35",
 			"storesCount": "2.6",
 			"transactionsCount": "1",
 			"users": "USERS",
@@ -349,7 +349,7 @@
 			"mamain_smoothpayment": "require('@/assets/products/mini-app/miniapp_smoothpayment.png')",
 			"mamain_section2_title": "Why PayPay Mini App?",
 			"mamain_section3_title": "Engaged Users",
-			"mamain_section3_subheading": ["33M + ", "Registered", "Users"],
+			"mamain_section3_subheading": ["35M + ", "Registered", "Users"],
 			"mamain_section3_descriptions": "Every day, millions of people from all  over Japan are using PayPay to pay for goods and services from both online and offiline merchants. Mini Apps can reach these users any time, giving you a unique opportunity to impact customers and expand your business.",
 			"mamain_section4_title": "Open from Anywhere",
 			"mamain_section4_descriptions": "Mini apps can be opened by its own icon within PayPay, or via a user scanning a QR code or tapping on a link. A user does not need to download anything or launch an unfamiliar web page, allowing them to quickly engage with your service. ",
