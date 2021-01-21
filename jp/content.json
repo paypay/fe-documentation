@@ -3076,7 +3076,7 @@
     "CheckList": {
       "checklist_link_desc": "本番展開の準備が整っているかどうかは、弊社推奨の",
       "checklist_link_desc_1": "チェックリスト",
-      "checklist_link": "でご確認 ください。",
+      "checklist_link": "でご確認ください。",
       "data": [{
           "title": "共通",
           "points": [{
@@ -3090,7 +3090,7 @@
         {
           "title": "Web Payment",
           "points": [{
-              "content": "スマートフォンでPayPayアプリを保持している場合、PayPayアプリが立ち上がり決済できる　(Native AppからもPayPayアプリを立ち上げる必要があります"
+              "content": "スマートフォンでPayPayアプリを保持している場合、PayPayアプリが立ち上がり決済できる　(Native AppからもPayPayアプリを立ち上げる必要あり）"
             },
             {
               "content": "PayPayアプリの決済後も加盟店サイトにリダイレクトできる、 Native APPの場合にuniversal linkなどを用意し起動することができる (リダイレクトが必要な場合のみ)"
@@ -3099,13 +3099,13 @@
               "content": "バックエンドのステータスで決済ステータス判定をする、 決済後の画面の遷移がない場合にエラーとして一律キャンセルや返金などをしない"
             },
             {
-              "content": "画面の遷移が複数回遷移があった場合にも決済ステータス判定に基づき処理できる、 通常のケースでは遷移は一度のみですが、ブラウザの古い履歴などで複数遷移があることが極稀にあります。その場合に、成立した取引をキャンセルすることがないように実装ください"
+              "content": "画面が複数回遷移した場合もバックエンドのステータスで決済ステータス判定をする（通常、遷移は一度のみだが、ブラウザの古い履歴などで複数遷移がある場合が極稀にある）"
             },
             {
-              "content": "webhookを利用する場合は、webhookを受信できないことを考慮し、バックエンドのステータスを確認するようにしてください"
+              "content": "webhookを利用する場合、受信できないことも考慮しバックエンドのステータスで決済ステータス判定をする"
             },
             {
-              "content": "webhookを複数回受信する場合があります。冪等性を考慮した実装にしてください"
+              "content": "webhookを複数回受信する可能性があるため、冪等性を考慮した実装にする"
             }
           ]
         },
@@ -3124,7 +3124,7 @@
               "content": "NO_SUFFICIENT_FUNDが返却された場合には、残高が不足していることをユーザーに通知し、チャージが必要であることを伝える"
             },
             {
-              "content": "多重決済(短時間に同一userAuthorizationId・同一金額で決済があった場合)が発生する場合に備えて、詳細リンクを参照し、適切にエラーハンドリングしてください。詳細はこちら<br/><a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+              "content": "多重決済(短時間に同一userAuthorizationId・同一金額で決済があった場合)が発生する場合に備えて、詳細リンクを参照し、適切にエラーハンドリングする。詳細はこちら<br/><a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
             },
             {
               "content": "paymentをリクエストした結果、タイムアウト、https 500 番台が返却された場合、getpaymentdetails でステータスを参照、もしくはキャンセルが実施する。詳細はこちら<br/><a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
