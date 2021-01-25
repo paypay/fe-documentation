@@ -3185,5 +3185,216 @@
 				]
 			}
 		]
+	},
+	"DesignSystem": {
+		"homescreen": {
+			"dshomesec1_content_title1": "PayPay",
+			"dshomesec1_content_title2": "App Style Guide",
+			"dshomesec1_content_descriptions": "A guide to design and create sophisticated products with inherent system and recommendations on how to apply design principles for PayPay Merchants.",
+			"dshomesec2_content_title": "Overview",
+			"dshomesec2_content_descriptions": [
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayのDesignについてここに定義します。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+				},
+				{ 
+					"classname": "mb-lg-5", 
+					"descriptions": "ガイドラインは2つのパートに分かれます。"
+				}				
+			],
+			"dshomesec3_content_title": "Design Philosophy",
+			"dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+			"dshomesec3_content_philosophy": [
+				{
+					"dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_01.svg')",
+					"dshomesec3_philo_title": "Emapthy",
+					"dshomesec3_philo_descriptions": "We provide designs that are close to the user's life and sympathize with them."
+				},
+				{
+					"dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_02.svg')",
+					"dshomesec3_philo_title": "Simple",
+					"dshomesec3_philo_descriptions": "Strip off the extra stuff so the user can focus only on what's important."
+				},
+				{
+					"dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_03.svg')",
+					"dshomesec3_philo_title": "Consistency",
+					"dshomesec3_philo_descriptions": "The UI components provided by the app comply with the components in this guideline."
+				},
+				{
+					"dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_04.svg')",
+					"dshomesec3_philo_title": "Happy",
+					"dshomesec3_philo_descriptions": "We aim to make your daily life happy with PayPay, and provide fun, human-like, and warm designs."
+				}
+			],
+			"dshomesec3_content_knowmore": "Know More...",
+			"dshomesec4_content_title": "Global Rule",
+			"dshomesec4_content_descriptions": [
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayのDesignについてここに定義します。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+				},
+				{ 
+					"classname": "mb-lg-5", 
+					"descriptions": "ガイドラインは2つのパートに分かれます。"
+				}
+			],
+			"dshomesec4_content_globrules": [
+				{
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_01.svg",
+					"icondesc": "COLOR"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_02.svg",
+					"icondesc": "DESIGN PHILOSOPHY"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_03.svg",
+					"icondesc": "ICONOGRAPHY"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_04.svg",
+					"icondesc": "ILLUSTRATION"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_05.svg",
+					"icondesc": "INTERACTION"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_06.svg",
+					"icondesc": "LAYOUT"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_07.svg",
+					"icondesc": "PHOTO"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_08.svg",
+					"icondesc": "SHADOW"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_09.svg",
+					"icondesc": "SHAPE"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_10.svg",
+					"icondesc": "TRANSITION"
+				}, {
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_11.svg",
+					"icondesc": "TYPOGRAPHY"
+				}
+			],
+			"dshomesec5_content_title": "COMPONENT",
+			"dshomesec5_content_descriptions": [
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayのDesignについてここに定義します。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+				},
+				{ 
+					"classname": "", 
+					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+				},
+				{ 
+					"classname": "mb-lg-5", 
+					"descriptions": "ガイドラインは2つのパートに分かれます。"
+				}
+			],
+			"dshomesec5_content_component": [
+				{
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_01.svg",
+					"icondesc": "Balloon"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_02.svg",
+					"icondesc": "Buttons"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_03.svg",
+					"icondesc": "Cards"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_04.svg",
+					"icondesc": "Expand"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_05.svg",
+					"icondesc": "Form"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_06.svg",
+					"icondesc": "half sheets"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_07.svg",
+					"icondesc": "Header"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_08.svg",
+					"icondesc": "Label"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_09.svg",
+					"icondesc": "List"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_10.svg",
+					"icondesc": "Loading animation"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "Page Controls"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "selection controls"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "slider"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "tab"
+				}, {
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "toast"
+				}
+			]
+		}
 	}
 }
