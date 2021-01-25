@@ -3175,25 +3175,29 @@
       "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
       "dshomesec3_content_philosophy": [
         {
-          "dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_01.svg')",
-          "dshomesec3_philo_title": "Emapthy",
-          "dshomesec3_philo_descriptions": "We provide designs that are close to the user's life and sympathize with them."
-        },
-        {
-          "dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_02.svg')",
-          "dshomesec3_philo_title": "Simple",
-          "dshomesec3_philo_descriptions": "Strip off the extra stuff so the user can focus only on what's important."
-        },
-        {
-          "dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_03.svg')",
-          "dshomesec3_philo_title": "Consistency",
-          "dshomesec3_philo_descriptions": "The UI components provided by the app comply with the components in this guideline."
-        },
-        {
-          "dshomesec3_philo_img": "require('@/assets/designsystem/home/section2_icn_04.svg')",
-          "dshomesec3_philo_title": "Happy",
-          "dshomesec3_philo_descriptions": "We aim to make your daily life happy with PayPay, and provide fun, human-like, and warm designs."
-        }
+					"dshomesec3_philo_classname": "dshomesec3_philo1",
+					"dshomesec3_philo_img": "section2_icn_01.svg",
+					"dshomesec3_philo_title": "Emapthy",
+					"dshomesec3_philo_descriptions": "We provide designs that are close to the user's life and sympathize with them."
+				},
+				{
+					"dshomesec3_philo_classname": "dshomesec3_philo2",
+					"dshomesec3_philo_img": "section2_icn_02.svg",
+					"dshomesec3_philo_title": "Simple",
+					"dshomesec3_philo_descriptions": "Strip off the extra stuff so the user can focus only on what's important."
+				},
+				{
+					"dshomesec3_philo_classname": "dshomesec3_philo3",
+					"dshomesec3_philo_img": "section2_icn_03.svg",
+					"dshomesec3_philo_title": "Consistency",
+					"dshomesec3_philo_descriptions": "The UI components provided by the app comply with the components in this guideline."
+				},
+				{
+					"dshomesec3_philo_classname": "dshomesec3_philo4",
+					"dshomesec3_philo_img": "section2_icn_04.svg",
+					"dshomesec3_philo_title": "Happy",
+					"dshomesec3_philo_descriptions": "We aim to make your daily life happy with PayPay, and provide fun, human-like, and warm designs."
+				}
       ],
       "dshomesec3_content_knowmore": "Know More...",
       "dshomesec4_content_title": "Global Rule",
