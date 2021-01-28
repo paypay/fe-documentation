@@ -3356,6 +3356,66 @@
           "icondesc": "toast"
         }
       ]
+    },
+    "globalrules": {
+      "philosophy": {
+        "philos_headers": "Design Philosophy",
+        "philos_sect1_title": "Principle",
+        "philos_sect1_description1": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+        "philos_sect1_description2": "PayPayから提供するすべてのプロダクトにおいて、このDesign Philosophyを念頭にデザインを提供します。",
+        "philos_sect2_title": "Design Theme",
+        "philos_sect2_philosophylists": [ {
+          "title": "Empathy",
+          "dividers": true,
+          "classname": "philos_sect2_philosophylists0",
+          "descriptions": [ {
+              "desc": "ユーザーの生活に寄り添い、共感されるデザインを提供します。"
+            }, {
+              "desc": "水や空気のように日常に溶け込み、老若男女問わず、誰でも簡単に利用できるサービスでなくてはいけません。"
+            }, {
+              "desc":"提供する側の一方通行ではなく、常にユーザーと対話ができるものを目指します。"
+            }, {
+              "desc":"ユーザーがPayPayを使うことによって自身の生活をより便利に、豊かにすることに尽力し、ユーザーのどんなに小さな声にも耳を傾けます。"
+            }, {
+              "desc":"安心感と信頼感は最も重要な要素です。"
+            }
+          ]
+        }, {
+          "title": "Simple",
+          "dividers": true,
+          "classname": "philos_sect2_philosophylists1",
+          "descriptions": [ {
+              "desc": "余計なものを削ぎ落とし、ユーザーが重要なものにのみフォーカスできるようにします。"
+            }, {
+              "desc": "ユーザーが達成するべきゴールを阻害するものはすべて排除し、ユーザーアクションが最短で完了するようにします。"
+            }
+          ]
+        }, {
+          "title": "Consistency",
+          "dividers": true,
+          "classname": "philos_sect2_philosophylists2",
+          "descriptions": [ {
+              "desc": "すべてのUIは規則性、一貫性保ちます。",
+            }, {
+              "desc": "必要な学習コストは極力削減し、ユーザーが快適にサービスを使い続けられるようにします。"
+            }, {
+              "desc":"アプリで提供するUIコンポーネントはこのガイドラインのコンポーネントに準拠します。"
+            }
+          ]
+        }, {
+          "title": "Happy",
+          "dividers": false,
+          "classname": "philos_sect2_philosophylists3",
+          "descriptions": [ {
+              "desc": "ユーザーの日常がPayPayによってHappyになることを目指し、楽しく、人間らしく、温かみのあるデザインを提供します。"
+            }, {
+              "desc": "決済アプリの垣根を超え、便利なツールの提供だけではなく、ユーザーの感情を動かせるようなデザインを心がけます。"
+            }, {
+              "desc":"ビジュアルイメージは、決済/金融サービスのイメージに囚われず、楽しく、元気が良く、ワクワクする設計であるべきです。"
+            }
+          ]
+        } ]
+      }
     }
   }
 }
