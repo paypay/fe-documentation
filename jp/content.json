@@ -91,7 +91,7 @@
     "testimonyList": "testimonyListJp"
   },
   "footer": {
-    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ"],
+    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ","稼働状況"],
     "copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
     "address": ["〒105-6921　東京都港区虎ノ門 4-1-1", "神谷町トラストタワー WeWork内"]
   },
@@ -3404,7 +3404,7 @@
         "accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
         "accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
         "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ"
-        
+
         }
     }
   }
