@@ -3445,7 +3445,7 @@
 			"title_gradation_color_rule": "Gradation Color Rule",
 			"title_accessibility": "Accessibility",
 			"accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
-			"accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。"
+			"accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
 			"accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ"
 
 		  }
