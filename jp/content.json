@@ -3395,7 +3395,7 @@
           "dividers": true,
           "classname": "philos_sect2_philosophylists2",
           "descriptions": [ {
-              "desc": "すべてのUIは規則性、一貫性保ちます。",
+              "desc": "すべてのUIは規則性、一貫性保ちます。"
             }, {
               "desc": "必要な学習コストは極力削減し、ユーザーが快適にサービスを使い続けられるようにします。"
             }, {
