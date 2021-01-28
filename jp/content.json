@@ -91,7 +91,7 @@
     "testimonyList": "testimonyListJp"
   },
   "footer": {
-    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ"],
+    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ","稼働状況"],
     "copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
     "address": ["〒105-6921　東京都港区虎ノ門 4-1-1", "神谷町トラストタワー WeWork内"]
   },
