@@ -11,8 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
       - name: Validate JSON Files
         uses: docker://orrosenblatt/validate-json-action:latest
+        
         env:
           INPUT_SCHEMA: schema.json 
           INPUT_JSONS: ./en/content.json,./jp/content.json,./en/webinarVideos.json,./jp/webinarVideos.json,codeSnippets.json,./paypay-lab/en/continuous_payment.json,./paypay-lab/jp/continuous_payment.json,./paypay-lab/en/payment.json,./paypay-lab/jp/payment.json,./paypay-lab/en/preauth_capture.json,./paypay-lab/jp/preauth_capture.json,./paypay-lab/en/web_payment.json,./paypay-lab/jp/web_payment.json
