@@ -3436,7 +3436,14 @@
 					},{
 					"name": "Information",
 					"logo": "usage_info.png"
-				}]
+        }],
+        "graUsageExample": [{
+          "name": "UI Background",
+          "logo": "Illustration_US4.png"
+          },{
+          "name": "Illustration Background",
+          "logo": "UI_Background_US4.svg"
+      }]
       },
       "philosophy": {
         "philos_headers": "Design Philosophy",
