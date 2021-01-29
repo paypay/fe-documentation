@@ -3443,7 +3443,14 @@
           },{
           "name": "Illustration Background",
           "logo": "UI_Background_US4.svg"
-      }]
+        }],
+				"dont_imgs": [{
+					"name": "Function colorを定義された色以外で利用する",
+					"logo": "dont1.svg"
+					},{
+					"name": "アクションコンポーネント以外にアクションカラーを多用する",
+					"logo": "dont2.svg"
+				}]
       },
       "philosophy": {
         "philos_headers": "Design Philosophy",
