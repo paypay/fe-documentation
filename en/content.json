@@ -3459,6 +3459,13 @@
 					},{
 					"name": "UI Background",
 					"logo": "ui_background.svg"
+				}],
+				"extcsUsageExample": [{
+				  "name": "Illustration",
+				  "logo": "ext_color_usage_example_1.svg"
+				  },{
+				  "name": "UI Parts",
+				  "logo": "ext_color_usage_example_2.svg"
 				}]
 			},
 			"philosophy": {
