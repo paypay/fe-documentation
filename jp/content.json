@@ -3460,6 +3460,25 @@
           },{
           "name":"Bottom",
           "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+        }],
+        "gradations_imgs": [{
+          "name": "グラデーションに3色以上を指定する",
+          "logo": "usage_dont_01.svg"
+          },{
+          "name": "上部に濃い色、下部に明るい色を指定する",
+          "logo": "usage_dont_02.svg"
+          },{
+          "name": "指定する色の明度が80以下",
+          "logo": "usage_dont_03.svg"
+          },{
+          "name": "色を透過する",
+          "logo": "usage_dont_04.svg"
+          },{
+          "name": "色相の遠い色を組み合わせる",
+          "logo": "usage_dont_05.svg"
+          },{
+          "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
+          "logo": "usage_dont_06.svg"
         }]
       },
       "philosophy": {
