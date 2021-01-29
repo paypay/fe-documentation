@@ -3423,7 +3423,20 @@
           },{
           "name": "UI Parts",
           "logo": "ext_color_usage_example_2.svg"
-        }]
+        }],
+        "fcUsageExample": [{
+					"name": "Success",
+					"logo": "usage_success.png"
+					},{
+					"name": "Error",
+					"logo": "usage_error.png"
+					},{
+					"name": "Pending",
+					"logo": "usage_pending.png"
+					},{
+					"name": "Information",
+					"logo": "usage_info.png"
+				}]
       },
       "philosophy": {
         "philos_headers": "Design Philosophy",
