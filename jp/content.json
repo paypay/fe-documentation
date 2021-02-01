@@ -91,7 +91,7 @@
     "testimonyList": "testimonyListJp"
   },
   "footer": {
-    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ"],
+    "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ","稼働状況"],
     "copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
     "address": ["〒105-6921　東京都港区虎ノ門 4-1-1", "神谷町トラストタワー WeWork内"]
   },
@@ -3384,6 +3384,263 @@
       ]
     },
     "globalrules": {
+      "color": {
+        "title": "Color",
+        "title_principle": "Principle",
+        "principle_desc_1": "色は情報の優先度や必要なアクションを明確に示します。特定の色を固有のアクションやステータスにあてはめることで、サービス全体で一貫性を保ち、ユーザーの学習コストを軽減します",
+        "principle_desc_2": "提供するUIは必ずコンポーネントに定義された色を使用します。使用する色を統一することで、ブランドの個性を醸成します",
+        "principle_desc_3": "全てのコンテンツは可読性、視認性を十分担保し、あらゆる人が快適に閲覧できる配色を利用しなくてはいけません",
+        "title_definition_pattern": "Color Definition Pattern",
+        "definition_pattern_desc": "PayPayの色はBrand color、Global color、Extended colorの3種類に定義されます。",
+        "title_brand_color": "Brand Color",
+        "brand_color_desc_1": "Brand colorはPayPayのブランドそのものを表すカラーであり、ロゴに利用されるカラーです。",
+        "brand_color_desc_2": "PayPayロゴ意外の要素に利用することは推奨しません。",
+        "title_global_color_asset": "Global Color Assets",
+        "global_color_asset_desc_1": "Global color assetsは、PayPayそのものを表すカラーアセットです。",
+        "global_color_asset_desc_2": "Brand colorを中心とした4色の組み合わせ、または定義されたグラデーションで展開します。",
+        "global_color_asset_desc_3": "この色の組み合わせを利用することでユーザーはPayPayのブランドを認知します。",
+        "global_color_asset_desc_4": "PayPayブランド全体を表現する場合は単色4色の組み合わせを、Consumer Appを表現する場合はグラデーションカラーの利用を推奨します。",
+        "title_color_palette": "Color Palette",
+        "title_gradation_palette": "Gradation Palette",
+        "title_usage_example": "Usage Example",
+        "title_dont": "Don't",
+        "dont_desc_1": "Global Colorの配色でハレーションをおこすなどの",
+        "dont_desc_2": "ユーザーに不快感を与えるような使い方は禁止します",
+        "title_ext_color_asset": "Extended Color Assets",
+        "ext_color_asset_desc_1": "Extended color assetsは、Global colorを含むカラーアセットです。",
+        "ext_color_asset_desc_2": "UIコンポーネントや、イラストやアイコンなど、コンテンツにアクセントが必要な際に利用します。",
+        "ext_color_asset_desc_3": "PayPayのデザインフィロソフィーである\"Empathy\" \"Happy\"を表現する、楽しく、親しみやすく、安心感のある配色で展開します。",
+        "ext_color_asset_color_desc_1": "有彩色12色相を4階調、無彩色を8階調で展開します。",
+        "ext_color_asset_color_desc_2": "UIへの利用は01行、04行の利用を推奨します。",
+        "ext_color_asset_color_desc_3": "UIに04行の色を利用する場合は、コンテンツの背景色への利用を推奨します。",
+        "ext_color_asset_color_desc_4": "04行の色をテキストやアクションパーツに利用することは禁止します。",
+        "ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します",
+        "title_functional_color": "Functional Color",
+        "functional_color_desc_1": "Functional color assetsは役割を持つ色のアセットです。",
+        "functional_color_desc_2": "色の持つ役割に一貫性をも持つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
+        "functional_color_desc_3": "色はExtended color assetsから引用します。",
+        "functional_color_dont": "Don't",
+        "functional_color_dont_desc": "以下の使い方はユーザーの誤操作を誘発するリスクがあるため禁止とします。",
+        "title_gradation_color": "Gradation Color",
+        "gradation_color_desc_1": "連携サービスのUIを構成するカラーやマーケティングツールには、Extended color assetsを元に構成したグラデーションカラーの利用が可能です。",
+        "gradation_color_desc_2": "ただし、Global colorで定義されているPayPay GradationをPayPayのメイン機能以外で利用することは禁止します。",
+        "gradation_color_desc_3": "グラデーションカラーを利用する場合は、定義されたルールに則ってください",
+        "title_gradation_color_rule": "Gradation Color Rule",
+        "title_accessibility": "Accessibility",
+        "accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
+        "accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
+        "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ",
+        "gcaUsageExample": [{
+					"name": "Brand Logo",
+					"logo": "brand_logo.svg"
+					},{
+					"name": "UI Parts",
+					"logo": "ui_parts.svg"
+					},{
+					"name": "System Icon",
+					"logo": "system_icon.svg"
+					},{
+					"name": "UI Background",
+					"logo": "ui_background.svg"
+        }],
+        "extcsUsageExample": [{
+          "name": "Illustration",
+          "logo": "ext_color_usage_example_1.svg"
+          },{
+          "name": "UI Parts",
+          "logo": "ext_color_usage_example_2.svg"
+        }],
+        "fcUsageExample": [{
+					"name": "Success",
+					"logo": "usage_success.png"
+					},{
+					"name": "Error",
+					"logo": "usage_error.png"
+					},{
+					"name": "Pending",
+					"logo": "usage_pending.png"
+					},{
+					"name": "Information",
+					"logo": "usage_info.png"
+        }],
+        "graUsageExample": [{
+          "name": "UI Background",
+          "logo": "Illustration_US4.png"
+          },{
+          "name": "Illustration Background",
+          "logo": "UI_Background_US4.svg"
+        }],
+				"dont_imgs": [{
+					"name": "Function colorを定義された色以外で利用する",
+					"logo": "dont1.svg"
+					},{
+					"name": "アクションコンポーネント以外にアクションカラーを多用する",
+					"logo": "dont2.svg"
+        }],
+        "grdtn_rule": [{
+          "name":"万人も",
+          "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+          },{
+          "name":"Top",
+          "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+          },{
+          "name":"Bottom",
+          "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+        }],
+        "gradations_imgs": [{
+          "name": "グラデーションに3色以上を指定する",
+          "logo": "usage_dont_01.svg"
+          },{
+          "name": "上部に濃い色、下部に明るい色を指定する",
+          "logo": "usage_dont_02.svg"
+          },{
+          "name": "指定する色の明度が80以下",
+          "logo": "usage_dont_03.svg"
+          },{
+          "name": "色を透過する",
+          "logo": "usage_dont_04.svg"
+          },{
+          "name": "色相の遠い色を組み合わせる",
+          "logo": "usage_dont_05.svg"
+          },{
+          "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
+          "logo": "usage_dont_06.svg"
+        }]
+      },
+      "interaction":{
+				"title": "Interaction",
+				"title_principle": "Principle",
+				"principle_desc":[
+					{
+						"desc": "スマートフォンやタブレットなどのタッチスクリーンデバイスでは、より直感的なエクスペリエンスを提供する必要があります"
+					},
+					{
+						"desc": "すべてのアクションコンポーネントはインタラクティブである必要があります"
+					},
+					{
+						"desc": "視覚的にどのようなものであるかが理解でき、必要なアクションをアフォードし、アクション後のフィードバックを明確にする必要があります"
+					}
+				],
+				"title_usage": "Usage",
+				"title_usage_desc": [
+					{
+						"desc": "ユーザーが行う様々なタッチデバイス上での振る舞いをジェスチャーと呼びます。"
+					},
+					{
+						"desc": "ジェスチャーには様々な種類があります。基本的にはデバイスの定義する標準のジェスチャーに準拠します。"
+					},
+					{
+						"desc": "ただし、標準的なジェスチャーであっても、複雑な挙動をするものは、ユーザーが見逃したり誤動作をしないためのサポートが必要です。"
+					}
+				],
+				"title_feedback": "Feedback",
+				"title_feedback_desc": [
+					{
+						"desc": "アクションコンポーネントは、ユーザーアクション後に必ず結果を示すフィードバックを提示します。"
+					},
+					{
+						"desc": "フィードバックを提示することで、ユーザーは自分の行った操作が成功したのか、結果はどうだったのかを知ることができます。"
+					}
+				],
+				"title_touch_feedback": "Touch Feedback",
+				"title_touch_feedback_table": [
+					{
+						"name": "iOS",
+						"desc": "タッチフィードバックは通常時のコンポーネントの色から明度を5落とした色を指定し、テキストは通常時の色のまま70%透過を指定しますタッチフィードバックの色は各コンポーネントの項目を参照してください"
+					},
+					{
+						"name": "Android",
+						"desc": "OSのRipple効果に準拠します"
+					}
+				],
+				"title_noticeofresults": "Notice of Results",
+				"noticeofresults_desc": [
+					{
+						"desc": "アクションのフィードバックと合わせて、アクションを行った結果をフィードバックすることを推奨します。"
+					},
+					{
+						"desc": "結果を提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます。"
+					}
+				],
+				"txt_noticeofresults": "フィードバックを表示するコンポーネントはToastの項目を参照ください。",
+				"title_tap": "Tap",
+				"tap_desc": [
+					{
+						"desc":"コンポーネントをタッチする動作です。"
+					},
+					{
+						"desc":"最も標準的なジェスチャーです。"
+					}
+				],
+				"txt_tap_desc": [
+					{
+						"desc":"ボタンなどの標準的なコンポーネント以外にタップアクションを利用する場合は、"
+					},
+					{
+						"desc":"ユーザーがタップ可能であることを理解できるよう、視覚的なサポートを必須とします。"
+					},
+					{
+						"desc":"またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。"
+					}
+				],
+				"txt_touch_guide": "タップを示すビジュアル要素を表示する",
+				"title_scroll": "Scroll",
+				"scroll_desc": [
+					{
+						"desc":"画面上に複数の連続するコンテンツが並ぶ場合、画面に収まりきらない情報を指で上下に動かし画面内に表示する動作です。"
+					},
+					{
+						"desc":"ユーザーの指の動きにコンテンツが追従するようにします。"
+					},
+					{
+						"desc":"また、ユーザーが画面を素早くスクロールした場合は、デバイス標準の慣性スクロールを有効にし、効率的に情報を表示できるようにします。"
+					}
+				],
+				"txt_scroll_desc": "リストなど、情報量の多いコンテンツをスクロールしながら閲覧させる場合、現在画面上に表示されているものが、複数あるコンテンツの中の何なのか、またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。",
+				"title_flick": "Flick",
+				"flick_desc": [
+					{
+						"desc":"コンポーネントを指で軽く横に弾く動作です。"
+					},
+					{
+						"desc":"画面上に多くの情報を配置するのが困難な場合、画面外、横位置にコンポーネントを並べ、横にフリックすることで画面外の情報を表示します。"
+					}
+				],
+				"txt_flick_desc": "フリックで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"title_drag_slide_view": "Drag - Slide View",
+				"drag_slide_view_desc_1":"コンポーネントの一部を指で引っ張ることで隠れたコンポーネントを画面上に表示する動作です。",
+				"drag_slide_view_desc_2":"Dragで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"title_drag_drop": "Drag & Drop",
+				"drag_drop_desc": [
+					{
+						"desc": "コンポーネントの一部を引っ張り、移動させた後、指を離すことでアクションを実行する動作です。"
+					},
+					{
+						"desc": "リストの並び替えなどに利用します。"
+					}
+				],
+				"title_pinch": "Pinch-in/Pinch-out",
+				"pinch_desc": [
+					{
+						"desc": "画面の一部をつまみ、広げることで拡大する動作です。"
+					},
+					{
+						"desc": "反対に縮小することも可能です。"
+					},
+					{
+						"desc": "地図や画像などで縮尺を変更する際に利用します。"
+					}
+				],
+				"txt_pinch_desc": "推奨しないジェスチャー",
+				"txt_pinch_content":[
+					{
+						"desc": "標準ジェスチャーであっても、ユーザーが使い慣れず、理解が難しいものは利用を推奨しません。"
+					},
+					{
+						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
+					}
+				]
+			},
       "philosophy": {
         "philos_headers": "Design Philosophy",
         "philos_sect1_title": "Principle",
