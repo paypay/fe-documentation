@@ -3571,7 +3571,11 @@
 						"desc": "説明図などのイラストでは、簡略化したシンプルなイラストを用い、ユーザーがイラストからすぐに情報を読み取れるようにします。"
 					}
 				],
+				"txt_convey_desc_cnt_1":"サービスの利用手順の説明",
+				"txt_convey_desc_cnt_12":"文字だけでは説明しきれない部分をイラストでサポート",
 				"txt_expression_title": "表現",
+				"txt_expression_desc_1": "Design Philosophy",
+				"txt_expression_desc_2": "に準拠し、PayPayのブランドイメージを体現する表現を用います。",
 				"txt_expression_desc": [
 					{
 						"desc": "イラスト表現に用いるモチーフは極力簡略化しシンプルに構成する"
