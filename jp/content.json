@@ -3225,50 +3225,61 @@
       ],
       "dshomesec4_content_globrules": [
         {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_01.svg",
-          "icondesc": "COLOR"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_02.svg",
-          "icondesc": "DESIGN PHILOSOPHY"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_03.svg",
-          "icondesc": "ICONOGRAPHY"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_04.svg",
-          "icondesc": "ILLUSTRATION"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_05.svg",
-          "icondesc": "INTERACTION"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_06.svg",
-          "icondesc": "LAYOUT"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_07.svg",
-          "icondesc": "PHOTO"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_08.svg",
-          "icondesc": "SHADOW"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_09.svg",
-          "icondesc": "SHAPE"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_10.svg",
-          "icondesc": "TRANSITION"
-        }, {
-          "iconcls": "dshomesec4_cgr_icons",
-          "iconurl": "globrules_icn_11.svg",
-          "icondesc": "TYPOGRAPHY"
-        }
+					"name": "color",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_01.svg",
+					"icondesc": "COLOR"
+				}, {
+					"name": "philosophy",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_02.svg",
+					"icondesc": "DESIGN PHILOSOPHY"
+				}, {
+					"name": "icongraphy",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_03.svg",
+					"icondesc": "ICONOGRAPHY"
+				}, {
+					"name": "illustration",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_04.svg",
+					"icondesc": "ILLUSTRATION"
+				}, {
+					"name": "interaction",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_05.svg",
+					"icondesc": "INTERACTION"
+				}, {
+					"name": "layout",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_06.svg",
+					"icondesc": "LAYOUT"
+				}, {
+					"name": "photo",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_07.svg",
+					"icondesc": "PHOTO"
+				}, {
+					"name": "shadow",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_08.svg",
+					"icondesc": "SHADOW"
+				}, {
+					"name": "shape",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_09.svg",
+					"icondesc": "SHAPE"
+				}, {
+					"name": "transition",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_10.svg",
+					"icondesc": "TRANSITION"
+				}, {
+					"name": "typography",
+					"iconcls": "dshomesec4_cgr_icons",
+					"iconurl": "globrules_icn_11.svg",
+					"icondesc": "TYPOGRAPHY"
+				}
       ],
       "dshomesec5_content_title": "COMPONENT",
       "dshomesec5_content_descriptions": [
@@ -3295,66 +3306,81 @@
       ],
       "dshomesec5_content_component": [
         {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_01.svg",
-          "icondesc": "Balloon"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_02.svg",
-          "icondesc": "Buttons"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_03.svg",
-          "icondesc": "Cards"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_04.svg",
-          "icondesc": "Expand"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_05.svg",
-          "icondesc": "Form"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_06.svg",
-          "icondesc": "half sheets"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_07.svg",
-          "icondesc": "Header"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_08.svg",
-          "icondesc": "Label"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_09.svg",
-          "icondesc": "List"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_10.svg",
-          "icondesc": "Loading animation"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_11.svg",
-          "icondesc": "Page Controls"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_11.svg",
-          "icondesc": "selection controls"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_11.svg",
-          "icondesc": "slider"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_11.svg",
-          "icondesc": "tab"
-        }, {
-          "iconcls": "dshomesec5_comp_icons",
-          "iconurl": "components_icn_11.svg",
-          "icondesc": "toast"
-        }
+					"name": "balloon",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_01.svg",
+					"icondesc": "Balloon"
+				}, {
+					"name": "buttons",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_02.svg",
+					"icondesc": "Buttons"
+				}, {
+					"name": "cards",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_03.svg",
+					"icondesc": "Cards"
+				}, {
+					"name": "expand",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_04.svg",
+					"icondesc": "Expand"
+				}, {
+					"name": "form",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_05.svg",
+					"icondesc": "Form"
+				}, {
+					"name": "halfsheets",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_06.svg",
+					"icondesc": "half sheets"
+				}, {
+					"name": "header",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_07.svg",
+					"icondesc": "Header"
+				}, {
+					"name": "label",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_08.svg",
+					"icondesc": "Label"
+				}, {
+					"name": "list",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_09.svg",
+					"icondesc": "List"
+				}, {
+					"name": "loadinganimation",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_10.svg",
+					"icondesc": "Loading animation"
+				}, {
+					"name": "pagecontrols",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "Page Controls"
+				}, {
+					"name": "selectioncontrols",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "selection controls"
+				}, {
+					"name": "slider",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "slider"
+				}, {
+					"name": "tab",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "tab"
+				}, {
+					"name": "toast",
+					"iconcls": "dshomesec5_comp_icons",
+					"iconurl": "components_icn_11.svg",
+					"icondesc": "toast"
+				}
       ]
     },
     "globalrules": {
