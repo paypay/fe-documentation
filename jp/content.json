@@ -4064,12 +4064,12 @@
         "layout_sect8_icons_tableholder": [
           {
             "name": "panel1",
-            "icons": "igrphy_sect1_doimage.svg",
+            "icons": "layout_sect8_doimage.png",
             "desc": "アクションコンポーネントはSafe Area内に配置する"
           },
           {
             "name": "panel2",
-            "icons": "igrphy_sect1_dontimage.svg",
+            "icons": "layout_sect8_dontimage.png",
             "desc": "アクションコンポーネントをSafe area外に配置する"
           }
         ],
