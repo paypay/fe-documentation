@@ -3142,7 +3142,7 @@
 						"content": "That you have a settlement status determined by the back-end status.It has not been canceled as an error if there is no transition of the screen after settlement. "
 					},
 					{
-						"content": "Even if there are multiple screen transitions, it can be processed based on the settlement status judgment (edge case) <span>may not have to write this.</span>"
+						"content": "Even if there are multiple screen transitions, it can be processed based on the settlement status judgment."
 					},
 					{
 						"content": "When using webhooks, check the backend starter status if webhooks are not received."
