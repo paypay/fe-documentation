@@ -4052,7 +4052,7 @@
           {
             "name": "panel1",
             "col1": "iOS",
-            "col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS Human Interface Guidelineを参照してください"
+            "col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> を参照してください"
           },
           {
             "name": "panel2",
