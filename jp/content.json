@@ -4146,45 +4146,45 @@
 					{
 						"desc": "モチーフが明瞭",
 						"desc_1": "",
-						"logo": "usage_dont_01.svg"
+						"logo": "dont_01.svg"
 						},{
 						"desc": "モチーフが明瞭でない",
 						"desc_1":"ネガティブな印象を与える",
-						"logo": "usage_dont_02.svg"
+						"logo": "dont_02.svg"
 						},{
 						"desc": "モチーフが明瞭",
 						"desc_1":"",
-						"logo": "usage_dont_03.svg"
+						"logo": "dont_03.svg"
 						},{
 						"desc": "不明瞭またはピントがボケている",
 						"desc_1":"",
-						"logo": "usage_dont_04.svg"
+						"logo": "dont_04.svg"
 						},{
 						"desc": "権利を有した写真",
 						"desc_1":"",
-						"logo": "usage_dont_05.svg"
+						"logo": "dont_05.svg"
 						},{
 						"desc": "第三者の権利を侵害した写真を使わない ",
 						"desc_1":" Do not use copyrighted material from other sites without permission or watermarked images.",
-						"logo": "usage_dont_06.svg"
+						"logo": "dont_06.svg"
 						},{
 						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
 						"desc_1":"Do not show any brand names in the image unless it is in the context.",
-						"logo": "usage_dont_06.svg"
+						"logo": "dont_06.svg"
 						},{
 						"desc": "良俗公序に反するイメージ",
 						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
-						"logo": "usage_dont_06.svg"
+						"logo": "dont_06.svg"
 						}
 				],
 				"txt_dont_desc": "事実関係のない環境・対象で撮られたイメージを使わない",
 				"dont_desc_1": [
 					{
 					"desc": "密集したパターン",
-					"logo": "usage_dont_06.svg"
+					"logo": "dont_08.svg"
 					},{
 					"desc": "モアレ・ハレーション を起こす画像",
-					"logo": "usage_dont_06.svg"
+					"logo": "dont_09.svg"
 					}
 				]
 			}
