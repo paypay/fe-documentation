@@ -4110,7 +4110,84 @@
         "layout_sect10_title": "Aspect Ratios",
         "layout_sect10_description": "画面に配置される画像やコンポーネントのアスペクト比を定義します。以下の比率を利用することを推奨します。",
         "layout_sect10_subtitle": "Usage Example"
-      }
+      },
+			"photo":{
+				"title": "Interaction",
+				"title_principle": "Principle",
+				"principle_desc":[
+					{
+						"desc": "Photos are to enhance the brand image and also helps the users to understand the content easier even without explaining, and most importantly to show users how to proceed with the next action."
+					},
+					{
+						"desc": "We should always use realistic images not staged images and they should genuinely add values to PayPay."
+					},
+					{
+						"desc": "Most importantly, Be Informative, Straightforward, and Accessible."
+					}
+				],
+				"title_usage": "Usage",
+				"title_size": "Size",
+				"size_desc": [
+					{
+						"desc": "Always prepare @3x images for a better resolution."
+					},
+					{
+						"desc": "Avoid oversized images in the app. Always optimized them to the max."
+					}
+				],
+				"title_ratio": "Ratio",
+				"ratio_desc": [
+					{
+						"desc": "•  Don't stretch or alter the original image aspect ratio."
+					}
+				],
+				"title_dont": "Do/ Don't",
+				"dont_desc": [
+					{
+						"desc": "モチーフが明瞭",
+						"desc_1": "",
+						"logo": "usage_dont_01.svg"
+						},{
+						"desc": "モチーフが明瞭でない",
+						"desc_1":"ネガティブな印象を与える",
+						"logo": "usage_dont_02.svg"
+						},{
+						"desc": "モチーフが明瞭",
+						"desc_1":"",
+						"logo": "usage_dont_03.svg"
+						},{
+						"desc": "不明瞭またはピントがボケている",
+						"desc_1":"",
+						"logo": "usage_dont_04.svg"
+						},{
+						"desc": "権利を有した写真",
+						"desc_1":"",
+						"logo": "usage_dont_05.svg"
+						},{
+						"desc": "第三者の権利を侵害した写真を使わない ",
+						"desc_1":" Do not use copyrighted material from other sites without permission or watermarked images.",
+						"logo": "usage_dont_06.svg"
+						},{
+						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
+						"desc_1":"Do not show any brand names in the image unless it is in the context.",
+						"logo": "usage_dont_06.svg"
+						},{
+						"desc": "良俗公序に反するイメージ",
+						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
+						"logo": "usage_dont_06.svg"
+						}
+				],
+				"txt_dont_desc": "事実関係のない環境・対象で撮られたイメージを使わない",
+				"dont_desc_1": [
+					{
+					"desc": "密集したパターン",
+					"logo": "usage_dont_06.svg"
+					},{
+					"desc": "モアレ・ハレーション を起こす画像",
+					"logo": "usage_dont_06.svg"
+					}
+				]
+			}
     }
   }
 }
