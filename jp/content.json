@@ -3643,7 +3643,7 @@
 				}],
 				"donts":[{
 					"desc":"線画、水彩風など、ガイドラインに沿わない表現",
-					"logo": "Illustration_usage_06.svg"
+					"logo": "Illustration_usage_06.png"
 				},{
 					"desc":"公序良俗に反する表現",
 					"logo": "Illustration_usage_07.svg"
@@ -4112,7 +4112,7 @@
         "layout_sect10_subtitle": "Usage Example"
       },
 			"photo":{
-				"title": "Interaction",
+				"title": "Photo",
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
@@ -4138,7 +4138,7 @@
 				"title_ratio": "Ratio",
 				"ratio_desc": [
 					{
-						"desc": "•  Don't stretch or alter the original image aspect ratio."
+						"desc": "Don't stretch or alter the original image aspect ratio."
 					}
 				],
 				"title_dont": "Do/ Don't",
@@ -4170,23 +4170,43 @@
 						},{
 						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
 						"desc_1":"Do not show any brand names in the image unless it is in the context.",
-						"logo": "dont_06.png"
+						"logo": "dont_07.png"
 						},{
 						"desc": "良俗公序に反するイメージ",
 						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
-						"logo": "dont_06.png"
+						"logo": "dont_08.png"
 						}
 				],
 				"txt_dont_desc": "事実関係のない環境・対象で撮られたイメージを使わない",
 				"dont_desc_1": [
 					{
 					"desc": "密集したパターン",
-					"logo": "dont_08.png"
+					"logo": "dont_10.png"
 					},{
 					"desc": "モアレ・ハレーション を起こす画像",
-					"logo": "dont_09.png"
+					"logo": "dont_11.png"
 					}
 				]
+			},
+			"shape":{
+				"title": "Shape",
+				"title_principle": "Principle",
+				"principle_desc":[
+					{
+						"desc": "Componentを構成する形状は、必ず一般的な形状を用い、表示される情報の可読性を阻害するような形状の利用は禁止とします。"
+					},
+					{
+						"desc": "ガイドラインに沿った形状を繰り返し利用することで一貫性を保ち、PayPayブランドを醸成します。"
+					}
+				],
+				"title_usage": "Usage",
+				"title_usage_desc": [
+					{
+						"desc": "コンポーネントの角は丸くし、肌触りの良さ、親しみやすさを表現します。"
+					}
+				],
+				"title_spec": "Spec",
+				"title_spec_desc": "角丸は 8px / 20px に統一します。"
 			},
       "shadow": {
 				"shadow_headers": "Shadow",
