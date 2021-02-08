@@ -4052,7 +4052,7 @@
           {
             "name": "panel1",
             "col1": "iOS",
-            "col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS Human Interface Guidelineを参照してください"
+            "col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> を参照してください"
           },
           {
             "name": "panel2",
@@ -4164,8 +4164,8 @@
 						"desc_1":"",
 						"logo": "dont_05.png"
 						},{
-						"desc": "第三者の権利を侵害した写真を使わない ",
-						"desc_1":" Do not use copyrighted material from other sites without permission or watermarked images.",
+						"desc": "第三者の権利を侵害した写真を使わない",
+						"desc_1":"Do not use copyrighted material from other sites without permission or watermarked images.",
 						"logo": "dont_06.png"
 						},{
 						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
@@ -4207,7 +4207,159 @@
 				],
 				"title_spec": "Spec",
 				"title_spec_desc": "角丸は 8px / 20px に統一します。"
-			}
+			},
+      "shadow": {
+				"shadow_headers": "Shadow",
+				"shadow_sect1_title": "Principle",
+				"shadow_sect1_description": [
+					"影は画面内の階層を明示するために使用します。",
+					"影は情報の優先度や必要なアクションを明確に示します。強調すべき箇所に効果的に使用することを推奨します。"
+				],
+				"shadow_sect2_title": "Usage",
+				"shadow_sect2_subtitle1": "階層構造",
+				"shadow_sect2_description1": [
+					"画面内は複数の層の重なりで構成されます。 より重要な情報を上位階層に表示します。 階層構造を視覚的に明示することで、コンテンツの優先順位を明確にし、ユーザーは必要なアクションにたどり着きやすくなります。",
+					"各階層ごとに影を採用することで、表示階層を明確にします。 画面内の光源/陰影は、方向、深さなどに一貫性を保ちます。"
+				],
+				"shadow_sect2_subtitle2": "光源",
+				"shadow_sect2_description2": "光源は必ず上部90°方向にあるものとし、それ以外からの光源の設定は禁止とします。",
+				"shadow_sect2_images_tableholder2": [
+					{
+					  "name": "panel1",
+					  "icons": "shadow_sect2_no1.svg", 
+					  "desc": "正しい光源（上部90°方向）"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "shadow_sect2_no2.svg", 
+					  "desc": "誤った光源（上部45°方向）"
+					}
+				],
+				"shadow_sect2_subtitle3": "陰影",
+				"shadow_sect2_description3": "配置される階層によって異なる陰影を設定します。 <br/>物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect2_images_tableholder3": [
+					{
+						"name": "no1",
+						"icons": "shadow_sect2_no1.svg", 
+						"igrphy_sect2_images_hint": "Low-Shadow"
+					}, {
+						"name": "no2",
+						"icons": "shadow_sect2_no2.svg", 
+						"igrphy_sect2_images_hint": "Middle-Shadow"
+					}, {
+						"name": "no3",
+						"icons": "shadow_sect2_no3.svg", 
+						"igrphy_sect2_images_hint": "High-Shadow"
+					}, {
+						"name": "no4",
+						"icons": "shadow_sect2_no4.svg", 
+						"igrphy_sect2_images_hint": "-90° Low-Shadow"
+					}, {
+						"name": "no5",
+						"icons": "shadow_sect2_no5.svg", 
+						"igrphy_sect2_images_hint": "-90° Middle-Shadow "
+					}, {
+						"name": "no6",
+						"icons": "shadow_sect2_no6.svg", 
+						"igrphy_sect2_images_hint": "-90° High-Shadow "
+					}
+				],
+				"shadow_sect3_title": "Type",
+				"shadow_sect3_images_tableholder": [
+					{
+						"name": "no1",
+						"icons": "shadow_sect2_no1.svg", 
+						"igrphy_sect2_images_hint": "Low-Shadow"
+					}, {
+						"name": "no2",
+						"icons": "shadow_sect2_no2.svg", 
+						"igrphy_sect2_images_hint": "Middle-Shadow"
+					}, {
+						"name": "no3",
+						"icons": "shadow_sect2_no3.svg", 
+						"igrphy_sect2_images_hint": "High-Shadow"
+					}, {
+						"name": "no4",
+						"icons": "shadow_sect2_no4.svg", 
+						"igrphy_sect2_images_hint": "White background"
+					}, {
+						"name": "no5",
+						"icons": "shadow_sect2_no5.svg", 
+						"igrphy_sect2_images_hint": "Base"
+					}
+				],
+				"shadow_sect3_subtitle1": "Low-Shadow",
+				"shadow_sect3_description1": "配置される階層によって異なる陰影を設定します。 物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect3_subtitle2": "Middle-Shadow",
+				"shadow_sect3_description2": "Low-shadow階層にあるコンテンツより優先的に見せるべきコンテンツ、またはアクションコンポーネントを表示します。重なるコンテンツの下層が複雑なコンテンツ（地図や図柄など）である場合は、情報をより認識しやすくなるようこの階層に表示します。",
+				"shadow_sect3_subtitle3": "High-Shadow",
+				"shadow_sect3_description3": "画面内で特に優先度の高い情報やアクションにのみ用います。画面内で多用することは禁止します。",
+				"shadow_sect3_subtitle4": "Don't",
+				"shadow_sect3_description4": "画面内で同階層に配置されているコンポーネントに別の深さのシャドウを指定することは禁止します。",
+				"shadow_sect3_images_tableholder4": [
+					{
+					  "name": "panel1",
+					  "icons": "shadow_sect3_no1.svg", 
+					  "desc": "シャドウの値が揃っている"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "shadow_sect3_no2.svg", 
+					  "desc": "シャドウの値が揃っていない"
+					}
+				],
+				"shadow_sect3_subtitle5": "White Background",
+				"shadow_sect3_description5": "コンテンツを表示する最も下の階層です。原則白色のみの利用を推奨します。",
+				"shadow_sect3_subtitle6": "Base",
+				"shadow_sect3_description6": "この上に直接コンテンツを表示することはしません",
+				"shadow_sect4_title": "視認性担保のためのシャドウ表現",
+				"shadow_sect4_description": "写真や複雑なコンテンツの上にテキストやアイコンを配置する場合、配置するテキストやアイコンの視認性/可読性を十分に担保できるようにシャドウを用います。",
+				"shadow_sect4_images_tableholder": [
+					{
+					  "name": "panel1",
+					  "icons": "shadow_sect4_no1.svg", 
+					  "desc": "地図上にボタンを表示"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "shadow_sect4_no2.svg", 
+					  "desc": "カメラ機能にアクションコンポーネントを表示"
+					}
+				],
+				"shadow_sect5_title": "Spec",
+				"shadow_sect5_card_holder": [
+					{
+					  "name": "panel1",
+					  "title": "Low Shadow",
+					  "desc": [ "#000000", "Alpha 0.08", "X:0 Y:2", "Blur 6px" ]
+					},
+					{
+					  "name": "panel2",
+					  "title": "Mid Shadow", 
+					  "desc": ["#000000", "Alpha 0.15", "X:0 Y:6", "Blur 15px" ]
+					},
+					{
+						"name": "panel3",
+						"title": "Mid Shadow", 
+						"desc": ["#000000", "Alpha 0.3", "X:0 Y:8", "Blur 20px" ]
+					},
+					{
+						"name": "panel4",
+						"title": "Background", 
+						"desc": ["#FFFFFF" ]
+					},
+					{
+						"name": "panel5",
+						"title": "Base Color", 
+						"desc": ["#F7F7F7" ]
+					},
+					{
+						"name": "panel6",
+						"title": "視認性担保のためのシャドウ", 
+						"desc": ["90°","#000000 Alpha 0.5", "#000000 Alpha 0" ]
+					}
+				]
+			}      
     }
   }
 }
