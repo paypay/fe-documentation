@@ -847,6 +847,8 @@
       "user_authorization_desc_1": "はじめにユーザーの認可を取得する必要があります。以下の図で認可フローを詳しく記載致します。",
       "user_authorization_desc_2": "ユーザー認可を取得するためにはJWT を作成して頂く必要がございます。",
       "user_authorization_desc_3": "ユーザーが認証を付与すると、認可ページの戻りパラメーターもしくはWebhookにてJWTトークンの一部としてUserAuthorizationIDを返します",
+      "unlink_user_title": "ユーザーのリンクを解除する",
+      "unlink_user_desc": "クライアントからユーザーのリンクを解除するには, 以下のパラメーターを使用してリクエストしてください",
       "userAuth_table": {
         "desc_1": "Items Enum: 'direct_debit' 'cashback' 'get_balance' 'quick_pay' 'continuous_payments' 'merchant_topup' 'pending_payments' 'user_notification' 'user_topup' 'user_profile' 'preauth_capture_native' 'preauth_capture_transaction' 'push_notification' 'notification_center_ob' 'notification_center_ab' 'notification_center_tl' ユーザー認可のスコープ",
         "desc_2": "ランダムに生成された文字列。",
