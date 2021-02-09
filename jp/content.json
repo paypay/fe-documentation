@@ -4450,7 +4450,7 @@
 						"icons": "balloon_sect4_no3.svg", 
 						"balloon_sect3_col1": "Allow",
 						"balloon_sect3_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
-						"balloon_sect3_col2_images": "balloon_sect4_icons.svg",
+						"balloon_sect3_col2_images": "balloon_sect4_icons.png",
 						"balloon_sect3_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
 					}
 				],
