@@ -851,6 +851,8 @@
 			"user_authorization_desc_1": "First of all you need to acquire a user Authorization. Following diagram defines the flow to acquire a user authorization.",
 			"user_authorization_desc_2": "In order to acquire an authorization you need to create a JWT Token -",
 			"user_authorization_desc_3": "Once the user has granted authorization, we will return the UserAuthorizationID as a part of the JWT Token in response/ webhook",
+			"unlink_user_title": "Unlink User",
+			"unlink_user_desc": "To unlink a user from the client, you need to send a request to us with the following parameters",
 			"userAuth_table": {
 				"desc_1": "Items Enum: 'direct_debit' 'cashback' 'get_balance' 'quick_pay' 'continuous_payments' 'merchant_topup' 'pending_payments' 'user_notification' 'user_topup' 'user_profile' 'preauth_capture_native' 'preauth_capture_transaction' 'push_notification' 'notification_center_ob' 'notification_center_ab' 'notification_center_tl' Scopes of the user authorization",
 				"desc_2": "Random generated string",
