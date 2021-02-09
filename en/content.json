@@ -4477,24 +4477,24 @@
 					{
 						"name": "no1",
 						"icons": "balloon_sect4_no1.svg", 
-						"balloon_sect3_col1": "Icon (Option)",
-						"balloon_sect3_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
-						"balloon_sect3_col2_images": "",
-						"balloon_sect3_col2_hints": ""
+						"balloon_sect4_col1": "Icon (Option)",
+						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2_images": "",
+						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect4_no2.svg", 
-						"balloon_sect3_col1": "Text  Label",
-						"balloon_sect3_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
-						"balloon_sect3_col2_images": "",
-						"balloon_sect3_col2_hints": ""
+						"balloon_sect4_col1": "Text  Label",
+						"balloon_sect4_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
+						"balloon_sect4_col2_images": "",
+						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no3",
 						"icons": "balloon_sect4_no3.svg", 
-						"balloon_sect3_col1": "Allow",
-						"balloon_sect3_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
-						"balloon_sect3_col2_images": "balloon_sect4_icons.png",
-						"balloon_sect3_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
+						"balloon_sect4_col1": "Allow",
+						"balloon_sect4_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
+						"balloon_sect4_col2_images": "balloon_sect4_icons.png",
+						"balloon_sect4_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
 					}
 				],
 				"balloon_sect5_title": "Do / Don't",
@@ -4507,13 +4507,13 @@
 					{
 						"name": "no1",
 						"icons": "balloon_sect6_no1.svg", 
-						"balloon_sect3_col1": "Text Label",
-						"balloon_sect3_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
+						"balloon_sect6_col1": "Text Label",
+						"balloon_sect6_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect6_no2.svg", 
-						"balloon_sect3_col1": "Allow Animation",
-						"balloon_sect3_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
+						"balloon_sect6_col1": "Allow Animation",
+						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
 					}
 				],
 				"balloon_sect6_description": [
