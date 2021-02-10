@@ -4450,12 +4450,12 @@
 					{
 					  "name": "panel1",
 					  "icons": "balloon_sect3_images1.svg", 
-					  "desc": "新機能の訴求"
+					  "desc": "Coach Balloon"
 					},
 					{
 					  "name": "panel2",
 					  "icons": "balloon_sect3_images2.svg", 
-					  "desc": "新着情報のお知らせ"
+					  "desc": "Scroll Balloon"
 					}
 				],
 				"balloon_sect3_tableholder": [
