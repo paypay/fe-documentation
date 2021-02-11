@@ -4377,7 +4377,390 @@
 				],
 				"transition_sect2_subtitle2": "Slide UP",
 				"transition_sect2_description2": "角丸は 8px / 20px に統一します。"
-			}            
+      },
+      "typography":{
+				"title": "Typography",
+				"title_principle": "Principle",
+				"principle_desc":[
+					{
+						"desc": "アプリ内では定義されたタイポグラフィ以外のものは利用しません。定義されたFont Familyを利用し、すべての画面において一貫性を保ちます"
+					},
+					{
+						"desc": "可読性視認性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
+					},
+					{
+						"desc": "和文はシステムフォント、欧文はカスタムフォントを利用し、必要以上の装飾やカスタムフォントの利用はしません"
+					},
+					{
+						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります。（2020年時点では日本語/英語をサポート）"
+					}
+				],
+				"title_usage": "Usage",
+				"subtitle_font_families": "Font Families",
+				"title_usage_desc": [
+					{
+						"desc": "Font Familyはここに定義されたもののみを利用します。"
+					}
+				],
+				"subtitle_weight": "Weight",
+				"subtitle_font_size":"Font Size",
+				"font_size_desc": [
+					{
+						"desc": "フォントサイズをHeading/Label/Bodyの3種類定義します。"
+					},
+					{
+						"desc": "すべてのコンポーネントはこの3種類から構成されます。"
+					},
+					{
+						"desc": "各コンポーネントで使われるフォントについては、各ガイドラインを参照してください。"
+					}
+				],
+				"subtitle_heading": "Heading (H)",
+				"heading_desc": [
+					{
+						"desc": "ヘッダやタイトルに利用します。"
+					},
+					{
+						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
+					}
+				],
+				"subtitle_label": "Label (L)",
+				"label_desc": [
+					{
+						"desc": "中見出し、アクションコンポーネント、補足情報に利用します。"
+					},
+					{
+						"desc": "9、10pxなどの小さいサイズでは、Boldの利用を推奨します。"
+					},
+					{
+						"desc": "11px以下のサイズは主要なコンポーネントには利用しません。"
+					}
+				],
+				"subtitle_body":"Body (B)",
+				"body_txt_desc": [
+					{
+						"desc": "ユーザーアクションによる入力情報、記事、コンテンツの説明文などに利用します。"
+					},
+					{
+						"desc": "原則14pxの利用を推奨しますが、重要なコンポーネントについては、16pxを使用する必要があります。"
+					}
+				],
+				"subtitle_line_height":"Line Height",
+				"line_height_desc": [
+					{
+						"desc": "Line heightを定義します。"
+					},
+					{
+						"desc": "十分な行間を保つことで、テキストの可読性を担保します。"
+					}
+				],
+				"line_height_txt_desc": "Font size *1.5 px/sp = line-height (vertically centered)",
+				"title_size_line": "Size Line-UP",
+				"size_line_desc":"前述の項目で定義したフォントのサイズLine-upです。",
+				"title_text_color": "Text Color",
+				"text_color_desc": [
+					{
+						"desc": "用途別のテキストカラーを定義します。"
+					},
+					{
+						"desc": "カラーはカラーパレットから引用しています。"
+					},
+					{
+						"desc": "下記に定義されたカラーを異なる用途で利用することは禁止します。"
+					}
+				],
+				"subtitle_default_text": "Default text",
+				"subtitle_status": "Status",
+				"title_price_text": "Price Text",
+				"price_text_desc": [
+					{
+						"desc": "PayPayはサービスの特性から、UI上で価格＋円の組み合わせを多用します。"
+					},
+					{
+						"desc": "価格は決済アプリにおいて最も重要な情報であり、十分な可読性を担保する必要があります。"
+					},
+					{
+						"desc": "価格部分を読みやすくするよう「円」は価格のサイズより小さく表示する必要があります。"
+					}
+				],
+        "text_desc": "ここでは価格と円の比率を定義します。",
+        "line_height_desc_1": [
+					{
+					"desc": "Example 1",
+					"logo": "typography_02.svg"
+					},{
+					"desc": "Example 2",
+					"logo": "typography_03.svg"
+					}
+				],
+				"typography_sect9_tableholder": [
+					{
+						"name": "panel1",
+						"col1": "",
+						"col2": "iOS",
+            "col3": "Android",
+            "col4": "Web"
+					}, {
+						"name": "panel2",
+						"col1": "Japanese",
+						"col2": "Hiragino Sans",
+            "col3": "Noto Sans CJK",
+            "col4": "Sans serif"
+					},
+					{
+						"name": "panel3",
+						"col1": "English",
+						"col2": "Graphik",
+            "col3": "Graphik",
+            "col4": "Graphik"
+					},
+					{
+						"name": "panel4",
+						"col1": "Number",
+						"col2": "Graphik",
+            "col3": "Graphik",
+            "col4": "Graphik"
+					},
+					{
+						"name": "panel5",
+						"col1": "Number_Price",
+						"col2": "Graphik",
+            "col3": "Graphik",
+            "col4": "Graphik"
+					},
+					{
+						"name": "panel6",
+						"col1": "Symbol",
+						"col2": "Graphik",
+            "col3": "Graphik",
+            "col4": "Graphik"
+					}
+				],
+				"typography_sect98_tableholder": [
+					{
+						"name": "panel1",
+						"col1": "",
+						"col2": "Regular",
+            "col3": "Bold"
+					}, {
+						"name": "panel2",
+						"col1": "Hiragino Sans",
+						"col2": "W3",
+            "col3": "W6"
+					},
+					{
+						"name": "panel3",
+						"col1": "Noto Sans CJK",
+						"col2": "Medium",
+            "col3": "Bold"
+					},
+					{
+						"name": "panel4",
+						"col1": "Graphik",
+						"col2": "Medium",
+            "col3": "Semibold"
+					}
+				],
+				"typography_sect97_tableholder": [
+					{
+						"name": "panel1",
+						"col1": "Size",
+						"col2": "14 px / 16px / 18px / 20px"
+					}, {
+						"name": "panel2",
+						"col1": "Weight",
+						"col2": "Bold"
+					}
+				],
+				"typography_sect96_tableholder": [
+					{
+						"name": "panel1",
+						"col1": "Size",
+						"col2": "9px / 10px / 11 px / 12px / 14px / 16px"
+					}, {
+						"name": "panel2",
+						"col1": "Weight",
+						"col2": "Regular/Bold"
+					}
+				],
+				"typography_sect95_tableholder": [
+					{
+						"name": "panel1",
+						"col1": "Size",
+						"col2": "12px / 14px  / 16px"
+					}, {
+						"name": "panel2",
+						"col1": "Weight",
+						"col2": "Regular"
+					}
+				],
+				"size_jp_bold": [
+					{
+						"name": "panel1",
+						"col1": "typography_04.svg",
+						"col2": "typography_05.svg",
+            "col3": "typography_06.svg"
+					}, {
+						"name": "panel2",
+						"col1": "typography_07.svg",
+						"col2": "typography_08.svg",
+            "col3": "typography_09.svg"
+					},
+					{
+						"name": "panel3",
+						"col1": "typography_10.svg",
+						"col2": "typography_11.svg",
+            "col3": "typography_white.png"
+					}
+				],
+				"size_en_bold": [
+					{
+						"name": "panel1",
+						"col1": "typography_12.svg",
+						"col2": "typography_13.svg",
+            "col3": "typography_14.svg"
+					}, {
+						"name": "panel2",
+						"col1": "typography_15.svg",
+						"col2": "typography_16.svg",
+            "col3": "typography_17.svg"
+					},
+					{
+						"name": "panel3",
+						"col1": "typography_18.svg",
+						"col2": "typography_19.svg",
+            "col3": "typography_white.png"
+					}
+				],
+				"size_jp_regular": [
+          {
+						"name": "panel1",
+						"col1": "typography_20.svg",
+						"col2": "typography_21.svg",
+            "col3": "typography_22.svg"
+					}, {
+						"name": "panel2",
+						"col1": "typography_23.svg",
+						"col2": "typography_white.png",
+            "col3": "typography_white.png"
+					}
+				],
+				"size_en_regular": [
+          {
+						"name": "panel1",
+						"col1": "typography_24.svg",
+						"col2": "typography_25.svg",
+            "col3": "typography_26.svg"
+					}, {
+						"name": "panel2",
+						"col1": "typography_27.svg",
+						"col2": "typography_white.png",
+            "col3": "typography_white.png"
+					}
+				],
+				"text_subtitle1_desc1": [
+          {
+              "desc1": "TextBlack",
+              "desc2": "PayPay残高でお支払い",
+              "iconcls":"colors_ac242323",
+              "iconcode":"#242323",
+              "iconclscolor":"ac242323",
+              "imgs":""
+          },
+          {
+              "desc1": "Secondary",
+              "desc2": "",
+              "desc_1": "TextGray",
+              "iconcls":"colors_ac606060",
+              "iconcode":"#606060",
+              "iconclscolor":"ac606060",
+              "imgs":""
+          },
+          {
+              "desc1": "SubtextGray",
+              "desc2": "PayPayボーナスの7月となりますご了承ください",
+              "desc_1": "",
+              "iconcls":"colors_ac909090",
+              "iconcode":"#909090",
+              "iconclscolor":"ac909090",
+              "imgs":""
+          },
+          {
+              "desc1": "Empty/Disabled",
+              "desc2": "ここにメモを記入",
+              "desc_1": "TextGray",
+              "iconcls":"colors_acBABABA",
+              "iconcode":"#BABABA",
+              "iconclscolor":"acBABABA",
+              "imgs":""
+          },
+          {
+              "desc1": "TextNavy",
+              "desc2": "その他",
+              "desc_1": "",
+              "iconcls":"colors_ac002970",
+              "iconcode":"#002970",
+              "iconclscolor":"ac002970",
+              "img":""
+          }
+				],
+				"text_subtitle2_desc1": [
+          {
+              "desc1": "ErrorTextRed",
+              "desc2": "残高が足りません",
+              "color":"#FD5C5C",
+              "iconcls":"colors_acFD5C5C",
+              "iconcode":"#FD5C5C",
+              "iconclscolor":"acFD5C5C"
+          },
+          {
+              "desc1": "SuccessTextGreen",
+              "desc2": "営業中",
+              "color":"#20BF7A",
+              "iconcls":"colors_ac20BF7A",
+              "iconcode":"#20BF7A",
+              "iconclscolor":"ac20BF7A"
+          },
+          {
+              "desc1": "CautionTextYellow",
+              "desc2": "",
+              "color":"#FFB900",
+              "iconcls":"colors_acFFB900",
+              "iconcode":"#FFB900",
+              "iconclscolor":"acFFB900"
+          },
+          {
+              "desc1": "LinkTextBlue",
+              "desc2": "詳細をみる",
+              "color":"#00B9F5",
+              "iconcls":"colors_ac00B9F5",
+              "iconcode":"#00B9F5",
+              "iconclscolor":"ac00B9F5"
+          }
+				],
+				"typography_sect98_tableholder2": [
+					{
+						"name": "panel1",
+						"col1": "Size",
+						"col2": "Rule"
+					}, {
+						"name": "panel2",
+						"col1": "24~",
+						"col2": "Use 1/2 of Number size as the 円 / Yen size",
+            "col21": "Example When the Price size is 72px, use 36px as the Yen size"
+					},
+					{
+						"name": "panel3",
+						"col1": "14 - 22",
+						"col2": "Use 12 px as the 円 / Yen size"
+					},
+					{
+						"name": "panel4",
+						"col1": "12",
+						"col2": "Use 11 px as the 円 / Yen size"
+					}
+                ]
+			}       
     },
     "components": {
 			"balloon": {
