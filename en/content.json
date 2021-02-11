@@ -5021,6 +5021,92 @@
 						"balloon_sect11_col2": "40px/dp"
 					}
 				]
+			},
+			"card": {
+				"card_headers": "Card",
+				"card_sect1_title": "Principle",
+				"card_sect1_description": [
+					"複雑な情報を整理しグルーピングして提示する際に使用します",
+					"カードそのものがタップやスワイプアクションをアフォードします",
+					"情報整理やアクションをアフォードする以外の用途、装飾のためだけにカードUIを使用することはしません"
+				],
+				"card_sect2_title": "Usage",
+				"card_sect2_description": "Usage Example",
+				"card_sect2_images": [
+					{
+					  "name": "panel1",
+					  "icons": "card_sect2_images1.svg"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "card_sect2_images2.svg" 
+					}
+				],
+				"card_sect2_hint": "複雑な情報をグルーピング",
+				"card_sect3_title": "Detail",
+				"card_sect3_tableholder": [
+					{
+						"name": "no1",
+						"icons": "card_sect3_no1.svg", 
+						"card_sect3_col1": "Contents Area",
+						"card_sect3_col2":"Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。"
+					}, {
+						"name": "no2",
+						"icons": "card_sect3_no2.svg", 
+						"card_sect3_col1": "Background",
+						"card_sect3_col2":"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+					}
+				],
+				"card_sect4_title": "Do / Don't",
+				"card_sect4_description": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。",
+				"card_sect4_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "card_sect4_no1.svg", 
+						"card_sect4_col1": "コンテンツがコンテンツエリア外に表示されている"
+					}, {
+						"name": "panel2",
+						"icons": "card_sect4_no2.svg", 
+						"card_sect4_col1": "同階層上のカードに異なるシャドウをスタイルを使用する"
+					}, {
+						"name": "panel3",
+						"icons": "card_sect4_no3.svg", 
+						"card_sect4_col1": "シャドウに色をつける"
+					}, {
+						"name": "panel4",
+						"icons": "card_sect4_no4.svg", 
+						"card_sect4_col1": "カードがページのグリッドに沿っていない"
+					}
+				],
+				"card_sect5_title": "Interaction",
+				"card_sect5_tableholder": [
+					{
+						"name": "no1",
+						"card_sect5_col1": "Tap",
+						"card_sect5_col2":"アクション時にタップフィードバックを表示します。<br/>Specを参照してください。<br/> 参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>"
+					}, {
+						"name": "no2",
+						"card_sect5_col1": "Flip",
+						"card_sect5_col2":"横に並ぶカードをFlipで移動するインタラクションを使用する場合はタップフィードバックは表示しません。"
+					}
+				],
+				"card_sect6_title": "Spec",
+				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Layout' target='_blank'>Interaction</a> の項目を参照してください。",
+				"card_sect6_tableholder": [
+					{
+						"name": "no1",
+						"card_sect6_col1": "Background",
+						"card_sect6_col2":"Default : #FFFFFF, <br/> Pressed( iOS ) : #F2F2F2"
+					}, {
+						"name": "no2",
+						"card_sect6_col1": "Corner",
+						"card_sect6_col2":"40px/dp"
+					}, {
+						"name": "no3",
+						"card_sect6_col1": "Shadow",
+						"card_sect6_col2":"40px/dp"
+					}
+				]
 			}
 		}		  
 	}
