@@ -4805,6 +4805,309 @@
 					}
                 ]
 			}		
-		}	  
+		},
+		"components": {
+			"balloon": {
+				"balloon_headers": "Balloon",
+				"balloon_sect1_title": "Usage",
+				"balloon_sect1_description": [
+					"新機能のガイドなど、特定のコンポーネントに補足情報を示す際に使用します",
+					"ユーザーが気が付きにくい情報を補足することで、機能やコンポーネントの理解が深まりより良い体験をもたらします",
+					"Ballonはあくまで補足的な情報の提示のみに使用するものとし、主コンテンツの閲覧やアクションを妨げるような使い方はしません"
+				],
+				"balloon_sect2_title": "Usage Example",
+				"balloon_sect2_images": [
+					{
+					  "name": "panel1",
+					  "icons": "balloon_sect2_images1.svg", 
+					  "desc": "新機能の訴求"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "balloon_sect2_images2.svg", 
+					  "desc": "新着情報のお知らせ"
+					}
+				],
+				"balloon_sect3_title": "Type",
+				"balloon_sect3_description": "バルーンのコンポーネントには2種類があり、用途によって使い分けをします。",
+				"balloon_sect3_images": [
+					{
+					  "name": "panel1",
+					  "icons": "balloon_sect3_images1.svg", 
+					  "desc": "Coach Balloon"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "balloon_sect3_images2.svg", 
+					  "desc": "Scroll Balloon"
+					}
+				],
+				"balloon_sect3_tableholder": [
+					{
+						"name": "no1",
+						"icons": "balloon_sect3_no1.svg", 
+						"balloon_sect3_col1": "Coach Balloon",
+						"balloon_sect3_col2":"新機能などの特定のComponentを強調、ガイドする場合に使用します"
+					}, {
+						"name": "no2",
+						"icons": "balloon_sect3_no2.svg", 
+						"balloon_sect3_col1": "Scroll Balloon",
+						"balloon_sect3_col2":"画面外の特定のComponentをガイドする場合に使用しますバルーンをタップすると対象のComponentの位置まで自動でスクロールします"
+					}
+				],
+				"balloon_sect4_title": "Detail",
+				"balloon_sect4_description": "Coach Balloon",
+				"balloon_sect4_tableholder": [
+					{
+						"name": "no1",
+						"icons": "balloon_sect4_no1.svg", 
+						"balloon_sect4_col1": "Icon (Option)",
+						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2_images": "",
+						"balloon_sect4_col2_hints": ""
+					}, {
+						"name": "no2",
+						"icons": "balloon_sect4_no2.svg", 
+						"balloon_sect4_col1": "Text  Label",
+						"balloon_sect4_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
+						"balloon_sect4_col2_images": "",
+						"balloon_sect4_col2_hints": ""
+					}, {
+						"name": "no3",
+						"icons": "balloon_sect4_no3.svg", 
+						"balloon_sect4_col1": "Allow",
+						"balloon_sect4_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
+						"balloon_sect4_col2_images": "balloon_sect4_icons.png",
+						"balloon_sect4_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
+					}
+				],
+				"balloon_sect5_title": "Do / Don't",
+				"balloon_sect5_description": "Coach Ballonを使用する際は、訴求対象が明確になるようにしてください。",
+				"balloon_sect5_points1": "強調したいコンテンツが明確",
+				"balloon_sect5_points2": "同一画面に復数のバルーンを配置する どのComponentが強調されているのか不明瞭",
+				"balloon_sect5_points3": "バルーンの視認性が悪い バルーンに近しい背景色の上への配置",
+				"balloon_sect6_title": "Scroll Balloon",
+				"balloon_sect6_tableholder": [
+					{
+						"name": "no1",
+						"icons": "balloon_sect6_no1.svg", 
+						"balloon_sect6_col1": "Text Label",
+						"balloon_sect6_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
+					}, {
+						"name": "no2",
+						"icons": "balloon_sect6_no2.svg", 
+						"balloon_sect6_col1": "Allow Animation",
+						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
+					}
+				],
+				"balloon_sect6_description": [
+					"Scroll BalloonにはPrimary ColorとSecondary Colorがあります。強調するコンテンツの優先度によって使い分けます。",
+					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
+				],
+				"balloon_sect6_rowers": [
+					{
+						"name": "no1",
+						"icons": "balloon_sect6_rowers1.svg", 
+						"balloon_sect6_title": "Primary Color",
+						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
+					}, {
+						"name": "no2",
+						"icons": "balloon_sect6_rowers2.svg",						
+						"balloon_sect6_title": "Secondary Color",
+						"balloon_sect6_subtitle":"更新頻度の高いタイムラインコンテンツの新着件数の表示など"
+					}
+				],
+				"balloon_sect7_title": "Do / Don't",
+				"balloon_sect7_description": "画面内の主コンテンツの閲覧、アクションの妨げになるような表示は禁止とします。",
+				"balloon_sect7_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "balloon_sect7_no1.svg", 
+						"balloon_sect7_col1": "グラデーションに3色以上を指定する"
+					}, {
+						"name": "panel2",
+						"icons": "balloon_sect7_no2.svg", 
+						"balloon_sect7_col1": "上部に濃い色、下部に明るい色を指定する"
+					}
+				],
+				"balloon_sect8_title": "Interaction",
+				"balloon_sect8_tableholder": [
+					{
+						"name": "panel1",
+						"balloon_sect8_col1": "Coach Balloon", 
+						"balloon_sect8_col2": "特殊な場合を除き、Balloonをタップ、もしくは対象のComponentをタップするとBalloonは非表示となります。アクションを伴わないComponentを訴求する場合は表示回数を設定し、ユーザーアクションを伴わなくともBalloonが非表示になるようにします。表示回数3回ほどで自動非表示にすることを推奨します。"
+					}, {
+						"name": "panel2",
+						"balloon_sect8_col1": "Scroll Balloon", 
+						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>"
+					}
+				],
+				"balloon_sect9_title": "Spec",
+				"balloon_sect9_subtitle": "Coach Balloon",
+				"balloon_sect9_tableholder": [
+					{
+						"name": "panel1",
+						"balloon_sect9_col1": "Text Label", 
+						"balloon_sect9_col2": [
+							"Heading / Label 14",
+							"Text Align-Left",
+							"Default : #FFFFFF",
+							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7"
+						]
+					}, {
+						"name": "panel2",
+						"balloon_sect9_col1": "Background", 
+						"balloon_sect9_col2": [
+							"Default : #00B9F5",
+							"Pressed( iOS ) : #00AFE8",
+							"Shadow : Low-shadow"
+						]
+					}
+				],
+				"balloon_sect10_subtitle": "Scroll Balloon",
+				"balloon_sect10_tableholder": [
+					{
+						"name": "panel1",
+						"balloon_sect10_col1": "Text Label", 
+						"balloon_sect10_col2": [
+							"<b>Primary</b>",
+							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"Text Align-Left",
+							"Default : #FFFFFF",
+							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
+							"<br/>",
+							"<b>Secondary</b>",
+							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"Text Align-Left",
+							"Default : #00B9F5",
+							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+						]
+					}, {
+						"name": "panel2",
+						"balloon_sect10_col1": "Animation Allow", 
+						"balloon_sect10_col2": [
+							"<b>Primary</b>",
+							"TBD",
+							"<b>Secondary</b>",
+							"<a href='https://lottiefiles.com/share/WcmClO' target='_blank'>https://lottiefiles.com/share/WcmClO</a>"
+						]
+					}, {
+						"name": "panel3",
+						"balloon_sect10_col1": "Background", 
+						"balloon_sect10_col2": [
+							"<b>Primary</b>",
+							"Default : #00B9F5",
+							"Pressed( iOS ) : #00AFE8",
+							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>",
+							"<br/>",							
+							"<b>Secondary</b>",
+							"Default :",
+							"Back ground : #FFFFFF",
+							"Pressed( iOS ) :",
+							"Back ground : #F2F2F2",
+							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+						]
+					}
+				],
+				"balloon_sect11_title": "画面下部からの距離",
+				"balloon_sect11_tableholder": [
+					{
+						"name": "panel1",
+						"balloon_sect11_col1": "ボトムタブがある場合", 
+						"balloon_sect11_col2": "16px/dp"
+					}, {
+						"name": "panel2",
+						"balloon_sect11_col1": "ボトムタブがない場合", 
+						"balloon_sect11_col2": "40px/dp"
+					}
+				]
+			},
+			"card": {
+				"card_headers": "Card",
+				"card_sect1_title": "Principle",
+				"card_sect1_description": [
+					"複雑な情報を整理しグルーピングして提示する際に使用します",
+					"カードそのものがタップやスワイプアクションをアフォードします",
+					"情報整理やアクションをアフォードする以外の用途、装飾のためだけにカードUIを使用することはしません"
+				],
+				"card_sect2_title": "Usage",
+				"card_sect2_description": "Usage Example",
+				"card_sect2_images": [
+					{
+					  "name": "panel1",
+					  "icons": "card_sect2_images1.svg"
+					},
+					{
+					  "name": "panel2",
+					  "icons": "card_sect2_images2.svg" 
+					}
+				],
+				"card_sect2_hint": "複雑な情報をグルーピング",
+				"card_sect3_title": "Detail",
+				"card_sect3_tableholder": [
+					{
+						"name": "no1",
+						"icons": "card_sect3_no1.svg", 
+						"card_sect3_col1": "Contents Area",
+						"card_sect3_col2":"Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。"
+					}, {
+						"name": "no2",
+						"icons": "card_sect3_no2.svg", 
+						"card_sect3_col1": "Background",
+						"card_sect3_col2":"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+					}
+				],
+				"card_sect4_title": "Do / Don't",
+				"card_sect4_description": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。",
+				"card_sect4_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "card_sect4_no1.svg", 
+						"card_sect4_col1": "コンテンツがコンテンツエリア外に表示されている"
+					}, {
+						"name": "panel2",
+						"icons": "card_sect4_no2.svg", 
+						"card_sect4_col1": "同階層上のカードに異なるシャドウをスタイルを使用する"
+					}, {
+						"name": "panel3",
+						"icons": "card_sect4_no3.svg", 
+						"card_sect4_col1": "シャドウに色をつける"
+					}, {
+						"name": "panel4",
+						"icons": "card_sect4_no4.svg", 
+						"card_sect4_col1": "カードがページのグリッドに沿っていない"
+					}
+				],
+				"card_sect5_title": "Interaction",
+				"card_sect5_tableholder": [
+					{
+						"name": "no1",
+						"card_sect5_col1": "Tap",
+						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a></div>"
+					}, {
+						"name": "no2",
+						"card_sect5_col1": "Flip",
+						"card_sect5_col2":"横に並ぶカードをFlipで移動するインタラクションを使用する場合はタップフィードバックは表示しません。"
+					}
+				],
+				"card_sect6_title": "Spec",
+				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Layout' target='_blank'>Interaction</a> の項目を参照してください。",
+				"card_sect6_tableholder": [
+					{
+						"name": "no1",
+						"card_sect6_col1": "Background",
+						"card_sect6_col2":"Default : #FFFFFF, <br/> Pressed( iOS ) : #F2F2F2"
+					}, {
+						"name": "no2",
+						"card_sect6_col1": "Corner",
+						"card_sect6_col2":"40px/dp"
+					}, {
+						"name": "no3",
+						"card_sect6_col1": "Shadow",
+						"card_sect6_col2":"40px/dp"
+					}
+				]
+			}
+		}		  
 	}
 }
