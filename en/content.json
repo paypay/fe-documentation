@@ -5083,7 +5083,7 @@
 					{
 						"name": "no1",
 						"card_sect5_col1": "Tap",
-						"card_sect5_col2":"アクション時にタップフィードバックを表示します。<br/>Specを参照してください。<br/> 参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>"
+						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a></div>"
 					}, {
 						"name": "no2",
 						"card_sect5_col1": "Flip",
