@@ -5154,7 +5154,7 @@
 						"desc": "Text Counter (Option)"
 					}
 				],
-				"form_sect5_title": ["Title (Option)", ],
+				"form_sect5_title": "Title (Option)",
 				"form_sect5_description": "<div>入力するべき項目を表示します。</div>div>ユーザーが適切な回答を入力できるよう、簡潔なテキストを原則とします。</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
