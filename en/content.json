@@ -5270,6 +5270,168 @@
 						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
 					}
 				]
+			},
+			"header": {
+				"header_heading": "Header",
+				"header_sect1_title": "Usage",
+				"header_sect1_desc": "<div>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</div><div>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</div><div>HeaderはOSの表示仕様に準拠します</div>",
+				"header_sect2_title": "Usage Example",
+				"header_sect2_images": [
+					{
+						"name": "panel1",
+						"hint": "iOS",
+						"images": "header_sect2_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "Android",
+						"images": "header_sect2_images2.svg"
+					}
+				],
+				"header_sect3_title": "Type",
+				"header_sect3_images": "header_sect3_images.svg",
+				"header_sect3_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "grayicon1.svg",
+						"col1": "Regular",
+						"col2": "<div>白い背景のHeaderです。</div><div>設定画面など、コンテンツ要素が少なくユーザーアクションを簡潔に完了させたい画面に利用します。</div>"
+					}, {
+						"name": "panel2",
+						"icons": "grayicon2.svg",
+						"col1": "Transparent",
+						"col2": "<div>透過背景のHeaderです。</div><div>コンテンツエリアはHeaderエリアまで拡張ができ、Headerの背景に任意の色を設定できます。</div><div>メイン機能など、コンテンツエリアを広く見せたい場合などに利用します。</div>"
+					}
+				],
+				"header_sect4_title": "Transparent",
+				"header_sect4_images": "header_sect4_images.svg",
+				"header_sect4_desc": "<div>主要コンテンツやキャンペーンなど、コンテンツエリアを広く、強調して見せたい場合は下図のようにヘッダエリアに背景色を拡張します。</div> <div>背景色はグラデーションカラーを推奨します。</div>",
+				"header_sect5_title": "Detail",
+				"header_sect5_hint": "OSの表示仕様に準拠します",
+				"header_sect5_images": [
+					{
+						"name": "panel1",
+						"hint": "iOS",
+						"images": "header_sect5_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "Android",
+						"images": "header_sect5_images2.svg"
+					}
+				],
+				"header_sect5_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "redicon1.svg",
+						"col1": "Navigation Item"
+					}, {
+						"name": "panel2",
+						"icons": "redicon2.svg",
+						"col1": "Title"
+					}, {
+						"name": "panel3",
+						"icons": "redicon3.svg",
+						"col1": "Action Items/(Optional)"
+					}
+				],
+				"header_sect6_title": "Navigation Item",
+				"header_sect6_hint": "<div>ナビゲーションアイテムは画面間の移動に使用します。</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします。</div>",
+				"header_sect6_images": [
+					{
+						"name": "panel1",
+						"hint": "<divBack button></div><div>Drill downで表示された画面に表示</div><div>タップで上位階層の画面に戻る</div>",
+						"images": "header_sect6_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "<div>Close button</div><div>Slide UPで表示された画面に表示</div><div>タップで画面を閉じる</div>",
+						"images": "header_sect6_images2.svg"
+					}
+				],
+				"header_sect7_title": "Title",
+				"header_sect7_hint": "タイトルは以下の内容を記載します。",
+				"header_sect7_points": "<div>•  画面名</div><div>•  機能名</div><div>•  アクション名</div>",
+				"header_sect7_desc": "タイトルは端OSの仕様に準拠し、端末の幅によって表示テキスト数は異なります。簡潔でコンパクトなタイトルの表示を推奨します",
+
+
+				"header_sect8_title": "Do/ Don't",
+				"header_sect8_hint": "タイトルは簡潔に、1行で収まるようにします。",
+				"header_sect8_images": [
+					{
+						"name": "panel1",
+						"hint": "タイトルが1行に収まっている",
+						"images": "header_sect8_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "タイトルが省略されている",
+						"images": "header_sect8_images2.svg"
+					}
+				],				
+				
+				"header_sect9_title": "Action Item(Optional)",
+
+				"header_sect9_1subtitle": "アイコン",
+				"header_sect9_1subdesc": "アクションアイコンを最大2つまで表示できます。表示するアイコンは画面内の機能に関連性のある機能である必要があります。",
+				"header_sect9_1subimage1": "header_sect9_1subimage1.svg",
+				"header_sect9_1subimage2": "header_sect9_1subimage2.svg",
+
+				"header_sect9_2subtitle": "テキストボタン",
+				"header_sect9_2subdesc": "<div>テキストボタンを表示できます。</div><div>表示するアイコンは画面内の機能に関連性のある機能である必要があります。</div><div>基本的にはアイコンボタンの利用を推奨します。</div><div>テキストボタンは、アイコンのみでは表現することが難しい場合、より強調するべき機能の場合に使用します。</div><div>テキストボタンとタイトルテキストの間には十分な余白を設け、テキストの視認性、可読性を担保してください。</div><div>ボタンのラベルテキストは簡潔で短いテキストを使用します。2文字程度を推奨します。</div>",
+				"header_sect9_2subimage": "header_sect9_2subimage.svg",
+				
+
+				"header_sect9_3subtitle": "編集コンテンツの保存ボタン",
+				"header_sect9_3subdesc": "<div>編集画面では、編集内容を保存する際に「保存」ボタンを表示します。</div><div>保存ボタンは編集状態によって表示を切り替えます</div>",
+				"header_sect9_3subimage": "header_sect9_3subimage.svg",
+				"header_sect9_3tblholder": [
+					{
+						"name": "panel1",
+						"icons": "blueicon1.svg",
+						"col1": "Active",
+						"col2": "変更された情報がある場合は「保存」ボタンを活性にし、ユーザーアクションを促します。"
+					}, {
+						"name": "panel2",
+						"icons": "blueicon2.svg",
+						"col1": "Disable",
+						"col2": "編集内容に変更がない場合は「保存」ボタンは非活性状態にします。"
+					}
+				],
+
+				"header_sect10_title": "Interaction",
+				"header_sect10_subtitle": "Scroll",
+				"header_sect10_hint1": "画面スクロール時は、ヘッダは画面上部に固定表示されます。",
+				"header_sect10_images1": "header_sect10_images1.svg",
+				"header_sect10_hint2": "1stview で表示される重要なコンテンツを、スクロール時にも表示したい場合は、ヘッダに表示することができます。",
+				"header_sect10_images2": "header_sect10_images2.svg",
+
+				"header_sect11_title": "Spec",
+				"header_sect11_images": [
+					{
+						"name": "panel1",
+						"hint": "iOS",
+						"images": "header_sect11_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "Android",
+						"images": "header_sect11_images2.svg"
+					}
+				],
+
+				"header_sect12_title": "Items",
+				"header_sect12_tblholder": [
+					{
+						"header_sect12_col1": "Navigation Item",
+						"header_sect12_col2": "<div>24px*24px/dp</div>"
+					}, {
+						"header_sect12_col1": "Title",
+						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
+
+					}, {
+						"header_sect12_col1": "Action Item",
+						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
+					}, {
+						"header_sect12_col1": "Background",
+						"header_sect12_col2": "<div><b>Regular</b></div><div>#FFFFFF</div><div><b>Transparent</b></div><div>---</div>"
+					}
+				]
 			}
 		}		  
 	}
