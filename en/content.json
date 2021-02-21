@@ -5338,7 +5338,7 @@
 				"header_sect6_images": [
 					{
 						"name": "panel1",
-						"hint": "<div>Back button></div><div>Drill downで表示された画面に表示</div><div>タップで上位階層の画面に戻る</div>",
+						"hint": "<div>Back button</div><div>Drill downで表示された画面に表示</div><div>タップで上位階層の画面に戻る</div>",
 						"images": "header_sect6_images1.svg"
 					}, {
 						"name": "panel2",
