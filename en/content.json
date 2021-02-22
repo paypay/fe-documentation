@@ -5432,6 +5432,37 @@
 						"header_sect12_col2": "<div><b>Regular</b></div><div>#FFFFFF</div><div><b>Transparent</b></div><div>---</div>"
 					}
 				]
+			},
+			"pagecontrols": {
+				"pagecontrols_heading": "Page Controls",
+				"pagecontrols_sect1_title": "Usage",
+				"pagecontrols_sect1_desc": "<div>•  表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</div><div>•  複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</div><div>•  より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</div>",
+				"pagecontrols_sect2_title": "Usage Example",
+				"pagecontrols_sect2_images": "header_sect2_images.svg",
+				"pagecontrols_sect2_desc": "フリックで表示可能なバナー画像の数をページコントロールで表します。",
+				"pagecontrols_sect3_title": "Don't",
+				"pagecontrols_sect3_images": [
+					{
+						"name": "panel1",
+						"icons": "pagecontrols_sect3_images1.svg",
+						"hint": "10個以上利用することは禁止します 最大5個までを推奨します"
+					}, {
+						"name": "panel2",
+						"icons": "pagecontrols_sect3_images2.svg",
+						"hint": "ラベル内でテキストを改行することは禁止とします"
+					}
+				],
+				"pagecontrols_sect4_title": "Spec",
+				"pagecontrols_sect4_images": "pagecontrols_sect4_images.svg",
+				"pagecontrols_sect4_tblholder": [
+					{
+						"pagecontrols_sect4_col1": "Selected",
+						"pagecontrols_sect4_col2": "<div>#000000</div><div>Alpha 0.5</div>"
+					}, {
+						"pagecontrols_sect4_col1": "Unselected",
+						"pagecontrols_sect4_col2": "<div>#000000</div><div>Alpha 0.2</div>"
+					}
+				]
 			}
 		}		  
 	}
