@@ -6206,12 +6206,12 @@
 						{
 							"name":"panel1",
 							"label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-							"label_sect_images_colo1_title": "Status Label",
+							"label_sect_images_colo1_title": "Status Label"
 						},
 						{
 							"name":"panel2",
 							"label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-							"label_sect_images_colo1_title": "New Label",
+							"label_sect_images_colo1_title": "New Label"
 						}
 					]
 				}],
