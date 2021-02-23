@@ -5442,11 +5442,11 @@
         "sect4_title": "ラクション",
         "toast_data1": [
           {
-            "desc": "入力要素の送信",
+            "desc": "アクションアイテムを加えることは禁止します",
             "logo": "toast_03.svg"
           },
           {
-            "desc": "選択肢の送信",
+            "desc": "2行以上の文字を表示することは禁止します",
             "logo": "toast_04.svg"
           }
         ],
@@ -5456,7 +5456,7 @@
             "logo": "toast_05.svg"
           },
           {
-            "desc": "選択肢の送信 選択肢の送信選択肢の送信選択肢の送信選択肢の送信選択肢の送信選択肢の送信",
+            "desc": "Safe areaのあるデバイスではSafe area外にも背景色を表示します",
             "logo": "toast_06.svg"
           }
         ],
@@ -5479,7 +5479,7 @@
                 "name": "panel1",
                 "toast_data3_colo1_title": "Animation",
                 "toast_data3_colo2": [
-                  { "desc": ["", "Slid up", "Stay 1.5 seconds", "Slide down"] }
+                  { "desc": ["", "Slide up", "Stay 1.5 seconds", "Slide down"] }
                 ]
               }
             ]
