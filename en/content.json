@@ -5464,6 +5464,222 @@
 					}
 				]
 			},
+			"buttons": {
+				"title": "Buttons",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "タップすることでアクションを実行することができます"
+					},
+					{
+						"desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
+					},
+					{
+						"desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"type_desc": [
+					{
+						"desc": "状態によりいくつかの種類があり、用途によって使い分けをします"
+					}
+				],
+				"subtitle_action_button": "Action Button",
+				"title_layout": "Layout",
+				"subtitle_layout": "画面内のボタンの優先順位",
+				"layout_desc": [
+					{
+						"desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
+					},
+					{
+						"desc": "ユーザーがアクションの選択に迷ってしまわないように、優先順位は明確である必要があります。"
+					}
+				],
+				"subtitle_dont": "Do/ Don't",
+				"dont_desc": [
+					{
+						"desc": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。"
+					}
+				],
+				"subtitle_horizontal_button": "Horizontal Button",
+				"horizontal_button_desc": [
+					{
+						"desc": "優先順位や機能が同等の情報を表示する場合は、アクションボタンを横並びに最大2つまで配置することを許容とします。"
+					},
+					{
+						"desc": "3つ以上の選択肢を設ける場合は、ボタンを縦に並べる、または他のUIにしてください。"
+					}
+				],
+				"horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
+				"horizontal_button_desc_2": "色は",
+				"horizontal_button_desc_3": "Color pallet",
+				"horizontal_button_desc_4": "の色を参考にしてください。",
+				"lauoyt_subtitle": "2つのボタンの背景色について",
+				"lauoyt_subtitle_desc": "色は",
+				"lauoyt_subtitle_desc_1": "Color pallet",
+				"lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+				"subtitle_sticky_button": "Sticky Button",
+				"sticky_button_desc": [
+					{
+						"desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+					},
+					{
+						"desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
+					},
+					{
+						"desc": "Sticky Buttonの表示エリア外の領域をスクロール領域とします。"
+					}
+				],
+				"subtitle_keyboard_button": "Keyboard Button",
+				"keyboard_button_desc": [
+					{
+						"desc": "ユーザーが入力アクションをする画面では、ボタンをキーボード上部に固定表示します。"
+					},
+					{
+						"desc": "ボタンの上下左右には十分な余白を設け、隣接するコンテンツやキーボードとの誤タップを避けます。"
+					}
+				],
+				"title_detail": "Detail",
+				"detail_dont": [
+					{
+						"desc": "簡潔で短く、すぐにアクションが理解できるテキストを設定してください。"
+					},
+					{
+						"desc": "ボタンのテキストが途中で切れてしまうこと、2行になることは禁止します。"
+					}
+				],
+				"title_interaction": "Interaction",
+				"interaction_desc": [
+					{
+						"desc": "アクション時にタップフィードバックを表示します。"
+					},
+					{
+						"desc": "Specを参照してください。"
+					}
+				],
+				"interaction_desc_1": "参考：",
+				"interaction_desc_2": "Interaction",
+				"title_spec": "Spec",
+				"subtitle_spacing": "Spacing"
+			},
+			"expand": {
+				"title": "Expand",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "情報量の多いコンテンツをコンパクトに表示する際に使用します"
+					},
+					{
+						"desc": "エキスパンド内に情報を収めることで情報が整理され、下に続くコンテンツの可読性を高めます"
+					},
+					{
+						"desc": "エキスパンドの利用は主コンテンツには使用せず、補足情報などの副次的な情報にのみ使用します"
+					},
+					{
+						"desc": "タップすることで折りたたまれた情報を展開します"
+					},
+					{
+						"desc": "展開された情報は再度タップすることで展開前の状態に戻すことが可能です"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"usage_example_desc": "情報量の多い副次的なコンテンツを折りたたんで表示",
+				"title_type": "Type",
+				"type_desc": [
+					{
+						"desc": "Expandのコンポーネントには3種類があり、用途によって使い分けをします。"
+					}
+				],
+				"title_detail": "Detail",
+				"subtitle_card": "Card",
+				"card_desc": [
+					{
+						"desc": "情報量の多いコンテンツをグルーピングする際に利用します。"
+					}
+				],
+				"subtitle_list": "List",
+				"list_desc": [
+					{
+						"desc": "リスト内の項目が多い場合、リストの一覧性を確保するために使用します。"
+					},
+					{
+						"desc": "情報を大項目、小項目に分類できるコンテンツにのみ使用可能です。"
+					}
+				],
+				"subtitle_article": "Article",
+				"article_desc": [
+					{
+						"desc": "記事などの長文コンテンツをコンパクトに表示する際に使用します。"
+					},
+					{
+						"desc": "情報を折りたたむことで下に続くコンテンツやアクションコンポーネントの可読性を高めます"
+					}
+				],
+				"title_interaction": "Interaction",
+				"interaction_desc": [
+					{
+						"desc": "Expand areaをタップして、展開前/展開後のUIを切り替えます。"
+					},
+					{
+						"desc": "タップ時にはタップフィードバックを表示します。"
+					},
+					{
+						"desc": "Specを参照してください。"
+					}
+				],
+				"interaction_desc_1": "参考：",
+				"interaction_desc_2": "Interaction",
+				"interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
+				"title_spec": "Spec",
+				"subtitle_spec_card": "Card",
+				"subtitle_expandlist": "Expand List",
+				"subtitle_expandarticle": "Expand Article"
+			},
+			"halfsheets": {
+				"title": "Half Sheets",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "ユーザー操作を一時中断させ、アクションを促す、またはエラーなどのお知らせを表示する際に使用します"
+					},
+					{
+						"desc": "ハーフシートはあくまで副次的な情報を表示するものであり、ハーフシート上に主コンテンツを表示することは推奨しません（Mini-Appは除く）"
+					},
+					{
+						"desc": "ハーフシート上には、表示された理由、ユーザーがとるべきアクションをわかりやすく表示します"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"title_detail": "Detail",
+				"title_interaction": "Interaction",
+				"interaction_desc": "ボタンアクション時にタップフィードバックを表示します。",
+				"interaction_desc_1": "Buttons",
+				"interaction_desc_2": "を参照してください。",
+				"interaction_desc_3": "参考：",
+				"interaction_desc_4": "Interaction",
+				"title_transitions": "Transitions",
+				"title_spec": "Spec"
+			},
+			"label": {
+				"title": "Label",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "コンテンツの補足情報やステータスを明示するために利用します"
+					},
+					{
+						"desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"subtitle_do_dont": "Do/ Don't",
+				"do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
+				"subtitle_dont": "Don't",
+				"title_spec": "Spec"
+			},
 			"toast": {
 				"header": "Toast",
 				"sect1_title": "Principle",
