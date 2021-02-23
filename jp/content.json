@@ -5419,7 +5419,73 @@
 						"pagecontrols_sect4_col2": "<div>#000000</div><div>Alpha 0.2</div>"
 					}
 				]
-			}
-		}	
+			},
+      "toast": {
+        "header": "Toast",
+        "sect1_title": "Principle",
+        "sect1_desc": [
+          {
+            "desc": "ユーザーアクションの結果をフィードバックするために利用します"
+          },
+          {
+            "desc": "フィードバックを提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます"
+          },
+          {
+            "desc": "トーストで伝える内容は簡潔で明快な必要があります"
+          }
+        ],
+        "sect2_title": "Usage",
+        "sect2_subtitle": "Usage Example",
+        "sect3_title": "Animation",
+        "sect3_desc1": "トーストはユーザーに結果を伝えるためだけのものです。",
+        "sect3_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+        "sect4_title": "ラクション",
+        "toast_data1": [
+          {
+            "desc": "入力要素の送信",
+            "logo": "toast_03.svg"
+          },
+          {
+            "desc": "選択肢の送信",
+            "logo": "toast_04.svg"
+          }
+        ],
+        "toast_data2": [
+          {
+            "desc": "",
+            "logo": "toast_05.svg"
+          },
+          {
+            "desc": "選択肢の送信 選択肢の送信選択肢の送信選択肢の送信選択肢の送信選択肢の送信選択肢の送信",
+            "logo": "toast_06.svg"
+          }
+        ],
+        "toast_data3": [
+          {
+            "toast_data3_tableholder": [
+              {
+                "name": "panel1",
+                "toast_data3_colo1_title": "Font",
+                "toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+              },
+              {
+                "name": "panel2",
+                "toast_data3_colo1_title": "Background",
+                "toast_data3_colo2": [
+                  { "desc": ["","#3895FF"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "toast_data3_colo1_title": "Animation",
+                "toast_data3_colo2": [
+                  { "desc": ["", "Slid up", "Stay 1.5 seconds", "Slide down"] }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }
