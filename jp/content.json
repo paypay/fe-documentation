@@ -5642,6 +5642,296 @@
             ]
           }
         ]
+      },
+      "selectionControls": {
+        "header": "Selection Controls",
+        "sect1_title": "Usage",
+        "sect1_desc": [
+          {
+            "desc": "アイテムの選択時に利用します"
+          },
+          {
+            "desc": "アイテムは、役割や現在の状態を瞬時に認識できる表示でなくてはいけません"
+          },
+          {
+            "desc": "アイテム単体では利用せず、必ず選択肢を示すテキストを併記します"
+          }
+        ],
+        "sect1_subtitle": "Usage Example",
+        "sect2_title": "Type",
+        "sect3_title": "Detail",
+        "sect4_title": "Radio Button",
+        "sect5_title": "Checkbox",
+        "sect6_title": "Select Button",
+        "sect6_desc1": "Select, Button内にはアイコンを含めることが可能です。",
+        "sect6_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+        "sect7_title": "Toggle Switch",
+        "sect7_desc1": "Select Button内にはアイコンを含めることが可能です。",
+        "sect7_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+        "sect8_title": "Don't",
+        "sect9_title": "Spec",
+        "sect9_subtitle1": "Radio Button",
+        "sect9_subtitle2": "Checkbox",
+        "sect9_subtitle3": "Select Button",
+        "sect10_title": "Spacing",
+        "sect10_subtitle1": "Toggle Switch",
+        "selectnControlData1":[
+          {
+            "selectnControlData1_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData1_colo1_title": "Radio Button",
+                "selectnControlData1_colo1_icons": "buttons_03_1.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "単一選択の場合に利用します" },
+                  { "desc": "ユーザーが選択できる項目は1つのみです" },
+                  { "desc": "選択中のものではない項目が選択されると、それまで選択されていた項目は非選択の状態になります" }
+                ]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData1_colo1_title": "CheckBox",
+                "selectnControlData1_colo1_icons": "buttons_03_2.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "複数選択が可能な場合に利用します" },
+                  { "desc": "Radio Buttonと異なり、ユーザーは同時に複数の項目を選択できます" },
+                  { "desc": "選択された項目を再度選択すると非選択状態になります" }
+                ]
+              },
+              {
+
+                "name": "panel3",
+                "selectnControlData1_colo1_title": "Select Button",
+                "selectnControlData1_colo1_icons": "buttons_03_3.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "単一選択・複数選択どちらの場合でも利用可能です" },
+                  { "desc": "選択肢を横並びで利用したい場合、選択肢を目立たせたい場合に利用します" },
+                  { "desc": "アプリ内での選択UIにはこのTypeの利用を推奨します" }
+                ]
+              },
+              {
+                "name": "panel4",
+                "selectnControlData1_colo1_title": "Toggle Switch",
+                "selectnControlData1_colo1_icons": "buttons_03_4.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "項目に対してON/OFFを切り替える場合に利用します" }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData2": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          },
+          {
+            "name": "panel3",
+            "col1": "選択不可 / Disabled",
+            "icon": "buttons_03_3.svg"
+          },
+          {
+            "name": "panel4",
+            "col1": "編集不可・選択時 / Disabled - Selected",
+            "icon": "buttons_03_4.svg"
+          }
+        ],
+        "selectnControlData3": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          },
+          {
+            "name": "panel3",
+            "col1": "選択不可 / Disabled",
+            "icon": "buttons_03_3.svg"
+          },
+          {
+            "name": "panel4",
+            "col1": "編集不可・選択時 / Disabled - Selected",
+            "icon": "buttons_03_4.svg"
+          }
+        ],
+        "selectnControlData4": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          }
+        ],
+        "selectnControlData5": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          }
+        ],
+        "selectnControlData6": [
+          {
+            "desc": "複数選択可能な項目にRadio Buttonを利用する",
+            "logo": "selectioncontrols_08.svg"
+          },
+          {
+            "desc": "単一選択の項目にCheck boxを利用する",
+            "logo": "selectioncontrols_09.svg"
+          }
+        ],
+        "selectnControlData7":  [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Radio Button Icon",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "24px*24px","Inculding the padding inside","of asset"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Radio Button Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Blank", "", "Stroke","#BABABA","1px","Background","#FFFFF"] },
+                  { "desc": ["Selected", "","Stroke", "#3895FF","Background","#FFFFF","Select","#3895FF"] },
+                  { "desc": ["Disabled", "","Stroke", "#DDDDD","1px","Background","#EEEEEE"] },
+                  { "desc": ["Disabled-Selected", "","Stroke", "#DDDDD","1px","Background","#EEEEEE","#BABABA"] }
+
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData8": [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Checkbox Icon",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "24px*24px/do","Inculding the padding inside","of asset"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Blank", "", "Stroke","#BABABA","1px inside","Background","#FFFFF"] },
+                  { "desc": ["Selected", "","Background", "#3895FF","Icon","#FFFFF","#FFFFFF"] },
+                  { "desc": ["Disabled", "","Stroke", "#DDDDD","1px inside","Background","#EEEEEE"] },
+                  { "desc": ["Disabled-Selected", "","Background", "#DDDDD","Icon","#BABABA"] }
+
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData9": [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Text Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "Label 14 Bold", "Text Align-Center","#FFFFF"] },
+                  { "desc": ["Not Selected", "Label 14 Bold", "Text Align-Center","#909090"] }
+                ]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "20px*20px/dp"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Background Height",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "30px/dp"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "background Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "", "Default:#3895FF","Pressed(iOS):#3286E5"] },
+                  { "desc": ["Not Selected", "", "Default:#FFFFFF","Pressed(iOS):#F2F2F2","Stroke:#BABABA,1px/dp","inside"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Background Corner",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "Round = 15px/dp"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData10":  [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Button Size",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "H28*W48px/dp"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "", "#3895FF"] },
+                  { "desc": ["Unselected", "","#EEEEEE"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Button Shadow",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "#000000", "Alpha 0.15","X:0 Y:5","Blur 6px"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Title",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }
