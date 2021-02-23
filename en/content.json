@@ -6192,6 +6192,68 @@
 						]
 					}
 				]
+			},
+
+			"loadingAnimation": {
+				"header": "Loading Animation",
+				"sect1_title": "Usage",
+				"sect1_desc": [
+					{
+						"desc": "読み込み処理を行っている際は、ループアニメーションを表示し、処理中であることをユーザーに知らせます"
+					},
+					{
+						"desc": "アニメーションを配置することでユーザーの体感時間を減らし、スムーズな使い心地を提供します"
+					}
+				],
+				"sect1_subtitle": "Usage Example",
+				"sect2_title": "Type",
+				"sect2_desc1": "Loading Dot Animation",
+				"sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+				"sect3_title": "Pull To Refresh",
+				"sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
+				"sect4_title": "Spec",
+				"sect4_desc1": "Loading Dot Animation",
+				"sect5_title": "Pull To Refresh",
+				"sect5_desc1": "OSごとのガイドラインに従います。",
+				"sect6_title": "Spacing",
+				"sect6_desc1": "以下を推奨します。",
+				"loadingAnimtnData1":  [
+					{
+						"loadingAnimtnData1_tableholder": [
+							{
+								"name":"panel1",
+								"loadingAnimtnData1_colo1_title": "Animation",
+								"loadingAnimtnData1_colo2":[
+									{"desc":["","150*15px/dp","Lottie animation"]}]
+							},
+							{
+								"name":"panel2",
+								"loadingAnimtnData1_colo1_title": "Title",
+								"loadingAnimtnData1_colo2":[
+									{"desc":["Label 16 bold","Text Align-Center","","#242323"]}
+								]
+							},
+							{
+								"name":"panel3",
+								"loadingAnimtnData1_colo1_title": "Text(Option)",
+								"loadingAnimtnData1_colo2":[{"desc":["Body 12","Text Align-Center","","#606060"]}]
+							},
+							{
+								"name":"panel4",
+								"loadingAnimtnData1_colo1_title": "Buttons",
+								"loadingAnimtnData1_colo2":[{"desc":["Buttons",""]}]
+							}
+						]
+					}
+				],
+				"loadingAnimtnData2": [
+					{
+						"name": "panel3",
+						"clsname": "half_sheets_sect_pannel",
+						"animatn_col1": "Animation",
+						"animatn_col2":"48*48px/dp"
+					}
+				]
 			}
 		}		  
 	}
