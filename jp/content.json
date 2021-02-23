@@ -5517,7 +5517,191 @@
         "interaction_desc_1": "参考：",
         "interaction_desc_2": "Interaction",
         "title_spec": "Spec",
-        "subtitle_spacing": "Spacing"
+        "subtitle_spacing": "Spacing",
+        "usage_example_desc": [
+          {
+            "desc": "入力要素の送信",
+            "logo": "buttons_01.svg"
+          },{
+            "desc": "選択肢の送信",
+            "logo": "buttons_02.svg"
+          }
+        ],
+        "buttons_design_sect3_holders": [{
+          "name": "panel3",
+          "clsname": "buttons_design_sect3_pannel3",
+          "buttons_design_sect3_images_tableholder": [
+            {
+              "name":"panel1",
+              "buttons_sect3_colo1_icons": "buttons_03_1.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Primary",
+              "buttons_design_sect3_images_colo2": "高優先度のアクションに利用します"
+            },
+            {
+              "name":"panel2",
+              "buttons_sect3_colo1_icons": "buttons_03_2.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Secondary",
+              "buttons_design_sect3_images_colo2": "中優先度のアクションに利用します"
+            },
+            {
+              "name":"panel3",
+              "buttons_sect3_colo1_icons": "buttons_03_3.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Tertiary",
+              "buttons_design_sect3_images_colo2": "低優先度のアクションに利用します"
+            },
+            {
+              "name":"panel4",
+              "buttons_sect3_colo1_icons": "buttons_03_4.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Alert",
+              "buttons_design_sect3_images_colo2": "ユーザーデータの削除など、誤ったアクションによりユーザーが不利益を被るであろうアクションに利用します"
+            },
+            {
+              "name":"panel5",
+              "buttons_sect3_colo1_icons": "buttons_03_5.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Disabled",
+              "buttons_design_sect3_images_colo2": "アクションが無効の状態に利用します"
+            }
+          ]
+        }],
+        "buttons_design_sect4_holders": [{
+          "name": "panel3",
+          "clsname": "buttons_design_sect3_pannel3",
+          "buttons_design_sect3_images_tableholder": [
+            {
+              "name":"panel1",
+              "buttons_sect3_colo1_icons": "buttons_03_1.svg",
+              "buttons_sect3_colo1_icons_title": "Text label",
+              "buttons_design_sect3_images_colo2_1":[
+                {"desc":["Primary,Error1,Disabled","Lable 14 Bold","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+                {"desc":["Secondary,Tertairy","Lable 14 Bold","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
+            },
+            {
+              "name":"panel2",
+              "buttons_sect3_colo1_icons": "buttons_03_2.svg",
+              "buttons_sect3_colo1_icons_title": "Background",
+              "buttons_design_sect3_images_colo2_1":[
+                {"desc":["Primary","","Default:#3895FF","Pressed(IOS):#3286FF"]},
+                {"desc":["Error","","Default:#FD5C5C","Pressed(IOS):#E35353"]},
+                {"desc":["Disabled","","#EEEEEE"]},
+                {"desc":["Secondary","","Default","Background:#FFFFFF","Stroke:#389FF,1px/dp,inside"]},
+                {"desc":["","","Pressed(iOS)","Background:#F2F2F2","Stroke:#3286E5,1px/dp,inside"]},
+                {"desc":["Tertiary","","Default:#FFFFFF","Pressed(iOS):#F2F2F2"]}
+              ]
+            },
+            {
+              "name":"panel3",
+              "buttons_sect3_colo1_icons": "buttons_03_3.svg",
+              "buttons_sect3_colo1_icons_title": "Background Corner",
+              "buttons_design_sect3_images_colo2_1":[{"desc":["","","Round = 8px/dp"]}]
+            },
+            {
+              "name":"panel4",
+              "buttons_sect3_colo1_icons": "buttons_03_4.svg",
+              "buttons_sect3_colo1_icons_title": "Icon Size",
+              "buttons_design_sect3_images_colo2_1":[{"desc":["","","20 * 20px/dp","Pressed(iOS):Alpha 0.7"]
+              }]
+            }
+          ]
+        }],
+        "dont_img_desc":  [
+          {
+            "desc": "選択肢の優先順位が明確",
+            "logo": "buttons_05.svg"
+          },
+          {
+            "desc": "選択肢の優先順位が不明瞭",
+            "logo": "buttons_06.svg"
+          }
+        ],
+        "buttons_sect97_tableholder": [
+          {
+            "name": "panel1",
+            "col1": "異なる2色を指定する場合",
+            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します 画面上で調和の取れた2色を選択してください PayPayのPrimary Buleの利用は必須ではありません"
+          }, {
+            "name": "panel2",
+            "col1": "同色の場合",
+            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、アイコンを表示することを推奨します"
+          }
+        ],
+        "buttons_details_sect2_images_tableholder": [
+          {
+            "name": "no1",
+            "icons": "buttons_10_01.svg",
+            "buttons_details_sect2_images_colo1_title1": "Text Label"
+          }, {
+            "name": "no2",
+            "icons": "buttons_10_02.svg",
+            "buttons_details_sect2_images_colo1_title1": "Allow Animation"
+          }, {
+            "name": "no3",
+            "icons": "buttons_10_03.svg",
+            "buttons_details_sect2_images_colo1_title1": "Icon"
+          }
+        ],
+        "dont_details": [
+          {
+            "desc_1": "アクションが明快で短く、テキストが1行に収まる",
+            "desc_2": "",
+            "logo": "buttons_12.svg"
+          },
+          {
+            "desc_1": "テキストが長くアクションが不明瞭",
+            "desc_2": "途中で切れる、2行になる",
+            "logo": "buttons_13.svg"
+          }
+        ],
+        "dont_details_3":  [
+          {
+            "desc": "アイコンの視認性が担保されている",
+            "logo": "buttons_15.svg"
+          },
+          {
+            "desc": "アイコンの視認性が悪い",
+            "logo": "buttons_16.svg"
+          },
+          {
+            "desc": "アイコンのみの表示",
+            "logo": "buttons_17.svg"
+          },
+          {
+            "desc": "アイコンをつけることで情報の優先順位が不明瞭になる",
+            "logo": "buttons_18.svg"
+          },
+          {
+            "desc": "ボタンステータスとアイコンの表す意味が合っていない",
+            "logo": "buttons_19.svg"
+          }
+        ],
+        "spacing_data": [
+          {
+            "logo": "buttons_21.svg"
+          },
+          {
+            "logo": "buttons_22.svg"
+          }
+        ],
+        "sticky_button_data": [
+          {
+            "logo": "buttons_23.svg",
+            "desc": "Button 1つ"
+          },
+          {
+            "logo": "buttons_24.svg",
+            "desc": "Button 2つ以上"
+          }
+        ],
+        "sticky_button_table":  [
+          {
+            "name": "panel1",
+            "col1": "Background Color",
+            "col2": "#FFFFFF"
+          }, {
+            "name": "panel2",
+            "col1": "Shadow",
+            "col2": "背景上部にShadowを付与 <br> Shadow : <span>-90° Low-Shadow</span>"
+          }
+        ]
       },
       "expand": {
         "title": "Expand",
