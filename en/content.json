@@ -5522,7 +5522,7 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "<div>復数のリストをグルーピング化し、大項目としてタイトルを付与する場合に利用します</div>"
+								"content": "復数のリストをグルーピング化し、大項目としてタイトルを付与する場合に利用します"
 							}
 						]
 					}, {
@@ -5530,9 +5530,6 @@
 						"icons": "redicon2.svg",
 						"list_sect4_col1": "List Sub Header (Option)",
 						"list_sect4_col2": [ {
-								"type":"text",
-								"content": "<div>"
-							}, {
 								"type":"icons",
 								"content": "redicon1.svg"
 							}, {
@@ -5541,9 +5538,6 @@
 							}, {
 								"type":"text",
 								"content": "大項目は必ず"
-							}, {
-								"type":"text",
-								"content": "</div><div>"								
 							}, {
 								"type":"icons",
 								"content": "redicon1.svg"
@@ -5555,7 +5549,7 @@
 								"content": "redicon2.svg"
 							}, {
 								"type":"text",
-								"content": "サブリストヘッダーを大項目として利用することはできません</div>"
+								"content": "サブリストヘッダーを大項目として利用することはできません"
 							}
 						]
 					}, {
@@ -5565,7 +5559,7 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "<div>テキストの内容を視覚的に示す場合、アイコンを配置します</div>"
+								"content": "テキストの内容を視覚的に示す場合、アイコンを配置します"
 							}
 						]
 					}, {
@@ -5575,7 +5569,10 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "<div>コンテンツを簡潔に短文で表示します</div><div>1行以内に収まるテキスト数を推奨します</div>"
+								"content": "コンテンツを簡潔に短文で表示します"
+							}, {
+								"type":"text",
+								"content": "1行以内に収まるテキスト数を推奨します"
 							}
 						]	
 					}, {
@@ -5585,19 +5582,16 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "<div>Titleを説明する補足的なテキストを表示します</div>"
-							}, {
-								"type":"text",
-								"content": "<div>"
+								"content": "Titleを説明する補足的なテキストを表示します"
 							}, {
 								"type":"icons",
 								"content": "redicon4.svg"
 							}, {
 								"type":"text",
-								"content": "Titleと同様に簡潔に短文で表示します</div>"
+								"content": "Titleと同様に簡潔に短文で表示します"
 							}, {
 								"type":"text",
-								"content": "<div>1行以内に収まるテキスト数を推奨します</div>"
+								"content": "1行以内に収まるテキスト数を推奨します"
 							}
 						]							
 					}, {
@@ -5607,11 +5601,24 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "<div>コンテンツのステータスや、アクション可能なアイテムを右寄せで配置します</div><div>テキストを表示する場合は5文字以内を推奨します</div><div>TitleやDescriptionとの間に十分な余白を担保します</div><div>iOS/Webの場合、タップして下層画面に遷移可能なリストには必ずアイコンを付与します</div><div>Androidにはアイコンは付与しません</div>"
+								"content": "コンテンツのステータスや、アクション可能なアイテムを右寄せで配置します"
+							}, {
+								"type":"text",
+								"content": "テキストを表示する場合は5文字以内を推奨します"
+							}, {
+								"type":"text",
+								"content": "TitleやDescriptionとの間に十分な余白を担保します"
+							}, {
+								"type":"text",
+								"content": "iOS/Webの場合、タップして下層画面に遷移可能なリストには必ずアイコンを付与します"
+							}, {
+								"type":"text",
+								"content": "Androidにはアイコンは付与しません"
 							}
 						]	
 					}
 				],
+				
 				"list_sect5_title": "Action Component List",
 				"list_sect5_images": "list_sect5_images.svg",
 				"list_sect5_tblholder": [
