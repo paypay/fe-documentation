@@ -5529,6 +5529,163 @@
 						]
 					}
 				]
+			},
+			"tab": {
+				"header": "Tab",
+				"sect1_title": "Usage",
+				"sect1_desc": [
+					{
+						"desc": "情報量の多い異なる情報群を一画面内に表示する際に利用します"
+					},
+					{
+						"desc": "1stviewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
+					}
+				],
+				"sect2_title": "Usage Example",
+				"sect3_title": "Type",
+				"sect4_title": "Detail",
+				"sect5_title": "ファーストビューに入りきらない場合",
+				"sect5_desc1": "タブの数が多く、ファーストビューにタブをすべて表示することが難しい場合は、画面外へタブを表示することが可能です。",
+				"sect5_desc2": "タブは水平方向にスワイプが可能です。",
+				"sect5_desc3": "このUIを利用する場合、多くのユーザーはスワイプできることを認識できない場合があります。",
+				"sect5_desc4": "画面外へタブが続くことが想起できるよう、右端のタブを見切れるように配置するなど配慮してください。",
+				"sect6_title": "Interaction",
+				"sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えアクションができるようにします。",
+				"sect7_title": "Spec",
+				"sect7_subtitle": "Regular",
+				"sect8_title": "Vertical List Bookmark Tab",
+				"tab_data1":[
+					{
+						"tab_data1_tableholder": [
+							{
+								"name": "panel1",
+								"tab_data1_colo1_title": "Regular",
+								"tab_data1_colo1_icons": "buttons_03_1.svg",
+								"tab_data1_colo2": [
+									{ "desc": "標準のタブナビゲーションです。タブの切り替えでタブ下のコンテンツ表示を切り替えます。" }
+								]
+							},
+							{
+								"name": "panel2",
+								"tab_data1_colo1_title": "Anchor link",
+								"tab_data1_colo1_icons": "buttons_03_2.svg",
+								"tab_data1_colo2": [
+
+									{ "desc": "画面内を移動するタブナビゲーションです。タブの切替で同一画面内のコンテンツ位置まで自動スクロールします。" },
+									{ "desc": "スクロールとタブは連動しており、タブを切り替えなくても、画面内をスクロールしてコンテンツを表示すると、表示コンテンツのタブがアクティブの状態になります。" }
+								]
+							}
+						]
+					}
+				],
+				"tab_data2":[
+					{
+						"tab_data2_tableholder": [
+							{
+								"name": "panel1",
+								"tab_data2_colo1_title": "Selected",
+								"tab_data2_colo1_icons": "buttons_03_1.svg",
+								"tab_data2_colo2": [
+									{ "desc": "タブが選択されている状態です。" },
+									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
+									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
+									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+								]
+							},
+							{
+								"name": "panel2",
+								"tab_data2_colo1_title": "Unselected",
+								"tab_data2_colo1_icons": "buttons_03_2.svg",
+								"tab_data2_colo2": [
+									{ "desc": "非選択状態のタブです。" },
+									{ "desc": "タップで選択状態に切り替え、タブ下にコンテンツを表示します。" }
+								]
+							}
+						]
+					}
+				],
+				"tab_data3":[
+					{
+						"tab_data3_tableholder": [
+							{
+								"name": "panel1",
+								"tab_data3_colo1_title": "Selected",
+								"tab_data3_colo1_icons": "buttons_03_1.svg",
+								"tab_data3_colo2": [
+									{ "desc": "タブが選択されている状態です。" },
+									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
+									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
+									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+								]
+							},
+							{
+								"name": "panel2",
+								"tab_data3_colo1_title": "Unselected",
+								"tab_data3_colo1_icons": "buttons_03_2.svg",
+								"tab_data3_colo2": [
+									{ "desc": "非選択状態のタブです。" },
+									{ "desc": "タップで選択状態に切り替え、同時にコンテンツエリアは同一画面内のコンテンツ位置まで自動スクロールします。" }
+								]
+							}
+						]
+					}
+				],
+				"tab_data4":[
+					{
+						"tab_data4_tableholder": [
+							{
+								"name": "panel1",
+								"tab_data4_colo1_title": "Label",
+								"tab_data4_colo2": [
+									{ "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
+									{ "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+								]
+							},
+							{
+								"name": "panel1",
+								"tab_data4_colo1_title": "Selected line",
+								"tab_data4_colo2": [
+									{ "desc": ["", "", "2px", "#3895FF"]}
+								]
+							},
+							{
+								"name": "panel2",
+								"tab_data4_colo1_title": "Background",
+								"tab_data4_colo2": [
+									{ "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+								]
+							}
+						]
+					}
+				],
+				"tab_data5":[
+					{
+						"tab_data5_tableholder": [
+							{
+								"name": "panel1",
+								"tab_data5_colo1_title": "Label",
+								"tab_data5_colo2": [
+									{ "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
+									{ "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+								]
+							},
+							{
+								"name": "panel1",
+								"tab_data5_colo1_title": "Under line",
+								"tab_data5_colo2": [
+									{ "desc": ["", "","Active", "2px", "#00B9F5"]}
+								]
+							},
+							{
+								"name": "panel2",
+								"tab_data5_colo1_title": "Background",
+								"tab_data5_colo2": [
+									{ "desc": ["", "", "#FFFFFF"] }
+								]
+							}
+						]
+					}
+				]
 			}
 		}		  
 	}
