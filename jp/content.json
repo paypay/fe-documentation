@@ -6122,7 +6122,94 @@
         "subtitle_do_dont": "Do/ Don't",
         "do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
         "subtitle_dont": "Don't",
-        "title_spec": "Spec"
+        "title_spec": "Spec",
+        "title_statuslabel": "Status Label",
+        "title_newlabel": "New Label",
+        "desc_statuslabel": "コンテンツ内で復数のステータスが存在する場合にステータスの違いを明示するために利用します。",
+        "newlabel_desc1": "新機能などユーザーにアピールしたい機能に利用します。",
+        "newlabel_desc2": "テキスト、色の変更はできません。",
+        "newlabel_desc3": "必要以上にユーザーの注意を惹きつけないよう、対象を1〜3回タップしたら消えるようにします。（回数は1回を推奨します）",
+        "label_data1": [
+          {
+            "desc": "復数あるステータスの表示",
+            "logo": "label_01.svg"
+          },{
+            "desc": "新しいコンテンツのPR",
+            "logo": "label_02.svg"
+          }
+        ],
+        "label_data2": [
+          {
+            "desc": "ラベル内にアクションアイテムを付与することは推奨しません",
+            "logo": "label_05.svg"
+          },{
+            "desc": "ラベル内でテキストを改行することは禁止とします",
+            "logo": "label_06.svg"
+          }
+        ],
+        "label_data3":  [
+          {
+            "desc": "1画面内に復数のラベルを表示することは禁止します",
+            "logo": "label_08.svg"
+          }
+        ],
+        "label_data7": [{
+          "name": "panel3",
+          "label_sect_images_tableholder": [
+            {
+              "name":"panel1",
+              "label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "label_sect_images_colo1_title": "Status Label",
+            },
+            {
+              "name":"panel2",
+              "label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "label_sect_images_colo1_title": "New Label",
+            }
+          ]
+        }],
+        "label_data5": [
+          {
+            "logo": "label_07.svg"
+          }
+        ],
+        "label_data4": [
+          {
+            "desc1": "ステータを表す色は<span>Color palet</span>の色の利用を推奨します。",
+            "desc2": "特に、「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
+            "logo": "label_07.svg"
+          }
+        ],
+        "label_data8": [
+          {
+            "name": "panel1",
+            "col1": "Regular",
+            "col2": [
+              { "desc": ["Heading / Label 12", "Text Align-Center","#FFFFFF"]}
+            ]
+          }, {
+            "name": "panel2",
+            "col1": "Background color",
+            "col2": [
+              { "desc": ["Use Color palette", "",""]}
+            ]
+          }
+        ],
+        "label_data9": [
+          {
+            "name": "panel1",
+            "col1": "Regular",
+            "col2": [
+              { "desc": ["Heading / Label 12\n", "Text Align-Center","#FFFFFF"]}
+            ]
+          }, {
+            "name": "panel2",
+            "col1": "Background color",
+            "col2": [
+              { "desc": ["", "#FFB900",""]}
+            ]
+          }
+        ]
       },
       "toast": {
         "header": "Toast",
