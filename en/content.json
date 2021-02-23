@@ -5821,7 +5821,91 @@
 				"title_spec": "Spec",
 				"subtitle_spec_card": "Card",
 				"subtitle_expandlist": "Expand List",
-				"subtitle_expandarticle": "Expand Article"
+				"subtitle_expandarticle": "Expand Article",
+				"expand_details_sect9_images_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "expand_num_01.svg",
+						"text": "展開前",
+						"desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します Defaultの表示は閉じた状態を使用することを推奨します 展開後に表示される情報が想起可能なテキストラベルを表示します"
+					},
+					{
+						"name": "panel2",
+						"icons": "expand_num_02.svg",
+						"text": "展開後",
+						"desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+					}
+				],
+				"expand_list_details_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "expand_num_03.svg",
+						"text": "展開前",
+						"desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1カテゴリのみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1stview内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
+					},
+					{
+						"name": "panel2",
+						"icons": "expand_num_04.svg",
+						"text": "展開後",
+						"desc": "小項目を表示します <br> 展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+					}
+				],
+				"expand_article_details_tableholder":  [
+					{
+						"name": "panel1",
+						"icons": "expand_num_05.svg",
+						"text": "展開前",
+						"desc": "タップで展開することを明示するため、「続きを読む」などのテキストラベルを表示します <br> 記事本文のテキストと混同しないよう、本文より弱い色を指定します <br> 記事本文は、最終行の文字を…で省略します <br> 省略位置は端末の横幅に準拠します"
+					},
+					{
+						"name": "panel2",
+						"icons": "expand_num_06.svg",
+						"text": "展開後",
+						"desc": "折りたたまれたコンテンツをすべて表示します <br> 展開前の状態に戻すアクションは付与しません <br> リロードすると展開前の状態に戻ります"
+					}
+				],
+				"expand_spec_card_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "",
+						"text": "Text Label",
+						"desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+					},
+					{
+						"name": "panel2",
+						"icons": "",
+						"text": "Background",
+						"desc": "Default : <br> Background : #FFFFFF <br> Pressed( iOS ) : <br> Background : #F2F2F2"
+					},
+					{
+						"name": "panel3",
+						"icons": "",
+						"text": "Icon",
+						"desc": "24px/dp"
+					}
+				],
+				"expand_spec_expandlist_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "",
+						"text": "Text Label",
+						"desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+					},
+					{
+						"name": "panel2",
+						"icons": "",
+						"text": "Icon",
+						"desc": "24px/dp"
+					}
+				],
+				"expand_spec_expandarticle_tableholder": [
+					{
+						"name": "panel1",
+						"icons": "",
+						"text": "Text Label",
+						"desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+					}
+				]
 			},
 			"halfsheets": {
 				"title": "Half Sheets",
