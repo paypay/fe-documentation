@@ -5419,7 +5419,1372 @@
 						"pagecontrols_sect4_col2": "<div>#000000</div><div>Alpha 0.2</div>"
 					}
 				]
-			}
-		}	
+			},
+      "buttons": {
+        "title": "Buttons",
+        "title_usage": "Usage",
+        "usage_desc": [
+          {
+            "desc": "タップすることでアクションを実行することができます"
+          },
+          {
+            "desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
+          },
+          {
+            "desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+          }
+        ],
+        "subtitle_usage_example": "Usage Example",
+        "title_type": "Type",
+        "type_desc": [
+          {
+            "desc": "状態によりいくつかの種類があり、用途によって使い分けをします"
+          }
+        ],
+        "subtitle_action_button": "Action Button",
+        "title_layout": "Layout",
+        "subtitle_layout": "画面内のボタンの優先順位",
+        "layout_desc": [
+          {
+            "desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
+          },
+          {
+            "desc": "ユーザーがアクションの選択に迷ってしまわないように、優先順位は明確である必要があります。"
+          }
+        ],
+        "subtitle_dont": "Do/ Don't",
+        "dont_desc": [
+          {
+            "desc": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。"
+          }
+        ],
+        "subtitle_horizontal_button": "Horizontal Button",
+        "horizontal_button_desc": [
+          {
+            "desc": "優先順位や機能が同等の情報を表示する場合は、アクションボタンを横並びに最大2つまで配置することを許容とします。"
+          },
+          {
+            "desc": "3つ以上の選択肢を設ける場合は、ボタンを縦に並べる、または他のUIにしてください。"
+          }
+        ],
+        "horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
+        "horizontal_button_desc_2": "色は",
+        "horizontal_button_desc_3": "Color pallet",
+        "horizontal_button_desc_4": "の色を参考にしてください。",
+        "lauoyt_subtitle": "2つのボタンの背景色について",
+        "lauoyt_subtitle_desc": "色は",
+        "lauoyt_subtitle_desc_1": "Color pallet",
+        "lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+        "subtitle_sticky_button": "Sticky Button",
+        "sticky_button_desc": [
+          {
+            "desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+          },
+          {
+            "desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
+          },
+          {
+            "desc": "Sticky Buttonの表示エリア外の領域をスクロール領域とします。"
+          }
+        ],
+        "subtitle_keyboard_button": "Keyboard Button",
+        "keyboard_button_desc": [
+          {
+            "desc": "ユーザーが入力アクションをする画面では、ボタンをキーボード上部に固定表示します。"
+          },
+          {
+            "desc": "ボタンの上下左右には十分な余白を設け、隣接するコンテンツやキーボードとの誤タップを避けます。"
+          }
+        ],
+        "title_detail": "Detail",
+        "detail_dont": [
+          {
+            "desc": "簡潔で短く、すぐにアクションが理解できるテキストを設定してください。"
+          },
+          {
+            "desc": "ボタンのテキストが途中で切れてしまうこと、2行になることは禁止します。"
+          }
+        ],
+        "title_interaction": "Interaction",
+        "interaction_desc": [
+          {
+            "desc": "アクション時にタップフィードバックを表示します。"
+          },
+          {
+            "desc": "Specを参照してください。"
+          }
+        ],
+        "interaction_desc_1": "参考：",
+        "interaction_desc_2": "Interaction",
+        "title_spec": "Spec",
+        "subtitle_spacing": "Spacing",
+        "usage_example_desc": [
+          {
+            "desc": "入力要素の送信",
+            "logo": "buttons_01.svg"
+          },{
+            "desc": "選択肢の送信",
+            "logo": "buttons_02.svg"
+          }
+        ],
+        "buttons_design_sect3_holders": [{
+          "name": "panel3",
+          "clsname": "buttons_design_sect3_pannel3",
+          "buttons_design_sect3_images_tableholder": [
+            {
+              "name":"panel1",
+              "buttons_sect3_colo1_icons": "buttons_03_1.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Primary",
+              "buttons_design_sect3_images_colo2": "高優先度のアクションに利用します"
+            },
+            {
+              "name":"panel2",
+              "buttons_sect3_colo1_icons": "buttons_03_2.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Secondary",
+              "buttons_design_sect3_images_colo2": "中優先度のアクションに利用します"
+            },
+            {
+              "name":"panel3",
+              "buttons_sect3_colo1_icons": "buttons_03_3.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Tertiary",
+              "buttons_design_sect3_images_colo2": "低優先度のアクションに利用します"
+            },
+            {
+              "name":"panel4",
+              "buttons_sect3_colo1_icons": "buttons_03_4.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Alert",
+              "buttons_design_sect3_images_colo2": "ユーザーデータの削除など、誤ったアクションによりユーザーが不利益を被るであろうアクションに利用します"
+            },
+            {
+              "name":"panel5",
+              "buttons_sect3_colo1_icons": "buttons_03_5.svg",
+              "buttons_sect3_colo1_icons_title": "Action button Disabled",
+              "buttons_design_sect3_images_colo2": "アクションが無効の状態に利用します"
+            }
+          ]
+        }],
+        "buttons_design_sect4_holders": [{
+          "name": "panel3",
+          "clsname": "buttons_design_sect3_pannel3",
+          "buttons_design_sect3_images_tableholder": [
+            {
+              "name":"panel1",
+              "buttons_sect3_colo1_icons": "buttons_03_1.svg",
+              "buttons_sect3_colo1_icons_title": "Text label",
+              "buttons_design_sect3_images_colo2_1":[
+                {"desc":["Primary,Error1,Disabled","Lable 14 Bold","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+                {"desc":["Secondary,Tertairy","Lable 14 Bold","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
+            },
+            {
+              "name":"panel2",
+              "buttons_sect3_colo1_icons": "buttons_03_2.svg",
+              "buttons_sect3_colo1_icons_title": "Background",
+              "buttons_design_sect3_images_colo2_1":[
+                {"desc":["Primary","","Default:#3895FF","Pressed(IOS):#3286FF"]},
+                {"desc":["Error","","Default:#FD5C5C","Pressed(IOS):#E35353"]},
+                {"desc":["Disabled","","#EEEEEE"]},
+                {"desc":["Secondary","","Default","Background:#FFFFFF","Stroke:#389FF,1px/dp,inside"]},
+                {"desc":["","","Pressed(iOS)","Background:#F2F2F2","Stroke:#3286E5,1px/dp,inside"]},
+                {"desc":["Tertiary","","Default:#FFFFFF","Pressed(iOS):#F2F2F2"]}
+              ]
+            },
+            {
+              "name":"panel3",
+              "buttons_sect3_colo1_icons": "buttons_03_3.svg",
+              "buttons_sect3_colo1_icons_title": "Background Corner",
+              "buttons_design_sect3_images_colo2_1":[{"desc":["","","Round = 8px/dp"]}]
+            },
+            {
+              "name":"panel4",
+              "buttons_sect3_colo1_icons": "buttons_03_4.svg",
+              "buttons_sect3_colo1_icons_title": "Icon Size",
+              "buttons_design_sect3_images_colo2_1":[{"desc":["","","20 * 20px/dp","Pressed(iOS):Alpha 0.7"]
+              }]
+            }
+          ]
+        }],
+        "dont_img_desc":  [
+          {
+            "desc": "選択肢の優先順位が明確",
+            "logo": "buttons_05.svg"
+          },
+          {
+            "desc": "選択肢の優先順位が不明瞭",
+            "logo": "buttons_06.svg"
+          }
+        ],
+        "buttons_sect97_tableholder": [
+          {
+            "name": "panel1",
+            "col1": "異なる2色を指定する場合",
+            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します 画面上で調和の取れた2色を選択してください PayPayのPrimary Buleの利用は必須ではありません"
+          }, {
+            "name": "panel2",
+            "col1": "同色の場合",
+            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、アイコンを表示することを推奨します"
+          }
+        ],
+        "buttons_details_sect2_images_tableholder": [
+          {
+            "name": "no1",
+            "icons": "buttons_10_01.svg",
+            "buttons_details_sect2_images_colo1_title1": "Text Label"
+          }, {
+            "name": "no2",
+            "icons": "buttons_10_02.svg",
+            "buttons_details_sect2_images_colo1_title1": "Allow Animation"
+          }, {
+            "name": "no3",
+            "icons": "buttons_10_03.svg",
+            "buttons_details_sect2_images_colo1_title1": "Icon"
+          }
+        ],
+        "dont_details": [
+          {
+            "desc_1": "アクションが明快で短く、テキストが1行に収まる",
+            "desc_2": "",
+            "logo": "buttons_12.svg"
+          },
+          {
+            "desc_1": "テキストが長くアクションが不明瞭",
+            "desc_2": "途中で切れる、2行になる",
+            "logo": "buttons_13.svg"
+          }
+        ],
+        "dont_details_3":  [
+          {
+            "desc": "アイコンの視認性が担保されている",
+            "logo": "buttons_15.svg"
+          },
+          {
+            "desc": "アイコンの視認性が悪い",
+            "logo": "buttons_16.svg"
+          },
+          {
+            "desc": "アイコンのみの表示",
+            "logo": "buttons_17.svg"
+          },
+          {
+            "desc": "アイコンをつけることで情報の優先順位が不明瞭になる",
+            "logo": "buttons_18.svg"
+          },
+          {
+            "desc": "ボタンステータスとアイコンの表す意味が合っていない",
+            "logo": "buttons_19.svg"
+          }
+        ],
+        "spacing_data": [
+          {
+            "logo": "buttons_21.svg"
+          },
+          {
+            "logo": "buttons_22.svg"
+          }
+        ],
+        "sticky_button_data": [
+          {
+            "logo": "buttons_23.svg",
+            "desc": "Button 1つ"
+          },
+          {
+            "logo": "buttons_24.svg",
+            "desc": "Button 2つ以上"
+          }
+        ],
+        "sticky_button_table":  [
+          {
+            "name": "panel1",
+            "col1": "Background Color",
+            "col2": "#FFFFFF"
+          }, {
+            "name": "panel2",
+            "col1": "Shadow",
+            "col2": "背景上部にShadowを付与 <br> Shadow : <span>-90° Low-Shadow</span>"
+          }
+        ]
+      },
+      "expand": {
+        "title": "Expand",
+        "title_usage": "Usage",
+        "usage_desc": [
+          {
+            "desc": "情報量の多いコンテンツをコンパクトに表示する際に使用します"
+          },
+          {
+            "desc": "エキスパンド内に情報を収めることで情報が整理され、下に続くコンテンツの可読性を高めます"
+          },
+          {
+            "desc": "エキスパンドの利用は主コンテンツには使用せず、補足情報などの副次的な情報にのみ使用します"
+          },
+          {
+            "desc": "タップすることで折りたたまれた情報を展開します"
+          },
+          {
+            "desc": "展開された情報は再度タップすることで展開前の状態に戻すことが可能です"
+          }
+        ],
+        "subtitle_usage_example": "Usage Example",
+        "usage_example_desc": "情報量の多い副次的なコンテンツを折りたたんで表示",
+        "title_type": "Type",
+        "type_desc": [
+          {
+            "desc": "Expandのコンポーネントには3種類があり、用途によって使い分けをします。"
+          }
+        ],
+        "title_detail": "Detail",
+        "subtitle_card": "Card",
+        "card_desc": [
+          {
+            "desc": "情報量の多いコンテンツをグルーピングする際に利用します。"
+          }
+        ],
+        "subtitle_list": "List",
+        "list_desc": [
+          {
+            "desc": "リスト内の項目が多い場合、リストの一覧性を確保するために使用します。"
+          },
+          {
+            "desc": "情報を大項目、小項目に分類できるコンテンツにのみ使用可能です。"
+          }
+        ],
+        "subtitle_article": "Article",
+        "article_desc": [
+          {
+            "desc": "記事などの長文コンテンツをコンパクトに表示する際に使用します。"
+          },
+          {
+            "desc": "情報を折りたたむことで下に続くコンテンツやアクションコンポーネントの可読性を高めます"
+          }
+        ],
+        "title_interaction": "Interaction",
+        "interaction_desc": [
+          {
+            "desc": "Expand areaをタップして、展開前/展開後のUIを切り替えます。"
+          },
+          {
+            "desc": "タップ時にはタップフィードバックを表示します。"
+          },
+          {
+            "desc": "Specを参照してください。"
+          }
+        ],
+        "interaction_desc_1": "参考：",
+        "interaction_desc_2": "Interaction",
+        "interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
+        "title_spec": "Spec",
+        "subtitle_spec_card": "Card",
+        "subtitle_expandlist": "Expand List",
+        "subtitle_expandarticle": "Expand Article",
+        "expand_details_sect9_images_tableholder": [
+          {
+            "name": "panel1",
+            "icons": "expand_num_01.svg",
+            "text": "展開前",
+            "desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します Defaultの表示は閉じた状態を使用することを推奨します 展開後に表示される情報が想起可能なテキストラベルを表示します"
+          },
+          {
+            "name": "panel2",
+            "icons": "expand_num_02.svg",
+            "text": "展開後",
+            "desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+          }
+        ],
+        "expand_list_details_tableholder": [
+          {
+            "name": "panel1",
+            "icons": "expand_num_03.svg",
+            "text": "展開前",
+            "desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1カテゴリのみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1stview内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
+          },
+          {
+            "name": "panel2",
+            "icons": "expand_num_04.svg",
+            "text": "展開後",
+            "desc": "小項目を表示します <br> 展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+          }
+        ],
+        "expand_article_details_tableholder":  [
+          {
+            "name": "panel1",
+            "icons": "expand_num_05.svg",
+            "text": "展開前",
+            "desc": "タップで展開することを明示するため、「続きを読む」などのテキストラベルを表示します <br> 記事本文のテキストと混同しないよう、本文より弱い色を指定します <br> 記事本文は、最終行の文字を…で省略します <br> 省略位置は端末の横幅に準拠します"
+          },
+          {
+            "name": "panel2",
+            "icons": "expand_num_06.svg",
+            "text": "展開後",
+            "desc": "折りたたまれたコンテンツをすべて表示します <br> 展開前の状態に戻すアクションは付与しません <br> リロードすると展開前の状態に戻ります"
+          }
+        ],
+        "expand_spec_card_tableholder": [
+          {
+            "name": "panel1",
+            "icons": "",
+            "text": "Text Label",
+            "desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+          },
+          {
+            "name": "panel2",
+            "icons": "",
+            "text": "Background",
+            "desc": "Default : <br> Background : #FFFFFF <br> Pressed( iOS ) : <br> Background : #F2F2F2"
+          },
+          {
+            "name": "panel3",
+            "icons": "",
+            "text": "Icon",
+            "desc": "24px/dp"
+          }
+        ],
+        "expand_spec_expandlist_tableholder": [
+          {
+            "name": "panel1",
+            "icons": "",
+            "text": "Text Label",
+            "desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+          },
+          {
+            "name": "panel2",
+            "icons": "",
+            "text": "Icon",
+            "desc": "24px/dp"
+          }
+        ],
+        "expand_spec_expandarticle_tableholder": [
+          {
+            "name": "panel1",
+            "icons": "",
+            "text": "Text Label",
+            "desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+          }
+        ]
+      },
+      "halfsheets": {
+        "title": "Half Sheets",
+        "title_usage": "Usage",
+        "usage_desc": [
+          {
+            "desc": "ユーザー操作を一時中断させ、アクションを促す、またはエラーなどのお知らせを表示する際に使用します"
+          },
+          {
+            "desc": "ハーフシートはあくまで副次的な情報を表示するものであり、ハーフシート上に主コンテンツを表示することは推奨しません（Mini-Appは除く）"
+          },
+          {
+            "desc": "ハーフシート上には、表示された理由、ユーザーがとるべきアクションをわかりやすく表示します"
+          }
+        ],
+        "subtitle_usage_example": "Usage Example",
+        "title_type": "Type",
+        "title_detail": "Detail",
+        "title_interaction": "Interaction",
+        "interaction_desc": "ボタンアクション時にタップフィードバックを表示します。",
+        "interaction_desc_1": "Buttons",
+        "interaction_desc_2": "を参照してください。",
+        "interaction_desc_3": "参考：",
+        "interaction_desc_4": "Interaction",
+        "title_transitions": "Transitions",
+        "title_spec": "Spec",
+        "txt_button_desc": "ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください。",
+        "half_sheets_sect11_holders":  [
+          {
+            "desc": "入力要素の送信",
+            "logo": "halfsheet_01.svg"
+          }
+        ],
+        "half_sheets_sect12_holders": [
+          {
+            "name": "panel3",
+            "clsname": "half_sheets_sect_pannel",
+            "half_sheets_sect_images_tableholder": [
+              {
+                "name":"panel1",
+                "half_sheets_sect_images_colo1_icons": "buttons_03_1.svg",
+                "half_sheets_sect_images_colo1_title": "Regular",
+                "halfsheet_sect3_images_colo2": "高優先度のアクションに利用します"
+              },
+              {
+                "name":"panel2",
+                "half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
+                "half_sheets_sect_images_colo1_title": "Date picker",
+                "halfsheet_sect3_images_colo2": "中優先度のアクションに利用します"
+              },
+              {
+                "name":"panel3",
+                "half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
+                "half_sheets_sect_images_colo1_title": "Alternative",
+                "halfsheet_sect3_images_colo2": "低優先度のアクションに利用します"
+              }
+            ]
+          }
+        ],
+        "half_sheets_sect13_holders": [{
+          "name": "panel3",
+          "clsname": "half_sheets_sect_pannel",
+          "half_sheets_sect_images_tableholder": [
+            {
+              "name":"panel1",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Image(Option)",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
+                {"desc":"エラーアイコン"},
+                {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
+                {"desc":"詳細はアイコンの項目をご確認ください"}
+
+              ],
+              "half_sheets_sect_images1":"halfsheet_03_01.svg",
+              "half_sheets_sect_images2":"halfsheet_03_02.svg"
+            },
+            {
+              "name":"panel2",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Title",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"タイトルを表示します"},
+                {"desc":"タイトルは内容を端的に理解できるよう、簡潔でコンパクトな一文を利用します"},
+                {"desc":"文末には句点は使いません"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+
+            },
+            {
+              "name":"panel3",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Description(Option)",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"タイトルでは伝えきれない補足情報を表示します"},
+                {"desc":"文末には句点は使いません"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+
+            },
+            {
+              "name":"panel4",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Links(Option)",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"リンクテキストを表示します"},
+                {"desc":"主に、ユーザー同意を得るための利用規約へのリンクやヘルプページへのリンクを表示する場合など"},
+                {"desc":"補足的要素に利用し主要アクションボタンとしての利用は禁止します"},
+                {"desc":"リンクは3つまでの表示を推奨します"},
+                {"desc":"表示パターンは後述します"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+
+            },
+            {
+              "name":"panel5",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Buttons",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"アクションボタンを表示します"},
+                {"desc":"ボタンは1〜3つまで表示が可能です"},
+                {"desc":"ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください"},
+                {"desc":"ボタンの表示パターンは後述します"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+            },
+            {
+              "name":"panel6",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"ハーフシートの背景です"},
+                {"desc":"高さは表示コンテンツの内容によって可変します"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+            },
+            {
+              "name":"panel7",
+              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_title": "Blur background",
+              "halfsheet_sect3_images_colo2": [
+                {"desc":"ハーフシートの表示時は、黒の透過背景をオーバーレイ表示し、下層のコンテンツを認識できるようにします"},
+                {"desc":"原則、このエリアをタップすると、ハーフシートを閉じます"},
+                {"desc":"ただし、以下の場合は、このエリアをタップしてもハーフシートは閉じないようにします"},
+                {"desc":"•  ハーフシート上の操作を追えずに閉じることで挙動や表示要素に不整合が起こる場合"},
+                {"desc":"•  エラー時など、シートを閉じて再度同様の操作をしても結果が変わらない場合"}
+              ],
+              "half_sheets_sect_images1":"",
+              "half_sheets_sect_images2":""
+
+            }
+          ]
+        }],
+        "halfsheet_sect14_holders":  [{
+          "name": "panel3",
+          "clsname": "half_sheets_sect_pannel",
+          "half_sheets_sect_images_tableholder": [
+            {
+              "name":"panel1",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_1.svg",
+              "half_sheets_sect_images_colo1_title": "Image (Option)",
+              "illustration_design_sect3_images_colo2_1":[
+                {"desc":["","128px*64px"]}]
+            },
+            {
+              "name":"panel2",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
+              "half_sheets_sect_images_colo1_title": "Title",
+              "illustration_design_sect3_images_colo2_1":[
+                {"desc":["Hading 16","Text Align-Center","#242323"]}
+              ]
+            },
+            {
+              "name":"panel3",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
+              "half_sheets_sect_images_colo1_title": "Description(Option)",
+              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#242323"]}]
+            },
+            {
+              "name":"panel4",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
+              "half_sheets_sect_images_colo1_title": "Links(Option)",
+              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#3895FF"]
+              }]
+            },
+            {
+              "name":"panel5",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
+              "half_sheets_sect_images_colo1_title": "Buttons",
+              "illustration_design_sect3_images_colo2_1":[{"desc":["Buttons"]
+              }]
+            },
+            {
+              "name":"panel6",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
+              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "illustration_design_sect3_images_colo2_1":[{"desc":["","#FFFFFF","TOP Right & Left Round : 20px/dp"]
+              }]
+            },
+            {
+              "name":"panel7",
+              "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
+              "half_sheets_sect_images_colo1_title": "Blur background",
+              "illustration_design_sect3_images_colo2_1":[{"desc":["","Alpha 0.6","#000000"]
+              }]
+            }
+          ]
+        }],
+        "halfsheet_sect15_holders":  [
+          {
+            "desc1": "選択肢の優先順位が明確",
+            "desc2": "Primary Button",
+            "logo": "halfsheet_04_01.svg"
+          },
+          {
+            "desc1": "選択肢の優先順位が不明瞭",
+            "desc2": "Primary/Secondary",
+            "logo": "halfsheet_04_02.svg"
+          },
+          {
+            "desc1": "選択肢の優先順位が不明瞭",
+            "desc2": "Primary/Secondary",
+            "logo": "halfsheet_04_01.svg"
+          }
+        ],
+        "halfsheet_section_tableholder": [
+          {
+            "name": "panel1",
+            "col1": "異な",
+            "col2": "スライドアップで表示します"
+          }, {
+            "name": "panel2",
+            "col1": "同色の",
+            "col2": "スライドダウンで閉じます"
+          }
+        ],
+        "halfsheets_integration_data": [
+          {"desc": "ボタンアクション時にタップフィードバックを表示します。"},
+          {"desc": " <span>Buttons</span> を参照してください。"},
+          {"desc": "参考: <span>Interaction</span>"}
+        ]
+      },
+      "label": {
+        "title": "Label",
+        "title_usage": "Usage",
+        "usage_desc": [
+          {
+            "desc": "コンテンツの補足情報やステータスを明示するために利用します"
+          },
+          {
+            "desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+          }
+        ],
+        "subtitle_usage_example": "Usage Example",
+        "title_type": "Type",
+        "subtitle_do_dont": "Do/ Don't",
+        "do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
+        "subtitle_dont": "Don't",
+        "title_spec": "Spec",
+        "title_statuslabel": "Status Label",
+        "title_newlabel": "New Label",
+        "desc_statuslabel": "コンテンツ内で復数のステータスが存在する場合にステータスの違いを明示するために利用します。",
+        "newlabel_desc1": "新機能などユーザーにアピールしたい機能に利用します。",
+        "newlabel_desc2": "テキスト、色の変更はできません。",
+        "newlabel_desc3": "必要以上にユーザーの注意を惹きつけないよう、対象を1〜3回タップしたら消えるようにします。（回数は1回を推奨します）",
+        "label_data1": [
+          {
+            "desc": "復数あるステータスの表示",
+            "logo": "label_01.svg"
+          },{
+            "desc": "新しいコンテンツのPR",
+            "logo": "label_02.svg"
+          }
+        ],
+        "label_data2": [
+          {
+            "desc": "ラベル内にアクションアイテムを付与することは推奨しません",
+            "logo": "label_05.svg"
+          },{
+            "desc": "ラベル内でテキストを改行することは禁止とします",
+            "logo": "label_06.svg"
+          }
+        ],
+        "label_data3":  [
+          {
+            "desc": "1画面内に復数のラベルを表示することは禁止します",
+            "logo": "label_08.svg"
+          }
+        ],
+        "label_data7": [{
+          "name": "panel3",
+          "label_sect_images_tableholder": [
+            {
+              "name":"panel1",
+              "label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "label_sect_images_colo1_title": "Status Label"
+            },
+            {
+              "name":"panel2",
+              "label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "label_sect_images_colo1_title": "New Label"
+            }
+          ]
+        }],
+        "label_data5": [
+          {
+            "logo": "label_07.svg"
+          }
+        ],
+        "label_data4": [
+          {
+            "desc1": "ステータを表す色は<span>Color palet</span>の色の利用を推奨します。",
+            "desc2": "特に、「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
+            "logo": "label_07.svg"
+          }
+        ],
+        "label_data8": [
+          {
+            "name": "panel1",
+            "col1": "Regular",
+            "col2": [
+              { "desc": ["Heading / Label 12", "Text Align-Center","#FFFFFF"]}
+            ]
+          }, {
+            "name": "panel2",
+            "col1": "Background color",
+            "col2": [
+              { "desc": ["Use Color palette", "",""]}
+            ]
+          }
+        ],
+        "label_data9": [
+          {
+            "name": "panel1",
+            "col1": "Regular",
+            "col2": [
+              { "desc": ["Heading / Label 12\n", "Text Align-Center","#FFFFFF"]}
+            ]
+          }, {
+            "name": "panel2",
+            "col1": "Background color",
+            "col2": [
+              { "desc": ["", "#FFB900",""]}
+            ]
+          }
+        ]
+      },
+      "toast": {
+        "header": "Toast",
+        "sect1_title": "Principle",
+        "sect1_desc": [
+          {
+            "desc": "ユーザーアクションの結果をフィードバックするために利用します"
+          },
+          {
+            "desc": "フィードバックを提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます"
+          },
+          {
+            "desc": "トーストで伝える内容は簡潔で明快な必要があります"
+          }
+        ],
+        "sect2_title": "Usage",
+        "sect2_subtitle": "Usage Example",
+        "sect3_title": "Animation",
+        "sect3_desc1": "トーストはユーザーに結果を伝えるためだけのものです。",
+        "sect3_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+        "sect4_title": "ラクション",
+        "toast_data1": [
+          {
+            "desc": "アクションアイテムを加えることは禁止します",
+            "logo": "toast_03.svg"
+          },
+          {
+            "desc": "2行以上の文字を表示することは禁止します",
+            "logo": "toast_04.svg"
+          }
+        ],
+        "toast_data2": [
+          {
+            "desc": "",
+            "logo": "toast_05.svg"
+          },
+          {
+            "desc": "Safe areaのあるデバイスではSafe area外にも背景色を表示します",
+            "logo": "toast_06.svg"
+          }
+        ],
+        "toast_data3": [
+          {
+            "toast_data3_tableholder": [
+              {
+                "name": "panel1",
+                "toast_data3_colo1_title": "Font",
+                "toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+              },
+              {
+                "name": "panel2",
+                "toast_data3_colo1_title": "Background",
+                "toast_data3_colo2": [
+                  { "desc": ["","#3895FF"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "toast_data3_colo1_title": "Animation",
+                "toast_data3_colo2": [
+                  { "desc": ["", "Slide up", "Stay 1.5 seconds", "Slide down"] }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tab": {
+        "header": "Tab",
+        "sect1_title": "Usage",
+        "sect1_desc": [
+          {
+            "desc": "情報量の多い異なる情報群を一画面内に表示する際に利用します"
+          },
+          {
+            "desc": "1stviewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
+          }
+        ],
+        "sect2_title": "Usage Example",
+        "sect3_title": "Type",
+        "sect4_title": "Detail",
+        "sect5_title": "ファーストビューに入りきらない場合",
+        "sect5_desc1": "タブの数が多く、ファーストビューにタブをすべて表示することが難しい場合は、画面外へタブを表示することが可能です。",
+        "sect5_desc2": "タブは水平方向にスワイプが可能です。",
+        "sect5_desc3": "このUIを利用する場合、多くのユーザーはスワイプできることを認識できない場合があります。",
+        "sect5_desc4": "画面外へタブが続くことが想起できるよう、右端のタブを見切れるように配置するなど配慮してください。",
+        "sect6_title": "Interaction",
+        "sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えアクションができるようにします。",
+        "sect7_title": "Spec",
+        "sect7_subtitle": "Regular",
+        "sect8_title": "Vertical List Bookmark Tab",
+        "tab_data1":[
+          {
+            "tab_data1_tableholder": [
+              {
+                "name": "panel1",
+                "tab_data1_colo1_title": "Regular",
+                "tab_data1_colo1_icons": "buttons_03_1.svg",
+                "tab_data1_colo2": [
+                  { "desc": "標準のタブナビゲーションです。タブの切り替えでタブ下のコンテンツ表示を切り替えます。" }
+                ]
+              },
+              {
+                "name": "panel2",
+                "tab_data1_colo1_title": "Anchor link",
+                "tab_data1_colo1_icons": "buttons_03_2.svg",
+                "tab_data1_colo2": [
+
+                  { "desc": "画面内を移動するタブナビゲーションです。タブの切替で同一画面内のコンテンツ位置まで自動スクロールします。" },
+                  { "desc": "スクロールとタブは連動しており、タブを切り替えなくても、画面内をスクロールしてコンテンツを表示すると、表示コンテンツのタブがアクティブの状態になります。" }
+                ]
+              }
+            ]
+          }
+        ],
+        "tab_data2":[
+          {
+            "tab_data2_tableholder": [
+              {
+                "name": "panel1",
+                "tab_data2_colo1_title": "Selected",
+                "tab_data2_colo1_icons": "buttons_03_1.svg",
+                "tab_data2_colo2": [
+                  { "desc": "タブが選択されている状態です。" },
+                  { "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
+                  { "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
+                  { "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+                ]
+              },
+              {
+                "name": "panel2",
+                "tab_data2_colo1_title": "Unselected",
+                "tab_data2_colo1_icons": "buttons_03_2.svg",
+                "tab_data2_colo2": [
+                  { "desc": "非選択状態のタブです。" },
+                  { "desc": "タップで選択状態に切り替え、タブ下にコンテンツを表示します。" }
+                ]
+              }
+            ]
+          }
+        ],
+        "tab_data3":[
+          {
+            "tab_data3_tableholder": [
+              {
+                "name": "panel1",
+                "tab_data3_colo1_title": "Selected",
+                "tab_data3_colo1_icons": "buttons_03_1.svg",
+                "tab_data3_colo2": [
+                  { "desc": "タブが選択されている状態です。" },
+                  { "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
+                  { "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
+                  { "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+                ]
+              },
+              {
+                "name": "panel2",
+                "tab_data3_colo1_title": "Unselected",
+                "tab_data3_colo1_icons": "buttons_03_2.svg",
+                "tab_data3_colo2": [
+                  { "desc": "非選択状態のタブです。" },
+                  { "desc": "タップで選択状態に切り替え、同時にコンテンツエリアは同一画面内のコンテンツ位置まで自動スクロールします。" }
+                ]
+              }
+            ]
+          }
+        ],
+        "tab_data4":[
+          {
+            "tab_data4_tableholder": [
+              {
+                "name": "panel1",
+                "tab_data4_colo1_title": "Label",
+                "tab_data4_colo2": [
+                  { "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
+                  { "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+                ]
+              },
+              {
+                "name": "panel1",
+                "tab_data4_colo1_title": "Selected line",
+                "tab_data4_colo2": [
+                  { "desc": ["", "", "2px", "#3895FF"]}
+                ]
+              },
+              {
+                "name": "panel2",
+                "tab_data4_colo1_title": "Background",
+                "tab_data4_colo2": [
+                  { "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "tab_data5":[
+          {
+            "tab_data5_tableholder": [
+              {
+                "name": "panel1",
+                "tab_data5_colo1_title": "Label",
+                "tab_data5_colo2": [
+                  { "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
+                  { "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+                ]
+              },
+              {
+                "name": "panel1",
+                "tab_data5_colo1_title": "Under line",
+                "tab_data5_colo2": [
+                  { "desc": ["", "","Active", "2px", "#00B9F5"]}
+                ]
+              },
+              {
+                "name": "panel2",
+                "tab_data5_colo1_title": "Background",
+                "tab_data5_colo2": [
+                  { "desc": ["", "", "#FFFFFF"] }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "selectionControls": {
+        "header": "Selection Controls",
+        "sect1_title": "Usage",
+        "sect1_desc": [
+          {
+            "desc": "アイテムの選択時に利用します"
+          },
+          {
+            "desc": "アイテムは、役割や現在の状態を瞬時に認識できる表示でなくてはいけません"
+          },
+          {
+            "desc": "アイテム単体では利用せず、必ず選択肢を示すテキストを併記します"
+          }
+        ],
+        "sect1_subtitle": "Usage Example",
+        "sect2_title": "Type",
+        "sect3_title": "Detail",
+        "sect4_title": "Radio Button",
+        "sect5_title": "Checkbox",
+        "sect6_title": "Select Button",
+        "sect6_desc1": "Select, Button内にはアイコンを含めることが可能です。",
+        "sect6_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+        "sect7_title": "Toggle Switch",
+        "sect7_desc1": "Select Button内にはアイコンを含めることが可能です。",
+        "sect7_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+        "sect8_title": "Don't",
+        "sect9_title": "Spec",
+        "sect9_subtitle1": "Radio Button",
+        "sect9_subtitle2": "Checkbox",
+        "sect9_subtitle3": "Select Button",
+        "sect10_title": "Spacing",
+        "sect10_subtitle1": "Toggle Switch",
+        "selectnControlData1":[
+          {
+            "selectnControlData1_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData1_colo1_title": "Radio Button",
+                "selectnControlData1_colo1_icons": "buttons_03_1.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "単一選択の場合に利用します" },
+                  { "desc": "ユーザーが選択できる項目は1つのみです" },
+                  { "desc": "選択中のものではない項目が選択されると、それまで選択されていた項目は非選択の状態になります" }
+                ]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData1_colo1_title": "CheckBox",
+                "selectnControlData1_colo1_icons": "buttons_03_2.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "複数選択が可能な場合に利用します" },
+                  { "desc": "Radio Buttonと異なり、ユーザーは同時に複数の項目を選択できます" },
+                  { "desc": "選択された項目を再度選択すると非選択状態になります" }
+                ]
+              },
+              {
+
+                "name": "panel3",
+                "selectnControlData1_colo1_title": "Select Button",
+                "selectnControlData1_colo1_icons": "buttons_03_3.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "単一選択・複数選択どちらの場合でも利用可能です" },
+                  { "desc": "選択肢を横並びで利用したい場合、選択肢を目立たせたい場合に利用します" },
+                  { "desc": "アプリ内での選択UIにはこのTypeの利用を推奨します" }
+                ]
+              },
+              {
+                "name": "panel4",
+                "selectnControlData1_colo1_title": "Toggle Switch",
+                "selectnControlData1_colo1_icons": "buttons_03_4.svg",
+                "selectnControlData1_colo2": [
+                  { "desc": "項目に対してON/OFFを切り替える場合に利用します" }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData2": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          },
+          {
+            "name": "panel3",
+            "col1": "選択不可 / Disabled",
+            "icon": "buttons_03_3.svg"
+          },
+          {
+            "name": "panel4",
+            "col1": "編集不可・選択時 / Disabled - Selected",
+            "icon": "buttons_03_4.svg"
+          }
+        ],
+        "selectnControlData3": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          },
+          {
+            "name": "panel3",
+            "col1": "選択不可 / Disabled",
+            "icon": "buttons_03_3.svg"
+          },
+          {
+            "name": "panel4",
+            "col1": "編集不可・選択時 / Disabled - Selected",
+            "icon": "buttons_03_4.svg"
+          }
+        ],
+        "selectnControlData4": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          }
+        ],
+        "selectnControlData5": [
+          {
+            "name": "panel1",
+            "col1": "非選択時 / Blank",
+            "icon": "buttons_03_1.svg"
+          },
+          {
+            "name": "panel2",
+            "col1": "選択時 / Selected",
+            "icon": "buttons_03_2.svg"
+          }
+        ],
+        "selectnControlData6": [
+          {
+            "desc": "複数選択可能な項目にRadio Buttonを利用する",
+            "logo": "selectioncontrols_08.svg"
+          },
+          {
+            "desc": "単一選択の項目にCheck boxを利用する",
+            "logo": "selectioncontrols_09.svg"
+          }
+        ],
+        "selectnControlData7":  [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Radio Button Icon",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "24px*24px","Inculding the padding inside","of asset"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Radio Button Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Blank", "", "Stroke","#BABABA","1px","Background","#FFFFF"] },
+                  { "desc": ["Selected", "","Stroke", "#3895FF","Background","#FFFFF","Select","#3895FF"] },
+                  { "desc": ["Disabled", "","Stroke", "#DDDDD","1px","Background","#EEEEEE"] },
+                  { "desc": ["Disabled-Selected", "","Stroke", "#DDDDD","1px","Background","#EEEEEE","#BABABA"] }
+
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData8": [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Checkbox Icon",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "24px*24px/do","Inculding the padding inside","of asset"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Blank", "", "Stroke","#BABABA","1px inside","Background","#FFFFF"] },
+                  { "desc": ["Selected", "","Background", "#3895FF","Icon","#FFFFF","#FFFFFF"] },
+                  { "desc": ["Disabled", "","Stroke", "#DDDDD","1px inside","Background","#EEEEEE"] },
+                  { "desc": ["Disabled-Selected", "","Background", "#DDDDD","Icon","#BABABA"] }
+
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData9": [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Text Label",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "Label 14 Bold", "Text Align-Center","#FFFFF"] },
+                  { "desc": ["Not Selected", "Label 14 Bold", "Text Align-Center","#909090"] }
+                ]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "20px*20px/dp"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Background Height",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "30px/dp"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "background Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "", "Default:#3895FF","Pressed(iOS):#3286E5"] },
+                  { "desc": ["Not Selected", "", "Default:#FFFFFF","Pressed(iOS):#F2F2F2","Stroke:#BABABA,1px/dp","inside"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Background Corner",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "Round = 15px/dp"] }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectnControlData10":  [
+          {
+            "selectnControlData7_tableholder": [
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Button Size",
+                "selectnControlData7_colo2": [{ "desc": ["", "", "H28*W48px/dp"] }]
+              },
+              {
+                "name": "panel2",
+                "selectnControlData7_colo1_title": "Icon Color",
+                "selectnControlData7_colo2": [
+                  { "desc": ["Selected", "", "#3895FF"] },
+                  { "desc": ["Unselected", "","#EEEEEE"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Button Shadow",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "", "#000000", "Alpha 0.15","X:0 Y:5","Blur 6px"] }
+                ]
+              },
+              {
+                "name": "panel1",
+                "selectnControlData7_colo1_title": "Title",
+                "selectnControlData7_colo2": [
+                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "loadingAnimation": {
+        "header": "Loading Animation",
+        "sect1_title": "Usage",
+        "sect1_desc": [
+          {
+            "desc": "読み込み処理を行っている際は、ループアニメーションを表示し、処理中であることをユーザーに知らせます"
+          },
+          {
+            "desc": "アニメーションを配置することでユーザーの体感時間を減らし、スムーズな使い心地を提供します"
+          }
+        ],
+        "sect1_subtitle": "Usage Example",
+        "sect2_title": "Type",
+        "sect2_desc1": "Loading Dot Animation",
+        "sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+        "sect3_title": "Pull To Refresh",
+        "sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
+        "sect4_title": "Spec",
+        "sect4_desc1": "Loading Dot Animation",
+        "sect5_title": "Pull To Refresh",
+        "sect5_desc1": "OSごとのガイドラインに従います。",
+        "sect6_title": "Spacing",
+        "sect6_desc1": "以下を推奨します。",
+        "loadingAnimtnData1":  [
+          {
+            "loadingAnimtnData1_tableholder": [
+              {
+                "name":"panel1",
+                "loadingAnimtnData1_colo1_title": "Animation",
+                "loadingAnimtnData1_colo2":[
+                  {"desc":["","150*15px/dp","Lottie animation"]}]
+              },
+              {
+                "name":"panel2",
+                "loadingAnimtnData1_colo1_title": "Title",
+                "loadingAnimtnData1_colo2":[
+                  {"desc":["Label 16 bold","Text Align-Center","","#242323"]}
+                ]
+              },
+              {
+                "name":"panel3",
+                "loadingAnimtnData1_colo1_title": "Text(Option)",
+                "loadingAnimtnData1_colo2":[{"desc":["Body 12","Text Align-Center","","#606060"]}]
+              },
+              {
+                "name":"panel4",
+                "loadingAnimtnData1_colo1_title": "Buttons",
+                "loadingAnimtnData1_colo2":[{"desc":["Buttons",""]}]
+              }
+            ]
+          }
+        ],
+        "loadingAnimtnData2": [
+          {
+            "name": "panel3",
+            "clsname": "half_sheets_sect_pannel",
+            "animatn_col1": "Animation",
+            "animatn_col2":"48*48px/dp"
+          }
+        ]
+      }
+    }
   }
 }
