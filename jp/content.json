@@ -5617,6 +5617,7 @@
         "interaction_desc_4": "Interaction",
         "title_transitions": "Transitions",
         "title_spec": "Spec",
+        "txt_button_desc": "ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください。",
         "half_sheets_sect11_holders":  [
           {
             "desc": "入力要素の送信",
@@ -5658,15 +5659,14 @@
               "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
-                {"desc":"タイトルを表示します"},
-                {"desc":"タイトルは内容を端的に理解できるよう、<span>簡潔でコンパクト</span>な一文を利用します"},
-                {"desc":"文末には句点は使いません"}
+                {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
+                {"desc":"エラーアイコン"},
+                {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
+                {"desc":"詳細はアイコンの項目をご確認ください"}
 
               ],
               "half_sheets_sect_images1":"halfsheet_03_01.svg",
               "half_sheets_sect_images2":"halfsheet_03_02.svg"
-
-
             },
             {
               "name":"panel2",
@@ -5684,7 +5684,7 @@
             {
               "name":"panel3",
               "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-              "half_sheets_sect_images_colo1_title": "Discription(Option)",
+              "half_sheets_sect_images_colo1_title": "Description(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルでは伝えきれない補足情報を表示します"},
                 {"desc":"文末には句点は使いません"}
@@ -5825,17 +5825,17 @@
           {
             "name": "panel1",
             "col1": "異な",
-            "col2": "2つのボタンが異なるアクショ"
+            "col2": "スライドアップで表示します"
           }, {
             "name": "panel2",
             "col1": "同色の",
-            "col2": "つのボタンが異なる"
+            "col2": "スライドダウンで閉じます"
           }
         ],
         "halfsheets_integration_data": [
-          {"desc": "タップすることでアクションを実行することができます"},
-          {"desc": " <span>Buttons</span> タップすることでアクションを実行することができます"},
-          {"desc": "背景上部: <span>Interaction</span>"}
+          {"desc": "ボタンアクション時にタップフィードバックを表示します。"},
+          {"desc": " <span>Buttons</span> を参照してください。"},
+          {"desc": "参考: <span>Interaction</span>"}
         ]
       },
       "label": {
