@@ -6461,45 +6461,45 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "コンテンツの補足情報やステータスを明示するために利用します"
+						"desc": "Labels are used to provide clarity on information supplementary to the contents or its status."
 					},
 					{
-						"desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+						"desc": "When displaying multiple statuses in the screen, they are color-coded so that the difference is visually apparent."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
 				"title_type": "Type",
-				"subtitle_do_dont": "Do/ Don't",
-				"do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
+				"subtitle_do_dont": "Do / Don't",
+				"do_dont_desc": "It is recommended not to include an action item in the label.。",
 				"subtitle_dont": "Don't",
 				"title_spec": "Spec",
 				"title_statuslabel": "Status Label",
 				"title_newlabel": "New Label",
-				"desc_statuslabel": "コンテンツ内で復数のステータスが存在する場合にステータスの違いを明示するために利用します。",
-				"newlabel_desc1": "新機能などユーザーにアピールしたい機能に利用します。",
-				"newlabel_desc2": "テキスト、色の変更はできません。",
-				"newlabel_desc3": "必要以上にユーザーの注意を惹きつけないよう、対象を1〜3回タップしたら消えるようにします。（回数は1回を推奨します）",
+				"desc_statuslabel": "A status label is used to indicate different statuses when more than one status exists in the contents.。",
+				"newlabel_desc1": "A new label is used to promote a feature to the user such as a new feature.",
+				"newlabel_desc2": "The text and color cannot be changed.",
+				"newlabel_desc3": "The label should disappear after the item is tapped one to three times to avoid attracting unnecessary attention. (One tap is recommended)",
 				"label_data1": [
 					{
-						"desc": "復数あるステータスの表示",
+						"desc": "Displaying multiple statuses.",
 						"logo": "label_01.svg"
 					},{
-						"desc": "新しいコンテンツのPR",
+						"desc": "Promoting new contents.",
 						"logo": "label_02.svg"
 					}
 				],
 				"label_data2": [
 					{
-						"desc": "ラベル内にアクションアイテムを付与することは推奨しません",
+						"desc": "It is recommended not to include an action item in the label.",
 						"logo": "label_05.svg"
 					},{
-						"desc": "ラベル内でテキストを改行することは禁止とします",
+						"desc": "It is prohibited to use more than two lines in a label.",
 						"logo": "label_06.svg"
 					}
 				],
 				"label_data3":  [
 					{
-						"desc": "1画面内に復数のラベルを表示することは禁止します",
+						"desc": "It is prohibited to display multiple new labels in one screen.",
 						"logo": "label_08.svg"
 					}
 				],
@@ -6525,8 +6525,8 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "ステータを表す色は<span>Color palet</span>の色の利用を推奨します。",
-						"desc2": "特に、「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
+						"desc1": "It is recommended to use colors from the<span>Color palette</span>when representing a status.",
+						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_07.svg"
 					}
 				],
