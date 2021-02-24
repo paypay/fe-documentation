@@ -6058,69 +6058,69 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "情報量の多いコンテンツをコンパクトに表示する際に使用します"
+						"desc": "An expander is used to collapse contents containing a lot of information."
 					},
 					{
-						"desc": "エキスパンド内に情報を収めることで情報が整理され、下に続くコンテンツの可読性を高めます"
+						"desc": "Information can be better organized by placing it within an expander, improving the readability of the content following below."
 					},
 					{
-						"desc": "エキスパンドの利用は主コンテンツには使用せず、補足情報などの副次的な情報にのみ使用します"
+						"desc": "An expander is used only for secondary or supplementary information, not for any primary contents"
 					},
 					{
-						"desc": "タップすることで折りたたまれた情報を展開します"
+						"desc": "Information that is collapsed is expanded-out by tapping on it."
 					},
 					{
-						"desc": "展開された情報は再度タップすることで展開前の状態に戻すことが可能です"
+						"desc": "The information can be collapsed back to its previous state by tapping it again."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
-				"usage_example_desc": "情報量の多い副次的なコンテンツを折りたたんで表示",
+				"usage_example_desc": "The expander is used to collapse supplementary contents containing a lot of information.",
 				"title_type": "Type",
 				"type_desc": [
 					{
-						"desc": "Expandのコンポーネントには3種類があり、用途によって使い分けをします。"
+						"desc": "There are three types of expand components that are used according to the purpose."
 					}
 				],
 				"title_detail": "Detail",
 				"subtitle_card": "Card",
 				"card_desc": [
 					{
-						"desc": "情報量の多いコンテンツをグルーピングする際に利用します。"
+						"desc": "Cards are used to group contents containing a lot of information."
 					}
 				],
 				"subtitle_list": "List",
 				"list_desc": [
 					{
-						"desc": "リスト内の項目が多い場合、リストの一覧性を確保するために使用します。"
+						"desc": "A list is used when there are many items to show, to secure browsability."
 					},
 					{
-						"desc": "情報を大項目、小項目に分類できるコンテンツにのみ使用可能です。"
+						"desc": "A list can only be used for contents that can be categorized into categories and subcategories."
 					}
 				],
 				"subtitle_article": "Article",
 				"article_desc": [
 					{
-						"desc": "記事などの長文コンテンツをコンパクトに表示する際に使用します。"
+						"desc": "Used when displaying long content such as articles in a compact manner"
 					},
 					{
-						"desc": "情報を折りたたむことで下に続くコンテンツやアクションコンポーネントの可読性を高めます"
+						"desc": "To improve readability of subsequent content and action components"
 					}
 				],
 				"title_interaction": "Interaction",
 				"interaction_desc": [
 					{
-						"desc": "Expand areaをタップして、展開前/展開後のUIを切り替えます。"
+						"desc": "The collapsed/expanded UI is alternated by tapping on the expander."
 					},
 					{
-						"desc": "タップ時にはタップフィードバックを表示します。"
+						"desc": "Tap feedback is displayed upon tapping."
 					},
 					{
-						"desc": "Specを参照してください。"
+						"desc": "Refer to the specs below."
 					}
 				],
 				"interaction_desc_1": "参考：",
 				"interaction_desc_2": "Interaction",
-				"interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
+				"interaction_desc_3": "Animations are applied to the content that is expanded and the arrow icon to make it easier for the user to recognize the changed state.",
 				"title_spec": "Spec",
 				"subtitle_spec_card": "Card",
 				"subtitle_expandlist": "Expand List",
@@ -6129,42 +6129,42 @@
 					{
 						"name": "panel1",
 						"icons": "expand_num_01.svg",
-						"text": "展開前",
-						"desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します Defaultの表示は閉じた状態を使用することを推奨します 展開後に表示される情報が想起可能なテキストラベルを表示します"
+						"text": "Collapsed",
+						"desc": "A downward arrow icon is displayed to indicate that it will expand when tapped on. It is recommended that the default view is in a collapsed state. A text label is displayed to make it easy for the user to guess what information will be displayed after expanding it."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_02.svg",
-						"text": "展開後",
-						"desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+						"text": "Expanded",
+						"desc": "An upward arrow icon is displayed to indicate that the information can be collapsed again."
 					}
 				],
 				"expand_list_details_tableholder": [
 					{
 						"name": "panel1",
 						"icons": "expand_num_03.svg",
-						"text": "展開前",
-						"desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1カテゴリのみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1stview内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
+						"text": "Collapsed",
+						"desc": "The highest tier items are displayed. <br> A downward arrow icon is displayed to indicate that it will expand when tapped on. <br> It is possible that the user may miss the expand action in a list. <br> In the default display, it is recommended to display only one high tier category in a collapsed state. <br> The action that can be taken becomes unclear to the user if the subcategories after collapsing does not fit into the first view, which is why the collapsed UI is used as the default display."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_04.svg",
-						"text": "展開後",
-						"desc": "小項目を表示します <br> 展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+						"text": "Expanded",
+						"desc": "The lower tier items are displayed. <br> An upward arrow icon is displayed to indicate that the information can be collapsed again."
 					}
 				],
 				"expand_article_details_tableholder":  [
 					{
 						"name": "panel1",
 						"icons": "expand_num_05.svg",
-						"text": "展開前",
-						"desc": "タップで展開することを明示するため、「続きを読む」などのテキストラベルを表示します <br> 記事本文のテキストと混同しないよう、本文より弱い色を指定します <br> 記事本文は、最終行の文字を…で省略します <br> 省略位置は端末の横幅に準拠します"
+						"text": "Collapsed",
+						"desc": "A text label is displayed such as \"read more\" to indicate that it will expand when tapped on. <br> A color that is weaker compared to the color of the body text is used avoid confusion. <br> The last line of the body text is omitted by using an ellipsis (“…”). <br> The exact position of the omission depends on the width of the device."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_06.svg",
-						"text": "展開後",
-						"desc": "折りたたまれたコンテンツをすべて表示します <br> 展開前の状態に戻すアクションは付与しません <br> リロードすると展開前の状態に戻ります"
+						"text": "Expanded",
+						"desc": "Displays all the contents that had been collapsed. <br> No action is provided to restore to the collapsed state <br> It can be restored to the collapsed state by reloading the page."
 					}
 				],
 				"expand_spec_card_tableholder": [
