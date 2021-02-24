@@ -3770,6 +3770,10 @@
         },{
           "name": "Action/Information",
           "hex": "#00B8F5"
+        }],
+        "gradationColorCode":[{
+          "name": "PayPay Gradation",
+          "hex": ["#FF0033","#FF3B62"]
         }]
       },
       "philosophy": {
