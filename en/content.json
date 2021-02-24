@@ -5855,7 +5855,7 @@
 						"desc": "The text must be short and concise, immediately conveying what the action is."
 					},
 					{
-						"desc": "It is prohibited to allow the button text to break up into two lines.\n"
+						"desc": "It is prohibited to allow the button text to break up into two lines."
 					}
 				],
 				"title_interaction": "Interaction",
