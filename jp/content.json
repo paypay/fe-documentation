@@ -3652,7 +3652,25 @@
 				},{
 					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
 					"logo": "Illustration_usage_08.svg"
-				}]
+				}],
+                "illustration_design_sect3_holders":  [{
+                  "name": "panel3",
+                  "clsname": "illustration_design_sect3_pannel3",
+                  "illustration_design_sect3pnel_images": "illustration_design_sect3pnel_img3.svg",
+                  "illustration_design_sect3_images_tableholder": [
+                    {
+                      "name":"panel1",
+                      "illustration_design_sect3_images_colo1_icons": "icon_01.svg",
+                      "illustration_design_sect3_images_colo1_title": "Focal Point",
+                      "illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+                    }, {
+                      "name":"panel2",
+                      "illustration_design_sect3_images_colo1_icons": "icon_02.svg",
+                      "illustration_design_sect3_images_colo1_title": "Facial Expression",
+                      "illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+                    }
+                  ]
+                }]
 			},
       "interaction":{
 				"title": "Interaction",
