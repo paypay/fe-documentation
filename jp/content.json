@@ -3804,7 +3804,25 @@
 					{
 						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
 					}
-				]
+				],
+                "scroll_desc_img":[{
+                  "desc":"スクロールバーを表示する",
+                  "logo": "scrolGuide_img_1.svg"
+                },{
+                  "desc":"表示中の項目のタイトルを画面上部に表示する",
+                  "logo": "scrolGuide_img_2.svg"
+                }],
+                "flick_desc_img":[{
+                  "desc":"画面端に隠れたコンテンツを表示する",
+                  "logo": "flick_img1.png"
+                },{
+                  "desc":"Page controllを表示する",
+                  "logo": "flick_img2.svg"
+                }],
+                "drag_slide_desc":[{
+                  "desc":"ジェスチャーを促すコンポーネント",
+                  "logo": "drag_02_img.png"
+                }]
       },
       "icongraphy": {
 				"igrphy_headers": "Icongraphy",
