@@ -5772,106 +5772,112 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "タップすることでアクションを実行することができます"
+						"desc": "Actions are performed by tapping on the buttons."
 					},
 					{
-						"desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
+						"desc": "The user should be made aware of the fact that the button is actionable, of the action it entails, its status and the interaction after it is tapped."
 					},
 					{
-						"desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+						"desc": "A button must be visually different from other contents in the screen, and should be placed so that it stands out."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
 				"title_type": "Type",
 				"type_desc": [
 					{
-						"desc": "状態によりいくつかの種類があり、用途によって使い分けをします"
+						"desc": "There are several types of buttons that vary by the status or purposes."
 					}
 				],
 				"subtitle_action_button": "Action Button",
 				"title_layout": "Layout",
-				"subtitle_layout": "画面内のボタンの優先順位",
+				"title_txtlabel": "Text Label",
+				"subtitle_layout": "Priority of buttons in a screen",
+				"txtlabel_desc1": "The text in the text label is concise and immediately conveys what the action is to the user.",
+				"txtlabel_desc2": "The use of a verb is recommended to clearly communicate the action.",
+				"background_title": "Background",
+				"background_desc1": "Only predefined colors are used for buttons to maintain consistency of the roles and priorities of buttons within the app and to reduce the effort it takes the user to learn the UIUX.",
+				"background_desc2": "A button with a white border and white text is accepted as an exception, only when placing it against a dark colored background such as black or on top of a photo.",
 				"layout_desc": [
 					{
-						"desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
+						"desc": "Buttons are prioritized when there are multiple buttons in a screen. The type of button placed is determined based on the order of priority."
 					},
 					{
-						"desc": "ユーザーがアクションの選択に迷ってしまわないように、優先順位は明確である必要があります。"
+						"desc": "The priority should be straightforward to avoid users getting confused about what action they should take."
 					}
 				],
 				"subtitle_dont": "Do/ Don't",
 				"dont_desc": [
 					{
-						"desc": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。"
+						"desc": "It is prohibited to use buttons in such a way that the priority within the screen is unclear."
 					}
 				],
 				"subtitle_horizontal_button": "Horizontal Button",
 				"horizontal_button_desc": [
 					{
-						"desc": "優先順位や機能が同等の情報を表示する場合は、アクションボタンを横並びに最大2つまで配置することを許容とします。"
+						"desc": "When displaying information with equal priority or features, it is acceptable to place a maximum of two action buttons side by side."
 					},
 					{
-						"desc": "3つ以上の選択肢を設ける場合は、ボタンを縦に並べる、または他のUIにしてください。"
+						"desc": "When there are more than three options, either the buttons should be aligned vertically, or a different UI must be used."
 					}
 				],
-				"horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
-				"horizontal_button_desc_2": "色は",
+				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
+				"horizontal_button_desc_2": "Refer to",
 				"horizontal_button_desc_3": "Color pallet",
-				"horizontal_button_desc_4": "の色を参考にしてください。",
-				"lauoyt_subtitle": "2つのボタンの背景色について",
-				"lauoyt_subtitle_desc": "色は",
+				"horizontal_button_desc_4": "for the colors.",
+				"lauoyt_subtitle": "The background color when using two buttons",
+				"lauoyt_subtitle_desc": "Refer to ",
 				"lauoyt_subtitle_desc_1": "Color pallet",
-				"lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+				"lauoyt_subtitle_desc_2": "for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
-						"desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+						"desc": "When placing an action button at the bottom of a long, vertical screen with a lot of content, it is recommended to use a sticky button, which is fixed at the bottom of the screen, so the button is available in the first view."
 					},
 					{
-						"desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
+						"desc": "The button is placed on the higher layer of the contents that is displayed. Ensure there is enough space surrounding the button."
 					},
 					{
-						"desc": "Sticky Buttonの表示エリア外の領域をスクロール領域とします。"
+						"desc": "The area outside of the sticky button is the area subject to scrolling."
 					}
 				],
 				"subtitle_keyboard_button": "Keyboard Button",
 				"keyboard_button_desc": [
 					{
-						"desc": "ユーザーが入力アクションをする画面では、ボタンをキーボード上部に固定表示します。"
+						"desc": "In a screen in which the user is required to enter information, the display of the button is fixed above the keyboard."
 					},
 					{
-						"desc": "ボタンの上下左右には十分な余白を設け、隣接するコンテンツやキーボードとの誤タップを避けます。"
+						"desc": "Sufficient space is provided around the button (above, below, left and right) to avoid accidental taps on adjacent contents or the keyboard."
 					}
 				],
 				"title_detail": "Detail",
 				"detail_dont": [
 					{
-						"desc": "簡潔で短く、すぐにアクションが理解できるテキストを設定してください。"
+						"desc": "The text must be short and concise, immediately conveying what the action is."
 					},
 					{
-						"desc": "ボタンのテキストが途中で切れてしまうこと、2行になることは禁止します。"
+						"desc": "It is prohibited to allow the button text to break up into two lines.\n"
 					}
 				],
 				"title_interaction": "Interaction",
 				"interaction_desc": [
 					{
-						"desc": "アクション時にタップフィードバックを表示します。"
+						"desc": "Tap feedback is displayed when an action is taken."
 					},
 					{
-						"desc": "Specを参照してください。"
+						"desc": "Refer to the Specs."
 					}
 				],
-				"interaction_desc_1": "参考：",
+				"interaction_desc_1": "Reference：",
 				"interaction_desc_2": "Interaction",
 				"title_spec": "Spec",
 				"subtitle_spacing": "Spacing",
 
 				"usage_example_desc": [
 					{
-						"desc": "入力要素の送信",
+						"desc": "Send data entries.",
 						"logo": "buttons_01.svg"
 					},{
-						"desc": "選択肢の送信",
+						"desc": "Send a selected option.",
 						"logo": "buttons_02.svg"
 					}
 				],
@@ -5883,31 +5889,31 @@
 							"name":"panel1",
 							"buttons_sect3_colo1_icons": "buttons_03_1.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Primary",
-							"buttons_design_sect3_images_colo2": "高優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for high priority actions"
 						},
 						{
 							"name":"panel2",
 							"buttons_sect3_colo1_icons": "buttons_03_2.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Secondary",
-							"buttons_design_sect3_images_colo2": "中優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for medium priority actions"
 						},
 						{
 							"name":"panel3",
 							"buttons_sect3_colo1_icons": "buttons_03_3.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Tertiary",
-							"buttons_design_sect3_images_colo2": "低優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for low priority actions"
 						},
 						{
 							"name":"panel4",
 							"buttons_sect3_colo1_icons": "buttons_03_4.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Alert",
-							"buttons_design_sect3_images_colo2": "ユーザーデータの削除など、誤ったアクションによりユーザーが不利益を被るであろうアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for actions that would cause the user to suffer a loss if used incorrectly, such as the deleting of user data."
 						},
 						{
 							"name":"panel5",
 							"buttons_sect3_colo1_icons": "buttons_03_5.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Disabled",
-							"buttons_design_sect3_images_colo2": "アクションが無効の状態に利用します"
+							"buttons_design_sect3_images_colo2": "Used when the action is disabled."
 						}
 					]
 				}],
@@ -5953,23 +5959,23 @@
 				}],
 				"dont_img_desc":  [
 					{
-						"desc": "選択肢の優先順位が明確",
+						"desc": "The priority of the options is clear",
 						"logo": "buttons_05.svg"
 					},
 					{
-						"desc": "選択肢の優先順位が不明瞭",
+						"desc": "The priority of the options is unclear",
 						"logo": "buttons_06.svg"
 					}
 				],
 				"buttons_sect97_tableholder": [
 					{
 						"name": "panel1",
-						"col1": "異なる2色を指定する場合",
-						"col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します 画面上で調和の取れた2色を選択してください PayPayのPrimary Buleの利用は必須ではありません"
+						"col1": "When using two different colors.",
+						"col2": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions. It is not mandatory to use PayPay’s Primary Blue color."
 					}, {
 						"name": "panel2",
-						"col1": "同色の場合",
-						"col2": "2つのボタンが異なるアクションであると容易に認識できるよう、アイコンを表示することを推奨します"
+						"col1": "When using the same color",
+						"col2": "It is recommended to display an icon so that people can easily recognize that the two buttons are for different actions."
 					}
 				],
 				"buttons_details_sect2_images_tableholder": [
@@ -5989,35 +5995,35 @@
 				],
 				"dont_details": [
 					{
-						"desc_1": "アクションが明快で短く、テキストが1行に収まる",
+						"desc_1": "The action is clear & short. The text fits into one line.",
 						"desc_2": "",
 						"logo": "buttons_12.svg"
 					},
 					{
-						"desc_1": "テキストが長くアクションが不明瞭",
-						"desc_2": "途中で切れる、2行になる",
+						"desc_1": "The text is long and the action unclear.",
+						"desc_2": "The text is broken up into two lines.",
 						"logo": "buttons_13.svg"
 					}
 				],
 				"dont_details_3":  [
 					{
-						"desc": "アイコンの視認性が担保されている",
+						"desc": "The visibility of the icon is ensured.",
 						"logo": "buttons_15.svg"
 					},
 					{
-						"desc": "アイコンの視認性が悪い",
+						"desc": "The visibility of the icon is bad.",
 						"logo": "buttons_16.svg"
 					},
 					{
-						"desc": "アイコンのみの表示",
+						"desc": "Only the icon is displayed.",
 						"logo": "buttons_17.svg"
 					},
 					{
-						"desc": "アイコンをつけることで情報の優先順位が不明瞭になる",
+						"desc": "The priority of the information becomes unclear by using an icon.",
 						"logo": "buttons_18.svg"
 					},
 					{
-						"desc": "ボタンステータスとアイコンの表す意味が合っていない",
+						"desc": "The status of the button and the icon does not make sense.",
 						"logo": "buttons_19.svg"
 					}
 				],
@@ -6032,11 +6038,11 @@
 				"sticky_button_data": [
 					{
 						"logo": "buttons_23.svg",
-						"desc": "Button 1つ"
+						"desc": "1 Button"
 					},
 					{
 						"logo": "buttons_24.svg",
-						"desc": "Button 2つ以上"
+						"desc": "Two or more Buttons"
 					}
 				],
 				"sticky_button_table":  [
@@ -6047,7 +6053,7 @@
 					}, {
 						"name": "panel2",
 						"col1": "Shadow",
-						"col2": "背景上部にShadowを付与 <br> Shadow : <span>-90° Low-Shadow</span>"
+						"col2": "Add a shadow to the top part of the background <br> Shadow : <span>-90° Low-Shadow</span>"
 					}
 				]
 

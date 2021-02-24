@@ -5746,7 +5746,13 @@
         ],
         "subtitle_action_button": "Action Button",
         "title_layout": "Layout",
+        "title_txtlabel": "Text Label",
         "subtitle_layout": "画面内のボタンの優先順位",
+        "txtlabel_desc1": "テキストラベルには、ユーザーアクションをすぐに理解できる簡潔なテキストを使用します。",
+        "txtlabel_desc2": "アクションを明確に伝えるために、動詞での表示を推奨します。",
+        "background_title": "Background",
+        "background_desc1": "ボタンの役割や優先順位をアプリ内で統一し、ユーザーの学習コストを軽減するため、ボタンの色は定義された色以外を使用しません。",
+        "background_desc2": "例外として、黒などの濃い背景色または写真の上に配置する場合のみ、白枠・白テキストのボタンの使用を許容します。",
         "layout_desc": [
           {
             "desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
