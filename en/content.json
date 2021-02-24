@@ -6789,13 +6789,13 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "アイテムの選択時に利用します"
+						"desc": "Selection controls are used when selecting an item."
 					},
 					{
-						"desc": "アイテムは、役割や現在の状態を瞬時に認識できる表示でなくてはいけません"
+						"desc": "Items must be displayed in a way in that their role and current state can be recognized instantly."
 					},
 					{
-						"desc": "アイテム単体では利用せず、必ず選択肢を示すテキストを併記します"
+						"desc": "Selection controls are not used for single items, and should always be accompanied by text indicating what options there are."
 					}
 				],
 				"sect1_subtitle": "Usage Example",
@@ -6804,11 +6804,11 @@
 				"sect4_title": "Radio Button",
 				"sect5_title": "Checkbox",
 				"sect6_title": "Select Button",
-				"sect6_desc1": "Select, Button内にはアイコンを含めることが可能です。",
-				"sect6_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+				"sect6_desc1": "An icon can be added within the select button.",
+				"sect6_desc2": "When unselected, the icon should be colored. When selected it should be white.",
 				"sect7_title": "Toggle Switch",
-				"sect7_desc1": "Select Button内にはアイコンを含めることが可能です。",
-				"sect7_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+				"sect7_desc1": "An icon can be added within the select button.",
+				"sect7_desc2": "When unselected, the icon should be colored. When selected it should be white.",
 				"sect8_title": "Don't",
 				"sect9_title": "Spec",
 				"sect9_subtitle1": "Radio Button",
@@ -6825,13 +6825,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_1.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "単一選択の場合に利用します"
+										"desc": "Used when only one option can be selected."
 									},
 									{
-										"desc": "ユーザーが選択できる項目は1つのみです"
+										"desc": "The user can select only one option."
 									},
 									{
-										"desc": "選択中のものではない項目が選択されると、それまで選択されていた項目は非選択の状態になります"
+										"desc": "When an alternative item is selected, the item previously selected changes to a state of being unselected."
 									}
 								]
 							},
@@ -6841,13 +6841,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_2.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "複数選択が可能な場合に利用します"
+										"desc": "Used when multiple options can be selected."
 									},
 									{
-										"desc": "Radio Buttonと異なり、ユーザーは同時に複数の項目を選択できます"
+										"desc": "Unlike the radio button, the user can select multiple options at once."
 									},
 									{
-										"desc": "選択された項目を再度選択すると非選択状態になります"
+										"desc": "By selecting an item that is already selected, the item changes to a state of being unselected."
 									}
 								]
 							},
@@ -6857,13 +6857,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_3.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "単一選択・複数選択どちらの場合でも利用可能です"
+										"desc": "Can be used in both cases; one option only and multiple options."
 									},
 									{
-										"desc": "選択肢を横並びで利用したい場合、選択肢を目立たせたい場合に利用します"
+										"desc": "The select button is used to emphasize the available options when listing them horizontally."
 									},
 									{
-										"desc": "アプリ内での選択UIにはこのTypeの利用を推奨します"
+										"desc": "This type is recommended as a selection UI within the app."
 									}
 								]
 							},
@@ -6873,7 +6873,7 @@
 								"selectnControlData1_colo1_icons": "buttons_03_4.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "項目に対してON/OFFを切り替える場合に利用します"
+										"desc": "Used when turning an item ON/OFF."
 									}
 								]
 							}
@@ -6950,11 +6950,11 @@
 				],
 				"selectnControlData6": [
 					{
-						"desc": "複数選択可能な項目にRadio Buttonを利用する",
+						"desc": "Use the radio button when multiple items can be selected.",
 						"logo": "selectioncontrols_08.svg"
 					},
 					{
-						"desc": "単一選択の項目にCheck boxを利用する",
+						"desc": "Use the check box when only one item can be selected.",
 						"logo": "selectioncontrols_09.svg"
 					}
 				],
