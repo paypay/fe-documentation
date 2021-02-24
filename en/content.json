@@ -7296,24 +7296,24 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "読み込み処理を行っている際は、ループアニメーションを表示し、処理中であることをユーザーに知らせます"
+						"desc": "A loop animation is displayed when loading to inform the user that it is being processed."
 					},
 					{
-						"desc": "アニメーションを配置することでユーザーの体感時間を減らし、スムーズな使い心地を提供します"
+						"desc": "The placement of an animation reduces the perceived wait time providing the user with a smoother feeling."
 					}
 				],
 				"sect1_subtitle": "Usage Example",
 				"sect2_title": "Type",
 				"sect2_desc1": "Loading Dot Animation",
-				"sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+				"sect2_desc2": "In principle, this is the animation that is used.",
 				"sect3_title": "Pull To Refresh",
-				"sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
+				"sect3_desc1": "The OS’s default pull to refresh component is used when manually refreshing the contents in the screen.\n",
 				"sect4_title": "Spec",
 				"sect4_desc1": "Loading Dot Animation",
 				"sect5_title": "Pull To Refresh",
-				"sect5_desc1": "OSごとのガイドラインに従います。",
+				"sect5_desc1": "In accordance with the OS’s guideline.",
 				"sect6_title": "Spacing",
-				"sect6_desc1": "以下を推奨します。",
+				"sect6_desc1": "The following is recommended.",
 				"loadingAnimtnData1":  [
 					{
 						"loadingAnimtnData1_tableholder": [

@@ -7041,7 +7041,7 @@
         "sect1_subtitle": "Usage Example",
         "sect2_title": "Type",
         "sect2_desc1": "Loading Dot Animation",
-        "sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+        "sect2_desc2": "基本的にこのアニメーションを利用します",
         "sect3_title": "Pull To Refresh",
         "sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
         "sect4_title": "Spec",
