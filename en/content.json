@@ -5821,13 +5821,13 @@
 					}
 				],
 				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
-				"horizontal_button_desc_2": "Refer to",
+				"horizontal_button_desc_2": "Refer to ",
 				"horizontal_button_desc_3": "Color pallet",
-				"horizontal_button_desc_4": "for the colors.",
+				"horizontal_button_desc_4": " for the colors.",
 				"lauoyt_subtitle": "The background color when using two buttons",
 				"lauoyt_subtitle_desc": "Refer to ",
 				"lauoyt_subtitle_desc_1": "Color pallet",
-				"lauoyt_subtitle_desc_2": "for the colors",
+				"lauoyt_subtitle_desc_2": " for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
