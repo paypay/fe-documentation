@@ -6632,22 +6632,22 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "情報量の多い異なる情報群を一画面内に表示する際に利用します"
+						"desc": "Tabs are used to display varying groups of information containing a lot of information in one screen.\n"
 					},
 					{
-						"desc": "1stviewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
+						"desc": "A summary of these information groups is displayed in the first view. The user can switch between the information groups by tapping the tab."
 					}
 				],
 				"sect2_title": "Usage Example",
 				"sect3_title": "Type",
 				"sect4_title": "Detail",
-				"sect5_title": "ファーストビューに入りきらない場合",
-				"sect5_desc1": "タブの数が多く、ファーストビューにタブをすべて表示することが難しい場合は、画面外へタブを表示することが可能です。",
-				"sect5_desc2": "タブは水平方向にスワイプが可能です。",
-				"sect5_desc3": "このUIを利用する場合、多くのユーザーはスワイプできることを認識できない場合があります。",
-				"sect5_desc4": "画面外へタブが続くことが想起できるよう、右端のタブを見切れるように配置するなど配慮してください。",
+				"sect5_title": "When it doesn’t fit into the first view",
+				"sect5_desc1": "When there are many tabs and it is difficult to display all of them in the first view, some tabs can be displayed off-screen.",
+				"sect5_desc2": "Tabs can be swiped horizontally.",
+				"sect5_desc3": "When using this UI, there is a risk that many users will not notice that they can swipe across.",
+				"sect5_desc4": "Ensure that the user intuitively understands that the tabs continue off-screen, such as by displaying only part of the tab on the far right.",
 				"sect6_title": "Interaction",
-				"sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えアクションができるようにします。",
+				"sect6_desc1": "The tabs are fixed at the top of the screen when scrolling, so that the user can check the status of the tab at any given time and switch tabs if necessary.",
 				"sect7_title": "Spec",
 				"sect7_subtitle": "Regular",
 				"sect8_title": "Vertical List Bookmark Tab",
@@ -6659,7 +6659,7 @@
 								"tab_data1_colo1_title": "Regular",
 								"tab_data1_colo1_icons": "buttons_03_1.svg",
 								"tab_data1_colo2": [
-									{ "desc": "標準のタブナビゲーションです。タブの切り替えでタブ下のコンテンツ表示を切り替えます。" }
+									{ "desc": "This is the standard tab navigation. The contents that are displayed below the tab can be switched by switching tabs." }
 								]
 							},
 							{
@@ -6668,8 +6668,8 @@
 								"tab_data1_colo1_icons": "buttons_03_2.svg",
 								"tab_data1_colo2": [
 
-									{ "desc": "画面内を移動するタブナビゲーションです。タブの切替で同一画面内のコンテンツ位置まで自動スクロールします。" },
-									{ "desc": "スクロールとタブは連動しており、タブを切り替えなくても、画面内をスクロールしてコンテンツを表示すると、表示コンテンツのタブがアクティブの状態になります。" }
+									{ "desc": "This is a tab navigation which slides within the screen. By switching the tab, it automatically scrolls to a specific position within the contents in the same screen." },
+									{ "desc": "The scrolling action is linked with the tabs. Therefore, scrolling within the screen to a particular part of the contents makes the tab related to the contents displayed active, even if the tab was not actively switched." }
 								]
 							}
 						]
@@ -6683,10 +6683,10 @@
 								"tab_data2_colo1_title": "Selected",
 								"tab_data2_colo1_icons": "buttons_03_1.svg",
 								"tab_data2_colo2": [
-									{ "desc": "タブが選択されている状態です。" },
-									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
-									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
-									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+									{ "desc": "This is the state of a tab when it is selected." },
+									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
+									{ "desc": "PayPay Blue is recommended as the color to indicate the selected state, but it may be changed to another color to suit the service color." },
+									{ "desc": "When changing the color, there must be enough contrast between the background and the color of the text." }
 								]
 							},
 							{
@@ -6694,8 +6694,8 @@
 								"tab_data2_colo1_title": "Unselected",
 								"tab_data2_colo1_icons": "buttons_03_2.svg",
 								"tab_data2_colo2": [
-									{ "desc": "非選択状態のタブです。" },
-									{ "desc": "タップで選択状態に切り替え、タブ下にコンテンツを表示します。" }
+									{ "desc": "This is the state of a tab when it is not selected." },
+									{ "desc": "Tapping the tab will change it to a selected state. The related contents are displayed below the tab." }
 								]
 							}
 						]
@@ -6709,10 +6709,10 @@
 								"tab_data3_colo1_title": "Selected",
 								"tab_data3_colo1_icons": "buttons_03_1.svg",
 								"tab_data3_colo2": [
-									{ "desc": "タブが選択されている状態です。" },
-									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
-									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
-									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+									{ "desc": "This is the state of a tab when it is selected." },
+									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
+									{ "desc": "PayPay Blue is recommended as the color to indicate the selected state, but it may be changed to another color to suit the service color." },
+									{ "desc": "When changing the color, there must be enough contrast between the background and the color of the text." }
 								]
 							},
 							{
@@ -6720,8 +6720,8 @@
 								"tab_data3_colo1_title": "Unselected",
 								"tab_data3_colo1_icons": "buttons_03_2.svg",
 								"tab_data3_colo2": [
-									{ "desc": "非選択状態のタブです。" },
-									{ "desc": "タップで選択状態に切り替え、同時にコンテンツエリアは同一画面内のコンテンツ位置まで自動スクロールします。" }
+									{ "desc": "This is the state of a tab when it is not selected." },
+									{ "desc": "Tapping the tab will change it to a selected state. At the same time, the contents displayed will automatically scroll to the position of the contents in the same screen." }
 								]
 							}
 						]
