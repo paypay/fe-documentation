@@ -3550,7 +3550,271 @@
 				  },{
 				  "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
 				  "logo": "usage_dont_06.png"
+				}],
+				"colorCode1": [{
+					"name": "PayPay Red",
+					"hex": "#FF0033"
+				},{
+					"name": "Blue",
+					"hex": "#00B9F5"
+				},{
+					"name": "Navy",
+					"hex": "#002970"
+				},{
+					"name": "White",
+					"hex": "#FFFFFF"
+				}],
+				"colorCode2":[
+					[   [{
+						"name": "PayPay Red",
+						"hex": "#FF0033",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FA1919",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FC6600",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FFB900",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#56D32A",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#26BF7D",
+						"color":"white"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#FD5C5C",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#FF954C",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#FFC733",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#79D957",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#52CC97",
+							"color":"white"
+						}
+					],
+						[{
+							"name": "",
+							"hex": "#FFB2B2",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFBA8B",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFE39A",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#BCF1A9'",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#A1E5C8",
+							"color":"black"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#FFE5E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFF0E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFF7E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F7DF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#DFF7ED",
+							"color":"black"
+						}
+						]],[
+						[{
+							"name": "",
+							"hex": "#00C2C2",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#00B8F5",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#006DD2",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#002970",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#7921A3",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#F23099",
+							"color":"white"
+						}
+						],[
+							{
+								"name": "",
+								"hex": "#41D9D9",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#33CDFF",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#3994E5",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#3994E5",
+								"color": "white"
+							},{
+								"name": "",
+								"hex": "#9047B2",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#FF4CAD",
+								"color":"white"
+							}
+						],
+						[{
+							"name": "",
+							"hex": "#8AE7E7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#BAEEFF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#9ECEF8",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#8AABE5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#D9B0EC",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFB4DD",
+							"color":"black"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#DFF7F7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F8FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F3FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5EFFF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#F7E5FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFE5F3",
+							"color":"black"
+						}
+						]
+					]
+
+				],
+				"colorCode3": [
+					[{
+						"name": "",
+						"hexx": "#242323",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#606060",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#909090",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#BABABA",
+						"color":"black"
+					},{
+						"name": "",
+						"hex": "#DDDDDD",
+						"color":"black"
+					},{
+						"name": "",
+						"hex": "#EEEEEE",
+						"color":"black"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#F7F7F7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFFFFF",
+							"color":"black"
+						}
+					]],
+				"colorCode4": [{
+					"name": "Success",
+					"hex": "#20BF7A"
+				},{
+					"name": "Error/Alert",
+					"hex": "#FD5C5C"
+				},{
+					"name": "Caution/Pending",
+					"hex": "#FFB900"
+				},{
+					"name": "Action/Information",
+					"hex": "#00B8F5"
 				}]
+
 			},
 			"philosophy": {
 			  "philos_headers": "Design Philosophy",
