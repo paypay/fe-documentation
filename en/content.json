@@ -3822,23 +3822,23 @@
 			"philosophy": {
 			  "philos_headers": "Design Philosophy",
 			  "philos_sect1_title": "Principle",
-			  "philos_sect1_description1": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
-			  "philos_sect1_description2": "PayPayから提供するすべてのプロダクトにおいて、このDesign Philosophyを念頭にデザインを提供します。",
+			  "philos_sect1_description1": "PayPay's design philosophy is the basis of the PayPay app style guide and is something that will not change.",
+			  "philos_sect1_description2": "The app UX that PayPay provides is designed based on this philosophy",
 			  "philos_sect2_title": "Design Theme",
 			  "philos_sect2_philosophylists": [ {
 				"title": "Empathy",
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists0",
 				"descriptions": [ {
-					"desc": "ユーザーの生活に寄り添い、共感されるデザインを提供します。"
+					"desc": "Designs that are close to and empathetic to the user’s daily life are provided."
 				  }, {
-					"desc": "水や空気のように日常に溶け込み、老若男女問わず、誰でも簡単に利用できるサービスでなくてはいけません。"
+					"desc": "The service has to blend into everyday life like water or air and be easily accessible to everyone, whether young, old, man or woman."
 				  }, {
-					"desc":"提供する側の一方通行ではなく、常にユーザーと対話ができるものを目指します。"
+					"desc":"A constant dialogue with the user is strived for, instead of pushing a service unilaterally."
 				  }, {
-					"desc":"ユーザーがPayPayを使うことによって自身の生活をより便利に、豊かにすることに尽力し、ユーザーのどんなに小さな声にも耳を傾けます。"
+					"desc":"Making the user’s life more convenient and enriched through their use of PayPay is strived for, listening to their voice no matter small it may be."
 				  }, {
-					"desc":"安心感と信頼感は最も重要な要素です。"
+					"desc":"Ensuring that the user can feel safe and trust the service is of utmost importance."
 				  }
 				]
 			  }, {
@@ -3846,9 +3846,9 @@
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists1",
 				"descriptions": [ {
-					"desc": "余計なものを削ぎ落とし、ユーザーが重要なものにのみフォーカスできるようにします。"
+					"desc": "Any surplus is removed so that the user can focus on what is important."
 				  }, {
-					"desc": "ユーザーが達成するべきゴールを阻害するものはすべて排除し、ユーザーアクションが最短で完了するようにします。"
+					"desc": "All hindrances for the user to achieve a goal are eliminated to ensure whatever the user has to get done can be completed in the shortest possible time."
 				  }
 				]
 			  }, {
@@ -3856,11 +3856,11 @@
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists2",
 				"descriptions": [ {
-					"desc": "すべてのUIは規則性、一貫性保ちます。"
+					"desc": "All UIs are kept regular and consistent."
 				  }, {
-					"desc": "必要な学習コストは極力削減し、ユーザーが快適にサービスを使い続けられるようにします。"
+					"desc": "The effort required to learn is eliminated as much as possible so that the user can continue to use the service comfortably."
 				  }, {
-					"desc":"アプリで提供するUIコンポーネントはこのガイドラインのコンポーネントに準拠します。"
+					"desc":"All UI components provided in the app follow the rules in this document."
 				  }
 				]
 			  }, {
@@ -3868,11 +3868,11 @@
 				"dividers": false,
 				"classname": "philos_sect2_philosophylists3",
 				"descriptions": [ {
-					"desc": "ユーザーの日常がPayPayによってHappyになることを目指し、楽しく、人間らしく、温かみのあるデザインを提供します。"
+					"desc": "Aiming for happiness in the user’s daily life through PayPay, a fun, down to earth, and warm design is provided."
 				  }, {
-					"desc": "決済アプリの垣根を超え、便利なツールの提供だけではなく、ユーザーの感情を動かせるようなデザインを心がけます。"
+					"desc": "Going beyond mere payments, going beyond being a convenient tool, a design that touches the user’s emotions is strived for."
 				  }, {
-					"desc":"ビジュアルイメージは、決済/金融サービスのイメージに囚われず、楽しく、元気が良く、ワクワクする設計であるべきです。"
+					"desc":"Without being bound to the image of ‘payment’ or ‘financial service’, a fun, cheerful and exciting image should be conveyed."
 				  }
 				]
 			  } ]
