@@ -3987,150 +3987,150 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "スマートフォンやタブレットなどのタッチスクリーンデバイスでは、より直感的なエクスペリエンスを提供する必要があります"
+						"desc": "Touch screen devices such as smartphones and tablets in particular must provide an intuitive experience."
 					},
 					{
-						"desc": "すべてのアクションコンポーネントはインタラクティブである必要があります"
+						"desc": "All action components need to be interactive."
 					},
 					{
-						"desc": "視覚的にどのようなものであるかが理解でき、必要なアクションをアフォードし、アクション後のフィードバックを明確にする必要があります"
+						"desc": "The user needs to be able to visually understand what is happening, providing affordance for required actions, as well as providing clear feedback after the action."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "ユーザーが行う様々なタッチデバイス上での振る舞いをジェスチャーと呼びます。"
+						"desc": "Gestures refer to the different behaviors the user can enact on a touch device.。"
 					},
 					{
-						"desc": "ジェスチャーには様々な種類があります。基本的にはデバイスの定義する標準のジェスチャーに準拠します。"
+						"desc": "There are many different types of gestures. In principle, they follow the standard gestures defined by the device."
 					},
 					{
-						"desc": "ただし、標準的なジェスチャーであっても、複雑な挙動をするものは、ユーザーが見逃したり誤動作をしないためのサポートが必要です。"
+						"desc": "Some standard gestures do however have a complex behavior, in which case, support should be provided to prevent users from missing or mishandling them."
 					}
 				],
 				"title_feedback": "Feedback",
 				"title_feedback_desc": [
 					{
-						"desc": "アクションコンポーネントは、ユーザーアクション後に必ず結果を示すフィードバックを提示します。"
+						"desc": "An action component always provides feedback after a user’s action."
 					},
 					{
-						"desc": "フィードバックを提示することで、ユーザーは自分の行った操作が成功したのか、結果はどうだったのかを知ることができます。"
+						"desc": "Through the feedback, the user comes to know of whether the action was successful or not."
 					}
 				],
 				"title_touch_feedback": "Touch Feedback",
 				"title_touch_feedback_table": [
 					{
 						"name": "iOS",
-						"desc": "タッチフィードバックは通常時のコンポーネントの色から明度を5落とした色を指定し、テキストは通常時の色のまま70%透過を指定しますタッチフィードバックの色は各コンポーネントの項目を参照してください"
+						"desc": "A color with a brightness 5 lower than the normal color of the component is used to provide touch feedback. The color of the texts remains the same, but with 70% transparency. Refer to the individual components for the colors of the touch feedback."
 					},
 					{
 						"name": "Android",
-						"desc": "OSのRipple効果に準拠します"
+						"desc": "Is in accordance with the ripple effect of the OS."
 					}
 				],
 				"title_noticeofresults": "Notice of Results",
 				"noticeofresults_desc": [
 					{
-						"desc": "アクションのフィードバックと合わせて、アクションを行った結果をフィードバックすることを推奨します。"
+						"desc": "In addition to feedback on the action, it is also recommended to provide feedback on the result after the user has performed the action."
 					},
 					{
-						"desc": "結果を提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます。"
+						"desc": "By displaying the result, the user will come to know whether the action was successful or not."
 					}
 				],
-				"txt_noticeofresults": "フィードバックを表示するコンポーネントはToastの項目を参照ください。",
+				"txt_noticeofresults": "Refer to the Toast section for more information on the components for displaying feedback.",
 				"title_tap": "Tap",
 				"tap_desc": [
 					{
-						"desc":"コンポーネントをタッチする動作です。"
+						"desc":"Tapping is the action of touching a component."
 					},
 					{
-						"desc":"最も標準的なジェスチャーです。"
+						"desc":"It is the most standard gesture."
 					}
 				],
 				"txt_tap_desc": [
 					{
-						"desc":"ボタンなどの標準的なコンポーネント以外にタップアクションを利用する場合は、"
+						"desc":"For tap actions that do not utilize standard components such as a button、"
 					},
 					{
-						"desc":"ユーザーがタップ可能であることを理解できるよう、視覚的なサポートを必須とします。"
+						"desc":"it is mandatory to provide visual support to ensure the users understands it can be tapped."
 					},
 					{
-						"desc":"またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。"
+						"desc":"It is also mandatory to display the supporting components to clearly indicate where they are in the overall content."
 					}
 				],
-				"txt_touch_guide": "タップを示すビジュアル要素を表示する",
+				"txt_touch_guide": "Display a visual element to indicate a tap.",
 				"title_scroll": "Scroll",
 				"scroll_desc": [
 					{
-						"desc":"画面上に複数の連続するコンテンツが並ぶ場合、画面に収まりきらない情報を指で上下に動かし画面内に表示する動作です。"
+						"desc":"Scrolling is the action of moving information upwards or downwards to enabling viewing it when there are multiple contents displayed in continuation and it does not fit into the screen."
 					},
 					{
-						"desc":"ユーザーの指の動きにコンテンツが追従するようにします。"
+						"desc":"The contents mirror the movement of the user’s finger."
 					},
 					{
-						"desc":"また、ユーザーが画面を素早くスクロールした場合は、デバイス標準の慣性スクロールを有効にし、効率的に情報を表示できるようにします。"
+						"desc":"If the user scrolls quickly, the device's standard inertial scrolling is activated for the information to be displayed efficiently."
 					}
 				],
-				"txt_scroll_desc": "リストなど、情報量の多いコンテンツをスクロールしながら閲覧させる場合、現在画面上に表示されているものが、複数あるコンテンツの中の何なのか、またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。",
+				"txt_scroll_desc": "When the user is required to view information-heavy contents, it is mandatory to display supporting components to provide clarity on what information is currently being displayed and at which position the users is amongst all the contents.",
 				"title_flick": "Flick",
 				"flick_desc": [
 					{
-						"desc":"コンポーネントを指で軽く横に弾く動作です。"
+						"desc":"Flicking is the action of lightly striking a component sideways with a finger."
 					},
 					{
-						"desc":"画面上に多くの情報を配置するのが困難な場合、画面外、横位置にコンポーネントを並べ、横にフリックすることで画面外の情報を表示します。"
+						"desc":"When it is difficult to place a lot of information on the screen, components are horizontally lined-up outside of the screen and made viewable by flicking sideways."
 					}
 				],
-				"txt_flick_desc": "フリックで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"txt_flick_desc": "To indicate that it is possible to flick and display information, it is mandatory to display supporting components.",
 				"title_drag_slide_view": "Drag - Slide View",
-				"drag_slide_view_desc_1":"コンポーネントの一部を指で引っ張ることで隠れたコンポーネントを画面上に表示する動作です。",
-				"drag_slide_view_desc_2":"Dragで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"drag_slide_view_desc_1":"Dragging is the action of pulling one part of the component to reveal a component previously hidden on the screen.",
+				"drag_slide_view_desc_2":"To indicate that it is possible to display information by dragging, it is mandatory to display supporting components.",
 				"title_drag_drop": "Drag & Drop",
 				"drag_drop_desc": [
 					{
-						"desc": "コンポーネントの一部を引っ張り、移動させた後、指を離すことでアクションを実行する動作です。"
+						"desc": "Drag & drop is the action of pulling and moving one part of the component with a finger and then letting it go."
 					},
 					{
-						"desc": "リストの並び替えなどに利用します。"
+						"desc": "It is used in cases such as when rearranging a list."
 					}
 				],
 				"title_pinch": "Pinch-in/Pinch-out",
 				"pinch_desc": [
 					{
-						"desc": "画面の一部をつまみ、広げることで拡大する動作です。"
+						"desc": "Pinching-out is the action of placing a thumb and finger on the screen and moving them apart to zoom in."
 					},
 					{
-						"desc": "反対に縮小することも可能です。"
+						"desc": "Pinching-in is the reverse action to zoom out."
 					},
 					{
-						"desc": "地図や画像などで縮尺を変更する際に利用します。"
+						"desc": "It is used to shrink or enlarge maps or images."
 					}
 				],
-				"txt_pinch_desc": "推奨しないジェスチャー",
+				"txt_pinch_desc": "Gestures Not Recommended",
 				"txt_pinch_content":[
 					{
-						"desc": "標準ジェスチャーであっても、ユーザーが使い慣れず、理解が難しいものは利用を推奨しません。"
+						"desc": "Even if it is a standard gesture, if it is a gesture the user is unfamiliar with or is difficult to understand, its use is not recommended."
 					},
 					{
-						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
+						"desc": "For gestures such as the long press, double tap, or other gestures requiring three fingers, it is mandatory to educate the user and display a supporting UI that functions as an affordance."
 					}
 				],
 				"scroll_desc_img":[{
-					"desc":"スクロールバーを表示する",
+					"desc":"Display a scroll bar.",
 					"logo": "scrolGuide_img_1.svg"
 				},{
-					"desc":"表示中の項目のタイトルを画面上部に表示する",
+					"desc":"Display the title of the current display at the top of the screen.",
 					"logo": "scrolGuide_img_2.svg"
 				}],
 				"flick_desc_img":[{
-					"desc":"画面端に隠れたコンテンツを表示する",
+					"desc":"Display content hidden at the edge of the screen.",
 					"logo": "flick_img1.png"
 				},{
-					"desc":"Page controllを表示する",
+					"desc":"Display page controls.",
 					"logo": "flick_img2.svg"
 				}],
 				"drag_slide_desc":[{
-					"desc":"ジェスチャーを促すコンポーネント",
+					"desc":"Components that encourage the drag gesture.",
 					"logo": "drag_02_img.png"
 				}]
 			},
