@@ -4555,7 +4555,7 @@
 				],
 				"title_spec": "Spec",
 				"title_spec_desc": "Rounded corners are unified using 8px / 20px.",
-				"spec_note1": "Card, Buttonなど",
+				"spec_note1": "Card, Button, etc.",
 				"spec_note2": "Half Sheets"
 			},
 			"shadow": {

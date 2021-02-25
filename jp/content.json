@@ -4512,7 +4512,7 @@
 				],
 				"title_spec": "Spec",
 				"title_spec_desc": "角丸は 8px / 20px に統一します。",
-                "spec_note1": "Card, Button, etc.",
+                "spec_note1": "Card, Buttonなど",
                 "spec_note2": "Half Sheets"
 			},
       "shadow": {
