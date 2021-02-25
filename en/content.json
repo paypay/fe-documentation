@@ -4126,27 +4126,27 @@
 				}]
 			},
 			"icongraphy": {
-				"igrphy_headers": "Icongraphy",
+				"igrphy_headers": "Iconography",
 				"igrphy_sect1_title": "Principle",
 				"igrphy_sect1_description": [
-					"アイコンを利用することで、コンテンツの直感的な理解を促します。",
-					"アイコンは単体でも機能する必要があります。テキストを利用しなくても一目で意味が理解できるものである必要があります。",
-					"無駄な装飾は排除し、シンプルかつフレンドリーな設計である必要があります。"
+					"The use of icons facilitates an intuitive understanding of the contents.",
+					"An icon must function even when on its own. It must be something that makes sense at a glance without using text",
+					"An icon should be free of unnecessary decorations, consisting of a simple and friendly design."
 				],
 				"igrphy_sect1_images": [
 					{
 						"name":"pannel1",
 						"icons": "igrphy_sect1_doimage.svg",
 						"desc": [
-							"シンプルな表現",
-							"無駄な装飾をすべて排除し、シンプルに表現"
+							"Simple",
+							"Simple representations with no unnecessary decoration."
 						]
 					}, {
 						"name":"pannel2",
 						"icons": "igrphy_sect1_dontimage.svg",
 						"desc": [
-							"複雑な表現",
-							"立体的な表現、手描きのような表現、有機的な形状は禁止とする"
+							"Complex",
+							"It is prohibited to use 3D representations, hand-drawn designs, and organic shapes."
 						]
 					}
 				],
@@ -4158,38 +4158,38 @@
 						"icons": "igrphy_sect2_no1.svg", 
 						"igrphy_sect2_images_colo1_title1": "Home : ",
 						"igrphy_sect2_images_colo1_title2": "Service icon",
-						"igrphy_sect2_images_colo2": "機能やサービスを表す"
+						"igrphy_sect2_images_colo2": "Represents a feature or service"
 					}, {
 						"name": "no2",
 						"icons": "igrphy_sect2_no2.svg", 
 						"igrphy_sect2_images_colo1_title1": "List : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
-						"igrphy_sect2_images_colo2": "メニューの内容を補足する"
+						"igrphy_sect2_images_colo2": "Supplements the contents of a menu"
 					}, {
 						"name": "no3",
 						"icons": "igrphy_sect2_no3.svg", 
 						"igrphy_sect2_images_colo1_title1": "Header : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
-						"igrphy_sect2_images_colo2": "アイコン単体で機能を表す"
+						"igrphy_sect2_images_colo2": "A single icon that represents a feature"
 					}, {
 						"name": "no4",
 						"icons": "igrphy_sect2_no4.svg", 
 						"igrphy_sect2_images_colo1_title1": "Half sheet : ",
 						"igrphy_sect2_images_colo1_title2": "System icon + Status Mark",
-						"igrphy_sect2_images_colo2": "ハーフシートの内容を補足する"
+						"igrphy_sect2_images_colo2": "Supplements the contents in a half sheet"
 					}
 				],
 				"igrphy_sect3_title": "Type",
-				"igrphy_sect3_subtitle": "アイコンのTypeによって、利用する色が異なります。",
+				"igrphy_sect3_subtitle": "The colors used in an icon depend on the type of the icon.",
 				"igrphy_sect3_holders": [
 					{
 						"name": "panel1",
 						"clsname": "igrphy_sect3_pannel1",
 						"igrphy_sect3pnel_title": "Service Icon",
 						"igrphy_sect3pnel_descriptions": [
-							"PayPayの機能やサービスを表すアイコンです。",
-                            "基本の紺色の他に、サービスのイメージに近い1色をカラーパレットから選定し利用します。",
-                            "色の選定についてはSpecを参照ください。"
+							"A service icon represents a PayPay feature or service.",
+                            "In addition to the basic navy blue, a single color that has a likeness with the service is selected and applied.",
+                            "Refer to Specs on selecting a color."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img1.svg"
 					}, {
@@ -4197,8 +4197,8 @@
 						"clsname": "igrphy_sect3_pannel2",
 						"igrphy_sect3pnel_title": "System Icon",
 						"igrphy_sect3pnel_descriptions": [
-							"アプリの機能や操作などに利用されるアイコンを指します。",
-                            "単色または紺色と水色の２色を使います。"
+							"A system icon refers to an icon used for an app feature or action.",
+                            "A system icon may use just one color or two blues: navy blue and blue."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img2.svg"
 					}, {
@@ -4206,9 +4206,9 @@
 						"clsname": "igrphy_sect3_pannel3",
 						"igrphy_sect3pnel_title": "Status Mark",
 						"igrphy_sect3pnel_descriptions": [
-							"System IconにStatus Markを組み合わせることで、状態を表すことができます。",
-                            "ハーフシートや操作の説明時に利用します。",
-                            "組みわせることで視認性が損なわれる場合は利用せず、視認性が十分に担保できるサイズで利用してください"
+							"A status is represented by combining a system icon with a status mark.",
+                            "It is used for half-sheets and explaining an action.",
+                            "A status mark must not be used if it impairs the visibility of the icon. Also, it must be big enough to ensure sufficient visibility."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img3.svg",
 						"igrphy_sect3_images_tableholder": [
@@ -4216,27 +4216,27 @@
 								"name":"panel1",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no1.svg",
 								"igrphy_sect3_images_colo1_title": "Success / 成功",
-								"igrphy_sect3_images_colo2": "アクションが完了し、処理が成功した際に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when the action is completed and processed successfully."
 							}, {
 								"name":"panel2",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no2.svg",
 								"igrphy_sect3_images_colo1_title": "Add New / 追加",
-								"igrphy_sect3_images_colo2": "追加アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an additional action."
 							}, {
 								"name":"panel3",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no3.svg",
 								"igrphy_sect3_images_colo1_title": "Delete / 削除",
-								"igrphy_sect3_images_colo2": "削除アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing a delete action."
 							}, {
 								"name":"panel4",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no4.svg",
 								"igrphy_sect3_images_colo1_title": "Invalid / 無効",
-								"igrphy_sect3_images_colo2": "無効アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an invalid action."
 							}, {
 								"name":"panel5",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no5.svg",
 								"igrphy_sect3_images_colo1_title": "Error / エラー",
-								"igrphy_sect3_images_colo2": "エラー時、アラート時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed in case of an error or alert"
 							}
 						]
 					}
@@ -4260,56 +4260,56 @@
 						"name":"panel4",
 						"igrphy_sect4_images_colo1": "Template",
 						"igrphy_sect4_images_colo2": [
-							"Templates are provided as Ai data. Guides according to the shape are set in the template data. Use a guide that is close to the shape of the icon you are creating as a guide.",
-							"See Template for templates."
+							"Templates are available as Ai data. There are guides in the template data that match the shape. In the template data, guides are displayed along the contour. When creating an icon, refer the guides closest to the form of the icon being created.",
+							"Refer to Template for details on templates."
 						]
 					}
 				],
 				"igrphy_sect5_title": "Color",
 				"igrphy_sect5_subtitle": "Service Icon",
-				"igrphy_sect5_description": "以下Color palettから色を選択します。",
+				"igrphy_sect5_description": "Select a color from the color palette below.",
 				"igrphy_sect5_mccolortitle": "Mail Color",
-				"igrphy_sect5_mccolordesc": "メインカラーとして共通で紺色を使用します",
+				"igrphy_sect5_mccolordesc": "Navy blue is used as the common main color.",
 				"igrphy_sect5_accolortitle": "Accent Color",
-				"igrphy_sect5_accolordesc": "モチーフの一部にアクセントカラーを使用します左記4色の中からサービスのイメージにあう色を利用します",
+				"igrphy_sect5_accolordesc": "Accent colors are used to part of the motif. One of the four colors on the left that matches the service image is used.",
 				"igrphy_sect5_sysccolortitle": "System Icon",
-				"igrphy_sect5_aysccolordesc1": "以下Color palettから色を選択します。",
-				"igrphy_sect5_aysccolordesc2": "System  Icon は左記2色の組み合わせ、または単色で利用します",
+				"igrphy_sect5_aysccolordesc1": "Select a color from the color palette below.",
+				"igrphy_sect5_aysccolordesc2": "A system icon consists of a combination of the two colors on the left or just one color.",
 				"igrphy_sect5_subtitle_dont": "Don't",
-				"igrphy_sect5_dont_des": "複雑な表現 立体的な表現、手描きのような表現、有機的な形状は禁止とする",
+				"igrphy_sect5_dont_des": "It is prohibited to use unspecified colors.",
 				"igrphy_sect6_title": "Template",
 				"igrphy_sect6_description": [
-					"アイコンを制作する際は、テンプレート（Ai）での作業を推奨します。",
-                    "テンプレートは実寸の2倍サイズで展開しています。",
-                    "Aiファイルで作業した後、Sketch/Figmaで作業する際には1/2サイズに縮小してください。"
+					"It is recommended to work-off a template (Ai) when creating an icon.",
+                    "The template is made at twice the actual size.",
+                    "Please reduce the size to 1/2 after completing the icon and using it in Sketch/Figma."
 				],
 				"igrphy_sect6_images_tableholder": [
 					{
 						"name":"panel1",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no1.svg",
 						"igrphy_sect4_images_colo1": "Padding",
-						"igrphy_sect4_images_colo2": "アイコン作成エリアには周辺に2pxの余白を設けます。メインとなるアイコンのモチーフはPaddingエリアには配置しません"
+						"igrphy_sect4_images_colo2": "The icon area is padded by a 2px margin. The main icon motif is not placed within the padding."
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no2.svg",
 						"igrphy_sect4_images_colo1": "Icon area",
-						"igrphy_sect4_images_colo2": "Padding area 内20px*20px内のエリアにメインとなるアイコンのモチーフを配置します"
+						"igrphy_sect4_images_colo2": "The main icon motif is placed within the 20px*20px area on the inside of the padding area."
 					}
 				],
-				"igrphy_sect7_title": "基本の形状",
+				"igrphy_sect7_title": "Basic Shapes",
 				"igrphy_sect7_description": [
-					"テンプレートデータ内には、形状に沿ったガイドが設定してあります。",
-					"作成するアイコンの形状に近いガイドを目安に作成をしてください。"
+					"In the template data, there are guides displayed in the form of different shapes.",
+					"When creating an icon, refer the guides closest to the form of the icon being created."
 				],
-				"igrphy_sect8_title": "テンプレートのダウンロード",
-				"igrphy_sect9_title": "注意事項",
-				"igrphy_sect9_description": "作成サイズは実寸の2倍サイズで展開する必要があります。",
+				"igrphy_sect8_title": "Download Template",
+				"igrphy_sect9_title": "Notes",
+				"igrphy_sect9_description": "The icon needs to be created at twice the actual size.。",
 				"igrphy_sect9_tableholder": [
 					{
 						"name": "panel1",
 						"col1": "",
-						"col2": "表示サイズ",
-						"col3": "作成サイズ"
+						"col2": "When Displaying",
+						"col3": "When Creating"
 					}, {
 						"name": "panel2",
 						"col1": "Icon size",

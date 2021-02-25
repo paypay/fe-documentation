@@ -4083,7 +4083,7 @@
                 }]
       },
       "icongraphy": {
-				"igrphy_headers": "Icongraphy",
+				"igrphy_headers": "Iconography",
 				"igrphy_sect1_title": "Principle",
 				"igrphy_sect1_description": [
 					"アイコンを利用することで、コンテンツの直感的な理解を促します。",
@@ -4217,8 +4217,8 @@
 						"name":"panel4",
 						"igrphy_sect4_images_colo1": "Template",
 						"igrphy_sect4_images_colo2": [
-							"Templates are provided as Ai data. Guides according to the shape are set in the template data. Use a guide that is close to the shape of the icon you are creating as a guide.",
-							"See Template for templates."
+							"テンプレートはAiデータで提供しています。テンプレートデータ内には、形状に沿ったガイドが設定してあります。作成するアイコンの形状に近いガイドを目安に作成をしてください。",
+							"テンプレートについてはTemplateの項目を参照ください。"
 						]
 					}
 				],
