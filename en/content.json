@@ -3197,27 +3197,27 @@
 			"dshomesec2_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
+					"descriptions": "The UI style of the PayPay app is defined here."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+					"descriptions": "All products provided by PayPay are designed according to this guideline."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
 				},
 				{ 
 					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+					"descriptions": "There are 2 parts to the guideline."
 				}				
 			],
 			"dshomesec3_content_title": "Design Philosophy",
-			"dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the foundation of PayPay Design and is not modified.",
 			"dshomesec3_content_philosophy": [
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3249,23 +3249,23 @@
 			"dshomesec4_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
+					"descriptions": "The UI style of the PayPay app is defined here."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+					"descriptions": "All products provided by PayPay are designed according to this guideline."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
 				},
 				{ 
 					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+					"descriptions": "There are 2 parts to the guideline."
 				}
 			],
 			"dshomesec4_content_globrules": [
@@ -3328,25 +3328,25 @@
 			],
 			"dshomesec5_content_title": "COMPONENT",
 			"dshomesec5_content_descriptions": [
-				{ 
-					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
+				{
+					"classname": "",
+					"descriptions": "The UI style of the PayPay app is defined here."
 				},
-				{ 
-					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+				{
+					"classname": "",
+					"descriptions": "All products provided by PayPay are designed according to this guideline."
 				},
-				{ 
-					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+				{
+					"classname": "",
+					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
 				},
-				{ 
-					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+				{
+					"classname": "",
+					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
 				},
-				{ 
-					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+				{
+					"classname": "mb-lg-5",
+					"descriptions": "There are 2 parts to the guideline."
 				}
 			],
 			"dshomesec5_content_component": [
