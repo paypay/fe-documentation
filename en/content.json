@@ -5409,9 +5409,9 @@
 				"form_headers": "Form",
 				"form_sect1_title": "Usage",
 				"form_sect1_description": [
-					"ユーザーが任意のテキストを入力する際に使用します",
-					"入力するべき内容や入力可能な文字数など、ユーザーが入力に必要な情報をわかりやすく表示します",
-					"ユーザーが現在の状態を直感的に認識できるよう、入力前・入力済み・エラーなど、状態ごとに視覚的な差をつけて明示します"
+					"Forms are used for the user to enter free text.",
+					"Clear instructions are provided to the user to specify the action that is required such as what should be entered and how many characters can be entered.",
+					"The visual is changed according to the input status to allow the user to intuitively understand what the current status is, such as by not entered, entered and error."
 				],
 				"form_sect1_subtitle": "Usage Example",
 				"form_sect2_title": "Type",
@@ -5419,12 +5419,12 @@
 					{
 					  "name": "panel1",
 					  "icons": "form_sect2_images1.svg",
-					  "desc": "入力エリアの高さ固定"
+					  "desc": "The height of the input area is fixed."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "form_sect2_images2.svg",
-					  "desc": "入力エリアの高さ可変"
+					  "desc": "The height of the input area is variable."
 					}
 				],
 				"form_sect3_title": "Detail",
@@ -5452,68 +5452,68 @@
 					}
 				],
 				"form_sect5_title": "Title (Option)",
-				"form_sect5_description": "<div>入力するべき項目を表示します。</div>div>ユーザーが適切な回答を入力できるよう、簡潔なテキストを原則とします。</div>",
+				"form_sect5_description": "<div>Indicates the information that is to be input.</div>div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
 				"form_sect6_title1": "Text Field",
 				"form_sect6_title2": "Message area",
-				"form_sect6_description": "<div>ユーザーが回答を入力するエリアです。</div><div>Text Fieldにフォーカスをあてるとキーボードが表示されます。</div><div>入力項目についての補足、または入力項目にエラーがある場合はMessage areaにメッセージを表示します</div>",
+				"form_sect6_description": "<div>This is the area where the user enters the required response.</div><div>The keyboard is displayed whenever the text field is selected.</div><div>Any additional information about the input or error, if any, is displayed in the message area.</div>",
 				"form_sect6_icons1": "form_sect3_no2.svg",
 				"form_sect6_icons2": "form_sect3_no3.svg",
 
-				"form_sect7_title": "ステータス別の表示",
+				"form_sect7_title": "View by Status",
 				"form_sect7_tblholder": [
 					{
 						"name": "panel1",
 						"form_sect7_col1": "Empty",
-						"form_sect7_col2_hint": "<div>入力エリアがEmptyの場合は、何を入力するべきかを示す必要があります</div><div>Place holderを利用して、入力例や入力項目名を表示します</div><div>入力項目についての補足情報がある場合は、Message areaに表示します</div>",
+						"form_sect7_col2_hint": "<div>When the input area is empty, it is necessary to indicate what needs to be input.</div><div>The placeholder is used to indicate input examples or the title of the item to be input.</div><div>Any additional information about the input is displayed in the message area.</div>",
 						"form_sect7_col2_image": "form_sect7_icons1.svg"
 					}, {
 						"name": "panel2",
 						"form_sect7_col1": "Editing",
-						"form_sect7_col2_hint": "<div>ユーザーの入力した文字列が表示されます</div><div>アクティブな状態を表すために、入力エリアの下線部を青色 かつ 太線で表示します</div><div>入力エリアに1文字以上テキストが入力されている場合、Action itemの削除ボタンを表示します</div>",
+						"form_sect7_col2_hint": "<div>The text that is entered by the user is displayed.</div><div>The input area is underlined by a bold blue line to indicate it is active.</div><div>A delete button is displayed as an action item when more than one character has been entered in the input area.</div>",
 						"form_sect7_col2_image": "form_sect7_icons2.svg"
 					}, {
 						"name": "panel3",
 						"form_sect7_col1": "Filled",
-						"form_sect7_col2_hint": "<div>入力済み かつ キーボードのフォーカスが外れている場合は入力エリアの下線部を青色で表示します</div>",
+						"form_sect7_col2_hint": "<div>The input area is underlined by a blue line when the user has finished editing and the keyboard is out of focus.</div>",
 						"form_sect7_col2_image": "form_sect7_icons3.svg"
 					}, {
 						"name": "panel4",
 						"form_sect7_col1": "Error",
-						"form_sect7_col2_hint": "<div>ユーザーの入力に誤りがある場合は入力エリアをエラー色で表示し、入力値が不正であることを明示します</div><div>同時に、ユーザーがエラーの理由を理解できるよう、Message areaにエラーメッセージを表示します</div>",
+						"form_sect7_col2_hint": "<div>When the user inputs incorrect information, the input area is displayed in an error color to indicate that the input is incorrect.</div><div>At the same time, an error message is displayed in the message area to describe the reason of the error to the user.</div>",
 						"form_sect7_col2_image": "form_sect7_icons4.svg"
 					}, {
 						"name": "panel5",
 						"form_sect7_col1": "Non-Editable",
-						"form_sect7_col2_hint": "<div>入力不可能なことを明示します</div><div>入力エリア下線部の色をグレーアウトし、操作が不可能だということを明示します</div><div>Place holderまたは入力値が表示されます</div>",
+						"form_sect7_col2_hint": "<div>Indicates that no information can be input.</div><div>The line under the input error is greyed-out, indicating that it cannot be edited. Either a placeholder or value is displayed.</div>",
 						"form_sect7_col2_image": "form_sect7_icons5.svg"
 					}
 				],
 
 				"form_sect8_title": "Action Item",
 				"form_sect8_icons": "form_sect3_no4.svg",
-				"form_sect8_desc": "入力項目に対してアクションをするアイテムです。",
+				"form_sect8_desc": "Action items involving the information that is input.。",
 				"form_sect8_tblholder": [
 					{
 						"name": "panel1",
-						"form_sect8_col1": "削除*必須",
-						"form_sect8_col2_hint": "<div>入力エリアに1文字以上テキストが表示されている場合、必須で表示します</div><div>タップすると、入力した文字列はすべて削除されます</div>",
+						"form_sect8_col1": "Delete *Mandatory",
+						"form_sect8_col2_hint": "<div>The delete button must be displayed when a text consisting of one or more characters are displayed in the input area.</div><div>Tapping the button will delete the text that is entered.</div>",
 						"form_sect8_col2_desc": "form_sect8_icons1.svg"
 					}, {
 						"name": "panel2",
-						"form_sect8_col1": "可視・不可視*Option",
-						"form_sect8_col2_hint": "<div>入力内容を記号に置き換えた不可視状態と可視状態を切り替えることができます</div><div>パスワードなど機密性の高い項目を入力する際に使用します</div><div>可視・不可視の状態が認識できるよう、アイコンの表示も切り替えます</div><div>不可視状態をデフォルト表示とします</div><div>不可視状態で入力すると、入力した文字列は「●」に置き換えられて表示されます</div>",
+						"form_sect8_col1": "Visible/invisible *Option",
+						"form_sect8_col2_hint": "<div>The visible/invisible option allows users to switch between invisible and visible states where the input is replaced by symbols.</div><div>This is used when entering sensitive information such as a password.</div><div>可視・The display of the icon is also switched so the user can recognize whether the current state is visible or invisible.</div><div>Users can also switch the icon display so that the visible and invisible states can be recognized. The invisible state is displayed by default.</div><div>In the invisible state, the text entered is replaced by “●” and displayed.</div>",
 						"form_sect8_col2_desc": "form_sect8_icons2.svg",
 						"form_sect8_col2_tblchild": [
 							{
 								"icons": "form_sect8_child_icons1.svg",
 								"images": "form_sect8_child_images1.svg",
-								"hint": "不可視状態"
+								"hint": "Invisible state"
 							}, {
 								"icons": "form_sect8_child_icons2.svg",
 								"images": "form_sect8_child_images2.svg",
-								"hint": "不可視状態"
+								"hint": "Visible state"
 							}
 						]
 						
@@ -5522,14 +5522,14 @@
 
 				"form_sect9_title": "Text Counter (Option)",
 				"form_sect9_icons": "form_sect3_no5.svg",
-				"form_sect9_desc": "<div>入力中の文字数と上限文字数を表示します。</div><div>入力と同時に文字数をリアルタイムで反映します。</div><div>入力文字数が上限を超えた場合、Message areaにエラーを表示します。</div>",
+				"form_sect9_desc": "<div>A text counter displays the number of characters typed and the maximum number of characters that can be entered.</div><div>It is updated on a real-time basis as the information is input.</div><div>When the character limit is reached, an error will be displayed in the message area</div>",
 				"form_sect9_tblholder": [
 					{
 						"images": "form_sect9_images1.svg",
-						"hint": "入力文字数が上限以内"
+						"hint": "When the number of characters is within the limit."
 					}, {
 						"images": "form_sect9_images2.svg",
-						"hint": "入力文字数が上限以上"
+						"hint": "When the number of characters exceeds the limit."
 					}
 				],
 				
@@ -5537,10 +5537,10 @@
 				"form_sect10_tblholder": [
 					{
 						"images": "form_sect10_images1.svg",
-						"hint": "<div>Empty時にText Fieldをタップキーボードが表示され、</div><div>TextFieldがEditable表示に切り替わるキーボードの表示アニメーションは端末の仕様に準拠</div>"
+						"hint": "<div>Tap the text field when empty. </div><div>The keyboard is displayed and the text field will switch to the edit view. The animation used to display the keyboard must follow the device specifications.</div>"
 					}, {
 						"images": "form_sect10_images2.svg",
-						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて 下に広がる</div>"
+						"hint": "<div>The height of the input area is variable</div><div>When entering a long string of text, the text field will expand downward to fit the amount of text.</div>"
 					}
 				],
 
@@ -5549,22 +5549,22 @@
 				"form_sect11_tblholder": [
 					{
 						"form_sect11_col1": "Title (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
+						"form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"form_sect11_col1": "Text Field - Input Text",
-						"form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
+						"form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
 					}, {
 						"form_sect11_col1": "Text Field - Form bar",
 						"form_sect11_col2": "<div><b>Empty</b></div><div>1px/dp</div><div>#BABABA</div><div><br/></div><div><b>Filled</b></div><div>1px/dp</div><div>#3895FF</div><div><br/></div><div><b>Editing</b></div><div>2px/dp</div><div>#3895FF</div><div><br/></div><div><b>Error</b></div><div>1px/dp</div><div>#FD5C5C</div><div><br/></div><div><b>Non-Editable</b></div><div>1px/dp</div><div>#EEEEEE</div>"
 					}, {
 						"form_sect11_col1": "Message area",
-						"form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
+						"form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
 					}, {
 						"form_sect11_col1": "Action Item",
 						"form_sect11_col2": "<div><b>Icon size</b></div><div>24*24px/dp</div><div><b>アイコン間のSpacing</b></div><div>0px/dp</div>"
 					}, {
 						"form_sect11_col1": "Text Counter (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
+						"form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
 					}
 				]
 			},

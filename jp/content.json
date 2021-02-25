@@ -5503,25 +5503,25 @@
 				"form_sect11_title": "Spec",
 				"form_sect11_image": "form_sect11_images.svg",
 				"form_sect11_tblholder": [
-					{
-						"form_sect11_col1": "Title (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
-					}, {
-						"form_sect11_col1": "Text Field - Input Text",
-						"form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
-					}, {
-						"form_sect11_col1": "Text Field - Form bar",
-						"form_sect11_col2": "<div><b>Empty</b></div><div>1px/dp</div><div>#BABABA</div><div><br/></div><div><b>Filled</b></div><div>1px/dp</div><div>#3895FF</div><div><br/></div><div><b>Editing</b></div><div>2px/dp</div><div>#3895FF</div><div><br/></div><div><b>Error</b></div><div>1px/dp</div><div>#FD5C5C</div><div><br/></div><div><b>Non-Editable</b></div><div>1px/dp</div><div>#EEEEEE</div>"
-					}, {
-						"form_sect11_col1": "Message area",
-						"form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
-					}, {
-						"form_sect11_col1": "Action Item",
-						"form_sect11_col2": "<div><b>Icon size</b></div><div>24*24px/dp</div><div><b>アイコン間のSpacing</b></div><div>0px/dp</div>"
-					}, {
-						"form_sect11_col1": "Text Counter (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
-					}
+                    {
+                      "form_sect11_col1": "Title (Option)",
+                      "form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
+                    }, {
+                      "form_sect11_col1": "Text Field - Input Text",
+                      "form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
+                    }, {
+                      "form_sect11_col1": "Text Field - Form bar",
+                      "form_sect11_col2": "<div><b>Empty</b></div><div>1px/dp</div><div>#BABABA</div><div><br/></div><div><b>Filled</b></div><div>1px/dp</div><div>#3895FF</div><div><br/></div><div><b>Editing</b></div><div>2px/dp</div><div>#3895FF</div><div><br/></div><div><b>Error</b></div><div>1px/dp</div><div>#FD5C5C</div><div><br/></div><div><b>Non-Editable</b></div><div>1px/dp</div><div>#EEEEEE</div>"
+                    }, {
+                      "form_sect11_col1": "Message area",
+                      "form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
+                    }, {
+                      "form_sect11_col1": "Action Item",
+                      "form_sect11_col2": "<div><b>Icon size</b></div><div>24*24px/dp</div><div><b>アイコン間のSpacing</b></div><div>0px/dp</div>"
+                    }, {
+                      "form_sect11_col1": "Text Counter (Option)",
+                      "form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
+                    }
 				]
 			},
       "header": {
