@@ -7649,23 +7649,23 @@
 			"slider": {
 				"slider_heading": "Slider",
 				"slider_sect1_title": "Usage",
-				"slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
+				"slider_sect1_desc": "<div>• A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</div><div>•  Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</div><div>•  A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</div>",
 			
 				"slider_sect2_title": "Usage Example",
-				"slider_sect2_desc": "音量や価格の範囲の選択に利用します",
+				"slider_sect2_desc": "Sliders may be used for volume control or selecting a price range.",
 				"slider_sect2_images": "slider_sect2_images.svg",
 			
 				"slider_sect3_title": "Type",
 				"slider_sect3_subtitle": "Relative Slider",
-				"slider_sect3_desc": "<div>音量の調整など、特定の値を入力することが難しい場合に使用します。</div><div>バーの両端にアイコンを設置し、ユーザーはバー上の任意の位置を選択可能です。</div>",
+				"slider_sect3_desc": "<div>A relative slider is used when it is difficult to enter a specific value, such as volume control.</div><div>An icon is placed at either end of the bar, allowing the user to specify any point in between.</div>",
 				"slider_sect3_images": "slider_sect3_images.svg",
 			
 				"slider_sect4_subtitle": "Range Slider",
-				"slider_sect4_desc": "<div>機関や料金の範囲の指定など、特定の2点の値の範囲を選択する場合に利用します。</div><div>両脇に値の最小値と最大値を表示し、ユーザーはバー上の2点の値を選択することで範囲を選択可能です。</div>",
+				"slider_sect4_desc": "<div>A range slider is used to select a range of values between two specific values.</div><div>The minimum and maximum values are displayed on both ends. The user can select a range of values by specifying two values along the bar.</div>",
 				"slider_sect4_images": "slider_sect4_images.svg",
 			
 				"slider_sect5_subtitle": "Scale Slider",
-				"slider_sect5_desc": "<div>サイズの選択など、決められた値が指定可能な場合に利用します。</div><div>両脇とバー上に選択可能なポイントを設定し、選択肢をテキストで表示します。ユーザーはポイントのみを選択可能です。</div><div>ポイント以外は選択できません。</div>",
+				"slider_sect5_desc": "<div>A scale slider is used when making a predetermined value an option, such selecting a size.</div><div>Selectable options are placed on either end or along the bar. The options are accompanied with text. The user can only select an option.</div><div>The use cannot select any other point along the bar.</div>",
 				"slider_sect5_images": "slider_sect5_images.svg",
 			
 				"slider_sect6_title": "Detail",
@@ -7675,22 +7675,22 @@
 					"name": "panel1",
 					"icons": "redicon1.svg",
 					"col1": "Active Track",
-					"col2": "<div>ユーザーの選択した範囲を現します</div><div>最小値から選択した値までをアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+					"col2": "<div>Indicates the range selected by the user.</div><div>The values between the minimum value and selected value are displayed in an active color to facilitate awareness of the relativity with values within the bar.</div>"
 				}, {
 					"name": "panel2",
 					"icons": "redicon2.svg",
-					"col1": "Active Point",
-					"col2": "<div>バー上の未選択の値を現します</div>"
+					"col1": "Inactive Track",
+					"col2": "<div>Indicates the unselected values along the bar.</div>"
 				}, {
 					"name": "panel3",
 					"icons": "redicon3.svg",
-					"col1": "Select Point",
-					"col2": "<div>ドラッグでコントロール可能な部分です</div><div>アクションと同時に選択状態を現します</div>"
+					"col1": "Active Point",
+					"col2": "<div>The point that can be controlled by dragging.</div><div>It indicates an action at the same time as a selected state.</div>"
 				}, {
 					"name": "panel4",
 					"icons": "redicon4.svg",
 					"col1": "Track Value",
-					"col2": "<div>Sliderの役割りをアイコンで表現します</div><div>最小値と最大値の形状には差をつけ、役割りと状態を直感的に伝える必要があります</div>"
+					"col2": "<div>Icons representing the role of the slider.</div><div>The minimum and maximum designs must be differentiated to provide intuitive clarity on the role and status of each.</div>"
 				}],
 			
 				"slider_sect7_subtitle": "Scale Slider",
@@ -7699,27 +7699,27 @@
 					"name": "panel1",
 					"icons": "redicon1.svg",
 					"col1": "Active Track",
-					"col2": "<div>ユーザーの選択した範囲を現します 選択範囲をアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+					"col2": "<div>Indicates the range selected by the user.</div><div>The selected range is displayed in an active color to facilitate awareness of the relativity with values within the bar.</div>"
 				}, {
 					"name": "panel2",
 					"icons": "redicon2.svg",
 					"col1": "Inactive Track",
-					"col2": "<div>バー上の未選択の値を現します</div>"
+					"col2": "<div>Indicates the unselected values along the bar.</div>"
 				}, {
 					"name": "panel3",
 					"icons": "redicon3.svg",
 					"col1": "Active Point",
-					"col2": "<div>ドラッグでコントロール可能な部分です アクションと同時に選択状態を現します</div>"
+					"col2": "<div>The point that can be controlled by dragging.</div><div>It indicates an action at the same time as a selected state.</div>"
 				}, {
 					"name": "panel4",
 					"icons": "redicon4.svg",
 					"col1": "Track Value",
-					"col2": "<div>左端に最小値、右端に最大値をテキストで表示します</div>"
+					"col2": "<div>In text, the minimum value is displayed on the left end and the maximum value on the right end.</div>"
 				}, {
 					"name": "panel5",
 					"icons": "redicon5.svg",
 					"col1": "Input Value Balloon (Option)",
-					"col2": "<div>選択範囲中の最小値、最大値をテキストで表示します 表示は任意ですが、表示することでユーザーの利便性は向上します 挙動についてはInterctionの項目を参照してください</div>"
+					"col2": "<div>The minimum and maximum values of the selected range are displayed as text.</div><div>Although displaying this is optional, it does add convenience for the user.</div><div>Refer to Interaction for further details on the behavior.</div>"
 				}],
 			
 				"slider_sect8_subtitle": "Scale Slider",
@@ -7728,51 +7728,51 @@
 					"name": "panel1",
 					"icons": "redicon1.svg",
 					"col1": "Sample Value (Option)",
-					"col2": "<div>値の示す状態を表示します 表示は任意ですが、表示することでユーザーは選択可能な値をより直感的に知ることができます 選択された値のSample Valueもアクティブ状態になります</div>"
+					"col2": "<div>A preview of the value.</div><div>Although displaying this is optional, it does allow the user an intuitive decision on which value to select.</div><div>When selected, the sample value changes to an active state as well.</div>"
 				}, {
 					"name": "panel2",
 					"icons": "redicon2.svg",
 					"col1": "Inactive Point",
-					"col2": "<div>未選択のPointです Scale Sliderの場合、Inactive Point以外は選択できません バーをタップした場合、タップ位置がより近いInactive Pointが選択されます</div>"
+					"col2": "<div>The option that is not selected.</div><div>When using a scale slider, only inactive points can be selected.</div><div>By tapping on the bar, whichever inactive point that is closest will be selected.</div>"
 				}, {
 					"name": "panel3",
 					"icons": "redicon3.svg",
 					"col1": "Active Point",
-					"col2": "<div>値が選択された状態です</div>"
+					"col2": "<div>Indicates the state of a value that is selected.</div>"
 				}, {
 					"name": "panel4",
 					"icons": "redicon4.svg",
 					"col1": "Track Value",
-					"col2": "<div>選択可能な値をテキストで表示します 簡潔に短文で表示します 2〜4文字以内のテキスト数を推奨します</div>"
+					"col2": "<div>Displays the selectable values as text.</div><div>The text is short and concise.</div><div>It is recommended to keep the text within 2 to 4 characters.</div>"
 				}],
 			
 				"slider_sect9_title": "Interaction",
 				"slider_sect9_subtitle": "Select Feedback",
-				"slider_sect9_desc": "<div>アニメーションを利用して、状態の変化をより明確に伝えます。</div><div>また、より選択が完了したことを直感に伝えるために、iOSではHaptiv Feedbackを利用することを推奨します</div>",
+				"slider_sect9_desc": "<div>An animation is used to clearly communicate any change to a given state.</div><div>It is recommended to use Haptiv Feedback for iOS to provide intuitive feedback on the fact that a value has been selected.</div>",
 				"slider_sect9_images": [{
 					"name": "panel1",
 					"icons": "slider_sect9_images1.svg",
-					"hint": "<div>選択時のActive Pointの移動</div><div>Active Pointは選択された値のPointまでスライドして移動します</div><div>※GIFにする</div>"
+					"hint": "<div>The active point moves when selected</div><div>The active point will slide to the point corresponding to the selected value.</div><div>*A GIF is used</div>"
 				}, {
 					"name": "panel2",
 					"icons": "slider_sect9_images2.svg",
-					"hint": "<div>選択時のInput Value Balloonの拡大</div><div>操作中のActive PointのInput Value Ballonは拡大されます</div><div>拡大することで、操作中の値をより明示的にします</div><div>指を話し値が確定するとBallonは元の大きさに戻ります</div><div>※GIFにする</div>"
+					"hint": "<div>The input value balloon expands when selected</div><div>The input value balloon of the active point being handled is enlarged.</div><div>By enlarging it, the value being handled is given better clarity.</div><div>The balloon returns to its original size once the user finishes selecting a value and lets go of the active point.</div><div>*A GIF is used</div>"
 				}],
 			
 				"slider_sect10_subtitle": "Support Feedback",
-				"slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。以下はフィードバックの例です。</div>",
+				"slider_sect10_desc": "<div>It is recommended to add feedback when the user selects a value to provide clarity on the status of the option selected.</div><div>See below examples of feedback.</div>",
 				"slider_sect10_images": [{
 					"name": "panel1",
 					"icons": "slider_sect10_images1.svg",
-					"hint": "<div>音量設定</div><div>選択した値のテスト音を鳴らし、選択した音量を確認することができます</div>"
+					"hint": "<div>Volume Settings</div><div>Enable the user to check the selected volume by triggering a test sound.</div>"
 				}, {
 					"name": "panel2",
 					"icons": "slider_sect10_images2.svg",
-					"hint": "<div>文字サイズ設定</div><div>スライダーの下部にサンプルUIを表示し、スライダーの選択した値と連動してUI上のテキストサイズの大きさを変化させ、実際のサイズを確認することができます</div>"
+					"hint": "<div>Font Size Settings</div><div>Display a sample UI below the slider and enable the user to check the selected size by updating</div><div>the font size according to the value selected in the slider.</div>"
 				}, {
 					"name": "panel2",
 					"icons": "slider_sect10_images3.svg",
-					"hint": "<div>価格の選択</div>"
+					"hint": "<div>Price Range</div>"
 				}],
 			
 				"slider_sect11_title": "Specs",
@@ -7789,7 +7789,7 @@
 				}, {
 					"name": "panel3",
 					"col1": "Active Point",
-					"col2": "<div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div>"
+					"col2": "<div>12*12px/dp</div><div>Ensure a tap area of at least 35*35.</div>"
 				}, {
 					"name": "panel4",
 					"col1": "Track Value",
@@ -7815,7 +7815,7 @@
 				}, {
 					"name": "panel2",
 					"col1": "Active Point",
-					"col2": "<div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div>"
+					"col2": "<div>12*12px/dp</div><div>Ensure a tap area of at least 35*35.</div>"
 				}, {
 					"name": "panel3",
 					"col1": "Track Value (Text)",
@@ -7823,7 +7823,7 @@
 				}, {
 					"name": "panel4",
 					"col1": "Input Value Balloon (Option)",
-					"col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
+					"col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>Numbers</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>Units (Kanji characters)</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>Numbers</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>Units (Kanji characters)</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
 				}],
 			
 				"slider_sect13_subtitle": "Scale Slider",
@@ -7831,7 +7831,7 @@
 				"slider_sect13_tblholder": [{
 					"name": "panel1",
 					"col1": "Sample Value (Option)",
-					"col2": "<div><b>Default</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
+					"col2": "<div><b>Default</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>The text size can be changed depending on the purpose.</div>"
 				}, {
 					"name": "panel2",
 					"col1": "Inactive Point",
@@ -7839,7 +7839,7 @@
 				}, {
 					"name": "panel3",
 					"col1": "Inactive Point",
-					"col2": "<div>Default</div><div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div><div></div><div>Selected</div><div>20*20px/dp</div><div>タップエリアは35*35以上担保します</div>"
+					"col2": "<div>Default</div><div>12*12px/dp</div><div>Ensure a tap area of at least 35*35.</div><div></div><div>Selected</div><div>20*20px/dp</div><div>Ensure a tap area of at least 35*35.</div>"
 				}, {
 					"name": "panel4",
 					"col1": "Track Value",
