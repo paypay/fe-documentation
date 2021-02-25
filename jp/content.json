@@ -5675,11 +5675,11 @@
 						"header_sect12_col2": "<div>24px*24px/dp</div>"
 					}, {
 						"header_sect12_col1": "Title",
-						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
+						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
 
 					}, {
 						"header_sect12_col1": "Action Item",
-						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
+						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
 					}, {
 						"header_sect12_col1": "Background",
 						"header_sect12_col2": "<div><b>Regular</b></div><div>#FFFFFF</div><div><b>Transparent</b></div><div>---</div>"
