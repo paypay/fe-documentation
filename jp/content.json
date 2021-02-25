@@ -5307,7 +5307,7 @@
 						"name": "no2",
 						"icons": "card_sect3_no2.svg", 
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+						"card_sect3_col2":"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
 					}
 				],
 				"card_sect4_title": "Do / Don't",
@@ -5336,7 +5336,7 @@
 					{
 						"name": "no1",
 						"card_sect5_col1": "Tap",
-						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a></div>"
+						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a></div>"
             }, {
 						"name": "no2",
 						"card_sect5_col1": "Flip",
@@ -5344,7 +5344,7 @@
 					}
 				],
 				"card_sect6_title": "Spec",
-				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Layout' target='_blank'>Interaction</a> の項目を参照してください。",
+				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/layout' target='_blank'>Layout</a> の項目を参照してください。",
 				"card_sect6_tableholder": [
 					{
 						"name": "no1",
