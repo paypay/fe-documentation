@@ -4346,108 +4346,108 @@
 				"layout_headers": "Layout",
 				"layout_sect1_title": "Principle",
 				"layout_sect1_description": [
-				  "画面内のコンポーネントの配置や余白を定義します。",
-				  "異なるプラットフォーム、環境下でも、定義したルールに従って設計することで、すべての環境で一貫性を保ちます。"
+				  "There are rules that define the placement of components and margins within a screen.",
+				  "Regardless of platform or environment, creating designs that follow the defined rules ensure consistency across all environments."
 				],
 				"layout_sect2_title": "Usage",
 				"layout_sect2_subtitle": "Merging Rule",
-				"layout_sect2_description": "画面内で利用する余白は基本的に4の倍数のpx/dpを指定します。",
-				"layout_sect2_hints": "ただし、細かいパーツが複雑に組み合わさるコンポーネントなどは、例外を認めます。",
+				"layout_sect2_description": "As a general rule, px/dps that are multiples of four are used for margins within the screen.",
+				"layout_sect2_hints": "Exceptions are permitted for components comprising a complex combination of small parts.",
 				"layout_sect3_title": "Responsive Layout",
 				"layout_sect3_description": [
-				  "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-				  "次に定義す <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>るブレイクポイント によって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+				  "When creating common web contents displayed across smartphone web/app screens, tablet or desktop screens, a layout that does not impair usability regardless of the environment must be ensured.",
+				  "Reaching the <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/layout#Layout-breakpoint' target='_blank'> breakpoint </a> defined below will trigger a switch between the smartphone / desktop layouts. Since tablets are considered as an extension of smartphones, there is only one breakpoint defined."
 				],
 				"layout_sect4_title": "Margin",
-				"layout_sect4_description": "大きく2種類の余白を定義します。",
+				"layout_sect4_description": "There two main types of margins.",
 				"layout_sect4_images_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect4_no1.svg", 
-					"desc": "画面の端から要素の間の余白"
+					"desc": "The margin between the edge of the screen and the contents"
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect4_no2.svg", 
-					"desc": "要素同士の余白"
+					"desc": "The margin between contents"
 				  }
 				],
-				"layout_sect5_title": "画面の端から要素の間",
-				"layout_sect5_description": "画面の端からコンテンツの間に余白を設けることで、コンテンツの視認性を担保します。スマートフォンの環境では、余白は24px/16pxを利用します。 余白の使い分けの目安は以下の通りです。",
-				"layout_sect5_hint1": "入力フォームやアクションボタンがメインとなる画面",
-				"layout_sect5_hint2": "入力フォームやアクションボタンがメインとなる画面",
-				"layout_sect6_title": "環境別の指定",
-				"layout_sect6_description": "タブレット、デスクトップの環境では、余白は40px/24pxを利用します。余白の切り替えはブレイクポイントによって行われます。",
-				"layout_sect7_title": "要素同士の余白",
-				"layout_sect7_description": "複数のコンテンツが隣接する場合はコンテンツの間に十分な余白を設け、近接する情報のグルーピングを明確にします。複数のコンテンツが並ぶ場合は8px / 12px / 16pxの余白の利用を推奨します。",
-				"layout_sect7_hint": "余白と余白の間のコンポーネントは固定値ではなく、パーセンテージで定義します。余白は固定値として指定し、コンポーネントはデバイスのサイズによって可変とします。",
+				"layout_sect5_title": "The margin between the edge of the screen and the contents",
+				"layout_sect5_description": "A margin is inserted between the edge of the screen and the contents to ensure visibility of the contents. In a smartphone environment, a 24px/16px margin is used. Below are examples on which margin to use.",
+				"layout_sect5_hint1": "Screens in which user input / action buttons are the primary contents",
+				"layout_sect5_hint2": "Screens in which card UIs and lists are the primary contents",
+				"layout_sect6_title": "Margins in other environments",
+				"layout_sect6_description": "A 40px/24px margin is used for tablet or desktop environments. Reaching the breakpoint will trigger the margins to switch.",
+				"layout_sect7_title": "The margin between contents",
+				"layout_sect7_description": "A sufficient margin is ensured between contents when arranging them adjacently, providing clarity on information that are grouped together. It is recommended to use an 8px/12px/16px margin when multiple contents are displayed adjacently.",
+				"layout_sect7_hint": "The components placed between margins are defined using a percentage, not a fixed value. The margin is designated using a fixed value. The size of the component is variable according to the size of the device. ",
 				"layout_sect8_title": "About Safe Area",
 				"layout_sect8_description": [
-				  "ノッチやカットアウト領域のあるデバイスでは、Safe Area外へのアクションコンポーネントの配置を禁止とします。",
-				  "Safe Area外にはビジュアル要素のみの表示を推奨します。",
-				  "Safe Area外にも背景色や装飾要素を表示することによって、画面を広く見せることができ、より快適な体験を提供することができます。"
+				  "It is prohibited to place action components outside the safe area for devices with notches or cutout areas.",
+				  "It is recommended to display only visual elements outside the safe area.",
+				  "Displaying a background color or other decorative elements outside the safe area helps to make the screen look spacious, providing a more comfortable experience."
 				],
 				"layout_sect8_images_tableholder": [
 				  {
 					"name": "panel1",
 					"col1": "iOS",
-					"col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> を参照してください"
+					"col2": "For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom. Refer to the IOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> for details"
 				},
 				  {
 					"name": "panel2",
 					"col1": "Android",
-					"col2": "Android Deviceの場合、カットアウトエリアのサイズは機種に依存します Support Display Cutout を参照してください"
+					"col2": "For Android devices, the size of the cutout area depends on the device model. Refer to the Support Display Cutout for details."
 				  }
 				],
-				"layout_sect8_hint": "セーフエリア内でのアクションコンポーネントの配置",
+				"layout_sect8_hint": "Placing action components inside the safe area",
 				"layout_sect8_icons_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect8_doimage.png",
-					"desc": "アクションコンポーネントはSafe Area内に配置する"
+					"desc": "Place action components inside the safe area."
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect8_dontimage.png",
-					"desc": "アクションコンポーネントをSafe area外に配置する"
+					"desc": "Place action components outside the safe area."
 				  }
 				],
 				"layout_sect9_title": "Layout Pattern",
-				"layout_sect9_description": "画面のレイアウトに定形パターンを定義します。サービスのコンセプトや機能によって使い分けをします。",
+				"layout_sect9_description": "There are several template layouts. The different layouts are used according to the concept of the service or feature.",
 				"layout_sect9_images_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect9_no1.svg", 
 					"text": "Normal",
-					"desc": "最も一般的なレイアウトです 基本的にはこのレイアウトを利用します"
+					"desc": "The most commonly used layout. This layout is the default layout that is used."
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect9_no2.svg", 
 					"text": "Section",
-					"desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします"
+					"desc": "Used to display multiple sections in one screen. Contents grouped into sections are displayed, providing clarity on the categorization of information."
 				  },
 				  {
 					"name": "panel3",
 					"icons": "layout_sect9_no3.svg", 
 					"text": "Card",
-					"desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします カード両端に余白を設けることで、 Section よりも、カード自体がアクション可能なことを明示します Cardレイアウトは画面端左右に16pxの余白を設けます"
+					"desc": "Used to display multiple sections in one screen. Contents grouped into sections are displayed, providing clarity on the categorization of information. A margin is inserted on both ends of the card to indicate that the card itself entails an action, compared to (2) Section. A 16px margin is inserted on the left and right side of the card."
 				  },
 				  {
 					"name": "panel4",
 					"icons": "layout_sect9_no4.svg", 
 					"text": "Full screen",
-					"desc": "カメラやプロモーションなど、画面全体にコンテンツを配置する場合に利用します ヘッダエリアの背景は透過し、下に配置されるコンテンツが見えるようにします ヘッダエリアのテキストは十分に可読性を担保する処理が必要です"
+					"desc": "Used when placing contents across the entire screen, such as a camera or promotion screen. The header area is rendered transparent so that the contents placed below is visible. Sufficient readability of the text in the header area must be ensured."
 				  },
 				  {
 					"name": "panel5",
 					"icons": "layout_sect9_no5.svg", 
 					"text": "Half color background",
-					"desc": "画面上部に重要な情報を表示する場合に利用します 画面上部にはアイキャッチとなるサービスや機能の特性を表すカラーを設定します 色の設定についてはFlavor Colorを参照してください"
+					"desc": "Used when displaying important information at the top of the screen. A color representing the service or feature intended as an “eye catcher” is specified for the top half of the screen. Refer to the flavor colors for the use of colors."
 				  }
 				],
 				"layout_sect10_title": "Aspect Ratios",
-				"layout_sect10_description": "画面に配置される画像やコンポーネントのアスペクト比を定義します。以下の比率を利用することを推奨します。",
+				"layout_sect10_description": "Below are the aspect ratios used for images and components placed in the screen. It is recommended to use these defined aspect ratios.",
 				"layout_sect10_subtitle": "Usage Example"
 			},
 			"photo":{

@@ -4313,7 +4313,7 @@
         "layout_sect3_title": "Responsive Layout",
         "layout_sect3_description": [
           "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-          "次に定義するブレイクポイントによって、スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、ブレイクポイントは1点だけとします。"
+          "次に定義す <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>るブレイクポイント によって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
         ],
         "layout_sect4_title": "Margin",
         "layout_sect4_description": "大きく2種類の余白を定義します。",
@@ -4332,7 +4332,7 @@
         "layout_sect5_title": "画面の端から要素の間",
         "layout_sect5_description": "画面の端からコンテンツの間に余白を設けることで、コンテンツの視認性を担保します。スマートフォンの環境では、余白は24px/16pxを利用します。 余白の使い分けの目安は以下の通りです。",
         "layout_sect5_hint1": "入力フォームやアクションボタンがメインとなる画面",
-        "layout_sect5_hint2": "入力フォームやアクションボタンがメインとなる画面",
+        "layout_sect5_hint2": "カードのUIとリストが主なコンテンツである画面",
         "layout_sect6_title": "環境別の指定",
         "layout_sect6_description": "タブレット、デスクトップの環境では、余白は40px/24pxを利用します。余白の切り替えはブレイクポイントによって行われます。",
         "layout_sect7_title": "要素同士の余白",
