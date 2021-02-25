@@ -4729,90 +4729,90 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "アプリ内では定義されたタイポグラフィ以外のものは利用しません。定義されたFont Familyを利用し、すべての画面において一貫性を保ちます"
+						"desc": "Only defined typography is used in the app. Specified font families are used to maintain consistency across all screens."
 					},
 					{
-						"desc": "可読性視認性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
+						"desc": "It is necessary to ensure readability/visibility, in a layout where the contents can be understood by anyone."
 					},
 					{
-						"desc": "和文はシステムフォント、欧文はカスタムフォントを利用し、必要以上の装飾やカスタムフォントの利用はしません"
+						"desc": "System fonts are used for Japanese text, and a custom font for English text. Unnecessary decorations and alternate custom fonts are not used"
 					},
 					{
-						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります。（2020年時点では日本語/英語をサポート）"
+						"desc": "The PayPay app must support all languages. (Japanese and English is supported as of 2020)"
 					}
 				],
 				"title_usage": "Usage",
 				"subtitle_font_families": "Font Families",
 				"title_usage_desc": [
 					{
-						"desc": "Font Familyはここに定義されたもののみを利用します。"
+						"desc": "Only the font families defined below are used."
 					}
 				],
 				"subtitle_weight": "Weight",
 				"subtitle_font_size":"Font Size",
 				"font_size_desc": [
 					{
-						"desc": "フォントサイズをHeading/Label/Bodyの3種類定義します。"
+						"desc": "There are three font size definitions: heading, label and body."
 					},
 					{
-						"desc": "すべてのコンポーネントはこの3種類から構成されます。"
+						"desc": "All components consist of these three definitions."
 					},
 					{
-						"desc": "各コンポーネントで使われるフォントについては、各ガイドラインを参照してください。"
+						"desc": "Refer to the guideline for the fonts used for the different components."
 					}
 				],
 				"subtitle_heading": "Heading (H)",
 				"heading_desc": [
 					{
-						"desc": "ヘッダやタイトルに利用します。"
+						"desc": "Used for headers and titles."
 					},
 					{
-						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
+						"desc": "The size used for a header/title cannot be smaller than the size of a label/paragraph."
 					}
 				],
 				"subtitle_label": "Label (L)",
 				"label_desc": [
 					{
-						"desc": "中見出し、アクションコンポーネント、補足情報に利用します。"
+						"desc": "Used for sub-headers, action components, and supplementary information."
 					},
 					{
-						"desc": "9、10pxなどの小さいサイズでは、Boldの利用を推奨します。"
+						"desc": "It is recommended to use bolded text for small sizes such as 9 or 10px."
 					},
 					{
-						"desc": "11px以下のサイズは主要なコンポーネントには利用しません。"
+						"desc": "Font sizes of 11px or below are not used for primary components."
 					}
 				],
 				"subtitle_body":"Body (B)",
 				"body_txt_desc": [
 					{
-						"desc": "ユーザーアクションによる入力情報、記事、コンテンツの説明文などに利用します。"
+						"desc": "Used for information input by the user, articles, and descriptions of contents."
 					},
 					{
-						"desc": "原則14pxの利用を推奨しますが、重要なコンポーネントについては、16pxを使用する必要があります。"
+						"desc": "It is recommended to use 14px in principle. 16px must be used for important components."
 					}
 				],
 				"subtitle_line_height":"Line Height",
 				"line_height_desc": [
 					{
-						"desc": "Line heightを定義します。"
+						"desc": "This is the definition of line spacing."
 					},
 					{
-						"desc": "十分な行間を保つことで、テキストの可読性を担保します。"
+						"desc": "The readability of text is ensured by maintaining sufficient line spacing."
 					}
 				],
 				"line_height_txt_desc": "Font size *1.5 px/sp = line-height (vertically centered)",
 				"title_size_line": "Size Line-UP",
-				"size_line_desc":"前述の項目で定義したフォントのサイズLine-upです。",
+				"size_line_desc":"Below is the line-up of the font sizes defined above.",
 				"title_text_color": "Text Color",
 				"text_color_desc": [
 					{
-						"desc": "用途別のテキストカラーを定義します。"
+						"desc": "This is the definition of text color by purpose."
 					},
 					{
-						"desc": "カラーはカラーパレットから引用しています。"
+						"desc": "Colors are selected from the color palette."
 					},
 					{
-						"desc": "下記に定義されたカラーを異なる用途で利用することは禁止します。"
+						"desc": "It is prohibited to use a particular color other than for the purpose it is defined for."
 					}
 				],
 				"subtitle_default_text": "Default text",
@@ -4820,16 +4820,16 @@
 				"title_price_text": "Price Text",
 				"price_text_desc": [
 					{
-						"desc": "PayPayはサービスの特性から、UI上で価格＋円の組み合わせを多用します。"
+						"desc": "Given PayPay’s service, a price together with the yen mark is used heavily in the UI."
 					},
 					{
-						"desc": "価格は決済アプリにおいて最も重要な情報であり、十分な可読性を担保する必要があります。"
+						"desc": "The price is one of the most critical pieces of information in a payment app and is therefore necessary to ensure sufficient readability."
 					},
 					{
-						"desc": "価格部分を読みやすくするよう「円」は価格のサイズより小さく表示する必要があります。"
+						"desc": "The size of the text “yen” must be smaller than the price to ensure the price is easily viewable."
 					}
 				],
-				"text_desc": "ここでは価格と円の比率を定義します。",
+				"text_desc": "Below is the definition of the ratio between the price and the yen mark",
 				"line_height_desc_1": [
 					{
 					"desc": "Example 1",
@@ -5007,7 +5007,7 @@
 				"text_subtitle1_desc1": [
                     {
                         "desc1": "TextBlack",
-                        "desc2": "PayPay残高でお支払い",
+                        "desc2": "Pay with your PayPay balance",
                         "iconcls":"colors_ac242323",
                         "iconcode":"#242323",
                         "iconclscolor":"ac242323",
@@ -5024,7 +5024,7 @@
                     },
                     {
                         "desc1": "SubtextGray",
-                        "desc2": "PayPayボーナスの7月となりますご了承ください",
+                        "desc2": "It will be July of the PayPay bonus",
                         "desc_1": "",
                         "iconcls":"colors_ac909090",
                         "iconcode":"#909090",
@@ -5033,7 +5033,7 @@
                     },
                     {
                         "desc1": "Empty/Disabled",
-                        "desc2": "ここにメモを記入",
+                        "desc2": "Write a note here",
                         "desc_1": "TextGray",
                         "iconcls":"colors_acBABABA",
                         "iconcode":"#BABABA",
@@ -5042,7 +5042,7 @@
                     },
                     {
                         "desc1": "TextNavy",
-                        "desc2": "その他",
+                        "desc2": "Other",
                         "desc_1": "",
                         "iconcls":"colors_ac002970",
                         "iconcode":"#002970",
@@ -5053,7 +5053,7 @@
 				"text_subtitle2_desc1": [
                     {
                         "desc1": "ErrorTextRed",
-                        "desc2": "残高が足りません",
+                        "desc2": "Not enough balance",
                         "color":"#FD5C5C",
                         "iconcls":"colors_acFD5C5C",
                         "iconcode":"#FD5C5C",
@@ -5061,7 +5061,7 @@
                     },
                     {
                         "desc1": "SuccessTextGreen",
-                        "desc2": "営業中",
+                        "desc2": "open for business",
                         "color":"#20BF7A",
                         "iconcls":"colors_ac20BF7A",
                         "iconcode":"#20BF7A",
@@ -5077,7 +5077,7 @@
                     },
                     {
                         "desc1": "LinkTextBlue",
-                        "desc2": "詳細をみる",
+                        "desc2": "View Details",
                         "color":"#00B9F5",
                         "iconcls":"colors_ac00B9F5",
                         "iconcode":"#00B9F5",
