@@ -3536,7 +3536,7 @@
 				  "name": "Specify three or more colors in the gradation.",
 				  "logo": "usage_dont_01.svg"
 				  },{
-				  "name": "上部に濃い色、下部に明るい色を指定する",
+				  "name": "Specify a dark color on the top and a bright color on the bottom.",
 				  "logo": "usage_dont_02.svg"
 				  },{
 				  "name": "Specify a dark color on the top and a bright color on the bottom.",
