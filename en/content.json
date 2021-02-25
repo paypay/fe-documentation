@@ -5733,20 +5733,20 @@
 			"pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</div><div>•  複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</div><div>•  より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</div>",
+				"pagecontrols_sect1_desc": "<div>•  Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</div><div>•  It is important to accurately communicate the position of the content that is displayed when amongst various other content.</div><div>•  Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
-				"pagecontrols_sect2_desc": "フリックで表示可能なバナー画像の数をページコントロールで表します。",
+				"pagecontrols_sect2_desc": "The number of flickable banner images are displayed as a page control.",
 				"pagecontrols_sect3_title": "Don't",
 				"pagecontrols_sect3_images": [
 					{
 						"name": "panel1",
 						"icons": "pagecontrols_sect3_images1.svg",
-						"hint": "10個以上利用することは禁止します 最大5個までを推奨します"
+						"hint": "The maximum number of contents recommended is 5."
 					}, {
 						"name": "panel2",
 						"icons": "pagecontrols_sect3_images2.svg",
-						"hint": "ラベル内でテキストを改行することは禁止とします"
+						"hint": "Interfering with the readability of text content is prohibited."
 					}
 				],
 				"pagecontrols_sect4_title": "Spec",
