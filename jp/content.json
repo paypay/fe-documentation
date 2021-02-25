@@ -4471,15 +4471,15 @@
 						"logo": "dont_05.png"
 						},{
 						"desc": "第三者の権利を侵害した写真を使わない",
-						"desc_1":"Do not use copyrighted material from other sites without permission or watermarked images.",
+						"desc_1":"",
 						"logo": "dont_06.png"
 						},{
 						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
-						"desc_1":"Do not show any brand names in the image unless it is in the context.",
+						"desc_1":"",
 						"logo": "dont_07.png"
 						},{
 						"desc": "良俗公序に反するイメージ",
-						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
+						"desc_1":"",
 						"logo": "dont_08.png"
 						}
 				],

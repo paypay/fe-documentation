@@ -4513,16 +4513,16 @@
 						"desc_1":"",
 						"logo": "dont_05.png"
 						},{
-						"desc": "Use photos owned by a third party without permission or that are watermarked.",
-						"desc_1":"Do not use copyrighted material from other sites without permission or watermarked images.",
+						"desc": "Do not Use photos owned by a third party without permission or that are watermarked.",
+						"desc_1":"",
 						"logo": "dont_06.png"
 						},{
-						"desc": "Show other brands or logos unless it is in the context.",
-						"desc_1":"Do not show any brand names in the image unless it is in the context.",
+						"desc": "Do not Show other brands or logos unless it is in the context.",
+						"desc_1":"",
 						"logo": "dont_07.png"
 						},{
-						"desc": "Use potentially offensive or sexual images.",
-						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
+						"desc": "Do not Use potentially offensive or sexual images.",
+						"desc_1":"",
 						"logo": "dont_08.png"
 						}
 				],
