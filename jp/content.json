@@ -7093,6 +7093,514 @@
             "animatn_col2":"48*48px/dp"
           }
         ]
+      }, 
+      "list": {
+				"list_heading": "List",
+				"list_sect1_title": "Usage",
+				"list_sect1_desc": "<div>•  復数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスや取れるアクションがある場合は簡潔に示します</div><div>•  リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOSの標準に準拠します</div>",
+
+				"list_sect2_title": "Usage Example",
+				"list_sect2_images": "list_sect2_images.svg",
+
+				"list_sect3_title": "Type",
+				"list_sect3_images": [
+					{
+						"name": "panel1",
+						"title": "<div>Regular List</div><div>Single line</div>",
+						"images1": "pagecontrols_sect3_images1.svg",
+						"images2": "pagecontrols_sect3_images2.svg",
+						"hint1": "iOS",
+						"hint2": "Android"
+					}, {
+						"name": "panel2",
+						"title": "<div>Regular List</div><div>Multi-line</div>",
+						"images1": "pagecontrols_sect3_images3.svg",
+						"images2": "pagecontrols_sect3_images4.svg",
+						"hint1": "iOS",
+						"hint2": "Android"
+					}, {
+						"name": "panel3",
+						"title": "Action Component List",
+						"images1": "pagecontrols_sect3_images5.svg",
+						"images2": "pagecontrols_sect3_images6.svg",
+						"hint1": "iOS",
+						"hint2": "Android"						
+					}, {
+						"name": "panel4",
+						"title": "Edit List",
+						"images1": "pagecontrols_sect3_images7.svg",
+						"images2": "pagecontrols_sect3_images8.svg",
+						"hint1": "iOS",
+						"hint2": "Android"						
+					}, {
+						"name": "panel5",
+						"title": "Alternative List",
+						"images1": "pagecontrols_sect3_images9.svg",
+						"images2": "pagecontrols_sect3_images10.svg",
+						"hint1": "iOS",
+						"hint2": "Android"						
+					}
+				],
+				"list_sect4_title": "Detail",
+				"list_sect4_subtitle": "Regular List",
+				"list_sect4_images": "list_sect4_images.svg",
+				"list_sect4_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "redicon1.svg",
+						"list_sect4_col1": "List Header",
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "復数のリストをグルーピング化し、大項目としてタイトルを付与する場合に利用します"
+							}
+						]
+					}, {
+						"name": "panel2",
+						"icons": "redicon2.svg",
+						"list_sect4_col1": "List Sub Header (Option)",
+						"list_sect4_col2": [ {
+								"type":"icons",
+								"content": "redicon1.svg"
+							}, {
+								"type":"text",
+								"content": "のリストヘッダーの中でさらに小項目に分類しタイトルを付与する場合に利用します"
+							}, {
+								"type":"text",
+								"content": "大項目は必ず"
+							}, {
+								"type":"icons",
+								"content": "redicon1.svg"
+							}, {
+								"type":"text",
+								"content": "リストヘッダーとし、"
+							}, {
+								"type":"icons",
+								"content": "redicon2.svg"
+							}, {
+								"type":"text",
+								"content": "サブリストヘッダーを大項目として利用することはできません"
+							}
+						]
+					}, {
+						"name": "panel3",
+						"icons": "redicon3.svg",
+						"list_sect4_col1": "Icon (Option)",
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "テキストの内容を視覚的に示す場合、アイコンを配置します"
+							}
+						]
+					}, {
+						"name": "panel4",
+						"icons": "redicon4.svg",
+						"list_sect4_col1": "Title",
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "コンテンツを簡潔に短文で表示します"
+							}, {
+								"type":"text",
+								"content": "1行以内に収まるテキスト数を推奨します"
+							}
+						]	
+					}, {
+						"name": "panel5",
+						"icons": "redicon5.svg",
+						"list_sect4_col1": "Description (Option)",
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "Titleを説明する補足的なテキストを表示します"
+							}, {
+								"type":"icons",
+								"content": "redicon4.svg"
+							}, {
+								"type":"text",
+								"content": "Titleと同様に簡潔に短文で表示します"
+							}, {
+								"type":"text",
+								"content": "1行以内に収まるテキスト数を推奨します"
+							}
+						]							
+					}, {
+						"name": "panel6",
+						"icons": "redicon6.svg",
+						"list_sect4_col1": "Action Item (Option)",
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "コンテンツのステータスや、アクション可能なアイテムを右寄せで配置します"
+							}, {
+								"type":"text",
+								"content": "テキストを表示する場合は5文字以内を推奨します"
+							}, {
+								"type":"text",
+								"content": "TitleやDescriptionとの間に十分な余白を担保します"
+							}, {
+								"type":"text",
+								"content": "iOS/Webの場合、タップして下層画面に遷移可能なリストには必ずアイコンを付与します"
+							}, {
+								"type":"text",
+								"content": "Androidにはアイコンは付与しません"
+							}
+						]	
+					}
+				],
+        
+				"list_sect5_title": "Action Component List",
+				"list_sect5_images": "list_sect5_images.svg",
+				"list_sect5_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "skyblueicon1.svg",
+						"col1": "ボタンを配置"
+					}, {
+						"name": "panel2",
+						"icons": "skyblueicon2.svg",
+						"col1": "トグルスイッチを配置"
+					}
+				],
+
+				"list_sect6_title": "Edit List",
+				"list_sect6_images": "list_sect6_images.svg",
+				"list_sect6_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "skyblueicon1.svg",
+						"col1": "未入力"
+					}, {
+						"name": "panel2",
+						"icons": "skyblueicon2.svg",
+						"col1": "入力中"
+					}, {
+						"name": "panel3",
+						"icons": "skyblueicon3.svg",
+						"col1": "入力済み・非選択時"
+					}, {
+						"name": "panel4",
+						"icons": "skyblueicon4.svg",
+						"col1": "エラー"
+					}
+				],
+
+				"list_sect7_title": "Interaction",
+				"list_sect7_subtitle": "Tap",
+				"list_sect7_desc": "<div>Expand areaをタップして、展開前/展開後のUIを切り替えます。</div><div>タップ時にはタップフィードバックを表示します。</div><div>Specを参照してください。</div>",
+				"list_sect7_hint": "参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>",
+
+				"list_sect8_subtitle": "Scroll",
+				"list_sect8_desc": "<div>List Headerのあるリストの場合、スクロール時に画面のHeader直下にList Headerを固定します。</div><div>List Headerを固定することでスクロール中に表示されているリストの情報を明確に伝えることができます。</div>",
+				"list_sect8_images": "list_sect8_images.svg",
+
+				"list_sect9_title": "Specs",
+				"list_sect9_subtitle": "Cross-platform adaptation",
+				"list_sect9_desc": "<div>OSごとにListの各パーツの表示に差異があります。</div>",
+				"list_sect9_images": "list_sect9_images.svg",
+				"list_sect9_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "",
+						"col1": "",
+						"col2": "iOS",
+						"col3": "Android"
+					}, {
+						"name": "panel2",
+						"icons": "skyblueicon1.svg",
+						"col1": "Action Item",
+						"col2": "タップして下層画面に遷移可能なリストには必ず アイコンを付与します",
+						"col3": "遷移できる・できないにかかわらずアイコンを置かない"
+					}, {
+						"name": "panel3",
+						"icons": "skyblueicon2.svg",
+						"col1": "Divider",
+						"col2": "罫線の左端に16pxのMarginを付与",
+						"col3": "罫線端にMarginを付与しない"
+					}
+				],
+
+				"list_sect10_icons": "redicon1.svg",
+				"list_sect10_subtitle": "List Header",
+				"list_sect10_images": "list_sect10_images.svg",
+				"list_sect10_tblholder": [
+					{
+						"name": "panel1",
+						"col1": " Font",
+						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
+					}, {
+						"name": "panel2",
+						"col1": "Background",
+						"col2": "#FFFFFF"
+					}, {
+						"name": "panel3",
+						"col1": "Scroll",
+						"col2": "Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+					}
+				],
+
+				"list_sect11_icons": "redicon2.svg",
+				"list_sect11_subtitle": "List Sub Header (Option)",
+				"list_sect11_images": "list_sect11_images.svg",
+				"list_sect11_tblholder": [
+					{
+						"name": "panel1",
+						"col1": " Font",
+						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
+					}, {
+						"name": "panel2",
+						"col1": "Background",
+						"col2": "#FFFFFF"
+					}
+				],	
+				
+				"list_sect12_icons": "redicon3.svg",
+				"list_sect12_subtitle": "Icon",
+				"list_sect12_images": "list_sect12_images.svg",
+				"list_sect12_tblholder": [
+					{
+						"name": "panel1",
+						"col1": " List Icon",
+						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
+					}
+				],	
+				
+				"list_sect13_icons1": "redicon4.svg",
+				"list_sect13_icons2": "redicon5.svg",
+				"list_sect13_icons3": "redicon6.svg",
+				"list_sect13_subtitle1": "Title",
+				"list_sect13_subtitle2": "Description",
+				"list_sect13_subtitle3": "Action Item",
+				"list_sect13_images": [
+					{
+						"name": "panel1",
+						"hint": "iOS",
+						"images": "list_sect13_images1.svg"
+					}, {
+						"name": "panel2",
+						"hint": "Android",
+						"images": "list_sect13_images2.svg"
+					}
+				],
+				"list_sect13_tblholder": [
+					{
+						"name": "panel1",
+						"col1": " Back ground",
+						"col2": "<div><b>Default :</b></div><div>Back ground : #FFFFFF</div><div><br/></div><div><b>Pressed( iOS ) :</b></div><div>Back ground : #F2F2F2</div>"
+					}, {
+						"name": "panel2",
+						"col1": " Divider",
+						"col2": "<div><b>Default :</b></div><div>#EEEEEE</div><div>1px/dp</div><div><br/></div><div><b>Error - Edit List</b></div><div>#FD5C5C</div><div>1px/dp</div>"
+					}, {
+						"name": "panel3",
+						"col1": " Title",
+						"col2": "<div>Body 16 Regular</div><div>Text Align-Left</div><div>#242323</div>"
+					}, {
+						"name": "panel4",
+						"col1": " Description",
+						"col2": "<div>Body 16 Regular</div><div>Text Align-Left</div><div>#606060</div>"
+					}, {
+						"name": "panel5",
+						"col1": "Action Item",
+						"col2": "<div><b>Icon</b></div><div>24*24px/dp</div><div><br/></div><div><b>Text-Label</b></div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#606060</div>"
+					}, {
+						"name": "panel6",
+						"col1": "Action Item - Edit List",
+						"col2": "<div><b>Text-Empty</b></div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#BABABA</div><div><br/></div><div>Text-Filled</div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#242323</div>"
+					}, {
+						"name": "panel7",
+						"col1": "Error text - Edit List",
+						"col2": "<div><b>Text-Error</b></div><div>Body 12 Regular</div><div>Text Align-Left</div><div>#FD5C5C</div>"
+					}, {
+						"name": "panel8",
+						"col1": "Margin",
+						"col2": "<div>8px/dp</div>"
+					}
+				]				
+			},
+      "slider": {
+        "slider_heading": "Slider",
+				"slider_sect1_title": "Usage",
+				"slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
+
+				"slider_sect2_title": "Usage Example",
+        "slider_sect2_desc": "音量や価格の範囲の選択に利用します",
+				"slider_sect2_images": "slider_sect2_images.svg",
+
+        "slider_sect3_title": "Type",
+        "slider_sect3_subtitle": "Relative Slider",
+        "slider_sect3_desc": "<div>音量の調整など、特定の値を入力することが難しい場合に使用します。</div><div>バーの両端にアイコンを設置し、ユーザーはバー上の任意の位置を選択可能です。</div>",
+				"slider_sect3_images": "slider_sect3_images.svg",
+
+        "slider_sect4_subtitle": "Range Slider",
+        "slider_sect4_desc": "<div>機関や料金の範囲の指定など、特定の2点の値の範囲を選択する場合に利用します。</div><div>両脇に値の最小値と最大値を表示し、ユーザーはバー上の2点の値を選択することで範囲を選択可能です。</div>",
+				"slider_sect4_images": "slider_sect4_images.svg",
+
+        "slider_sect5_subtitle": "Scale Slider",
+        "slider_sect5_desc": "<div>サイズの選択など、決められた値が指定可能な場合に利用します。</div><div>両脇とバー上に選択可能なポイントを設定し、選択肢をテキストで表示します。ユーザーはポイントのみを選択可能です。</div><div>ポイント以外は選択できません。</div>",
+				"slider_sect5_images": "slider_sect5_images.svg",
+
+        "slider_sect6_title": "Detail",
+				"slider_sect6_subtitle": "Relative Slider",
+				"slider_sect6_images": "list_sect6_images.svg",
+				"slider_sect6_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "redicon1.svg",
+						"col1": "Active Track",
+            "col2": "<div>ユーザーの選択した範囲を現します</div><div>最小値から選択した値までをアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+					}, {
+						"name": "panel2",
+						"icons": "redicon2.svg",
+						"col1": "Active Point",
+            "col2": "<div>バー上の未選択の値を現します</div>"
+					}, {
+						"name": "panel3",
+						"icons": "redicon3.svg",
+						"col1": "Select Point",
+            "col2": "<div>ドラッグでコントロール可能な部分です</div><div>アクションと同時に選択状態を現します</div>"
+					}, {
+						"name": "panel4",
+						"icons": "redicon4.svg",
+						"col1": "Track Value",
+            "col2": "<div>Sliderの役割りをアイコンで表現します</div><div>最小値と最大値の形状には差をつけ、役割りと状態を直感的に伝える必要があります</div>"
+					}
+				],
+
+				"slider_sect7_subtitle": "Scale Slider",
+				"slider_sect7_images": "slider_sect7_images.svg",
+				"slider_sect7_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "redicon1.svg",
+						"col1": "Active Track",
+            "col2": "<div>ユーザーの選択した範囲を現します 選択範囲をアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+					}, {
+						"name": "panel2",
+						"icons": "redicon2.svg",
+						"col1": "Inactive Track",
+            "col2": "<div>バー上の未選択の値を現します</div>"
+					}, {
+						"name": "panel3",
+						"icons": "redicon3.svg",
+						"col1": "Active Point",
+            "col2": "<div>ドラッグでコントロール可能な部分です アクションと同時に選択状態を現します</div>"
+					}, {
+						"name": "panel4",
+						"icons": "redicon4.svg",
+						"col1": "Track Value",
+            "col2": "<div>左端に最小値、右端に最大値をテキストで表示します</div>"
+					}, {
+						"name": "panel5",
+						"icons": "redicon5.svg",
+						"col1": "Input Value Balloon (Option)",
+            "col2": "<div>選択範囲中の最小値、最大値をテキストで表示します 表示は任意ですが、表示することでユーザーの利便性は向上します 挙動についてはInterctionの項目を参照してください</div>"
+					}
+				],        
+
+				"slider_sect8_subtitle": "Scale Slider",
+				"slider_sect8_images": "slider_sect8_images.svg",
+				"slider_sect8_tblholder": [
+					{
+						"name": "panel1",
+						"icons": "redicon1.svg",
+						"col1": "Sample Value (Option)",
+            "col2": "<div>値の示す状態を表示します 表示は任意ですが、表示することでユーザーは選択可能な値をより直感的に知ることができます 選択された値のSample Valueもアクティブ状態になります</div>"
+					}, {
+						"name": "panel2",
+						"icons": "redicon2.svg",
+						"col1": "Inactive Point",
+            "col2": "<div>未選択のPointです Scale Sliderの場合、Inactive Point以外は選択できません バーをタップした場合、タップ位置がより近いInactive Pointが選択されます</div>"
+					}, {
+						"name": "panel3",
+						"icons": "redicon3.svg",
+						"col1": "Active Point",
+            "col2": "<div>値が選択された状態です</div>"
+					}, {
+						"name": "panel4",
+						"icons": "redicon4.svg",
+						"col1": "Track Value",
+            "col2": "<div>選択可能な値をテキストで表示します 簡潔に短文で表示します 2〜4文字以内のテキスト数を推奨します</div>"
+					}
+				],   
+        
+        "slider_sect9_title": "Interaction",
+        "slider_sect9_subtitle": "Select Feedback",
+        "slider_sect9_desc": "<div>アニメーションを利用して、状態の変化をより明確に伝えます。</div><div>また、より選択が完了したことを直感に伝えるために、iOSではHaptiv Feedbackを利用することを推奨します</div>",
+        "slider_sect9_images": [
+					{
+						"name": "panel1",
+						"icons": "slider_sect9_images1.svg",
+						"hint": "<div>選択時のActive Pointの移動</div><div>Active Pointは選択された値のPointまでスライドして移動します</div><div>※GIFにする</div>"
+					}, {
+						"name": "panel2",
+						"icons": "slider_sect9_images2.svg",
+						"hint": "<div>選択時のInput Value Balloonの拡大</div><div>操作中のActive PointのInput Value Ballonは拡大されます</div><div>拡大することで、操作中の値をより明示的にします</div><div>指を話し値が確定するとBallonは元の大きさに戻ります</div><div>※GIFにする</div>"
+					}
+				],
+        
+        "slider_sect10_subtitle": "Support Feedback",
+        "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。以下はフィードバックの例です。</div>",
+        "slider_sect10_images": [
+					{
+						"name": "panel1",
+						"icons": "slider_sect10_images1.svg",
+						"hint": "<div>音量設定</div><div>選択した値のテスト音を鳴らし、選択した音量を確認することができます</div>"
+					}, {
+						"name": "panel2",
+						"icons": "slider_sect10_images2.svg",
+						"hint": "<div>文字サイズ設定</div><div>スライダーの下部にサンプルUIを表示し、スライダーの選択した値と連動してUI上のテキストサイズの大きさを変化させ、実際のサイズを確認することができます</div>"
+          }, {
+            "name": "panel2",
+            "icons": "slider_sect10_images3.svg",
+            "hint": "<div>価格の選択</div>"
+          }
+				],
+
+        "slider_sect12_title": "Specs",
+        "slider_sect12_subtitle": "Relative Slider",
+        "slider_sect12_images": "slider_sect12_images.svg",
+				"slider_sect12_tblholder": [
+					{
+						"name": "panel1",
+						"col1": "Active Track",
+            "col2": "<div>Hight : 2px/dp</div><div>Corner Round : 2px</div><div>#3895FF</div>"
+					}, {
+						"name": "panel2",
+						"col1": "Inactive Track",
+            "col2": "<div>Hight : 2px/dp</div><div>Corner Round : 2px</div><div>#EEEEEE</div>"
+					}, {
+						"name": "panel3",
+						"col1": "Active Point",
+            "col2": "<div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div>"
+					}, {
+						"name": "panel4",
+						"col1": "Track Value",
+            "col2": "<div>24*24px/dp</div>"
+					}
+				],
+
+        "slider_sect13_subtitle": "Scale Slider",
+        "slider_sect13_images": "slider_sect13_images.svg",
+				"slider_sect13_tblholder": [
+					{
+						"name": "panel1",
+						"col1": "Active Track",
+            "col2": "<div>Hight : 2px/dp</div><div>Corner Round : 2px</div><div>#3895FF</div>"
+            }, {
+						"name": "panel2",
+						"col1": "Inactive Track",
+            "col2": "<div>Hight : 2px/dp</div><div>Corner Round : 2px</div><div>#EEEEEE</div>"
+					}, {
+						"name": "panel3",
+						"col1": "Track Value (Text)",
+            "col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#242323</div>"
+					}, {
+						"name": "panel4",
+						"col1": "Input Value Balloon (Option)",
+            "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
+					}
+				]
       }
     }
   }
