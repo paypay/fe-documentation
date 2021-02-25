@@ -4554,31 +4554,31 @@
 				"shadow_headers": "Shadow",
 				"shadow_sect1_title": "Principle",
 				"shadow_sect1_description": [
-					"影は画面内の階層を明示するために使用します。",
-					"影は情報の優先度や必要なアクションを明確に示します。強調すべき箇所に効果的に使用することを推奨します。"
+					"Shadows are used to provide clarity on the layers within a screen.",
+					"A shadow indicates the priority of a given information or necessary action. It is recommended to use shadows effectively in areas that are to be highlighted."
 				],
 				"shadow_sect2_title": "Usage",
-				"shadow_sect2_subtitle1": "階層構造",
+				"shadow_sect2_subtitle1": "Hierarchy",
 				"shadow_sect2_description1": [
-					"画面内は複数の層の重なりで構成されます。 より重要な情報を上位階層に表示します。 階層構造を視覚的に明示することで、コンテンツの優先順位を明確にし、ユーザーは必要なアクションにたどり着きやすくなります。",
-					"各階層ごとに影を採用することで、表示階層を明確にします。 画面内の光源/陰影は、方向、深さなどに一貫性を保ちます。"
+					"A screen consists of an overlap of multiple layers. Important information is displayed as top layers. Making this hierarchy visually evident provides clarity on the priority of contents, guiding the user to the necessary action.",
+					"The use of shadows with each layer makes it clear what layer is being displayed. Light sources/shadows including their direction and depth, etc. are kept consistent in the screen."
 				],
-				"shadow_sect2_subtitle2": "光源",
-				"shadow_sect2_description2": "光源は必ず上部90°方向にあるものとし、それ以外からの光源の設定は禁止とします。",
+				"shadow_sect2_subtitle2": "Light source",
+				"shadow_sect2_description2": "The light source must always exist at a 90° degrees angle to the top. No other light sources are allowed.",
 				"shadow_sect2_images_tableholder2": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect2_no1.svg", 
-					  "desc": "正しい光源（上部90°方向）"
+					  "desc": "Correct light source (90° degrees orientation to the top) "
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect2_no2.svg", 
-					  "desc": "誤った光源（上部45°方向）"
+					  "desc": "Incorrect light source (45° degrees orientation to the top) "
 					}
 				],
-				"shadow_sect2_subtitle3": "陰影",
-				"shadow_sect2_description3": "配置される階層によって異なる陰影を設定します。 <br/>物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect2_subtitle3": "Shadows",
+				"shadow_sect2_description3": "A shadow is configured according to the layer in which it is placed. <br/>According to the laws of physics, the lighter and larger the shadow becomes the further the distance becomes from the backmost layer.",
 				"shadow_sect2_images_tableholder3": [
 					{
 						"name": "no1",
@@ -4631,41 +4631,41 @@
 					}
 				],
 				"shadow_sect3_subtitle1": "Low-Shadow",
-				"shadow_sect3_description1": "配置される階層によって異なる陰影を設定します。 物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect3_description1": "Used to highlight a particular piece of information or with a card UI that combines various information into one card.",
 				"shadow_sect3_subtitle2": "Middle-Shadow",
-				"shadow_sect3_description2": "Low-shadow階層にあるコンテンツより優先的に見せるべきコンテンツ、またはアクションコンポーネントを表示します。重なるコンテンツの下層が複雑なコンテンツ（地図や図柄など）である場合は、情報をより認識しやすくなるようこの階層に表示します。",
+				"shadow_sect3_description2": "Used to indicate contents with a higher priority compared to contents placed in a low-shadow layer or to indicate an action component. A shadow is applied to this layer to make the information more recognizable when the contents in the lower, overlapping layer has a complex appearance, such as a map or graphic pattern. If the underlying layer of overlapping content is complex content (e.g., a map or a graphic), it should be shown at this level to make the information more recognizable.",
 				"shadow_sect3_subtitle3": "High-Shadow",
-				"shadow_sect3_description3": "画面内で特に優先度の高い情報やアクションにのみ用います。画面内で多用することは禁止します。",
+				"shadow_sect3_description3": "Used only for particularly high-priority information and actions. Prolific use of high-shadows within the same screen is prohibited.",
 				"shadow_sect3_subtitle4": "Don't",
-				"shadow_sect3_description4": "画面内で同階層に配置されているコンポーネントに別の深さのシャドウを指定することは禁止します。",
+				"shadow_sect3_description4": "It is prohibited to specify a shadow with a different depth against a component that is placed on the same layer in the screen.",
 				"shadow_sect3_images_tableholder4": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect3_no1.svg", 
-					  "desc": "シャドウの値が揃っている"
+					  "desc": "The values used for the shadows are consistent."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect3_no2.svg", 
-					  "desc": "シャドウの値が揃っていない"
+					  "desc": "The values used for the shadows are inconsistent."
 					}
 				],
 				"shadow_sect3_subtitle5": "White Background",
-				"shadow_sect3_description5": "コンテンツを表示する最も下の階層です。原則白色のみの利用を推奨します。",
+				"shadow_sect3_description5": "This is the lowest level at which content is displayed. As a principle, it is recommended to use only the color white.",
 				"shadow_sect3_subtitle6": "Base",
-				"shadow_sect3_description6": "この上に直接コンテンツを表示することはしません",
-				"shadow_sect4_title": "視認性担保のためのシャドウ表現",
-				"shadow_sect4_description": "写真や複雑なコンテンツの上にテキストやアイコンを配置する場合、配置するテキストやアイコンの視認性/可読性を十分に担保できるようにシャドウを用います。",
+				"shadow_sect3_description6": "No contents are displayed directly on this layer.",
+				"shadow_sect4_title": "Shadowing to ensure visibility",
+				"shadow_sect4_description": "When placing text or an icon on top of a photo or complex contents, shadows are used to ensure the text or icon is sufficiently visible/readable.",
 				"shadow_sect4_images_tableholder": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect4_no1.svg", 
-					  "desc": "地図上にボタンを表示"
+					  "desc": "Displaying a button on top of a map."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect4_no2.svg", 
-					  "desc": "カメラ機能にアクションコンポーネントを表示"
+					  "desc": "Displaying an action component when using the camera feature."
 					}
 				],
 				"shadow_sect5_title": "Spec",
@@ -4697,7 +4697,7 @@
 					},
 					{
 						"name": "panel6",
-						"title": "視認性担保のためのシャドウ", 
+						"title": "Shadowing to ensure visibility",
 						"desc": ["90°","#000000 Alpha 0.5", "#000000 Alpha 0" ]
 					}
 				]
