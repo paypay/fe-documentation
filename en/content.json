@@ -4541,20 +4541,22 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "Componentを構成する形状は、必ず一般的な形状を用い、表示される情報の可読性を阻害するような形状の利用は禁止とします。"
+						"desc": "The shapes that comprise a component must be generic. Use of shapes that interfere with the readability of the information is prohibited."
 					},
 					{
-						"desc": "ガイドラインに沿った形状を繰り返し利用することで一貫性を保ち、PayPayブランドを醸成します。"
+						"desc": "Consistency is ensured by repeated use of shapes that follow the guideline, thereby fostering the PayPay brand."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "コンポーネントの角は丸くし、肌触りの良さ、親しみやすさを表現します。"
+						"desc": "The corners of components are rounded to express a pleasant, friendly feeling."
 					}
 				],
 				"title_spec": "Spec",
-				"title_spec_desc": "角丸は 8px / 20px に統一します。"
+				"title_spec_desc": "Rounded corners are unified using 8px / 20px.",
+				"spec_note1": "Card, Buttonなど",
+				"spec_note2": "Half Sheets"
 			},
 			"shadow": {
 				"shadow_headers": "Shadow",
