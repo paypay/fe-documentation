@@ -3901,15 +3901,6 @@
 					"logo": "Illustration_usage_02.svg"
 					}
 				],
-				"design_rules": [{
-					"name":"Focal Point",
-					"desc":"より強調したい部分、主題を表現している部分により強い色を使用します。対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。",
-					 "icon":""
-					},{
-					"name":"Facial Expression",
-					"desc":"人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。",
-					"icon":""
-				}],
 				"donts":[{
 					"desc":"線画、水彩風など、ガイドラインに沿わない表現",
 					"logo": "Illustration_usage_06.png"

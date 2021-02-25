@@ -3882,85 +3882,76 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "イラストは、コンテンツの内容をより明快に、直感的な理解を促す目的で利用します"
+						"desc": "Illustrations are used to facilitate a clear and intuitive understanding of the contents."
 					},
 					{
-						"desc": "不快感、誤解をを与えるイラスト表現は禁止とします"
+						"desc": "It is prohibited to use illustrations that are offensive or misleading."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "文字情報を補足する意味で最大限に効果的な方法で使用します。"
+						"desc": "Illustrations are used in the most effective way possible."
 					}
 				],
-				"txt_convey_title": "直感的に伝える",
+				"txt_convey_title": "Intuitive Communication",
 				"txt_convey_desc": [
 					{
-						"desc": "イラストを利用することで、テキストのみよりも、コンテンツの内容をより深く伝えることができます。"
+						"desc": "By using an illustration, it is possible to communicate the subject matter of contents more deeply compared to when using just text."
 					},
 					{
-						"desc": "また、キャンペーンなどの演出に装飾要素として利用することでユーザーの気持ちを盛り上げ、心を動かすことができます。"
+						"desc": "In addition, an illustration can be used as a decorative element for a campaign etc., to appeal to the user’s emotions and create excitement."
 					}
 				],
-				"txt_convey_title_2": "直感的に伝える",
+				"txt_convey_title_2": "Intuitive Communication",
 				"txt_convey_desc_2": [
 					{
-						"desc": "説明図などのイラストでは、簡略化したシンプルなイラストを用い、ユーザーがイラストからすぐに情報を読み取れるようにします。"
+						"desc": "The user’s understanding is facilitated by providing a visual explanation of a category."
 					}
 				],
-				"txt_convey_desc_cnt_1":"サービスの利用手順の説明",
-				"txt_convey_desc_cnt_12":"文字だけでは説明しきれない部分をイラストでサポート",
-				"txt_expression_title": "表現",
-				"txt_expression_desc_1": "Design Philosophy",
-				"txt_expression_desc_2": "に準拠し、PayPayのブランドイメージを体現する表現を用います。",
+				"txt_convey_desc_cnt_1":"Description of the service flow",
+				"txt_convey_desc_cnt_12":"The illustration supplements what cannot be conveyed by text.",
+				"txt_expression_title": "Expressions",
+				"txt_expression_desc_1": "In accordance with the Design Philosophy, ",
+				"txt_expression_desc_2": "expressions that embody the brand image of PayPay are used",
 				"txt_expression_desc": [
 					{
-						"desc": "イラスト表現に用いるモチーフは極力簡略化しシンプルに構成する"
+						"desc": "Motifs used in illustrations are simplified as much as possible."
 					},
 					{
-						"desc": "カラーは塗り表現のみを用い、Color項目のカラーパレットの色を参考に構成する"
+						"desc": "Only fill is used for coloring, using colors based on the color palette provided in Color."
 					},
 					{
-						"desc": "無機質すぎない親しみやすい表現を用いる"
+						"desc": "Friendly expressions are used that are not overly inanimate."
 					},
 					{
-						"desc": "指定がない場合は個人・固有の企業が判別できるような表現はしない"
+						"desc": "Expressions representing a specific individual or business are not used"
 					}
 				],
 				"txt_dont_title": "Don't",
 				"txt_dont_desc": [
 					{
-						"desc": "以下のような表現はいかなる場合でも禁止とします。"
+						"desc": "It is prohibited to use the following expressions at all times.。"
 					}
 				],
 				"usageIllustration": [{
-					"desc_1": "カテゴリーを表すイラスト",
-					"desc_2": "カテゴリを視覚的に説明することでユーザーの理解をサポートする",
+					"desc_1": "Illustrations representing a category",
+					"desc_2": "The user’s understanding is facilitated by providing a visual explanation of a category.",
 					"logo": "Illustration_usage_01.svg"
 					},{
-					"desc_1": "キャンペーンの装飾イラスト",
-					"desc_2": "当選情報の伝達とともに、装飾により演出でユーザーの気持ちを盛り上げる",
+					"desc_1": "Decorative illustration for a campaign",
+					"desc_2": "While communicating that the user has won, the decorative design helps create excitement for the user.",
 					"logo": "Illustration_usage_02.svg"
 					}
 				],
-				"design_rules": [{
-					"name":"Focal Point",
-					"desc":"より強調したい部分、主題を表現している部分により強い色を使用します。対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。",
-					 "icon":""
-					},{
-					"name":"Facial Expression",
-					"desc":"人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。",
-					"icon":""
-				}],
 				"donts":[{
-					"desc":"線画、水彩風など、ガイドラインに沿わない表現",
+					"desc":"Expressions that deviate from the guideline, such as line/watercolor drawings.",
 					"logo": "Illustration_usage_06.png"
 				},{
-					"desc":"公序良俗に反する表現",
+					"desc":"Expressions contrary to public morals.",
 					"logo": "Illustration_usage_07.svg"
 				},{
-					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
+					"desc":"Expressions in breach of the company’s brand or third party’s brand. It is not allowed to change the shape or color of the PayPay logo and use it in an illustration.",
 					"logo": "Illustration_usage_08.svg"
 				}],
 				"illustration_design_sect3_holders":  [{
@@ -3972,12 +3963,12 @@
 							"name":"panel1",
 							"illustration_design_sect3_images_colo1_icons": "icon_01.svg",
 							"illustration_design_sect3_images_colo1_title": "Focal Point",
-							"illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+							"illustration_design_sect3_images_colo2": "A stronger color is used to highlight something or for the main theme. Conversely, a low tone color is used for supplementary elements. In this way, a contrast is created within the illustration to provide clarity on the main theme."
 						}, {
 							"name":"panel2",
 							"illustration_design_sect3_images_colo1_icons": "icon_02.svg",
 							"illustration_design_sect3_images_colo1_title": "Facial Expression",
-							"illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+							"illustration_design_sect3_images_colo2": "When using an illustration of a person, their facial expression is left blank in principle unless when necessary."
 						}
 					]
 				}]
