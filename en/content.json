@@ -7325,7 +7325,7 @@
 			"list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  復数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスや取れるアクションがある場合は簡潔に示します</div><div>•  リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOSの標準に準拠します</div>",
+				"list_sect1_desc": "<div>•  Lists are used to organize a variety of information and ensure high browsability.</div><div>•  A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</div><div>•  Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</div><div>•  The style of a list is different according to whether it is in iOS or Android.</div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
@@ -7380,34 +7380,35 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "復数のリストをグルーピング化し、大項目としてタイトルを付与する場合に利用します"
+								"content": "A list header is used to add an overall title when grouping multiple lists."
 							}
 						]
 					}, {
 						"name": "panel2",
 						"icons": "redicon2.svg",
 						"list_sect4_col1": "List Sub Header (Option)",
-						"list_sect4_col2": [ {
+						"list_sect4_col2": [
+							{
+								"type":"text",
+								"content": "A sub list header is used to add a title to subcategories that fall under a"
+							}, {
+							"type":"icons",
+							"content": "redicon1.svg"
+							}, {
+								"type":"text",
+								"content": "list header. A "
+							}, {
 								"type":"icons",
 								"content": "redicon1.svg"
-							}, {
+							},{
 								"type":"text",
-								"content": "のリストヘッダーの中でさらに小項目に分類しタイトルを付与する場合に利用します"
-							}, {
-								"type":"text",
-								"content": "大項目は必ず"
-							}, {
-								"type":"icons",
-								"content": "redicon1.svg"
-							}, {
-								"type":"text",
-								"content": "リストヘッダーとし、"
+								"content": "list header must always be used for the higher level. A "
 							}, {
 								"type":"icons",
 								"content": "redicon2.svg"
 							}, {
 								"type":"text",
-								"content": "サブリストヘッダーを大項目として利用することはできません"
+								"content": "A sub list header may not be used as a high level category."
 							}
 						]
 					}, {
@@ -7417,7 +7418,7 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "テキストの内容を視覚的に示す場合、アイコンを配置します"
+								"content": "An icon is displayed when visually expressing the subject matter of the text."
 							}
 						]
 					}, {
@@ -7427,10 +7428,10 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "コンテンツを簡潔に短文で表示します"
+								"content": "A short and concise display of the contents."
 							}, {
 								"type":"text",
-								"content": "1行以内に収まるテキスト数を推奨します"
+								"content": "It is recommended to keep the text within one line."
 							}
 						]	
 					}, {
@@ -7440,16 +7441,16 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "Titleを説明する補足的なテキストを表示します"
+								"content": "A description is a display of text supplementing the title. Like "
 							}, {
 								"type":"icons",
 								"content": "redicon4.svg"
 							}, {
 								"type":"text",
-								"content": "Titleと同様に簡潔に短文で表示します"
+								"content": ", it is kept short and concise."
 							}, {
 								"type":"text",
-								"content": "1行以内に収まるテキスト数を推奨します"
+								"content": "It is recommended to keep the text within one line."
 							}
 						]							
 					}, {
@@ -7459,19 +7460,19 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "コンテンツのステータスや、アクション可能なアイテムを右寄せで配置します"
+								"content": "An action item can be the status of particular contents or an actionable item, and is placed on a right alignment."
 							}, {
 								"type":"text",
-								"content": "テキストを表示する場合は5文字以内を推奨します"
+								"content": "If the action item consists of text, it is recommended to keep the text within 5 characters."
 							}, {
 								"type":"text",
-								"content": "TitleやDescriptionとの間に十分な余白を担保します"
+								"content": "There should be sufficient space between an action item and a title or description."
 							}, {
 								"type":"text",
-								"content": "iOS/Webの場合、タップして下層画面に遷移可能なリストには必ずアイコンを付与します"
+								"content": "For iOS or web, an arrow icon must be added to a list in which the user can tap and access a lower level screen."
 							}, {
 								"type":"text",
-								"content": "Androidにはアイコンは付与しません"
+								"content": "This icon is not required for Android."
 							}
 						]	
 					}
@@ -7483,11 +7484,11 @@
 					{
 						"name": "panel1",
 						"icons": "skyblueicon1.svg",
-						"col1": "ボタンを配置"
+						"col1": "Button"
 					}, {
 						"name": "panel2",
 						"icons": "skyblueicon2.svg",
-						"col1": "トグルスイッチを配置"
+						"col1": "Toggle button"
 					}
 				],
 
@@ -7497,34 +7498,34 @@
 					{
 						"name": "panel1",
 						"icons": "skyblueicon1.svg",
-						"col1": "未入力"
+						"col1": "Blank"
 					}, {
 						"name": "panel2",
 						"icons": "skyblueicon2.svg",
-						"col1": "入力中"
+						"col1": "During data entry"
 					}, {
 						"name": "panel3",
 						"icons": "skyblueicon3.svg",
-						"col1": "入力済み・非選択時"
+						"col1": "Entered / unselected"
 					}, {
 						"name": "panel4",
 						"icons": "skyblueicon4.svg",
-						"col1": "エラー"
+						"col1": "Error"
 					}
 				],
 
 				"list_sect7_title": "Interaction",
 				"list_sect7_subtitle": "Tap",
-				"list_sect7_desc": "<div>Expand areaをタップして、展開前/展開後のUIを切り替えます。</div><div>タップ時にはタップフィードバックを表示します。</div><div>Specを参照してください。</div>",
-				"list_sect7_hint": "参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>",
+				"list_sect7_desc": "<div>The collapsed/expanded UI is alternated by tapping on the expander.</div><div>Tap feedback is displayed when the list is tapped.</div><div>Refer to the specs.</div>",
+				"list_sect7_hint": "Reference：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>",
 
 				"list_sect8_subtitle": "Scroll",
-				"list_sect8_desc": "<div>List Headerのあるリストの場合、スクロール時に画面のHeader直下にList Headerを固定します。</div><div>List Headerを固定することでスクロール中に表示されているリストの情報を明確に伝えることができます。</div>",
+				"list_sect8_desc": "<div>When using a list header, it is fixed immediately below the header when the user scrolls up/down the screen</div><div>Fixing its position provides clarity on the list items that are displayed even when scrolling.</div>",
 				"list_sect8_images": "list_sect8_images.svg",
 
 				"list_sect9_title": "Specs",
 				"list_sect9_subtitle": "Cross-platform adaptation",
-				"list_sect9_desc": "<div>OSごとにListの各パーツの表示に差異があります。</div>",
+				"list_sect9_desc": "<div>The display of particular parts comprising a list varies according to the OS.</div>",
 				"list_sect9_images": "list_sect9_images.svg",
 				"list_sect9_tblholder": [
 					{
@@ -7537,14 +7538,14 @@
 						"name": "panel2",
 						"icons": "skyblueicon1.svg",
 						"col1": "Action Item",
-						"col2": "タップして下層画面に遷移可能なリストには必ず アイコンを付与します",
-						"col3": "遷移できる・できないにかかわらずアイコンを置かない"
+						"col2": "An arrow icon must be added to a list in which the user can tap and access a lower level screen.",
+						"col3": "An arrow icon is not displayed regardless of any screen transition. "
 					}, {
 						"name": "panel3",
 						"icons": "skyblueicon2.svg",
 						"col1": "Divider",
-						"col2": "罫線の左端に16pxのMarginを付与",
-						"col3": "罫線端にMarginを付与しない"
+						"col2": "A 16px margin is maintained to the left of the border.",
+						"col3": "No margin is maintained next to the border."
 					}
 				],
 
@@ -7555,7 +7556,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
+						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7563,7 +7564,7 @@
 					}, {
 						"name": "panel3",
 						"col1": "Scroll",
-						"col2": "Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+						"col2": "Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
 					}
 				],
 
@@ -7574,7 +7575,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
+						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7589,7 +7590,7 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
+						"col2": "<div>24*24px/dp</div><div>Refer to <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/icongraphy' target='_blank'>Iconography</a>for the icon specs.</div><div>When using an icon, it is horizontally centered even when the title consists of multiple lines.</div>"
 					}
 				],	
 				

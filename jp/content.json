@@ -7251,7 +7251,7 @@
 				"list_sect7_title": "Interaction",
 				"list_sect7_subtitle": "Tap",
 				"list_sect7_desc": "<div>Expand areaをタップして、展開前/展開後のUIを切り替えます。</div><div>タップ時にはタップフィードバックを表示します。</div><div>Specを参照してください。</div>",
-				"list_sect7_hint": "参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>",
+				"list_sect7_hint": "参考：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>",
 
 				"list_sect8_subtitle": "Scroll",
 				"list_sect8_desc": "<div>List Headerのあるリストの場合、スクロール時に画面のHeader直下にList Headerを固定します。</div><div>List Headerを固定することでスクロール中に表示されているリストの情報を明確に伝えることができます。</div>",
@@ -7290,7 +7290,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
+						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7298,7 +7298,7 @@
 					}, {
 						"name": "panel3",
 						"col1": "Scroll",
-						"col2": "Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+						"col2": "Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
 					}
 				],
 
@@ -7309,7 +7309,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
+						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7324,7 +7324,7 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
+						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
 					}
 				],	
 				
