@@ -5787,7 +5787,7 @@
 				],
 				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
 				"horizontal_button_desc_2": "Refer to ",
-				"horizontal_button_desc_3": "<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/color#colorPalette' target='_blank'>Color palette</a>",
+				"horizontal_button_desc_3": "Color palette",
 				"horizontal_button_desc_4": " for the colors.",
 				"lauoyt_subtitle": "The background color when using two buttons",
 				"lauoyt_subtitle_desc": "Refer to ",
