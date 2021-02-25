@@ -3507,6 +3507,273 @@
           },{
           "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
           "logo": "usage_dont_06.png"
+        }],
+        "colorCode1": [{
+          "name": "PayPay Red",
+          "hex": "#FF0033"
+        },{
+          "name": "Blue",
+          "hex": "#00B9F5"
+        },{
+          "name": "Navy",
+          "hex": "#002970"
+        },{
+          "name": "White",
+          "hex": "#FFFFFF"
+        }],
+        "colorCode2":[
+          [   [{
+            "name": "PayPay Red",
+            "hex": "#FF0033",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#FA1919",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#FC6600",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#FFB900",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#56D32A",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#26BF7D",
+            "color":"white"
+          }
+          ],[
+            {
+              "name": "",
+              "hex": "#FD5C5C",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#FF954C",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#FFC733",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#79D957",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#52CC97",
+              "color":"white"
+            }
+          ],
+            [{
+              "name": "",
+              "hex": "#FFB2B2",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFBA8B",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFE39A",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#BCF1A9'",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#A1E5C8",
+              "color":"black"
+            }
+            ],
+            [{
+              "name": "",
+              "hex": "#FFE5E5",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFF0E5",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFF7E5",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#E5F7DF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#DFF7ED",
+              "color":"black"
+            }
+            ]],[
+            [{
+              "name": "",
+              "hex": "#00C2C2",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#00B8F5",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#006DD2",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#002970",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#7921A3",
+              "color":"white"
+            },{
+              "name": "",
+              "hex": "#F23099",
+              "color":"white"
+            }
+            ],[
+              {
+                "name": "",
+                "hex": "#41D9D9",
+                "color":"white"
+              },{
+                "name": "",
+                "hex": "#33CDFF",
+                "color":"white"
+              },{
+                "name": "",
+                "hex": "#3994E5",
+                "color":"white"
+              },{
+                "name": "",
+                "hex": "#3994E5",
+                "color": "white"
+              },{
+                "name": "",
+                "hex": "#9047B2",
+                "color":"white"
+              },{
+                "name": "",
+                "hex": "#FF4CAD",
+                "color":"white"
+              }
+            ],
+            [{
+              "name": "",
+              "hex": "#8AE7E7",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#BAEEFF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#9ECEF8",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#8AABE5",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#D9B0EC",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFB4DD",
+              "color":"black"
+            }
+            ],
+            [{
+              "name": "",
+              "hex": "#DFF7F7",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#E5F8FF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#E5F3FF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#E5EFFF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#F7E5FF",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFE5F3",
+              "color":"black"
+            }
+            ]
+          ]
+
+        ],
+        "colorCode3": [
+          [{
+            "name": "",
+            "hexx": "#242323",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#606060",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#909090",
+            "color":"white"
+          },{
+            "name": "",
+            "hex": "#BABABA",
+            "color":"black"
+          },{
+            "name": "",
+            "hex": "#DDDDDD",
+            "color":"black"
+          },{
+            "name": "",
+            "hex": "#EEEEEE",
+            "color":"black"
+          }
+          ],[
+            {
+              "name": "",
+              "hex": "#F7F7F7",
+              "color":"black"
+            },{
+              "name": "",
+              "hex": "#FFFFFF",
+              "color":"black"
+            }
+          ]],
+        "colorCode4": [{
+          "name": "Success",
+          "hex": "#20BF7A"
+        },{
+          "name": "Error/Alert",
+          "hex": "#FD5C5C"
+        },{
+          "name": "Caution/Pending",
+          "hex": "#FFB900"
+        },{
+          "name": "Action/Information",
+          "hex": "#00B8F5"
+        }],
+        "gradationColorCode":[{
+          "name": "PayPay Gradation",
+          "hex": ["#FF0033","#FF3B62"]
         }]
       },
       "philosophy": {
@@ -3652,7 +3919,25 @@
 				},{
 					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
 					"logo": "Illustration_usage_08.svg"
-				}]
+				}],
+                "illustration_design_sect3_holders":  [{
+                  "name": "panel3",
+                  "clsname": "illustration_design_sect3_pannel3",
+                  "illustration_design_sect3pnel_images": "illustration_design_sect3pnel_img3.svg",
+                  "illustration_design_sect3_images_tableholder": [
+                    {
+                      "name":"panel1",
+                      "illustration_design_sect3_images_colo1_icons": "icon_01.svg",
+                      "illustration_design_sect3_images_colo1_title": "Focal Point",
+                      "illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+                    }, {
+                      "name":"panel2",
+                      "illustration_design_sect3_images_colo1_icons": "icon_02.svg",
+                      "illustration_design_sect3_images_colo1_title": "Facial Expression",
+                      "illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+                    }
+                  ]
+                }]
 			},
       "interaction":{
 				"title": "Interaction",
@@ -3786,7 +4071,25 @@
 					{
 						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
 					}
-				]
+				],
+                "scroll_desc_img":[{
+                  "desc":"スクロールバーを表示する",
+                  "logo": "scrolGuide_img_1.svg"
+                },{
+                  "desc":"表示中の項目のタイトルを画面上部に表示する",
+                  "logo": "scrolGuide_img_2.svg"
+                }],
+                "flick_desc_img":[{
+                  "desc":"画面端に隠れたコンテンツを表示する",
+                  "logo": "flick_img1.png"
+                },{
+                  "desc":"Page controllを表示する",
+                  "logo": "flick_img2.svg"
+                }],
+                "drag_slide_desc":[{
+                  "desc":"ジェスチャーを促すコンポーネント",
+                  "logo": "drag_02_img.png"
+                }]
       },
       "icongraphy": {
 				"igrphy_headers": "Icongraphy",
@@ -5443,7 +5746,13 @@
         ],
         "subtitle_action_button": "Action Button",
         "title_layout": "Layout",
+        "title_txtlabel": "Text Label",
         "subtitle_layout": "画面内のボタンの優先順位",
+        "txtlabel_desc1": "テキストラベルには、ユーザーアクションをすぐに理解できる簡潔なテキストを使用します。",
+        "txtlabel_desc2": "アクションを明確に伝えるために、動詞での表示を推奨します。",
+        "background_title": "Background",
+        "background_desc1": "ボタンの役割や優先順位をアプリ内で統一し、ユーザーの学習コストを軽減するため、ボタンの色は定義された色以外を使用しません。",
+        "background_desc2": "例外として、黒などの濃い背景色または写真の上に配置する場合のみ、白枠・白テキストのボタンの使用を許容します。",
         "layout_desc": [
           {
             "desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
@@ -6074,18 +6383,18 @@
         }],
         "halfsheet_sect15_holders":  [
           {
-            "desc1": "選択肢の優先順位が明確",
+            "desc1": "ボタンを1つ表示(推奨)",
             "desc2": "Primary Button",
             "logo": "halfsheet_04_01.svg"
           },
           {
-            "desc1": "選択肢の優先順位が不明瞭",
+            "desc1": "ボタンを2つ表示(推奨)",
             "desc2": "Primary/Secondary",
             "logo": "halfsheet_04_02.svg"
           },
           {
-            "desc1": "選択肢の優先順位が不明瞭",
-            "desc2": "Primary/Secondary",
+            "desc1": "ボタンを3つ表示",
+            "desc2": "Primary/Secondary/Tertiary",
             "logo": "halfsheet_04_01.svg"
           }
         ],
@@ -6230,7 +6539,7 @@
         "sect3_title": "Animation",
         "sect3_desc1": "トーストはユーザーに結果を伝えるためだけのものです。",
         "sect3_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
-        "sect4_title": "ラクション",
+        "sect4_title": "禁止事項",
         "toast_data1": [
           {
             "desc": "アクションアイテムを加えることは禁止します",
@@ -6738,7 +7047,7 @@
         "sect1_subtitle": "Usage Example",
         "sect2_title": "Type",
         "sect2_desc1": "Loading Dot Animation",
-        "sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+        "sect2_desc2": "基本的にこのアニメーションを利用します",
         "sect3_title": "Pull To Refresh",
         "sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
         "sect4_title": "Spec",

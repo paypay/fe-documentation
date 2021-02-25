@@ -3550,6 +3550,273 @@
 				  },{
 				  "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
 				  "logo": "usage_dont_06.png"
+				}],
+				"colorCode1": [{
+					"name": "PayPay Red",
+					"hex": "#FF0033"
+				},{
+					"name": "Blue",
+					"hex": "#00B9F5"
+				},{
+					"name": "Navy",
+					"hex": "#002970"
+				},{
+					"name": "White",
+					"hex": "#FFFFFF"
+				}],
+				"colorCode2":[
+					[   [{
+						"name": "PayPay Red",
+						"hex": "#FF0033",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FA1919",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FC6600",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#FFB900",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#56D32A",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#26BF7D",
+						"color":"white"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#FD5C5C",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#FF954C",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#FFC733",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#79D957",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#52CC97",
+							"color":"white"
+						}
+					],
+						[{
+							"name": "",
+							"hex": "#FFB2B2",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFBA8B",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFE39A",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#BCF1A9'",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#A1E5C8",
+							"color":"black"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#FFE5E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFF0E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFF7E5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F7DF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#DFF7ED",
+							"color":"black"
+						}
+						]],[
+						[{
+							"name": "",
+							"hex": "#00C2C2",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#00B8F5",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#006DD2",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#002970",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#7921A3",
+							"color":"white"
+						},{
+							"name": "",
+							"hex": "#F23099",
+							"color":"white"
+						}
+						],[
+							{
+								"name": "",
+								"hex": "#41D9D9",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#33CDFF",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#3994E5",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#3994E5",
+								"color": "white"
+							},{
+								"name": "",
+								"hex": "#9047B2",
+								"color":"white"
+							},{
+								"name": "",
+								"hex": "#FF4CAD",
+								"color":"white"
+							}
+						],
+						[{
+							"name": "",
+							"hex": "#8AE7E7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#BAEEFF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#9ECEF8",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#8AABE5",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#D9B0EC",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFB4DD",
+							"color":"black"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#DFF7F7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F8FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5F3FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#E5EFFF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#F7E5FF",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFE5F3",
+							"color":"black"
+						}
+						]
+					]
+
+				],
+				"colorCode3": [
+					[{
+						"name": "",
+						"hexx": "#242323",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#606060",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#909090",
+						"color":"white"
+					},{
+						"name": "",
+						"hex": "#BABABA",
+						"color":"black"
+					},{
+						"name": "",
+						"hex": "#DDDDDD",
+						"color":"black"
+					},{
+						"name": "",
+						"hex": "#EEEEEE",
+						"color":"black"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#F7F7F7",
+							"color":"black"
+						},{
+							"name": "",
+							"hex": "#FFFFFF",
+							"color":"black"
+						}
+					]],
+				"colorCode4": [{
+					"name": "Success",
+					"hex": "#20BF7A"
+				},{
+					"name": "Error/Alert",
+					"hex": "#FD5C5C"
+				},{
+					"name": "Caution/Pending",
+					"hex": "#FFB900"
+				},{
+					"name": "Action/Information",
+					"hex": "#00B8F5"
+				}],
+				"gradationColorCode":[{
+					"name": "PayPay Gradation",
+					"hex": ["#FF0033","#FF3B62"]
 				}]
 			},
 			"philosophy": {
@@ -3695,6 +3962,24 @@
 				},{
 					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
 					"logo": "Illustration_usage_08.svg"
+				}],
+				"illustration_design_sect3_holders":  [{
+					"name": "panel3",
+					"clsname": "illustration_design_sect3_pannel3",
+					"illustration_design_sect3pnel_images": "illustration_design_sect3pnel_img3.svg",
+					"illustration_design_sect3_images_tableholder": [
+						{
+							"name":"panel1",
+							"illustration_design_sect3_images_colo1_icons": "icon_01.svg",
+							"illustration_design_sect3_images_colo1_title": "Focal Point",
+							"illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+						}, {
+							"name":"panel2",
+							"illustration_design_sect3_images_colo1_icons": "icon_02.svg",
+							"illustration_design_sect3_images_colo1_title": "Facial Expression",
+							"illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+						}
+					]
 				}]
 			},
 			"interaction":{
@@ -3829,7 +4114,25 @@
 					{
 						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
 					}
-				]
+				],
+				"scroll_desc_img":[{
+					"desc":"スクロールバーを表示する",
+					"logo": "scrolGuide_img_1.svg"
+				},{
+					"desc":"表示中の項目のタイトルを画面上部に表示する",
+					"logo": "scrolGuide_img_2.svg"
+				}],
+				"flick_desc_img":[{
+					"desc":"画面端に隠れたコンテンツを表示する",
+					"logo": "flick_img1.png"
+				},{
+					"desc":"Page controllを表示する",
+					"logo": "flick_img2.svg"
+				}],
+				"drag_slide_desc":[{
+					"desc":"ジェスチャーを促すコンポーネント",
+					"logo": "drag_02_img.png"
+				}]
 			},
 			"icongraphy": {
 				"igrphy_headers": "Icongraphy",
@@ -5469,106 +5772,112 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "タップすることでアクションを実行することができます"
+						"desc": "Actions are performed by tapping on the buttons."
 					},
 					{
-						"desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
+						"desc": "The user should be made aware of the fact that the button is actionable, of the action it entails, its status and the interaction after it is tapped."
 					},
 					{
-						"desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+						"desc": "A button must be visually different from other contents in the screen, and should be placed so that it stands out."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
 				"title_type": "Type",
 				"type_desc": [
 					{
-						"desc": "状態によりいくつかの種類があり、用途によって使い分けをします"
+						"desc": "There are several types of buttons that vary by the status or purposes."
 					}
 				],
 				"subtitle_action_button": "Action Button",
 				"title_layout": "Layout",
-				"subtitle_layout": "画面内のボタンの優先順位",
+				"title_txtlabel": "Text Label",
+				"subtitle_layout": "Priority of buttons in a screen",
+				"txtlabel_desc1": "The text in the text label is concise and immediately conveys what the action is to the user.",
+				"txtlabel_desc2": "The use of a verb is recommended to clearly communicate the action.",
+				"background_title": "Background",
+				"background_desc1": "Only predefined colors are used for buttons to maintain consistency of the roles and priorities of buttons within the app and to reduce the effort it takes the user to learn the UIUX.",
+				"background_desc2": "A button with a white border and white text is accepted as an exception, only when placing it against a dark colored background such as black or on top of a photo.",
 				"layout_desc": [
 					{
-						"desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
+						"desc": "Buttons are prioritized when there are multiple buttons in a screen. The type of button placed is determined based on the order of priority."
 					},
 					{
-						"desc": "ユーザーがアクションの選択に迷ってしまわないように、優先順位は明確である必要があります。"
+						"desc": "The priority should be straightforward to avoid users getting confused about what action they should take."
 					}
 				],
 				"subtitle_dont": "Do/ Don't",
 				"dont_desc": [
 					{
-						"desc": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。"
+						"desc": "It is prohibited to use buttons in such a way that the priority within the screen is unclear."
 					}
 				],
 				"subtitle_horizontal_button": "Horizontal Button",
 				"horizontal_button_desc": [
 					{
-						"desc": "優先順位や機能が同等の情報を表示する場合は、アクションボタンを横並びに最大2つまで配置することを許容とします。"
+						"desc": "When displaying information with equal priority or features, it is acceptable to place a maximum of two action buttons side by side."
 					},
 					{
-						"desc": "3つ以上の選択肢を設ける場合は、ボタンを縦に並べる、または他のUIにしてください。"
+						"desc": "When there are more than three options, either the buttons should be aligned vertically, or a different UI must be used."
 					}
 				],
-				"horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
-				"horizontal_button_desc_2": "色は",
+				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
+				"horizontal_button_desc_2": "Refer to ",
 				"horizontal_button_desc_3": "Color pallet",
-				"horizontal_button_desc_4": "の色を参考にしてください。",
-				"lauoyt_subtitle": "2つのボタンの背景色について",
-				"lauoyt_subtitle_desc": "色は",
+				"horizontal_button_desc_4": " for the colors.",
+				"lauoyt_subtitle": "The background color when using two buttons",
+				"lauoyt_subtitle_desc": "Refer to ",
 				"lauoyt_subtitle_desc_1": "Color pallet",
-				"lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+				"lauoyt_subtitle_desc_2": " for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
-						"desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+						"desc": "When placing an action button at the bottom of a long, vertical screen with a lot of content, it is recommended to use a sticky button, which is fixed at the bottom of the screen, so the button is available in the first view."
 					},
 					{
-						"desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
+						"desc": "The button is placed on the higher layer of the contents that is displayed. Ensure there is enough space surrounding the button."
 					},
 					{
-						"desc": "Sticky Buttonの表示エリア外の領域をスクロール領域とします。"
+						"desc": "The area outside of the sticky button is the area subject to scrolling."
 					}
 				],
 				"subtitle_keyboard_button": "Keyboard Button",
 				"keyboard_button_desc": [
 					{
-						"desc": "ユーザーが入力アクションをする画面では、ボタンをキーボード上部に固定表示します。"
+						"desc": "In a screen in which the user is required to enter information, the display of the button is fixed above the keyboard."
 					},
 					{
-						"desc": "ボタンの上下左右には十分な余白を設け、隣接するコンテンツやキーボードとの誤タップを避けます。"
+						"desc": "Sufficient space is provided around the button (above, below, left and right) to avoid accidental taps on adjacent contents or the keyboard."
 					}
 				],
 				"title_detail": "Detail",
 				"detail_dont": [
 					{
-						"desc": "簡潔で短く、すぐにアクションが理解できるテキストを設定してください。"
+						"desc": "The text must be short and concise, immediately conveying what the action is."
 					},
 					{
-						"desc": "ボタンのテキストが途中で切れてしまうこと、2行になることは禁止します。"
+						"desc": "It is prohibited to allow the button text to break up into two lines."
 					}
 				],
 				"title_interaction": "Interaction",
 				"interaction_desc": [
 					{
-						"desc": "アクション時にタップフィードバックを表示します。"
+						"desc": "Tap feedback is displayed when an action is taken."
 					},
 					{
-						"desc": "Specを参照してください。"
+						"desc": "Refer to the Specs."
 					}
 				],
-				"interaction_desc_1": "参考：",
+				"interaction_desc_1": "Reference：",
 				"interaction_desc_2": "Interaction",
 				"title_spec": "Spec",
 				"subtitle_spacing": "Spacing",
 
 				"usage_example_desc": [
 					{
-						"desc": "入力要素の送信",
+						"desc": "Send data entries.",
 						"logo": "buttons_01.svg"
 					},{
-						"desc": "選択肢の送信",
+						"desc": "Send a selected option.",
 						"logo": "buttons_02.svg"
 					}
 				],
@@ -5580,31 +5889,31 @@
 							"name":"panel1",
 							"buttons_sect3_colo1_icons": "buttons_03_1.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Primary",
-							"buttons_design_sect3_images_colo2": "高優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for high priority actions"
 						},
 						{
 							"name":"panel2",
 							"buttons_sect3_colo1_icons": "buttons_03_2.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Secondary",
-							"buttons_design_sect3_images_colo2": "中優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for medium priority actions"
 						},
 						{
 							"name":"panel3",
 							"buttons_sect3_colo1_icons": "buttons_03_3.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Tertiary",
-							"buttons_design_sect3_images_colo2": "低優先度のアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for low priority actions"
 						},
 						{
 							"name":"panel4",
 							"buttons_sect3_colo1_icons": "buttons_03_4.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Alert",
-							"buttons_design_sect3_images_colo2": "ユーザーデータの削除など、誤ったアクションによりユーザーが不利益を被るであろうアクションに利用します"
+							"buttons_design_sect3_images_colo2": "Used for actions that would cause the user to suffer a loss if used incorrectly, such as the deleting of user data."
 						},
 						{
 							"name":"panel5",
 							"buttons_sect3_colo1_icons": "buttons_03_5.svg",
 							"buttons_sect3_colo1_icons_title": "Action button Disabled",
-							"buttons_design_sect3_images_colo2": "アクションが無効の状態に利用します"
+							"buttons_design_sect3_images_colo2": "Used when the action is disabled."
 						}
 					]
 				}],
@@ -5650,23 +5959,23 @@
 				}],
 				"dont_img_desc":  [
 					{
-						"desc": "選択肢の優先順位が明確",
+						"desc": "The priority of the options is clear",
 						"logo": "buttons_05.svg"
 					},
 					{
-						"desc": "選択肢の優先順位が不明瞭",
+						"desc": "The priority of the options is unclear",
 						"logo": "buttons_06.svg"
 					}
 				],
 				"buttons_sect97_tableholder": [
 					{
 						"name": "panel1",
-						"col1": "異なる2色を指定する場合",
-						"col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します 画面上で調和の取れた2色を選択してください PayPayのPrimary Buleの利用は必須ではありません"
+						"col1": "When using two different colors.",
+						"col2": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions. It is not mandatory to use PayPay’s Primary Blue color."
 					}, {
 						"name": "panel2",
-						"col1": "同色の場合",
-						"col2": "2つのボタンが異なるアクションであると容易に認識できるよう、アイコンを表示することを推奨します"
+						"col1": "When using the same color",
+						"col2": "It is recommended to display an icon so that people can easily recognize that the two buttons are for different actions."
 					}
 				],
 				"buttons_details_sect2_images_tableholder": [
@@ -5686,35 +5995,35 @@
 				],
 				"dont_details": [
 					{
-						"desc_1": "アクションが明快で短く、テキストが1行に収まる",
+						"desc_1": "The action is clear & short. The text fits into one line.",
 						"desc_2": "",
 						"logo": "buttons_12.svg"
 					},
 					{
-						"desc_1": "テキストが長くアクションが不明瞭",
-						"desc_2": "途中で切れる、2行になる",
+						"desc_1": "The text is long and the action unclear.",
+						"desc_2": "The text is broken up into two lines.",
 						"logo": "buttons_13.svg"
 					}
 				],
 				"dont_details_3":  [
 					{
-						"desc": "アイコンの視認性が担保されている",
+						"desc": "The visibility of the icon is ensured.",
 						"logo": "buttons_15.svg"
 					},
 					{
-						"desc": "アイコンの視認性が悪い",
+						"desc": "The visibility of the icon is bad.",
 						"logo": "buttons_16.svg"
 					},
 					{
-						"desc": "アイコンのみの表示",
+						"desc": "Only the icon is displayed.",
 						"logo": "buttons_17.svg"
 					},
 					{
-						"desc": "アイコンをつけることで情報の優先順位が不明瞭になる",
+						"desc": "The priority of the information becomes unclear by using an icon.",
 						"logo": "buttons_18.svg"
 					},
 					{
-						"desc": "ボタンステータスとアイコンの表す意味が合っていない",
+						"desc": "The status of the button and the icon does not make sense.",
 						"logo": "buttons_19.svg"
 					}
 				],
@@ -5729,11 +6038,11 @@
 				"sticky_button_data": [
 					{
 						"logo": "buttons_23.svg",
-						"desc": "Button 1つ"
+						"desc": "1 Button"
 					},
 					{
 						"logo": "buttons_24.svg",
-						"desc": "Button 2つ以上"
+						"desc": "Two or more Buttons"
 					}
 				],
 				"sticky_button_table":  [
@@ -5744,7 +6053,7 @@
 					}, {
 						"name": "panel2",
 						"col1": "Shadow",
-						"col2": "背景上部にShadowを付与 <br> Shadow : <span>-90° Low-Shadow</span>"
+						"col2": "Add a shadow to the top part of the background <br> Shadow : <span>-90° Low-Shadow</span>"
 					}
 				]
 
@@ -5755,69 +6064,69 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "情報量の多いコンテンツをコンパクトに表示する際に使用します"
+						"desc": "An expander is used to collapse contents containing a lot of information."
 					},
 					{
-						"desc": "エキスパンド内に情報を収めることで情報が整理され、下に続くコンテンツの可読性を高めます"
+						"desc": "Information can be better organized by placing it within an expander, improving the readability of the content following below."
 					},
 					{
-						"desc": "エキスパンドの利用は主コンテンツには使用せず、補足情報などの副次的な情報にのみ使用します"
+						"desc": "An expander is used only for secondary or supplementary information, not for any primary contents"
 					},
 					{
-						"desc": "タップすることで折りたたまれた情報を展開します"
+						"desc": "Information that is collapsed is expanded-out by tapping on it."
 					},
 					{
-						"desc": "展開された情報は再度タップすることで展開前の状態に戻すことが可能です"
+						"desc": "The information can be collapsed back to its previous state by tapping it again."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
-				"usage_example_desc": "情報量の多い副次的なコンテンツを折りたたんで表示",
+				"usage_example_desc": "The expander is used to collapse supplementary contents containing a lot of information.",
 				"title_type": "Type",
 				"type_desc": [
 					{
-						"desc": "Expandのコンポーネントには3種類があり、用途によって使い分けをします。"
+						"desc": "There are three types of expand components that are used according to the purpose."
 					}
 				],
 				"title_detail": "Detail",
 				"subtitle_card": "Card",
 				"card_desc": [
 					{
-						"desc": "情報量の多いコンテンツをグルーピングする際に利用します。"
+						"desc": "Cards are used to group contents containing a lot of information."
 					}
 				],
 				"subtitle_list": "List",
 				"list_desc": [
 					{
-						"desc": "リスト内の項目が多い場合、リストの一覧性を確保するために使用します。"
+						"desc": "A list is used when there are many items to show, to secure browsability."
 					},
 					{
-						"desc": "情報を大項目、小項目に分類できるコンテンツにのみ使用可能です。"
+						"desc": "A list can only be used for contents that can be categorized into categories and subcategories."
 					}
 				],
 				"subtitle_article": "Article",
 				"article_desc": [
 					{
-						"desc": "記事などの長文コンテンツをコンパクトに表示する際に使用します。"
+						"desc": "Used when displaying long content such as articles in a compact manner"
 					},
 					{
-						"desc": "情報を折りたたむことで下に続くコンテンツやアクションコンポーネントの可読性を高めます"
+						"desc": "To improve readability of subsequent content and action components"
 					}
 				],
 				"title_interaction": "Interaction",
 				"interaction_desc": [
 					{
-						"desc": "Expand areaをタップして、展開前/展開後のUIを切り替えます。"
+						"desc": "The collapsed/expanded UI is alternated by tapping on the expander."
 					},
 					{
-						"desc": "タップ時にはタップフィードバックを表示します。"
+						"desc": "Tap feedback is displayed upon tapping."
 					},
 					{
-						"desc": "Specを参照してください。"
+						"desc": "Refer to the specs below."
 					}
 				],
 				"interaction_desc_1": "参考：",
 				"interaction_desc_2": "Interaction",
-				"interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
+				"interaction_desc_3": "Animations are applied to the content that is expanded and the arrow icon to make it easier for the user to recognize the changed state.",
 				"title_spec": "Spec",
 				"subtitle_spec_card": "Card",
 				"subtitle_expandlist": "Expand List",
@@ -5826,42 +6135,42 @@
 					{
 						"name": "panel1",
 						"icons": "expand_num_01.svg",
-						"text": "展開前",
-						"desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します Defaultの表示は閉じた状態を使用することを推奨します 展開後に表示される情報が想起可能なテキストラベルを表示します"
+						"text": "Collapsed",
+						"desc": "A downward arrow icon is displayed to indicate that it will expand when tapped on. It is recommended that the default view is in a collapsed state. A text label is displayed to make it easy for the user to guess what information will be displayed after expanding it."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_02.svg",
-						"text": "展開後",
-						"desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+						"text": "Expanded",
+						"desc": "An upward arrow icon is displayed to indicate that the information can be collapsed again."
 					}
 				],
 				"expand_list_details_tableholder": [
 					{
 						"name": "panel1",
 						"icons": "expand_num_03.svg",
-						"text": "展開前",
-						"desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1カテゴリのみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1stview内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
+						"text": "Collapsed",
+						"desc": "The highest tier items are displayed. <br> A downward arrow icon is displayed to indicate that it will expand when tapped on. <br> It is possible that the user may miss the expand action in a list. <br> In the default display, it is recommended to display only one high tier category in a collapsed state. <br> The action that can be taken becomes unclear to the user if the subcategories after collapsing does not fit into the first view, which is why the collapsed UI is used as the default display."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_04.svg",
-						"text": "展開後",
-						"desc": "小項目を表示します <br> 展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+						"text": "Expanded",
+						"desc": "The lower tier items are displayed. <br> An upward arrow icon is displayed to indicate that the information can be collapsed again."
 					}
 				],
 				"expand_article_details_tableholder":  [
 					{
 						"name": "panel1",
 						"icons": "expand_num_05.svg",
-						"text": "展開前",
-						"desc": "タップで展開することを明示するため、「続きを読む」などのテキストラベルを表示します <br> 記事本文のテキストと混同しないよう、本文より弱い色を指定します <br> 記事本文は、最終行の文字を…で省略します <br> 省略位置は端末の横幅に準拠します"
+						"text": "Collapsed",
+						"desc": "A text label is displayed such as \"read more\" to indicate that it will expand when tapped on. <br> A color that is weaker compared to the color of the body text is used avoid confusion. <br> The last line of the body text is omitted by using an ellipsis (“…”). <br> The exact position of the omission depends on the width of the device."
 					},
 					{
 						"name": "panel2",
 						"icons": "expand_num_06.svg",
-						"text": "展開後",
-						"desc": "折りたたまれたコンテンツをすべて表示します <br> 展開前の状態に戻すアクションは付与しません <br> リロードすると展開前の状態に戻ります"
+						"text": "Expanded",
+						"desc": "Displays all the contents that had been collapsed. <br> No action is provided to restore to the collapsed state <br> It can be restored to the collapsed state by reloading the page."
 					}
 				],
 				"expand_spec_card_tableholder": [
@@ -5912,30 +6221,30 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "ユーザー操作を一時中断させ、アクションを促す、またはエラーなどのお知らせを表示する際に使用します"
+						"desc": "Half sheets are used to temporarily interrupt the user to facilitate a particular action or to display a notification such as an error."
 					},
 					{
-						"desc": "ハーフシートはあくまで副次的な情報を表示するものであり、ハーフシート上に主コンテンツを表示することは推奨しません（Mini-Appは除く）"
+						"desc": "A half sheet is used only to display secondary information. It is not recommended to display primary contents in a half sheet (with the exception of mini apps)."
 					},
 					{
-						"desc": "ハーフシート上には、表示された理由、ユーザーがとるべきアクションをわかりやすく表示します"
+						"desc": "The reason for the half sheet being displayed and the next action required by the user is clearly displayed on the half sheet."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
 				"title_type": "Type",
 				"title_detail": "Detail",
 				"title_interaction": "Interaction",
-				"interaction_desc": "ボタンアクション時にタップフィードバックを表示します。",
+				"interaction_desc": "Tap feedback is displayed after the button is tapped.",
 				"interaction_desc_1": "Buttons",
-				"interaction_desc_2": "を参照してください。",
-				"interaction_desc_3": "参考：",
+				"interaction_desc_2": "Refer it for more details",
+				"interaction_desc_3": "Reference：",
 				"interaction_desc_4": "Interaction",
 				"title_transitions": "Transitions",
 				"title_spec": "Spec",
-				"txt_button_desc": "ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください。",
+				"txt_button_desc": "When multiple buttons are displayed, ensure they are prioritized so that there is no confusion for the user on what to do next.",
 				"half_sheets_sect11_holders":  [
 					{
-						"desc": "入力要素の送信",
+						"desc": "",
 						"logo": "halfsheet_01.svg"
 					}
 				],
@@ -5948,19 +6257,19 @@
 								"name":"panel1",
 								"half_sheets_sect_images_colo1_icons": "buttons_03_1.svg",
 								"half_sheets_sect_images_colo1_title": "Regular",
-								"halfsheet_sect3_images_colo2": "高優先度のアクションに利用します"
+								"halfsheet_sect3_images_colo2": ""
 							},
 							{
 								"name":"panel2",
 								"half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
 								"half_sheets_sect_images_colo1_title": "Date picker",
-								"halfsheet_sect3_images_colo2": "中優先度のアクションに利用します"
+								"halfsheet_sect3_images_colo2": ""
 							},
 							{
 								"name":"panel3",
 								"half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
 								"half_sheets_sect_images_colo1_title": "Alternative",
-								"halfsheet_sect3_images_colo2": "低優先度のアクションに利用します"
+								"halfsheet_sect3_images_colo2": ""
 							}
 						]
 					}
@@ -5974,10 +6283,10 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
-								{"desc":"エラーアイコン"},
-								{"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
-								{"desc":"詳細はアイコンの項目をご確認ください"}
+								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
+								{"desc":"Error Icon"},
+								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
+								{"desc":"Refer to iconography for details."}
 
 							],
 							"half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -5988,9 +6297,9 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"タイトルを表示します"},
-								{"desc":"タイトルは内容を端的に理解できるよう、簡潔でコンパクトな一文を利用します"},
-								{"desc":"文末には句点は使いません"}
+								{"desc":"The title is displayed."},
+								{"desc":"A single sentence that is single and concise is used as a title to provide a direct understanding of the contents."},
+								{"desc":"A full stop is not used to punctuate the title."}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6001,8 +6310,8 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"タイトルでは伝えきれない補足情報を表示します"},
-								{"desc":"文末には句点は使いません"}
+								{"desc":"Supplementary information that could not be fit into the title is displayed."},
+								{"desc":"A full stop is not used to punctuate the description."}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6013,11 +6322,11 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"リンクテキストを表示します"},
-								{"desc":"主に、ユーザー同意を得るための利用規約へのリンクやヘルプページへのリンクを表示する場合など"},
-								{"desc":"補足的要素に利用し主要アクションボタンとしての利用は禁止します"},
-								{"desc":"リンクは3つまでの表示を推奨します"},
-								{"desc":"表示パターンは後述します"}
+								{"desc":"Link text is displayed."},
+								{"desc":"In many cases, it is a link to the help page or to the terms and conditions to obtain the user’s consent, etc."},
+								{"desc":"It is prohibited to use as a primary action button, and is only used as a supplementary component."},
+								{"desc":"It is recommended to display up to three links only."},
+								{"desc":"The display patterns are described later on"}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6028,10 +6337,10 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"アクションボタンを表示します"},
-								{"desc":"ボタンは1〜3つまで表示が可能です"},
-								{"desc":"ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください"},
-								{"desc":"ボタンの表示パターンは後述します"}
+								{"desc":"An action button is displayed."},
+								{"desc":"It is possible to display between one to three buttons."},
+								{"desc":"When multiple buttons are displayed, ensure they are prioritized so that there is no confusion for the user on what to do next."},
+								{"desc":"The display patterns of buttons are described later on."}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6041,8 +6350,8 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Half seat background",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"ハーフシートの背景です"},
-								{"desc":"高さは表示コンテンツの内容によって可変します"}
+								{"desc":"This is the background of the half sheet."},
+								{"desc":"The height varies depending on the subject matter of the contents displayed."}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6052,11 +6361,11 @@
 							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
 							"half_sheets_sect_images_colo1_title": "Blur background",
 							"halfsheet_sect3_images_colo2": [
-								{"desc":"ハーフシートの表示時は、黒の透過背景をオーバーレイ表示し、下層のコンテンツを認識できるようにします"},
-								{"desc":"原則、このエリアをタップすると、ハーフシートを閉じます"},
-								{"desc":"ただし、以下の場合は、このエリアをタップしてもハーフシートは閉じないようにします"},
-								{"desc":"•  ハーフシート上の操作を追えずに閉じることで挙動や表示要素に不整合が起こる場合"},
-								{"desc":"•  エラー時など、シートを閉じて再度同様の操作をしても結果が変わらない場合"}
+								{"desc":"When displaying a half sheet, a black transparent background is applied as an overlay so that the contents beneath can be recognized."},
+								{"desc":"In principle, the half sheet is closed if this area is tapped."},
+								{"desc":"In the following cases, the half sheet does not close even when said area is tapped."},
+								{"desc":"•  If an inconsistency occurs in the behavior or contents displayed due to the half sheet being closed without the action it entails getting completed."},
+								{"desc":"•  If the same result occurs such as an error, even after closing the half sheet and attempting the same action again."}
 							],
 							"half_sheets_sect_images1":"",
 							"half_sheets_sect_images2":""
@@ -6121,36 +6430,36 @@
 				}],
 				"halfsheet_sect15_holders":  [
 					{
-						"desc1": "選択肢の優先順位が明確",
+						"desc1": "Display one button (Recommended)",
 						"desc2": "Primary Button",
 						"logo": "halfsheet_04_01.svg"
 					},
 					{
-						"desc1": "選択肢の優先順位が不明瞭",
+						"desc1": "Display two buttons (Recommended)",
 						"desc2": "Primary/Secondary",
 						"logo": "halfsheet_04_02.svg"
 					},
 					{
-						"desc1": "選択肢の優先順位が不明瞭",
-						"desc2": "Primary/Secondary",
+						"desc1": "Display three buttons",
+						"desc2": "Primary/Secondary/Tertiary",
 						"logo": "halfsheet_04_01.svg"
 					}
 				],
 				"halfsheet_section_tableholder": [
 					{
 						"name": "panel1",
-						"col1": "異な",
-						"col2": "スライドアップで表示します"
+						"col1": "Display",
+						"col2": "Displayed by sliding up"
 					}, {
 						"name": "panel2",
-						"col1": "同色の",
-						"col2": "スライドダウンで閉じます"
+						"col1": "Close",
+						"col2": "Close by sliding down"
 					}
 				],
 				"halfsheets_integration_data": [
-					{"desc": "ボタンアクション時にタップフィードバックを表示します。"},
-					{"desc": " <span>Buttons</span> を参照してください。"},
-					{"desc": "参考: <span>Interaction</span>"}
+					{"desc": "Tap feedback is displayed after the button is tapped."},
+					{"desc": " <span>Buttons</span> Refer it for more details"},
+					{"desc": "Reference: <span>Interaction</span>"}
 				]
 			},
 			"label": {
@@ -6158,45 +6467,45 @@
 				"title_usage": "Usage",
 				"usage_desc": [
 					{
-						"desc": "コンテンツの補足情報やステータスを明示するために利用します"
+						"desc": "Labels are used to provide clarity on information supplementary to the contents or its status."
 					},
 					{
-						"desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+						"desc": "When displaying multiple statuses in the screen, they are color-coded so that the difference is visually apparent."
 					}
 				],
 				"subtitle_usage_example": "Usage Example",
 				"title_type": "Type",
-				"subtitle_do_dont": "Do/ Don't",
-				"do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
+				"subtitle_do_dont": "Do / Don't",
+				"do_dont_desc": "It is recommended not to include an action item in the label.。",
 				"subtitle_dont": "Don't",
 				"title_spec": "Spec",
 				"title_statuslabel": "Status Label",
 				"title_newlabel": "New Label",
-				"desc_statuslabel": "コンテンツ内で復数のステータスが存在する場合にステータスの違いを明示するために利用します。",
-				"newlabel_desc1": "新機能などユーザーにアピールしたい機能に利用します。",
-				"newlabel_desc2": "テキスト、色の変更はできません。",
-				"newlabel_desc3": "必要以上にユーザーの注意を惹きつけないよう、対象を1〜3回タップしたら消えるようにします。（回数は1回を推奨します）",
+				"desc_statuslabel": "A status label is used to indicate different statuses when more than one status exists in the contents.。",
+				"newlabel_desc1": "A new label is used to promote a feature to the user such as a new feature.",
+				"newlabel_desc2": "The text and color cannot be changed.",
+				"newlabel_desc3": "The label should disappear after the item is tapped one to three times to avoid attracting unnecessary attention. (One tap is recommended)",
 				"label_data1": [
 					{
-						"desc": "復数あるステータスの表示",
+						"desc": "Displaying multiple statuses.",
 						"logo": "label_01.svg"
 					},{
-						"desc": "新しいコンテンツのPR",
+						"desc": "Promoting new contents.",
 						"logo": "label_02.svg"
 					}
 				],
 				"label_data2": [
 					{
-						"desc": "ラベル内にアクションアイテムを付与することは推奨しません",
+						"desc": "It is recommended not to include an action item in the label.",
 						"logo": "label_05.svg"
 					},{
-						"desc": "ラベル内でテキストを改行することは禁止とします",
+						"desc": "It is prohibited to use more than two lines in a label.",
 						"logo": "label_06.svg"
 					}
 				],
 				"label_data3":  [
 					{
-						"desc": "1画面内に復数のラベルを表示することは禁止します",
+						"desc": "It is prohibited to display multiple new labels in one screen.",
 						"logo": "label_08.svg"
 					}
 				],
@@ -6222,8 +6531,8 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "ステータを表す色は<span>Color palet</span>の色の利用を推奨します。",
-						"desc2": "特に、「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
+						"desc1": "It is recommended to use colors from the<span>Color palette</span>when representing a status.",
+						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_07.svg"
 					}
 				],
@@ -6263,28 +6572,28 @@
 				"sect1_title": "Principle",
 				"sect1_desc": [
 					{
-						"desc": "ユーザーアクションの結果をフィードバックするために利用します"
+						"desc": "Toast is used to provide feedback to the user on the result of the action they took."
 					},
 					{
-						"desc": "フィードバックを提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます"
+						"desc": "By receiving the feedback, the user will come to know of whether their action was successful or not."
 					},
 					{
-						"desc": "トーストで伝える内容は簡潔で明快な必要があります"
+						"desc": "The contents conveyed in the toast must be simple and clear."
 					}
 				],
 				"sect2_title": "Usage",
 				"sect2_subtitle": "Usage Example",
 				"sect3_title": "Animation",
-				"sect3_desc1": "トーストはユーザーに結果を伝えるためだけのものです。",
-				"sect3_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
-				"sect4_title": "ラクション",
+				"sect3_desc1": "Toast is used to inform the user of the result of the action they took.",
+				"sect3_desc2": "It must be automatically deleted after the feedback on the result is given to avoid interfering with other contents",
+				"sect4_title": "Prohibited",
 				"toast_data1": [
 					{
-						"desc": "アクションアイテムを加えることは禁止します",
+						"desc": "It is prohibited to add action items.",
 						"logo": "toast_03.svg"
 					},
 					{
-						"desc": "2行以上の文字を表示することは禁止します",
+						"desc": "It is prohibited to display two or more lines of text.",
 						"logo": "toast_04.svg"
 					}
 				],
@@ -6294,7 +6603,7 @@
 						"logo": "toast_05.svg"
 					},
 					{
-						"desc": "Safe areaのあるデバイスではSafe area外にも背景色を表示します",
+						"desc": "For devices with a Safe area, the background color is also displayed outside the Safe area.",
 						"logo": "toast_06.svg"
 					}
 				],
@@ -6329,22 +6638,22 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "情報量の多い異なる情報群を一画面内に表示する際に利用します"
+						"desc": "Tabs are used to display varying groups of information containing a lot of information in one screen.\n"
 					},
 					{
-						"desc": "1stviewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
+						"desc": "A summary of these information groups is displayed in the first view. The user can switch between the information groups by tapping the tab."
 					}
 				],
 				"sect2_title": "Usage Example",
 				"sect3_title": "Type",
 				"sect4_title": "Detail",
-				"sect5_title": "ファーストビューに入りきらない場合",
-				"sect5_desc1": "タブの数が多く、ファーストビューにタブをすべて表示することが難しい場合は、画面外へタブを表示することが可能です。",
-				"sect5_desc2": "タブは水平方向にスワイプが可能です。",
-				"sect5_desc3": "このUIを利用する場合、多くのユーザーはスワイプできることを認識できない場合があります。",
-				"sect5_desc4": "画面外へタブが続くことが想起できるよう、右端のタブを見切れるように配置するなど配慮してください。",
+				"sect5_title": "When it doesn’t fit into the first view",
+				"sect5_desc1": "When there are many tabs and it is difficult to display all of them in the first view, some tabs can be displayed off-screen.",
+				"sect5_desc2": "Tabs can be swiped horizontally.",
+				"sect5_desc3": "When using this UI, there is a risk that many users will not notice that they can swipe across.",
+				"sect5_desc4": "Ensure that the user intuitively understands that the tabs continue off-screen, such as by displaying only part of the tab on the far right.",
 				"sect6_title": "Interaction",
-				"sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えアクションができるようにします。",
+				"sect6_desc1": "The tabs are fixed at the top of the screen when scrolling, so that the user can check the status of the tab at any given time and switch tabs if necessary.",
 				"sect7_title": "Spec",
 				"sect7_subtitle": "Regular",
 				"sect8_title": "Vertical List Bookmark Tab",
@@ -6356,7 +6665,7 @@
 								"tab_data1_colo1_title": "Regular",
 								"tab_data1_colo1_icons": "buttons_03_1.svg",
 								"tab_data1_colo2": [
-									{ "desc": "標準のタブナビゲーションです。タブの切り替えでタブ下のコンテンツ表示を切り替えます。" }
+									{ "desc": "This is the standard tab navigation. The contents that are displayed below the tab can be switched by switching tabs." }
 								]
 							},
 							{
@@ -6365,8 +6674,8 @@
 								"tab_data1_colo1_icons": "buttons_03_2.svg",
 								"tab_data1_colo2": [
 
-									{ "desc": "画面内を移動するタブナビゲーションです。タブの切替で同一画面内のコンテンツ位置まで自動スクロールします。" },
-									{ "desc": "スクロールとタブは連動しており、タブを切り替えなくても、画面内をスクロールしてコンテンツを表示すると、表示コンテンツのタブがアクティブの状態になります。" }
+									{ "desc": "This is a tab navigation which slides within the screen. By switching the tab, it automatically scrolls to a specific position within the contents in the same screen." },
+									{ "desc": "The scrolling action is linked with the tabs. Therefore, scrolling within the screen to a particular part of the contents makes the tab related to the contents displayed active, even if the tab was not actively switched." }
 								]
 							}
 						]
@@ -6380,10 +6689,10 @@
 								"tab_data2_colo1_title": "Selected",
 								"tab_data2_colo1_icons": "buttons_03_1.svg",
 								"tab_data2_colo2": [
-									{ "desc": "タブが選択されている状態です。" },
-									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
-									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
-									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+									{ "desc": "This is the state of a tab when it is selected." },
+									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
+									{ "desc": "PayPay Blue is recommended as the color to indicate the selected state, but it may be changed to another color to suit the service color." },
+									{ "desc": "When changing the color, there must be enough contrast between the background and the color of the text." }
 								]
 							},
 							{
@@ -6391,8 +6700,8 @@
 								"tab_data2_colo1_title": "Unselected",
 								"tab_data2_colo1_icons": "buttons_03_2.svg",
 								"tab_data2_colo2": [
-									{ "desc": "非選択状態のタブです。" },
-									{ "desc": "タップで選択状態に切り替え、タブ下にコンテンツを表示します。" }
+									{ "desc": "This is the state of a tab when it is not selected." },
+									{ "desc": "Tapping the tab will change it to a selected state. The related contents are displayed below the tab." }
 								]
 							}
 						]
@@ -6406,10 +6715,10 @@
 								"tab_data3_colo1_title": "Selected",
 								"tab_data3_colo1_icons": "buttons_03_1.svg",
 								"tab_data3_colo2": [
-									{ "desc": "タブが選択されている状態です。" },
-									{ "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
-									{ "desc": "選択状態のタブに利用する色はPayPay Blueの利用を推奨しますが、サービスカラーに合わせて、色を変更することが可能です。" },
-									{ "desc": "色を変更する場合、テキスト色は背景色と十分なコントラスト比を担保するようにしてください。" }
+									{ "desc": "This is the state of a tab when it is selected." },
+									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
+									{ "desc": "PayPay Blue is recommended as the color to indicate the selected state, but it may be changed to another color to suit the service color." },
+									{ "desc": "When changing the color, there must be enough contrast between the background and the color of the text." }
 								]
 							},
 							{
@@ -6417,8 +6726,8 @@
 								"tab_data3_colo1_title": "Unselected",
 								"tab_data3_colo1_icons": "buttons_03_2.svg",
 								"tab_data3_colo2": [
-									{ "desc": "非選択状態のタブです。" },
-									{ "desc": "タップで選択状態に切り替え、同時にコンテンツエリアは同一画面内のコンテンツ位置まで自動スクロールします。" }
+									{ "desc": "This is the state of a tab when it is not selected." },
+									{ "desc": "Tapping the tab will change it to a selected state. At the same time, the contents displayed will automatically scroll to the position of the contents in the same screen." }
 								]
 							}
 						]
@@ -6486,13 +6795,13 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "アイテムの選択時に利用します"
+						"desc": "Selection controls are used when selecting an item."
 					},
 					{
-						"desc": "アイテムは、役割や現在の状態を瞬時に認識できる表示でなくてはいけません"
+						"desc": "Items must be displayed in a way in that their role and current state can be recognized instantly."
 					},
 					{
-						"desc": "アイテム単体では利用せず、必ず選択肢を示すテキストを併記します"
+						"desc": "Selection controls are not used for single items, and should always be accompanied by text indicating what options there are."
 					}
 				],
 				"sect1_subtitle": "Usage Example",
@@ -6501,11 +6810,11 @@
 				"sect4_title": "Radio Button",
 				"sect5_title": "Checkbox",
 				"sect6_title": "Select Button",
-				"sect6_desc1": "Select, Button内にはアイコンを含めることが可能です。",
-				"sect6_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+				"sect6_desc1": "An icon can be added within the select button.",
+				"sect6_desc2": "When unselected, the icon should be colored. When selected it should be white.",
 				"sect7_title": "Toggle Switch",
-				"sect7_desc1": "Select Button内にはアイコンを含めることが可能です。",
-				"sect7_desc2": "非選択時には色のついたアイコン、選択時には白色のアイコンを利用してください。",
+				"sect7_desc1": "An icon can be added within the select button.",
+				"sect7_desc2": "When unselected, the icon should be colored. When selected it should be white.",
 				"sect8_title": "Don't",
 				"sect9_title": "Spec",
 				"sect9_subtitle1": "Radio Button",
@@ -6522,13 +6831,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_1.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "単一選択の場合に利用します"
+										"desc": "Used when only one option can be selected."
 									},
 									{
-										"desc": "ユーザーが選択できる項目は1つのみです"
+										"desc": "The user can select only one option."
 									},
 									{
-										"desc": "選択中のものではない項目が選択されると、それまで選択されていた項目は非選択の状態になります"
+										"desc": "When an alternative item is selected, the item previously selected changes to a state of being unselected."
 									}
 								]
 							},
@@ -6538,13 +6847,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_2.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "複数選択が可能な場合に利用します"
+										"desc": "Used when multiple options can be selected."
 									},
 									{
-										"desc": "Radio Buttonと異なり、ユーザーは同時に複数の項目を選択できます"
+										"desc": "Unlike the radio button, the user can select multiple options at once."
 									},
 									{
-										"desc": "選択された項目を再度選択すると非選択状態になります"
+										"desc": "By selecting an item that is already selected, the item changes to a state of being unselected."
 									}
 								]
 							},
@@ -6554,13 +6863,13 @@
 								"selectnControlData1_colo1_icons": "buttons_03_3.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "単一選択・複数選択どちらの場合でも利用可能です"
+										"desc": "Can be used in both cases; one option only and multiple options."
 									},
 									{
-										"desc": "選択肢を横並びで利用したい場合、選択肢を目立たせたい場合に利用します"
+										"desc": "The select button is used to emphasize the available options when listing them horizontally."
 									},
 									{
-										"desc": "アプリ内での選択UIにはこのTypeの利用を推奨します"
+										"desc": "This type is recommended as a selection UI within the app."
 									}
 								]
 							},
@@ -6570,7 +6879,7 @@
 								"selectnControlData1_colo1_icons": "buttons_03_4.svg",
 								"selectnControlData1_colo2": [
 									{
-										"desc": "項目に対してON/OFFを切り替える場合に利用します"
+										"desc": "Used when turning an item ON/OFF."
 									}
 								]
 							}
@@ -6647,11 +6956,11 @@
 				],
 				"selectnControlData6": [
 					{
-						"desc": "複数選択可能な項目にRadio Buttonを利用する",
+						"desc": "Use the radio button when multiple items can be selected.",
 						"logo": "selectioncontrols_08.svg"
 					},
 					{
-						"desc": "単一選択の項目にCheck boxを利用する",
+						"desc": "Use the check box when only one item can be selected.",
 						"logo": "selectioncontrols_09.svg"
 					}
 				],
@@ -6992,24 +7301,24 @@
 				"sect1_title": "Usage",
 				"sect1_desc": [
 					{
-						"desc": "読み込み処理を行っている際は、ループアニメーションを表示し、処理中であることをユーザーに知らせます"
+						"desc": "A loop animation is displayed when loading to inform the user that it is being processed."
 					},
 					{
-						"desc": "アニメーションを配置することでユーザーの体感時間を減らし、スムーズな使い心地を提供します"
+						"desc": "The placement of an animation reduces the perceived wait time providing the user with a smoother feeling."
 					}
 				],
 				"sect1_subtitle": "Usage Example",
 				"sect2_title": "Type",
 				"sect2_desc1": "Loading Dot Animation",
-				"sect2_desc2": "結果のフィードバックが完了した後は、他のコンテンツを阻害しないように、自動的に消す必要があります。",
+				"sect2_desc2": "In principle, this is the animation that is used.",
 				"sect3_title": "Pull To Refresh",
-				"sect3_desc1": "画面のコンテンツを手動で更新する場合はOSデフォルトのPull To Refreshコンポーネントを利用します。",
+				"sect3_desc1": "The OS’s default pull to refresh component is used when manually refreshing the contents in the screen.\n",
 				"sect4_title": "Spec",
 				"sect4_desc1": "Loading Dot Animation",
 				"sect5_title": "Pull To Refresh",
-				"sect5_desc1": "OSごとのガイドラインに従います。",
+				"sect5_desc1": "In accordance with the OS’s guideline.",
 				"sect6_title": "Spacing",
-				"sect6_desc1": "以下を推奨します。",
+				"sect6_desc1": "The following is recommended.",
 				"loadingAnimtnData1":  [
 					{
 						"loadingAnimtnData1_tableholder": [
