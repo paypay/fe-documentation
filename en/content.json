@@ -5108,25 +5108,25 @@
 				"balloon_headers": "Balloon",
 				"balloon_sect1_title": "Usage",
 				"balloon_sect1_description": [
-					"新機能のガイドなど、特定のコンポーネントに補足情報を示す際に使用します",
-					"ユーザーが気が付きにくい情報を補足することで、機能やコンポーネントの理解が深まりより良い体験をもたらします",
-					"Ballonはあくまで補足的な情報の提示のみに使用するものとし、主コンテンツの閲覧やアクションを妨げるような使い方はしません"
+					"A balloon is used to provide supplementary information about a particular component, such as a guide for a new feature.",
+					"Providing supplementary information that the user may otherwise have trouble finding out helps to facilitate a deeper understanding of the feature or component, resulting in a better experience.",
+					"A balloon is intended only to provide supplementary information. It should not be used in a way that interferes with users viewing the primary contents or making an action. A balloon is not used to promote a campaign."
 				],
 				"balloon_sect2_title": "Usage Example",
 				"balloon_sect2_images": [
 					{
 					  "name": "panel1",
 					  "icons": "balloon_sect2_images1.svg", 
-					  "desc": "新機能の訴求"
+					  "desc": "Promoting a new feature"
 					},
 					{
 					  "name": "panel2",
 					  "icons": "balloon_sect2_images2.svg", 
-					  "desc": "新着情報のお知らせ"
+					  "desc": "Providing notice on notifications"
 					}
 				],
 				"balloon_sect3_title": "Type",
-				"balloon_sect3_description": "バルーンのコンポーネントには2種類があり、用途によって使い分けをします。",
+				"balloon_sect3_description": "There are two types of balloon components that are used depending on the purpose.",
 				"balloon_sect3_images": [
 					{
 					  "name": "panel1",
@@ -5144,12 +5144,12 @@
 						"name": "no1",
 						"icons": "balloon_sect3_no1.svg", 
 						"balloon_sect3_col1": "Coach Balloon",
-						"balloon_sect3_col2":"新機能などの特定のComponentを強調、ガイドする場合に使用します"
+						"balloon_sect3_col2":"Used to highlight a particular component such as a new feature or guide the user to it."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect3_no2.svg", 
 						"balloon_sect3_col1": "Scroll Balloon",
-						"balloon_sect3_col2":"画面外の特定のComponentをガイドする場合に使用しますバルーンをタップすると対象のComponentの位置まで自動でスクロールします"
+						"balloon_sect3_col2":"Used to guide the user to a specific component that is not within the screen. Tapping the balloon will auto-scroll the user to the target component."
 					}
 				],
 				"balloon_sect4_title": "Detail",
@@ -5159,72 +5159,72 @@
 						"name": "no1",
 						"icons": "balloon_sect4_no1.svg", 
 						"balloon_sect4_col1": "Icon (Option)",
-						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2":"An icon matching the message or guide is displayed. Adding an icon helps to catch the user’s attention.",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect4_no2.svg", 
 						"balloon_sect4_col1": "Text  Label",
-						"balloon_sect4_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
+						"balloon_sect4_col2":"A promotional message or guiding text displayed in the balloon. It is recommended to keep the text concise and within one line so that the user can immediately understand its contents.",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no3",
 						"icons": "balloon_sect4_no3.svg", 
-						"balloon_sect4_col1": "Allow",
-						"balloon_sect4_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
+						"balloon_sect4_col1": "Arrow",
+						"balloon_sect4_col2":"The arrow is placed so that it is positioned towards the component the balloon is intended for.",
 						"balloon_sect4_col2_images": "balloon_sect4_icons.png",
 						"balloon_sect4_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
 					}
 				],
 				"balloon_sect5_title": "Do / Don't",
-				"balloon_sect5_description": "Coach Ballonを使用する際は、訴求対象が明確になるようにしてください。",
-				"balloon_sect5_points1": "強調したいコンテンツが明確",
-				"balloon_sect5_points2": "同一画面に復数のバルーンを配置する どのComponentが強調されているのか不明瞭",
-				"balloon_sect5_points3": "バルーンの視認性が悪い バルーンに近しい背景色の上への配置",
+				"balloon_sect5_description": "Ensure that the subject matter is clear when using a coach balloon.",
+				"balloon_sect5_points1": "It is clear which contents are intended to be highlighted.",
+				"balloon_sect5_points2": "Place multiple balloons in the same screen. It is unclear which component is being highlighted.",
+				"balloon_sect5_points3": "The balloon has poor visibility. It is placed on top of a background color close to that of the balloon.",
 				"balloon_sect6_title": "Scroll Balloon",
 				"balloon_sect6_tableholder": [
 					{
 						"name": "no1",
 						"icons": "balloon_sect6_no1.svg", 
 						"balloon_sect6_col1": "Text Label",
-						"balloon_sect6_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
+						"balloon_sect6_col2":"A promotional message or guiding text displayed in the balloon. It is recommended to keep the text concise and within one line so that the user can immediately understand its contents."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect6_no2.svg", 
-						"balloon_sect6_col1": "Allow Animation",
-						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
+						"balloon_sect6_col1": "Arrow Animation",
+						"balloon_sect6_col2":"An icon animation at the bottom of the screen which indicates that there is information outside of the screen."
 					}
 				],
 				"balloon_sect6_description": [
-					"Scroll BalloonにはPrimary ColorとSecondary Colorがあります。強調するコンテンツの優先度によって使い分けます。",
-					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
+					"There is a primary and secondary color used with scroll balloons.",
+					"The distinction is made according to the priority of the contents to be highlighted. It is recommended to use the secondary color to indicate new contents such as timeline notifications that are frequently updated, to avoid interfering with the contents that are displayed."
 				],
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
 						"icons": "balloon_sect6_rowers1.svg", 
 						"balloon_sect6_title": "Primary Color",
-						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
+						"balloon_sect6_subtitle":"Used to promote a new feature off-screen, etc."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect6_rowers2.svg",						
 						"balloon_sect6_title": "Secondary Color",
-						"balloon_sect6_subtitle":"更新頻度の高いタイムラインコンテンツの新着件数の表示など"
+						"balloon_sect6_subtitle":"Used to display the number of new contents in a frequently updated timeline, etc."
 					}
 				],
 				"balloon_sect7_title": "Do / Don't",
-				"balloon_sect7_description": "画面内の主コンテンツの閲覧、アクションの妨げになるような表示は禁止とします。",
+				"balloon_sect7_description": "It is prohibited to display a balloon in a way that interferes with viewing the primary contents in the screen or making an action.\n",
 				"balloon_sect7_tableholder": [
 					{
 						"name": "panel1",
 						"icons": "balloon_sect7_no1.svg", 
-						"balloon_sect7_col1": "グラデーションに3色以上を指定する"
+						"balloon_sect7_col1": "The text displayed is short and concise."
 					}, {
 						"name": "panel2",
 						"icons": "balloon_sect7_no2.svg", 
-						"balloon_sect7_col1": "上部に濃い色、下部に明るい色を指定する"
+						"balloon_sect7_col1": "The readability is low such as because it is broken up into two lines."
 					}
 				],
 				"balloon_sect8_title": "Interaction",
@@ -5232,11 +5232,11 @@
 					{
 						"name": "panel1",
 						"balloon_sect8_col1": "Coach Balloon", 
-						"balloon_sect8_col2": "特殊な場合を除き、Balloonをタップ、もしくは対象のComponentをタップするとBalloonは非表示となります。アクションを伴わないComponentを訴求する場合は表示回数を設定し、ユーザーアクションを伴わなくともBalloonが非表示になるようにします。表示回数3回ほどで自動非表示にすることを推奨します。"
+						"balloon_sect8_col2": "Except in irregular cases, the balloon disappears once it or the component it is pointed towards is tapped. When promoting a component that does not require an action, the number of times the balloon is displayed is configured so that it disappears without the user having to take action. It is recommended to auto-hide the balloon after it is displayed three times."
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information. Reference：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>"
 					}
 				],
 				"balloon_sect9_title": "Spec",
@@ -5268,13 +5268,13 @@
 						"balloon_sect10_col1": "Text Label", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
-							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
 							"<br/>",
 							"<b>Secondary</b>",
-							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #00B9F5",
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
@@ -5295,26 +5295,26 @@
 							"<b>Primary</b>",
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>",
+							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>",
 							"<br/>",							
 							"<b>Secondary</b>",
 							"Default :",
 							"Back ground : #FFFFFF",
 							"Pressed( iOS ) :",
 							"Back ground : #F2F2F2",
-							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
 						]
 					}
 				],
-				"balloon_sect11_title": "画面下部からの距離",
+				"balloon_sect11_title": "Distance from the bottom of the screen",
 				"balloon_sect11_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect11_col1": "ボトムタブがある場合", 
+						"balloon_sect11_col1": "When there is a bottom tab",
 						"balloon_sect11_col2": "16px/dp"
 					}, {
 						"name": "panel2",
-						"balloon_sect11_col1": "ボトムタブがない場合", 
+						"balloon_sect11_col1": "When there is no bottom tab",
 						"balloon_sect11_col2": "40px/dp"
 					}
 				]
