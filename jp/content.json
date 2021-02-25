@@ -4421,32 +4421,33 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "Photos are to enhance the brand image and also helps the users to understand the content easier even without explaining, and most importantly to show users how to proceed with the next action."
+						"desc": "写真を利用することで、文字情報のみよりも、コンテンツの内容をより深く伝えることができます。また、ユーザーが次のアクションに進むための方法を示すことが最も重要です。"
 					},
 					{
-						"desc": "We should always use realistic images not staged images and they should genuinely add values to PayPay."
+						"desc": "写真は演出的なものではなく、リアリティのある画像を用いる必要があります。PayPayに本当に価値を与えるものでなければなりません。"
 					},
 					{
-						"desc": "Most importantly, Be Informative, Straightforward, and Accessible."
+						"desc": "最も重要なのは、情報が豊富で、明快で、わかりやすいことです。"
 					}
 				],
 				"title_usage": "Usage",
 				"title_size": "Size",
 				"size_desc": [
 					{
-						"desc": "Always prepare @3x images for a better resolution."
+						"desc": "解像度の高いデバイスに対応するために、画像は常に表示サイズの3倍のサイズを用います"
 					},
 					{
-						"desc": "Avoid oversized images in the app. Always optimized them to the max."
+						"desc": "アプリに利用する画像リソースはできる限り圧縮し、アプリ本体の容量を削減するようにしてください。サーバーから参照する場合も同様です。"
 					}
 				],
 				"title_ratio": "Ratio",
 				"ratio_desc": [
 					{
-						"desc": "Don't stretch or alter the original image aspect ratio."
+						"desc": "写真を拡大縮小する場合は、元のアスペクト比を維持し、変形しないでください。"
 					}
 				],
 				"title_dont": "Do/ Don't",
+                "dont_title": "Don't",
 				"dont_desc": [
 					{
 						"desc": "モチーフが明瞭",
