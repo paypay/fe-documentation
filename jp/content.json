@@ -4673,7 +4673,8 @@
 					"下層から上層に戻る場合も同様に右から左へのアニメーションを表示します。"
 				],
 				"transition_sect2_subtitle2": "Slide UP",
-				"transition_sect2_description2": "角丸は 8px / 20px に統一します。"
+              "transition_sect2_description2": "現在の動作を一時中断して行う、一時的なタスクを表示する場合はSlide upで画面を表示します。",
+              "transition_sect2_description3": "下層への移動アクションにこのトランジションを利用することは禁止します。"
       },
       "typography":{
 				"title": "Typography",

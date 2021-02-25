@@ -4706,17 +4706,20 @@
 				"transition_headers": "Transition",
 				"transition_sect1_title": "Principle",
 				"transition_sect1_description": [
-					"ユーザーアクションによる画面の遷移時には、画面の移動アニメーションを必須とします",
-					"アニメーションを提示することによって、ユーザーは自身が現在どの画面を表示しているかを明確にします"
+					"It is mandatory to use a transition animation when it involves a screen transition as a result of the user’s action.",
+					"Displaying an animation provides clarity to the user on which screen is currently displayed."
 				],
 				"transition_sect2_title": "Usage",
 				"transition_sect2_subtitle1": "Drill Down",
 				"transition_sect2_description1": [
-					"ユーザーアクションにより、下の階層へ移動する場合は左から右へのアニメーションを表示し、画面が切り替わったことを明示します。",
-					"下層から上層に戻る場合も同様に右から左へのアニメーションを表示します。"
+					"When an action takes the user to a lower layer screen, a left to right animation is displayed to indicate a screen transition.",
+					"Similarly, when returning to a higher layer screen, a right to left animation is displayed."
 				],
+
 				"transition_sect2_subtitle2": "Slide UP",
-				"transition_sect2_description2": "角丸は 8px / 20px に統一します。"
+				"transition_sect2_description2": "When displaying a temporary task that interrupts the current action, a screen is displayed by sliding it up from below.",
+				"transition_sect2_description3": "It is prohibited to use this screen transition when taking the user to a lower layer screen."
+
 			},
 			"typography":{
 				"title": "Typography",
