@@ -3206,23 +3206,7 @@
       "dshomesec4_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "PayPayのDesignについてここに定義します。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
-        },
-        { 
-          "classname": "mb-lg-5", 
-          "descriptions": "ガイドラインは2つのパートに分かれます。"
+          "descriptions": "ガイドラインのこの部分は、アプリのUIデザインに共通する高レベルの概念を提供します。"
         }
       ],
       "dshomesec4_content_globrules": [
@@ -3287,23 +3271,7 @@
       "dshomesec5_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "PayPayのDesignについてここに定義します。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
-        },
-        { 
-          "classname": "", 
-          "descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
-        },
-        { 
-          "classname": "mb-lg-5", 
-          "descriptions": "ガイドラインは2つのパートに分かれます。"
+          "descriptions": "ガイドラインのこの部分は、アプリのUIコンポーネントを提供します。"
         }
       ],
       "dshomesec5_content_component": [

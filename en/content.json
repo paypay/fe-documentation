@@ -3249,23 +3249,7 @@
 			"dshomesec4_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "The UI style of the PayPay app is defined here."
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "All products provided by PayPay are designed according to this guideline."
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
-				},
-				{ 
-					"classname": "mb-lg-5", 
-					"descriptions": "There are 2 parts to the guideline."
+					"descriptions": "This part of the guideline provides the high-level concepts common to the app UI design."
 				}
 			],
 			"dshomesec4_content_globrules": [
@@ -3330,23 +3314,7 @@
 			"dshomesec5_content_descriptions": [
 				{
 					"classname": "",
-					"descriptions": "The UI style of the PayPay app is defined here."
-				},
-				{
-					"classname": "",
-					"descriptions": "All products provided by PayPay are designed according to this guideline."
-				},
-				{
-					"classname": "",
-					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
-				},
-				{
-					"classname": "",
-					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
-				},
-				{
-					"classname": "mb-lg-5",
-					"descriptions": "There are 2 parts to the guideline."
+					"descriptions": "This part of the guideline provides for the app UI components."
 				}
 			],
 			"dshomesec5_content_component": [
