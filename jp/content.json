@@ -5741,11 +5741,11 @@
         ],
         "horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
         "horizontal_button_desc_2": "色は",
-        "horizontal_button_desc_3": "Color pallet",
+        "horizontal_button_desc_3": "Color palette",
         "horizontal_button_desc_4": "の色を参考にしてください。",
         "lauoyt_subtitle": "2つのボタンの背景色について",
         "lauoyt_subtitle_desc": "色は",
-        "lauoyt_subtitle_desc_1": "Color pallet",
+        "lauoyt_subtitle_desc_1": "Color palette",
         "lauoyt_subtitle_desc_2": "の色を参考に指定してください",
         "subtitle_sticky_button": "Sticky Button",
         "sticky_button_desc": [
