@@ -3197,27 +3197,27 @@
 			"dshomesec2_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
+					"descriptions": "The UI style of the PayPay app is defined here."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+					"descriptions": "All products provided by PayPay are designed according to this guideline."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
 				},
 				{ 
 					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+					"descriptions": "There are 2 parts to the guideline."
 				}				
 			],
 			"dshomesec3_content_title": "Design Philosophy",
-			"dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the foundation of PayPay Design and is not modified.",
 			"dshomesec3_content_philosophy": [
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3249,23 +3249,7 @@
 			"dshomesec4_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
-				},
-				{ 
-					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+					"descriptions": "This part of the guideline provides the high-level concepts common to the app UI design."
 				}
 			],
 			"dshomesec4_content_globrules": [
@@ -3328,25 +3312,9 @@
 			],
 			"dshomesec5_content_title": "COMPONENT",
 			"dshomesec5_content_descriptions": [
-				{ 
-					"classname": "", 
-					"descriptions": "PayPayのDesignについてここに定義します。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
-				},
-				{ 
-					"classname": "", 
-					"descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
-				},
-				{ 
-					"classname": "mb-lg-5", 
-					"descriptions": "ガイドラインは2つのパートに分かれます。"
+				{
+					"classname": "",
+					"descriptions": "This part of the guideline provides for the app UI components."
 				}
 			],
 			"dshomesec5_content_component": [
@@ -3432,49 +3400,49 @@
 			"color": {
 				"title": "Color",
 				"title_principle": "Principle",
-				"principle_desc_1": "色は情報の優先度や必要なアクションを明確に示します。特定の色を固有のアクションやステータスにあてはめることで、サービス全体で一貫性を保ち、ユーザーの学習コストを軽減します",
-				"principle_desc_2": "提供するUIは必ずコンポーネントに定義された色を使用します。使用する色を統一することで、ブランドの個性を醸成します",
-				"principle_desc_3": "全てのコンテンツは可読性、視認性を十分担保し、あらゆる人が快適に閲覧できる配色を利用しなくてはいけません",
+				"principle_desc_1": "Colors are used to provide clarification on the priority of information and required actions. Using specific colors for particular actions or statuses helps to maintain consistency across services, reducing the effort it takes for the user to learn the UIUX.",
+				"principle_desc_2": "The UI must use the colors defined by each component. Consistent use of colors fosters the character of the brand.",
+				"principle_desc_3": "Readability and visibility must be ensured with all contents through a color scheme that enables anyone to view the contents comfortably.",
 				"title_definition_pattern": "Color Definition Pattern",
-				"definition_pattern_desc": "PayPayの色はBrand color、Global color、Extended colorの3種類に定義されます。",
+				"definition_pattern_desc": "There are three definitions of PayPay colors: the brand color, global colors and extended colors.",
 				"title_brand_color": "Brand Color",
-				"brand_color_desc_1": "Brand colorはPayPayのブランドそのものを表すカラーであり、ロゴに利用されるカラーです。",
-				"brand_color_desc_2": "PayPayロゴ意外の要素に利用することは推奨しません。",
+				"brand_color_desc_1": "The brand color represents the PayPay brand itself and is used in the logo.",
+				"brand_color_desc_2": "It is not recommended to use this color for elements other than the PayPay logo.",
 				"title_global_color_asset": "Global Color Assets",
-				"global_color_asset_desc_1": "Global color assetsは、PayPayそのものを表すカラーアセットです。",
-				"global_color_asset_desc_2": "Brand colorを中心とした4色の組み合わせ、または定義されたグラデーションで展開します。",
-				"global_color_asset_desc_3": "この色の組み合わせを利用することでユーザーはPayPayのブランドを認知します。",
-				"global_color_asset_desc_4": "PayPayブランド全体を表現する場合は単色4色の組み合わせを、Consumer Appを表現する場合はグラデーションカラーの利用を推奨します。",
+				"global_color_asset_desc_1": "Global color assets represent PayPay itself.",
+				"global_color_asset_desc_2": "It consists of a combination of four colors including the brand color or the gradation color.",
+				"global_color_asset_desc_3": "The use of these colors facilitates the user’s recognition of the PayPay brand.",
+				"global_color_asset_desc_4": "It is recommended to use a combination of the four solid colors to represent the PayPay brand in general, and to use the gradation color when representing the consumer app.",
 				"title_color_palette": "Color Palette",
 				"title_gradation_palette": "Gradation Palette",
 				"title_usage_example": "Usage Example",
 				"title_dont": "Don't",
-				"dont_desc_1": "Global Colorの配色でハレーションをおこすなどの",
-				"dont_desc_2": "ユーザーに不快感を与えるような使い方は禁止します",
+				"dont_desc_1": "It is prohibited to use the global colors in a way that causes a color halation that makes the user uncomfortable.",
+				"dont_desc_2": "It is prohibited to use colors that causes discomfort to the user",
 				"title_ext_color_asset": "Extended Color Assets",
-				"ext_color_asset_desc_1": "Extended color assetsは、Global colorを含むカラーアセットです。",
-				"ext_color_asset_desc_2": "UIコンポーネントや、イラストやアイコンなど、コンテンツにアクセントが必要な際に利用します。",
-				"ext_color_asset_desc_3": "PayPayのデザインフィロソフィーである\"Empathy\" \"Happy\"を表現する、楽しく、親しみやすく、安心感のある配色で展開します。",
-				"ext_color_asset_color_desc_1": "有彩色12色相を4階調、無彩色を8階調で展開します。",
-				"ext_color_asset_color_desc_2": "UIへの利用は01行、04行の利用を推奨します。",
-				"ext_color_asset_color_desc_3": "UIに04行の色を利用する場合は、コンテンツの背景色への利用を推奨します。",
-				"ext_color_asset_color_desc_4": "04行の色をテキストやアクションパーツに利用することは禁止します。",
-				"ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します",
+				"ext_color_asset_desc_1": "The extended color assets refer to a set of color assets that include the global colors.",
+				"ext_color_asset_desc_2": "It is used for UI components, illustrations, icons, and as an added accent in certain contents.",
+				"ext_color_asset_desc_3": "The color scheme must be fun, friendly and convey a sense of security, based on PayPay’s design philosophy of expressing “empathy” and “happiness”.",
+				"ext_color_asset_color_desc_1": "The color palette consists of twelve chromatic hues in four levels, and eight achromatic colors in eight levels.",
+				"ext_color_asset_color_desc_2": "It is recommended to use line 01 and 04 in the UI.",
+				"ext_color_asset_color_desc_3": "It is recommended to add a background color to the contents when using colors from line 04.",
+				"ext_color_asset_color_desc_4": "It is prohibited to use colors from line 04 for text and action parts.",
+				"ext_color_asset_color_desc_5": "It is acceptable to use a given color for illustrations etc. when it is necessary to use a color that is not included in the color palette.",
 				"title_functional_color": "Functional Color",
-				"functional_color_desc_1": "Functional color assetsは役割を持つ色のアセットです。",
-				"functional_color_desc_2": "色の持つ役割に一貫性をも持つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
-				"functional_color_desc_3": "色はExtended color assetsから引用します。",
+				"functional_color_desc_1": "Functional color assets are color assets assigned with a particular function.",
+				"functional_color_desc_2": "Maintaining consistency across color functions reduces the effort it takes for the user to learn the UIUX, providing a comfortable experience.",
+				"functional_color_desc_3": "The colors are taken from the extended color assets.",
 				"functional_color_dont": "Don't",
-				"functional_color_dont_desc": "以下の使い方はユーザーの誤操作を誘発するリスクがあるため禁止とします。",
+				"functional_color_dont_desc": "It is prohibited to use the colors in the following way as it may confuse the user about what action to take.",
 				"title_gradation_color": "Gradation Color",
-				"gradation_color_desc_1": "連携サービスのUIを構成するカラーやマーケティングツールには、Extended color assetsを元に構成したグラデーションカラーの利用が可能です。",
-				"gradation_color_desc_2": "ただし、Global colorで定義されているPayPay GradationをPayPayのメイン機能以外で利用することは禁止します。",
-				"gradation_color_desc_3": "グラデーションカラーを利用する場合は、定義されたルールに則ってください",
+				"gradation_color_desc_1": "A gradation consisting of the extended color assets may be used as the UI color of partner services and marketing tools.",
+				"gradation_color_desc_2": "It is, however, prohibited to use the PayPay gradation defined as the global color for features other than PayPay’s main features.",
+				"gradation_color_desc_3": "It is necessary to comply with the defined rules when using gradation colors.",
 				"title_gradation_color_rule": "Gradation Color Rule",
 				"title_accessibility": "Accessibility",
-				"accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
-				"accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
-				"accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ",
+				"accessibility_desc_1": "When displaying text in primary contents, the contrast between the background color and foreground color must be at least 3:1.",
+				"accessibility_desc_2": "This excludes supplementary components or when the text exists only for decorative purposes.",
+				"accessibility_desc_3": "Also, there is no contrast requirement for text used in a logo or brand name.",
 				"gcaUsageExample": [{
 					"name": "Brand Logo",
 					"logo": "brand_logo.svg"
@@ -3516,39 +3484,39 @@
 				  "logo": "UI_Background_US4.svg"
 			    }],
 				"dont_imgs": [{
-					"name": "Function colorを定義された色以外で利用する",
+					"name": "Use colors other than those defined as function colors.",
 					"logo": "dont1.svg"
 					},{
-					"name": "アクションコンポーネント以外にアクションカラーを多用する",
+					"name": "Heavy use of the action color for non-action components.",
 					"logo": "dont2.svg"
 				}],
 				"grdtn_rule": [{
-				  "name":"万人も",
-				  "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+				  "name":"Orientation",
+				  "discription":"90°is the only angle allowed for the orientation of the gradation. Colors are specified only at points 0% (1) and 100% (2). It is fine to specify colors with different hues for (1) and (2). When specifying colors with different hues, similar hues are used. It is prohibited to select colors with hues that are too far apart."
 				  },{
 				  "name":"Top",
-				  "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+				  "discription":"A color with high brightness is specified at the top end (0%) of the gradation. It is recommended to use a hue defined in the color palette. It is recommended to use a brightness between 90-100."
 				  },{
 				  "name":"Bottom",
-				  "discription":"万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。"
+				  "discription":"A color with a lower brightness and chroma is specified at the bottom end (100%) of the gradation. It is recommended to use a brightness between 80-100."
 				}],
 				"gradations_imgs": [{
-				  "name": "グラデーションに3色以上を指定する",
+				  "name": "Specify three or more colors in the gradation.",
 				  "logo": "usage_dont_01.svg"
 				  },{
-				  "name": "上部に濃い色、下部に明るい色を指定する",
+				  "name": "Specify a dark color on the top and a bright color on the bottom.",
 				  "logo": "usage_dont_02.svg"
 				  },{
-				  "name": "指定する色の明度が80以下",
+				  "name": "Specify a dark color on the top and a bright color on the bottom.",
 				  "logo": "usage_dont_03.svg"
 				  },{
-				  "name": "色を透過する",
+				  "name": "Use a transparent color.",
 				  "logo": "usage_dont_04.svg"
 				  },{
-				  "name": "色相の遠い色を組み合わせる",
+				  "name": "Use a combination of hues that are far apart.",
 				  "logo": "usage_dont_05.svg"
 				  },{
-				  "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
+				  "name": "It is prohibited to use PayPay Gradation other than the main functions of PayPay such as linked services and Mini-App.",
 				  "logo": "usage_dont_06.png"
 				}],
 				"colorCode1": [{
@@ -3822,23 +3790,23 @@
 			"philosophy": {
 			  "philos_headers": "Design Philosophy",
 			  "philos_sect1_title": "Principle",
-			  "philos_sect1_description1": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
-			  "philos_sect1_description2": "PayPayから提供するすべてのプロダクトにおいて、このDesign Philosophyを念頭にデザインを提供します。",
+			  "philos_sect1_description1": "PayPay's design philosophy is the basis of the PayPay app style guide and is something that will not change.",
+			  "philos_sect1_description2": "The app UX that PayPay provides is designed based on this philosophy",
 			  "philos_sect2_title": "Design Theme",
 			  "philos_sect2_philosophylists": [ {
 				"title": "Empathy",
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists0",
 				"descriptions": [ {
-					"desc": "ユーザーの生活に寄り添い、共感されるデザインを提供します。"
+					"desc": "Designs that are close to and empathetic to the user’s daily life are provided."
 				  }, {
-					"desc": "水や空気のように日常に溶け込み、老若男女問わず、誰でも簡単に利用できるサービスでなくてはいけません。"
+					"desc": "The service has to blend into everyday life like water or air and be easily accessible to everyone, whether young, old, man or woman."
 				  }, {
-					"desc":"提供する側の一方通行ではなく、常にユーザーと対話ができるものを目指します。"
+					"desc":"A constant dialogue with the user is strived for, instead of pushing a service unilaterally."
 				  }, {
-					"desc":"ユーザーがPayPayを使うことによって自身の生活をより便利に、豊かにすることに尽力し、ユーザーのどんなに小さな声にも耳を傾けます。"
+					"desc":"Making the user’s life more convenient and enriched through their use of PayPay is strived for, listening to their voice no matter small it may be."
 				  }, {
-					"desc":"安心感と信頼感は最も重要な要素です。"
+					"desc":"Ensuring that the user can feel safe and trust the service is of utmost importance."
 				  }
 				]
 			  }, {
@@ -3846,9 +3814,9 @@
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists1",
 				"descriptions": [ {
-					"desc": "余計なものを削ぎ落とし、ユーザーが重要なものにのみフォーカスできるようにします。"
+					"desc": "Any surplus is removed so that the user can focus on what is important."
 				  }, {
-					"desc": "ユーザーが達成するべきゴールを阻害するものはすべて排除し、ユーザーアクションが最短で完了するようにします。"
+					"desc": "All hindrances for the user to achieve a goal are eliminated to ensure whatever the user has to get done can be completed in the shortest possible time."
 				  }
 				]
 			  }, {
@@ -3856,11 +3824,11 @@
 				"dividers": true,
 				"classname": "philos_sect2_philosophylists2",
 				"descriptions": [ {
-					"desc": "すべてのUIは規則性、一貫性保ちます。"
+					"desc": "All UIs are kept regular and consistent."
 				  }, {
-					"desc": "必要な学習コストは極力削減し、ユーザーが快適にサービスを使い続けられるようにします。"
+					"desc": "The effort required to learn is eliminated as much as possible so that the user can continue to use the service comfortably."
 				  }, {
-					"desc":"アプリで提供するUIコンポーネントはこのガイドラインのコンポーネントに準拠します。"
+					"desc":"All UI components provided in the app follow the rules in this document."
 				  }
 				]
 			  }, {
@@ -3868,11 +3836,11 @@
 				"dividers": false,
 				"classname": "philos_sect2_philosophylists3",
 				"descriptions": [ {
-					"desc": "ユーザーの日常がPayPayによってHappyになることを目指し、楽しく、人間らしく、温かみのあるデザインを提供します。"
+					"desc": "Aiming for happiness in the user’s daily life through PayPay, a fun, down to earth, and warm design is provided."
 				  }, {
-					"desc": "決済アプリの垣根を超え、便利なツールの提供だけではなく、ユーザーの感情を動かせるようなデザインを心がけます。"
+					"desc": "Going beyond mere payments, going beyond being a convenient tool, a design that touches the user’s emotions is strived for."
 				  }, {
-					"desc":"ビジュアルイメージは、決済/金融サービスのイメージに囚われず、楽しく、元気が良く、ワクワクする設計であるべきです。"
+					"desc":"Without being bound to the image of ‘payment’ or ‘financial service’, a fun, cheerful and exciting image should be conveyed."
 				  }
 				]
 			  } ]
@@ -3882,85 +3850,76 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "イラストは、コンテンツの内容をより明快に、直感的な理解を促す目的で利用します"
+						"desc": "Illustrations are used to facilitate a clear and intuitive understanding of the contents."
 					},
 					{
-						"desc": "不快感、誤解をを与えるイラスト表現は禁止とします"
+						"desc": "It is prohibited to use illustrations that are offensive or misleading."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "文字情報を補足する意味で最大限に効果的な方法で使用します。"
+						"desc": "Illustrations are used in the most effective way possible."
 					}
 				],
-				"txt_convey_title": "直感的に伝える",
+				"txt_convey_title": "Intuitive Communication",
 				"txt_convey_desc": [
 					{
-						"desc": "イラストを利用することで、テキストのみよりも、コンテンツの内容をより深く伝えることができます。"
+						"desc": "By using an illustration, it is possible to communicate the subject matter of contents more deeply compared to when using just text."
 					},
 					{
-						"desc": "また、キャンペーンなどの演出に装飾要素として利用することでユーザーの気持ちを盛り上げ、心を動かすことができます。"
+						"desc": "In addition, an illustration can be used as a decorative element for a campaign etc., to appeal to the user’s emotions and create excitement."
 					}
 				],
-				"txt_convey_title_2": "直感的に伝える",
+				"txt_convey_title_2": "Intuitive Communication",
 				"txt_convey_desc_2": [
 					{
-						"desc": "説明図などのイラストでは、簡略化したシンプルなイラストを用い、ユーザーがイラストからすぐに情報を読み取れるようにします。"
+						"desc": "The user’s understanding is facilitated by providing a visual explanation of a category."
 					}
 				],
-				"txt_convey_desc_cnt_1":"サービスの利用手順の説明",
-				"txt_convey_desc_cnt_12":"文字だけでは説明しきれない部分をイラストでサポート",
-				"txt_expression_title": "表現",
-				"txt_expression_desc_1": "Design Philosophy",
-				"txt_expression_desc_2": "に準拠し、PayPayのブランドイメージを体現する表現を用います。",
+				"txt_convey_desc_cnt_1":"Description of the service flow",
+				"txt_convey_desc_cnt_12":"The illustration supplements what cannot be conveyed by text.",
+				"txt_expression_title": "Expressions",
+				"txt_expression_desc_1": "In accordance with the Design Philosophy, ",
+				"txt_expression_desc_2": "expressions that embody the brand image of PayPay are used",
 				"txt_expression_desc": [
 					{
-						"desc": "イラスト表現に用いるモチーフは極力簡略化しシンプルに構成する"
+						"desc": "Motifs used in illustrations are simplified as much as possible."
 					},
 					{
-						"desc": "カラーは塗り表現のみを用い、Color項目のカラーパレットの色を参考に構成する"
+						"desc": "Only fill is used for coloring, using colors based on the color palette provided in Color."
 					},
 					{
-						"desc": "無機質すぎない親しみやすい表現を用いる"
+						"desc": "Friendly expressions are used that are not overly inanimate."
 					},
 					{
-						"desc": "指定がない場合は個人・固有の企業が判別できるような表現はしない"
+						"desc": "Expressions representing a specific individual or business are not used"
 					}
 				],
 				"txt_dont_title": "Don't",
 				"txt_dont_desc": [
 					{
-						"desc": "以下のような表現はいかなる場合でも禁止とします。"
+						"desc": "It is prohibited to use the following expressions at all times.。"
 					}
 				],
 				"usageIllustration": [{
-					"desc_1": "カテゴリーを表すイラスト",
-					"desc_2": "カテゴリを視覚的に説明することでユーザーの理解をサポートする",
+					"desc_1": "Illustrations representing a category",
+					"desc_2": "The user’s understanding is facilitated by providing a visual explanation of a category.",
 					"logo": "Illustration_usage_01.svg"
 					},{
-					"desc_1": "キャンペーンの装飾イラスト",
-					"desc_2": "当選情報の伝達とともに、装飾により演出でユーザーの気持ちを盛り上げる",
+					"desc_1": "Decorative illustration for a campaign",
+					"desc_2": "While communicating that the user has won, the decorative design helps create excitement for the user.",
 					"logo": "Illustration_usage_02.svg"
 					}
 				],
-				"design_rules": [{
-					"name":"Focal Point",
-					"desc":"より強調したい部分、主題を表現している部分により強い色を使用します。対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。",
-					 "icon":""
-					},{
-					"name":"Facial Expression",
-					"desc":"人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。",
-					"icon":""
-				}],
 				"donts":[{
-					"desc":"線画、水彩風など、ガイドラインに沿わない表現",
+					"desc":"Expressions that deviate from the guideline, such as line/watercolor drawings.",
 					"logo": "Illustration_usage_06.png"
 				},{
-					"desc":"公序良俗に反する表現",
+					"desc":"Expressions contrary to public morals.",
 					"logo": "Illustration_usage_07.svg"
 				},{
-					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
+					"desc":"Expressions in breach of the company’s brand or third party’s brand. It is not allowed to change the shape or color of the PayPay logo and use it in an illustration.",
 					"logo": "Illustration_usage_08.svg"
 				}],
 				"illustration_design_sect3_holders":  [{
@@ -3972,12 +3931,12 @@
 							"name":"panel1",
 							"illustration_design_sect3_images_colo1_icons": "icon_01.svg",
 							"illustration_design_sect3_images_colo1_title": "Focal Point",
-							"illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+							"illustration_design_sect3_images_colo2": "A stronger color is used to highlight something or for the main theme. Conversely, a low tone color is used for supplementary elements. In this way, a contrast is created within the illustration to provide clarity on the main theme."
 						}, {
 							"name":"panel2",
 							"illustration_design_sect3_images_colo1_icons": "icon_02.svg",
 							"illustration_design_sect3_images_colo1_title": "Facial Expression",
-							"illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+							"illustration_design_sect3_images_colo2": "When using an illustration of a person, their facial expression is left blank in principle unless when necessary."
 						}
 					]
 				}]
@@ -3987,175 +3946,175 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "スマートフォンやタブレットなどのタッチスクリーンデバイスでは、より直感的なエクスペリエンスを提供する必要があります"
+						"desc": "Touch screen devices such as smartphones and tablets in particular must provide an intuitive experience."
 					},
 					{
-						"desc": "すべてのアクションコンポーネントはインタラクティブである必要があります"
+						"desc": "All action components need to be interactive."
 					},
 					{
-						"desc": "視覚的にどのようなものであるかが理解でき、必要なアクションをアフォードし、アクション後のフィードバックを明確にする必要があります"
+						"desc": "The user needs to be able to visually understand what is happening, providing affordance for required actions, as well as providing clear feedback after the action."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "ユーザーが行う様々なタッチデバイス上での振る舞いをジェスチャーと呼びます。"
+						"desc": "Gestures refer to the different behaviors the user can enact on a touch device.。"
 					},
 					{
-						"desc": "ジェスチャーには様々な種類があります。基本的にはデバイスの定義する標準のジェスチャーに準拠します。"
+						"desc": "There are many different types of gestures. In principle, they follow the standard gestures defined by the device."
 					},
 					{
-						"desc": "ただし、標準的なジェスチャーであっても、複雑な挙動をするものは、ユーザーが見逃したり誤動作をしないためのサポートが必要です。"
+						"desc": "Some standard gestures do however have a complex behavior, in which case, support should be provided to prevent users from missing or mishandling them."
 					}
 				],
 				"title_feedback": "Feedback",
 				"title_feedback_desc": [
 					{
-						"desc": "アクションコンポーネントは、ユーザーアクション後に必ず結果を示すフィードバックを提示します。"
+						"desc": "An action component always provides feedback after a user’s action."
 					},
 					{
-						"desc": "フィードバックを提示することで、ユーザーは自分の行った操作が成功したのか、結果はどうだったのかを知ることができます。"
+						"desc": "Through the feedback, the user comes to know of whether the action was successful or not."
 					}
 				],
 				"title_touch_feedback": "Touch Feedback",
 				"title_touch_feedback_table": [
 					{
 						"name": "iOS",
-						"desc": "タッチフィードバックは通常時のコンポーネントの色から明度を5落とした色を指定し、テキストは通常時の色のまま70%透過を指定しますタッチフィードバックの色は各コンポーネントの項目を参照してください"
+						"desc": "A color with a brightness 5 lower than the normal color of the component is used to provide touch feedback. The color of the texts remains the same, but with 70% transparency. Refer to the individual components for the colors of the touch feedback."
 					},
 					{
 						"name": "Android",
-						"desc": "OSのRipple効果に準拠します"
+						"desc": "Is in accordance with the ripple effect of the OS."
 					}
 				],
 				"title_noticeofresults": "Notice of Results",
 				"noticeofresults_desc": [
 					{
-						"desc": "アクションのフィードバックと合わせて、アクションを行った結果をフィードバックすることを推奨します。"
+						"desc": "In addition to feedback on the action, it is also recommended to provide feedback on the result after the user has performed the action."
 					},
 					{
-						"desc": "結果を提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます。"
+						"desc": "By displaying the result, the user will come to know whether the action was successful or not."
 					}
 				],
-				"txt_noticeofresults": "フィードバックを表示するコンポーネントはToastの項目を参照ください。",
+				"txt_noticeofresults": "Refer to the Toast section for more information on the components for displaying feedback.",
 				"title_tap": "Tap",
 				"tap_desc": [
 					{
-						"desc":"コンポーネントをタッチする動作です。"
+						"desc":"Tapping is the action of touching a component."
 					},
 					{
-						"desc":"最も標準的なジェスチャーです。"
+						"desc":"It is the most standard gesture."
 					}
 				],
 				"txt_tap_desc": [
 					{
-						"desc":"ボタンなどの標準的なコンポーネント以外にタップアクションを利用する場合は、"
+						"desc":"For tap actions that do not utilize standard components such as a button、"
 					},
 					{
-						"desc":"ユーザーがタップ可能であることを理解できるよう、視覚的なサポートを必須とします。"
+						"desc":"it is mandatory to provide visual support to ensure the users understands it can be tapped."
 					},
 					{
-						"desc":"またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。"
+						"desc":"It is also mandatory to display the supporting components to clearly indicate where they are in the overall content."
 					}
 				],
-				"txt_touch_guide": "タップを示すビジュアル要素を表示する",
+				"txt_touch_guide": "Display a visual element to indicate a tap.",
 				"title_scroll": "Scroll",
 				"scroll_desc": [
 					{
-						"desc":"画面上に複数の連続するコンテンツが並ぶ場合、画面に収まりきらない情報を指で上下に動かし画面内に表示する動作です。"
+						"desc":"Scrolling is the action of moving information upwards or downwards to enabling viewing it when there are multiple contents displayed in continuation and it does not fit into the screen."
 					},
 					{
-						"desc":"ユーザーの指の動きにコンテンツが追従するようにします。"
+						"desc":"The contents mirror the movement of the user’s finger."
 					},
 					{
-						"desc":"また、ユーザーが画面を素早くスクロールした場合は、デバイス標準の慣性スクロールを有効にし、効率的に情報を表示できるようにします。"
+						"desc":"If the user scrolls quickly, the device's standard inertial scrolling is activated for the information to be displayed efficiently."
 					}
 				],
-				"txt_scroll_desc": "リストなど、情報量の多いコンテンツをスクロールしながら閲覧させる場合、現在画面上に表示されているものが、複数あるコンテンツの中の何なのか、またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。",
+				"txt_scroll_desc": "When the user is required to view information-heavy contents, it is mandatory to display supporting components to provide clarity on what information is currently being displayed and at which position the users is amongst all the contents.",
 				"title_flick": "Flick",
 				"flick_desc": [
 					{
-						"desc":"コンポーネントを指で軽く横に弾く動作です。"
+						"desc":"Flicking is the action of lightly striking a component sideways with a finger."
 					},
 					{
-						"desc":"画面上に多くの情報を配置するのが困難な場合、画面外、横位置にコンポーネントを並べ、横にフリックすることで画面外の情報を表示します。"
+						"desc":"When it is difficult to place a lot of information on the screen, components are horizontally lined-up outside of the screen and made viewable by flicking sideways."
 					}
 				],
-				"txt_flick_desc": "フリックで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"txt_flick_desc": "To indicate that it is possible to flick and display information, it is mandatory to display supporting components.",
 				"title_drag_slide_view": "Drag - Slide View",
-				"drag_slide_view_desc_1":"コンポーネントの一部を指で引っ張ることで隠れたコンポーネントを画面上に表示する動作です。",
-				"drag_slide_view_desc_2":"Dragで情報を表示することが可能だと示すために、サポートするコンポーネントを表示することを必須とします。",
+				"drag_slide_view_desc_1":"Dragging is the action of pulling one part of the component to reveal a component previously hidden on the screen.",
+				"drag_slide_view_desc_2":"To indicate that it is possible to display information by dragging, it is mandatory to display supporting components.",
 				"title_drag_drop": "Drag & Drop",
 				"drag_drop_desc": [
 					{
-						"desc": "コンポーネントの一部を引っ張り、移動させた後、指を離すことでアクションを実行する動作です。"
+						"desc": "Drag & drop is the action of pulling and moving one part of the component with a finger and then letting it go."
 					},
 					{
-						"desc": "リストの並び替えなどに利用します。"
+						"desc": "It is used in cases such as when rearranging a list."
 					}
 				],
 				"title_pinch": "Pinch-in/Pinch-out",
 				"pinch_desc": [
 					{
-						"desc": "画面の一部をつまみ、広げることで拡大する動作です。"
+						"desc": "Pinching-out is the action of placing a thumb and finger on the screen and moving them apart to zoom in."
 					},
 					{
-						"desc": "反対に縮小することも可能です。"
+						"desc": "Pinching-in is the reverse action to zoom out."
 					},
 					{
-						"desc": "地図や画像などで縮尺を変更する際に利用します。"
+						"desc": "It is used to shrink or enlarge maps or images."
 					}
 				],
-				"txt_pinch_desc": "推奨しないジェスチャー",
+				"txt_pinch_desc": "Gestures Not Recommended",
 				"txt_pinch_content":[
 					{
-						"desc": "標準ジェスチャーであっても、ユーザーが使い慣れず、理解が難しいものは利用を推奨しません。"
+						"desc": "Even if it is a standard gesture, if it is a gesture the user is unfamiliar with or is difficult to understand, its use is not recommended."
 					},
 					{
-						"desc": "長押し、ダブルタップ、3本指でのジェスチャーを取り入れる場合は、必ずユーザーの学習とアフォーダンスをサポートするUIを表示することを必須とします。"
+						"desc": "For gestures such as the long press, double tap, or other gestures requiring three fingers, it is mandatory to educate the user and display a supporting UI that functions as an affordance."
 					}
 				],
 				"scroll_desc_img":[{
-					"desc":"スクロールバーを表示する",
+					"desc":"Display a scroll bar.",
 					"logo": "scrolGuide_img_1.svg"
 				},{
-					"desc":"表示中の項目のタイトルを画面上部に表示する",
+					"desc":"Display the title of the current display at the top of the screen.",
 					"logo": "scrolGuide_img_2.svg"
 				}],
 				"flick_desc_img":[{
-					"desc":"画面端に隠れたコンテンツを表示する",
+					"desc":"Display content hidden at the edge of the screen.",
 					"logo": "flick_img1.png"
 				},{
-					"desc":"Page controllを表示する",
+					"desc":"Display page controls.",
 					"logo": "flick_img2.svg"
 				}],
 				"drag_slide_desc":[{
-					"desc":"ジェスチャーを促すコンポーネント",
+					"desc":"Components that encourage the drag gesture.",
 					"logo": "drag_02_img.png"
 				}]
 			},
 			"icongraphy": {
-				"igrphy_headers": "Icongraphy",
+				"igrphy_headers": "Iconography",
 				"igrphy_sect1_title": "Principle",
 				"igrphy_sect1_description": [
-					"アイコンを利用することで、コンテンツの直感的な理解を促します。",
-					"アイコンは単体でも機能する必要があります。テキストを利用しなくても一目で意味が理解できるものである必要があります。",
-					"無駄な装飾は排除し、シンプルかつフレンドリーな設計である必要があります。"
+					"The use of icons facilitates an intuitive understanding of the contents.",
+					"An icon must function even when on its own. It must be something that makes sense at a glance without using text",
+					"An icon should be free of unnecessary decorations, consisting of a simple and friendly design."
 				],
 				"igrphy_sect1_images": [
 					{
 						"name":"pannel1",
 						"icons": "igrphy_sect1_doimage.svg",
 						"desc": [
-							"シンプルな表現",
-							"無駄な装飾をすべて排除し、シンプルに表現"
+							"Simple",
+							"Simple representations with no unnecessary decoration."
 						]
 					}, {
 						"name":"pannel2",
 						"icons": "igrphy_sect1_dontimage.svg",
 						"desc": [
-							"複雑な表現",
-							"立体的な表現、手描きのような表現、有機的な形状は禁止とする"
+							"Complex",
+							"It is prohibited to use 3D representations, hand-drawn designs, and organic shapes."
 						]
 					}
 				],
@@ -4167,38 +4126,38 @@
 						"icons": "igrphy_sect2_no1.svg", 
 						"igrphy_sect2_images_colo1_title1": "Home : ",
 						"igrphy_sect2_images_colo1_title2": "Service icon",
-						"igrphy_sect2_images_colo2": "機能やサービスを表す"
+						"igrphy_sect2_images_colo2": "Represents a feature or service"
 					}, {
 						"name": "no2",
 						"icons": "igrphy_sect2_no2.svg", 
 						"igrphy_sect2_images_colo1_title1": "List : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
-						"igrphy_sect2_images_colo2": "メニューの内容を補足する"
+						"igrphy_sect2_images_colo2": "Supplements the contents of a menu"
 					}, {
 						"name": "no3",
 						"icons": "igrphy_sect2_no3.svg", 
 						"igrphy_sect2_images_colo1_title1": "Header : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
-						"igrphy_sect2_images_colo2": "アイコン単体で機能を表す"
+						"igrphy_sect2_images_colo2": "A single icon that represents a feature"
 					}, {
 						"name": "no4",
 						"icons": "igrphy_sect2_no4.svg", 
 						"igrphy_sect2_images_colo1_title1": "Half sheet : ",
 						"igrphy_sect2_images_colo1_title2": "System icon + Status Mark",
-						"igrphy_sect2_images_colo2": "ハーフシートの内容を補足する"
+						"igrphy_sect2_images_colo2": "Supplements the contents in a half sheet"
 					}
 				],
 				"igrphy_sect3_title": "Type",
-				"igrphy_sect3_subtitle": "アイコンのTypeによって、利用する色が異なります。",
+				"igrphy_sect3_subtitle": "The colors used in an icon depend on the type of the icon.",
 				"igrphy_sect3_holders": [
 					{
 						"name": "panel1",
 						"clsname": "igrphy_sect3_pannel1",
 						"igrphy_sect3pnel_title": "Service Icon",
 						"igrphy_sect3pnel_descriptions": [
-							"PayPayの機能やサービスを表すアイコンです。",
-                            "基本の紺色の他に、サービスのイメージに近い1色をカラーパレットから選定し利用します。",
-                            "色の選定についてはSpecを参照ください。"
+							"A service icon represents a PayPay feature or service.",
+                            "In addition to the basic navy blue, a single color that has a likeness with the service is selected and applied.",
+                            "Refer to Specs on selecting a color."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img1.svg"
 					}, {
@@ -4206,8 +4165,8 @@
 						"clsname": "igrphy_sect3_pannel2",
 						"igrphy_sect3pnel_title": "System Icon",
 						"igrphy_sect3pnel_descriptions": [
-							"アプリの機能や操作などに利用されるアイコンを指します。",
-                            "単色または紺色と水色の２色を使います。"
+							"A system icon refers to an icon used for an app feature or action.",
+                            "A system icon may use just one color or two blues: navy blue and blue."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img2.svg"
 					}, {
@@ -4215,9 +4174,9 @@
 						"clsname": "igrphy_sect3_pannel3",
 						"igrphy_sect3pnel_title": "Status Mark",
 						"igrphy_sect3pnel_descriptions": [
-							"System IconにStatus Markを組み合わせることで、状態を表すことができます。",
-                            "ハーフシートや操作の説明時に利用します。",
-                            "組みわせることで視認性が損なわれる場合は利用せず、視認性が十分に担保できるサイズで利用してください"
+							"A status is represented by combining a system icon with a status mark.",
+                            "It is used for half-sheets and explaining an action.",
+                            "A status mark must not be used if it impairs the visibility of the icon. Also, it must be big enough to ensure sufficient visibility."
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img3.svg",
 						"igrphy_sect3_images_tableholder": [
@@ -4225,27 +4184,27 @@
 								"name":"panel1",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no1.svg",
 								"igrphy_sect3_images_colo1_title": "Success / 成功",
-								"igrphy_sect3_images_colo2": "アクションが完了し、処理が成功した際に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when the action is completed and processed successfully."
 							}, {
 								"name":"panel2",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no2.svg",
 								"igrphy_sect3_images_colo1_title": "Add New / 追加",
-								"igrphy_sect3_images_colo2": "追加アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an additional action."
 							}, {
 								"name":"panel3",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no3.svg",
 								"igrphy_sect3_images_colo1_title": "Delete / 削除",
-								"igrphy_sect3_images_colo2": "削除アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing a delete action."
 							}, {
 								"name":"panel4",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no4.svg",
 								"igrphy_sect3_images_colo1_title": "Invalid / 無効",
-								"igrphy_sect3_images_colo2": "無効アクションの確認、実行時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an invalid action."
 							}, {
 								"name":"panel5",
 								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no5.svg",
 								"igrphy_sect3_images_colo1_title": "Error / エラー",
-								"igrphy_sect3_images_colo2": "エラー時、アラート時に表示します"
+								"igrphy_sect3_images_colo2": "Displayed in case of an error or alert"
 							}
 						]
 					}
@@ -4269,56 +4228,56 @@
 						"name":"panel4",
 						"igrphy_sect4_images_colo1": "Template",
 						"igrphy_sect4_images_colo2": [
-							"Templates are provided as Ai data. Guides according to the shape are set in the template data. Use a guide that is close to the shape of the icon you are creating as a guide.",
-							"See Template for templates."
+							"Templates are available as Ai data. There are guides in the template data that match the shape. In the template data, guides are displayed along the contour. When creating an icon, refer the guides closest to the form of the icon being created.",
+							"Refer to Template for details on templates."
 						]
 					}
 				],
 				"igrphy_sect5_title": "Color",
 				"igrphy_sect5_subtitle": "Service Icon",
-				"igrphy_sect5_description": "以下Color palettから色を選択します。",
+				"igrphy_sect5_description": "Select a color from the color palette below.",
 				"igrphy_sect5_mccolortitle": "Mail Color",
-				"igrphy_sect5_mccolordesc": "メインカラーとして共通で紺色を使用します",
+				"igrphy_sect5_mccolordesc": "Navy blue is used as the common main color.",
 				"igrphy_sect5_accolortitle": "Accent Color",
-				"igrphy_sect5_accolordesc": "モチーフの一部にアクセントカラーを使用します左記4色の中からサービスのイメージにあう色を利用します",
+				"igrphy_sect5_accolordesc": "Accent colors are used to part of the motif. One of the four colors on the left that matches the service image is used.",
 				"igrphy_sect5_sysccolortitle": "System Icon",
-				"igrphy_sect5_aysccolordesc1": "以下Color palettから色を選択します。",
-				"igrphy_sect5_aysccolordesc2": "System  Icon は左記2色の組み合わせ、または単色で利用します",
+				"igrphy_sect5_aysccolordesc1": "Select a color from the color palette below.",
+				"igrphy_sect5_aysccolordesc2": "A system icon consists of a combination of the two colors on the left or just one color.",
 				"igrphy_sect5_subtitle_dont": "Don't",
-				"igrphy_sect5_dont_des": "複雑な表現 立体的な表現、手描きのような表現、有機的な形状は禁止とする",
+				"igrphy_sect5_dont_des": "It is prohibited to use unspecified colors.",
 				"igrphy_sect6_title": "Template",
 				"igrphy_sect6_description": [
-					"アイコンを制作する際は、テンプレート（Ai）での作業を推奨します。",
-                    "テンプレートは実寸の2倍サイズで展開しています。",
-                    "Aiファイルで作業した後、Sketch/Figmaで作業する際には1/2サイズに縮小してください。"
+					"It is recommended to work-off a template (Ai) when creating an icon.",
+                    "The template is made at twice the actual size.",
+                    "Please reduce the size to 1/2 after completing the icon and using it in Sketch/Figma."
 				],
 				"igrphy_sect6_images_tableholder": [
 					{
 						"name":"panel1",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no1.svg",
 						"igrphy_sect4_images_colo1": "Padding",
-						"igrphy_sect4_images_colo2": "アイコン作成エリアには周辺に2pxの余白を設けます。メインとなるアイコンのモチーフはPaddingエリアには配置しません"
+						"igrphy_sect4_images_colo2": "The icon area is padded by a 2px margin. The main icon motif is not placed within the padding."
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no2.svg",
 						"igrphy_sect4_images_colo1": "Icon area",
-						"igrphy_sect4_images_colo2": "Padding area 内20px*20px内のエリアにメインとなるアイコンのモチーフを配置します"
+						"igrphy_sect4_images_colo2": "The main icon motif is placed within the 20px*20px area on the inside of the padding area."
 					}
 				],
-				"igrphy_sect7_title": "基本の形状",
+				"igrphy_sect7_title": "Basic Shapes",
 				"igrphy_sect7_description": [
-					"テンプレートデータ内には、形状に沿ったガイドが設定してあります。",
-					"作成するアイコンの形状に近いガイドを目安に作成をしてください。"
+					"In the template data, there are guides displayed in the form of different shapes.",
+					"When creating an icon, refer the guides closest to the form of the icon being created."
 				],
-				"igrphy_sect8_title": "テンプレートのダウンロード",
-				"igrphy_sect9_title": "注意事項",
-				"igrphy_sect9_description": "作成サイズは実寸の2倍サイズで展開する必要があります。",
+				"igrphy_sect8_title": "Download Template",
+				"igrphy_sect9_title": "Notes",
+				"igrphy_sect9_description": "The icon needs to be created at twice the actual size.。",
 				"igrphy_sect9_tableholder": [
 					{
 						"name": "panel1",
 						"col1": "",
-						"col2": "表示サイズ",
-						"col3": "作成サイズ"
+						"col2": "When Displaying",
+						"col3": "When Creating"
 					}, {
 						"name": "panel2",
 						"col1": "Icon size",
@@ -4355,108 +4314,108 @@
 				"layout_headers": "Layout",
 				"layout_sect1_title": "Principle",
 				"layout_sect1_description": [
-				  "画面内のコンポーネントの配置や余白を定義します。",
-				  "異なるプラットフォーム、環境下でも、定義したルールに従って設計することで、すべての環境で一貫性を保ちます。"
+				  "There are rules that define the placement of components and margins within a screen.",
+				  "Regardless of platform or environment, creating designs that follow the defined rules ensure consistency across all environments."
 				],
 				"layout_sect2_title": "Usage",
 				"layout_sect2_subtitle": "Merging Rule",
-				"layout_sect2_description": "画面内で利用する余白は基本的に4の倍数のpx/dpを指定します。",
-				"layout_sect2_hints": "ただし、細かいパーツが複雑に組み合わさるコンポーネントなどは、例外を認めます。",
+				"layout_sect2_description": "As a general rule, px/dps that are multiples of four are used for margins within the screen.",
+				"layout_sect2_hints": "Exceptions are permitted for components comprising a complex combination of small parts.",
 				"layout_sect3_title": "Responsive Layout",
 				"layout_sect3_description": [
-				  "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-				  "次に定義す <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>るブレイクポイント によって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+				  "When creating common web contents displayed across smartphone web/app screens, tablet or desktop screens, a layout that does not impair usability regardless of the environment must be ensured.",
+				  "Reaching the <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/layout#Layout-breakpoint' target='_blank'> breakpoint </a> defined below will trigger a switch between the smartphone / desktop layouts. Since tablets are considered as an extension of smartphones, there is only one breakpoint defined."
 				],
 				"layout_sect4_title": "Margin",
-				"layout_sect4_description": "大きく2種類の余白を定義します。",
+				"layout_sect4_description": "There two main types of margins.",
 				"layout_sect4_images_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect4_no1.svg", 
-					"desc": "画面の端から要素の間の余白"
+					"desc": "The margin between the edge of the screen and the contents"
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect4_no2.svg", 
-					"desc": "要素同士の余白"
+					"desc": "The margin between contents"
 				  }
 				],
-				"layout_sect5_title": "画面の端から要素の間",
-				"layout_sect5_description": "画面の端からコンテンツの間に余白を設けることで、コンテンツの視認性を担保します。スマートフォンの環境では、余白は24px/16pxを利用します。 余白の使い分けの目安は以下の通りです。",
-				"layout_sect5_hint1": "入力フォームやアクションボタンがメインとなる画面",
-				"layout_sect5_hint2": "入力フォームやアクションボタンがメインとなる画面",
-				"layout_sect6_title": "環境別の指定",
-				"layout_sect6_description": "タブレット、デスクトップの環境では、余白は40px/24pxを利用します。余白の切り替えはブレイクポイントによって行われます。",
-				"layout_sect7_title": "要素同士の余白",
-				"layout_sect7_description": "複数のコンテンツが隣接する場合はコンテンツの間に十分な余白を設け、近接する情報のグルーピングを明確にします。複数のコンテンツが並ぶ場合は8px / 12px / 16pxの余白の利用を推奨します。",
-				"layout_sect7_hint": "余白と余白の間のコンポーネントは固定値ではなく、パーセンテージで定義します。余白は固定値として指定し、コンポーネントはデバイスのサイズによって可変とします。",
+				"layout_sect5_title": "The margin between the edge of the screen and the contents",
+				"layout_sect5_description": "A margin is inserted between the edge of the screen and the contents to ensure visibility of the contents. In a smartphone environment, a 24px/16px margin is used. Below are examples on which margin to use.",
+				"layout_sect5_hint1": "Screens in which user input / action buttons are the primary contents",
+				"layout_sect5_hint2": "Screens in which card UIs and lists are the primary contents",
+				"layout_sect6_title": "Margins in other environments",
+				"layout_sect6_description": "A 40px/24px margin is used for tablet or desktop environments. Reaching the breakpoint will trigger the margins to switch.",
+				"layout_sect7_title": "The margin between contents",
+				"layout_sect7_description": "A sufficient margin is ensured between contents when arranging them adjacently, providing clarity on information that are grouped together. It is recommended to use an 8px/12px/16px margin when multiple contents are displayed adjacently.",
+				"layout_sect7_hint": "The components placed between margins are defined using a percentage, not a fixed value. The margin is designated using a fixed value. The size of the component is variable according to the size of the device. ",
 				"layout_sect8_title": "About Safe Area",
 				"layout_sect8_description": [
-				  "ノッチやカットアウト領域のあるデバイスでは、Safe Area外へのアクションコンポーネントの配置を禁止とします。",
-				  "Safe Area外にはビジュアル要素のみの表示を推奨します。",
-				  "Safe Area外にも背景色や装飾要素を表示することによって、画面を広く見せることができ、より快適な体験を提供することができます。"
+				  "It is prohibited to place action components outside the safe area for devices with notches or cutout areas.",
+				  "It is recommended to display only visual elements outside the safe area.",
+				  "Displaying a background color or other decorative elements outside the safe area helps to make the screen look spacious, providing a more comfortable experience."
 				],
 				"layout_sect8_images_tableholder": [
 				  {
 					"name": "panel1",
 					"col1": "iOS",
-					"col2": "iOS Deviceの場合、上部44px、下部34pxの間をSafe Areaとします iOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> を参照してください"
+					"col2": "For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom. Refer to the IOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> for details"
 				},
 				  {
 					"name": "panel2",
 					"col1": "Android",
-					"col2": "Android Deviceの場合、カットアウトエリアのサイズは機種に依存します Support Display Cutout を参照してください"
+					"col2": "For Android devices, the size of the cutout area depends on the device model. Refer to the Support Display Cutout for details."
 				  }
 				],
-				"layout_sect8_hint": "セーフエリア内でのアクションコンポーネントの配置",
+				"layout_sect8_hint": "Placing action components inside the safe area",
 				"layout_sect8_icons_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect8_doimage.png",
-					"desc": "アクションコンポーネントはSafe Area内に配置する"
+					"desc": "Place action components inside the safe area."
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect8_dontimage.png",
-					"desc": "アクションコンポーネントをSafe area外に配置する"
+					"desc": "Place action components outside the safe area."
 				  }
 				],
 				"layout_sect9_title": "Layout Pattern",
-				"layout_sect9_description": "画面のレイアウトに定形パターンを定義します。サービスのコンセプトや機能によって使い分けをします。",
+				"layout_sect9_description": "There are several template layouts. The different layouts are used according to the concept of the service or feature.",
 				"layout_sect9_images_tableholder": [
 				  {
 					"name": "panel1",
 					"icons": "layout_sect9_no1.svg", 
 					"text": "Normal",
-					"desc": "最も一般的なレイアウトです 基本的にはこのレイアウトを利用します"
+					"desc": "The most commonly used layout. This layout is the default layout that is used."
 				  },
 				  {
 					"name": "panel2",
 					"icons": "layout_sect9_no2.svg", 
 					"text": "Section",
-					"desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします"
+					"desc": "Used to display multiple sections in one screen. Contents grouped into sections are displayed, providing clarity on the categorization of information."
 				  },
 				  {
 					"name": "panel3",
 					"icons": "layout_sect9_no3.svg", 
 					"text": "Card",
-					"desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします カード両端に余白を設けることで、 Section よりも、カード自体がアクション可能なことを明示します Cardレイアウトは画面端左右に16pxの余白を設けます"
+					"desc": "Used to display multiple sections in one screen. Contents grouped into sections are displayed, providing clarity on the categorization of information. A margin is inserted on both ends of the card to indicate that the card itself entails an action, compared to (2) Section. A 16px margin is inserted on the left and right side of the card."
 				  },
 				  {
 					"name": "panel4",
 					"icons": "layout_sect9_no4.svg", 
 					"text": "Full screen",
-					"desc": "カメラやプロモーションなど、画面全体にコンテンツを配置する場合に利用します ヘッダエリアの背景は透過し、下に配置されるコンテンツが見えるようにします ヘッダエリアのテキストは十分に可読性を担保する処理が必要です"
+					"desc": "Used when placing contents across the entire screen, such as a camera or promotion screen. The header area is rendered transparent so that the contents placed below is visible. Sufficient readability of the text in the header area must be ensured."
 				  },
 				  {
 					"name": "panel5",
 					"icons": "layout_sect9_no5.svg", 
 					"text": "Half color background",
-					"desc": "画面上部に重要な情報を表示する場合に利用します 画面上部にはアイキャッチとなるサービスや機能の特性を表すカラーを設定します 色の設定についてはFlavor Colorを参照してください"
+					"desc": "Used when displaying important information at the top of the screen. A color representing the service or feature intended as an “eye catcher” is specified for the top half of the screen. Refer to the flavor colors for the use of colors."
 				  }
 				],
 				"layout_sect10_title": "Aspect Ratios",
-				"layout_sect10_description": "画面に配置される画像やコンポーネントのアスペクト比を定義します。以下の比率を利用することを推奨します。",
+				"layout_sect10_description": "Below are the aspect ratios used for images and components placed in the screen. It is recommended to use these defined aspect ratios.",
 				"layout_sect10_subtitle": "Usage Example"
 			},
 			"photo":{
@@ -4464,74 +4423,75 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "Photos are to enhance the brand image and also helps the users to understand the content easier even without explaining, and most importantly to show users how to proceed with the next action."
+						"desc": "Photos are to enhance the brand image, help the user understand the contents without explaining it, and most importantly, show the user how to proceed with the next action."
 					},
 					{
-						"desc": "We should always use realistic images not staged images and they should genuinely add values to PayPay."
+						"desc": "Realistic images should always be used, not staged images. They should genuinely add value to PayPay."
 					},
 					{
-						"desc": "Most importantly, Be Informative, Straightforward, and Accessible."
+						"desc": "It is most important to be informative, straightforward, and accessible."
 					}
 				],
 				"title_usage": "Usage",
 				"title_size": "Size",
 				"size_desc": [
 					{
-						"desc": "Always prepare @3x images for a better resolution."
+						"desc": "Always prepare @3x images for better resolution."
 					},
 					{
-						"desc": "Avoid oversized images in the app. Always optimized them to the max."
+						"desc": "Avoid oversized images in the app and always optimize them."
 					}
 				],
 				"title_ratio": "Ratio",
 				"ratio_desc": [
 					{
-						"desc": "Don't stretch or alter the original image aspect ratio."
+						"desc": "Avoid stretching or altering the original image aspect ratio."
 					}
 				],
 				"title_dont": "Do/ Don't",
+				"dont_title": "Don't",
 				"dont_desc": [
 					{
-						"desc": "モチーフが明瞭",
+						"desc": "Motifs are clear.",
 						"desc_1": "",
 						"logo": "dont_01.png"
 						},{
-						"desc": "モチーフが明瞭でない",
-						"desc_1":"ネガティブな印象を与える",
+						"desc": "Motifs are not clear.",
+						"desc_1":"Gives a negative impression.",
 						"logo": "dont_02.png"
 						},{
-						"desc": "モチーフが明瞭",
+						"desc": "Motifs are clear",
 						"desc_1":"",
 						"logo": "dont_03.png"
 						},{
-						"desc": "不明瞭またはピントがボケている",
+						"desc": "Motifs are not clear or out of focus",
 						"desc_1":"",
 						"logo": "dont_04.png"
 						},{
-						"desc": "権利を有した写真",
+						"desc": "Use photos owned by PayPay",
 						"desc_1":"",
 						"logo": "dont_05.png"
 						},{
-						"desc": "第三者の権利を侵害した写真を使わない",
-						"desc_1":"Do not use copyrighted material from other sites without permission or watermarked images.",
+						"desc": "Do not Use photos owned by a third party without permission or that are watermarked.",
+						"desc_1":"",
 						"logo": "dont_06.png"
 						},{
-						"desc": "内容に関係ない場合に他社のブランド名やロゴなどを入れない",
-						"desc_1":"Do not show any brand names in the image unless it is in the context.",
+						"desc": "Do not Show other brands or logos unless it is in the context.",
+						"desc_1":"",
 						"logo": "dont_07.png"
 						},{
-						"desc": "良俗公序に反するイメージ",
-						"desc_1":"Do not use any kind of potentially offensive or sexual images.",
+						"desc": "Do not Use potentially offensive or sexual images.",
+						"desc_1":"",
 						"logo": "dont_08.png"
 						}
 				],
-				"txt_dont_desc": "事実関係のない環境・対象で撮られたイメージを使わない",
+				"txt_dont_desc": "Use photos taken in an environment or includes subjects that are unrelated.",
 				"dont_desc_1": [
 					{
-					"desc": "密集したパターン",
+					"desc": "Use clustered patterns.",
 					"logo": "dont_10.png"
 					},{
-					"desc": "モアレ・ハレーション を起こす画像",
+					"desc": "Use an image that causes a moiré effect.",
 					"logo": "dont_11.png"
 					}
 				]
@@ -4541,50 +4501,52 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "Componentを構成する形状は、必ず一般的な形状を用い、表示される情報の可読性を阻害するような形状の利用は禁止とします。"
+						"desc": "The shapes that comprise a component must be generic. Use of shapes that interfere with the readability of the information is prohibited."
 					},
 					{
-						"desc": "ガイドラインに沿った形状を繰り返し利用することで一貫性を保ち、PayPayブランドを醸成します。"
+						"desc": "Consistency is ensured by repeated use of shapes that follow the guideline, thereby fostering the PayPay brand."
 					}
 				],
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "コンポーネントの角は丸くし、肌触りの良さ、親しみやすさを表現します。"
+						"desc": "The corners of components are rounded to express a pleasant, friendly feeling."
 					}
 				],
 				"title_spec": "Spec",
-				"title_spec_desc": "角丸は 8px / 20px に統一します。"
+				"title_spec_desc": "Rounded corners are unified using 8px / 20px.",
+				"spec_note1": "Card, Button, etc.",
+				"spec_note2": "Half Sheets"
 			},
 			"shadow": {
 				"shadow_headers": "Shadow",
 				"shadow_sect1_title": "Principle",
 				"shadow_sect1_description": [
-					"影は画面内の階層を明示するために使用します。",
-					"影は情報の優先度や必要なアクションを明確に示します。強調すべき箇所に効果的に使用することを推奨します。"
+					"Shadows are used to provide clarity on the layers within a screen.",
+					"A shadow indicates the priority of a given information or necessary action. It is recommended to use shadows effectively in areas that are to be highlighted."
 				],
 				"shadow_sect2_title": "Usage",
-				"shadow_sect2_subtitle1": "階層構造",
+				"shadow_sect2_subtitle1": "Hierarchy",
 				"shadow_sect2_description1": [
-					"画面内は複数の層の重なりで構成されます。 より重要な情報を上位階層に表示します。 階層構造を視覚的に明示することで、コンテンツの優先順位を明確にし、ユーザーは必要なアクションにたどり着きやすくなります。",
-					"各階層ごとに影を採用することで、表示階層を明確にします。 画面内の光源/陰影は、方向、深さなどに一貫性を保ちます。"
+					"A screen consists of an overlap of multiple layers. Important information is displayed as top layers. Making this hierarchy visually evident provides clarity on the priority of contents, guiding the user to the necessary action.",
+					"The use of shadows with each layer makes it clear what layer is being displayed. Light sources/shadows including their direction and depth, etc. are kept consistent in the screen."
 				],
-				"shadow_sect2_subtitle2": "光源",
-				"shadow_sect2_description2": "光源は必ず上部90°方向にあるものとし、それ以外からの光源の設定は禁止とします。",
+				"shadow_sect2_subtitle2": "Light source",
+				"shadow_sect2_description2": "The light source must always exist at a 90° degrees angle to the top. No other light sources are allowed.",
 				"shadow_sect2_images_tableholder2": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect2_no1.svg", 
-					  "desc": "正しい光源（上部90°方向）"
+					  "desc": "Correct light source (90° degrees orientation to the top) "
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect2_no2.svg", 
-					  "desc": "誤った光源（上部45°方向）"
+					  "desc": "Incorrect light source (45° degrees orientation to the top) "
 					}
 				],
-				"shadow_sect2_subtitle3": "陰影",
-				"shadow_sect2_description3": "配置される階層によって異なる陰影を設定します。 <br/>物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect2_subtitle3": "Shadows",
+				"shadow_sect2_description3": "A shadow is configured according to the layer in which it is placed. <br/>According to the laws of physics, the lighter and larger the shadow becomes the further the distance becomes from the backmost layer.",
 				"shadow_sect2_images_tableholder3": [
 					{
 						"name": "no1",
@@ -4637,41 +4599,41 @@
 					}
 				],
 				"shadow_sect3_subtitle1": "Low-Shadow",
-				"shadow_sect3_description1": "配置される階層によって異なる陰影を設定します。 物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect3_description1": "Used to highlight a particular piece of information or with a card UI that combines various information into one card.",
 				"shadow_sect3_subtitle2": "Middle-Shadow",
-				"shadow_sect3_description2": "Low-shadow階層にあるコンテンツより優先的に見せるべきコンテンツ、またはアクションコンポーネントを表示します。重なるコンテンツの下層が複雑なコンテンツ（地図や図柄など）である場合は、情報をより認識しやすくなるようこの階層に表示します。",
+				"shadow_sect3_description2": "Used to indicate contents with a higher priority compared to contents placed in a low-shadow layer or to indicate an action component. A shadow is applied to this layer to make the information more recognizable when the contents in the lower, overlapping layer has a complex appearance, such as a map or graphic pattern. If the underlying layer of overlapping content is complex content (e.g., a map or a graphic), it should be shown at this level to make the information more recognizable.",
 				"shadow_sect3_subtitle3": "High-Shadow",
-				"shadow_sect3_description3": "画面内で特に優先度の高い情報やアクションにのみ用います。画面内で多用することは禁止します。",
+				"shadow_sect3_description3": "Used only for particularly high-priority information and actions. Prolific use of high-shadows within the same screen is prohibited.",
 				"shadow_sect3_subtitle4": "Don't",
-				"shadow_sect3_description4": "画面内で同階層に配置されているコンポーネントに別の深さのシャドウを指定することは禁止します。",
+				"shadow_sect3_description4": "It is prohibited to specify a shadow with a different depth against a component that is placed on the same layer in the screen.",
 				"shadow_sect3_images_tableholder4": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect3_no1.svg", 
-					  "desc": "シャドウの値が揃っている"
+					  "desc": "The values used for the shadows are consistent."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect3_no2.svg", 
-					  "desc": "シャドウの値が揃っていない"
+					  "desc": "The values used for the shadows are inconsistent."
 					}
 				],
 				"shadow_sect3_subtitle5": "White Background",
-				"shadow_sect3_description5": "コンテンツを表示する最も下の階層です。原則白色のみの利用を推奨します。",
+				"shadow_sect3_description5": "This is the lowest level at which content is displayed. As a principle, it is recommended to use only the color white.",
 				"shadow_sect3_subtitle6": "Base",
-				"shadow_sect3_description6": "この上に直接コンテンツを表示することはしません",
-				"shadow_sect4_title": "視認性担保のためのシャドウ表現",
-				"shadow_sect4_description": "写真や複雑なコンテンツの上にテキストやアイコンを配置する場合、配置するテキストやアイコンの視認性/可読性を十分に担保できるようにシャドウを用います。",
+				"shadow_sect3_description6": "No contents are displayed directly on this layer.",
+				"shadow_sect4_title": "Shadowing to ensure visibility",
+				"shadow_sect4_description": "When placing text or an icon on top of a photo or complex contents, shadows are used to ensure the text or icon is sufficiently visible/readable.",
 				"shadow_sect4_images_tableholder": [
 					{
 					  "name": "panel1",
 					  "icons": "shadow_sect4_no1.svg", 
-					  "desc": "地図上にボタンを表示"
+					  "desc": "Displaying a button on top of a map."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "shadow_sect4_no2.svg", 
-					  "desc": "カメラ機能にアクションコンポーネントを表示"
+					  "desc": "Displaying an action component when using the camera feature."
 					}
 				],
 				"shadow_sect5_title": "Spec",
@@ -4703,7 +4665,7 @@
 					},
 					{
 						"name": "panel6",
-						"title": "視認性担保のためのシャドウ", 
+						"title": "Shadowing to ensure visibility",
 						"desc": ["90°","#000000 Alpha 0.5", "#000000 Alpha 0" ]
 					}
 				]
@@ -4712,107 +4674,110 @@
 				"transition_headers": "Transition",
 				"transition_sect1_title": "Principle",
 				"transition_sect1_description": [
-					"ユーザーアクションによる画面の遷移時には、画面の移動アニメーションを必須とします",
-					"アニメーションを提示することによって、ユーザーは自身が現在どの画面を表示しているかを明確にします"
+					"It is mandatory to use a transition animation when it involves a screen transition as a result of the user’s action.",
+					"Displaying an animation provides clarity to the user on which screen is currently displayed."
 				],
 				"transition_sect2_title": "Usage",
 				"transition_sect2_subtitle1": "Drill Down",
 				"transition_sect2_description1": [
-					"ユーザーアクションにより、下の階層へ移動する場合は左から右へのアニメーションを表示し、画面が切り替わったことを明示します。",
-					"下層から上層に戻る場合も同様に右から左へのアニメーションを表示します。"
+					"When an action takes the user to a lower layer screen, a left to right animation is displayed to indicate a screen transition.",
+					"Similarly, when returning to a higher layer screen, a right to left animation is displayed."
 				],
+
 				"transition_sect2_subtitle2": "Slide UP",
-				"transition_sect2_description2": "角丸は 8px / 20px に統一します。"
+				"transition_sect2_description2": "When displaying a temporary task that interrupts the current action, a screen is displayed by sliding it up from below.",
+				"transition_sect2_description3": "It is prohibited to use this screen transition when taking the user to a lower layer screen."
+
 			},
 			"typography":{
 				"title": "Typography",
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "アプリ内では定義されたタイポグラフィ以外のものは利用しません。定義されたFont Familyを利用し、すべての画面において一貫性を保ちます"
+						"desc": "Only defined typography is used in the app. Specified font families are used to maintain consistency across all screens."
 					},
 					{
-						"desc": "可読性視認性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
+						"desc": "It is necessary to ensure readability/visibility, in a layout where the contents can be understood by anyone."
 					},
 					{
-						"desc": "和文はシステムフォント、欧文はカスタムフォントを利用し、必要以上の装飾やカスタムフォントの利用はしません"
+						"desc": "System fonts are used for Japanese text, and a custom font for English text. Unnecessary decorations and alternate custom fonts are not used"
 					},
 					{
-						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります。（2020年時点では日本語/英語をサポート）"
+						"desc": "The PayPay app must support all languages. (Japanese and English is supported as of 2020)"
 					}
 				],
 				"title_usage": "Usage",
 				"subtitle_font_families": "Font Families",
 				"title_usage_desc": [
 					{
-						"desc": "Font Familyはここに定義されたもののみを利用します。"
+						"desc": "Only the font families defined below are used."
 					}
 				],
 				"subtitle_weight": "Weight",
 				"subtitle_font_size":"Font Size",
 				"font_size_desc": [
 					{
-						"desc": "フォントサイズをHeading/Label/Bodyの3種類定義します。"
+						"desc": "There are three font size definitions: heading, label and body."
 					},
 					{
-						"desc": "すべてのコンポーネントはこの3種類から構成されます。"
+						"desc": "All components consist of these three definitions."
 					},
 					{
-						"desc": "各コンポーネントで使われるフォントについては、各ガイドラインを参照してください。"
+						"desc": "Refer to the guideline for the fonts used for the different components."
 					}
 				],
 				"subtitle_heading": "Heading (H)",
 				"heading_desc": [
 					{
-						"desc": "ヘッダやタイトルに利用します。"
+						"desc": "Used for headers and titles."
 					},
 					{
-						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
+						"desc": "The size used for a header/title cannot be smaller than the size of a label/paragraph."
 					}
 				],
 				"subtitle_label": "Label (L)",
 				"label_desc": [
 					{
-						"desc": "中見出し、アクションコンポーネント、補足情報に利用します。"
+						"desc": "Used for sub-headers, action components, and supplementary information."
 					},
 					{
-						"desc": "9、10pxなどの小さいサイズでは、Boldの利用を推奨します。"
+						"desc": "It is recommended to use bolded text for small sizes such as 9 or 10px."
 					},
 					{
-						"desc": "11px以下のサイズは主要なコンポーネントには利用しません。"
+						"desc": "Font sizes of 11px or below are not used for primary components."
 					}
 				],
 				"subtitle_body":"Body (B)",
 				"body_txt_desc": [
 					{
-						"desc": "ユーザーアクションによる入力情報、記事、コンテンツの説明文などに利用します。"
+						"desc": "Used for information input by the user, articles, and descriptions of contents."
 					},
 					{
-						"desc": "原則14pxの利用を推奨しますが、重要なコンポーネントについては、16pxを使用する必要があります。"
+						"desc": "It is recommended to use 14px in principle. 16px must be used for important components."
 					}
 				],
 				"subtitle_line_height":"Line Height",
 				"line_height_desc": [
 					{
-						"desc": "Line heightを定義します。"
+						"desc": "This is the definition of line spacing."
 					},
 					{
-						"desc": "十分な行間を保つことで、テキストの可読性を担保します。"
+						"desc": "The readability of text is ensured by maintaining sufficient line spacing."
 					}
 				],
 				"line_height_txt_desc": "Font size *1.5 px/sp = line-height (vertically centered)",
 				"title_size_line": "Size Line-UP",
-				"size_line_desc":"前述の項目で定義したフォントのサイズLine-upです。",
+				"size_line_desc":"Below is the line-up of the font sizes defined above.",
 				"title_text_color": "Text Color",
 				"text_color_desc": [
 					{
-						"desc": "用途別のテキストカラーを定義します。"
+						"desc": "This is the definition of text color by purpose."
 					},
 					{
-						"desc": "カラーはカラーパレットから引用しています。"
+						"desc": "Colors are selected from the color palette."
 					},
 					{
-						"desc": "下記に定義されたカラーを異なる用途で利用することは禁止します。"
+						"desc": "It is prohibited to use a particular color other than for the purpose it is defined for."
 					}
 				],
 				"subtitle_default_text": "Default text",
@@ -4820,16 +4785,16 @@
 				"title_price_text": "Price Text",
 				"price_text_desc": [
 					{
-						"desc": "PayPayはサービスの特性から、UI上で価格＋円の組み合わせを多用します。"
+						"desc": "Given PayPay’s service, a price together with the yen mark is used heavily in the UI."
 					},
 					{
-						"desc": "価格は決済アプリにおいて最も重要な情報であり、十分な可読性を担保する必要があります。"
+						"desc": "The price is one of the most critical pieces of information in a payment app and is therefore necessary to ensure sufficient readability."
 					},
 					{
-						"desc": "価格部分を読みやすくするよう「円」は価格のサイズより小さく表示する必要があります。"
+						"desc": "The size of the text “yen” must be smaller than the price to ensure the price is easily viewable."
 					}
 				],
-				"text_desc": "ここでは価格と円の比率を定義します。",
+				"text_desc": "Below is the definition of the ratio between the price and the yen mark",
 				"line_height_desc_1": [
 					{
 					"desc": "Example 1",
@@ -5007,7 +4972,7 @@
 				"text_subtitle1_desc1": [
                     {
                         "desc1": "TextBlack",
-                        "desc2": "PayPay残高でお支払い",
+                        "desc2": "Pay with your PayPay balance",
                         "iconcls":"colors_ac242323",
                         "iconcode":"#242323",
                         "iconclscolor":"ac242323",
@@ -5024,7 +4989,7 @@
                     },
                     {
                         "desc1": "SubtextGray",
-                        "desc2": "PayPayボーナスの7月となりますご了承ください",
+                        "desc2": "It will be July of the PayPay bonus",
                         "desc_1": "",
                         "iconcls":"colors_ac909090",
                         "iconcode":"#909090",
@@ -5033,7 +4998,7 @@
                     },
                     {
                         "desc1": "Empty/Disabled",
-                        "desc2": "ここにメモを記入",
+                        "desc2": "Write a note here",
                         "desc_1": "TextGray",
                         "iconcls":"colors_acBABABA",
                         "iconcode":"#BABABA",
@@ -5042,7 +5007,7 @@
                     },
                     {
                         "desc1": "TextNavy",
-                        "desc2": "その他",
+                        "desc2": "Other",
                         "desc_1": "",
                         "iconcls":"colors_ac002970",
                         "iconcode":"#002970",
@@ -5053,7 +5018,7 @@
 				"text_subtitle2_desc1": [
                     {
                         "desc1": "ErrorTextRed",
-                        "desc2": "残高が足りません",
+                        "desc2": "Not enough balance",
                         "color":"#FD5C5C",
                         "iconcls":"colors_acFD5C5C",
                         "iconcode":"#FD5C5C",
@@ -5061,7 +5026,7 @@
                     },
                     {
                         "desc1": "SuccessTextGreen",
-                        "desc2": "営業中",
+                        "desc2": "open for business",
                         "color":"#20BF7A",
                         "iconcls":"colors_ac20BF7A",
                         "iconcode":"#20BF7A",
@@ -5077,7 +5042,7 @@
                     },
                     {
                         "desc1": "LinkTextBlue",
-                        "desc2": "詳細をみる",
+                        "desc2": "View Details",
                         "color":"#00B9F5",
                         "iconcls":"colors_ac00B9F5",
                         "iconcode":"#00B9F5",
@@ -5114,25 +5079,25 @@
 				"balloon_headers": "Balloon",
 				"balloon_sect1_title": "Usage",
 				"balloon_sect1_description": [
-					"新機能のガイドなど、特定のコンポーネントに補足情報を示す際に使用します",
-					"ユーザーが気が付きにくい情報を補足することで、機能やコンポーネントの理解が深まりより良い体験をもたらします",
-					"Ballonはあくまで補足的な情報の提示のみに使用するものとし、主コンテンツの閲覧やアクションを妨げるような使い方はしません"
+					"A balloon is used to provide supplementary information about a particular component, such as a guide for a new feature.",
+					"Providing supplementary information that the user may otherwise have trouble finding out helps to facilitate a deeper understanding of the feature or component, resulting in a better experience.",
+					"A balloon is intended only to provide supplementary information. It should not be used in a way that interferes with users viewing the primary contents or making an action. A balloon is not used to promote a campaign."
 				],
 				"balloon_sect2_title": "Usage Example",
 				"balloon_sect2_images": [
 					{
 					  "name": "panel1",
 					  "icons": "balloon_sect2_images1.svg", 
-					  "desc": "新機能の訴求"
+					  "desc": "Promoting a new feature"
 					},
 					{
 					  "name": "panel2",
 					  "icons": "balloon_sect2_images2.svg", 
-					  "desc": "新着情報のお知らせ"
+					  "desc": "Providing notice on notifications"
 					}
 				],
 				"balloon_sect3_title": "Type",
-				"balloon_sect3_description": "バルーンのコンポーネントには2種類があり、用途によって使い分けをします。",
+				"balloon_sect3_description": "There are two types of balloon components that are used depending on the purpose.",
 				"balloon_sect3_images": [
 					{
 					  "name": "panel1",
@@ -5150,12 +5115,12 @@
 						"name": "no1",
 						"icons": "balloon_sect3_no1.svg", 
 						"balloon_sect3_col1": "Coach Balloon",
-						"balloon_sect3_col2":"新機能などの特定のComponentを強調、ガイドする場合に使用します"
+						"balloon_sect3_col2":"Used to highlight a particular component such as a new feature or guide the user to it."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect3_no2.svg", 
 						"balloon_sect3_col1": "Scroll Balloon",
-						"balloon_sect3_col2":"画面外の特定のComponentをガイドする場合に使用しますバルーンをタップすると対象のComponentの位置まで自動でスクロールします"
+						"balloon_sect3_col2":"Used to guide the user to a specific component that is not within the screen. Tapping the balloon will auto-scroll the user to the target component."
 					}
 				],
 				"balloon_sect4_title": "Detail",
@@ -5165,72 +5130,72 @@
 						"name": "no1",
 						"icons": "balloon_sect4_no1.svg", 
 						"balloon_sect4_col1": "Icon (Option)",
-						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2":"An icon matching the message or guide is displayed. Adding an icon helps to catch the user’s attention.",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect4_no2.svg", 
 						"balloon_sect4_col1": "Text  Label",
-						"balloon_sect4_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
+						"balloon_sect4_col2":"A promotional message or guiding text displayed in the balloon. It is recommended to keep the text concise and within one line so that the user can immediately understand its contents.",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no3",
 						"icons": "balloon_sect4_no3.svg", 
-						"balloon_sect4_col1": "Allow",
-						"balloon_sect4_col2":"バルーンの示すComponentの位置に合わせてAllowを配置します。",
+						"balloon_sect4_col1": "Arrow",
+						"balloon_sect4_col2":"The arrow is placed so that it is positioned towards the component the balloon is intended for.",
 						"balloon_sect4_col2_images": "balloon_sect4_icons.png",
 						"balloon_sect4_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
 					}
 				],
 				"balloon_sect5_title": "Do / Don't",
-				"balloon_sect5_description": "Coach Ballonを使用する際は、訴求対象が明確になるようにしてください。",
-				"balloon_sect5_points1": "強調したいコンテンツが明確",
-				"balloon_sect5_points2": "同一画面に復数のバルーンを配置する どのComponentが強調されているのか不明瞭",
-				"balloon_sect5_points3": "バルーンの視認性が悪い バルーンに近しい背景色の上への配置",
+				"balloon_sect5_description": "Ensure that the subject matter is clear when using a coach balloon.",
+				"balloon_sect5_points1": "It is clear which contents are intended to be highlighted.",
+				"balloon_sect5_points2": "Place multiple balloons in the same screen. It is unclear which component is being highlighted.",
+				"balloon_sect5_points3": "The balloon has poor visibility. It is placed on top of a background color close to that of the balloon.",
 				"balloon_sect6_title": "Scroll Balloon",
 				"balloon_sect6_tableholder": [
 					{
 						"name": "no1",
 						"icons": "balloon_sect6_no1.svg", 
 						"balloon_sect6_col1": "Text Label",
-						"balloon_sect6_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
+						"balloon_sect6_col2":"A promotional message or guiding text displayed in the balloon. It is recommended to keep the text concise and within one line so that the user can immediately understand its contents."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect6_no2.svg", 
-						"balloon_sect6_col1": "Allow Animation",
-						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
+						"balloon_sect6_col1": "Arrow Animation",
+						"balloon_sect6_col2":"An icon animation at the bottom of the screen which indicates that there is information outside of the screen."
 					}
 				],
 				"balloon_sect6_description": [
-					"Scroll BalloonにはPrimary ColorとSecondary Colorがあります。強調するコンテンツの優先度によって使い分けます。",
-					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
+					"There is a primary and secondary color used with scroll balloons.",
+					"The distinction is made according to the priority of the contents to be highlighted. It is recommended to use the secondary color to indicate new contents such as timeline notifications that are frequently updated, to avoid interfering with the contents that are displayed."
 				],
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
 						"icons": "balloon_sect6_rowers1.svg", 
 						"balloon_sect6_title": "Primary Color",
-						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
+						"balloon_sect6_subtitle":"Used to promote a new feature off-screen, etc."
 					}, {
 						"name": "no2",
 						"icons": "balloon_sect6_rowers2.svg",						
 						"balloon_sect6_title": "Secondary Color",
-						"balloon_sect6_subtitle":"更新頻度の高いタイムラインコンテンツの新着件数の表示など"
+						"balloon_sect6_subtitle":"Used to display the number of new contents in a frequently updated timeline, etc."
 					}
 				],
 				"balloon_sect7_title": "Do / Don't",
-				"balloon_sect7_description": "画面内の主コンテンツの閲覧、アクションの妨げになるような表示は禁止とします。",
+				"balloon_sect7_description": "It is prohibited to display a balloon in a way that interferes with viewing the primary contents in the screen or making an action.\n",
 				"balloon_sect7_tableholder": [
 					{
 						"name": "panel1",
 						"icons": "balloon_sect7_no1.svg", 
-						"balloon_sect7_col1": "グラデーションに3色以上を指定する"
+						"balloon_sect7_col1": "The text displayed is short and concise."
 					}, {
 						"name": "panel2",
 						"icons": "balloon_sect7_no2.svg", 
-						"balloon_sect7_col1": "上部に濃い色、下部に明るい色を指定する"
+						"balloon_sect7_col1": "The readability is low such as because it is broken up into two lines."
 					}
 				],
 				"balloon_sect8_title": "Interaction",
@@ -5238,11 +5203,11 @@
 					{
 						"name": "panel1",
 						"balloon_sect8_col1": "Coach Balloon", 
-						"balloon_sect8_col2": "特殊な場合を除き、Balloonをタップ、もしくは対象のComponentをタップするとBalloonは非表示となります。アクションを伴わないComponentを訴求する場合は表示回数を設定し、ユーザーアクションを伴わなくともBalloonが非表示になるようにします。表示回数3回ほどで自動非表示にすることを推奨します。"
+						"balloon_sect8_col2": "Except in irregular cases, the balloon disappears once it or the component it is pointed towards is tapped. When promoting a component that does not require an action, the number of times the balloon is displayed is configured so that it disappears without the user having to take action. It is recommended to auto-hide the balloon after it is displayed three times."
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information. Reference：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>"
 					}
 				],
 				"balloon_sect9_title": "Spec",
@@ -5274,13 +5239,13 @@
 						"balloon_sect10_col1": "Text Label", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
-							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
 							"<br/>",
 							"<b>Secondary</b>",
-							"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #00B9F5",
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
@@ -5301,26 +5266,26 @@
 							"<b>Primary</b>",
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>",
+							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>",
 							"<br/>",							
 							"<b>Secondary</b>",
 							"Default :",
 							"Back ground : #FFFFFF",
 							"Pressed( iOS ) :",
 							"Back ground : #F2F2F2",
-							"Shadow : <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low-shadow</a>"
+							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
 						]
 					}
 				],
-				"balloon_sect11_title": "画面下部からの距離",
+				"balloon_sect11_title": "Distance from the bottom of the screen",
 				"balloon_sect11_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect11_col1": "ボトムタブがある場合", 
+						"balloon_sect11_col1": "When there is a bottom tab",
 						"balloon_sect11_col2": "16px/dp"
 					}, {
 						"name": "panel2",
-						"balloon_sect11_col1": "ボトムタブがない場合", 
+						"balloon_sect11_col1": "When there is no bottom tab",
 						"balloon_sect11_col2": "40px/dp"
 					}
 				]
@@ -5329,9 +5294,9 @@
 				"card_headers": "Card",
 				"card_sect1_title": "Principle",
 				"card_sect1_description": [
-					"複雑な情報を整理しグルーピングして提示する際に使用します",
-					"カードそのものがタップやスワイプアクションをアフォードします",
-					"情報整理やアクションをアフォードする以外の用途、装飾のためだけにカードUIを使用することはしません"
+					"Cards are used to organize, group and present complex information.",
+					"Cards are an affordance for taps or swipe actions.",
+					"A card UI should not be for decorative purposes only, but should be used to organize information or activating actions, and should do not be used for decorative purposes"
 				],
 				"card_sect2_title": "Usage",
 				"card_sect2_description": "Usage Example",
@@ -5345,40 +5310,40 @@
 					  "icons": "card_sect2_images2.svg" 
 					}
 				],
-				"card_sect2_hint": "複雑な情報をグルーピング",
+				"card_sect2_hint": "Grouping of complex information",
 				"card_sect3_title": "Detail",
 				"card_sect3_tableholder": [
 					{
 						"name": "no1",
 						"icons": "card_sect3_no1.svg", 
 						"card_sect3_col1": "Contents Area",
-						"card_sect3_col2":"Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。"
+						"card_sect3_col2":"When displaying content in a card, place sufficient margins around the content for readability. A card is an affordance for taps or swipe interactions, but the display of text links and icons are recommended to prompt actions more explicitly."
 					}, {
 						"name": "no2",
 						"icons": "card_sect3_no2.svg", 
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+						"card_sect3_col2":"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Shadow</a> behind the card are displayed in accordance with the shadow guidelines providing for shadow elements such as layers, lighting, and shades."
 					}
 				],
 				"card_sect4_title": "Do / Don't",
-				"card_sect4_description": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。",
+				"card_sect4_description": "It is prohibited to use the buttons in the screen so that the priority order is unclear.",
 				"card_sect4_tableholder": [
 					{
 						"name": "panel1",
 						"icons": "card_sect4_no1.svg", 
-						"card_sect4_col1": "コンテンツがコンテンツエリア外に表示されている"
+						"card_sect4_col1": "Display content outside the content area."
 					}, {
 						"name": "panel2",
 						"icons": "card_sect4_no2.svg", 
-						"card_sect4_col1": "同階層上のカードに異なるシャドウをスタイルを使用する"
+						"card_sect4_col1": "Use different shadow styles for same layer cards."
 					}, {
 						"name": "panel3",
 						"icons": "card_sect4_no3.svg", 
-						"card_sect4_col1": "シャドウに色をつける"
+						"card_sect4_col1": "Add colors to the shadow."
 					}, {
 						"name": "panel4",
 						"icons": "card_sect4_no4.svg", 
-						"card_sect4_col1": "カードがページのグリッドに沿っていない"
+						"card_sect4_col1": "Displace cards from the grid."
 					}
 				],
 				"card_sect5_title": "Interaction",
@@ -5386,15 +5351,15 @@
 					{
 						"name": "no1",
 						"card_sect5_col1": "Tap",
-						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Interaction' target='_blank'>Interaction</a></div>"
+						"card_sect5_col2":"<div>Displays tap feedback when activated.</div><div>See Specs for details.</div><div>Reference：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a></div>"
 					}, {
 						"name": "no2",
 						"card_sect5_col1": "Flip",
-						"card_sect5_col2":"横に並ぶカードをFlipで移動するインタラクションを使用する場合はタップフィードバックは表示しません。"
+						"card_sect5_col2":"Tap feedback is not displayed when using the flip interaction of horizontally placed cards."
 					}
 				],
 				"card_sect6_title": "Spec",
-				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Layout' target='_blank'>Interaction</a> の項目を参照してください。",
+				"card_sect6_descriptions": "Refer to <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/layout' target='_blank'>Layout</a> to check the value of the margins around and between cards.",
 				"card_sect6_tableholder": [
 					{
 						"name": "no1",
@@ -5415,9 +5380,9 @@
 				"form_headers": "Form",
 				"form_sect1_title": "Usage",
 				"form_sect1_description": [
-					"ユーザーが任意のテキストを入力する際に使用します",
-					"入力するべき内容や入力可能な文字数など、ユーザーが入力に必要な情報をわかりやすく表示します",
-					"ユーザーが現在の状態を直感的に認識できるよう、入力前・入力済み・エラーなど、状態ごとに視覚的な差をつけて明示します"
+					"Forms are used for the user to enter free text.",
+					"Clear instructions are provided to the user to specify the action that is required such as what should be entered and how many characters can be entered.",
+					"The visual is changed according to the input status to allow the user to intuitively understand what the current status is, such as by not entered, entered and error."
 				],
 				"form_sect1_subtitle": "Usage Example",
 				"form_sect2_title": "Type",
@@ -5425,12 +5390,12 @@
 					{
 					  "name": "panel1",
 					  "icons": "form_sect2_images1.svg",
-					  "desc": "入力エリアの高さ固定"
+					  "desc": "The height of the input area is fixed."
 					},
 					{
 					  "name": "panel2",
 					  "icons": "form_sect2_images2.svg",
-					  "desc": "入力エリアの高さ可変"
+					  "desc": "The height of the input area is variable."
 					}
 				],
 				"form_sect3_title": "Detail",
@@ -5458,68 +5423,68 @@
 					}
 				],
 				"form_sect5_title": "Title (Option)",
-				"form_sect5_description": "<div>入力するべき項目を表示します。</div>div>ユーザーが適切な回答を入力できるよう、簡潔なテキストを原則とします。</div>",
+				"form_sect5_description": "<div>Indicates the information that is to be input.</div>div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
 				"form_sect6_title1": "Text Field",
 				"form_sect6_title2": "Message area",
-				"form_sect6_description": "<div>ユーザーが回答を入力するエリアです。</div><div>Text Fieldにフォーカスをあてるとキーボードが表示されます。</div><div>入力項目についての補足、または入力項目にエラーがある場合はMessage areaにメッセージを表示します</div>",
+				"form_sect6_description": "<div>This is the area where the user enters the required response.</div><div>The keyboard is displayed whenever the text field is selected.</div><div>Any additional information about the input or error, if any, is displayed in the message area.</div>",
 				"form_sect6_icons1": "form_sect3_no2.svg",
 				"form_sect6_icons2": "form_sect3_no3.svg",
 
-				"form_sect7_title": "ステータス別の表示",
+				"form_sect7_title": "View by Status",
 				"form_sect7_tblholder": [
 					{
 						"name": "panel1",
 						"form_sect7_col1": "Empty",
-						"form_sect7_col2_hint": "<div>入力エリアがEmptyの場合は、何を入力するべきかを示す必要があります</div><div>Place holderを利用して、入力例や入力項目名を表示します</div><div>入力項目についての補足情報がある場合は、Message areaに表示します</div>",
+						"form_sect7_col2_hint": "<div>When the input area is empty, it is necessary to indicate what needs to be input.</div><div>The placeholder is used to indicate input examples or the title of the item to be input.</div><div>Any additional information about the input is displayed in the message area.</div>",
 						"form_sect7_col2_image": "form_sect7_icons1.svg"
 					}, {
 						"name": "panel2",
 						"form_sect7_col1": "Editing",
-						"form_sect7_col2_hint": "<div>ユーザーの入力した文字列が表示されます</div><div>アクティブな状態を表すために、入力エリアの下線部を青色 かつ 太線で表示します</div><div>入力エリアに1文字以上テキストが入力されている場合、Action itemの削除ボタンを表示します</div>",
+						"form_sect7_col2_hint": "<div>The text that is entered by the user is displayed.</div><div>The input area is underlined by a bold blue line to indicate it is active.</div><div>A delete button is displayed as an action item when more than one character has been entered in the input area.</div>",
 						"form_sect7_col2_image": "form_sect7_icons2.svg"
 					}, {
 						"name": "panel3",
 						"form_sect7_col1": "Filled",
-						"form_sect7_col2_hint": "<div>入力済み かつ キーボードのフォーカスが外れている場合は入力エリアの下線部を青色で表示します</div>",
+						"form_sect7_col2_hint": "<div>The input area is underlined by a blue line when the user has finished editing and the keyboard is out of focus.</div>",
 						"form_sect7_col2_image": "form_sect7_icons3.svg"
 					}, {
 						"name": "panel4",
 						"form_sect7_col1": "Error",
-						"form_sect7_col2_hint": "<div>ユーザーの入力に誤りがある場合は入力エリアをエラー色で表示し、入力値が不正であることを明示します</div><div>同時に、ユーザーがエラーの理由を理解できるよう、Message areaにエラーメッセージを表示します</div>",
+						"form_sect7_col2_hint": "<div>When the user inputs incorrect information, the input area is displayed in an error color to indicate that the input is incorrect.</div><div>At the same time, an error message is displayed in the message area to describe the reason of the error to the user.</div>",
 						"form_sect7_col2_image": "form_sect7_icons4.svg"
 					}, {
 						"name": "panel5",
 						"form_sect7_col1": "Non-Editable",
-						"form_sect7_col2_hint": "<div>入力不可能なことを明示します</div><div>入力エリア下線部の色をグレーアウトし、操作が不可能だということを明示します</div><div>Place holderまたは入力値が表示されます</div>",
+						"form_sect7_col2_hint": "<div>Indicates that no information can be input.</div><div>The line under the input error is greyed-out, indicating that it cannot be edited. Either a placeholder or value is displayed.</div>",
 						"form_sect7_col2_image": "form_sect7_icons5.svg"
 					}
 				],
 
 				"form_sect8_title": "Action Item",
 				"form_sect8_icons": "form_sect3_no4.svg",
-				"form_sect8_desc": "入力項目に対してアクションをするアイテムです。",
+				"form_sect8_desc": "Action items involving the information that is input.。",
 				"form_sect8_tblholder": [
 					{
 						"name": "panel1",
-						"form_sect8_col1": "削除*必須",
-						"form_sect8_col2_hint": "<div>入力エリアに1文字以上テキストが表示されている場合、必須で表示します</div><div>タップすると、入力した文字列はすべて削除されます</div>",
+						"form_sect8_col1": "Delete *Mandatory",
+						"form_sect8_col2_hint": "<div>The delete button must be displayed when a text consisting of one or more characters are displayed in the input area.</div><div>Tapping the button will delete the text that is entered.</div>",
 						"form_sect8_col2_desc": "form_sect8_icons1.svg"
 					}, {
 						"name": "panel2",
-						"form_sect8_col1": "可視・不可視*Option",
-						"form_sect8_col2_hint": "<div>入力内容を記号に置き換えた不可視状態と可視状態を切り替えることができます</div><div>パスワードなど機密性の高い項目を入力する際に使用します</div><div>可視・不可視の状態が認識できるよう、アイコンの表示も切り替えます</div><div>不可視状態をデフォルト表示とします</div><div>不可視状態で入力すると、入力した文字列は「●」に置き換えられて表示されます</div>",
+						"form_sect8_col1": "Visible/invisible *Option",
+						"form_sect8_col2_hint": "<div>The visible/invisible option allows users to switch between invisible and visible states where the input is replaced by symbols.</div><div>This is used when entering sensitive information such as a password.</div><div>可視・The display of the icon is also switched so the user can recognize whether the current state is visible or invisible.</div><div>Users can also switch the icon display so that the visible and invisible states can be recognized. The invisible state is displayed by default.</div><div>In the invisible state, the text entered is replaced by “●” and displayed.</div>",
 						"form_sect8_col2_desc": "form_sect8_icons2.svg",
 						"form_sect8_col2_tblchild": [
 							{
 								"icons": "form_sect8_child_icons1.svg",
 								"images": "form_sect8_child_images1.svg",
-								"hint": "不可視状態"
+								"hint": "Invisible state"
 							}, {
 								"icons": "form_sect8_child_icons2.svg",
 								"images": "form_sect8_child_images2.svg",
-								"hint": "不可視状態"
+								"hint": "Visible state"
 							}
 						]
 						
@@ -5528,14 +5493,14 @@
 
 				"form_sect9_title": "Text Counter (Option)",
 				"form_sect9_icons": "form_sect3_no5.svg",
-				"form_sect9_desc": "<div>入力中の文字数と上限文字数を表示します。</div><div>入力と同時に文字数をリアルタイムで反映します。</div><div>入力文字数が上限を超えた場合、Message areaにエラーを表示します。</div>",
+				"form_sect9_desc": "<div>A text counter displays the number of characters typed and the maximum number of characters that can be entered.</div><div>It is updated on a real-time basis as the information is input.</div><div>When the character limit is reached, an error will be displayed in the message area</div>",
 				"form_sect9_tblholder": [
 					{
 						"images": "form_sect9_images1.svg",
-						"hint": "入力文字数が上限以内"
+						"hint": "When the number of characters is within the limit."
 					}, {
 						"images": "form_sect9_images2.svg",
-						"hint": "入力文字数が上限以上"
+						"hint": "When the number of characters exceeds the limit."
 					}
 				],
 				
@@ -5543,10 +5508,10 @@
 				"form_sect10_tblholder": [
 					{
 						"images": "form_sect10_images1.svg",
-						"hint": "<div>Empty時にText Fieldをタップキーボードが表示され、</div><div>TextFieldがEditable表示に切り替わるキーボードの表示アニメーションは端末の仕様に準拠</div>"
+						"hint": "<div>Tap the text field when empty. </div><div>The keyboard is displayed and the text field will switch to the edit view. The animation used to display the keyboard must follow the device specifications.</div>"
 					}, {
 						"images": "form_sect10_images2.svg",
-						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて 下に広がる</div>"
+						"hint": "<div>The height of the input area is variable</div><div>When entering a long string of text, the text field will expand downward to fit the amount of text.</div>"
 					}
 				],
 
@@ -5555,29 +5520,29 @@
 				"form_sect11_tblholder": [
 					{
 						"form_sect11_col1": "Title (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
+						"form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"form_sect11_col1": "Text Field - Input Text",
-						"form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
+						"form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
 					}, {
 						"form_sect11_col1": "Text Field - Form bar",
 						"form_sect11_col2": "<div><b>Empty</b></div><div>1px/dp</div><div>#BABABA</div><div><br/></div><div><b>Filled</b></div><div>1px/dp</div><div>#3895FF</div><div><br/></div><div><b>Editing</b></div><div>2px/dp</div><div>#3895FF</div><div><br/></div><div><b>Error</b></div><div>1px/dp</div><div>#FD5C5C</div><div><br/></div><div><b>Non-Editable</b></div><div>1px/dp</div><div>#EEEEEE</div>"
 					}, {
 						"form_sect11_col1": "Message area",
-						"form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
+						"form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
 					}, {
 						"form_sect11_col1": "Action Item",
 						"form_sect11_col2": "<div><b>Icon size</b></div><div>24*24px/dp</div><div><b>アイコン間のSpacing</b></div><div>0px/dp</div>"
 					}, {
 						"form_sect11_col1": "Text Counter (Option)",
-						"form_sect11_col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
+						"form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
 					}
 				]
 			},
 			"header": {
 				"header_heading": "Header",
 				"header_sect1_title": "Usage",
-				"header_sect1_desc": "<div>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</div><div>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</div><div>HeaderはOSの表示仕様に準拠します</div>",
+				"header_sect1_desc": "<div>A header is the display of a screen title, action item or navigation item.</div><div>A header provides a clear and concise description of the content displayed on the screen or the purpose of the action to be taken.</div><div>A header provides clarity on the hierarchy of the screens displayed, enabling easy access to higher layers.</div><div>Headers are displayed in accordance with the specifications of the OS.</div>",
 				"header_sect2_title": "Usage Example",
 				"header_sect2_images": [
 					{
@@ -5597,19 +5562,19 @@
 						"name": "panel1",
 						"icons": "grayicon1.svg",
 						"col1": "Regular",
-						"col2": "<div>白い背景のHeaderです。</div><div>設定画面など、コンテンツ要素が少なくユーザーアクションを簡潔に完了させたい画面に利用します。</div>"
+						"col2": "<div>A header with a white background.</div><div>It is used for screens with little content such as a settings screen in which the actions available to the user are kept concise.</div>"
 					}, {
 						"name": "panel2",
 						"icons": "grayicon2.svg",
 						"col1": "Transparent",
-						"col2": "<div>透過背景のHeaderです。</div><div>コンテンツエリアはHeaderエリアまで拡張ができ、Headerの背景に任意の色を設定できます。</div><div>メイン機能など、コンテンツエリアを広く見せたい場合などに利用します。</div>"
+						"col2": "<div>A header with transparent background.</div><div>The contents area can be extended to the header area. Any given color may be set as the background of the header.</div><div>It is used to create a content area with a spacious appearance, such as for primary features.</div>"
 					}
 				],
 				"header_sect4_title": "Transparent",
 				"header_sect4_images": "header_sect4_images.svg",
-				"header_sect4_desc": "<div>主要コンテンツやキャンペーンなど、コンテンツエリアを広く、強調して見せたい場合は下図のようにヘッダエリアに背景色を拡張します。</div> <div>背景色はグラデーションカラーを推奨します。</div>",
+				"header_sect4_desc": "<div>The background color is extended into the header area to enlarge and highlight the contents area as shown below, such as when displaying primary contents or campaign information</div> <div>It is recommended to use a gradient background color.</div>",
 				"header_sect5_title": "Detail",
-				"header_sect5_hint": "OSの表示仕様に準拠します",
+				"header_sect5_hint": "Headers are displayed in accordance with the specifications of the OS.",
 				"header_sect5_images": [
 					{
 						"name": "panel1",
@@ -5637,72 +5602,72 @@
 					}
 				],
 				"header_sect6_title": "Navigation Item",
-				"header_sect6_hint": "<div>ナビゲーションアイテムは画面間の移動に使用します。</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします。</div>",
+				"header_sect6_hint": "<div>A navigation item is used to move between screens.</div><div>It clarifies the hierarchy of the screens displayed, enabling easy access to higher layers.</div>",
 				"header_sect6_images": [
 					{
 						"name": "panel1",
-						"hint": "<div>Back button</div><div>Drill downで表示された画面に表示</div><div>タップで上位階層の画面に戻る</div>",
+						"hint": "<div>Back button</div><div>Displayed on screens displayed through a drill down.</div><div>Tapping it will take the user back to a higher layer screen.</div>",
 						"images": "header_sect6_images1.svg"
 					}, {
 						"name": "panel2",
-						"hint": "<div>Close button</div><div>Slide UPで表示された画面に表示</div><div>タップで画面を閉じる</div>",
+						"hint": "<div>Close button</div><div>A close button is displayed on the screens that are shown when slid up.</div><div>Tap to close the screen.</div>",
 						"images": "header_sect6_images2.svg"
 					}
 				],
 				"header_sect7_title": "Title",
-				"header_sect7_hint": "タイトルは以下の内容を記載します。",
-				"header_sect7_points": "<div>•  画面名</div><div>•  機能名</div><div>•  アクション名</div>",
-				"header_sect7_desc": "タイトルは端OSの仕様に準拠し、端末の幅によって表示テキスト数は異なります。簡潔でコンパクトなタイトルの表示を推奨します",
+				"header_sect7_hint": "A title contains the following information.",
+				"header_sect7_points": "<div>•  Screen name</div><div>•  Feature name</div><div>•  Action name</div>",
+				"header_sect7_desc": "Titles must follow the specifications of the device’s OS. The length of the text that is displayed varies on the width of the device. It is recommended to display a concise and compact title.",
 
 
 				"header_sect8_title": "Do/ Don't",
-				"header_sect8_hint": "タイトルは簡潔に、1行で収まるようにします。",
+				"header_sect8_hint": "Titles are concise and kept to within one line.",
 				"header_sect8_images": [
 					{
 						"name": "panel1",
-						"hint": "タイトルが1行に収まっている",
+						"hint": "The title is contained in one line.",
 						"images": "header_sect8_images1.svg"
 					}, {
 						"name": "panel2",
-						"hint": "タイトルが省略されている",
+						"hint": "The title is truncated.",
 						"images": "header_sect8_images2.svg"
 					}
 				],				
 				
 				"header_sect9_title": "Action Item(Optional)",
 
-				"header_sect9_1subtitle": "アイコン",
-				"header_sect9_1subdesc": "アクションアイコンを最大2つまで表示できます。表示するアイコンは画面内の機能に関連性のある機能である必要があります。",
+				"header_sect9_1subtitle": "Icons",
+				"header_sect9_1subdesc": "A maximum of two action icons may be displayed. The icon(s) to be displayed must be of a feature related to the feature in the screen.",
 				"header_sect9_1subimage1": "header_sect9_1subimage1.svg",
 				"header_sect9_1subimage2": "header_sect9_1subimage2.svg",
 
-				"header_sect9_2subtitle": "テキストボタン",
-				"header_sect9_2subdesc": "<div>テキストボタンを表示できます。</div><div>表示するアイコンは画面内の機能に関連性のある機能である必要があります。</div><div>基本的にはアイコンボタンの利用を推奨します。</div><div>テキストボタンは、アイコンのみでは表現することが難しい場合、より強調するべき機能の場合に使用します。</div><div><br /></div><div>テキストボタンとタイトルテキストの間には十分な余白を設け、テキストの視認性、可読性を担保してください。</div><div>ボタンのラベルテキストは簡潔で短いテキストを使用します。2文字程度を推奨します。</div>",
+				"header_sect9_2subtitle": "Text buttons",
+				"header_sect9_2subdesc": "<div>Text buttons may be displayed. </div><div>The icon(s) to be displayed must be of a feature related to the feature in the screen. </div><div>In principle, it is recommended to use an icon button. </div><div>A text button is used only when it is difficult to express the feature just with an icon. </div><div><br /></div><div>There must be sufficient space between the text button and the title text to ensure that the text is visible and readable. </div><div>The label text of the button should be short and concise. The use of two characters is recommended. </div>",
 				"header_sect9_2subimage": "header_sect9_2subimage.svg",
 				
 
-				"header_sect9_3subtitle": "編集コンテンツの保存ボタン",
-				"header_sect9_3subdesc": "<div>編集画面では、編集内容を保存する際に「保存」ボタンを表示します。</div><div>保存ボタンは編集状態によって表示を切り替えます</div>",
+				"header_sect9_3subtitle": "Save button for contents that are edited",
+				"header_sect9_3subdesc": "<div>In an edit screen, a \"save\" button is displayed for the contents to be saved. </div><div>The display of the save button is alternated depending on the edit status. </div>",
 				"header_sect9_3subimage": "header_sect9_3subimage.svg",
 				"header_sect9_3tblholder": [
 					{
 						"name": "panel1",
 						"icons": "blueicon1.svg",
 						"col1": "Active",
-						"col2": "変更された情報がある場合は「保存」ボタンを活性にし、ユーザーアクションを促します。"
+						"col2": "If any information is changed, the \"save\" button becomes activated, prompting the user to take action."
 					}, {
 						"name": "panel2",
 						"icons": "blueicon2.svg",
 						"col1": "Disable",
-						"col2": "編集内容に変更がない場合は「保存」ボタンは非活性状態にします。"
+						"col2": "If there is no change to the information, the \"save\" button is kept in an inactive state."
 					}
 				],
 
 				"header_sect10_title": "Interaction",
 				"header_sect10_subtitle": "Scroll",
-				"header_sect10_hint1": "画面スクロール時は、ヘッダは画面上部に固定表示されます。",
+				"header_sect10_hint1": "The header is fixed at the top of the screen when the user scrolls up/down.",
 				"header_sect10_images1": "header_sect10_images1.svg",
-				"header_sect10_hint2": "1stview で表示される重要なコンテンツを、スクロール時にも表示したい場合は、ヘッダに表示することができます。",
+				"header_sect10_hint2": "Important contents that are displayed in the first view and that are desired to be displayed even after the user scrolls down can be displayed as a header.",
 				"header_sect10_images2": "header_sect10_images2.svg",
 
 				"header_sect11_title": "Spec",
@@ -5725,11 +5690,11 @@
 						"header_sect12_col2": "<div>24px*24px/dp</div>"
 					}, {
 						"header_sect12_col1": "Title",
-						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
+						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Ensure enough contrast between the title text color and background color.</div><div>Use either one of the two colors above as the text color depending on the background color for the header.</div>"
 
 					}, {
 						"header_sect12_col1": "Action Item",
-						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
+						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
 					}, {
 						"header_sect12_col1": "Background",
 						"header_sect12_col2": "<div><b>Regular</b></div><div>#FFFFFF</div><div><b>Transparent</b></div><div>---</div>"
@@ -5739,20 +5704,20 @@
 			"pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</div><div>•  複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</div><div>•  より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</div>",
+				"pagecontrols_sect1_desc": "<div>•  Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</div><div>•  It is important to accurately communicate the position of the content that is displayed when amongst various other content.</div><div>•  Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
-				"pagecontrols_sect2_desc": "フリックで表示可能なバナー画像の数をページコントロールで表します。",
+				"pagecontrols_sect2_desc": "The number of flickable banner images are displayed as a page control.",
 				"pagecontrols_sect3_title": "Don't",
 				"pagecontrols_sect3_images": [
 					{
 						"name": "panel1",
 						"icons": "pagecontrols_sect3_images1.svg",
-						"hint": "10個以上利用することは禁止します 最大5個までを推奨します"
+						"hint": "The maximum number of contents recommended is 5."
 					}, {
 						"name": "panel2",
 						"icons": "pagecontrols_sect3_images2.svg",
-						"hint": "ラベル内でテキストを改行することは禁止とします"
+						"hint": "Interfering with the readability of text content is prohibited."
 					}
 				],
 				"pagecontrols_sect4_title": "Spec",
