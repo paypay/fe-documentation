@@ -7590,7 +7590,7 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>Refer to <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/icongraphy' target='_blank'>Iconography</a>for the icon specs.</div><div>When using an icon, it is horizontally centered even when the title consists of multiple lines.</div>"
+						"col2": "<div>24*24px/dp</div><div>Refer to <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/icongraphy' target='_blank'>Iconography</a> for the icon specs.</div><div>When using an icon, it is horizontally centered even when the title consists of multiple lines.</div>"
 					}
 				],	
 				
