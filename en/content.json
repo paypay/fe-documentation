@@ -7589,7 +7589,7 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Icongraphy' target='_blank'>Iconography</a>Refer to Iconography for the icon specs.</div><div>When using an icon, it is horizontally centered even when the title consists of multiple lines.</div>"
+						"col2": "<div>24*24px/dp</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Icongraphy' target='_blank'>Iconography</a> Refer to Iconography for the icon specs.</div><div>When using an icon, it is horizontally centered even when the title consists of multiple lines.</div>"
 					}
 				],	
 				
