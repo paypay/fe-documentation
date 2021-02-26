@@ -7554,11 +7554,11 @@
         }, {
           "name": "panel3",
           "col1": "Track Value (Text)",
-          "col2": "<div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#242323</div>"
+          "col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#242323</div>"
         }, {
           "name": "panel4",
           "col1": "Input Value Balloon (Option)",
-          "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
+          "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
         }],
       
         "slider_sect13_subtitle": "Scale Slider",
@@ -7566,7 +7566,7 @@
         "slider_sect13_tblholder": [{
           "name": "panel1",
           "col1": "Sample Value (Option)",
-          "col2": "<div><b>Default</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
+          "col2": "<div><b>Default</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
         }, {
           "name": "panel2",
           "col1": "Inactive Point",
@@ -7578,7 +7578,7 @@
         }, {
           "name": "panel4",
           "col1": "Track Value",
-          "col2": "<div><b>Default</b></div><div><a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Center</div><div>#909090</div>"
+          "col2": "<div><b>Default</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Center</div><div>#909090</div>"
         }]
       }
     }
