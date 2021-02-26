@@ -3217,7 +3217,7 @@
 				}				
 			],
 			"dshomesec3_content_title": "Design Philosophy",
-			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the foundation of PayPay Design and is not modified.",
+			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the foundation of PayPay Design and is not modified. We have four keywords.",
 			"dshomesec3_content_philosophy": [
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3249,7 +3249,11 @@
 			"dshomesec4_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "This part of the guideline provides the high-level concepts common to the app UI design."
+					"descriptions": "Global Rule is a high-level concept of the style guide of PayPay app."
+				},
+				{
+					"classname": "",
+					"descriptions": "The Component is designed according to this concept."
 				}
 			],
 			"dshomesec4_content_globrules": [
@@ -3314,7 +3318,19 @@
 			"dshomesec5_content_descriptions": [
 				{
 					"classname": "",
-					"descriptions": "This part of the guideline provides for the app UI components."
+					"descriptions": "A guideline for UI parts designed based on the Global Rule."
+				},
+				{
+					"classname": "",
+					"descriptions": "All screens provided by the PayPay app must be designed and implemented by configuring the UI parts described here."
+				},
+				{
+					"classname": "",
+					"descriptions": "By complying with the rules for each part, it is possible to maintain the quality of UI design and provide a consistent UX."
+				},
+				{
+					"classname": "",
+					"descriptions": "It also enhances redundancy in design and development."
 				}
 			],
 			"dshomesec5_content_component": [
@@ -5326,7 +5342,7 @@
 					}
 				],
 				"card_sect4_title": "Do / Don't",
-				"card_sect4_description": "It is prohibited to use the buttons in the screen so that the priority order is unclear.",
+				"card_sect4_description": "",
 				"card_sect4_tableholder": [
 					{
 						"name": "panel1",

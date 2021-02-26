@@ -3149,32 +3149,32 @@
     "homescreen": {
       "dshomesec1_content_title1": "PayPay",
       "dshomesec1_content_title2": "App Style Guide",
-      "dshomesec1_content_descriptions": "A guide to design and create sophisticated products with inherent system and recommendations on how to apply design principles for PayPay Merchants.",
+      "dshomesec1_content_descriptions": "PayPayアプリが提供する機能やサービスはこのスタイルガイドに基づいてデザインされています",
       "dshomesec2_content_title": "Overview",
       "dshomesec2_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "PayPayのDesignについてここに定義します。"
+          "descriptions": "PayPayアプリのスタイルについてここに定義します。"
         },
         { 
           "classname": "", 
-          "descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+          "descriptions": "PayPayから提供されるすべてのプロダクトは、このスタイルガイドに基づいて設計されています。"
         },
         { 
           "classname": "", 
-          "descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+          "descriptions": "一貫したルールでデザインをすることによって、PayPayのブランドイメージを醸成し、ユーザーの認知を高めます。"
         },
         { 
           "classname": "", 
-          "descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+          "descriptions": "また、ユーザー操作の学習コストを下げ、快適なユーザーエクスペリエンスを提供することが可能です。"
         },
         { 
           "classname": "mb-lg-5", 
-          "descriptions": "ガイドラインは2つのパートに分かれます。"
+          "descriptions": "スタイルガイドはGlobal RoleとCompornentの2つの項目に分かれます。"
         }				
       ],
       "dshomesec3_content_title": "Design Philosophy",
-      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。私たちは、4つのキーワードを掲げます。",
       "dshomesec3_content_philosophy": [
         {
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3206,7 +3206,11 @@
       "dshomesec4_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "ガイドラインのこの部分は、アプリのUIデザインに共通する高レベルの概念を提供します。"
+          "descriptions": "Global RuleはPayPayアプリのスタイルガイドの上位概念であり、"
+        },
+        {
+          "classname": "",
+          "descriptions": "Componentはこのコンセプトに沿ってデザインされています。"
         }
       ],
       "dshomesec4_content_globrules": [
@@ -3271,7 +3275,19 @@
       "dshomesec5_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "ガイドラインのこの部分は、アプリのUIコンポーネントを提供します。"
+          "descriptions": "Global Ruleに基づいてデザインされたUIパーツのガイドラインです。"
+        },
+        {
+          "classname": "",
+          "descriptions": "PayPayアプリが提供するすべての画面はここに記載されるUIパーツを構成してデザイン、実装する必要があります。"
+        },
+        {
+          "classname": "",
+          "descriptions": "パーツ単位でのルールに準拠することで、UIデザインの品質を一定に保ち、一貫したUXの提供が可能になります。"
+        },
+        {
+          "classname": "",
+          "descriptions": "また、デザイン・開発における冗長性を高めます。"
         }
       ],
       "dshomesec5_content_component": [
@@ -5280,7 +5296,7 @@
 					}
 				],
 				"card_sect4_title": "Do / Don't",
-				"card_sect4_description": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。",
+				"card_sect4_description": "",
 				"card_sect4_tableholder": [
 					{
 						"name": "panel1",
