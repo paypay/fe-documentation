@@ -3149,32 +3149,32 @@
     "homescreen": {
       "dshomesec1_content_title1": "PayPay",
       "dshomesec1_content_title2": "App Style Guide",
-      "dshomesec1_content_descriptions": "A guide to design and create sophisticated products with inherent system and recommendations on how to apply design principles for PayPay Merchants.",
+      "dshomesec1_content_descriptions": "PayPayアプリが提供する機能やサービスはこのスタイルガイドに基づいてデザインされています",
       "dshomesec2_content_title": "Overview",
       "dshomesec2_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "PayPayのDesignについてここに定義します。"
+          "descriptions": "PayPayアプリのスタイルについてここに定義します。"
         },
         { 
           "classname": "", 
-          "descriptions": "PayPayから提供されるすべてのプロダクトは、このガイドラインに沿って設計されます。"
+          "descriptions": "PayPayから提供されるすべてのプロダクトは、このスタイルガイドに基づいて設計されています。"
         },
         { 
           "classname": "", 
-          "descriptions": "一貫したルールでデザインすることによって、PayPayのブランドイメージを保ち、ユーザー認知を高めます。"
+          "descriptions": "一貫したルールでデザインをすることによって、PayPayのブランドイメージを醸成し、ユーザーの認知を高めます。"
         },
         { 
           "classname": "", 
-          "descriptions": "また、UX/UIにおけるユーザーの学習コストを下げ快適なUXを提供します。"
+          "descriptions": "また、ユーザー操作の学習コストを下げ、快適なユーザーエクスペリエンスを提供することが可能です。"
         },
         { 
           "classname": "mb-lg-5", 
-          "descriptions": "ガイドラインは2つのパートに分かれます。"
+          "descriptions": "スタイルガイドはGlobal RoleとCompornentの2つの項目に分かれます。"
         }				
       ],
       "dshomesec3_content_title": "Design Philosophy",
-      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。私たちは、4つのキーワードを掲げます。",
       "dshomesec3_content_philosophy": [
         {
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3206,7 +3206,11 @@
       "dshomesec4_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "ガイドラインのこの部分は、アプリのUIデザインに共通する高レベルの概念を提供します。"
+          "descriptions": "Global RuleはPayPayアプリのスタイルガイドの上位概念であり、"
+        },
+        {
+          "classname": "",
+          "descriptions": "Componentはこのコンセプトに沿ってデザインされています。"
         }
       ],
       "dshomesec4_content_globrules": [
@@ -3271,7 +3275,19 @@
       "dshomesec5_content_descriptions": [
         { 
           "classname": "", 
-          "descriptions": "ガイドラインのこの部分は、アプリのUIコンポーネントを提供します。"
+          "descriptions": "Global Ruleに基づいてデザインされたUIパーツのガイドラインです。"
+        },
+        {
+          "classname": "",
+          "descriptions": "PayPayアプリが提供するすべての画面はここに記載されるUIパーツを構成してデザイン、実装する必要があります。"
+        },
+        {
+          "classname": "",
+          "descriptions": "パーツ単位でのルールに準拠することで、UIデザインの品質を一定に保ち、一貫したUXの提供が可能になります。"
+        },
+        {
+          "classname": "",
+          "descriptions": "また、デザイン・開発における冗長性を高めます。"
         }
       ],
       "dshomesec5_content_component": [
@@ -3816,7 +3832,7 @@
 				"title_usage": "Usage",
 				"title_usage_desc": [
 					{
-						"desc": "文字情報を補足する意味で最大限に効果的な方法で使用します。"
+						"desc": "イラストは最大限効果的な方法で使用します。"
 					}
 				],
 				"txt_convey_title": "直感的に伝える",
@@ -4123,7 +4139,7 @@
 						"igrphy_sect3pnel_title": "System Icon",
 						"igrphy_sect3pnel_descriptions": [
 							"アプリの機能や操作などに利用されるアイコンを指します。",
-                            "単色または紺色と水色の２色を使います。"
+                            "単色または紺色と青色の２色を使います。"
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img2.svg"
 					}, {
@@ -4176,7 +4192,7 @@
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1": "Outline",
-						"igrphy_sect4_images_colo2": "1.25px"
+						"igrphy_sect4_images_colo2": "3px"
 					}, {
 						"name":"panel3",
 						"igrphy_sect4_images_colo1": "Shape",
@@ -4201,7 +4217,7 @@
 				"igrphy_sect5_aysccolordesc1": "以下Color palettから色を選択します。",
 				"igrphy_sect5_aysccolordesc2": "System  Icon は左記2色の組み合わせ、または単色で利用します",
 				"igrphy_sect5_subtitle_dont": "Don't",
-				"igrphy_sect5_dont_des": "複雑な表現 立体的な表現、手描きのような表現、有機的な形状は禁止とする",
+				"igrphy_sect5_dont_des": "指定色以外の色の利用は禁止とする",
 				"igrphy_sect6_title": "Template",
 				"igrphy_sect6_description": [
 					"アイコンを制作する際は、テンプレート（Ai）での作業を推奨します。",
@@ -4256,8 +4272,8 @@
 					{
 						"name": "panel5",
 						"col1": "Outline",
-						"col2": "1.25px",
-						"col3": "2.5px"
+						"col2": "1.5px",
+						"col3": "3px"
 					},
 					{
 						"name": "panel6",
@@ -5280,7 +5296,7 @@
 					}
 				],
 				"card_sect4_title": "Do / Don't",
-				"card_sect4_description": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。",
+				"card_sect4_description": "",
 				"card_sect4_tableholder": [
 					{
 						"name": "panel1",
