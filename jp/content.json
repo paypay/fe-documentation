@@ -4139,7 +4139,7 @@
 						"igrphy_sect3pnel_title": "System Icon",
 						"igrphy_sect3pnel_descriptions": [
 							"アプリの機能や操作などに利用されるアイコンを指します。",
-                            "単色または紺色と水色の２色を使います。"
+                            "単色または紺色と青色の２色を使います。"
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img2.svg"
 					}, {
@@ -4192,7 +4192,7 @@
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1": "Outline",
-						"igrphy_sect4_images_colo2": "1.25px"
+						"igrphy_sect4_images_colo2": "3px"
 					}, {
 						"name":"panel3",
 						"igrphy_sect4_images_colo1": "Shape",
@@ -4217,7 +4217,7 @@
 				"igrphy_sect5_aysccolordesc1": "以下Color palettから色を選択します。",
 				"igrphy_sect5_aysccolordesc2": "System  Icon は左記2色の組み合わせ、または単色で利用します",
 				"igrphy_sect5_subtitle_dont": "Don't",
-				"igrphy_sect5_dont_des": "複雑な表現 立体的な表現、手描きのような表現、有機的な形状は禁止とする",
+				"igrphy_sect5_dont_des": "指定色以外の色の利用は禁止とする",
 				"igrphy_sect6_title": "Template",
 				"igrphy_sect6_description": [
 					"アイコンを制作する際は、テンプレート（Ai）での作業を推奨します。",
@@ -4272,8 +4272,8 @@
 					{
 						"name": "panel5",
 						"col1": "Outline",
-						"col2": "1.25px",
-						"col3": "2.5px"
+						"col2": "1.5px",
+						"col3": "3px"
 					},
 					{
 						"name": "panel6",

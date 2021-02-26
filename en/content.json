@@ -4235,7 +4235,7 @@
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1": "Outline",
-						"igrphy_sect4_images_colo2": "1.25px"
+						"igrphy_sect4_images_colo2": "3px"
 					}, {
 						"name":"panel3",
 						"igrphy_sect4_images_colo1": "Shape",
@@ -4315,8 +4315,8 @@
 					{
 						"name": "panel5",
 						"col1": "Outline",
-						"col2": "1.25px",
-						"col3": "2.5px"
+						"col2": "1.5px",
+						"col3": "3px"
 					},
 					{
 						"name": "panel6",
