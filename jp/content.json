@@ -3403,7 +3403,7 @@
         "ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します",
         "title_functional_color": "Functional Color",
         "functional_color_desc_1": "Functional color assetsは役割を持つ色のアセットです。",
-        "functional_color_desc_2": "色の持つ役割に一貫性をも持つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
+        "functional_color_desc_2": "色の持つ役割に一貫性を保つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
         "functional_color_desc_3": "色はExtended color assetsから引用します。",
         "functional_color_dont": "Don't",
         "functional_color_dont_desc": "以下の使い方はユーザーの誤操作を誘発するリスクがあるため禁止とします。",
@@ -4700,7 +4700,7 @@
 				"subtitle_heading": "Heading (H)",
 				"heading_desc": [
 					{
-						"desc": "ヘッダやタイトルに利用します。"
+						"desc": "ヘッダーやタイトルに利用します。"
 					},
 					{
 						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
