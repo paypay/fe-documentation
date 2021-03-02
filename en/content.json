@@ -3192,32 +3192,32 @@
 		"homescreen": {
 			"dshomesec1_content_title1": "PayPay",
 			"dshomesec1_content_title2": "App Style Guide",
-			"dshomesec1_content_descriptions": "A guide to design and create sophisticated products with inherent system and recommendations on how to apply design principles for PayPay Merchants.",
+			"dshomesec1_content_descriptions": "Features and services provided in the PayPay app are designed according to this style guide.",
 			"dshomesec2_content_title": "Overview",
 			"dshomesec2_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "The UI style of the PayPay app is defined here."
+					"descriptions": "The style of the PayPay app is defined here."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "All products provided by PayPay are designed according to this guideline."
+					"descriptions": "All products provided by PayPay are designed based on this style guide."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "PayPay’s brand image is maintained through establishing a consistent set of rules."
+					"descriptions": "Keeping the design in line with a consistent set of rules fosters the PayPay Brand and raises the user’s awareness of it."
 				},
 				{ 
 					"classname": "", 
-					"descriptions": "In addition, it helps to reduce the effort it takes for users to learn the UX/UI, providing a comfortable experience."
+					"descriptions": "Doing this also reduces the effort it takes for the user to lean the UIUX and enables the provision of a comfortable user experience."
 				},
 				{ 
 					"classname": "mb-lg-5", 
-					"descriptions": "There are 2 parts to the guideline."
+					"descriptions": "There are two parts to the style guide. The Global Rules and Components."
 				}				
 			],
 			"dshomesec3_content_title": "Design Philosophy",
-			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the foundation of PayPay Design and is not modified. We have four keywords.",
+			"dshomesec3_content_descriptions": "PayPay's Design Philosophy is the quintessence of PayPay’s designs, and is something that will not change. There are 4 keywords.",
 			"dshomesec3_content_philosophy": [
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
@@ -3249,11 +3249,11 @@
 			"dshomesec4_content_descriptions": [
 				{ 
 					"classname": "", 
-					"descriptions": "Global Rule is a high-level concept of the style guide of PayPay app."
+					"descriptions": "The Global Rule is an overarching concept in the PayPay app style guide."
 				},
 				{
 					"classname": "",
-					"descriptions": "The Component is designed according to this concept."
+					"descriptions": "Components are designed according to this concept."
 				}
 			],
 			"dshomesec4_content_globrules": [
@@ -3318,19 +3318,19 @@
 			"dshomesec5_content_descriptions": [
 				{
 					"classname": "",
-					"descriptions": "A guideline for UI parts designed based on the Global Rule."
+					"descriptions": "This is a guideline for the individual UI parts, designed based on the Global Rule."
 				},
 				{
 					"classname": "",
-					"descriptions": "All screens provided by the PayPay app must be designed and implemented by configuring the UI parts described here."
+					"descriptions": "All screens provided in the PayPay app are designed and implemented using the UI parts listed here."
 				},
 				{
 					"classname": "",
-					"descriptions": "By complying with the rules for each part, it is possible to maintain the quality of UI design and provide a consistent UX."
+					"descriptions": "Complying with the rules for the different parts ensures a consistent design quality in the UI, as well as providing a consistent UX."
 				},
 				{
 					"classname": "",
-					"descriptions": "It also enhances redundancy in design and development."
+					"descriptions": "It also contributes to the redundancy of design & development efforts."
 				}
 			],
 			"dshomesec5_content_component": [
@@ -3434,7 +3434,7 @@
 				"title_usage_example": "Usage Example",
 				"title_dont": "Don't",
 				"dont_desc_1": "It is prohibited to use the global colors in a way that causes a color halation that makes the user uncomfortable.",
-				"dont_desc_2": "It is prohibited to use colors that causes discomfort to the user",
+				"dont_desc_2": "It is prohibited to use colors in a way that makes the user feel uncomfortable.",
 				"title_ext_color_asset": "Extended Color Assets",
 				"ext_color_asset_desc_1": "The extended color assets refer to a set of color assets that include the global colors.",
 				"ext_color_asset_desc_2": "It is used for UI components, illustrations, icons, and as an added accent in certain contents.",
@@ -3532,7 +3532,7 @@
 				  "name": "Use a combination of hues that are far apart.",
 				  "logo": "usage_dont_05.svg"
 				  },{
-				  "name": "It is prohibited to use PayPay Gradation other than the main functions of PayPay such as linked services and Mini-App.",
+				  "name": "It is prohibited to use the PayPay Gradation other than for PayPay’s main features, such as for an external service or mini app.",
 				  "logo": "usage_dont_06.png"
 				}],
 				"colorCode1": [{
@@ -4030,7 +4030,7 @@
 						"desc":"it is mandatory to provide visual support to ensure the users understands it can be tapped."
 					},
 					{
-						"desc":"It is also mandatory to display the supporting components to clearly indicate where they are in the overall content."
+						"desc":"It is mandatory to display supporting components to clearly indicate the current position within the entire contents."
 					}
 				],
 				"txt_touch_guide": "Display a visual element to indicate a tap.",
@@ -4988,7 +4988,7 @@
 				"text_subtitle1_desc1": [
                     {
                         "desc1": "TextBlack",
-                        "desc2": "Pay with your PayPay balance",
+                        "desc2": "Pay by PayPay Balance",
                         "iconcls":"colors_ac242323",
                         "iconcode":"#242323",
                         "iconclscolor":"ac242323",
@@ -5014,7 +5014,7 @@
                     },
                     {
                         "desc1": "Empty/Disabled",
-                        "desc2": "Write a note here",
+                        "desc2": "Enter a memo here",
                         "desc_1": "TextGray",
                         "iconcls":"colors_acBABABA",
                         "iconcode":"#BABABA",
@@ -5023,7 +5023,7 @@
                     },
                     {
                         "desc1": "TextNavy",
-                        "desc2": "Other",
+                        "desc2": "More",
                         "desc_1": "",
                         "iconcls":"colors_ac002970",
                         "iconcode":"#002970",
@@ -5034,7 +5034,7 @@
 				"text_subtitle2_desc1": [
                     {
                         "desc1": "ErrorTextRed",
-                        "desc2": "Not enough balance",
+                        "desc2": "Insufficient balance",
                         "color":"#FD5C5C",
                         "iconcls":"colors_acFD5C5C",
                         "iconcode":"#FD5C5C",
@@ -5042,7 +5042,7 @@
                     },
                     {
                         "desc1": "SuccessTextGreen",
-                        "desc2": "open for business",
+                        "desc2": "Completed",
                         "color":"#20BF7A",
                         "iconcls":"colors_ac20BF7A",
                         "iconcode":"#20BF7A",
@@ -6087,10 +6087,10 @@
 				"subtitle_article": "Article",
 				"article_desc": [
 					{
-						"desc": "Used when displaying long content such as articles in a compact manner"
+						"desc": "Used to collapse long text contents such as articles."
 					},
 					{
-						"desc": "To improve readability of subsequent content and action components"
+						"desc": "Placing information within an expander improves the readability of the contents and action components following below."
 					}
 				],
 				"title_interaction": "Interaction",
@@ -6567,7 +6567,7 @@
 				"sect3_title": "Animation",
 				"sect3_desc1": "Toast is used to inform the user of the result of the action they took.",
 				"sect3_desc2": "It must be automatically deleted after the feedback on the result is given to avoid interfering with other contents",
-				"sect4_title": "Prohibited",
+				"sect4_title": "Don’t",
 				"toast_data1": [
 					{
 						"desc": "It is prohibited to add action items.",
@@ -6584,7 +6584,7 @@
 						"logo": "toast_05.svg"
 					},
 					{
-						"desc": "For devices with a Safe area, the background color is also displayed outside the Safe area.",
+						"desc": "A background color is displayed outside of the safe area as well for devices that have a safe area.",
 						"logo": "toast_06.svg"
 					}
 				],
