@@ -3481,16 +3481,16 @@
 				}],
 				"fcUsageExample": [{
 					"name": "Success",
-					"logo": "usage_success.png"
+					"logo": "usage_success.svg"
 					},{
 					"name": "Error",
-					"logo": "usage_error.png"
+					"logo": "usage_error.svg"
 					},{
 					"name": "Pending",
-					"logo": "usage_pending.png"
+					"logo": "usage_pending.svg"
 					},{
 					"name": "Information",
-					"logo": "usage_info.png"
+					"logo": "usage_info.svg"
 				}],
 				"graUsageExample": [{
 				  "name": "UI Background",
@@ -3540,7 +3540,7 @@
 					"hex": "#FF0033"
 				},{
 					"name": "Blue",
-					"hex": "#00B9F5"
+					"hex": "#3895FF"
 				},{
 					"name": "Navy",
 					"hex": "#002970"
@@ -3796,7 +3796,7 @@
 					"hex": "#FFB900"
 				},{
 					"name": "Action/Information",
-					"hex": "#00B8F5"
+					"hex": "#3895FF"
 				}],
 				"gradationColorCode":[{
 					"name": "PayPay Gradation",
