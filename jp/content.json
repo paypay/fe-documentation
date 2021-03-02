@@ -3179,26 +3179,26 @@
         {
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
 					"dshomesec3_philo_img": "section2_icn_01.svg",
-					"dshomesec3_philo_title": "Emapthy",
-					"dshomesec3_philo_descriptions": "We provide designs that are close to the user's life and sympathize with them."
+					"dshomesec3_philo_title": "エンパシー",
+					"dshomesec3_philo_descriptions": "ユーザーの生活に身近で共感性のあるデザインを提供します。"
 				},
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo2",
 					"dshomesec3_philo_img": "section2_icn_02.svg",
-					"dshomesec3_philo_title": "Simple",
-					"dshomesec3_philo_descriptions": "Strip off the extra stuff so the user can focus only on what's important."
+					"dshomesec3_philo_title": "シンプル",
+					"dshomesec3_philo_descriptions": "余分なものは取り除き、重要な物のみにユーザーが目を向けられるようにします。"
 				},
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo3",
 					"dshomesec3_philo_img": "section2_icn_03.svg",
-					"dshomesec3_philo_title": "Consistency",
-					"dshomesec3_philo_descriptions": "The UI components provided by the app comply with the components in this guideline."
+					"dshomesec3_philo_title": "一貫性",
+					"dshomesec3_philo_descriptions": "PayPayアプリが提供するUIコンポーネントは、このガイドラインのコンポーネントに準拠しています。"
 				},
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo4",
 					"dshomesec3_philo_img": "section2_icn_04.svg",
-					"dshomesec3_philo_title": "Happy",
-					"dshomesec3_philo_descriptions": "We aim to make your daily life happy with PayPay, and provide fun, human-like, and warm designs."
+					"dshomesec3_philo_title": "ハッピー",
+					"dshomesec3_philo_descriptions": "PayPayによってユーザーの日常をハッピーにできるような、楽しく、人間らしい、暖かみのあるデザインを提供することを目指します。"
 				}
       ],
       "dshomesec3_content_knowmore": "Know More...",
@@ -3403,7 +3403,7 @@
         "ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します",
         "title_functional_color": "Functional Color",
         "functional_color_desc_1": "Functional color assetsは役割を持つ色のアセットです。",
-        "functional_color_desc_2": "色の持つ役割に一貫性をも持つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
+        "functional_color_desc_2": "色の持つ役割に一貫性を保つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
         "functional_color_desc_3": "色はExtended color assetsから引用します。",
         "functional_color_dont": "Don't",
         "functional_color_dont_desc": "以下の使い方はユーザーの誤操作を誘発するリスクがあるため禁止とします。",
@@ -3415,7 +3415,7 @@
         "title_accessibility": "Accessibility",
         "accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
         "accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
-        "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ",
+        "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありません。",
         "gcaUsageExample": [{
 					"name": "Brand Logo",
 					"logo": "brand_logo.svg"
@@ -3438,16 +3438,16 @@
         }],
         "fcUsageExample": [{
 					"name": "Success",
-					"logo": "usage_success.png"
+					"logo": "usage_success.svg"
 					},{
 					"name": "Error",
-					"logo": "usage_error.png"
+					"logo": "usage_error.svg"
 					},{
 					"name": "Pending",
-					"logo": "usage_pending.png"
+					"logo": "usage_pending.svg"
 					},{
 					"name": "Information",
-					"logo": "usage_info.png"
+					"logo": "usage_info.svg"
         }],
         "graUsageExample": [{
           "name": "UI Background",
@@ -3489,7 +3489,7 @@
           "name": "色相の遠い色を組み合わせる",
           "logo": "usage_dont_05.svg"
           },{
-          "name": "連携サービスやMini-Appなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
+          "name": "連携サービスやミニアプリなど、PayPayの主要機能以外にPayPay Gradationを利用することは禁止します",
           "logo": "usage_dont_06.png"
         }],
         "colorCode1": [{
@@ -3497,7 +3497,7 @@
           "hex": "#FF0033"
         },{
           "name": "Blue",
-          "hex": "#00B9F5"
+          "hex": "#3895FF"
         },{
           "name": "Navy",
           "hex": "#002970"
@@ -3753,7 +3753,7 @@
           "hex": "#FFB900"
         },{
           "name": "Action/Information",
-          "hex": "#00B8F5"
+          "hex": "#3895FF"
         }],
         "gradationColorCode":[{
           "name": "PayPay Gradation",
@@ -4316,7 +4316,7 @@
         "layout_sect5_title": "画面の端から要素の間",
         "layout_sect5_description": "画面の端からコンテンツの間に余白を設けることで、コンテンツの視認性を担保します。スマートフォンの環境では、余白は24px/16pxを利用します。 余白の使い分けの目安は以下の通りです。",
         "layout_sect5_hint1": "入力フォームやアクションボタンがメインとなる画面",
-        "layout_sect5_hint2": "カードのUIとリストが主なコンテンツである画面",
+        "layout_sect5_hint2": "カードUIやリストがメインコンテンツとなる画面",
         "layout_sect6_title": "環境別の指定",
         "layout_sect6_description": "タブレット、デスクトップの環境では、余白は40px/24pxを利用します。余白の切り替えはブレイクポイントによって行われます。",
         "layout_sect7_title": "要素同士の余白",
@@ -4700,7 +4700,7 @@
 				"subtitle_heading": "Heading (H)",
 				"heading_desc": [
 					{
-						"desc": "ヘッダやタイトルに利用します。"
+						"desc": "ヘッダーやタイトルに利用します。"
 					},
 					{
 						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
@@ -4927,7 +4927,7 @@
             "col3": "typography_white.png"
 					}
 				],
-				"size_en_regular": [
+        "size_en_regular": [
           {
 						"name": "panel1",
 						"col1": "typography_24.svg",
@@ -4940,10 +4940,10 @@
             "col3": "typography_white.png"
 					}
 				],
-				"text_subtitle1_desc1": [
+        "text_subtitle1_desc1": [
           {
               "desc1": "TextBlack",
-              "desc2": "PayPay残高でお支払い",
+              "desc2": "PayPay残高で支払い",
               "iconcls":"colors_ac242323",
               "iconcode":"#242323",
               "iconclscolor":"ac242323",
@@ -4960,7 +4960,7 @@
           },
           {
               "desc1": "SubtextGray",
-              "desc2": "PayPayボーナスの7月となりますご了承ください",
+              "desc2": "PayPay残高で支払い",
               "desc_1": "",
               "iconcls":"colors_ac909090",
               "iconcode":"#909090",
@@ -4997,7 +4997,7 @@
           },
           {
               "desc1": "SuccessTextGreen",
-              "desc2": "営業中",
+              "desc2": "完了",
               "color":"#20BF7A",
               "iconcls":"colors_ac20BF7A",
               "iconcode":"#20BF7A",
@@ -5161,11 +5161,11 @@
 					{
 						"name": "panel1",
 						"icons": "balloon_sect7_no1.svg", 
-						"balloon_sect7_col1": "表示されるテキストは短く簡潔です。"
+						"balloon_sect7_col1": "テキストが短く簡潔に表示されている。"
 					}, {
 						"name": "panel2",
 						"icons": "balloon_sect7_no2.svg", 
-						"balloon_sect7_col1": "2行に分かれているなどの可読性が低い。"
+						"balloon_sect7_col1": "テキストが改行されているなど、可読性が低い。"
 					}
 				],
 				"balloon_sect8_title": "Interaction",
@@ -5177,7 +5177,7 @@
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a>"
 					}
 				],
 				"balloon_sect9_title": "Spec",
@@ -5209,13 +5209,13 @@
 						"balloon_sect10_col1": "Text Label", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
-							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
 							"<br/>",
 							"<b>Secondary</b>",
-							"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading / Label 14</a>",
+							"<a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #00B9F5",
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
@@ -5236,14 +5236,14 @@
 							"<b>Primary</b>",
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>",
+							"Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>",
 							"<br/>",							
 							"<b>Secondary</b>",
 							"Default :",
 							"Back ground : #FFFFFF",
 							"Pressed( iOS ) :",
 							"Back ground : #F2F2F2",
-							"Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
+							"Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>"
 						]
 					}
 				],
@@ -5292,7 +5292,7 @@
 						"name": "no2",
 						"icons": "card_sect3_no2.svg", 
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+						"card_sect3_col2":"<a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
 					}
 				],
 				"card_sect4_title": "Do / Don't",
@@ -5321,7 +5321,7 @@
 					{
 						"name": "no1",
 						"card_sect5_col1": "Tap",
-						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a></div>"
+						"card_sect5_col2":"<div>アクション時にタップフィードバックを表示します。</div><div>Specを参照してください。</div><div>参考：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></div>"
             }, {
 						"name": "no2",
 						"card_sect5_col1": "Flip",
@@ -5329,7 +5329,7 @@
 					}
 				],
 				"card_sect6_title": "Spec",
-				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/layout' target='_blank'>Layout</a> の項目を参照してください。",
+				"card_sect6_descriptions": "カード周辺、カード間の余白の値については、<a href='/app-styleguide/globalrule/layout' target='_blank'>Layout</a> の項目を参照してください。",
 				"card_sect6_tableholder": [
 					{
 						"name": "no1",
@@ -5490,22 +5490,22 @@
 				"form_sect11_tblholder": [
                     {
                       "form_sect11_col1": "Title (Option)",
-                      "form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
+                      "form_sect11_col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
                     }, {
                       "form_sect11_col1": "Text Field - Input Text",
-                      "form_sect11_col2": "<div><b>Place holder</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
+                      "form_sect11_col2": "<div><b>Place holder</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></div><div>Text Align-Left</div><div>#BABABA</div><div><br/></div><div>Input</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></div> <div>Text Align-Left</div><div>#242323</div>"
                     }, {
                       "form_sect11_col1": "Text Field - Form bar",
                       "form_sect11_col2": "<div><b>Empty</b></div><div>1px/dp</div><div>#BABABA</div><div><br/></div><div><b>Filled</b></div><div>1px/dp</div><div>#3895FF</div><div><br/></div><div><b>Editing</b></div><div>2px/dp</div><div>#3895FF</div><div><br/></div><div><b>Error</b></div><div>1px/dp</div><div>#FD5C5C</div><div><br/></div><div><b>Non-Editable</b></div><div>1px/dp</div><div>#EEEEEE</div>"
                     }, {
                       "form_sect11_col1": "Message area",
-                      "form_sect11_col2": "<div><b>Normal</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
+                      "form_sect11_col2": "<div><b>Normal</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#606060</div><div><br/></div><div><b>Error</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
                     }, {
                       "form_sect11_col1": "Action Item",
                       "form_sect11_col2": "<div><b>Icon size</b></div><div>24*24px/dp</div><div><b>アイコン間のSpacing</b></div><div>0px/dp</div>"
                     }, {
                       "form_sect11_col1": "Text Counter (Option)",
-                      "form_sect11_col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
+                      "form_sect11_col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
                     }
 				]
 			},
@@ -5660,11 +5660,11 @@
 						"header_sect12_col2": "<div>24px*24px/dp</div>"
 					}, {
 						"header_sect12_col1": "Title",
-						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
+						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
 
 					}, {
 						"header_sect12_col1": "Action Item",
-						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
+						"header_sect12_col2": "<div>24*24px/dp</div><div><b>Text- Active</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br /></div><div>Text- non Active</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#BABABA</div>"
 					}, {
 						"header_sect12_col1": "Background",
 						"header_sect12_col2": "<div><b>Regular</b></div><div>#FFFFFF</div><div><b>Transparent</b></div><div>---</div>"
@@ -7267,7 +7267,7 @@
 				"list_sect7_title": "Interaction",
 				"list_sect7_subtitle": "Tap",
 				"list_sect7_desc": "<div>Expand areaをタップして、展開前/展開後のUIを切り替えます。</div><div>タップ時にはタップフィードバックを表示します。</div><div>Specを参照してください。</div>",
-				"list_sect7_hint": "参考：<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/interaction' target='_blank'>Interaction</a>",
+				"list_sect7_hint": "参考：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a>",
 
 				"list_sect8_subtitle": "Scroll",
 				"list_sect8_desc": "<div>List Headerのあるリストの場合、スクロール時に画面のHeader直下にList Headerを固定します。</div><div>List Headerを固定することでスクロール中に表示されているリストの情報を明確に伝えることができます。</div>",
@@ -7306,7 +7306,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
+						"col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading 16</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7314,7 +7314,7 @@
 					}, {
 						"name": "panel3",
 						"col1": "Scroll",
-						"col2": "Shadow : <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low-shadow</a>"
+						"col2": "Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>"
 					}
 				],
 
@@ -7325,7 +7325,7 @@
 					{
 						"name": "panel1",
 						"col1": " Font",
-						"col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
+						"col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading 14</a></div><div>Text Align-Left</div><div>#909090</div>"
 					}, {
 						"name": "panel2",
 						"col1": "Background",
@@ -7340,7 +7340,7 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
+						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='/app-styleguide/globalrule/icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
 					}
 				],	
 				
@@ -7570,11 +7570,11 @@
         }, {
           "name": "panel3",
           "col1": "Track Value (Text)",
-          "col2": "<div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#242323</div>"
+          "col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#242323</div>"
         }, {
           "name": "panel4",
           "col1": "Input Value Balloon (Option)",
-          "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
+          "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
         }],
       
         "slider_sect13_subtitle": "Scale Slider",
@@ -7582,7 +7582,7 @@
         "slider_sect13_tblholder": [{
           "name": "panel1",
           "col1": "Sample Value (Option)",
-          "col2": "<div><b>Default</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
+          "col2": "<div><b>Default</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
         }, {
           "name": "panel2",
           "col1": "Inactive Point",
@@ -7594,7 +7594,7 @@
         }, {
           "name": "panel4",
           "col1": "Track Value",
-          "col2": "<div><b>Default</b></div><div><a href='https://stg-developer.paypay-corp.co.jp/app-styleguide/typography#Typography-textsize' target='_blank'>Label 12 Regular</a></div><div>Text Align-Center</div><div>#909090</div>"
+          "col2": "<div><b>Default</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12 Regular</a></div><div>Text Align-Center</div><div>#909090</div>"
         }]
       }
     }
