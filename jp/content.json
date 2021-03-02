@@ -4927,7 +4927,7 @@
             "col3": "typography_white.png"
 					}
 				],
-				"size_en_regular": [
+        "size_en_regular": [
           {
 						"name": "panel1",
 						"col1": "typography_24.svg",
@@ -4940,10 +4940,10 @@
             "col3": "typography_white.png"
 					}
 				],
-				"text_subtitle1_desc1": [
+        "text_subtitle1_desc1": [
           {
               "desc1": "TextBlack",
-              "desc2": "PayPay残高でお支払い",
+              "desc2": "PayPay残高で支払い",
               "iconcls":"colors_ac242323",
               "iconcode":"#242323",
               "iconclscolor":"ac242323",
@@ -4960,7 +4960,7 @@
           },
           {
               "desc1": "SubtextGray",
-              "desc2": "PayPayボーナスの7月となりますご了承ください",
+              "desc2": "PayPay残高で支払い",
               "desc_1": "",
               "iconcls":"colors_ac909090",
               "iconcode":"#909090",
