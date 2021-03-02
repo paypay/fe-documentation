@@ -4387,12 +4387,12 @@
 				"layout_sect8_icons_tableholder": [
 				  {
 					"name": "panel1",
-					"icons": "layout_sect8_doimage.png",
+					"icons": "layout_sect8_doimage.svg",
 					"desc": "Place action components inside the safe area."
 				  },
 				  {
 					"name": "panel2",
-					"icons": "layout_sect8_dontimage.png",
+					"icons": "layout_sect8_dontimage.svg",
 					"desc": "Place action components outside the safe area."
 				  }
 				],
