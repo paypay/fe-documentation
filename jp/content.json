@@ -3415,7 +3415,7 @@
         "title_accessibility": "Accessibility",
         "accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
         "accessibility_desc_2": "ただし、付随的なコンポーネント、テキストが装飾要素である場合は除きます。",
-        "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありませ",
+        "accessibility_desc_3": "また、ロゴまたはブランド名の一部である文字には最低限のコントラストの要件はありません。",
         "gcaUsageExample": [{
 					"name": "Brand Logo",
 					"logo": "brand_logo.svg"
@@ -3438,16 +3438,16 @@
         }],
         "fcUsageExample": [{
 					"name": "Success",
-					"logo": "usage_success.png"
+					"logo": "usage_success.svg"
 					},{
 					"name": "Error",
-					"logo": "usage_error.png"
+					"logo": "usage_error.svg"
 					},{
 					"name": "Pending",
-					"logo": "usage_pending.png"
+					"logo": "usage_pending.svg"
 					},{
 					"name": "Information",
-					"logo": "usage_info.png"
+					"logo": "usage_info.svg"
         }],
         "graUsageExample": [{
           "name": "UI Background",
@@ -3497,7 +3497,7 @@
           "hex": "#FF0033"
         },{
           "name": "Blue",
-          "hex": "#00B9F5"
+          "hex": "#3895FF"
         },{
           "name": "Navy",
           "hex": "#002970"
@@ -3753,7 +3753,7 @@
           "hex": "#FFB900"
         },{
           "name": "Action/Information",
-          "hex": "#00B8F5"
+          "hex": "#3895FF"
         }],
         "gradationColorCode":[{
           "name": "PayPay Gradation",
