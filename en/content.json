@@ -5255,13 +5255,13 @@
 						"balloon_sect10_col1": "Text Label", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
-							"<a href='<u>/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
+							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
 							"<br/>",
 							"<b>Secondary</b>",
-							"<a href='<u>/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
+							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
 							"Default : #00B9F5",
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
