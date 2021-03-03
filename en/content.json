@@ -5310,9 +5310,9 @@
 				"card_headers": "Card",
 				"card_sect1_title": "Principle",
 				"card_sect1_description": [
-					"Cards are used to organize, group and present complex information.",
-					"Cards are an affordance for taps or swipe actions.",
-					"A card UI should not be for decorative purposes only, but should be used to organize information or activating actions, and should do not be used for decorative purposes"
+					"• Cards are used to organize, group and present complex information.",
+					"• Cards are an affordance for taps or swipe actions.",
+					"• A card UI should not be for decorative purposes only, but should be used to organize information or activating actions, and should do not be used for decorative purposes"
 				],
 				"card_sect2_title": "Usage",
 				"card_sect2_description": "Usage Example",
