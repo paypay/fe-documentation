@@ -5138,7 +5138,7 @@
 						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
 					}
 				],
-				"balloon_sect6_description": [
+                  "balloon_sect6_description": [
 					"Scroll BalloonにはPrimary ColorとSecondary Colorがありま。",
                     "強調するコンテンツの優先度によって使い分けます。",
 					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
@@ -5146,7 +5146,7 @@
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_rowers1.svg", 
+						"icons": "balloon_sect6_rowers1.png",
 						"balloon_sect6_title": "Primary Color",
 						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
 					}, {
