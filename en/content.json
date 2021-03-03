@@ -4375,7 +4375,7 @@
 				  {
 					"name": "panel1",
 					"col1": "iOS",
-					"col2": "For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom. Refer to the IOS <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>Human Interface Guideline</a> for details"
+					"col2": "For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom. Refer to the <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>iOS Human Interface Guideline</a> for details"
 				},
 				  {
 					"name": "panel2",
