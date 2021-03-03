@@ -5223,7 +5223,7 @@
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information. Reference：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "<div>The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information.</div> <div>Reference：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></div>"
 					}
 				],
 				"balloon_sect9_title": "Spec",

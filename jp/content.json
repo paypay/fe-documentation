@@ -5100,7 +5100,7 @@
 						"name": "no1",
 						"icons": "balloon_sect4_no1.svg", 
 						"balloon_sect4_col1": "Icon (Option)",
-						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。 アイコンを付与することでよりユーザーの注目を集めることができます。",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
@@ -5120,7 +5120,7 @@
 					}
 				],
 				"balloon_sect5_title": "Do / Don't",
-				"balloon_sect5_description": "Coach Ballonを使用する際は、訴求対象が明確になるようにしてください。",
+				"balloon_sect5_description": "Coach Balloonを使用する際は、訴求対象が明確になるようにしてください。",
 				"balloon_sect5_points1": "強調したいコンテンツが明確",
 				"balloon_sect5_points2": "同一画面に復数のバルーンを配置する どのComponentが強調されているのか不明瞭",
 				"balloon_sect5_points3": "バルーンの視認性が悪い バルーンに近しい背景色の上への配置",
@@ -5139,7 +5139,8 @@
 					}
 				],
 				"balloon_sect6_description": [
-					"Scroll BalloonにはPrimary ColorとSecondary Colorがあります。強調するコンテンツの優先度によって使い分けます。",
+					"Scroll BalloonにはPrimary ColorとSecondary Colorがありま。",
+                    "強調するコンテンツの優先度によって使い分けます。",
 					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
 				],
 				"balloon_sect6_rowers": [
@@ -5177,7 +5178,7 @@
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。参考：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "<div>Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。</div><div>参考：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></div>"
 					}
 				],
 				"balloon_sect9_title": "Spec",
