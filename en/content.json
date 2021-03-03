@@ -4375,12 +4375,12 @@
 				  {
 					"name": "panel1",
 					"col1": "iOS",
-					"col2": "For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom. Refer to the <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>iOS Human Interface Guideline</a> for details"
+					"col2": "<div>For iOS devices, the safe area is 44px at the top of the screen and 34px at the bottom.</div> <div>Refer to the <a href='https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout' target='_blank'>iOS Human Interface Guideline</a> for details</div>"
 				},
 				  {
 					"name": "panel2",
 					"col1": "Android",
-					"col2": "For Android devices, the size of the cutout area depends on the device model. Refer to the Support Display Cutout for details."
+					"col2": "<div>For Android devices, the size of the cutout area depends on the device model.</div> <div>Refer to the Support Display Cutout for details.</div>"
 				  }
 				],
 				"layout_sect8_hint": "Placing action components inside the safe area",
