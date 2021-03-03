@@ -5767,7 +5767,7 @@
         "subtitle_sticky_button": "Sticky Button",
         "sticky_button_desc": [
           {
-            "desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+            "desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1st viewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
           },
           {
             "desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
@@ -5921,7 +5921,7 @@
           }, {
             "name": "no2",
             "icons": "buttons_10_02.svg",
-            "buttons_details_sect2_images_colo1_title1": "Allow Animation"
+            "buttons_details_sect2_images_colo1_title1": "Background"
           }, {
             "name": "no3",
             "icons": "buttons_10_03.svg",
