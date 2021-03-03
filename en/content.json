@@ -4397,7 +4397,7 @@
 				  }
 				],
 				"layout_sect9_title": "Layout Pattern",
-				"layout_sect9_description": "There are several template layouts. The different layouts are used according to the concept of the service or feature.",
+				"layout_sect9_description": "<div>There are several template layouts.</div><div>The different layouts are used according to the concept of the service or feature.</div>",
 				"layout_sect9_images_tableholder": [
 				  {
 					"name": "panel1",

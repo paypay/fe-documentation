@@ -4354,7 +4354,7 @@
           }
         ],
         "layout_sect9_title": "Layout Pattern",
-        "layout_sect9_description": "画面のレイアウトに定形パターンを定義します。サービスのコンセプトや機能によって使い分けをします。",
+        "layout_sect9_description": "<div>画面のレイアウトに定形パターンを定義します。</div><div>サービスのコンセプトや機能によって使い分けをします。</div>",
         "layout_sect9_images_tableholder": [
           {
             "name": "panel1",
