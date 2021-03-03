@@ -5188,7 +5188,7 @@
 						"name": "panel1",
 						"balloon_sect9_col1": "Text Label", 
 						"balloon_sect9_col2": [
-							"Heading / Label 14",
+							"<a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7"
@@ -5199,7 +5199,7 @@
 						"balloon_sect9_col2": [
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : Low-shadow"
+							"Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>"
 						]
 					}
 				],
