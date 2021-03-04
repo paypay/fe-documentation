@@ -5720,7 +5720,7 @@
 			"pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</div><div>•  It is important to accurately communicate the position of the content that is displayed when amongst various other content.</div><div>•  Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</div>",
+				"pagecontrols_sect1_desc": "<div><span>•</span><span>Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</span></div><div><span>•</span><span>It is important to accurately communicate the position of the content that is displayed when amongst various other content.</span></div><div><span>•</span><span>Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</span></div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
 				"pagecontrols_sect2_desc": "The number of flickable banner images are displayed as a page control.",
