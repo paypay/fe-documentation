@@ -5223,7 +5223,7 @@
 					}, {
 						"name": "panel2",
 						"balloon_sect8_col1": "Scroll Balloon", 
-						"balloon_sect8_col2": "The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information. Reference：<a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a>"
+						"balloon_sect8_col2": "<div>The balloon disappears after it is tapped or when the user scrolls down/up. Tap feedback is displayed when action is taken. Refer to Specs for more information.</div> <div>Reference：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u></div>"
 					}
 				],
 				"balloon_sect9_title": "Spec",
@@ -5233,7 +5233,7 @@
 						"name": "panel1",
 						"balloon_sect9_col1": "Text Label", 
 						"balloon_sect9_col2": [
-							"Heading / Label 14",
+							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7"
@@ -5244,7 +5244,7 @@
 						"balloon_sect9_col2": [
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : Low-shadow"
+							"Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"
 						]
 					}
 				],
@@ -5255,13 +5255,13 @@
 						"balloon_sect10_col1": "Text Label", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
-							"<a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a>",
+							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
 							"Default : #FFFFFF",
 							"Pressed( iOS ) :  #FFFFFF, Alpha 0.7",
 							"<br/>",
 							"<b>Secondary</b>",
-							"<a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a>",
+							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
 							"Default : #00B9F5",
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
@@ -5273,7 +5273,7 @@
 							"<b>Primary</b>",
 							"TBD",
 							"<b>Secondary</b>",
-							"<a href='https://lottiefiles.com/share/WcmClO' target='_blank'>https://lottiefiles.com/share/WcmClO</a>"
+							"<u><a href='https://lottiefiles.com/share/WcmClO' target='_blank'>https://lottiefiles.com/share/WcmClO</a></u>"
 						]
 					}, {
 						"name": "panel3",
@@ -5282,14 +5282,14 @@
 							"<b>Primary</b>",
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
-							"Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>",
+							"Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>",
 							"<br/>",							
 							"<b>Secondary</b>",
 							"Default :",
 							"Back ground : #FFFFFF",
 							"Pressed( iOS ) :",
 							"Back ground : #F2F2F2",
-							"Shadow : <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a>"
+							"Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"
 						]
 					}
 				],
@@ -5967,7 +5967,7 @@
 					}, {
 						"name": "no2",
 						"icons": "buttons_10_02.svg",
-						"buttons_details_sect2_images_colo1_title1": "Allow Animation"
+						"buttons_details_sect2_images_colo1_title1": "Background"
 					}, {
 						"name": "no3",
 						"icons": "buttons_10_03.svg",
