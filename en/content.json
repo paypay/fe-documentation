@@ -5396,9 +5396,9 @@
 				"form_headers": "Form",
 				"form_sect1_title": "Usage",
 				"form_sect1_description": [
-					"Forms are used for the user to enter free text.",
-					"Clear instructions are provided to the user to specify the action that is required such as what should be entered and how many characters can be entered.",
-					"The visual is changed according to the input status to allow the user to intuitively understand what the current status is, such as by not entered, entered and error."
+					"• Forms are used for the user to enter free text.",
+					"• Clear instructions are provided to the user to specify the action that is required such as what should be entered and how many characters can be entered.",
+					"• The visual is changed according to the input status to allow the user to intuitively understand what the current status is, such as by not entered, entered and error."
 				],
 				"form_sect1_subtitle": "Usage Example",
 				"form_sect2_title": "Type",
