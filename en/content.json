@@ -7666,7 +7666,7 @@
 			"slider": {
 				"slider_heading": "Slider",
 				"slider_sect1_title": "Usage",
-				"slider_sect1_desc": "<div>• A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</div><div>•  Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</div><div>•  A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</div>",
+				"slider_sect1_desc": "<div><span>•</span><span>A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</span></div><div><span>•</span><span>Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</span></div><div><span>•</span><span>A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</span></div>",
 
 				"slider_sect2_title": "Usage Example",
 				"slider_sect2_desc": "Sliders may be used for volume control or selecting a price range.",

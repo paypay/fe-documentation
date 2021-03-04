@@ -7401,7 +7401,7 @@
       "slider": {
         "slider_heading": "Slider",
         "slider_sect1_title": "Usage",
-        "slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
+        "slider_sect1_desc": "<div><span>•</span><span>選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</span></div><div><span>•</span><span>選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</span></div><div><span>•</span><span>キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</span></div>",
       
         "slider_sect2_title": "Usage Example",
         "slider_sect2_desc": "音量や価格の範囲の選択に利用します",
