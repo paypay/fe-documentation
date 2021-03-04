@@ -5858,7 +5858,7 @@
               "buttons_sect3_colo1_icons": "buttons_03_1.svg",
               "buttons_sect3_colo1_icons_title": "Text label",
               "buttons_design_sect3_images_colo2_1":[
-                {"desc":["Primary, Error1, Disabled","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+                {"desc":["Primary, Error, Disabled","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
                 {"desc":["Secondary, Tertiary","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
             },
             {
