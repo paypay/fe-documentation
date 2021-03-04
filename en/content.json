@@ -5806,9 +5806,7 @@
 				"horizontal_button_desc_3": "Color palette",
 				"horizontal_button_desc_4": " for the colors.",
 				"lauoyt_subtitle": "The background color when using two buttons",
-				"lauoyt_subtitle_desc": "Refer to ",
-				"lauoyt_subtitle_desc_1": "Color palette",
-				"lauoyt_subtitle_desc_2": " for the colors",
+				"lauoyt_subtitle_desc": "Refer to <u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u> for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
