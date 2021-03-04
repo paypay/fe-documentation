@@ -5846,8 +5846,7 @@
 						"desc": "Refer to the Specs."
 					}
 				],
-				"interaction_desc_1": "Reference：",
-				"interaction_desc_2": "Interaction",
+				"interaction_desc_1": "Reference：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
 				"title_spec": "Spec",
 				"subtitle_spacing": "Spacing",
 
