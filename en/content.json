@@ -5802,13 +5802,9 @@
 					}
 				],
 				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
-				"horizontal_button_desc_2": "Refer to ",
-				"horizontal_button_desc_3": "Color palette",
-				"horizontal_button_desc_4": " for the colors.",
+				"horizontal_button_desc_2": "Refer to <u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u> for the colors.",
 				"lauoyt_subtitle": "The background color when using two buttons",
-				"lauoyt_subtitle_desc": "Refer to ",
-				"lauoyt_subtitle_desc_1": "Color palette",
-				"lauoyt_subtitle_desc_2": " for the colors",
+				"lauoyt_subtitle_desc": "Refer to <u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u> for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
@@ -5848,8 +5844,7 @@
 						"desc": "Refer to the Specs."
 					}
 				],
-				"interaction_desc_1": "Reference：",
-				"interaction_desc_2": "Interaction",
+				"interaction_desc_1": "Reference：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
 				"title_spec": "Spec",
 				"subtitle_spacing": "Spacing",
 
@@ -5907,8 +5902,8 @@
 							"buttons_sect3_colo1_icons": "buttons_03_1.svg",
 							"buttons_sect3_colo1_icons_title": "Text label",
 							"buttons_design_sect3_images_colo2_1":[
-								{"desc":["Primary,Error1,Disabled","Lable 14 Bold","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
-								{"desc":["Secondary,Tertairy","Lable 14 Bold","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
+								{"desc":["Primary, Error, Disabled","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+								{"desc":["Secondary, Tertiary","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
 						},
 						{
 							"name":"panel2",
@@ -6034,7 +6029,7 @@
 					}, {
 						"name": "panel2",
 						"col1": "Shadow",
-						"col2": "Add a shadow to the top part of the background <br> Shadow : <span>-90° Low-Shadow</span>"
+						"col2": "Add a shadow to the top part of the background <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
 					}
 				]
 
@@ -6594,7 +6589,7 @@
 							{
 								"name": "panel1",
 								"toast_data3_colo1_title": "Font",
-								"toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+								"toast_data3_colo2": [{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label/14</a></u>", "Text Align-Left", "#FFFFFF"] }]
 							},
 							{
 								"name": "panel2",
@@ -6668,7 +6663,7 @@
 							{
 								"name": "panel1",
 								"tab_data2_colo1_title": "Selected",
-								"tab_data2_colo1_icons": "buttons_03_1.svg",
+								"tab_data2_colo1_icons": "buttons_10_01.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is selected." },
 									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
@@ -6679,7 +6674,7 @@
 							{
 								"name": "panel2",
 								"tab_data2_colo1_title": "Unselected",
-								"tab_data2_colo1_icons": "buttons_03_2.svg",
+								"tab_data2_colo1_icons": "buttons_10_02.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is not selected." },
 									{ "desc": "Tapping the tab will change it to a selected state. The related contents are displayed below the tab." }
@@ -6721,8 +6716,8 @@
 								"name": "panel1",
 								"tab_data4_colo1_title": "Label",
 								"tab_data4_colo2": [
-									{ "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
-									{ "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Active", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#3895FF"]},
+									{ "desc": ["Disabled", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
@@ -6736,7 +6731,7 @@
 								"name": "panel2",
 								"tab_data4_colo1_title": "Background",
 								"tab_data4_colo2": [
-									{ "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+									{ "desc": ["", "", "#FFFFFF", "Shadow:  <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"] }
 								]
 							}
 						]
@@ -6749,8 +6744,8 @@
 								"name": "panel1",
 								"tab_data5_colo1_title": "Label",
 								"tab_data5_colo2": [
-									{ "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
-									{ "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFFF"]},
+									{ "desc": ["Unselected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
