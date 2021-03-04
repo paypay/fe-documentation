@@ -7077,7 +7077,7 @@
       "list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  復数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスや取れるアクションがある場合は簡潔に示します</div><div>•  リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOSの標準に準拠します</div>",
+				"list_sect1_desc": "<div><span>•</span><span>復数ある情報を整理し、一覧性を高く表示する際に利用します</span></div><div><span>•</span><span>現在のステータスや取れるアクションがある場合は簡潔に示します</span></div><div><span>•</span><span>リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</span></div><div><span>•</span><span>テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</span></div><div><span>•</span><span>リストの体裁はOSの標準に準拠します</span></div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",

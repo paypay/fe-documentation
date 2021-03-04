@@ -7341,7 +7341,7 @@
 			"list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  Lists are used to organize a variety of information and ensure high browsability.</div><div>•  A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</div><div>•  Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</div><div>•  The style of a list is different according to whether it is in iOS or Android.</div>",
+				"list_sect1_desc": "<div><span>•</span><span>Lists are used to organize a variety of information and ensure high browsability.</span></div><div><span>•</span><span>A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</span></div><div><span>•</span><span>Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</span></div><div><span>•</span><span>The style of a list is different according to whether it is in iOS or Android.</span></div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
