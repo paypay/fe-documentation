@@ -5675,7 +5675,7 @@
       "pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div><spa>•</span><span>表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</span></div><div><span>•</span><span>複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</span></div><div><span>•</span><span>より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</span></div>",
+				"pagecontrols_sect1_desc": "<div><span>•</span><span>表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</span></div><div><span>•</span><span>複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</span></div><div><span>•</span><span>より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</span></div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
 				"pagecontrols_sect2_desc": "フリックで表示可能なバナー画像の数をページコントロールで表します。",
