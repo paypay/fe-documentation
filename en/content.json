@@ -6663,7 +6663,7 @@
 							{
 								"name": "panel1",
 								"tab_data2_colo1_title": "Selected",
-								"tab_data2_colo1_icons": "buttons_03_1.svg",
+								"tab_data2_colo1_icons": "buttons_10_01.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is selected." },
 									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
@@ -6674,7 +6674,7 @@
 							{
 								"name": "panel2",
 								"tab_data2_colo1_title": "Unselected",
-								"tab_data2_colo1_icons": "buttons_03_2.svg",
+								"tab_data2_colo1_icons": "buttons_10_02.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is not selected." },
 									{ "desc": "Tapping the tab will change it to a selected state. The related contents are displayed below the tab." }
@@ -6716,8 +6716,8 @@
 								"name": "panel1",
 								"tab_data4_colo1_title": "Label",
 								"tab_data4_colo2": [
-									{ "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
-									{ "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Active", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#3895FF"]},
+									{ "desc": ["Disabled", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
@@ -6731,7 +6731,7 @@
 								"name": "panel2",
 								"tab_data4_colo1_title": "Background",
 								"tab_data4_colo2": [
-									{ "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+									{ "desc": ["", "", "#FFFFFF", "Shadow:  <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"] }
 								]
 							}
 						]
@@ -6744,8 +6744,8 @@
 								"name": "panel1",
 								"tab_data5_colo1_title": "Label",
 								"tab_data5_colo2": [
-									{ "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
-									{ "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFFF"]},
+									{ "desc": ["Unselected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
