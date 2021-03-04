@@ -5720,7 +5720,7 @@
 			"pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</div><div>•  It is important to accurately communicate the position of the content that is displayed when amongst various other content.</div><div>•  Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</div>",
+				"pagecontrols_sect1_desc": "<div><span>•</span><span>Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</span></div><div><span>•</span><span>It is important to accurately communicate the position of the content that is displayed when amongst various other content.</span></div><div><span>•</span><span>Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</span></div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
 				"pagecontrols_sect2_desc": "The number of flickable banner images are displayed as a page control.",
@@ -7341,7 +7341,7 @@
 			"list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  Lists are used to organize a variety of information and ensure high browsability.</div><div>•  A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</div><div>•  Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</div><div>•  The style of a list is different according to whether it is in iOS or Android.</div>",
+				"list_sect1_desc": "<div><span>•</span><span>Lists are used to organize a variety of information and ensure high browsability.</span></div><div><span>•</span><span>A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</span></div><div><span>•</span><span>Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</span></div><div><span>•</span><span>The style of a list is different according to whether it is in iOS or Android.</span></div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
@@ -7666,7 +7666,7 @@
 			"slider": {
 				"slider_heading": "Slider",
 				"slider_sect1_title": "Usage",
-				"slider_sect1_desc": "<div>• A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</div><div>•  Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</div><div>•  A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</div>",
+				"slider_sect1_desc": "<div><span>•</span><span>A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</span></div><div><span>•</span><span>Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</span></div><div><span>•</span><span>A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</span></div>",
 
 				"slider_sect2_title": "Usage Example",
 				"slider_sect2_desc": "Sliders may be used for volume control or selecting a price range.",

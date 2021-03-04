@@ -5675,7 +5675,7 @@
       "pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</div><div>•  複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</div><div>•  より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</div>",
+				"pagecontrols_sect1_desc": "<div><span>•</span><span>表示されている画面外に複数のコンテンツがあることをユーザーに伝え、フリックアクションを促します</span></div><div><span>•</span><span>複数あるコンテンツのうち、現在表示されているコンテンツがどの位置にあるかを正確に伝える必要があります</span></div><div><span>•</span><span>より便利な体験を提供するためのサポートコンポーネントであり、ページコントロールは主要なコンテンツを邪魔することはしません</span></div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
 				"pagecontrols_sect2_desc": "フリックで表示可能なバナー画像の数をページコントロールで表します。",
@@ -7077,7 +7077,7 @@
       "list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  復数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスや取れるアクションがある場合は簡潔に示します</div><div>•  リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOSの標準に準拠します</div>",
+				"list_sect1_desc": "<div><span>•</span><span>復数ある情報を整理し、一覧性を高く表示する際に利用します</span></div><div><span>•</span><span>現在のステータスや取れるアクションがある場合は簡潔に示します</span></div><div><span>•</span><span>リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</span></div><div><span>•</span><span>テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</span></div><div><span>•</span><span>リストの体裁はOSの標準に準拠します</span></div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
@@ -7401,7 +7401,7 @@
       "slider": {
         "slider_heading": "Slider",
         "slider_sect1_title": "Usage",
-        "slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
+        "slider_sect1_desc": "<div><span>•</span><span>選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</span></div><div><span>•</span><span>選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</span></div><div><span>•</span><span>キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</span></div>",
       
         "slider_sect2_title": "Usage Example",
         "slider_sect2_desc": "音量や価格の範囲の選択に利用します",
@@ -7512,7 +7512,7 @@
         }],
       
         "slider_sect10_subtitle": "Support Feedback",
-        "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。以下はフィードバックの例です。</div>",
+        "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。</div><div>以下はフィードバックの例です。</div>",
         "slider_sect10_images": [{
           "name": "panel1",
           "icons": "slider_sect10_images1.svg",
