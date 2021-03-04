@@ -6589,7 +6589,7 @@
 							{
 								"name": "panel1",
 								"toast_data3_colo1_title": "Font",
-								"toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+								"toast_data3_colo2": [{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label/14</a></u>", "Text Align-Left", "#FFFFFF"] }]
 							},
 							{
 								"name": "panel2",
