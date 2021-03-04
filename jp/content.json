@@ -7512,7 +7512,7 @@
         }],
       
         "slider_sect10_subtitle": "Support Feedback",
-        "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。以下はフィードバックの例です。</div>",
+        "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。</div><div>以下はフィードバックの例です。</div>",
         "slider_sect10_images": [{
           "name": "panel1",
           "icons": "slider_sect10_images1.svg",
