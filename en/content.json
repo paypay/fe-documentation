@@ -6029,7 +6029,7 @@
 					}, {
 						"name": "panel2",
 						"col1": "Shadow",
-						"col2": "Add a shadow to the top part of the background <br> Shadow : <span>-90° Low-Shadow</span>"
+						"col2": "Add a shadow to the top part of the background <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
 					}
 				]
 
