@@ -6052,8 +6052,7 @@
             "desc": "Specを参照してください。"
           }
         ],
-        "interaction_desc_1": "参考：",
-        "interaction_desc_2": "Interaction",
+        "interaction_desc_1": "参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
         "interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
         "title_spec": "Spec",
         "subtitle_spec_card": "Card",
