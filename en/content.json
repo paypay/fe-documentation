@@ -7017,7 +7017,7 @@
 									{
 										"desc": [
 											"",
-											"Label 16 Regular",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>",
 											"Text Align-Left",
 											"#242323"
 										]
@@ -7101,7 +7101,7 @@
 									{
 										"desc": [
 											"",
-											"Label 16 Regular",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>",
 											"Text Align-Left",
 											"#242323"
 										]
@@ -7121,7 +7121,7 @@
 									{
 										"desc": [
 											"Selected",
-											"Label 14 Bold",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>",
 											"Text Align-Center",
 											"#FFFFF"
 										]
@@ -7129,7 +7129,7 @@
 									{
 										"desc": [
 											"Not Selected",
-											"Label 14 Bold",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>",
 											"Text Align-Center",
 											"#909090"
 										]

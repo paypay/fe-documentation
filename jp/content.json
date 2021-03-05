@@ -6896,7 +6896,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6925,7 +6925,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6938,8 +6938,8 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Text Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["Selected", "Label 14 Bold", "Text Align-Center","#FFFFF"] },
-                  { "desc": ["Not Selected", "Label 14 Bold", "Text Align-Center","#909090"] }
+                  { "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFF"] },
+                  { "desc": ["Not Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#909090"] }
                 ]
               },
               {
