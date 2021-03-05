@@ -6055,6 +6055,7 @@
         "interaction_desc_1": "参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
         "interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
         "title_spec": "Spec",
+        "expand_details_desc_1": "タップ領域を十分に確保します。",
         "subtitle_spec_card": "Card",
         "subtitle_expandlist": "Expand List",
         "subtitle_expandarticle": "Expand Article",

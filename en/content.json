@@ -6104,6 +6104,7 @@
 				"interaction_desc_3": "Animations are applied to the content that is expanded and the arrow icon to make it easier for the user to recognize the changed state.",
 				"title_spec": "Spec",
 				"subtitle_spec_card": "Card",
+				"expand_details_desc_1": "Ensure sufficient space for tapping.",
 				"subtitle_expandlist": "Expand List",
 				"subtitle_expandarticle": "Expand Article",
 				"expand_details_sect9_images_tableholder": [
