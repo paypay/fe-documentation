@@ -6154,7 +6154,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
 					},
 					{
 						"name": "panel2",
@@ -6174,7 +6174,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Bold</a></u> <br> Text Align-Left <br> #242323"
 					},
 					{
 						"name": "panel2",
@@ -6188,7 +6188,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14</a></u> <br> Text Align-Left <br> #BABABA"
 					}
 				]
 			},
