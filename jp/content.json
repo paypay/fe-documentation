@@ -7001,7 +7001,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Title",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
