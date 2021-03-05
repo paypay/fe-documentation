@@ -6799,68 +6799,68 @@
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData3": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData4": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData5": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData6": [
