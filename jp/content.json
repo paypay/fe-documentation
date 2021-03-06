@@ -6052,10 +6052,10 @@
             "desc": "Specを参照してください。"
           }
         ],
-        "interaction_desc_1": "参考：",
-        "interaction_desc_2": "Interaction",
+        "interaction_desc_1": "参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
         "interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
         "title_spec": "Spec",
+        "expand_details_desc_1": "タップ領域を十分に確保します。",
         "subtitle_spec_card": "Card",
         "subtitle_expandlist": "Expand List",
         "subtitle_expandarticle": "Expand Article",
@@ -6106,7 +6106,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
           },
           {
             "name": "panel2",
@@ -6126,7 +6126,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Bold </a></u> <br> Text Align-Left <br> #242323"
           },
           {
             "name": "panel2",
@@ -6140,7 +6140,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14 </a></u> <br> Text Align-Left <br> #BABABA"
           }
         ]
       },
@@ -6799,68 +6799,68 @@
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData3": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData4": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData5": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData6": [
@@ -6896,7 +6896,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6925,7 +6925,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6938,8 +6938,8 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Text Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["Selected", "Label 14 Bold", "Text Align-Center","#FFFFF"] },
-                  { "desc": ["Not Selected", "Label 14 Bold", "Text Align-Center","#909090"] }
+                  { "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFF"] },
+                  { "desc": ["Not Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#909090"] }
                 ]
               },
               {
@@ -7001,7 +7001,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Title",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
