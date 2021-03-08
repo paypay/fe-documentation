@@ -5720,7 +5720,7 @@
 			"pagecontrols": {
 				"pagecontrols_heading": "Page Controls",
 				"pagecontrols_sect1_title": "Usage",
-				"pagecontrols_sect1_desc": "<div>•  Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</div><div>•  It is important to accurately communicate the position of the content that is displayed when amongst various other content.</div><div>•  Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</div>",
+				"pagecontrols_sect1_desc": "<div><span>•</span><span>Communicates to the user that there is more content available outside the screen, encouraging the user to flick through.</span></div><div><span>•</span><span>It is important to accurately communicate the position of the content that is displayed when amongst various other content.</span></div><div><span>•</span><span>Page controls are a supplementary component to provide a more convenient experience and should not interfere with the main content.</span></div>",
 				"pagecontrols_sect2_title": "Usage Example",
 				"pagecontrols_sect2_images": "pagecontrols_sect2_images.svg",
 				"pagecontrols_sect2_desc": "The number of flickable banner images are displayed as a page control.",
@@ -5802,13 +5802,9 @@
 					}
 				],
 				"horizontal_button_desc_1": "It is recommended to use two different colors as the background color so the user can easily recognize the buttons as signifying different actions.",
-				"horizontal_button_desc_2": "Refer to ",
-				"horizontal_button_desc_3": "Color palette",
-				"horizontal_button_desc_4": " for the colors.",
+				"horizontal_button_desc_2": "Refer to <u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u> for the colors.",
 				"lauoyt_subtitle": "The background color when using two buttons",
-				"lauoyt_subtitle_desc": "Refer to ",
-				"lauoyt_subtitle_desc_1": "Color palette",
-				"lauoyt_subtitle_desc_2": " for the colors",
+				"lauoyt_subtitle_desc": "Refer to <u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u> for the colors",
 				"subtitle_sticky_button": "Sticky Button",
 				"sticky_button_desc": [
 					{
@@ -5848,8 +5844,7 @@
 						"desc": "Refer to the Specs."
 					}
 				],
-				"interaction_desc_1": "Reference：",
-				"interaction_desc_2": "Interaction",
+				"interaction_desc_1": "Reference：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
 				"title_spec": "Spec",
 				"subtitle_spacing": "Spacing",
 
@@ -5907,8 +5902,8 @@
 							"buttons_sect3_colo1_icons": "buttons_03_1.svg",
 							"buttons_sect3_colo1_icons_title": "Text label",
 							"buttons_design_sect3_images_colo2_1":[
-								{"desc":["Primary,Error1,Disabled","Lable 14 Bold","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
-								{"desc":["Secondary,Tertairy","Lable 14 Bold","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
+								{"desc":["Primary, Error, Disabled","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+								{"desc":["Secondary, Tertiary","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
 						},
 						{
 							"name":"panel2",
@@ -6034,7 +6029,7 @@
 					}, {
 						"name": "panel2",
 						"col1": "Shadow",
-						"col2": "Add a shadow to the top part of the background <br> Shadow : <span>-90° Low-Shadow</span>"
+						"col2": "Add a shadow to the top part of the background <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
 					}
 				]
 
@@ -6105,11 +6100,11 @@
 						"desc": "Refer to the specs below."
 					}
 				],
-				"interaction_desc_1": "参考：",
-				"interaction_desc_2": "Interaction",
+				"interaction_desc_1": "Reference：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
 				"interaction_desc_3": "Animations are applied to the content that is expanded and the arrow icon to make it easier for the user to recognize the changed state.",
 				"title_spec": "Spec",
 				"subtitle_spec_card": "Card",
+				"expand_details_desc_1": "Ensure sufficient space for tapping.",
 				"subtitle_expandlist": "Expand List",
 				"subtitle_expandarticle": "Expand Article",
 				"expand_details_sect9_images_tableholder": [
@@ -6159,7 +6154,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
 					},
 					{
 						"name": "panel2",
@@ -6179,7 +6174,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Bold</a></u> <br> Text Align-Left <br> #242323"
 					},
 					{
 						"name": "panel2",
@@ -6193,7 +6188,7 @@
 						"name": "panel1",
 						"icons": "",
 						"text": "Text Label",
-						"desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+						"desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14</a></u> <br> Text Align-Left <br> #BABABA"
 					}
 				]
 			},
@@ -6594,7 +6589,7 @@
 							{
 								"name": "panel1",
 								"toast_data3_colo1_title": "Font",
-								"toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+								"toast_data3_colo2": [{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label/14</a></u>", "Text Align-Left", "#FFFFFF"] }]
 							},
 							{
 								"name": "panel2",
@@ -6668,7 +6663,7 @@
 							{
 								"name": "panel1",
 								"tab_data2_colo1_title": "Selected",
-								"tab_data2_colo1_icons": "buttons_03_1.svg",
+								"tab_data2_colo1_icons": "buttons_10_01.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is selected." },
 									{ "desc": "It is recommended to have the tab on the far left selected by default when the screen is displayed." },
@@ -6679,7 +6674,7 @@
 							{
 								"name": "panel2",
 								"tab_data2_colo1_title": "Unselected",
-								"tab_data2_colo1_icons": "buttons_03_2.svg",
+								"tab_data2_colo1_icons": "buttons_10_02.svg",
 								"tab_data2_colo2": [
 									{ "desc": "This is the state of a tab when it is not selected." },
 									{ "desc": "Tapping the tab will change it to a selected state. The related contents are displayed below the tab." }
@@ -6721,8 +6716,8 @@
 								"name": "panel1",
 								"tab_data4_colo1_title": "Label",
 								"tab_data4_colo2": [
-									{ "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
-									{ "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Active", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#3895FF"]},
+									{ "desc": ["Disabled", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
@@ -6736,7 +6731,7 @@
 								"name": "panel2",
 								"tab_data4_colo1_title": "Background",
 								"tab_data4_colo2": [
-									{ "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+									{ "desc": ["", "", "#FFFFFF", "Shadow:  <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"] }
 								]
 							}
 						]
@@ -6749,8 +6744,8 @@
 								"name": "panel1",
 								"tab_data5_colo1_title": "Label",
 								"tab_data5_colo2": [
-									{ "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
-									{ "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+									{ "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFFF"]},
+									{ "desc": ["Unselected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
 								]
 							},
 							{
@@ -6871,68 +6866,68 @@
 					{
 						"name": "panel1",
 						"col1": "非選択時 / Blank",
-						"icon": "buttons_03_1.svg"
+						"icon": "button_blue_1.svg"
 					},
 					{
 						"name": "panel2",
 						"col1": "選択時 / Selected",
-						"icon": "buttons_03_2.svg"
+						"icon": "button_blue_2.svg"
 					},
 					{
 						"name": "panel3",
 						"col1": "選択不可 / Disabled",
-						"icon": "buttons_03_3.svg"
+						"icon": "button_blue_3.svg"
 					},
 					{
 						"name": "panel4",
 						"col1": "編集不可・選択時 / Disabled - Selected",
-						"icon": "buttons_03_4.svg"
+						"icon": "button_blue_4.svg"
 					}
 				],
 				"selectnControlData3": [
 					{
 						"name": "panel1",
 						"col1": "非選択時 / Blank",
-						"icon": "buttons_03_1.svg"
+						"icon": "button_blue_1.svg"
 					},
 					{
 						"name": "panel2",
 						"col1": "選択時 / Selected",
-						"icon": "buttons_03_2.svg"
+						"icon": "button_blue_2.svg"
 					},
 					{
 						"name": "panel3",
 						"col1": "選択不可 / Disabled",
-						"icon": "buttons_03_3.svg"
+						"icon": "button_blue_3.svg"
 					},
 					{
 						"name": "panel4",
 						"col1": "編集不可・選択時 / Disabled - Selected",
-						"icon": "buttons_03_4.svg"
+						"icon": "button_blue_4.svg"
 					}
 				],
 				"selectnControlData4": [
 					{
 						"name": "panel1",
 						"col1": "非選択時 / Blank",
-						"icon": "buttons_03_1.svg"
+						"icon": "button_blue_1.svg"
 					},
 					{
 						"name": "panel2",
 						"col1": "選択時 / Selected",
-						"icon": "buttons_03_2.svg"
+						"icon": "button_blue_2.svg"
 					}
 				],
 				"selectnControlData5": [
 					{
 						"name": "panel1",
 						"col1": "非選択時 / Blank",
-						"icon": "buttons_03_1.svg"
+						"icon": "button_blue_1.svg"
 					},
 					{
 						"name": "panel2",
 						"col1": "選択時 / Selected",
-						"icon": "buttons_03_2.svg"
+						"icon": "button_blue_2.svg"
 					}
 				],
 				"selectnControlData6": [
@@ -7022,7 +7017,7 @@
 									{
 										"desc": [
 											"",
-											"Label 16 Regular",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>",
 											"Text Align-Left",
 											"#242323"
 										]
@@ -7106,7 +7101,7 @@
 									{
 										"desc": [
 											"",
-											"Label 16 Regular",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>",
 											"Text Align-Left",
 											"#242323"
 										]
@@ -7126,7 +7121,7 @@
 									{
 										"desc": [
 											"Selected",
-											"Label 14 Bold",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>",
 											"Text Align-Center",
 											"#FFFFF"
 										]
@@ -7134,7 +7129,7 @@
 									{
 										"desc": [
 											"Not Selected",
-											"Label 14 Bold",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>",
 											"Text Align-Center",
 											"#909090"
 										]
@@ -7266,7 +7261,7 @@
 									{
 										"desc": [
 											"",
-											"Label 16 Regular",
+											"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>",
 											"Text Align-Left",
 											"#242323"
 										]
@@ -7341,7 +7336,7 @@
 			"list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  Lists are used to organize a variety of information and ensure high browsability.</div><div>•  A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</div><div>•  Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</div><div>•  The style of a list is different according to whether it is in iOS or Android.</div>",
+				"list_sect1_desc": "<div><span>•</span><span>Lists are used to organize a variety of information and ensure high browsability.</span></div><div><span>•</span><span>A list must comprise a particular sequence to ensure the user can immediately understand and compare its contents.</span></div><div><span>•</span><span>Text and icons are used to concisely communicate the content of the list or evoke what interaction will follow after the user makes an action.</span></div><div><span>•</span><span>The style of a list is different according to whether it is in iOS or Android.</span></div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
@@ -7666,7 +7661,7 @@
 			"slider": {
 				"slider_heading": "Slider",
 				"slider_sect1_title": "Usage",
-				"slider_sect1_desc": "<div>• A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</div><div>•  Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</div><div>•  A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</div>",
+				"slider_sect1_desc": "<div><span>•</span><span>A slider allows selecting a fixed value from within a range of selectable values between a minimum and maximum or selecting a range of values.</span></div><div><span>•</span><span>Since the range of selectable values is visualized as well as the state of what is selected, it facilitates easy awareness of the relativity between values.</span></div><div><span>•</span><span>A slider allows for a more intuitive touch compared to entering a value using the keyboard or a tap count button.</span></div>",
 
 				"slider_sect2_title": "Usage Example",
 				"slider_sect2_desc": "Sliders may be used for volume control or selecting a price range.",
