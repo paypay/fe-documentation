@@ -3956,7 +3956,7 @@
 					},
 					{
 						"name": "Android",
-						"desc": "OSのRipple効果に準拠します"
+						"desc": "OSの<u><a style='color:#3895FF'>Ripple効果</a></u>に準拠します"
 					}
 				],
 				"title_noticeofresults": "Notice of Results",
@@ -3968,7 +3968,7 @@
 						"desc": "結果を提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます。"
 					}
 				],
-				"txt_noticeofresults": "フィードバックを表示するコンポーネントはToastの項目を参照ください。",
+				"txt_noticeofresults": "フィードバックを表示するコンポーネントは<u><a href='/app-styleguide/component/toast' target='_blank' style='color:#3895FF'>Toast</a></u>の項目を参照ください。",
 				"title_tap": "Tap",
 				"tap_desc": [
 					{
