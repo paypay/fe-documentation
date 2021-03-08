@@ -6207,13 +6207,13 @@
           "half_sheets_sect_images_tableholder": [
             {
               "name":"panel1",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_01.svg",
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
                 {"desc":"エラーアイコン"},
                 {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
-                {"desc":"詳細はアイコンの項目をご確認ください"}
+                {"desc":"詳細は<u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>アイコンの項目</a></u>をご確認ください"}
 
               ],
               "half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -6221,7 +6221,7 @@
             },
             {
               "name":"panel2",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_02.svg",
               "half_sheets_sect_images_colo1_title": "Title",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルを表示します"},
@@ -6234,7 +6234,7 @@
             },
             {
               "name":"panel3",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_03.svg",
               "half_sheets_sect_images_colo1_title": "Description(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルでは伝えきれない補足情報を表示します"},
@@ -6246,7 +6246,7 @@
             },
             {
               "name":"panel4",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_04.svg",
               "half_sheets_sect_images_colo1_title": "Links(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"リンクテキストを表示します"},
@@ -6261,7 +6261,7 @@
             },
             {
               "name":"panel5",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_05.svg",
               "half_sheets_sect_images_colo1_title": "Buttons",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"アクションボタンを表示します"},
@@ -6274,7 +6274,7 @@
             },
             {
               "name":"panel6",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_06.svg",
               "half_sheets_sect_images_colo1_title": "Half seat background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの背景です"},
@@ -6285,7 +6285,7 @@
             },
             {
               "name":"panel7",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_07.svg",
               "half_sheets_sect_images_colo1_title": "Blur background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの表示時は、黒の透過背景（オーバーレイ）を表示し、下層のコンテンツを認識できるようにします"},
@@ -6316,33 +6316,33 @@
               "half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
               "half_sheets_sect_images_colo1_title": "Title",
               "illustration_design_sect3_images_colo2_1":[
-                {"desc":["Hading 16","Text Align-Center","#242323"]}
+                {"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Hading 16</a></u>","Text Align-Center","#242323"]}
               ]
             },
             {
               "name":"panel3",
               "half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
               "half_sheets_sect_images_colo1_title": "Description(Option)",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#242323"]}]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
             },
             {
               "name":"panel4",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
               "half_sheets_sect_images_colo1_title": "Links(Option)",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#3895FF"]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
               }]
             },
             {
               "name":"panel5",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
               "half_sheets_sect_images_colo1_title": "Buttons",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Buttons"]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
               }]
             },
             {
               "name":"panel6",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
-              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "half_sheets_sect_images_colo1_title": "Half sheet background",
               "illustration_design_sect3_images_colo2_1":[{"desc":["","#FFFFFF","TOP Right & Left Round : 20px/dp"]
               }]
             },
@@ -6358,7 +6358,7 @@
         "halfsheet_sect15_holders":  [
           {
             "desc1": "ボタンを1つ表示(推奨)",
-            "desc2": "Primary Button",
+            "desc2": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
             "logo": "halfsheet_04_01.svg"
           },
           {
@@ -6385,8 +6385,8 @@
         ],
         "halfsheets_integration_data": [
           {"desc": "ボタンアクション時にタップフィードバックを表示します。"},
-          {"desc": " <span>Buttons</span> を参照してください。"},
-          {"desc": "参考: <span>Interaction</span>"}
+          {"desc": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>を参照してください。"},
+          {"desc": "参考: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
         ]
       },
       "label": {

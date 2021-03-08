@@ -6255,13 +6255,13 @@
 					"half_sheets_sect_images_tableholder": [
 						{
 							"name":"panel1",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_01.svg",
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
 								{"desc":"Error Icon"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
-								{"desc":"Refer to iconography for details."}
+								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
 
 							],
 							"half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -6269,7 +6269,7 @@
 						},
 						{
 							"name":"panel2",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_02.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"The title is displayed."},
@@ -6282,7 +6282,7 @@
 						},
 						{
 							"name":"panel3",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_03.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"Supplementary information that could not be fit into the title is displayed."},
@@ -6294,7 +6294,7 @@
 						},
 						{
 							"name":"panel4",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_04.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"Link text is displayed."},
@@ -6309,7 +6309,7 @@
 						},
 						{
 							"name":"panel5",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_05.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An action button is displayed."},
@@ -6322,8 +6322,8 @@
 						},
 						{
 							"name":"panel6",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-							"half_sheets_sect_images_colo1_title": "Half seat background",
+							"half_sheets_sect_images_colo1_icons": "num_06.svg",
+							"half_sheets_sect_images_colo1_title": "Half sheet background",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"This is the background of the half sheet."},
 								{"desc":"The height varies depending on the subject matter of the contents displayed."}
@@ -6333,7 +6333,7 @@
 						},
 						{
 							"name":"panel7",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_07.svg",
 							"half_sheets_sect_images_colo1_title": "Blur background",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"When displaying a half sheet, a black transparent background is applied as an overlay so that the contents beneath can be recognized."},
@@ -6364,33 +6364,33 @@
 							"half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"illustration_design_sect3_images_colo2_1":[
-								{"desc":["Hading 16","Text Align-Center","#242323"]}
+								{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Hading 16</a></u>","Text Align-Center","#242323"]}
 							]
 						},
 						{
 							"name":"panel3",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#242323"]}]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
 						},
 						{
 							"name":"panel4",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#3895FF"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
 							}]
 						},
 						{
 							"name":"panel5",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Buttons"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
 							}]
 						},
 						{
 							"name":"panel6",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
-							"half_sheets_sect_images_colo1_title": "Half seat background",
+							"half_sheets_sect_images_colo1_title": "Half sheet background",
 							"illustration_design_sect3_images_colo2_1":[{"desc":["","#FFFFFF","TOP Right & Left Round : 20px/dp"]
 							}]
 						},
@@ -6406,7 +6406,7 @@
 				"halfsheet_sect15_holders":  [
 					{
 						"desc1": "Display one button (Recommended)",
-						"desc2": "Primary Button",
+						"desc2": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
 						"logo": "halfsheet_04_01.svg"
 					},
 					{
@@ -6433,8 +6433,8 @@
 				],
 				"halfsheets_integration_data": [
 					{"desc": "Tap feedback is displayed after the button is tapped."},
-					{"desc": " <span>Buttons</span> Refer it for more details"},
-					{"desc": "Reference: <span>Interaction</span>"}
+					{"desc": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u> Refer it for more details"},
+					{"desc": "Reference: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
 				]
 			},
 			"label": {
