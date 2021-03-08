@@ -7052,14 +7052,14 @@
                 "name":"panel3",
                 "loadingAnimtnData1_colo1_title": "Text(Option)",
                 "loadingAnimtnData1_colo2":[
-                  {"desc":["<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Typography#Typography-textsize' target='_blank'>Body 12</a>","Text Align-Center","","#606060"]}
+                  {"desc":["<a href='/app-styleguide/globalrule/typography' target='_blank'>Body 12</a>","Text Align-Center","","#606060"]}
                 ]
               },
               {
                 "name":"panel4",
                 "loadingAnimtnData1_colo1_title": "Buttons",
                 "loadingAnimtnData1_colo2":[
-                  {"desc":["<a href='https://paypay-corp.rickcloud.jp/wiki/display/PayPayDesign/Buttons' target='_blank'>Buttons</a>",""]}
+                  {"desc":["<a href='/app-styleguide/component/buttons' target='_blank'>Buttons</a>",""]}
                 ]
               }
             ]
