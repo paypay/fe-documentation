@@ -1,7 +1,7 @@
 {
     "home": {
       "title": ["PayPay for", "Developers"],
-      "hero": "PayPayは3,500万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。",
+      "hero": "PayPayは3,600万人ものユーザーが使用する決済サービスです。PayPayをあなたのウェブサイトやアプリに接続し、お客様がすばやく、簡単に決済できるようにしましょう。",
       "domore-title": "PayPayで開発を始める",
       "domore-body": "PayPayは様々な決済方法を提供しています。自分のサービスに最も適した決済方法を選択して接続できます。",
       "features-title": "PayPay for Developersの特徴",
@@ -78,8 +78,8 @@
       "notice_for_merchants": "加盟店様向けお知らせ",
       "notice_for_developers": "開発者様向けお知らせ",
       "stats": {
-        "usersCount": "3500",
-        "storesCount": "260",
+        "usersCount": "3600",
+        "storesCount": "300",
         "transactionsCount": "10",
         "users": "ユーザー",
         "stores": "ヵ所以上",
@@ -344,7 +344,7 @@
         "mamain_smoothpayment": "require('@/assets/products/mini-app/miniapp_smoothpayment.png')",
         "mamain_section2_title": "Mini App利用のメリット",
         "mamain_section3_title": "さまざまなユーザーにリーチ",
-        "mamain_section3_subheading": ["ユーザー数", "3,500万人以上", ""],
+        "mamain_section3_subheading": ["ユーザー数", "3,600万人以上", ""],
         "mamain_section3_descriptions": "多くの人が日常的にPayPayを利用して、オンライン・オフライン両方の加盟店から商品やサービスを購入しています。ミニアプリを介してこのようなユーザーにリーチできるため、お客様にサービスを提供し、事業拡大にお役立てていただける機会となります。",
         "mamain_section4_title": "簡単に起動",
         "mamain_section4_descriptions": "ミニアプリの起動は、PayPayアプリ上に表示される専用アイコンをタップするか、QRコードのスキャン、またはリンクをタップすることで行えます。ユーザーは、新たにアプリをダウンロードしたり、ウェブサイトを開くなどの必要がなく、簡単にアクセスできます。",
