@@ -6275,7 +6275,7 @@
             {
               "name":"panel6",
               "half_sheets_sect_images_colo1_icons": "num_06.svg",
-              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "half_sheets_sect_images_colo1_title": "Half sheet background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの背景です"},
                 {"desc":"高さは表示コンテンツの内容によって変化します"}
