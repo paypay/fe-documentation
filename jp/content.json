@@ -5512,7 +5512,7 @@
       "header": {
 				"header_heading": "Header",
 				"header_sect1_title": "Usage",
-				"header_sect1_desc": "<div>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</div><div>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</div><div>HeaderはOSの表示仕様に準拠します</div>",
+				"header_sect1_desc": "<li>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</li><li>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</li><li>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</li><li>HeaderはOSの表示仕様に準拠します</li>",
 				"header_sect2_title": "Usage Example",
 				"header_sect2_images": [
 					{

@@ -5557,7 +5557,7 @@
 			"header": {
 				"header_heading": "Header",
 				"header_sect1_title": "Usage",
-				"header_sect1_desc": "<div>A header is the display of a screen title, action item or navigation item.</div><div>A header provides a clear and concise description of the content displayed on the screen or the purpose of the action to be taken.</div><div>A header provides clarity on the hierarchy of the screens displayed, enabling easy access to higher layers.</div><div>Headers are displayed in accordance with the specifications of the OS.</div>",
+				"header_sect1_desc": "<li>A header is the display of a screen title, action item or navigation item.</li><li>A header provides a clear and concise description of the content displayed on the screen or the purpose of the action to be taken.</li><li>A header provides clarity on the hierarchy of the screens displayed, enabling easy access to higher layers.</li><li>Headers are displayed in accordance with the specifications of the OS.</li>",
 				"header_sect2_title": "Usage Example",
 				"header_sect2_images": [
 					{
