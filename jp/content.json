@@ -3152,41 +3152,41 @@
       "dshomesec1_content_descriptions": "PayPayアプリが提供する機能やサービスはこのスタイルガイドに基づいてデザインされています",
       "dshomesec2_content_title": "Overview",
       "dshomesec2_content_descriptions": [
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "PayPayアプリのスタイルについてここに定義します。"
         },
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "PayPayから提供されるすべてのプロダクトは、このスタイルガイドに基づいて設計されています。"
         },
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "一貫したルールでデザインをすることによって、PayPayのブランドイメージを醸成し、ユーザーの認知を高めます。"
         },
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "また、ユーザー操作の学習コストを下げ、快適なユーザーエクスペリエンスを提供することが可能です。"
         },
-        { 
-          "classname": "mb-lg-5", 
-          "descriptions": "スタイルガイドはGlobal RoleとCompornentの2つの項目に分かれます。"
-        }				
+        {
+          "classname": "mb-lg-5",
+          "descriptions": "スタイルガイドはGlobal RuleとComponentの2つの項目に分かれます。"
+        }
       ],
       "dshomesec3_content_title": "Design Philosophy",
-      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。私たちは、4つのキーワードを掲げます。",
+      "dshomesec3_content_descriptions": "PayPayのDesign PhilosophyはPayPay Designの根幹にあたるものであり、改変されることはありません。私たちは、4つのキーワードを掲げます。",
       "dshomesec3_content_philosophy": [
         {
 					"dshomesec3_philo_classname": "dshomesec3_philo1",
 					"dshomesec3_philo_img": "section2_icn_01.svg",
-					"dshomesec3_philo_title": "エンパシー",
+					"dshomesec3_philo_title": "共感",
 					"dshomesec3_philo_descriptions": "ユーザーの生活に身近で共感性のあるデザインを提供します。"
 				},
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo2",
 					"dshomesec3_philo_img": "section2_icn_02.svg",
 					"dshomesec3_philo_title": "シンプル",
-					"dshomesec3_philo_descriptions": "余分なものは取り除き、重要な物のみにユーザーが目を向けられるようにします。"
+					"dshomesec3_philo_descriptions": "余分なものは取り除き、重要なものだけにユーザーが目を向けられるようにします。"
 				},
 				{
 					"dshomesec3_philo_classname": "dshomesec3_philo3",
@@ -3204,8 +3204,8 @@
       "dshomesec3_content_knowmore": "Know More...",
       "dshomesec4_content_title": "Global Rule",
       "dshomesec4_content_descriptions": [
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "Global RuleはPayPayアプリのスタイルガイドの上位概念であり、"
         },
         {
@@ -3273,13 +3273,13 @@
       ],
       "dshomesec5_content_title": "COMPONENT",
       "dshomesec5_content_descriptions": [
-        { 
-          "classname": "", 
+        {
+          "classname": "",
           "descriptions": "Global Ruleに基づいてデザインされたUIパーツのガイドラインです。"
         },
         {
           "classname": "",
-          "descriptions": "PayPayアプリが提供するすべての画面はここに記載されるUIパーツを構成してデザイン、実装する必要があります。"
+          "descriptions": "PayPayアプリが提供するすべての画面は、ここに記載されるUIパーツを構成してデザイン・実装する必要があります。"
         },
         {
           "classname": "",
@@ -3287,7 +3287,7 @@
         },
         {
           "classname": "",
-          "descriptions": "また、デザイン・開発における冗長性を高めます。"
+          "descriptions": "また、デザイン・開発における再利用性を高めます。"
         }
       ],
       "dshomesec5_content_component": [
@@ -3380,7 +3380,7 @@
         "definition_pattern_desc": "PayPayの色はBrand color、Global color、Extended colorの3種類に定義されます。",
         "title_brand_color": "Brand Color",
         "brand_color_desc_1": "Brand colorはPayPayのブランドそのものを表すカラーであり、ロゴに利用されるカラーです。",
-        "brand_color_desc_2": "PayPayロゴ意外の要素に利用することは推奨しません。",
+        "brand_color_desc_2": "PayPayロゴ以外の要素に利用することは推奨しません。",
         "title_global_color_asset": "Global Color Assets",
         "global_color_asset_desc_1": "Global color assetsは、PayPayそのものを表すカラーアセットです。",
         "global_color_asset_desc_2": "Brand colorを中心とした4色の組み合わせ、または定義されたグラデーションで展開します。",
@@ -3400,7 +3400,7 @@
         "ext_color_asset_color_desc_2": "UIへの利用は01行、04行の利用を推奨します。",
         "ext_color_asset_color_desc_3": "UIに04行の色を利用する場合は、コンテンツの背景色への利用を推奨します。",
         "ext_color_asset_color_desc_4": "04行の色をテキストやアクションパーツに利用することは禁止します。",
-        "ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します",
+        "ext_color_asset_color_desc_5": "イラスト表現などでパレットにない階調の色の利用が必要な場合は、任意の色を利用することを許容します。",
         "title_functional_color": "Functional Color",
         "functional_color_desc_1": "Functional color assetsは役割を持つ色のアセットです。",
         "functional_color_desc_2": "色の持つ役割に一貫性を保つことで、ユーザーの学習コストを軽減させ、快適なUXを提供します。",
@@ -3410,7 +3410,7 @@
         "title_gradation_color": "Gradation Color",
         "gradation_color_desc_1": "連携サービスのUIを構成するカラーやマーケティングツールには、Extended color assetsを元に構成したグラデーションカラーの利用が可能です。",
         "gradation_color_desc_2": "ただし、Global colorで定義されているPayPay GradationをPayPayのメイン機能以外で利用することは禁止します。",
-        "gradation_color_desc_3": "グラデーションカラーを利用する場合は、定義されたルールに則ってください",
+        "gradation_color_desc_3": "グラデーションカラーを利用する場合は、定義されたルールに則ってください。",
         "title_gradation_color_rule": "Gradation Color Rule",
         "title_accessibility": "Accessibility",
         "accessibility_desc_1": "主要なコンテンツに文字を表示するには、背景色と前景色はコントラスト比3:1以上を担保します。",
@@ -3464,14 +3464,14 @@
 					"logo": "dont2.svg"
         }],
         "grdtn_rule": [{
-          "name":"万人も",
-          "discription":"グラデーションの方向は90度方向のみとします 色の指定位置は (1) 0%地点と (2) 100%地点のみとします (1) と (2) に異なる色相の色を指定することは問題ありません 異なる色相を指定する場合は、色相の近いものを指定してください 色相が離れすぎている色の選択は禁止とします"
+          "name":"方向",
+          "discription":"グラデーションの方向は90度方向のみとします。色の指定位置は (1) 0%地点と (2) 100%地点のみとします。(1) と (2) に異なる色相の色を指定することは問題ありません。異なる色相を指定する場合は、色相の近いものを指定してください。色相が離れすぎている色の選択は禁止とします。"
           },{
           "name":"Top",
-          "discription":"グラデーションの上部（0%位置）には明度の高い色を指定します。Color Paletteで定義する色相の利用を推奨します。明度は90-100の間を推奨します"
+          "discription":"グラデーションの上部（0%位置）には明度の高い色を指定します。Color Paletteで定義する色相の利用を推奨します。明度は90-100の間を推奨します。"
           },{
           "name":"Bottom",
-          "discription":"グラデーションの下部（100%位置）には　(1)　より明度、彩度の低い色を指定します。明度は80-100の間を推奨します"
+          "discription":"グラデーションの下部（100%位置）には　(1)　より明度、彩度の低い色を指定します。明度は80-100の間を推奨します。"
         }],
         "gradations_imgs": [{
           "name": "グラデーションに3色以上を指定する",
@@ -3763,7 +3763,7 @@
       "philosophy": {
         "philos_headers": "Design Philosophy",
         "philos_sect1_title": "Principle",
-        "philos_sect1_description1": "PayPayのDesign PhilosophyはPayPayDesignの根幹にあたるものであり、改変されることはありません。",
+        "philos_sect1_description1": "PayPayのDesign PhilosophyはPayPay Designの根幹にあたるものであり、改変されることはありません。",
         "philos_sect1_description2": "PayPayから提供するすべてのプロダクトにおいて、このDesign Philosophyを念頭にデザインを提供します。",
         "philos_sect2_title": "Design Theme",
         "philos_sect2_philosophylists": [ {
@@ -3797,11 +3797,11 @@
           "dividers": true,
           "classname": "philos_sect2_philosophylists2",
           "descriptions": [ {
-              "desc": "すべてのUIは規則性、一貫性保ちます。"
+              "desc": "すべてのUIは規則性、一貫性を保ちます。"
             }, {
               "desc": "必要な学習コストは極力削減し、ユーザーが快適にサービスを使い続けられるようにします。"
             }, {
-              "desc":"アプリで提供するUIコンポーネントはこのガイドラインのコンポーネントに準拠します。"
+              "desc":"アプリで提供するUIコンポーネントは、このガイドラインのコンポーネントに準拠します。"
             }
           ]
         }, {
@@ -3826,7 +3826,7 @@
 						"desc": "イラストは、コンテンツの内容をより明快に、直感的な理解を促す目的で利用します"
 					},
 					{
-						"desc": "不快感、誤解をを与えるイラスト表現は禁止とします"
+						"desc": "不快感、誤解を与えるイラスト表現は禁止とします"
 					}
 				],
 				"title_usage": "Usage",
@@ -3838,10 +3838,10 @@
 				"txt_convey_title": "直感的に伝える",
 				"txt_convey_desc": [
 					{
-						"desc": "イラストを利用することで、テキストのみよりも、コンテンツの内容をより深く伝えることができます。"
+						"desc": "テキストのみではなくイラストを利用することで、コンテンツの内容をより深く伝えることができます。"
 					},
 					{
-						"desc": "また、キャンペーンなどの演出に装飾要素として利用することでユーザーの気持ちを盛り上げ、心を動かすことができます。"
+						"desc": "また、キャンペーンなどの演出に装飾要素として利用することで、ユーザーの気持ちを盛り上げ心を動かすことができます。"
 					}
 				],
 				"txt_convey_title_2": "直感的に伝える",
@@ -3866,7 +3866,7 @@
 						"desc": "無機質すぎない親しみやすい表現を用いる"
 					},
 					{
-						"desc": "指定がない場合は個人・固有の企業が判別できるような表現はしない"
+						"desc": "指定がない場合は個人や特定の企業が判別できるような表現はしない"
 					}
 				],
 				"txt_dont_title": "Don't",
@@ -3877,22 +3877,22 @@
 				],
 				"usageIllustration": [{
 					"desc_1": "カテゴリーを表すイラスト",
-					"desc_2": "カテゴリを視覚的に説明することでユーザーの理解をサポートする",
+					"desc_2": "カテゴリーを視覚的に説明することでユーザーの理解をサポートする",
 					"logo": "Illustration_usage_01.svg"
 					},{
 					"desc_1": "キャンペーンの装飾イラスト",
-					"desc_2": "当選情報の伝達とともに、装飾により演出でユーザーの気持ちを盛り上げる",
+					"desc_2": "当選情報の伝達とともに、装飾による演出でユーザーの気持ちを盛り上げる",
 					"logo": "Illustration_usage_02.svg"
 					}
 				],
 				"donts":[{
-					"desc":"線画、水彩風など、ガイドラインに沿わない表現",
+					"desc":"線画や水彩風など、ガイドラインに沿わない表現",
 					"logo": "Illustration_usage_06.png"
 				},{
 					"desc":"公序良俗に反する表現",
 					"logo": "Illustration_usage_07.svg"
 				},{
-					"desc":"自社・他社ブランドを侵犯する表現 PayPayのロゴを変形・変色してイラストに使用することはできません",
+					"desc":"自社・他社ブランドを侵犯する表現や、PayPayのロゴを変形・変色してイラストに使用することはできません",
 					"logo": "Illustration_usage_08.svg"
 				}],
                 "illustration_design_sect3_holders":  [{
@@ -3904,12 +3904,12 @@
                       "name":"panel1",
                       "illustration_design_sect3_images_colo1_icons": "icon_01.svg",
                       "illustration_design_sect3_images_colo1_title": "Focal Point",
-                      "illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。 対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
+                      "illustration_design_sect3_images_colo2": "より強調したい部分、主題を表現している部分により強い色を使用します。対して補助的な部分にはトーンの低い色を使用し、イラストにメリハリをつけ主題を明確にします。"
                     }, {
                       "name":"panel2",
                       "illustration_design_sect3_images_colo1_icons": "icon_02.svg",
                       "illustration_design_sect3_images_colo1_title": "Facial Expression",
-                      "illustration_design_sect3_images_colo2": "人間を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
+                      "illustration_design_sect3_images_colo2": "人物を使用する場合は、必要な場合を除き、原則表情を描かないようにします。"
                     }
                   ]
                 }]
@@ -3919,13 +3919,13 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "スマートフォンやタブレットなどのタッチスクリーンデバイスでは、より直感的なエクスペリエンスを提供する必要があります"
+						"desc": "スマートフォンやタブレットなどのタッチスクリーンデバイスでは、より直感的な体験を提供する必要があります"
 					},
 					{
 						"desc": "すべてのアクションコンポーネントはインタラクティブである必要があります"
 					},
 					{
-						"desc": "視覚的にどのようなものであるかが理解でき、必要なアクションをアフォードし、アクション後のフィードバックを明確にする必要があります"
+						"desc": "視覚的にどのようなものであるか理解でき、必要なアクションをアフォードし、アクション後のフィードバックを明確にする必要があります"
 					}
 				],
 				"title_usage": "Usage",
@@ -3937,7 +3937,7 @@
 						"desc": "ジェスチャーには様々な種類があります。基本的にはデバイスの定義する標準のジェスチャーに準拠します。"
 					},
 					{
-						"desc": "ただし、標準的なジェスチャーであっても、複雑な挙動をするものは、ユーザーが見逃したり誤動作をしないためのサポートが必要です。"
+						"desc": "ただし標準的なジェスチャーであっても、複雑な挙動をするものはユーザーが見逃したり誤動作をしないためのサポートが必要です。"
 					}
 				],
 				"title_feedback": "Feedback",
@@ -3953,7 +3953,7 @@
 				"title_touch_feedback_table": [
 					{
 						"name": "iOS",
-						"desc": "タッチフィードバックは通常時のコンポーネントの色から明度を5落とした色を指定し、テキストは通常時の色のまま70%透過を指定しますタッチフィードバックの色は各コンポーネントの項目を参照してください"
+						"desc": "タッチフィードバックは通常時のコンポーネントの色から明度を5落とした色を指定し、テキストは通常時の色のまま70%透過を指定します。タッチフィードバックの色は各コンポーネントの項目を参照してください。"
 					},
 					{
 						"name": "Android",
@@ -4003,7 +4003,7 @@
 						"desc":"また、ユーザーが画面を素早くスクロールした場合は、デバイス標準の慣性スクロールを有効にし、効率的に情報を表示できるようにします。"
 					}
 				],
-				"txt_scroll_desc": "リストなど、情報量の多いコンテンツをスクロールしながら閲覧させる場合、現在画面上に表示されているものが、複数あるコンテンツの中の何なのか、またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。",
+				"txt_scroll_desc": "リストなど、情報量の多いコンテンツをスクロールしながら閲覧させる場合、画面上に表示されているものが、複数あるコンテンツの中の何なのか、またコンテンツ全体のどの位置にいるのかを明示するために、サポートするコンポーネントを表示することを必須とします。",
 				"title_flick": "Flick",
 				"flick_desc": [
 					{
@@ -4096,25 +4096,25 @@
 				"igrphy_sect2_images_tableholder": [
 					{
 						"name": "no1",
-						"icons": "igrphy_sect2_no1.svg", 
+						"icons": "igrphy_sect2_no1.svg",
 						"igrphy_sect2_images_colo1_title1": "Home : ",
 						"igrphy_sect2_images_colo1_title2": "Service icon",
 						"igrphy_sect2_images_colo2": "機能やサービスを表す"
 					}, {
 						"name": "no2",
-						"icons": "igrphy_sect2_no2.svg", 
+						"icons": "igrphy_sect2_no2.svg",
 						"igrphy_sect2_images_colo1_title1": "List : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
 						"igrphy_sect2_images_colo2": "メニューの内容を補足する"
 					}, {
 						"name": "no3",
-						"icons": "igrphy_sect2_no3.svg", 
+						"icons": "igrphy_sect2_no3.svg",
 						"igrphy_sect2_images_colo1_title1": "Header : ",
 						"igrphy_sect2_images_colo1_title2": "System icon",
 						"igrphy_sect2_images_colo2": "アイコン単体で機能を表す"
 					}, {
 						"name": "no4",
-						"icons": "igrphy_sect2_no4.svg", 
+						"icons": "igrphy_sect2_no4.svg",
 						"igrphy_sect2_images_colo1_title1": "Half sheet : ",
 						"igrphy_sect2_images_colo1_title2": "System icon + Status Mark",
 						"igrphy_sect2_images_colo2": "ハーフシートの内容を補足する"
@@ -4149,7 +4149,7 @@
 						"igrphy_sect3pnel_descriptions": [
 							"System IconにStatus Markを組み合わせることで、状態を表すことができます。",
                             "ハーフシートや操作の説明時に利用します。",
-                            "組みわせることで視認性が損なわれる場合は利用せず、視認性が十分に担保できるサイズで利用してください"
+                            "組み合わせることで視認性が損なわれる場合は利用せず、視認性が十分に担保できるサイズで利用してください"
 						],
 						"igrphy_sect3pnel_images": "igrphy_sect3pnel_img3.svg",
 						"igrphy_sect3_images_tableholder": [
@@ -4208,16 +4208,16 @@
 				],
 				"igrphy_sect5_title": "Color",
 				"igrphy_sect5_subtitle": "Service Icon",
-				"igrphy_sect5_description": "以下Color palettから色を選択します。",
-				"igrphy_sect5_mccolortitle": "Mail Color",
+				"igrphy_sect5_description": "以下のColor palettから色を選択します。",
+				"igrphy_sect5_mccolortitle": "Main Color",
 				"igrphy_sect5_mccolordesc": "メインカラーとして共通で紺色を使用します",
 				"igrphy_sect5_accolortitle": "Accent Color",
-				"igrphy_sect5_accolordesc": "モチーフの一部にアクセントカラーを使用します左記4色の中からサービスのイメージにあう色を利用します",
+				"igrphy_sect5_accolordesc": "モチーフの一部にアクセントカラーを使用します。左記4色の中からサービスのイメージにあう色を利用します",
 				"igrphy_sect5_sysccolortitle": "System Icon",
-				"igrphy_sect5_aysccolordesc1": "以下Color palettから色を選択します。",
-				"igrphy_sect5_aysccolordesc2": "System  Icon は左記2色の組み合わせ、または単色で利用します",
+				"igrphy_sect5_aysccolordesc1": "以下のColor palettから色を選択します。",
+				"igrphy_sect5_aysccolordesc2": "System Iconは左記2色の組み合わせ、または単色で利用します",
 				"igrphy_sect5_subtitle_dont": "Don't",
-				"igrphy_sect5_dont_des": "指定色以外の色の利用は禁止とする",
+				"igrphy_sect5_dont_des": "指定色以外の利用は禁止とする",
 				"igrphy_sect6_title": "Template",
 				"igrphy_sect6_description": [
 					"アイコンを制作する際は、テンプレート（Ai）での作業を推奨します。",
@@ -4229,17 +4229,17 @@
 						"name":"panel1",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no1.svg",
 						"igrphy_sect4_images_colo1": "Padding",
-						"igrphy_sect4_images_colo2": "アイコン作成エリアには周辺に2pxの余白を設けます。メインとなるアイコンのモチーフはPaddingエリアには配置しません"
+						"igrphy_sect4_images_colo2": "アイコン作成エリアには周囲に2pxの余白を設けます。メインとなるアイコンのモチーフはPaddingエリアには配置しません"
 					}, {
 						"name":"panel2",
 						"igrphy_sect4_images_colo1_icons": "igrphy_sect6_no2.svg",
 						"igrphy_sect4_images_colo1": "Icon area",
-						"igrphy_sect4_images_colo2": "Padding area 内20px*20px内のエリアにメインとなるアイコンのモチーフを配置します"
+						"igrphy_sect4_images_colo2": "Padding area内（20p*20px）のエリアにメインとなるアイコンのモチーフを配置します"
 					}
 				],
 				"igrphy_sect7_title": "基本の形状",
 				"igrphy_sect7_description": [
-					"テンプレートデータ内には、形状に沿ったガイドが設定してあります。",
+					"テンプレートデータ内には、いくつかの形状に沿ったガイドが設定してあります。",
 					"作成するアイコンの形状に近いガイドを目安に作成をしてください。"
 				],
 				"igrphy_sect8_title": "テンプレートのダウンロード",
@@ -4291,25 +4291,25 @@
           "異なるプラットフォーム、環境下でも、定義したルールに従って設計することで、すべての環境で一貫性を保ちます。"
         ],
         "layout_sect2_title": "Usage",
-        "layout_sect2_subtitle": "Merging Rule",
+        "layout_sect2_subtitle": "Margin Rule",
         "layout_sect2_description": "画面内で利用する余白は基本的に4の倍数のpx/dpを指定します。",
         "layout_sect2_hints": "ただし、細かいパーツが複雑に組み合わさるコンポーネントなどは、例外を認めます。",
         "layout_sect3_title": "Responsive Layout",
         "layout_sect3_description": [
-          "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-          "次に定義す <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>るブレイクポイントによって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+          "特に、異なるデバイス（スマートフォンWeb/App、タブレット、デスクトップ）に共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
+          "次に定義する <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>ブレイクポイント</a> によって、スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
         ],
         "layout_sect4_title": "Margin",
         "layout_sect4_description": "大きく2種類の余白を定義します。",
         "layout_sect4_images_tableholder": [
           {
             "name": "panel1",
-						"icons": "layout_sect4_no1.svg", 
+						"icons": "layout_sect4_no1.svg",
             "desc": "画面の端から要素の間の余白"
           },
           {
             "name": "panel2",
-						"icons": "layout_sect4_no2.svg", 
+						"icons": "layout_sect4_no2.svg",
             "desc": "要素同士の余白"
           }
         ],
@@ -4350,7 +4350,7 @@
           {
             "name": "panel2",
             "icons": "layout_sect8_dontimage.svg",
-            "desc": "アクションコンポーネントをSafe area外に配置する"
+            "desc": "アクションコンポーネントをSafe Area外に配置する"
           }
         ],
         "layout_sect9_title": "Layout Pattern",
@@ -4358,33 +4358,33 @@
         "layout_sect9_images_tableholder": [
           {
             "name": "panel1",
-            "icons": "layout_sect9_no1.svg", 
+            "icons": "layout_sect9_no1.svg",
             "text": "Normal",
-            "desc": "最も一般的なレイアウトです 基本的にはこのレイアウトを利用します"
+            "desc": "最も一般的なレイアウトです。基本的にはこのレイアウトを利用します。"
           },
           {
             "name": "panel2",
-            "icons": "layout_sect9_no2.svg", 
+            "icons": "layout_sect9_no2.svg",
             "text": "Section",
-            "desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします"
+            "desc": "1画面に複数のセクションを表示する場合に利用します。セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします。"
           },
           {
             "name": "panel3",
-            "icons": "layout_sect9_no3.svg", 
+            "icons": "layout_sect9_no3.svg",
             "text": "Card",
-            "desc": "1画面に複数のセクションを表示する場合に利用します セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします カード両端に余白を設けることで、 Section よりも、カード自体がアクション可能なことを明示します Cardレイアウトは画面端左右に16pxの余白を設けます"
+            "desc": "1画面に複数のセクションを表示する場合に利用します。セクションごとにまとめられたコンテンツを表示し、情報の区切りを明確にします。カード両端に余白を設けることで、Sectionよりも、カード自体がアクション可能なことを明示します。Cardレイアウトは画面端左右に16pxの余白を設けます。"
           },
           {
             "name": "panel4",
-            "icons": "layout_sect9_no4.svg", 
+            "icons": "layout_sect9_no4.svg",
             "text": "Full screen",
-            "desc": "カメラやプロモーションなど、画面全体にコンテンツを配置する場合に利用します ヘッダエリアの背景は透過し、下に配置されるコンテンツが見えるようにします ヘッダエリアのテキストは十分に可読性を担保する処理が必要です"
+            "desc": "カメラやプロモーションなど、画面全体にコンテンツを配置する場合に利用します。ヘッダーエリアの背景は透過し、下に配置されるコンテンツが見えるようにします。ヘッダーエリアのテキストは十分に可読性を担保する処理が必要です。"
           },
           {
             "name": "panel5",
-            "icons": "layout_sect9_no5.svg", 
+            "icons": "layout_sect9_no5.svg",
             "text": "Half color background",
-            "desc": "画面上部に重要な情報を表示する場合に利用します 画面上部にはアイキャッチとなるサービスや機能の特性を表すカラーを設定します 色の設定についてはFlavor Colorを参照してください"
+            "desc": "画面上部に重要な情報を表示する場合に利用します。画面上部にはアイキャッチとなるサービスや機能の特性を表す色を設定します。色の設定についてはFlavor Colorを参照してください。"
           }
         ],
         "layout_sect10_title": "Aspect Ratios",
@@ -4396,7 +4396,7 @@
 				"title_principle": "Principle",
 				"principle_desc":[
 					{
-						"desc": "写真を利用することで、文字情報のみよりも、コンテンツの内容をより深く伝えることができます。また、ユーザーが次のアクションに進むための方法を示すことが最も重要です。"
+						"desc": "文字情報のみではなく写真を利用することで、コンテンツの内容をより深く伝えることができます。また、ユーザーが次のアクションに進むための方法を示すことが最も重要です。"
 					},
 					{
 						"desc": "写真は演出的なものではなく、リアリティのある画像を用いる必要があります。PayPayに本当に価値を与えるものでなければなりません。"
@@ -4409,7 +4409,7 @@
 				"title_size": "Size",
 				"size_desc": [
 					{
-						"desc": "解像度の高いデバイスに対応するために、画像は常に表示サイズの3倍のサイズを用います"
+						"desc": "解像度の高いデバイスに対応するために、画像は常に表示サイズの3倍のサイズを用います。"
 					},
 					{
 						"desc": "アプリに利用する画像リソースはできる限り圧縮し、アプリ本体の容量を削減するようにしてください。サーバーから参照する場合も同様です。"
@@ -4441,7 +4441,7 @@
 						"desc_1":"",
 						"logo": "dont_04.png"
 						},{
-						"desc": "権利を有した写真",
+						"desc": "著作権や権利等を侵害していない写真",
 						"desc_1":"",
 						"logo": "dont_05.png"
 						},{
@@ -4453,18 +4453,18 @@
 						"desc_1":"",
 						"logo": "dont_07.png"
 						},{
-						"desc": "良俗公序に反するイメージ",
+						"desc": "公序良俗に反するイメージ",
 						"desc_1":"",
 						"logo": "dont_08.png"
 						}
 				],
-				"txt_dont_desc": "事実関係のない環境・対象で撮られたイメージを使わない",
+				"txt_dont_desc": "事実関係のない環境や対象を撮影したイメージを使わない",
 				"dont_desc_1": [
 					{
 					"desc": "密集したパターン",
 					"logo": "dont_10.png"
 					},{
-					"desc": "モアレ・ハレーション を起こす画像",
+					"desc": "モアレ・ハレーションを起こす画像",
 					"logo": "dont_11.png"
 					}
 				]
@@ -4501,20 +4501,20 @@
 				"shadow_sect2_title": "Usage",
 				"shadow_sect2_subtitle1": "階層構造",
 				"shadow_sect2_description1": [
-					"画面内は複数の層の重なりで構成されます。 より重要な情報を上位階層に表示します。 階層構造を視覚的に明示することで、コンテンツの優先順位を明確にし、ユーザーは必要なアクションにたどり着きやすくなります。",
-					"各階層ごとに影を採用することで、表示階層を明確にします。 画面内の光源/陰影は、方向、深さなどに一貫性を保ちます。"
+					"画面内は複数の層の重なりで構成されます。より重要な情報を上位階層に表示します。階層構造を視覚的に明示することで、コンテンツの優先順位を明確にし、ユーザーは必要なアクションにたどり着きやすくなります。",
+					"各階層ごとに影を採用することで、表示階層を明確にします。画面内の光源/陰影は、方向、深さなどに一貫性を保ちます。"
 				],
 				"shadow_sect2_subtitle2": "光源",
 				"shadow_sect2_description2": "光源は必ず上部90°方向にあるものとし、それ以外からの光源の設定は禁止とします。",
 				"shadow_sect2_images_tableholder2": [
 					{
 					  "name": "panel1",
-					  "icons": "shadow_sect2_no1.svg", 
+					  "icons": "shadow_sect2_no1.svg",
 					  "desc": "正しい光源（上部90°方向）"
 					},
 					{
 					  "name": "panel2",
-					  "icons": "shadow_sect2_no2.svg", 
+					  "icons": "shadow_sect2_no2.svg",
 					  "desc": "誤った光源（上部45°方向）"
 					}
 				],
@@ -4523,27 +4523,27 @@
 				"shadow_sect2_images_tableholder3": [
 					{
 						"name": "no1",
-						"icons": "shadow_sect2_no1.svg", 
+						"icons": "shadow_sect2_no1.svg",
 						"igrphy_sect2_images_hint": "Low-Shadow"
 					}, {
 						"name": "no2",
-						"icons": "shadow_sect2_no2.svg", 
+						"icons": "shadow_sect2_no2.svg",
 						"igrphy_sect2_images_hint": "Middle-Shadow"
 					}, {
 						"name": "no3",
-						"icons": "shadow_sect2_no3.svg", 
+						"icons": "shadow_sect2_no3.svg",
 						"igrphy_sect2_images_hint": "High-Shadow"
 					}, {
 						"name": "no4",
-						"icons": "shadow_sect2_no4.svg", 
+						"icons": "shadow_sect2_no4.svg",
 						"igrphy_sect2_images_hint": "-90° Low-Shadow"
 					}, {
 						"name": "no5",
-						"icons": "shadow_sect2_no5.svg", 
+						"icons": "shadow_sect2_no5.svg",
 						"igrphy_sect2_images_hint": "-90° Middle-Shadow "
 					}, {
 						"name": "no6",
-						"icons": "shadow_sect2_no6.svg", 
+						"icons": "shadow_sect2_no6.svg",
 						"igrphy_sect2_images_hint": "-90° High-Shadow "
 					}
 				],
@@ -4551,28 +4551,28 @@
 				"shadow_sect3_images_tableholder": [
 					{
 						"name": "no1",
-						"icons": "shadow_sect2_no1.svg", 
+						"icons": "shadow_sect2_no1.svg",
 						"igrphy_sect2_images_hint": "Low-Shadow"
 					}, {
 						"name": "no2",
-						"icons": "shadow_sect2_no2.svg", 
+						"icons": "shadow_sect2_no2.svg",
 						"igrphy_sect2_images_hint": "Middle-Shadow"
 					}, {
 						"name": "no3",
-						"icons": "shadow_sect2_no3.svg", 
+						"icons": "shadow_sect2_no3.svg",
 						"igrphy_sect2_images_hint": "High-Shadow"
 					}, {
 						"name": "no4",
-						"icons": "shadow_sect2_no4.svg", 
+						"icons": "shadow_sect2_no4.svg",
 						"igrphy_sect2_images_hint": "White background"
 					}, {
 						"name": "no5",
-						"icons": "shadow_sect2_no5.svg", 
+						"icons": "shadow_sect2_no5.svg",
 						"igrphy_sect2_images_hint": "Base"
 					}
 				],
 				"shadow_sect3_subtitle1": "Low-Shadow",
-				"shadow_sect3_description1": "配置される階層によって異なる陰影を設定します。 物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
+				"shadow_sect3_description1": "配置される階層によって異なる陰影を設定します。物理法則に基づき、階層が最背面より高ければ高いほど、影は淡く、大きくなります。",
 				"shadow_sect3_subtitle2": "Middle-Shadow",
 				"shadow_sect3_description2": "Low-shadow階層にあるコンテンツより優先的に見せるべきコンテンツ、またはアクションコンポーネントを表示します。重なるコンテンツの下層が複雑なコンテンツ（地図や図柄など）である場合は、情報をより認識しやすくなるようこの階層に表示します。",
 				"shadow_sect3_subtitle3": "High-Shadow",
@@ -4582,30 +4582,30 @@
 				"shadow_sect3_images_tableholder4": [
 					{
 					  "name": "panel1",
-					  "icons": "shadow_sect3_no1.svg", 
+					  "icons": "shadow_sect3_no1.svg",
 					  "desc": "シャドウの値が揃っている"
 					},
 					{
 					  "name": "panel2",
-					  "icons": "shadow_sect3_no2.svg", 
+					  "icons": "shadow_sect3_no2.svg",
 					  "desc": "シャドウの値が揃っていない"
 					}
 				],
 				"shadow_sect3_subtitle5": "White Background",
 				"shadow_sect3_description5": "コンテンツを表示する最も下の階層です。原則白色のみの利用を推奨します。",
 				"shadow_sect3_subtitle6": "Base",
-				"shadow_sect3_description6": "この上に直接コンテンツを表示することはしません",
+				"shadow_sect3_description6": "この上には直接コンテンツを表示しません",
 				"shadow_sect4_title": "視認性担保のためのシャドウ表現",
 				"shadow_sect4_description": "写真や複雑なコンテンツの上にテキストやアイコンを配置する場合、配置するテキストやアイコンの視認性/可読性を十分に担保できるようにシャドウを用います。",
 				"shadow_sect4_images_tableholder": [
 					{
 					  "name": "panel1",
-					  "icons": "shadow_sect4_no1.svg", 
+					  "icons": "shadow_sect4_no1.svg",
 					  "desc": "地図上にボタンを表示"
 					},
 					{
 					  "name": "panel2",
-					  "icons": "shadow_sect4_no2.svg", 
+					  "icons": "shadow_sect4_no2.svg",
 					  "desc": "カメラ機能にアクションコンポーネントを表示"
 					}
 				],
@@ -4618,27 +4618,27 @@
 					},
 					{
 					  "name": "panel2",
-					  "title": "Mid Shadow", 
+					  "title": "Mid Shadow",
 					  "desc": ["#000000", "Alpha 0.15", "X:0 Y:6", "Blur 15px" ]
 					},
 					{
 						"name": "panel3",
-						"title": "Mid Shadow", 
+						"title": "Mid Shadow",
 						"desc": ["#000000", "Alpha 0.3", "X:0 Y:8", "Blur 20px" ]
 					},
 					{
 						"name": "panel4",
-						"title": "Background", 
+						"title": "Background",
 						"desc": ["#FFFFFF" ]
 					},
 					{
 						"name": "panel5",
-						"title": "Base Color", 
+						"title": "Base Color",
 						"desc": ["#F7F7F7" ]
 					},
 					{
 						"name": "panel6",
-						"title": "視認性担保のためのシャドウ", 
+						"title": "視認性担保のためのシャドウ",
 						"desc": ["90°","#000000 Alpha 0.5", "#000000 Alpha 0" ]
 					}
 				]
@@ -4668,13 +4668,13 @@
 						"desc": "アプリ内では定義されたタイポグラフィ以外のものは利用しません。定義されたFont Familyを利用し、すべての画面において一貫性を保ちます"
 					},
 					{
-						"desc": "可読性視認性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
+						"desc": "視認性/可読性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
 					},
 					{
 						"desc": "和文はシステムフォント、欧文はカスタムフォントを利用し、必要以上の装飾やカスタムフォントの利用はしません"
 					},
 					{
-						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります。（2020年時点では日本語/英語をサポート）"
+						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります（2020年時点では日本語/英語をサポート）"
 					}
 				],
 				"title_usage": "Usage",
@@ -4688,7 +4688,7 @@
 				"subtitle_font_size":"Font Size",
 				"font_size_desc": [
 					{
-						"desc": "フォントサイズをHeading/Label/Bodyの3種類定義します。"
+						"desc": "フォントサイズはHeading/Label/Bodyの3種類を定義します。"
 					},
 					{
 						"desc": "すべてのコンポーネントはこの3種類から構成されます。"
@@ -5028,21 +5028,21 @@
 					}, {
 						"name": "panel2",
 						"col1": "24~",
-						"col2": "Use 1/2 of Number size as the 円 / Yen size",
-            "col21": "Example When the Price size is 72px, use 36px as the Yen size"
+						"col2": "価格に対し「円」は1/2のサイズを用います",
+            "col21": "例）価格が72pxのとき、「円」は36pxを用います"
 					},
 					{
 						"name": "panel3",
 						"col1": "14 - 22",
-						"col2": "Use 12 px as the 円 / Yen size"
+						"col2": "価格のサイズに関わらず「円」は12pxを用います"
 					},
 					{
 						"name": "panel4",
 						"col1": "12",
-						"col2": "Use 11 px as the 円 / Yen size"
+						"col2": "価格のサイズに関わらず「円」は11pxを用います"
 					}
                 ]
-			}       
+			}
     },
     "components": {
 			"balloon": {
@@ -5050,47 +5050,47 @@
 				"balloon_sect1_title": "Usage",
 				"balloon_sect1_description": [
 					"新機能のガイドなど、特定のコンポーネントに補足情報を示す際に使用します",
-					"ユーザーが気が付きにくい情報を補足することで、機能やコンポーネントの理解が深まりより良い体験をもたらします",
-					"Ballonはあくまで補足的な情報の提示のみに使用するものとし、主コンテンツの閲覧やアクションを妨げるような使い方はしません"
+					"ユーザーが気付きにくい情報を補足することで、機能やコンポーネントの理解が深まり、より良い体験をもたらします",
+					"Balloonはあくまで補足的な情報の提示のみに使用するものとし、主コンテンツの閲覧やアクションを妨げるような使い方はしません"
 				],
 				"balloon_sect2_title": "Usage Example",
 				"balloon_sect2_images": [
 					{
 					  "name": "panel1",
-					  "icons": "balloon_sect2_images1.svg", 
+					  "icons": "balloon_sect2_images1.svg",
 					  "desc": "新機能の訴求"
 					},
 					{
 					  "name": "panel2",
-					  "icons": "balloon_sect2_images2.svg", 
+					  "icons": "balloon_sect2_images2.svg",
 					  "desc": "新着情報のお知らせ"
 					}
 				],
 				"balloon_sect3_title": "Type",
-				"balloon_sect3_description": "バルーンのコンポーネントには2種類があり、用途によって使い分けをします。",
+				"balloon_sect3_description": "Balloonのコンポーネントには2種類あり、用途によって使い分けをします。",
 				"balloon_sect3_images": [
 					{
 					  "name": "panel1",
-					  "icons": "balloon_sect3_images1.svg", 
+					  "icons": "balloon_sect3_images1.svg",
 					  "desc": "Coach Balloon"
 					},
 					{
 					  "name": "panel2",
-					  "icons": "balloon_sect3_images2.svg", 
+					  "icons": "balloon_sect3_images2.svg",
 					  "desc": "Scroll Balloon"
 					}
 				],
 				"balloon_sect3_tableholder": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect3_no1.svg", 
+						"icons": "balloon_sect3_no1.svg",
 						"balloon_sect3_col1": "Coach Balloon",
-						"balloon_sect3_col2":"新機能などの特定のComponentを強調、ガイドする場合に使用します"
+						"balloon_sect3_col2":"新機能などの特定のComponentを強調、ガイドする場合に使用します。"
 					}, {
 						"name": "no2",
-						"icons": "balloon_sect3_no2.svg", 
+						"icons": "balloon_sect3_no2.svg",
 						"balloon_sect3_col1": "Scroll Balloon",
-						"balloon_sect3_col2":"画面外の特定のComponentをガイドする場合に使用しますバルーンをタップすると対象のComponentの位置まで自動でスクロールします"
+						"balloon_sect3_col2":"画面外の特定のComponentをガイドする場合に使用します。Balloonをタップすると対象のComponentの位置まで自動でスクロールします。"
 					}
 				],
 				"balloon_sect4_title": "Detail",
@@ -5098,23 +5098,23 @@
 				"balloon_sect4_tableholder": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect4_no1.svg", 
+						"icons": "balloon_sect4_no1.svg",
 						"balloon_sect4_col1": "Icon (Option)",
-						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。 アイコンを付与することでよりユーザーの注目を集めることができます。",
+						"balloon_sect4_col2":"メッセージやガイドに合わせたアイコンを表示します。アイコンを付与することでよりユーザーの注目を集めることができます。",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no2",
-						"icons": "balloon_sect4_no2.svg", 
+						"icons": "balloon_sect4_no2.svg",
 						"balloon_sect4_col1": "Text  Label",
-						"balloon_sect4_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。",
+						"balloon_sect4_col2":"Balloonが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まる文字数を推奨します。",
 						"balloon_sect4_col2_images": "",
 						"balloon_sect4_col2_hints": ""
 					}, {
 						"name": "no3",
-						"icons": "balloon_sect4_no3.svg", 
+						"icons": "balloon_sect4_no3.svg",
 						"balloon_sect4_col1": "Arrow",
-						"balloon_sect4_col2":"バルーンの示すComponentの位置に合わせてArrowを配置します。",
+						"balloon_sect4_col2":"Balloonの示すComponentの位置に合わせてArrowを配置します。",
 						"balloon_sect4_col2_images": "balloon_sect4_icons.png",
 						"balloon_sect4_col2_hints": "Mouse hover on above image and scroll horizontally to view till end"
 					}
@@ -5122,24 +5122,24 @@
 				"balloon_sect5_title": "Do / Don't",
 				"balloon_sect5_description": "Coach Balloonを使用する際は、訴求対象が明確になるようにしてください。",
 				"balloon_sect5_points1": "強調したいコンテンツが明確",
-				"balloon_sect5_points2": "同一画面に復数のバルーンを配置する どのComponentが強調されているのか不明瞭",
-				"balloon_sect5_points3": "バルーンの視認性が悪い バルーンに近しい背景色の上への配置",
+				"balloon_sect5_points2": "同一画面に複数のバルーンを配置する。どのComponentが強調されているのか不明瞭",
+				"balloon_sect5_points3": "Balloonの視認性が悪い。Balloonに近しい背景色の上への配置",
 				"balloon_sect6_title": "Scroll Balloon",
 				"balloon_sect6_tableholder": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_no1.svg", 
+						"icons": "balloon_sect6_no1.svg",
 						"balloon_sect6_col1": "Text Label",
-						"balloon_sect6_col2":"バルーンが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まるテキスト数を推奨します。"
+						"balloon_sect6_col2":"Balloonが示す訴求メッセージやガイドテキストを表示します。ユーザーが瞬時に内容を理解できるよう、簡潔に、1行以内に収まる文字数を推奨します。"
 					}, {
 						"name": "no2",
-						"icons": "balloon_sect6_no2.svg", 
+						"icons": "balloon_sect6_no2.svg",
 						"balloon_sect6_col1": "Arrow Animation",
 						"balloon_sect6_col2":"画面下部を示すアイコンアニメーションを表示し、画面外に情報があることを示します。"
 					}
 				],
                   "balloon_sect6_description": [
-					"Scroll BalloonにはPrimary ColorとSecondary Colorがありま。",
+					"Scroll BalloonにはPrimary ColorとSecondary Colorがあります。",
                     "強調するコンテンツの優先度によって使い分けます。",
 					"更新頻度の高いタイムラインコンテンツなど、新着情報を表示する場合は表示されているコンテンツを阻害しないよう、Secondary Colorの利用を推奨します。"
 				],
@@ -5151,7 +5151,7 @@
 						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
 					}, {
 						"name": "no2",
-						"icons": "balloon_sect6_rowers2.svg",						
+						"icons": "balloon_sect6_rowers2.svg",
 						"balloon_sect6_title": "Secondary Color",
 						"balloon_sect6_subtitle":"更新頻度の高いタイムラインコンテンツの新着件数の表示など"
 					}
@@ -5161,23 +5161,23 @@
 				"balloon_sect7_tableholder": [
 					{
 						"name": "panel1",
-						"icons": "balloon_sect7_no1.svg", 
-						"balloon_sect7_col1": "テキストが短く簡潔に表示されている。"
+						"icons": "balloon_sect7_no1.svg",
+						"balloon_sect7_col1": "テキストが短く簡潔に表示されている"
 					}, {
 						"name": "panel2",
-						"icons": "balloon_sect7_no2.svg", 
-						"balloon_sect7_col1": "テキストが改行されているなど、可読性が低い。"
+						"icons": "balloon_sect7_no2.svg",
+						"balloon_sect7_col1": "テキストが改行されているなど、可読性が低い"
 					}
 				],
 				"balloon_sect8_title": "Interaction",
 				"balloon_sect8_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect8_col1": "Coach Balloon", 
+						"balloon_sect8_col1": "Coach Balloon",
 						"balloon_sect8_col2": "特殊な場合を除き、Balloonをタップ、もしくは対象のComponentをタップするとBalloonは非表示となります。アクションを伴わないComponentを訴求する場合は表示回数を設定し、ユーザーアクションを伴わなくともBalloonが非表示になるようにします。表示回数3回ほどで自動非表示にすることを推奨します。"
 					}, {
 						"name": "panel2",
-						"balloon_sect8_col1": "Scroll Balloon", 
+						"balloon_sect8_col1": "Scroll Balloon",
 						"balloon_sect8_col2": "<div>Balloonをタップ、もしくは画面をスクロールするとBalloonは非表示となります。アクション時にタップフィードバックを表示します。Specを参照してください。</div><div>参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u></div>"
 					}
 				],
@@ -5186,7 +5186,7 @@
 				"balloon_sect9_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect9_col1": "Text Label", 
+						"balloon_sect9_col1": "Text Label",
 						"balloon_sect9_col2": [
 							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
 							"Text Align-Left",
@@ -5195,7 +5195,7 @@
 						]
 					}, {
 						"name": "panel2",
-						"balloon_sect9_col1": "Background", 
+						"balloon_sect9_col1": "Background",
 						"balloon_sect9_col2": [
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
@@ -5207,7 +5207,7 @@
 				"balloon_sect10_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect10_col1": "Text Label", 
+						"balloon_sect10_col1": "Text Label",
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
 							"<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u>",
@@ -5223,7 +5223,7 @@
 						]
 					}, {
 						"name": "panel2",
-						"balloon_sect10_col1": "Animation Allow", 
+						"balloon_sect10_col1": "Animation Allow",
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
 							"TBD",
@@ -5232,13 +5232,13 @@
 						]
 					}, {
 						"name": "panel3",
-						"balloon_sect10_col1": "Background", 
+						"balloon_sect10_col1": "Background",
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
 							"Default : #00B9F5",
 							"Pressed( iOS ) : #00AFE8",
 							"Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>",
-							"<br/>",							
+							"<br/>",
 							"<b>Secondary</b>",
 							"Default :",
 							"Back ground : #FFFFFF",
@@ -5252,11 +5252,11 @@
 				"balloon_sect11_tableholder": [
 					{
 						"name": "panel1",
-						"balloon_sect11_col1": "ボトムタブがある場合", 
+						"balloon_sect11_col1": "ボトムタブがある場合",
 						"balloon_sect11_col2": "16px/dp"
 					}, {
 						"name": "panel2",
-						"balloon_sect11_col1": "ボトムタブがない場合", 
+						"balloon_sect11_col1": "ボトムタブがない場合",
 						"balloon_sect11_col2": "40px/dp"
 					}
 				]
@@ -5278,7 +5278,7 @@
 					},
 					{
 					  "name": "panel2",
-					  "icons": "card_sect2_images2.svg" 
+					  "icons": "card_sect2_images2.svg"
 					}
 				],
 				"card_sect2_hint": "複雑な情報をグルーピング",
@@ -5286,12 +5286,12 @@
 				"card_sect3_tableholder": [
 					{
 						"name": "no1",
-						"icons": "card_sect3_no1.svg", 
+						"icons": "card_sect3_no1.svg",
 						"card_sect3_col1": "Contents Area",
 						"card_sect3_col2":"Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。"
 					}, {
 						"name": "no2",
-						"icons": "card_sect3_no2.svg", 
+						"icons": "card_sect3_no2.svg",
 						"card_sect3_col1": "Background",
 						"card_sect3_col2":"<a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
 					}
@@ -5301,19 +5301,19 @@
 				"card_sect4_tableholder": [
 					{
 						"name": "panel1",
-						"icons": "card_sect4_no1.svg", 
+						"icons": "card_sect4_no1.svg",
 						"card_sect4_col1": "コンテンツがコンテンツエリア外に表示されている"
 					}, {
 						"name": "panel2",
-						"icons": "card_sect4_no2.svg", 
-						"card_sect4_col1": "同階層上のカードに異なるシャドウをスタイルを使用する"
+						"icons": "card_sect4_no2.svg",
+						"card_sect4_col1": "同階層上のカードに異なるシャドウを使用する"
 					}, {
 						"name": "panel3",
-						"icons": "card_sect4_no3.svg", 
+						"icons": "card_sect4_no3.svg",
 						"card_sect4_col1": "シャドウに色をつける"
 					}, {
 						"name": "panel4",
-						"icons": "card_sect4_no4.svg", 
+						"icons": "card_sect4_no4.svg",
 						"card_sect4_col1": "カードがページのグリッドに沿っていない"
 					}
 				],
@@ -5326,7 +5326,7 @@
             }, {
 						"name": "no2",
 						"card_sect5_col1": "Flip",
-						"card_sect5_col2":"横に並ぶカードをFlipで移動するインタラクションを使用する場合はタップフィードバックは表示しません。"
+						"card_sect5_col2":"横に並ぶカードをFlipで移動させるインタラクションを使用する場合、タップフィードバックは表示しません。"
 					}
 				],
 				"card_sect6_title": "Spec",
@@ -5373,23 +5373,23 @@
 				"form_sect3_tableholder": [
 					{
 						"name": "panel1",
-						"icons": "form_sect3_no1.svg", 
+						"icons": "form_sect3_no1.svg",
 						"desc": " Title (Option)"
 					}, {
 						"name": "panel2",
-						"icons": "form_sect3_no2.svg", 
-						"desc": "Text Field "
+						"icons": "form_sect3_no2.svg",
+						"desc": "Text Field"
 					}, {
 						"name": "panel3",
-						"icons": "form_sect3_no3.svg", 
-						"desc": "Message area"
+						"icons": "form_sect3_no3.svg",
+						"desc": "Message Area"
 					}, {
 						"name": "panel4",
-						"icons": "form_sect3_no4.svg", 
+						"icons": "form_sect3_no4.svg",
 						"desc": "Action Item"
 					}, {
 						"name": "panel5",
-						"icons": "form_sect3_no5.svg", 
+						"icons": "form_sect3_no5.svg",
 						"desc": "Text Counter (Option)"
 					}
 				],
@@ -5439,12 +5439,12 @@
 				"form_sect8_tblholder": [
 					{
 						"name": "panel1",
-						"form_sect8_col1": "削除*必須",
+						"form_sect8_col1": "削除 *必須",
 						"form_sect8_col2_hint": "<div>入力エリアに1文字以上テキストが表示されている場合、必須で表示します</div><div>タップすると、入力した文字列はすべて削除されます</div>",
 						"form_sect8_col2_desc": "form_sect8_icons1.svg"
 					}, {
 						"name": "panel2",
-						"form_sect8_col1": "可視・不可視*Option",
+						"form_sect8_col1": "可視・不可視 *Option",
 						"form_sect8_col2_hint": "<div>入力内容を記号に置き換えた不可視状態と可視状態を切り替えることができます</div><div>パスワードなど機密性の高い項目を入力する際に使用します</div><div>可視・不可視の状態が認識できるよう、アイコンの表示も切り替えます</div><div>不可視状態をデフォルト表示とします</div><div>不可視状態で入力すると、入力した文字列は「●」に置き換えられて表示されます</div>",
 						"form_sect8_col2_desc": "form_sect8_icons2.svg",
 						"form_sect8_col2_tblchild": [
@@ -5458,7 +5458,7 @@
 								"hint": "不可視状態"
 							}
 						]
-						
+
 					}
 				],
 
@@ -5474,15 +5474,15 @@
 						"hint": "入力文字数が上限以上"
 					}
 				],
-				
+
 				"form_sect10_title": "Interaction",
 				"form_sect10_tblholder": [
 					{
 						"images": "form_sect10_images1.svg",
-						"hint": "<div>Empty時にText Fieldをタップキーボードが表示され、</div><div>TextFieldがEditable表示に切り替わるキーボードの表示アニメーションは端末の仕様に準拠</div>"
+						"hint": "<div>Empty時にText Fieldをタップするとキーボードが表示され、</div><div>Text FieldがEditable表示に切り替わる。キーボードの表示アニメーションは端末の仕様に準拠</div>"
 					}, {
 						"images": "form_sect10_images2.svg",
-						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて 下に広がる</div>"
+						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて下に広がる</div>"
 					}
 				],
 
@@ -5543,7 +5543,7 @@
 				],
 				"header_sect4_title": "Transparent",
 				"header_sect4_images": "header_sect4_images.svg",
-				"header_sect4_desc": "<div>主要コンテンツやキャンペーンなど、コンテンツエリアを広く、強調して見せたい場合は下図のようにヘッダエリアに背景色を拡張します。</div> <div>背景色はグラデーションカラーを推奨します。</div>",
+				"header_sect4_desc": "<div>主要コンテンツやキャンペーンなど、コンテンツエリアを広く強調して見せたい場合は、下図のようにヘッダーエリアの背景色の領域を拡張します。</div> <div>背景色はグラデーションカラーを推奨します。</div>",
 				"header_sect5_title": "Detail",
 				"header_sect5_hint": "OSの表示仕様に準拠します",
 				"header_sect5_images": [
@@ -5586,9 +5586,9 @@
 					}
 				],
 				"header_sect7_title": "Title",
-				"header_sect7_hint": "タイトルは以下の内容を記載します。",
+				"header_sect7_hint": "タイトルには以下の内容を記載します。",
 				"header_sect7_points": "<div>•  画面名</div><div>•  機能名</div><div>•  アクション名</div>",
-				"header_sect7_desc": "タイトルは端OSの仕様に準拠し、端末の幅によって表示テキスト数は異なります。簡潔でコンパクトなタイトルの表示を推奨します",
+				"header_sect7_desc": "タイトルは端末のOS仕様に準拠し、端末の幅によって表示テキスト数は異なります。簡潔でコンパクトなタイトルの表示を推奨します",
 
 
 				"header_sect8_title": "Do/ Don't",
@@ -5603,8 +5603,8 @@
 						"hint": "タイトルが省略されている",
 						"images": "header_sect8_images2.svg"
 					}
-				],				
-				
+				],
+
 				"header_sect9_title": "Action Item(Optional)",
 
 				"header_sect9_1subtitle": "アイコン",
@@ -5613,9 +5613,9 @@
 				"header_sect9_1subimage2": "header_sect9_1subimage2.svg",
 
 				"header_sect9_2subtitle": "テキストボタン",
-				"header_sect9_2subdesc": "<div>テキストボタンを表示できます。</div><div>表示するアイコンは画面内の機能に関連性のある機能である必要があります。</div><div>基本的にはアイコンボタンの利用を推奨します。</div><div>テキストボタンは、アイコンのみでは表現することが難しい場合、より強調するべき機能の場合に使用します。</div><div><br /></div><div>テキストボタンとタイトルテキストの間には十分な余白を設け、テキストの視認性、可読性を担保してください。</div><div>ボタンのラベルテキストは簡潔で短いテキストを使用します。2文字程度を推奨します。</div>",
+				"header_sect9_2subdesc": "<div>テキストボタンを表示できます。</div><div>表示するアイコンは画面内の機能に関連性のあるものである必要があります。</div><div>基本的にはアイコンボタンの利用を推奨します。</div><div>テキストボタンは、アイコンのみでは表現することが難しい場合、より強調するべき機能の場合に使用します。</div><div><br /></div><div>テキストボタンとタイトルテキストの間には十分な余白を設け、テキストの視認性/可読性を担保してください。</div><div>ボタンのラベルテキストは簡潔で短いテキストを使用します。2文字程度を推奨します。</div>",
 				"header_sect9_2subimage": "header_sect9_2subimage.svg",
-				
+
 
 				"header_sect9_3subtitle": "編集コンテンツの保存ボタン",
 				"header_sect9_3subdesc": "<div>編集画面では、編集内容を保存する際に「保存」ボタンを表示します。</div><div>保存ボタンは編集状態によって表示を切り替えます</div>",
@@ -5625,20 +5625,20 @@
 						"name": "panel1",
 						"icons": "blueicon1.svg",
 						"col1": "Active",
-						"col2": "変更された情報がある場合は「保存」ボタンを活性にし、ユーザーアクションを促します。"
+						"col2": "変更された情報がある場合は「保存」ボタンを活性化し、ユーザーアクションを促します。"
 					}, {
 						"name": "panel2",
 						"icons": "blueicon2.svg",
 						"col1": "Disable",
-						"col2": "編集内容に変更がない場合は「保存」ボタンは非活性状態にします。"
+						"col2": "編集内容に変更がない場合は「保存」ボタンは非活性にします。"
 					}
 				],
 
 				"header_sect10_title": "Interaction",
 				"header_sect10_subtitle": "Scroll",
-				"header_sect10_hint1": "画面スクロール時は、ヘッダは画面上部に固定表示されます。",
+				"header_sect10_hint1": "画面スクロール時は、ヘッダーは画面上部に固定表示されます。",
 				"header_sect10_images1": "header_sect10_images1.svg",
-				"header_sect10_hint2": "1stview で表示される重要なコンテンツを、スクロール時にも表示したい場合は、ヘッダに表示することができます。",
+				"header_sect10_hint2": "1st viewで表示される重要なコンテンツをスクロール時にも表示したい場合は、ヘッダーに表示することができます。",
 				"header_sect10_images2": "header_sect10_images2.svg",
 
 				"header_sect11_title": "Spec",
@@ -5661,7 +5661,7 @@
 						"header_sect12_col2": "<div>24px*24px/dp</div>"
 					}, {
 						"header_sect12_col1": "Title",
-						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはHeader背景に表示される色によって上記2色のどちらかを使用してください。</div>"
+						"header_sect12_col2": "<div><b>Regular</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#242323</div><div><br /></div><div><b>Transparent</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading16</a></div><div>Text Align-Center</div><div>#FFFFFF / #242323</div><div>Title text colorはBackground colorとのコントラスト比を十分に担保してください。</div><div>テキストカラーはヘッダーの背景色に応じて上記2色のどちらかを使用してください。</div>"
 
 					}, {
 						"header_sect12_col1": "Action Item",
@@ -5684,7 +5684,7 @@
 					{
 						"name": "panel1",
 						"icons": "pagecontrols_sect3_images1.svg",
-						"hint": "10個以上利用することは禁止します 最大5個までを推奨します"
+						"hint": "最大5個までを推奨とし、10個以上利用することは禁止します"
 					}, {
 						"name": "panel2",
 						"icons": "pagecontrols_sect3_images2.svg",
@@ -5714,7 +5714,7 @@
             "desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
           },
           {
-            "desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+            "desc": "ボタンは画面内の他のコンテンツと視覚的に差別化し、目立つように配置する必要があります"
           }
         ],
         "subtitle_usage_example": "Usage Example",
@@ -5906,7 +5906,7 @@
           {
             "name": "panel1",
             "col1": "異なる2色を指定する場合",
-            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します 画面上で調和の取れた2色を選択してください PayPayのPrimary Buleの利用は必須ではありません"
+            "col2": "2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。画面上で調和の取れた2色を選択してください。PayPayのPrimary Buleの利用は必須ではありません"
           }, {
             "name": "panel2",
             "col1": "同色の場合",
@@ -6069,13 +6069,13 @@
             "name": "panel1",
             "icons": "expand_num_01.svg",
             "text": "展開前",
-            "desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します Defaultの表示は閉じた状態を使用することを推奨します 展開後に表示される情報が想起可能なテキストラベルを表示します"
+            "desc": "タップで展開することを明示するため、下向きの矢印アイコンを表示します。Defaultの表示は閉じた状態を使用することを推奨します。展開後に表示される情報が想起可能なテキストラベルを表示します。"
           },
           {
             "name": "panel2",
             "icons": "expand_num_02.svg",
             "text": "展開後",
-            "desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します"
+            "desc": "展開前の状態に戻せることを明示するため、上向きの矢印アイコンを表示します。"
           }
         ],
         "expand_list_details_tableholder": [
@@ -6083,7 +6083,7 @@
             "name": "panel1",
             "icons": "expand_num_03.svg",
             "text": "展開前",
-            "desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1カテゴリのみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1stview内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
+            "desc": "大項目を表示します <br> タップで展開することを明示するため、下向きの矢印アイコンを表示します <br> Listの場合、ユーザーはExpandアクションを見逃す恐れがあります <br> 1つ目の項目のみ、展開後の状態で表示することを推奨します <br> ただし、展開後の小項目が1st view内に収まらないほど多い場合はアクションがより不明瞭になるため、展開後のUIをDefault表示します"
           },
           {
             "name": "panel2",
@@ -6174,7 +6174,7 @@
         "interaction_desc_4": "Interaction",
         "title_transitions": "Transitions",
         "title_spec": "Spec",
-        "txt_button_desc": "ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください。",
+        "txt_button_desc": "ボタンを複数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください。",
         "half_sheets_sect11_holders":  [
           {
             "desc": "入力要素の送信",
@@ -6232,7 +6232,7 @@
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルを表示します"},
                 {"desc":"タイトルは内容を端的に理解できるよう、簡潔でコンパクトな一文を利用します"},
-                {"desc":"文末には句点は使いません"}
+                {"desc":"文末に句点は使いません"}
               ],
               "half_sheets_sect_images1":"",
               "half_sheets_sect_images2":""
@@ -6244,7 +6244,7 @@
               "half_sheets_sect_images_colo1_title": "Description(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルでは伝えきれない補足情報を表示します"},
-                {"desc":"文末には句点は使いません"}
+                {"desc":"文末に句点は使いません"}
               ],
               "half_sheets_sect_images1":"",
               "half_sheets_sect_images2":""
@@ -6256,8 +6256,8 @@
               "half_sheets_sect_images_colo1_title": "Links(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"リンクテキストを表示します"},
-                {"desc":"主に、ユーザー同意を得るための利用規約へのリンクやヘルプページへのリンクを表示する場合など"},
-                {"desc":"補足的要素に利用し主要アクションボタンとしての利用は禁止します"},
+                {"desc":"主に、ユーザーの同意を得るための利用規約へのリンクやヘルプページへのリンクを表示する場合など"},
+                {"desc":"補足的要素に利用し、主要アクションボタンとしての利用は禁止します"},
                 {"desc":"リンクは3つまでの表示を推奨します"},
                 {"desc":"表示パターンは後述します"}
               ],
@@ -6272,7 +6272,7 @@
               "halfsheet_sect3_images_colo2": [
                 {"desc":"アクションボタンを表示します"},
                 {"desc":"ボタンは1〜3つまで表示が可能です"},
-                {"desc":"ボタンを復数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください"},
+                {"desc":"ボタンを複数表示する場合は、優先順位を明確にし、ユーザーが次のアクションに迷わないように配慮してください"},
                 {"desc":"ボタンの表示パターンは後述します"}
               ],
               "half_sheets_sect_images1":"",
@@ -6284,7 +6284,7 @@
               "half_sheets_sect_images_colo1_title": "Half seat background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの背景です"},
-                {"desc":"高さは表示コンテンツの内容によって可変します"}
+                {"desc":"高さは表示コンテンツの内容によって変化します"}
               ],
               "half_sheets_sect_images1":"",
               "half_sheets_sect_images2":""
@@ -6294,7 +6294,7 @@
               "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
               "half_sheets_sect_images_colo1_title": "Blur background",
               "halfsheet_sect3_images_colo2": [
-                {"desc":"ハーフシートの表示時は、黒の透過背景をオーバーレイ表示し、下層のコンテンツを認識できるようにします"},
+                {"desc":"ハーフシートの表示時は、黒の透過背景（オーバーレイ）を表示し、下層のコンテンツを認識できるようにします"},
                 {"desc":"原則、このエリアをタップすると、ハーフシートを閉じます"},
                 {"desc":"ただし、以下の場合は、このエリアをタップしてもハーフシートは閉じないようにします"},
                 {"desc":"•  ハーフシート上の操作を追えずに閉じることで挙動や表示要素に不整合が起こる場合"},
@@ -6381,11 +6381,11 @@
         "halfsheet_section_tableholder": [
           {
             "name": "panel1",
-            "col1": "異な",
+            "col1": "表示",
             "col2": "スライドアップで表示します"
           }, {
             "name": "panel2",
-            "col1": "同色の",
+            "col1": "閉じる",
             "col2": "スライドダウンで閉じます"
           }
         ],
@@ -6403,7 +6403,7 @@
             "desc": "コンテンツの補足情報やステータスを明示するために利用します"
           },
           {
-            "desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+            "desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けして、視覚的に違いを認識できるようにします"
           }
         ],
         "subtitle_usage_example": "Usage Example",
@@ -6414,13 +6414,13 @@
         "title_spec": "Spec",
         "title_statuslabel": "Status Label",
         "title_newlabel": "New Label",
-        "desc_statuslabel": "コンテンツ内で復数のステータスが存在する場合にステータスの違いを明示するために利用します。",
+        "desc_statuslabel": "コンテンツ内で複数のステータスが存在する場合に、ステータスの違いを明示するために利用します。",
         "newlabel_desc1": "新機能などユーザーにアピールしたい機能に利用します。",
         "newlabel_desc2": "テキスト、色の変更はできません。",
         "newlabel_desc3": "必要以上にユーザーの注意を惹きつけないよう、対象を1〜3回タップしたら消えるようにします。（回数は1回を推奨します）",
         "label_data1": [
           {
-            "desc": "復数あるステータスの表示",
+            "desc": "複数あるステータスの表示",
             "logo": "label_01.svg"
           },{
             "desc": "新しいコンテンツのPR",
@@ -6438,7 +6438,7 @@
         ],
         "label_data3":  [
           {
-            "desc": "1画面内に復数のラベルを表示することは禁止します",
+            "desc": "1画面内に複数のラベルを表示することは禁止します",
             "logo": "label_08.svg"
           }
         ],
@@ -6464,8 +6464,8 @@
         ],
         "label_data4": [
           {
-            "desc1": "ステータを表す色は<span>Color palet</span>の色の利用を推奨します。",
-            "desc2": "特に、「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
+            "desc1": "ステータスを表す色は<span>Color palette</span>の色の利用を推奨します。",
+            "desc2": "特に「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
             "logo": "label_07.svg"
           }
         ],
@@ -6574,7 +6574,7 @@
             "desc": "情報量の多い異なる情報群を一画面内に表示する際に利用します"
           },
           {
-            "desc": "1stviewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
+            "desc": "1st viewで情報郡のサマリーを示し、タップすることで表示を切り替えられるようにします"
           }
         ],
         "sect2_title": "Usage Example",
@@ -6586,7 +6586,7 @@
         "sect5_desc3": "このUIを利用する場合、多くのユーザーはスワイプできることを認識できない場合があります。",
         "sect5_desc4": "画面外へタブが続くことが想起できるよう、右端のタブを見切れるように配置するなど配慮してください。",
         "sect6_title": "Interaction",
-        "sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えアクションができるようにします。",
+        "sect6_desc1": "画面のスクロール時はタブは画面上部に固定し、スクロール操作中でもユーザーがいつでもタブのステータスの確認、切り替えができるようにします。",
         "sect7_title": "Spec",
         "sect7_subtitle": "Regular",
         "sect8_title": "Vertical List Bookmark Tab",
@@ -7073,11 +7073,11 @@
             "animatn_col2":"48*48px/dp"
           }
         ]
-      }, 
+      },
       "list": {
 				"list_heading": "List",
 				"list_sect1_title": "Usage",
-				"list_sect1_desc": "<div>•  復数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスや取れるアクションがある場合は簡潔に示します</div><div>•  リスト内の構成は規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOSの標準に準拠します</div>",
+				"list_sect1_desc": "<div>•  複数ある情報を整理し、一覧性を高く表示する際に利用します</div><div>•  現在のステータスやアクション内容がある場合は簡潔に示します</div><div>•  リスト内の構成には規則性を設け、瞬時に内容を把握・比較できるように情報の整理をします</div><div>•  テキストやアイコンで何を示しているか簡潔に伝え、その詳細やアクション内容も同じく簡潔に表示します</div><div>•  リストの体裁はOS標準のUIに準拠します</div>",
 
 				"list_sect2_title": "Usage Example",
 				"list_sect2_images": "list_sect2_images.svg",
@@ -7104,21 +7104,21 @@
 						"images1": "pagecontrols_sect3_images5.svg",
 						"images2": "pagecontrols_sect3_images6.svg",
 						"hint1": "iOS",
-						"hint2": "Android"						
+						"hint2": "Android"
 					}, {
 						"name": "panel4",
 						"title": "Edit List",
 						"images1": "pagecontrols_sect3_images7.svg",
 						"images2": "pagecontrols_sect3_images8.svg",
 						"hint1": "iOS",
-						"hint2": "Android"						
+						"hint2": "Android"
 					}, {
 						"name": "panel5",
 						"title": "Alternative List",
 						"images1": "pagecontrols_sect3_images9.svg",
 						"images2": "pagecontrols_sect3_images10.svg",
 						"hint1": "iOS",
-						"hint2": "Android"						
+						"hint2": "Android"
 					}
 				],
 				"list_sect4_title": "Detail",
@@ -7132,7 +7132,7 @@
 						"list_sect4_col2": [
 							{
 								"type":"text",
-								"content": "復数のリストをグルーピング化し、大項目としてタイトルを付与する場合に利用します"
+								"content": "複数のリストをグルーピングし、大項目としてタイトルを付与する場合に利用します"
 							}
 						]
 					}, {
@@ -7182,9 +7182,9 @@
 								"content": "コンテンツを簡潔に短文で表示します"
 							}, {
 								"type":"text",
-								"content": "1行以内に収まるテキスト数を推奨します"
+								"content": "1行以内に収まる文字数を推奨します"
 							}
-						]	
+						]
 					}, {
 						"name": "panel5",
 						"icons": "redicon5.svg",
@@ -7201,9 +7201,9 @@
 								"content": "Titleと同様に簡潔に短文で表示します"
 							}, {
 								"type":"text",
-								"content": "1行以内に収まるテキスト数を推奨します"
+								"content": "1行以内に収まる文字数を推奨します"
 							}
-						]							
+						]
 					}, {
 						"name": "panel6",
 						"icons": "redicon6.svg",
@@ -7223,12 +7223,12 @@
 								"content": "iOS/Webの場合、タップして下層画面に遷移可能なリストには必ずアイコンを付与します"
 							}, {
 								"type":"text",
-								"content": "Androidにはアイコンは付与しません"
+								"content": "Androidにはアイコンを付与しません"
 							}
-						]	
+						]
 					}
 				],
-        
+
 				"list_sect5_title": "Action Component List",
 				"list_sect5_images": "list_sect5_images.svg",
 				"list_sect5_tblholder": [
@@ -7289,14 +7289,14 @@
 						"name": "panel2",
 						"icons": "skyblueicon1.svg",
 						"col1": "Action Item",
-						"col2": "タップして下層画面に遷移可能なリストには必ず アイコンを付与します",
+						"col2": "タップして下層画面に遷移可能なリストには必ずアイコンを付与します",
 						"col3": "遷移できる・できないにかかわらずアイコンを置かない"
 					}, {
 						"name": "panel3",
 						"icons": "skyblueicon2.svg",
 						"col1": "Divider",
 						"col2": "罫線の左端に16pxのMarginを付与",
-						"col3": "罫線端にMarginを付与しない"
+						"col3": "罫線の端にMarginを付与しない"
 					}
 				],
 
@@ -7332,8 +7332,8 @@
 						"col1": "Background",
 						"col2": "#FFFFFF"
 					}
-				],	
-				
+				],
+
 				"list_sect12_icons": "redicon3.svg",
 				"list_sect12_subtitle": "Icon",
 				"list_sect12_images": "list_sect12_images.svg",
@@ -7341,10 +7341,10 @@
 					{
 						"name": "panel1",
 						"col1": " List Icon",
-						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='/app-styleguide/globalrule/icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconは配置する場合はTitleが複数行の場合も水平方向にセンタライズする</div>"
+						"col2": "<div>24*24px/dp</div><div>IconのSpecについては<a href='/app-styleguide/globalrule/icongraphy' target='_blank'>Iconography</a>の項目を参照</div><div>Iconを配置する場合はTitleが複数行の場合も水平方向に中央寄せする</div>"
 					}
-				],	
-				
+				],
+
 				"list_sect13_icons1": "redicon4.svg",
 				"list_sect13_icons2": "redicon5.svg",
 				"list_sect13_icons3": "redicon6.svg",
@@ -7396,30 +7396,30 @@
 						"col1": "Margin",
 						"col2": "<div>8px/dp</div>"
 					}
-				]				
+				]
 			},
       "slider": {
         "slider_heading": "Slider",
         "slider_sect1_title": "Usage",
-        "slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が用意です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
-      
+        "slider_sect1_desc": "<div>•  選択可能な値の最小値と最大値の範囲から固定の値を選択、または範囲を選択できます</div><div>•  選択可能な範囲が可視化され、また選択時の状態も可視化されるため、相対的な値の認知が容易です</div><div>•  キーボードでの値の入力やボタンのタップカウントよりも直感的な操作が可能です</div>",
+
         "slider_sect2_title": "Usage Example",
         "slider_sect2_desc": "音量や価格の範囲の選択に利用します",
         "slider_sect2_images": "slider_sect2_images.svg",
-      
+
         "slider_sect3_title": "Type",
         "slider_sect3_subtitle": "Relative Slider",
         "slider_sect3_desc": "<div>音量の調整など、特定の値を入力することが難しい場合に使用します。</div><div>バーの両端にアイコンを設置し、ユーザーはバー上の任意の位置を選択可能です。</div>",
         "slider_sect3_images": "slider_sect3_images.svg",
-      
+
         "slider_sect4_subtitle": "Range Slider",
-        "slider_sect4_desc": "<div>機関や料金の範囲の指定など、特定の2点の値の範囲を選択する場合に利用します。</div><div>両脇に値の最小値と最大値を表示し、ユーザーはバー上の2点の値を選択することで範囲を選択可能です。</div>",
+        "slider_sect4_desc": "<div>期間や料金の範囲の指定など、特定の2点の値の範囲を選択する場合に利用します。</div><div>両脇に値の最小値と最大値を表示し、ユーザーはバー上の2点の値を変更することで範囲の選択が可能です。</div>",
         "slider_sect4_images": "slider_sect4_images.svg",
-      
+
         "slider_sect5_subtitle": "Scale Slider",
-        "slider_sect5_desc": "<div>サイズの選択など、決められた値が指定可能な場合に利用します。</div><div>両脇とバー上に選択可能なポイントを設定し、選択肢をテキストで表示します。ユーザーはポイントのみを選択可能です。</div><div>ポイント以外は選択できません。</div>",
+        "slider_sect5_desc": "<div>文字サイズの変更など、あらかじめ決められた値から選択する場合に利用します。</div><div>両端とバー上に選択可能なポイントを設定し、選択肢をテキストで表示します。ユーザーは設定されたポイントのみ選択可能です。</div><div>ポイントが設定されていない値は選択できません。</div>",
         "slider_sect5_images": "slider_sect5_images.svg",
-      
+
         "slider_sect6_title": "Detail",
         "slider_sect6_subtitle": "Relative Slider",
         "slider_sect6_images": "slider_sect6_images.svg",
@@ -7427,41 +7427,41 @@
           "name": "panel1",
           "icons": "redicon1.svg",
           "col1": "Active Track",
-          "col2": "<div>ユーザーの選択した範囲を現します</div><div>最小値から選択した値までをアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+          "col2": "<div>ユーザーの選択した範囲を表します</div><div>最小値から選択した値までをアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
         }, {
           "name": "panel2",
           "icons": "redicon2.svg",
           "col1": "Active Point",
-          "col2": "<div>バー上の未選択の値を現します</div>"
+          "col2": "<div>バー上の未選択の値を表します</div>"
         }, {
           "name": "panel3",
           "icons": "redicon3.svg",
           "col1": "Select Point",
-          "col2": "<div>ドラッグでコントロール可能な部分です</div><div>アクションと同時に選択状態を現します</div>"
+          "col2": "<div>ドラッグでコントロール可能な部分です</div><div>アクションと同時に選択状態を表します</div>"
         }, {
           "name": "panel4",
           "icons": "redicon4.svg",
           "col1": "Track Value",
           "col2": "<div>Sliderの役割りをアイコンで表現します</div><div>最小値と最大値の形状には差をつけ、役割りと状態を直感的に伝える必要があります</div>"
         }],
-      
+
         "slider_sect7_subtitle": "Scale Slider",
         "slider_sect7_images": "slider_sect7_images.svg",
         "slider_sect7_tblholder": [{
           "name": "panel1",
           "icons": "redicon1.svg",
           "col1": "Active Track",
-          "col2": "<div>ユーザーの選択した範囲を現します 選択範囲をアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
+          "col2": "<div>ユーザーの選択した範囲を表します。選択範囲をアクティブな色で表すことで、バー内での値を相対的に認識できます</div>"
         }, {
           "name": "panel2",
           "icons": "redicon2.svg",
           "col1": "Inactive Track",
-          "col2": "<div>バー上の未選択の値を現します</div>"
+          "col2": "<div>バー上の未選択の値を表します</div>"
         }, {
           "name": "panel3",
           "icons": "redicon3.svg",
           "col1": "Active Point",
-          "col2": "<div>ドラッグでコントロール可能な部分です アクションと同時に選択状態を現します</div>"
+          "col2": "<div>ドラッグでコントロール可能な部分です。アクションと同時に選択状態を表します</div>"
         }, {
           "name": "panel4",
           "icons": "redicon4.svg",
@@ -7471,21 +7471,21 @@
           "name": "panel5",
           "icons": "redicon5.svg",
           "col1": "Input Value Balloon (Option)",
-          "col2": "<div>選択範囲中の最小値、最大値をテキストで表示します 表示は任意ですが、表示することでユーザーの利便性は向上します 挙動についてはInterctionの項目を参照してください</div>"
+          "col2": "<div>選択範囲中の最小値、最大値をテキストで表示します。表示は任意ですが、表示することでユーザーの利便性は向上します。挙動についてはInterctionの項目を参照してください</div>"
         }],
-      
+
         "slider_sect8_subtitle": "Scale Slider",
         "slider_sect8_images": "slider_sect8_images.svg",
         "slider_sect8_tblholder": [{
           "name": "panel1",
           "icons": "redicon1.svg",
           "col1": "Sample Value (Option)",
-          "col2": "<div>値の示す状態を表示します 表示は任意ですが、表示することでユーザーは選択可能な値をより直感的に知ることができます 選択された値のSample Valueもアクティブ状態になります</div>"
+          "col2": "<div>値の示す状態を表示します。表示は任意ですが、表示することでユーザーは選択可能な値をより直感的に知ることができます。選択された値のSample Valueもアクティブ状態になります</div>"
         }, {
           "name": "panel2",
           "icons": "redicon2.svg",
           "col1": "Inactive Point",
-          "col2": "<div>未選択のPointです Scale Sliderの場合、Inactive Point以外は選択できません バーをタップした場合、タップ位置がより近いInactive Pointが選択されます</div>"
+          "col2": "<div>未選択のPointです。Scale Sliderの場合、Inactive Point以外は選択できません。バーをタップした場合、タップ位置がより近いInactive Pointが選択されます</div>"
         }, {
           "name": "panel3",
           "icons": "redicon3.svg",
@@ -7495,22 +7495,22 @@
           "name": "panel4",
           "icons": "redicon4.svg",
           "col1": "Track Value",
-          "col2": "<div>選択可能な値をテキストで表示します 簡潔に短文で表示します 2〜4文字以内のテキスト数を推奨します</div>"
+          "col2": "<div>選択可能な値をテキストで表示します。簡潔に短文で表示します。2〜4文字以内のテキスト数を推奨します</div>"
         }],
-      
+
         "slider_sect9_title": "Interaction",
         "slider_sect9_subtitle": "Select Feedback",
-        "slider_sect9_desc": "<div>アニメーションを利用して、状態の変化をより明確に伝えます。</div><div>また、より選択が完了したことを直感に伝えるために、iOSではHaptiv Feedbackを利用することを推奨します</div>",
+        "slider_sect9_desc": "<div>アニメーションを利用して、状態の変化をより明確に伝えます。</div><div>また、選択が完了したことをより直感に伝えるために、iOSではHaptic Feedbackを利用することを推奨します</div>",
         "slider_sect9_images": [{
           "name": "panel1",
           "icons": "slider_sect9_images1.svg",
-          "hint": "<div>選択時のActive Pointの移動</div><div>Active Pointは選択された値のPointまでスライドして移動します</div><div>※GIFにする</div>"
+          "hint": "<div>選択時のActive Pointの移動</div><div>Active Pointは選択された値のPointまでスライドして移動します</div>"
         }, {
           "name": "panel2",
           "icons": "slider_sect9_images2.svg",
-          "hint": "<div>選択時のInput Value Balloonの拡大</div><div>操作中のActive PointのInput Value Ballonは拡大されます</div><div>拡大することで、操作中の値をより明示的にします</div><div>指を話し値が確定するとBallonは元の大きさに戻ります</div><div>※GIFにする</div>"
+          "hint": "<div>選択時のInput Value Balloonの拡大</div><div>操作中のActive PointのInput Value Balloonは拡大されます</div><div>拡大することで、操作中の値をより明示的にします</div><div>指を離し値が確定するとBalloonは元の大きさに戻ります</div>"
         }],
-      
+
         "slider_sect10_subtitle": "Support Feedback",
         "slider_sect10_desc": "<div>ユーザーの選択した状態を明確に示すために、選択時にフィードバックを追加することを推奨します。以下はフィードバックの例です。</div>",
         "slider_sect10_images": [{
@@ -7526,7 +7526,7 @@
           "icons": "slider_sect10_images3.svg",
           "hint": "<div>価格の選択</div>"
         }],
-      
+
         "slider_sect11_title": "Specs",
         "slider_sect11_subtitle": "Relative Slider",
         "slider_sect11_images": "slider_sect11_images.svg",
@@ -7541,13 +7541,13 @@
         }, {
           "name": "panel3",
           "col1": "Active Point",
-          "col2": "<div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div>"
+          "col2": "<div>12*12px/dp</div><div>タップエリアは35*35px/dp以上担保します</div>"
         }, {
           "name": "panel4",
           "col1": "Track Value",
           "col2": "<div>24*24px/dp</div>"
         }],
-      
+
         "slider_sect12_subtitle": "Scale Slider",
         "slider_sect12_images": [{
           "name": "panel1",
@@ -7567,7 +7567,7 @@
         }, {
           "name": "panel2",
           "col1": "Active Point",
-          "col2": "<div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div>"
+          "col2": "<div>12*12px/dp</div><div>タップエリアは35*35px/dp以上担保します</div>"
         }, {
           "name": "panel3",
           "col1": "Track Value (Text)",
@@ -7577,13 +7577,13 @@
           "col1": "Input Value Balloon (Option)",
           "col2": "<div><b>Back ground</b></div><div>#FFFFFF</div><div>Shadow: <a href='/app-styleguide/globalrule/shadow' target='_blank'>Low Shadow</a></div><div><br/></div><div><b>Normal</b></div><div>数字</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Body</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 12</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div><b>Selected</b></div><div>数字</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 20 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div><br/></div><div>単位（漢字表記）</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 bold</a></div><div>Text Align-Center</div><div>#3895FF</div>"
         }],
-      
+
         "slider_sect13_subtitle": "Scale Slider",
         "slider_sect13_images": "slider_sect13_images.svg",
         "slider_sect13_tblholder": [{
           "name": "panel1",
           "col1": "Sample Value (Option)",
-          "col2": "<div><b>Default</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって可変可能です</div>"
+          "col2": "<div><b>Default</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></div><div>Text Align-Center</div><div>#606060</div><div><br/></div><div>Selected</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></div><div>Text Align-Center</div><div>#3895FF</div><div>テキストサイズは用途によって変更可能です</div>"
         }, {
           "name": "panel2",
           "col1": "Inactive Point",
@@ -7591,7 +7591,7 @@
         }, {
           "name": "panel3",
           "col1": "Inactive Point",
-          "col2": "<div>Default</div><div>12*12px/dp</div><div>タップエリアは35*35以上担保します</div><div></div><div>Selected</div><div>20*20px/dp</div><div>タップエリアは35*35以上担保します</div>"
+          "col2": "<div>Default</div><div>12*12px/dp</div><div>タップエリアは35*35px/dp以上担保します</div><div></div><div>Selected</div><div>20*20px/dp</div><div>タップエリアは35*35px/dp以上担保します</div>"
         }, {
           "name": "panel4",
           "col1": "Track Value",
