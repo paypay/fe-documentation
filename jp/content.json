@@ -5444,7 +5444,7 @@
 						"form_sect8_col2_desc": "form_sect8_icons1.svg"
 					}, {
 						"name": "panel2",
-						"form_sect8_col1": "可視・不可視 *Option",
+						"form_sect8_col1": "可視・不可視 *任意",
 						"form_sect8_col2_hint": "<div>入力内容を記号に置き換えた不可視状態と可視状態を切り替えることができます</div><div>パスワードなど機密性の高い項目を入力する際に使用します</div><div>可視・不可視の状態が認識できるよう、アイコンの表示も切り替えます</div><div>不可視状態をデフォルト表示とします</div><div>不可視状態で入力すると、入力した文字列は「●」に置き換えられて表示されます</div>",
 						"form_sect8_col2_desc": "form_sect8_icons2.svg",
 						"form_sect8_col2_tblchild": [
