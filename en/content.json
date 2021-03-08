@@ -5778,6 +5778,8 @@
 				"background_title": "Background",
 				"background_desc1": "Only predefined colors are used for buttons to maintain consistency of the roles and priorities of buttons within the app and to reduce the effort it takes the user to learn the UIUX.",
 				"background_desc2": "A button with a white border and white text is accepted as an exception, only when placing it against a dark colored background such as black or on top of a photo.",
+				"icons_title": "Icon",
+				"icons_desc" : "<div>ボタンが示す内容をより視覚的に伝えたい場合はアイコンをラベル内に含めます。</div><div>アイコンは字色と同色の使用を推奨します。</div><div>例外として、白い背景のボタンの場合は、文字色と異なる色のアイコンの利用を許容とします。</div><div>任意の色をアイコンに使用する場合は、背景色とアイコンの色の色差、コントラスト比を十分に担保してください。</div>",
 				"layout_desc": [
 					{
 						"desc": "Buttons are prioritized when there are multiple buttons in a screen. The type of button placed is determined based on the order of priority."
