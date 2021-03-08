@@ -5757,13 +5757,9 @@
           }
         ],
         "horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
-        "horizontal_button_desc_2": "色は",
-        "horizontal_button_desc_3": "Color palette",
-        "horizontal_button_desc_4": "の色を参考にしてください。",
+        "horizontal_button_desc_2": "色は<u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u>の色を参考にしてください。",
         "lauoyt_subtitle": "2つのボタンの背景色について",
-        "lauoyt_subtitle_desc": "色は",
-        "lauoyt_subtitle_desc_1": "Color palette",
-        "lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+        "lauoyt_subtitle_desc": "色は<u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u>の色を参考に指定してください",
         "subtitle_sticky_button": "Sticky Button",
         "sticky_button_desc": [
           {
@@ -5803,8 +5799,7 @@
             "desc": "Specを参照してください。"
           }
         ],
-        "interaction_desc_1": "参考：",
-        "interaction_desc_2": "Interaction",
+        "interaction_desc_1": "参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
         "title_spec": "Spec",
         "subtitle_spacing": "Spacing",
         "usage_example_desc": [
@@ -5861,8 +5856,8 @@
               "buttons_sect3_colo1_icons": "buttons_03_1.svg",
               "buttons_sect3_colo1_icons_title": "Text label",
               "buttons_design_sect3_images_colo2_1":[
-                {"desc":["Primary,Error1,Disabled","Lable 14 Bold","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
-                {"desc":["Secondary,Tertairy","Lable 14 Bold","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
+                {"desc":["Primary, Error, Disabled","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#FFFFFF","Pressed(IOS):#FFFFFF,Alpha 0.7"]},
+                {"desc":["Secondary, Tertiary","<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>","Text Align-Center","Default:#3895FF","Pressed(IOS):#3895FF,Alpha 0.7"]}]
             },
             {
               "name":"panel2",
@@ -5988,7 +5983,7 @@
           }, {
             "name": "panel2",
             "col1": "Shadow",
-            "col2": "背景上部にShadowを付与 <br> Shadow : <span>-90° Low-Shadow</span>"
+            "col2": "背景上部にShadowを付与 <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
           }
         ]
       },
@@ -6057,10 +6052,10 @@
             "desc": "Specを参照してください。"
           }
         ],
-        "interaction_desc_1": "参考：",
-        "interaction_desc_2": "Interaction",
+        "interaction_desc_1": "参考：<u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>",
         "interaction_desc_3": "展開時は展開されるコンテンツ部分、矢印アイコンにアニメーションを付与し、状態の変化をわかりやすくします。",
         "title_spec": "Spec",
+        "expand_details_desc_1": "タップ領域を十分に確保します。",
         "subtitle_spec_card": "Card",
         "subtitle_expandlist": "Expand List",
         "subtitle_expandarticle": "Expand Article",
@@ -6111,7 +6106,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Heading / Label 14 </span> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 14</a></u> <br> Text Align-Center <br> Default : #00B9F5 <br> Pressed( iOS ) :  #00B9F5, Alpha 0.7"
           },
           {
             "name": "panel2",
@@ -6131,7 +6126,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Label 16 Bold </span> <br> Text Align-Left <br> #242323"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Bold </a></u> <br> Text Align-Left <br> #242323"
           },
           {
             "name": "panel2",
@@ -6145,7 +6140,7 @@
             "name": "panel1",
             "icons": "",
             "text": "Text Label",
-            "desc": "<span> Body 14 </span> <br> Text Align-Left <br> #BABABA"
+            "desc": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14 </a></u> <br> Text Align-Left <br> #BABABA"
           }
         ]
       },
@@ -6546,7 +6541,7 @@
               {
                 "name": "panel1",
                 "toast_data3_colo1_title": "Font",
-                "toast_data3_colo2": [{ "desc": ["Heading / Label/14", "Text Align-Left", "#FFFFFF"] }]
+                "toast_data3_colo2": [{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label/14</a></u>", "Text Align-Left", "#FFFFFF"] }]
               },
               {
                 "name": "panel2",
@@ -6620,7 +6615,7 @@
               {
                 "name": "panel1",
                 "tab_data2_colo1_title": "Selected",
-                "tab_data2_colo1_icons": "buttons_03_1.svg",
+                "tab_data2_colo1_icons": "buttons_10_01.svg",
                 "tab_data2_colo2": [
                   { "desc": "タブが選択されている状態です。" },
                   { "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
@@ -6631,7 +6626,7 @@
               {
                 "name": "panel2",
                 "tab_data2_colo1_title": "Unselected",
-                "tab_data2_colo1_icons": "buttons_03_2.svg",
+                "tab_data2_colo1_icons": "buttons_10_02.svg",
                 "tab_data2_colo2": [
                   { "desc": "非選択状態のタブです。" },
                   { "desc": "タップで選択状態に切り替え、タブ下にコンテンツを表示します。" }
@@ -6646,7 +6641,7 @@
               {
                 "name": "panel1",
                 "tab_data3_colo1_title": "Selected",
-                "tab_data3_colo1_icons": "buttons_03_1.svg",
+                "tab_data3_colo1_icons": "buttons_10_01.svg",
                 "tab_data3_colo2": [
                   { "desc": "タブが選択されている状態です。" },
                   { "desc": "画面が表示された際には左端のタブをデフォルトで選択されている状態を推奨します。" },
@@ -6657,7 +6652,7 @@
               {
                 "name": "panel2",
                 "tab_data3_colo1_title": "Unselected",
-                "tab_data3_colo1_icons": "buttons_03_2.svg",
+                "tab_data3_colo1_icons": "buttons_10_02.svg",
                 "tab_data3_colo2": [
                   { "desc": "非選択状態のタブです。" },
                   { "desc": "タップで選択状態に切り替え、同時にコンテンツエリアは同一画面内のコンテンツ位置まで自動スクロールします。" }
@@ -6673,8 +6668,8 @@
                 "name": "panel1",
                 "tab_data4_colo1_title": "Label",
                 "tab_data4_colo2": [
-                  { "desc": ["Active", "Label 14 Blod", "Text Align-Center","#3895FF"]},
-                  { "desc": ["Disabled", "Label 14 Blod", "Text Align-Center","#606060"]}
+                  { "desc": ["Active", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#3895FF"]},
+                  { "desc": ["Disabled", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
                 ]
               },
               {
@@ -6688,7 +6683,7 @@
                 "name": "panel2",
                 "tab_data4_colo1_title": "Background",
                 "tab_data4_colo2": [
-                  { "desc": ["", "", "#FFFFFF", "Showdow: <span> Low-shadow</span>"] }
+                  { "desc": ["", "", "#FFFFFF", "Shadow:  <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>Low-shadow</a></u>"] }
                 ]
               }
             ]
@@ -6701,8 +6696,8 @@
                 "name": "panel1",
                 "tab_data5_colo1_title": "Label",
                 "tab_data5_colo2": [
-                  { "desc": ["Selected", "Label 14 Blod", "Text Align-Center","#FFFFFF"]},
-                  { "desc": ["Unselected", "Label 14 Blod", "Text Align-Center","#606060"]}
+                  { "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFFF"]},
+                  { "desc": ["Unselected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#606060"]}
                 ]
               },
               {
@@ -6804,68 +6799,68 @@
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData3": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           },
           {
             "name": "panel3",
             "col1": "選択不可 / Disabled",
-            "icon": "buttons_03_3.svg"
+            "icon": "button_blue_3.svg"
           },
           {
             "name": "panel4",
             "col1": "編集不可・選択時 / Disabled - Selected",
-            "icon": "buttons_03_4.svg"
+            "icon": "button_blue_4.svg"
           }
         ],
         "selectnControlData4": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData5": [
           {
             "name": "panel1",
             "col1": "非選択時 / Blank",
-            "icon": "buttons_03_1.svg"
+            "icon": "button_blue_1.svg"
           },
           {
             "name": "panel2",
             "col1": "選択時 / Selected",
-            "icon": "buttons_03_2.svg"
+            "icon": "button_blue_2.svg"
           }
         ],
         "selectnControlData6": [
@@ -6901,7 +6896,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6930,7 +6925,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
@@ -6943,8 +6938,8 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Text Label",
                 "selectnControlData7_colo2": [
-                  { "desc": ["Selected", "Label 14 Bold", "Text Align-Center","#FFFFF"] },
-                  { "desc": ["Not Selected", "Label 14 Bold", "Text Align-Center","#909090"] }
+                  { "desc": ["Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#FFFFF"] },
+                  { "desc": ["Not Selected", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Bold</a></u>", "Text Align-Center","#909090"] }
                 ]
               },
               {
@@ -7006,7 +7001,7 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "Title",
                 "selectnControlData7_colo2": [
-                  { "desc": ["", "Label 16 Regular", "Text Align-Left", "#242323"] }
+                  { "desc": ["", "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 Regular</a></u>", "Text Align-Left", "#242323"] }
                 ]
               }
             ]
