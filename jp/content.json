@@ -7038,24 +7038,29 @@
                 "name":"panel1",
                 "loadingAnimtnData1_colo1_title": "Animation",
                 "loadingAnimtnData1_colo2":[
-                  {"desc":["","150*15px/dp","Lottie animation"]}]
+                  {"desc":["","150*15px/dp"]}
+                ]
               },
               {
                 "name":"panel2",
                 "loadingAnimtnData1_colo1_title": "Title",
                 "loadingAnimtnData1_colo2":[
-                  {"desc":["Label 16 bold","Text Align-Center","","#242323"]}
+                  {"desc":["<a href='/app-styleguide/globalrule/typography' target='_blank'>Label 16 bold</a>","Text Align-Center","","#242323"]}
                 ]
               },
               {
                 "name":"panel3",
                 "loadingAnimtnData1_colo1_title": "Text(Option)",
-                "loadingAnimtnData1_colo2":[{"desc":["Body 12","Text Align-Center","","#606060"]}]
+                "loadingAnimtnData1_colo2":[
+                  {"desc":["<a href='/app-styleguide/globalrule/typography' target='_blank'>Body 12</a>","Text Align-Center","","#606060"]}
+                ]
               },
               {
                 "name":"panel4",
                 "loadingAnimtnData1_colo1_title": "Buttons",
-                "loadingAnimtnData1_colo2":[{"desc":["Buttons",""]}]
+                "loadingAnimtnData1_colo2":[
+                  {"desc":["<a href='/app-styleguide/component/buttons' target='_blank'>Buttons</a>",""]}
+                ]
               }
             ]
           }
