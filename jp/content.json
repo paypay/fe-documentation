@@ -3506,204 +3506,203 @@
           "hex": "#FFFFFF"
         }],
         "colorCode2":[
-          [   [{
-            "name": "PayPay Red",
-            "hex": "#FF0033",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FA1919",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FC6600",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FFB900",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#56D32A",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#26BF7D",
-            "color":"white"
-          }
-          ],[
-            {
-              "name": "",
-              "hex": "#FD5C5C",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#FF954C",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#FFC733",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#79D957",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#52CC97",
-              "color":"white"
-            }
-          ],
-            [{
-              "name": "",
-              "hex": "#FFB2B2",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFBA8B",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFE39A",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#BCF1A9'",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#A1E5C8",
-              "color":"black"
-            }
-            ],
-            [{
-              "name": "",
-              "hex": "#FFE5E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFF0E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFF7E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F7DF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#DFF7ED",
-              "color":"black"
-            }
-            ]],[
-            [{
-              "name": "",
-              "hex": "#00C2C2",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#00B8F5",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#006DD2",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#002970",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#7921A3",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#F23099",
-              "color":"white"
-            }
-            ],[
-              {
-                "name": "",
-                "hex": "#41D9D9",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#33CDFF",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#3994E5",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#3994E5",
-                "color": "white"
-              },{
-                "name": "",
-                "hex": "#9047B2",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#FF4CAD",
-                "color":"white"
-              }
-            ],
-            [{
-              "name": "",
-              "hex": "#8AE7E7",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#BAEEFF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#9ECEF8",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#8AABE5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#D9B0EC",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFB4DD",
-              "color":"black"
-            }
-            ],
-            [{
-              "name": "",
-              "hex": "#DFF7F7",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F8FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F3FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5EFFF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#F7E5FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFE5F3",
-              "color":"black"
-            }
-            ]
-          ]
-
+					[   [{
+						"name": "PayPay Red",
+						"hex": "#FF0033",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FA1919",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FC6600",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FFB900",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#56D32A",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#26BF7D",
+						"color":"#FFFFFF"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#FD5C5C",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#FF954C",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#FFC733",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#79D957",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#52CC97",
+							"color":"#FFFFFF"
+						}
+					],
+						[{
+							"name": "",
+							"hex": "#FFB2B2",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFBA8B",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFE39A",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BCF1A9",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#A1E5C8",
+							"color":"#323232"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#FFE5E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFF0E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFF7E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F7DF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#DFF7ED",
+							"color":"#323232"
+						}
+						]],[
+						[{
+							"name": "",
+							"hex": "#00C2C2",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#00B9F5",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#3895FF",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#002970",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#7921A3",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#F23099",
+							"color":"#FFFFFF"
+						}
+						],[
+							{
+								"name": "",
+								"hex": "#41D9D9",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#33CDFF",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#4DA0FF",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#2455AA",
+								"color": "#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#9047B2",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#FF4CAD",
+								"color":"#FFFFFF"
+							}
+						],
+						[{
+							"name": "",
+							"hex": "#8AE7E7",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BAEEFF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BADAFF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BBCFF2",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#D9B0EC",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFB4DD",
+							"color":"#323232"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#DFF7F7",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F8FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F1FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#DDEAFE",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#F7E5FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFE5F3",
+							"color":"#323232"
+						}
+						]
+					]
         ],
         "colorCode3": [
           [{
