@@ -4297,7 +4297,7 @@
         "layout_sect3_title": "Responsive Layout",
         "layout_sect3_description": [
           "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-          "次に定義す <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank'>るブレイクポイントによって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+          "次に定義す <a href='/app-styleguide/globalrule/layout' target='_blank'>るブレイクポイントによって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a> は1点だけとします。"
         ],
         "layout_sect4_title": "Margin",
         "layout_sect4_description": "大きく2種類の余白を定義します。",
@@ -4318,7 +4318,7 @@
         "layout_sect5_hint1": "入力フォームやアクションボタンがメインとなる画面",
         "layout_sect5_hint2": "カードUIやリストがメインコンテンツとなる画面",
         "layout_sect6_title": "環境別の指定",
-        "layout_sect6_description": "<div>タブレット、デスクトップの環境では、余白は40px/24pxを利用します。</div><div>余白の切り替えは <a href='https://paypay-corp.rickcloud.jp/wiki/pages/viewpage.action?pageId=79818169#Layout-breakpoint' target='_blank' > ブレイクポイント </a> によって行われます。</div>",
+        "layout_sect6_description": "<div>タブレット、デスクトップの環境では、余白は40px/24pxを利用します。</div><div>余白の切り替えは <a href='/app-styleguide/globalrule/layout' target='_blank' > ブレイクポイント </a> によって行われます。</div>",
         "layout_sect7_title": "要素同士の余白",
         "layout_sect7_description": "複数のコンテンツが隣接する場合はコンテンツの間に十分な余白を設け、近接する情報のグルーピングを明確にします。複数のコンテンツが並ぶ場合は8px / 12px / 16pxの余白の利用を推奨します。",
         "layout_sect7_hint": "余白と余白の間のコンポーネントは固定値ではなく、パーセンテージで定義します。余白は固定値として指定し、コンポーネントはデバイスのサイズによって可変とします。",
