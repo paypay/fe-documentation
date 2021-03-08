@@ -3852,14 +3852,14 @@
 				"txt_convey_desc_cnt_1":"サービスの利用手順の説明",
 				"txt_convey_desc_cnt_12":"文字だけでは説明しきれない部分をイラストでサポート",
 				"txt_expression_title": "表現",
-				"txt_expression_desc_1": "Design Philosophy",
+				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>Design Philosophy</a></u>",
 				"txt_expression_desc_2": "に準拠し、PayPayのブランドイメージを体現する表現を用います。",
 				"txt_expression_desc": [
 					{
 						"desc": "イラスト表現に用いるモチーフは極力簡略化しシンプルに構成する"
 					},
 					{
-						"desc": "カラーは塗り表現のみを用い、Color項目のカラーパレットの色を参考に構成する"
+						"desc": "カラーは塗り表現のみを用い、<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color</a></u>項目のカラーパレットの色を参考に構成する"
 					},
 					{
 						"desc": "無機質すぎない親しみやすい表現を用いる"

@@ -3895,14 +3895,14 @@
 				"txt_convey_desc_cnt_1":"Description of the service flow",
 				"txt_convey_desc_cnt_12":"The illustration supplements what cannot be conveyed by text.",
 				"txt_expression_title": "Expressions",
-				"txt_expression_desc_1": "In accordance with the Design Philosophy, ",
+				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>In accordance with the Design Philosophy, </a></u>",
 				"txt_expression_desc_2": "expressions that embody the brand image of PayPay are used",
 				"txt_expression_desc": [
 					{
 						"desc": "Motifs used in illustrations are simplified as much as possible."
 					},
 					{
-						"desc": "Only fill is used for coloring, using colors based on the color palette provided in Color."
+						"desc": "Only fill is used for coloring, using colors based on the <u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>color palette </a></u> provided in Color."
 					},
 					{
 						"desc": "Friendly expressions are used that are not overly inanimate."
