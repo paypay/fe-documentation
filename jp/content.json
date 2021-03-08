@@ -6336,7 +6336,7 @@
               "name":"panel5",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
               "half_sheets_sect_images_colo1_title": "Buttons",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
               }]
             },
             {
@@ -6358,7 +6358,7 @@
         "halfsheet_sect15_holders":  [
           {
             "desc1": "ボタンを1つ表示(推奨)",
-            "desc2": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
+            "desc2": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
             "logo": "halfsheet_04_01.svg"
           },
           {
@@ -6385,7 +6385,7 @@
         ],
         "halfsheets_integration_data": [
           {"desc": "ボタンアクション時にタップフィードバックを表示します。"},
-          {"desc": "<u><a href='/app-styleguide/globalrule/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>を参照してください。"},
+          {"desc": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>を参照してください。"},
           {"desc": "参考: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
         ]
       },
