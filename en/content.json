@@ -3552,202 +3552,201 @@
 					[   [{
 						"name": "PayPay Red",
 						"hex": "#FF0033",
-						"color":"white"
+						"color":"#FFFFFF"
 					},{
 						"name": "",
 						"hex": "#FA1919",
-						"color":"white"
+						"color":"#FFFFFF"
 					},{
 						"name": "",
 						"hex": "#FC6600",
-						"color":"white"
+						"color":"#FFFFFF"
 					},{
 						"name": "",
 						"hex": "#FFB900",
-						"color":"white"
+						"color":"#FFFFFF"
 					},{
 						"name": "",
 						"hex": "#56D32A",
-						"color":"white"
+						"color":"#FFFFFF"
 					},{
 						"name": "",
 						"hex": "#26BF7D",
-						"color":"white"
+						"color":"#FFFFFF"
 					}
 					],[
 						{
 							"name": "",
 							"hex": "#FD5C5C",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#FF954C",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#FFC733",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#79D957",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#52CC97",
-							"color":"white"
+							"color":"#FFFFFF"
 						}
 					],
 						[{
 							"name": "",
 							"hex": "#FFB2B2",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFBA8B",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFE39A",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
-							"hex": "#BCF1A9'",
-							"color":"black"
+							"hex": "#BCF1A9",
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#A1E5C8",
-							"color":"black"
+							"color":"#323232"
 						}
 						],
 						[{
 							"name": "",
 							"hex": "#FFE5E5",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFF0E5",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFF7E5",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#E5F7DF",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#DFF7ED",
-							"color":"black"
+							"color":"#323232"
 						}
 						]],[
 						[{
 							"name": "",
 							"hex": "#00C2C2",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
-							"hex": "#00B8F5",
-							"color":"white"
+							"hex": "#00B9F5",
+							"color":"#FFFFFF"
 						},{
 							"name": "",
-							"hex": "#006DD2",
-							"color":"white"
+							"hex": "#3895FF",
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#002970",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#7921A3",
-							"color":"white"
+							"color":"#FFFFFF"
 						},{
 							"name": "",
 							"hex": "#F23099",
-							"color":"white"
+							"color":"#FFFFFF"
 						}
 						],[
 							{
 								"name": "",
 								"hex": "#41D9D9",
-								"color":"white"
+								"color":"#FFFFFF"
 							},{
 								"name": "",
 								"hex": "#33CDFF",
-								"color":"white"
+								"color":"#FFFFFF"
 							},{
 								"name": "",
-								"hex": "#3994E5",
-								"color":"white"
+								"hex": "#4DA0FF",
+								"color":"#FFFFFF"
 							},{
 								"name": "",
-								"hex": "#3994E5",
-								"color": "white"
+								"hex": "#2455AA",
+								"color": "#FFFFFF"
 							},{
 								"name": "",
 								"hex": "#9047B2",
-								"color":"white"
+								"color":"#FFFFFF"
 							},{
 								"name": "",
 								"hex": "#FF4CAD",
-								"color":"white"
+								"color":"#FFFFFF"
 							}
 						],
 						[{
 							"name": "",
 							"hex": "#8AE7E7",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#BAEEFF",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
-							"hex": "#9ECEF8",
-							"color":"black"
+							"hex": "#BADAFF",
+							"color":"#323232"
 						},{
 							"name": "",
-							"hex": "#8AABE5",
-							"color":"black"
+							"hex": "#BBCFF2",
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#D9B0EC",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFB4DD",
-							"color":"black"
+							"color":"#323232"
 						}
 						],
 						[{
 							"name": "",
 							"hex": "#DFF7F7",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#E5F8FF",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
-							"hex": "#E5F3FF",
-							"color":"black"
+							"hex": "#E5F1FF",
+							"color":"#323232"
 						},{
 							"name": "",
-							"hex": "#E5EFFF",
-							"color":"black"
+							"hex": "#DDEAFE",
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#F7E5FF",
-							"color":"black"
+							"color":"#323232"
 						},{
 							"name": "",
 							"hex": "#FFE5F3",
-							"color":"black"
+							"color":"#323232"
 						}
 						]
 					]
-
-				],
+                ],
 				"colorCode3": [
 					[{
 						"name": "",
@@ -3896,14 +3895,14 @@
 				"txt_convey_desc_cnt_1":"Description of the service flow",
 				"txt_convey_desc_cnt_12":"The illustration supplements what cannot be conveyed by text.",
 				"txt_expression_title": "Expressions",
-				"txt_expression_desc_1": "In accordance with the Design Philosophy, ",
+				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>In accordance with the Design Philosophy, </a></u>",
 				"txt_expression_desc_2": "expressions that embody the brand image of PayPay are used",
 				"txt_expression_desc": [
 					{
 						"desc": "Motifs used in illustrations are simplified as much as possible."
 					},
 					{
-						"desc": "Only fill is used for coloring, using colors based on the color palette provided in Color."
+						"desc": "Only fill is used for coloring, using colors based on the <u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>color palette </a></u> provided in Color."
 					},
 					{
 						"desc": "Friendly expressions are used that are not overly inanimate."
@@ -5059,10 +5058,10 @@
                     {
                         "desc1": "LinkTextBlue",
                         "desc2": "View Details",
-                        "color":"#00B9F5",
-                        "iconcls":"colors_ac00B9F5",
-                        "iconcode":"#00B9F5",
-                        "iconclscolor":"ac00B9F5"
+                        "color":"#3895FF",
+                        "iconcls":"colors_ac3895FF",
+                        "iconcode":"#3895FF",
+                        "iconclscolor":"ac3895FF"
                     }
 				],
 				"typography_sect98_tableholder2": [
@@ -5558,7 +5557,7 @@
 			"header": {
 				"header_heading": "Header",
 				"header_sect1_title": "Usage",
-				"header_sect1_desc": "<div>A header is the display of a screen title, action item or navigation item.</div><div>A header provides a clear and concise description of the content displayed on the screen or the purpose of the action to be taken.</div><div>A header provides clarity on the hierarchy of the screens displayed, enabling easy access to higher layers.</div><div>Headers are displayed in accordance with the specifications of the OS.</div>",
+				"header_sect1_desc": "<li>A header is the display of a screen title, action item or navigation item.</li><li>A header provides a clear and concise description of the content displayed on the screen or the purpose of the action to be taken.</li><li>A header provides clarity on the hierarchy of the screens displayed, enabling easy access to higher layers.</li><li>Headers are displayed in accordance with the specifications of the OS.</li>",
 				"header_sect2_title": "Usage Example",
 				"header_sect2_images": [
 					{
@@ -6258,13 +6257,13 @@
 					"half_sheets_sect_images_tableholder": [
 						{
 							"name":"panel1",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_01.svg",
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
 								{"desc":"Error Icon"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
-								{"desc":"Refer to iconography for details."}
+								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
 
 							],
 							"half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -6272,7 +6271,7 @@
 						},
 						{
 							"name":"panel2",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_02.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"The title is displayed."},
@@ -6285,7 +6284,7 @@
 						},
 						{
 							"name":"panel3",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_03.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"Supplementary information that could not be fit into the title is displayed."},
@@ -6297,7 +6296,7 @@
 						},
 						{
 							"name":"panel4",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_04.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"Link text is displayed."},
@@ -6312,7 +6311,7 @@
 						},
 						{
 							"name":"panel5",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_05.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An action button is displayed."},
@@ -6325,8 +6324,8 @@
 						},
 						{
 							"name":"panel6",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-							"half_sheets_sect_images_colo1_title": "Half seat background",
+							"half_sheets_sect_images_colo1_icons": "num_06.svg",
+							"half_sheets_sect_images_colo1_title": "Half sheet background",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"This is the background of the half sheet."},
 								{"desc":"The height varies depending on the subject matter of the contents displayed."}
@@ -6336,7 +6335,7 @@
 						},
 						{
 							"name":"panel7",
-							"half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"half_sheets_sect_images_colo1_icons": "num_07.svg",
 							"half_sheets_sect_images_colo1_title": "Blur background",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"When displaying a half sheet, a black transparent background is applied as an overlay so that the contents beneath can be recognized."},
@@ -6367,33 +6366,33 @@
 							"half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"illustration_design_sect3_images_colo2_1":[
-								{"desc":["Hading 16","Text Align-Center","#242323"]}
+								{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Hading 16</a></u>","Text Align-Center","#242323"]}
 							]
 						},
 						{
 							"name":"panel3",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#242323"]}]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
 						},
 						{
 							"name":"panel4",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#3895FF"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
 							}]
 						},
 						{
 							"name":"panel5",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["Buttons"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
 							}]
 						},
 						{
 							"name":"panel6",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
-							"half_sheets_sect_images_colo1_title": "Half seat background",
+							"half_sheets_sect_images_colo1_title": "Half sheet background",
 							"illustration_design_sect3_images_colo2_1":[{"desc":["","#FFFFFF","TOP Right & Left Round : 20px/dp"]
 							}]
 						},
@@ -6409,7 +6408,7 @@
 				"halfsheet_sect15_holders":  [
 					{
 						"desc1": "Display one button (Recommended)",
-						"desc2": "Primary Button",
+						"desc2": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
 						"logo": "halfsheet_04_01.svg"
 					},
 					{
@@ -6436,8 +6435,8 @@
 				],
 				"halfsheets_integration_data": [
 					{"desc": "Tap feedback is displayed after the button is tapped."},
-					{"desc": " <span>Buttons</span> Refer it for more details"},
-					{"desc": "Reference: <span>Interaction</span>"}
+					{"desc": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u> Refer it for more details"},
+					{"desc": "Reference: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
 				]
 			},
 			"label": {
@@ -6509,7 +6508,7 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "It is recommended to use colors from the<span>Color palette</span>when representing a status.",
+						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
 						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_07.svg"
 					}
@@ -6519,13 +6518,17 @@
 						"name": "panel1",
 						"col1": "Regular",
 						"col2": [
-							{ "desc": ["Heading / Label 12", "Text Align-Center","#FFFFFF"]}
+							{ "desc": [
+								"<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", 
+								"Text Align-Center",
+								"#FFFFFF"
+								]}
 						]
 					}, {
 						"name": "panel2",
 						"col1": "Background color",
 						"col2": [
-							{ "desc": ["Use Color palette", "",""]}
+							{ "desc": ["<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>", "",""]}
 						]
 					}
 				],
@@ -6534,7 +6537,7 @@
 						"name": "panel1",
 						"col1": "Regular",
 						"col2": [
-							{ "desc": ["Heading / Label 12\n", "Text Align-Center","#FFFFFF"]}
+							{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", "Text Align-Center","#FFFFFF"]}
 						]
 					}, {
 						"name": "panel2",
