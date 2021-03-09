@@ -6517,8 +6517,8 @@
 						"col1": "Regular",
 						"col2": [
 							{ "desc": [
-								"<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", 
-								"Text Align-Center",
+								"<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>", 
+								"Text Align-Center<br>",
 								"#FFFFFF"
 								]}
 						]
