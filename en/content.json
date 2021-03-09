@@ -6528,22 +6528,16 @@
 					{
 						"name": "panel1",
 						"col1": "",
-						"col2": [
-						  { "desc": ["iOS/ Android", "", ""]}
-						]
+						"col2": "iOS/ Android"
 					},
 					{
 						"name": "panel2",
 						"col1": "Regular",
-						"col2": [
-							{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", "Text Align-Center","#FFFFFF"]}
-						]
+						"col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
 					}, {
 						"name": "panel3",
 						"col1": "Background color",
-						"col2": [
-							{ "desc": ["", "#FFB900",""]}
-						]
+						"col2": "#FFB900"
 					}
 				]
 			},
