@@ -5058,10 +5058,10 @@
                     {
                         "desc1": "LinkTextBlue",
                         "desc2": "View Details",
-                        "color":"#00B9F5",
-                        "iconcls":"colors_ac00B9F5",
-                        "iconcode":"#00B9F5",
-                        "iconclscolor":"ac00B9F5"
+                        "color":"#3895FF",
+                        "iconcls":"colors_ac3895FF",
+                        "iconcode":"#3895FF",
+                        "iconclscolor":"ac3895FF"
                     }
 				],
 				"typography_sect98_tableholder2": [
@@ -6506,7 +6506,7 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "It is recommended to use colors from the<span>Color palette</span>when representing a status.",
+						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
 						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_07.svg"
 					}

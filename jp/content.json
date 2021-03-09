@@ -5013,10 +5013,10 @@
           {
               "desc1": "LinkTextBlue",
               "desc2": "詳細をみる",
-              "color":"#00B9F5",
-              "iconcls":"colors_ac00B9F5",
-              "iconcode":"#00B9F5",
-              "iconclscolor":"ac00B9F5"
+              "color":"#3895FF",
+              "iconcls":"colors_ac3895FF",
+              "iconcode":"#3895FF",
+              "iconclscolor":"ac3895FF"
           }
 				],
 				"typography_sect98_tableholder2": [
@@ -6458,7 +6458,7 @@
         ],
         "label_data4": [
           {
-            "desc1": "ステータスを表す色は<span>Color palette</span>の色の利用を推奨します。",
+            "desc1": "ステータスを表す色は<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Color palette</a></u>の色の利用を推奨します。",
             "desc2": "特に「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
             "logo": "label_07.svg"
           }
