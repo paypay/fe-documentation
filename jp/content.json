@@ -6467,11 +6467,19 @@
           {
             "name": "panel1",
             "col1": "Regular",
-            "col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br> Text Align-Center<br> #FFFFFF"
+            "col2": [
+              { "desc": [
+                "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", 
+                "Text Align-Center",
+                "#FFFFFF"
+                ]}
+            ]
           }, {
             "name": "panel2",
             "col1": "Background color",
-            "col2": "<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>"
+            "col2": [
+              { "desc": ["<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>", "",""]}
+            ]
           }
         ],
         "label_data9": [
