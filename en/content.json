@@ -6506,7 +6506,7 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
+						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
 						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_07.svg"
 					}
@@ -6516,13 +6516,17 @@
 						"name": "panel1",
 						"col1": "Regular",
 						"col2": [
-							{ "desc": ["Heading / Label 12", "Text Align-Center","#FFFFFF"]}
+							{ "desc": [
+								"<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", 
+								"Text Align-Center",
+								"#FFFFFF"
+								]}
 						]
 					}, {
 						"name": "panel2",
 						"col1": "Background color",
 						"col2": [
-							{ "desc": ["Use Color palette", "",""]}
+							{ "desc": ["<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>", "",""]}
 						]
 					}
 				],
@@ -6531,7 +6535,7 @@
 						"name": "panel1",
 						"col1": "Regular",
 						"col2": [
-							{ "desc": ["Heading / Label 12\n", "Text Align-Center","#FFFFFF"]}
+							{ "desc": ["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u>", "Text Align-Center","#FFFFFF"]}
 						]
 					}, {
 						"name": "panel2",
