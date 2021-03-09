@@ -3506,204 +3506,203 @@
           "hex": "#FFFFFF"
         }],
         "colorCode2":[
-          [   [{
-            "name": "PayPay Red",
-            "hex": "#FF0033",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FA1919",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FC6600",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#FFB900",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#56D32A",
-            "color":"white"
-          },{
-            "name": "",
-            "hex": "#26BF7D",
-            "color":"white"
-          }
-          ],[
-            {
-              "name": "",
-              "hex": "#FD5C5C",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#FF954C",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#FFC733",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#79D957",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#52CC97",
-              "color":"white"
-            }
-          ],
-            [{
-              "name": "",
-              "hex": "#FFB2B2",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFBA8B",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFE39A",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#BCF1A9'",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#A1E5C8",
-              "color":"black"
-            }
-            ],
-            [{
-              "name": "",
-              "hex": "#FFE5E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFF0E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFF7E5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F7DF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#DFF7ED",
-              "color":"black"
-            }
-            ]],[
-            [{
-              "name": "",
-              "hex": "#00C2C2",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#00B8F5",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#006DD2",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#002970",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#7921A3",
-              "color":"white"
-            },{
-              "name": "",
-              "hex": "#F23099",
-              "color":"white"
-            }
-            ],[
-              {
-                "name": "",
-                "hex": "#41D9D9",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#33CDFF",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#3994E5",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#3994E5",
-                "color": "white"
-              },{
-                "name": "",
-                "hex": "#9047B2",
-                "color":"white"
-              },{
-                "name": "",
-                "hex": "#FF4CAD",
-                "color":"white"
-              }
-            ],
-            [{
-              "name": "",
-              "hex": "#8AE7E7",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#BAEEFF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#9ECEF8",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#8AABE5",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#D9B0EC",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFB4DD",
-              "color":"black"
-            }
-            ],
-            [{
-              "name": "",
-              "hex": "#DFF7F7",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F8FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5F3FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#E5EFFF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#F7E5FF",
-              "color":"black"
-            },{
-              "name": "",
-              "hex": "#FFE5F3",
-              "color":"black"
-            }
-            ]
-          ]
-
+					[   [{
+						"name": "PayPay Red",
+						"hex": "#FF0033",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FA1919",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FC6600",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#FFB900",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#56D32A",
+						"color":"#FFFFFF"
+					},{
+						"name": "",
+						"hex": "#26BF7D",
+						"color":"#FFFFFF"
+					}
+					],[
+						{
+							"name": "",
+							"hex": "#FD5C5C",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#FF954C",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#FFC733",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#79D957",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#52CC97",
+							"color":"#FFFFFF"
+						}
+					],
+						[{
+							"name": "",
+							"hex": "#FFB2B2",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFBA8B",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFE39A",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BCF1A9",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#A1E5C8",
+							"color":"#323232"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#FFE5E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFF0E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFF7E5",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F7DF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#DFF7ED",
+							"color":"#323232"
+						}
+						]],[
+						[{
+							"name": "",
+							"hex": "#00C2C2",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#00B9F5",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#3895FF",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#002970",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#7921A3",
+							"color":"#FFFFFF"
+						},{
+							"name": "",
+							"hex": "#F23099",
+							"color":"#FFFFFF"
+						}
+						],[
+							{
+								"name": "",
+								"hex": "#41D9D9",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#33CDFF",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#4DA0FF",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#2455AA",
+								"color": "#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#9047B2",
+								"color":"#FFFFFF"
+							},{
+								"name": "",
+								"hex": "#FF4CAD",
+								"color":"#FFFFFF"
+							}
+						],
+						[{
+							"name": "",
+							"hex": "#8AE7E7",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BAEEFF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BADAFF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#BBCFF2",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#D9B0EC",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFB4DD",
+							"color":"#323232"
+						}
+						],
+						[{
+							"name": "",
+							"hex": "#DFF7F7",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F8FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#E5F1FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#DDEAFE",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#F7E5FF",
+							"color":"#323232"
+						},{
+							"name": "",
+							"hex": "#FFE5F3",
+							"color":"#323232"
+						}
+						]
+					]
         ],
         "colorCode3": [
           [{
@@ -3853,14 +3852,14 @@
 				"txt_convey_desc_cnt_1":"サービスの利用手順の説明",
 				"txt_convey_desc_cnt_12":"文字だけでは説明しきれない部分をイラストでサポート",
 				"txt_expression_title": "表現",
-				"txt_expression_desc_1": "Design Philosophy",
+				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>Design Philosophy</a></u>",
 				"txt_expression_desc_2": "に準拠し、PayPayのブランドイメージを体現する表現を用います。",
 				"txt_expression_desc": [
 					{
 						"desc": "イラスト表現に用いるモチーフは極力簡略化しシンプルに構成する"
 					},
 					{
-						"desc": "カラーは塗り表現のみを用い、Color項目のカラーパレットの色を参考に構成する"
+						"desc": "カラーは塗り表現のみを用い、<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color</a></u>項目のカラーパレットの色を参考に構成する"
 					},
 					{
 						"desc": "無機質すぎない親しみやすい表現を用いる"
@@ -3957,7 +3956,7 @@
 					},
 					{
 						"name": "Android",
-						"desc": "OSのRipple効果に準拠します"
+						"desc": "OSの<u><a style='color:#3895FF'>Ripple効果</a></u>に準拠します"
 					}
 				],
 				"title_noticeofresults": "Notice of Results",
@@ -3969,7 +3968,7 @@
 						"desc": "結果を提示することで、ユーザーは自身のアクションの成功/失敗を知ることができます。"
 					}
 				],
-				"txt_noticeofresults": "フィードバックを表示するコンポーネントはToastの項目を参照ください。",
+				"txt_noticeofresults": "フィードバックを表示するコンポーネントは<u><a href='/app-styleguide/component/toast' target='_blank' style='color:#3895FF'>Toast</a></u>の項目を参照ください。",
 				"title_tap": "Tap",
 				"tap_desc": [
 					{
@@ -5014,10 +5013,10 @@
           {
               "desc1": "LinkTextBlue",
               "desc2": "詳細をみる",
-              "color":"#00B9F5",
-              "iconcls":"colors_ac00B9F5",
-              "iconcode":"#00B9F5",
-              "iconclscolor":"ac00B9F5"
+              "color":"#3895FF",
+              "iconcls":"colors_ac3895FF",
+              "iconcode":"#3895FF",
+              "iconclscolor":"ac3895FF"
           }
 				],
 				"typography_sect98_tableholder2": [
@@ -5513,7 +5512,7 @@
       "header": {
 				"header_heading": "Header",
 				"header_sect1_title": "Usage",
-				"header_sect1_desc": "<div>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</div><div>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</div><div>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</div><div>HeaderはOSの表示仕様に準拠します</div>",
+				"header_sect1_desc": "<li>画面のタイトルやアクションアイテム、ナビゲーションアイテムを表示します</li><li>画面上に表示されるコンテンツの内容やこれから行うアクションの目的を簡潔にわかりやすく表示します</li><li>表示されている画面の階層を明らかにし、簡単に上位階層の画面へ移動できるようにします</li><li>HeaderはOSの表示仕様に準拠します</li>",
 				"header_sect2_title": "Usage Example",
 				"header_sect2_images": [
 					{
@@ -6212,13 +6211,13 @@
           "half_sheets_sect_images_tableholder": [
             {
               "name":"panel1",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_01.svg",
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
                 {"desc":"エラーアイコン"},
                 {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
-                {"desc":"詳細はアイコンの項目をご確認ください"}
+                {"desc":"詳細は<u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>アイコンの項目</a></u>をご確認ください"}
 
               ],
               "half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -6226,7 +6225,7 @@
             },
             {
               "name":"panel2",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_02.svg",
               "half_sheets_sect_images_colo1_title": "Title",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルを表示します"},
@@ -6239,7 +6238,7 @@
             },
             {
               "name":"panel3",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_03.svg",
               "half_sheets_sect_images_colo1_title": "Description(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"タイトルでは伝えきれない補足情報を表示します"},
@@ -6251,7 +6250,7 @@
             },
             {
               "name":"panel4",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_04.svg",
               "half_sheets_sect_images_colo1_title": "Links(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"リンクテキストを表示します"},
@@ -6266,7 +6265,7 @@
             },
             {
               "name":"panel5",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_05.svg",
               "half_sheets_sect_images_colo1_title": "Buttons",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"アクションボタンを表示します"},
@@ -6279,8 +6278,8 @@
             },
             {
               "name":"panel6",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
-              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "half_sheets_sect_images_colo1_icons": "num_06.svg",
+              "half_sheets_sect_images_colo1_title": "Half sheet background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの背景です"},
                 {"desc":"高さは表示コンテンツの内容によって変化します"}
@@ -6290,7 +6289,7 @@
             },
             {
               "name":"panel7",
-              "half_sheets_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+              "half_sheets_sect_images_colo1_icons": "num_07.svg",
               "half_sheets_sect_images_colo1_title": "Blur background",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートの表示時は、黒の透過背景（オーバーレイ）を表示し、下層のコンテンツを認識できるようにします"},
@@ -6321,33 +6320,33 @@
               "half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
               "half_sheets_sect_images_colo1_title": "Title",
               "illustration_design_sect3_images_colo2_1":[
-                {"desc":["Hading 16","Text Align-Center","#242323"]}
+                {"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Hading 16</a></u>","Text Align-Center","#242323"]}
               ]
             },
             {
               "name":"panel3",
               "half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
               "half_sheets_sect_images_colo1_title": "Description(Option)",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#242323"]}]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
             },
             {
               "name":"panel4",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
               "half_sheets_sect_images_colo1_title": "Links(Option)",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Label 14 Regular","Text Align-Center","#3895FF"]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
               }]
             },
             {
               "name":"panel5",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
               "half_sheets_sect_images_colo1_title": "Buttons",
-              "illustration_design_sect3_images_colo2_1":[{"desc":["Buttons"]
+              "illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
               }]
             },
             {
               "name":"panel6",
               "half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
-              "half_sheets_sect_images_colo1_title": "Half seat background",
+              "half_sheets_sect_images_colo1_title": "Half sheet background",
               "illustration_design_sect3_images_colo2_1":[{"desc":["","#FFFFFF","TOP Right & Left Round : 20px/dp"]
               }]
             },
@@ -6363,7 +6362,7 @@
         "halfsheet_sect15_holders":  [
           {
             "desc1": "ボタンを1つ表示(推奨)",
-            "desc2": "Primary Button",
+            "desc2": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
             "logo": "halfsheet_04_01.svg"
           },
           {
@@ -6390,8 +6389,8 @@
         ],
         "halfsheets_integration_data": [
           {"desc": "ボタンアクション時にタップフィードバックを表示します。"},
-          {"desc": " <span>Buttons</span> を参照してください。"},
-          {"desc": "参考: <span>Interaction</span>"}
+          {"desc": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>を参照してください。"},
+          {"desc": "参考: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
         ]
       },
       "label": {
@@ -6463,7 +6462,7 @@
         ],
         "label_data4": [
           {
-            "desc1": "ステータスを表す色は<span>Color palette</span>の色の利用を推奨します。",
+            "desc1": "ステータスを表す色は<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color palette</a></u>の色の利用を推奨します。",
             "desc2": "特に「完了」や「エラー」を表す場合は、Functional Colorのカラーパレットを参照してください。",
             "logo": "label_07.svg"
           }
@@ -6472,30 +6471,27 @@
           {
             "name": "panel1",
             "col1": "Regular",
-            "col2": [
-              { "desc": ["Heading / Label 12", "Text Align-Center","#FFFFFF"]}
-            ]
+            "col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
           }, {
             "name": "panel2",
             "col1": "Background color",
-            "col2": [
-              { "desc": ["Use Color palette", "",""]}
-            ]
+            "col2": "<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>"
           }
         ],
         "label_data9": [
           {
             "name": "panel1",
-            "col1": "Regular",
-            "col2": [
-              { "desc": ["Heading / Label 12\n", "Text Align-Center","#FFFFFF"]}
-            ]
-          }, {
+            "col1": "",
+            "col2": "iOS/ Android"
+          },
+          {
             "name": "panel2",
+            "col1": "Regular",
+            "col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
+          }, {
+            "name": "panel3",
             "col1": "Background color",
-            "col2": [
-              { "desc": ["", "#FFB900",""]}
-            ]
+            "col2": "#FFB900"
           }
         ]
       },
