@@ -4251,7 +4251,7 @@
 				"igrphy_sect5_title": "Color",
 				"igrphy_sect5_subtitle": "Service Icon",
 				"igrphy_sect5_description": "Select a color from the color palette below.",
-				"igrphy_sect5_mccolortitle": "Mail Color",
+				"igrphy_sect5_mccolortitle": "Main Color",
 				"igrphy_sect5_mccolordesc": "Navy blue is used as the common main color.",
 				"igrphy_sect5_accolortitle": "Accent Color",
 				"igrphy_sect5_accolordesc": "Accent colors are used to part of the motif. One of the four colors on the left that matches the service image is used.",
@@ -4333,7 +4333,7 @@
 				  "Regardless of platform or environment, creating designs that follow the defined rules ensure consistency across all environments."
 				],
 				"layout_sect2_title": "Usage",
-				"layout_sect2_subtitle": "Merging Rule",
+				"layout_sect2_subtitle": "Margin Rule",
 				"layout_sect2_description": "As a general rule, px/dps that are multiples of four are used for margins within the screen.",
 				"layout_sect2_hints": "Exceptions are permitted for components comprising a complex combination of small parts.",
 				"layout_sect3_title": "Responsive Layout",
@@ -5426,7 +5426,7 @@
 					}, {
 						"name": "panel3",
 						"icons": "form_sect3_no3.svg", 
-						"desc": "Message area"
+						"desc": "Message Area"
 					}, {
 						"name": "panel4",
 						"icons": "form_sect3_no4.svg", 
