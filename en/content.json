@@ -5438,7 +5438,7 @@
 					}
 				],
 				"form_sect5_title": "Title (Option)",
-				"form_sect5_description": "<div>Indicates the information that is to be input.</div>div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
+				"form_sect5_description": "<div>Indicates the information that is to be input.</div><div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
 				"form_sect6_title1": "Text Field",
