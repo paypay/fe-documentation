@@ -3337,11 +3337,6 @@
 					"iconurl": "components_icn_09.svg",
 					"icondesc": "List"
 				}, {
-					"name": "loadinganimation",
-					"iconcls": "dshomesec5_comp_icons",
-					"iconurl": "components_icn_10.svg",
-					"icondesc": "Loading animation"
-				}, {
 					"name": "pagecontrols",
 					"iconcls": "dshomesec5_comp_icons",
 					"iconurl": "components_icn_11.svg",
