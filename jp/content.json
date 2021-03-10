@@ -5222,15 +5222,6 @@
 						]
 					}, {
 						"name": "panel2",
-						"balloon_sect10_col1": "Animation Allow",
-						"balloon_sect10_col2": [
-							"<b>Primary</b>",
-							"TBD",
-							"<b>Secondary</b>",
-							"<u><a href='https://lottiefiles.com/share/WcmClO' target='_blank'>https://lottiefiles.com/share/WcmClO</a></u>"
-						]
-					}, {
-						"name": "panel3",
 						"balloon_sect10_col1": "Background",
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
