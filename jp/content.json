@@ -5221,15 +5221,6 @@
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
 						]
 					}, {
-						"name": "panel2",
-						"balloon_sect10_col1": "Animation Allow",
-						"balloon_sect10_col2": [
-							"<b>Primary</b>",
-							"TBD",
-							"<b>Secondary</b>",
-							"<u><a href='https://lottiefiles.com/share/WcmClO' target='_blank'>https://lottiefiles.com/share/WcmClO</a></u>"
-						]
-					}, {
 						"name": "panel3",
 						"balloon_sect10_col1": "Background",
 						"balloon_sect10_col2": [
@@ -5687,7 +5678,7 @@
 					}, {
 						"name": "panel2",
 						"icons": "pagecontrols_sect3_images2.svg",
-						"hint": "ラベル内でテキストを改行することは禁止とします"
+						"hint": "テキストコンテンツの可読性を阻害することは禁止します"
 					}
 				],
 				"pagecontrols_sect4_title": "Spec",
