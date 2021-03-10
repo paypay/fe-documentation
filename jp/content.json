@@ -6206,7 +6206,7 @@
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
-                {"desc":"エラーアイコン"},
+                {"desc":"<span style='color:#242323'>エラーアイコン</span>"},
                 {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
                 {"desc":"詳細は<u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>アイコンの項目</a></u>をご確認ください"}
 
