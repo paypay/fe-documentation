@@ -4296,7 +4296,7 @@
         "layout_sect3_title": "Responsive Layout",
         "layout_sect3_description": [
           "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-          "次に定義す <a href='/app-styleguide/globalrule/layout' target='_blank'>るブレイクポイントによって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+          "次に定義する<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a>によって、 スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a> は1点だけとします。"
         ],
         "layout_sect4_title": "Margin",
         "layout_sect4_description": "大きく2種類の余白を定義します。",
