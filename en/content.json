@@ -3380,11 +3380,6 @@
 					"iconurl": "components_icn_09.svg",
 					"icondesc": "List"
 				}, {
-					"name": "loadinganimation",
-					"iconcls": "dshomesec5_comp_icons",
-					"iconurl": "components_icn_10.svg",
-					"icondesc": "Loading animation"
-				}, {
 					"name": "pagecontrols",
 					"iconcls": "dshomesec5_comp_icons",
 					"iconurl": "components_icn_11.svg",
@@ -5266,7 +5261,7 @@
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
 						]
 					}, {
-						"name": "panel3",
+						"name": "panel2",
 						"balloon_sect10_col1": "Background", 
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
@@ -5429,7 +5424,7 @@
 					}
 				],
 				"form_sect5_title": "Title (Option)",
-				"form_sect5_description": "<div>Indicates the information that is to be input.</div>div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
+				"form_sect5_description": "<div>Indicates the information that is to be input.</div><div>As a principle, the text must be concise so that the user can provide an appropriate response.</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
 				"form_sect6_title1": "Text Field",
@@ -6252,7 +6247,7 @@
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
-								{"desc":"Error Icon"},
+								{"desc":"<span style='color:#242323;text-decoration: none;'>Error Icon</span>"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
 								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
 

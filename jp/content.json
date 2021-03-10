@@ -3337,11 +3337,6 @@
 					"iconurl": "components_icn_09.svg",
 					"icondesc": "List"
 				}, {
-					"name": "loadinganimation",
-					"iconcls": "dshomesec5_comp_icons",
-					"iconurl": "components_icn_10.svg",
-					"icondesc": "Loading animation"
-				}, {
 					"name": "pagecontrols",
 					"iconcls": "dshomesec5_comp_icons",
 					"iconurl": "components_icn_11.svg",
@@ -4296,7 +4291,7 @@
         "layout_sect3_title": "Responsive Layout",
         "layout_sect3_description": [
           "特に、スマートフォンWeb/App、タブレット、デスクトップで共通で表示するWebコンテンツを作成する場合は、どのような環境で表示されてもユーザビリティを損ねないレイアウトを用意する必要があります。",
-          "次に定義す <a href='/app-styleguide/globalrule/layout' target='_blank'>るブレイクポイントによって、</a> スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a> は1点だけとします。"
+          "次に定義する<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a>によって、 スマートフォン/デスクトップでのレイアウトを切り替えます。タブレットはスマートフォンの延長であると考え、<a href='/app-styleguide/globalrule/layout' target='_blank'>ブレイクポイント</a> は1点だけとします。"
         ],
         "layout_sect4_title": "Margin",
         "layout_sect4_description": "大きく2種類の余白を定義します。",
@@ -5028,7 +5023,7 @@
 						"name": "panel2",
 						"col1": "24~",
 						"col2": "価格に対し「円」は1/2のサイズを用います",
-            "col21": "例）価格が72pxのとき、「円」は36pxを用います"
+            "col21": "例：<br>価格が72pxのとき、「円」は36pxを用います"
 					},
 					{
 						"name": "panel3",
@@ -5145,7 +5140,7 @@
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_rowers1.png",
+						"icons": "balloon_sect6_rowers1.svg",
 						"balloon_sect6_title": "Primary Color",
 						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
 					}, {
@@ -5221,7 +5216,7 @@
 							"Pressed( iOS ) :  #00B9F5, Alpha 0.7"
 						]
 					}, {
-						"name": "panel3",
+						"name": "panel2",
 						"balloon_sect10_col1": "Background",
 						"balloon_sect10_col2": [
 							"<b>Primary</b>",
@@ -5384,7 +5379,7 @@
 					}
 				],
 				"form_sect5_title": "Title (Option)",
-				"form_sect5_description": "<div>入力するべき項目を表示します。</div>div>ユーザーが適切な回答を入力できるよう、簡潔なテキストを原則とします。</div>",
+				"form_sect5_description": "<div>入力するべき項目を表示します。</div><div>ユーザーが適切な回答を入力できるよう、簡潔なテキストを原則とします。</div>",
 				"form_sect5_icons": "Tform_sect3_no1.svg",
 
 				"form_sect6_title1": "Text Field",
@@ -5445,7 +5440,7 @@
 							}, {
 								"icons": "form_sect8_child_icons2.svg",
 								"images": "form_sect8_child_images2.svg",
-								"hint": "不可視状態"
+								"hint": "可視状態"
 							}
 						]
 
@@ -5469,10 +5464,10 @@
 				"form_sect10_tblholder": [
 					{
 						"images": "form_sect10_images1.svg",
-						"hint": "<div>Empty時にText Fieldをタップするとキーボードが表示され、</div><div>Text FieldがEditable表示に切り替わる。キーボードの表示アニメーションは端末の仕様に準拠</div>"
+						"hint": "<div>Empty時にText Fieldをタップ</div><div>キーボードが表示され、TextFieldがEditable表示に切り替わる</div><div>キーボードの表示アニメーションは端末の仕様に準拠</div>"
 					}, {
 						"images": "form_sect10_images2.svg",
-						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて下に広がる</div>"
+						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて</div><div>下に広がる</div>"
 					}
 				],
 
@@ -6206,7 +6201,7 @@
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
-                {"desc":"エラーアイコン"},
+                {"desc":"<span style='color:#242323;text-decoration: none;'>エラーアイコン</span>"},
                 {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
                 {"desc":"詳細は<u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>アイコンの項目</a></u>をご確認ください"}
 
