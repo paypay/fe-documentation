@@ -5454,7 +5454,7 @@
 							}, {
 								"icons": "form_sect8_child_icons2.svg",
 								"images": "form_sect8_child_images2.svg",
-								"hint": "不可視状態"
+								"hint": "可視状態"
 							}
 						]
 
