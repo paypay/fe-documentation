@@ -5478,10 +5478,10 @@
 				"form_sect10_tblholder": [
 					{
 						"images": "form_sect10_images1.svg",
-						"hint": "<div>Empty時にText Fieldをタップ</div><br><div>キーボードが表示され、TextFieldがEditable表示に切り替わる</div><br><div>キーボードの表示アニメーションは端末の仕様に準拠</div>"
+						"hint": "<div>Empty時にText Fieldをタップ</div><div>キーボードが表示され、TextFieldがEditable表示に切り替わる</div><div>キーボードの表示アニメーションは端末の仕様に準拠</div>"
 					}, {
 						"images": "form_sect10_images2.svg",
-						"hint": "<div>入力エリアの高さ可変あり</div><br><div>長い文字列を入力する場合、Text Fieldが文量に合わせて</div><br><div>下に広がる</div>"
+						"hint": "<div>入力エリアの高さ可変あり</div><div>長い文字列を入力する場合、Text Fieldが文量に合わせて</div><div>下に広がる</div>"
 					}
 				],
 
