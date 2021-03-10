@@ -5190,7 +5190,7 @@
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_rowers1.svg", 
+						"icons": "balloon_sect6_rowers1.png",
 						"balloon_sect6_title": "Primary Color",
 						"balloon_sect6_subtitle":"Used to promote a new feature off-screen, etc."
 					}, {
