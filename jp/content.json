@@ -6693,16 +6693,16 @@
               },
               {
                 "name": "panel1",
-                "tab_data5_colo1_title": "Under line",
+                "tab_data5_colo1_title": "Label background",
                 "tab_data5_colo2": [
-                  { "desc": ["", "","Active", "2px", "#00B9F5"]}
+                  { "desc": ["Selected", "","", "", "#3895FF"]}
                 ]
               },
               {
                 "name": "panel2",
                 "tab_data5_colo1_title": "Background",
                 "tab_data5_colo2": [
-                  { "desc": ["", "", "#FFFFFF"] }
+                  { "desc": ["", "", "#F7F7F7"] }
                 ]
               }
             ]
