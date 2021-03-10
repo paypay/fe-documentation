@@ -5028,7 +5028,7 @@
 						"name": "panel2",
 						"col1": "24~",
 						"col2": "価格に対し「円」は1/2のサイズを用います",
-            "col21": "例）価格が72pxのとき、「円」は36pxを用います"
+            "col21": "例：<br>価格が72pxのとき、「円」は36pxを用います"
 					},
 					{
 						"name": "panel3",
@@ -5145,7 +5145,7 @@
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_rowers1.png",
+						"icons": "balloon_sect6_rowers1.svg",
 						"balloon_sect6_title": "Primary Color",
 						"balloon_sect6_subtitle":"画面外の新機能を訴求する場合など"
 					}, {
