@@ -6473,12 +6473,12 @@
 					"label_sect_images_tableholder": [
 						{
 							"name":"panel1",
-							"label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"label_sect_images_colo1_icons": "num_01.svg",
 							"label_sect_images_colo1_title": "Status Label"
 						},
 						{
 							"name":"panel2",
-							"label_sect_images_colo1_icons": "halfSheets_redcircle.svg",
+							"label_sect_images_colo1_icons": "num_02.svg",
 							"label_sect_images_colo1_title": "New Label"
 						}
 					]
@@ -6492,7 +6492,7 @@
 					{
 						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
 						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
-						"logo": "label_07.svg"
+						"logo": "label_04.svg"
 					}
 				],
 				"label_data8": [
@@ -7619,23 +7619,23 @@
 					}, {
 						"name": "panel3",
 						"col1": " Title",
-						"col2": "<div>Body 16 Regular</div><div>Text Align-Left</div><div>#242323</div>"
+						"col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 16 Regular</a></div><div>Text Align-Left</div><div>#242323</div>"
 					}, {
 						"name": "panel4",
 						"col1": " Description",
-						"col2": "<div>Body 16 Regular</div><div>Text Align-Left</div><div>#606060</div>"
+						"col2": "<div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 16 Regular</a></div><div>Text Align-Left</div><div>#606060</div>"
 					}, {
 						"name": "panel5",
 						"col1": "Action Item",
-						"col2": "<div><b>Icon</b></div><div>24*24px/dp</div><div><br/></div><div><b>Text-Label</b></div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#606060</div>"
+						"col2": "<div><b>Icon</b></div><div>24*24px/dp</div><div><br/></div><div><b>Text-Label</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14 Regular</a></div><div>Text Align-Right</div><div>#606060</div>"
 					}, {
 						"name": "panel6",
 						"col1": "Action Item - Edit List",
-						"col2": "<div><b>Text-Empty</b></div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#BABABA</div><div><br/></div><div>Text-Filled</div><div>Body 14 Regular</div><div>Text Align-Right</div><div>#242323</div>"
+						"col2": "<div><b>Text-Empty</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14 Regular</a></div><div>Text Align-Right</div><div>#BABABA</div><div><br/></div><div>Text-Filled</div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 14 Regular</a></div><div>Text Align-Right</div><div>#242323</div>"
 					}, {
 						"name": "panel7",
 						"col1": "Error text - Edit List",
-						"col2": "<div><b>Text-Error</b></div><div>Body 12 Regular</div><div>Text Align-Left</div><div>#FD5C5C</div>"
+						"col2": "<div><b>Text-Error</b></div><div><a href='/app-styleguide/globalrule/typography' target='_blank'>Body 12 Regular</a></div><div>Text Align-Left</div><div>#FD5C5C</div>"
 					}, {
 						"name": "panel8",
 						"col1": "Margin",
