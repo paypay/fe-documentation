@@ -5967,10 +5967,6 @@
         "sticky_button_table":  [
           {
             "name": "panel1",
-            "col1": "Background Color",
-            "col2": "#FFFFFF"
-          }, {
-            "name": "panel2",
             "col1": "Shadow",
             "col2": "背景上部にShadowを付与 <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
           }
