@@ -6946,8 +6946,8 @@
                 "name": "panel1",
                 "selectnControlData7_colo1_title": "background Color",
                 "selectnControlData7_colo2": [
-                  { "desc": ["Selected", "", "Default:#3895FF","Pressed(iOS):#3286E5"] },
-                  { "desc": ["Not Selected", "", "Default:#FFFFFF","Pressed(iOS):#F2F2F2","Stroke:#BABABA,1px/dp","inside"] }
+                  { "desc": ["Selected", "", "Default:#3895FF","Pressed(iOS): #3286E5"] },
+                  { "desc": ["Not Selected", "", "Default: #FFFFFF","Pressed(iOS): #F2F2F2","Stroke: #BABABA,1px/dp","inside"] }
                 ]
               },
               {
