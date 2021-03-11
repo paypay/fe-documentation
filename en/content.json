@@ -5185,7 +5185,7 @@
 				"balloon_sect6_rowers": [
 					{
 						"name": "no1",
-						"icons": "balloon_sect6_rowers1.png",
+						"icons": "balloon_sect6_rowers1.svg",
 						"balloon_sect6_title": "Primary Color",
 						"balloon_sect6_subtitle":"Used to promote a new feature off-screen, etc."
 					}, {
@@ -7154,17 +7154,17 @@
 										"desc": [
 											"Selected",
 											"",
-											"Default:#3895FF",
-											"Pressed(iOS):#3286E5"
+											"Default: #3895FF",
+											"Pressed(iOS): #3286E5"
 										]
 									},
 									{
 										"desc": [
 											"Not Selected",
 											"",
-											"Default:#FFFFFF",
-											"Pressed(iOS):#F2F2F2",
-											"Stroke:#BABABA,1px/dp",
+											"Default: #FFFFFF",
+											"Pressed(iOS): #F2F2F2",
+											"Stroke: #BABABA,1px/dp",
 											"inside"
 										]
 									}
