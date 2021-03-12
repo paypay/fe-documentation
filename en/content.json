@@ -4202,12 +4202,12 @@
 								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an additional action."
 							}, {
 								"name":"panel3",
-								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no4.svg",
+								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no3.svg",
 								"igrphy_sect3_images_colo1_title": "Invalid / 無効",
 								"igrphy_sect3_images_colo2": "Displayed when confirming or executing an invalid action."
 							}, {
 								"name":"panel4",
-								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no3.svg",
+								"igrphy_sect3_images_colo1_icons": "igrphy_sect2_no4.svg",
 								"igrphy_sect3_images_colo1_title": "Delete / 削除",
 								"igrphy_sect3_images_colo2": "Displayed when confirming or executing a delete action."
 							}, {
