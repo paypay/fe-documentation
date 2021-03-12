@@ -5318,12 +5318,12 @@
 						"name": "no1",
 						"icons": "card_sect3_no1.svg", 
 						"card_sect3_col1": "Contents Area",
-						"card_sect3_col2":"When displaying content in a card, place sufficient margins around the content for readability. A card is an affordance for taps or swipe interactions, but the display of text links and icons are recommended to prompt actions more explicitly."
+						"card_sect3_col2":"<div>When displaying content in a card, place sufficient margins around the content for readability. A card is an affordance for taps or swipe interactions, but the display of text links and icons are recommended to prompt actions more explicitly.</div>"
 					}, {
 						"name": "no2",
 						"icons": "card_sect3_no2.svg", 
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> behind the card are displayed in accordance with the shadow guidelines providing for shadow elements such as layers, lighting, and shades."
+						"card_sect3_col2":"<div><a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> behind the card are displayed in accordance with the shadow guidelines providing for shadow elements such as layers, lighting, and shades.</div>"
 					}
 				],
 				"card_sect4_title": "Do / Don't",
