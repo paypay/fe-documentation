@@ -5627,11 +5627,11 @@
 					{
 						"name": "panel1",
 						"hint": "The title is contained in one line.",
-						"images": "header_sect8_images1.svg"
+						"images": "header_sect8_images1.png"
 					}, {
 						"name": "panel2",
 						"hint": "The title is truncated.",
-						"images": "header_sect8_images2.svg"
+						"images": "header_sect8_images2.png"
 					}
 				],				
 				
