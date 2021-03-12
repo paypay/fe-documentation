@@ -6243,7 +6243,7 @@
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
-								{"desc":"<span style='color:#242323;text-decoration: none;'>Error Icon</span>"},
+								{"desc":"<span style='color:#242323;text-decoration: none !important;'>Error Icon</span>"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
 								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
 
