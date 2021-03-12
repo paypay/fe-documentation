@@ -5278,7 +5278,7 @@
 						"name": "no2",
 						"icons": "card_sect3_no2.svg",
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<div><a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。</div>"
+						"card_sect3_col2":"<div><a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a>の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。</div>"
 					}
 				],
 				"card_sect4_title": "Do / Don't",
