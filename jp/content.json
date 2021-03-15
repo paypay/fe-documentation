@@ -5273,12 +5273,12 @@
 						"name": "no1",
 						"icons": "card_sect3_no1.svg",
 						"card_sect3_col1": "Contents Area",
-						"card_sect3_col2":"Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。"
+						"card_sect3_col2":"<div>Card内にコンテンツを表示する場合は、コンテンツの周囲に十分な余白を設け、可読性を担保します。カードはタップ、スワイプするインタラクションをアフォードしますが、よりアクションを明示的にするためにテキストリンクやアイコンの表示を推奨します。</div>"
 					}, {
 						"name": "no2",
 						"icons": "card_sect3_no2.svg",
 						"card_sect3_col1": "Background",
-						"card_sect3_col2":"<a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a> の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。"
+						"card_sect3_col2":"<div><a href='/app-styleguide/globalrule/shadow' target='_blank'>Shadow</a>の項目の階層構造、光源、陰影のガイドラインに準拠し、カードの背景にシャドウを表示します。</div>"
 					}
 				],
 				"card_sect4_title": "Do / Don't",
@@ -5582,11 +5582,11 @@
 					{
 						"name": "panel1",
 						"hint": "タイトルが1行に収まっている",
-						"images": "header_sect8_images1.svg"
+						"images": "header_sect8_images1.png"
 					}, {
 						"name": "panel2",
 						"hint": "タイトルが省略されている",
-						"images": "header_sect8_images2.svg"
+						"images": "header_sect8_images2.png"
 					}
 				],
 
@@ -6197,7 +6197,7 @@
               "half_sheets_sect_images_colo1_title": "Image(Option)",
               "halfsheet_sect3_images_colo2": [
                 {"desc":"ハーフシートに表示されている内容をよりわかりやすく伝えるため、イメージを配置します"},
-                {"desc":"<span style='color:#242323;text-decoration: none;'>エラーアイコン</span>"},
+                {"desc":"<span style='color:#242323;text-decoration: none !important;'>エラーアイコン</span>"},
                 {"desc":"エラーやアラートを表示する場合は、共通のエラーアイコンや機能独自のエラーアイコンを表示します"},
                 {"desc":"詳細は<u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>アイコンの項目</a></u>をご確認ください"}
 
