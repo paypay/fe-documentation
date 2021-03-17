@@ -3485,7 +3485,7 @@
 					"logo": "usage_pending.svg"
 					},{
 					"name": "Information",
-					"logo": "usage_info.png"
+					"logo": "usage_info.svg"
 				}],
 				"graUsageExample": [{
 				  "name": "UI Background",
@@ -5627,11 +5627,11 @@
 					{
 						"name": "panel1",
 						"hint": "The title is contained in one line.",
-						"images": "header_sect8_images1.png"
+						"images": "header_sect8_images1.svg"
 					}, {
 						"name": "panel2",
 						"hint": "The title is truncated.",
-						"images": "header_sect8_images2.png"
+						"images": "header_sect8_images2.svg"
 					}
 				],				
 				
@@ -6243,7 +6243,7 @@
 							"half_sheets_sect_images_colo1_title": "Image(Option)",
 							"halfsheet_sect3_images_colo2": [
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
-								{"desc":"<div style='color:#242323;text-decoration: none !important;'>Error Icon</div>"},
+								{"desc":"<div><span>Error Icon</span></div>"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
 								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
 
