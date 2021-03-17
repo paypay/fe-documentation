@@ -4096,7 +4096,7 @@
 					"logo": "flick_img1.png"
 				},{
 					"desc":"Display page controls.",
-					"logo": "flick_img2.svg"
+					"logo": "flick_img2.png"
 				}],
 				"drag_slide_desc":[{
 					"desc":"Components that encourage the drag gesture.",
@@ -6011,6 +6011,11 @@
 				"sticky_button_table":  [
 					{
 						"name": "panel1",
+						"col1": "Background Color",
+						"col2": "#FFFFFF"
+					},
+					{
+						"name": "panel2",
 						"col1": "Shadow",
 						"col2": "Add a shadow to the top part of the background <br> Shadow : <u><a href='/app-styleguide/globalrule/shadow' target='_blank'>-90° Low-Shadow</a></u>"
 					}
