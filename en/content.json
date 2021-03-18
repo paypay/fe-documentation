@@ -3890,14 +3890,14 @@
 				"txt_convey_desc_cnt_1":"Description of the service flow",
 				"txt_convey_desc_cnt_12":"The illustration supplements what cannot be conveyed by text.",
 				"txt_expression_title": "Expressions",
-				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>In accordance with the Design Philosophy, </a></u>",
+				"txt_expression_desc_1": "<u><a href='/app-styleguide/globalrule/philosophy' target='_blank'>In accordance with the Design Philosophy, </a></u>",
 				"txt_expression_desc_2": "expressions that embody the brand image of PayPay are used",
 				"txt_expression_desc": [
 					{
 						"desc": "Motifs used in illustrations are simplified as much as possible."
 					},
 					{
-						"desc": "Only fill is used for coloring, using colors based on the <u><a href='/app-styleguide/globalrule/philosophy' target='_blank' style='color:#3895FF'>color palette </a></u> provided in Color."
+						"desc": "Only fill is used for coloring, using colors based on the <u><a href='/app-styleguide/globalrule/philosophy' target='_blank'>color palette </a></u> provided in Color."
 					},
 					{
 						"desc": "Friendly expressions are used that are not overly inanimate."
@@ -6250,7 +6250,7 @@
 								{"desc":"An image is placed to clearly convey the subject matter displayed in the half sheet."},
 								{"desc":"<div><span>Error Icon</span></div>"},
 								{"desc":"When displaying an error or alert, a common error icon or feature-specific error icon is displayed."},
-								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank' style='color:#3895FF'>iconography</a></u> for details."}
+								{"desc":"Refer to <u><a href='/app-styleguide/globalrule/icongraphy' target='_blank'>iconography</a></u> for details."}
 
 							],
 							"half_sheets_sect_images1":"halfsheet_03_01.svg",
@@ -6353,27 +6353,27 @@
 							"half_sheets_sect_images_colo1_icons": "buttons_03_2.svg",
 							"half_sheets_sect_images_colo1_title": "Title",
 							"illustration_design_sect3_images_colo2_1":[
-								{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Hading 16</a></u>","Text Align-Center","#242323"]}
+								{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' >Hading 16</a></u>","Text Align-Center","#242323"]}
 							]
 						},
 						{
 							"name":"panel3",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_3.svg",
 							"half_sheets_sect_images_colo1_title": "Description(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></u>","Text Align-Center","#242323"]}]
 						},
 						{
 							"name":"panel4",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Links(Option)",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Label 14 Regular</a></u>","Text Align-Center","#3895FF"]
 							}]
 						},
 						{
 							"name":"panel5",
 							"half_sheets_sect_images_colo1_icons": "buttons_03_4.svg",
 							"half_sheets_sect_images_colo1_title": "Buttons",
-							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u>"]
+							"illustration_design_sect3_images_colo2_1":[{"desc":["<u><a href='/app-styleguide/component/buttons' target='_blank'>Buttons</a></u>"]
 							}]
 						},
 						{
@@ -6395,7 +6395,7 @@
 				"halfsheet_sect15_holders":  [
 					{
 						"desc1": "Display one button (Recommended)",
-						"desc2": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Primary Button</a></u>",
+						"desc2": "<u><a href='/app-styleguide/component/buttons' target='_blank'>Primary Button</a></u>",
 						"logo": "halfsheet_04_01.svg"
 					},
 					{
@@ -6422,8 +6422,8 @@
 				],
 				"halfsheets_integration_data": [
 					{"desc": "Tap feedback is displayed after the button is tapped."},
-					{"desc": "<u><a href='/app-styleguide/component/buttons' target='_blank' style='color:#3895FF'>Buttons</a></u> Refer it for more details"},
-					{"desc": "Reference: <u><a href='/app-styleguide/globalrule/interaction' target='_blank' style='color:#3895FF'>Interaction</a></u>"}
+					{"desc": "<u><a href='/app-styleguide/component/buttons' target='_blank'>Buttons</a></u> Refer it for more details"},
+					{"desc": "Reference: <u><a href='/app-styleguide/globalrule/interaction' target='_blank'>Interaction</a></u>"}
 				]
 			},
 			"label": {
@@ -6495,7 +6495,7 @@
 				],
 				"label_data4": [
 					{
-						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Color palette</a></u>when representing a status.",
+						"desc1": "It is recommended to use colors from the<u><a href='/app-styleguide/globalrule/color' target='_blank'>Color palette</a></u>when representing a status.",
 						"desc2": "Refer to the functional color palette in particular when representing statuses such as “done” or “error”.",
 						"logo": "label_04.svg"
 					}
@@ -6504,11 +6504,11 @@
 					{
 						"name": "panel1",
 						"col1": "Regular",
-						"col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
+						"col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
 					}, {
 						"name": "panel2",
 						"col1": "Background color",
-						"col2": "<u><a href='/app-styleguide/globalrule/color' target='_blank' style='color:#3895FF'>Use Color palette</a></u>"
+						"col2": "<u><a href='/app-styleguide/globalrule/color' target='_blank'>Use Color palette</a></u>"
 					}
 				],
 				"label_data9": [
@@ -6520,7 +6520,7 @@
 					{
 						"name": "panel2",
 						"col1": "Regular",
-						"col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank' style='color:#3895FF'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
+						"col2": "<u><a href='/app-styleguide/globalrule/typography' target='_blank'>Heading / Label 12</a></u><br>Text Align-Center<br>#FFFFFF"
 					}, {
 						"name": "panel3",
 						"col1": "Background color",
