@@ -492,7 +492,7 @@
       "requestMoney": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments",
       "continuousPayments": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/continuous_payments",
       "preauthCapture": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture",
-      "pendingPayment": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+      "pendingPayment": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
     },
     "ProductComponents": {
       "webPayment": {
@@ -518,17 +518,17 @@
       "continuousPayment": {
         "name": "継続課金",
         "description": "あなたのサブスクリプション製品またはサービスへの定期的な支払いをユーザーが許可することで、定期的な支払いを行うことができます。※法人のお客様のみご利用いただけます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/continuous_payments"
       },
       "preAuthCapture": {
         "name": "ネイティブペイメント -出荷売上",
         "description": "ユーザーの支払い操作で与信を行い、あなたの任意のタイミングで売上を確定できます。※サービスのセキュリティレベルによってご利用いただけない場合がございます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture"
       },
       "pendingPayment": {
         "name": "支払リクエスト",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
       }
     },
     "Notice": {
