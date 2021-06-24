@@ -877,7 +877,7 @@
 				"desc_4_2": "Click here",
 				"desc_4_3": "to check how it will show up"
 			},
-			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
+			"createPayment_desc_1": "Did you get SUCCESS in the print statement above.",
 			"createPayment_desc_2_1": "For details of all the request and response parameters ,",
 			"createPayment_desc_2_2": "check our",
 			"createPayment_desc_2_3": "API Documentation guide",
