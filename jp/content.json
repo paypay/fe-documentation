@@ -800,7 +800,10 @@
           "desc_400": "このステータスコードは、リクエスト時にセットされた情報を処理できないことによるエラーを示します。 以下のOPAエラーコードが返される可能性があります。",
           "points_400": {
             "INVALID_PARAMS": "INVALID_PARAMS リクエスト時にセットされた情報に無効なデータが含まれています。例）サポートされていない通貨がセットされているなど。",
-            "UNACCEPTABLE_OP": "UNACCEPTABLE_OP トランザクション制限の超過などのため、リクエストが処理できません。",
+            "UNACCEPTABLE_OP": "UNACCEPTABLE_OP リクエストが処理できません。",
+            "LIMIT_EXCEEDED": "LIMIT_EXCEEDED 支払い上限額を超えています。決済金額が事前承認された金額を超える場合、発生する可能性があります。",
+            "USER_DEFINED_DAILY_LIMIT_EXCEEDED": "USER_DEFINED_DAILY_LIMIT_EXCEEDED ユーザ設定の支払い上限額(24時間)を超えています。",
+            "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED": "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED ユーザ設定の支払い上限額(30日)を超えています。",
             "NO_SUFFICIENT_FUND": "NO_SUFFICIENT_FUND 支払のための残高が不足しています。"
           },
           "desc_401": "このステータスコードは、認証エラーを示します。 以下のOPAエラーコードが返される可能性があります。",
