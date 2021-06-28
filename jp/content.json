@@ -874,8 +874,8 @@
           "desc_4_3": "を確認ください"
         },
         "createPayment_desc_1": "レスポンス項目で SUCCESS が返却されたとしても、次のGet Payment Details APIで決済結果をご確認ください。",
-        "createPayment_desc_2_1": "レスポンス項目について詳細に知りたい",
-        "createPayment_desc_2_2": "場合には、",
+        "createPayment_desc_2_1": "レスポンス項目について詳細に知りたい場合には、",
+        "createPayment_desc_2_2": "",
         "createPayment_desc_2_3": "[APIドキュメントガイド]",
         "createPayment_desc_2_4": "をご確認ください。",
         "when_to_use": "ネイティブペイメントを使用する場合",
