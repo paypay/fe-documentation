@@ -45,7 +45,7 @@
         "subtitle": "ユーザーの端末にPayPayを呼び出し、ワンタップで決済を完了。"
       },
       "domore-3": {
-        "title": "ウェブペイメント",
+        "title": "ウェブペイメント-即時＆出荷売上",
         "subtitle": "ウェブサイトに実装後、ユーザーはセキュアリンクまたはPayPayログインで決済。"
       },
       "domore-4": {
@@ -120,8 +120,8 @@
     "dataList": {
       "AppInvoke": {
         "subHeadding": "使い方",
-        "key": "ウェブペイメント",
-        "header_title": ["ウェブペイメント", "概要"],
+        "key": "ウェブペイメント-即時＆出荷売上",
+        "header_title": ["ウェブペイメント-即時＆出荷売上", "概要"],
         "mainTitle": "アプリ <br>*コール*",
         "subTitle": "アプリコール を使用することで、PayPayアプリを簡単に、効率的にユーザーの端末に呼び出し、決済リクエストを表示することができます。他のアプリ内課金と全く同じように、ユーザーはワンタップで決済を行えます。eコマースや、自社アプリを使って販売を行うサービスに最適です。",
         "introduction": "PayPayアプリを呼び出して支払いを受け取るために使用できるコードを作成して、ビジネスを強化します",
@@ -283,7 +283,7 @@
       "Cashback": {
         "key": "キャッシュバック",
         "header_title": ["ウェブキャッシャー", "概要"],
-        "mainTitle": "ウェブ <br>*ペイメント*",
+        "mainTitle": "ウェブペイメント- <br>*即時＆出荷売上*",
         "subTitle": "ウェブペイメントを使用すると、最小限のコーディングで、ウェブサイト上で簡単・安全に決済機能を提供できるようになります。短いコードスニペットをウェブサイトに挿入しておくことで、ユーザーがPayPayのオンライン環境にログインし、円滑・安全に決済できる環境を作ることができます。シンプルなデザインによって、ユーザーが安心して利用できるだけでなく、より高いコンバージョン率にもつながるよう設計されています。",
         "prodTitle": "*PayPay Web ページ/ PayPay アプリ* を使用して支払いを収集するためのリンクとして使用できるコードを作成して、ビジネスを強化します",
         "introduction": "",
@@ -425,7 +425,7 @@
         "sgp_pname2": "QRコード",
         "sgp_pname2_1": "動的ユーザスキャン",
         "sgp_pname3": "ネイティブペイメント",
-        "sgp_pname4": "ウェブペイメント",
+        "sgp_pname4": "ウェブペイメント-即時＆出荷売上",
         "sgp_pname5": "ネイティブペイメント - 出荷売上",
         "sgp_s1mart_submit": "登録する"
       },
@@ -492,11 +492,11 @@
       "requestMoney": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments",
       "continuousPayments": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/continuous_payments",
       "preauthCapture": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture",
-      "pendingPayment": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+      "pendingPayment": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
     },
     "ProductComponents": {
       "webPayment": {
-        "name": "ウェブ ペイメント",
+        "name": "ウェブペイメント-即時＆出荷売上",
         "description": "あなたのサービスからPayPay Webページ、またはPayPayアプリに遷移して行う決済を提供します。",
         "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/webcashier"
       },
@@ -518,17 +518,17 @@
       "continuousPayment": {
         "name": "継続課金",
         "description": "あなたのサブスクリプション製品またはサービスへの定期的な支払いをユーザーが許可することで、定期的な支払いを行うことができます。※法人のお客様のみご利用いただけます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/continuous_payments"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/continuous_payments"
       },
       "preAuthCapture": {
         "name": "ネイティブペイメント -出荷売上",
         "description": "ユーザーの支払い操作で与信を行い、あなたの任意のタイミングで売上を確定できます。※サービスのセキュリティレベルによってご利用いただけない場合がございます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture"
       },
       "pendingPayment": {
         "name": "支払リクエスト",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
-        "doc_url": "https://www.paypay.ne.jp/opa/doc/v1.0/pending_payments"
+        "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
       }
     },
     "Notice": {
@@ -800,7 +800,10 @@
           "desc_400": "このステータスコードは、リクエスト時にセットされた情報を処理できないことによるエラーを示します。 以下のOPAエラーコードが返される可能性があります。",
           "points_400": {
             "INVALID_PARAMS": "INVALID_PARAMS リクエスト時にセットされた情報に無効なデータが含まれています。例）サポートされていない通貨がセットされているなど。",
-            "UNACCEPTABLE_OP": "UNACCEPTABLE_OP トランザクション制限の超過などのため、リクエストが処理できません。",
+            "UNACCEPTABLE_OP": "UNACCEPTABLE_OP リクエストが処理できません。",
+            "LIMIT_EXCEEDED": "LIMIT_EXCEEDED 支払い上限額を超えています。決済金額が事前承認された金額を超える場合、発生する可能性があります。",
+            "USER_DEFINED_DAILY_LIMIT_EXCEEDED": "USER_DEFINED_DAILY_LIMIT_EXCEEDED ユーザ設定の支払い上限額(24時間)を超えています。",
+            "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED": "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED ユーザ設定の支払い上限額(30日)を超えています。",
             "NO_SUFFICIENT_FUND": "NO_SUFFICIENT_FUND 支払のための残高が不足しています。"
           },
           "desc_401": "このステータスコードは、認証エラーを示します。 以下のOPAエラーコードが返される可能性があります。",
@@ -828,7 +831,7 @@
         "unknown_payment_status_point_2": "キャンセルAPIを使用してください。 キャンセルAPIが提供されている場合は、取引をキャンセルすることもできます。 キャンセルが承認された後、元取引と同様のリクエストを再度行なってください。"
       },
       "webPayment": {
-        "name": "ウェブペイメント",
+        "name": "ウェブペイメント-即時＆出荷売上",
         "demo_desc": "デモ",
         "description": "あなたのサービスからPayPay Webページ、またはPayPayアプリに遷移して行う決済を提供します。",
         "webpayment_desc_1": "モバイルアプリケーションから支払いが必要な場合",
@@ -870,9 +873,9 @@
           "desc_4_2": "こちら",
           "desc_4_3": "を確認ください"
         },
-        "createPayment_desc_1": "レスポンス項目で SUCCESS が返却されていれば決済は成功しています。",
-        "createPayment_desc_2_1": "レスポンス項目について詳細に知りたい",
-        "createPayment_desc_2_2": "場合には、",
+        "createPayment_desc_1": "レスポンス項目で SUCCESS が返却されたとしても、次のGet Payment Details APIで決済結果をご確認ください。",
+        "createPayment_desc_2_1": "レスポンス項目について詳細に知りたい場合には、",
+        "createPayment_desc_2_2": "",
         "createPayment_desc_2_3": "[APIドキュメントガイド]",
         "createPayment_desc_2_4": "をご確認ください。",
         "when_to_use": "ネイティブペイメントを使用する場合",
