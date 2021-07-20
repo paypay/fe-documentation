@@ -805,10 +805,11 @@
 				"points_400": {
 					"INVALID_PARAMS": "INVALID_PARAMS The information provided by the request contains invalid data. E.g. unsupported currency.",
 					"UNACCEPTABLE_OP": "UNACCEPTABLE_OP The requested operation is not able to be processed due to the current condition.",
-					"LIMIT_EXCEEDED": "LIMIT_EXCEEDED The payment amount exceeded upper limit.",
-					"USER_DEFINED_DAILY_LIMIT_EXCEEDED": "USER_DEFINED_DAILY_LIMIT_EXCEEDED The payment amount exceeded user 24 hours defined limit.",
-					"USER_DEFINED_MONTHLY_LIMIT_EXCEEDED": "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED The payment amount exceeded user 30 days defined limit.",
-					"NO_SUFFICIENT_FUND": "NO_SUFFICIENT_FUND There is no sufficient fund for the transaction."
+					"LIMIT_EXCEEDED": "LIMIT_EXCEEDED The payment amount exceeded upper limit. *1",
+					"USER_DEFINED_DAILY_LIMIT_EXCEEDED": "USER_DEFINED_DAILY_LIMIT_EXCEEDED The payment amount exceeded user 24 hours defined limit. *1",
+					"USER_DEFINED_MONTHLY_LIMIT_EXCEEDED": "USER_DEFINED_MONTHLY_LIMIT_EXCEEDED The payment amount exceeded user 30 days defined limit. *1",
+					"NO_SUFFICIENT_FUND": "NO_SUFFICIENT_FUND There is no sufficient fund for the transaction.",
+					"ERROR_CODE_DISCLAIMER" : "*1 : PayPay will add this in production on September 1st"
 				},
 				"desc_401": "401 This status code indicates an authorization error. The following OPA error code may be returned.",
 				"points_401": {
