@@ -923,7 +923,7 @@
 				"row_note_12" : "merchantPaymentId issued by Merchant."																							
 			} 			
 		},
-		"webhook-setup": {
+		"webhook_setup": {
 			"title": "Webhooks",
 			"subtitle_1": "Webhook Setup",
 			"subtitle_2": "Webhook notifications",
