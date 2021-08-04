@@ -185,10 +185,10 @@
 			"java": "// Calling the method to unlink the user from the client\nUserApi userApi = new UserApi(apiClient);\nNotDataResponse response = userApi.unlinkUser(\"userAuthorizationId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
 		},
 		"webhookNotifications": {
-			"python": "{\"notification_type\":\"file.created\",\"notification_id\":\"<UUID>\",\"fileType\":\"transaction_recon\",\"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\"requestedAt\":\"<epoch time>\"}",
-			"php": "{\"notification_type\":\"file.created\",\"notification_id\":\"<UUID>\",\"fileType\":\"transaction_recon\",\"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\"requestedAt\":\"<epoch time>\"}",
-			"node": "{\"notification_type\":\"file.created\",\"notification_id\":\"<UUID>\",\"fileType\":\"transaction_recon\",\"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\"requestedAt\":\"<epoch time>\"}",
-			"java": "{\"notification_type\":\"file.created\",\"notification_id\":\"<UUID>\",\"fileType\":\"transaction_recon\",\"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\"requestedAt\":\"<epoch time>\"}"
+			"python": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}",
+			"php": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}",
+			"node": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}",
+			"java": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}"
 		}
 	}
 }
