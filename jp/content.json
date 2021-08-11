@@ -93,7 +93,37 @@
     "footer": {
       "links": ["PayPayについて", "お問い合わせ", "採用", "ブログ","稼働状況"],
       "copyright": "Copyright (C) PayPay Corporation. All Rights Reserved.",
-      "address": ["〒105-6921　東京都港区虎ノ門 4-1-1", "神谷町トラストタワー WeWork内"]
+      "address": ["〒105-6921　東京都港区虎ノ門 4-1-1", "神谷町トラストタワー WeWork内"],
+      "aboutPP": "PayPayについて",
+      "careers": "採用",
+      "appStyleGuide": "アプリスタイルガイド",
+      "blog": "ブログ",
+      "webinars": "ウェビナー",
+      "systemHealthCheck": "システムヘルスチェック",
+      "webPayment": "ウェブペイメント-即時＆出荷売上",
+      "nativePayment": "ネイティブペイメント",
+      "dynamicQRCode": "動的ユーザースキャン",
+      "appInvoke": "アプリコール",
+      "preAuthAndCapture": "ネイティブペイメント-出荷売上",
+      "requestMoney": "支払リクエスト",
+      "ppLab": "PayPayラボ",
+      "ppResolve": "PayPayの解決",
+      "doc": "ドキュメント",
+      "designGuidelines": "デザインガイドライン",
+      "miniAppPolicies": "ミニアプリポリシー",
+      "launchMiniApp": "ミニアプリを起動する",
+      "faq": "Q&A",
+      "integrationForm": "インテグレーションに関するお問い合わせ",
+      "merchantForm": "加盟店向けお問い合わせ",
+      "company": "会社",
+      "resources": "その他",
+      "openAPIs": "オープンAPI",
+      "implSupport": "実装サポート",
+      "miniApps": "ミニアプリ",
+      "inquiries": "お問い合わせ",
+      "tou":"利用規約・ガイドライン",
+      "privacyPolicy": "プライバシーポリシー"
+  
     },
     "product": {
       "app-invoke": {
