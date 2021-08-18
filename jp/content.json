@@ -125,6 +125,30 @@
       "privacyPolicy": "プライバシーポリシー"
   
     },
+    "docToc": {
+      "toc": "目次",
+      "demo": "デモ",
+      "integration": "インテグレーション",
+      "paymentFlow": "支払いフロー",
+      "installation": "インストール",
+      "buildClient" : "クライアントを構築する",
+      "createQRCode": "QRコードの作成",
+      "deleteQRCode": "QRコードの削除",
+      "getPaymentDetails": "決済情報の参照",
+      "cancelPayment": "決済のキャンセル",
+      "refundPayment": "返金処理",
+      "fetchStatus": "返金処理の詳細の参照",
+      "capturePaymentAuth": "決済処理の承認",
+      "revertPaymentAuth": "決済承認のキャンセル",
+      "reconFile": "突合ファイル",
+      "webhookSetup": "Webhookの設定",
+      "webhooks": "Webhooks",
+      "errorHandling": "エラー処理",
+      "responseCodeList": "コードリスト",
+      "userAuth": "ユーザー許諾の取得",
+      "unlinkUser": "ユーザー許諾の解除",
+      "createPayment": "決済処理"
+    },    
     "product": {
       "app-invoke": {
         "title": ["でビジネスを次のレベルに引き上げましょう", "ウェブペイメント", "オプション"],
