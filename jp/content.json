@@ -718,7 +718,7 @@
       "integrating_sub": "インストール",
       "build_title": "クライアントをビルドする",
       "build_desc_1": "以下に定義するようにapikeyとsecretを追加してクライアントを構築します。 APIでは、認証方式としてHMAC採用していますが、SDKで認証を処理することが可能です。 認証について詳しく知りたい場合は",
-      "build_desc_2": "を参照ください",
+      "build_desc_2": "を参照ください 。 Production_modeは、サンドボックス/本番環境の宛先を設定します。デフォルトのfalse設定は、サンドボックス環境に接続します。 Ture設定は、本番環境に接続します。",
       "build_desc_3": "こちら",
       "create_qr_title": "Create a QR Code",
       "create_qr_desc": "このフローを使用して支払いを受け取るには、まずコードを作成する必要があります。以下のパラメーターを使用してリクエストしてください。",
