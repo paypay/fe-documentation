@@ -721,7 +721,7 @@
 		"integrating_sub": "Installation",
 		"build_title": "Build your Client",
 		"build_desc_1": "Build your client by adding your API Key and Secret like defined below. We enable API Authentication using HMAC, however the SDK will take care of the authentication by itself.",
-		"build_desc_2": "if you want to know more about the authentication. The Production_mode sets the destination for the sandbox/production environment. The default false setting connects to the sandbox environment. The Ture setting connects to the production environment.",
+		"build_desc_2": "if you want to know more about the authentication. The Production_mode sets the destination for the sandbox / production environment. The default false setting connects to the sandbox environment. The True setting connects to the production environment.",
 		"build_desc_3": "Click here",
 		"create_qr_title": "Create a QR Code",
 		"create_qr_desc": "In order to receive payments using this flow, first of all you will need to create a QR Code. Following are the important parameters that you can provide for this method:",
