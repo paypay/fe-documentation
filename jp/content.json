@@ -718,7 +718,7 @@
       "integrating_sub": "インストール",
       "build_title": "クライアントをビルドする",
       "build_desc_1": "以下に定義するようにapikeyとsecretを追加してクライアントを構築します。 APIでは、認証方式としてHMAC採用していますが、SDKで認証を処理することが可能です。 認証について詳しく知りたい場合は",
-      "build_desc_2": "を参照ください",
+      "build_desc_2": "を参照ください 。 Production_modeは、サンドボックス/本番環境の宛先を設定します。デフォルトのfalse設定は、サンドボックス環境に接続します。 Ture設定は、本番環境に接続します。",
       "build_desc_3": "こちら",
       "create_qr_title": "Create a QR Code",
       "create_qr_desc": "このフローを使用して支払いを受け取るには、まずコードを作成する必要があります。以下のパラメーターを使用してリクエストしてください。",
@@ -868,7 +868,7 @@
           "row_note_1" : "",
           "row_note_2" : "",
           "row_note_3" : "",
-          "row_note_4" : "PayPay側の取引日時が作成対象日の 00:00:00 – 23:59:59 の範囲",
+          "row_note_4" : "PayPay側の取引日時が作成対象日の 00:00:00 – 23:59:59 の範囲",
           "row_note_5" : "",
           "row_note_6" : "",
           "row_note_7" : ""
@@ -891,7 +891,7 @@
           "row_note_1" : "",
           "row_note_2" : "",
           "row_note_3" : "",
-          "row_note_4" : "PayPay側の取引日時が作成対象日の 00:00:00 – 23:59:59 の範囲",
+          "row_note_4" : "PayPay側の取引日時が作成対象日の 00:00:00 – 23:59:59 の範囲",
           "row_note_5" : "",
           "row_note_6" : "",
           "row_note_7" : ""
@@ -3326,10 +3326,10 @@
               "content": "NO_SUFFICIENT_FUNDが返却された場合には、残高が不足していることをユーザーに通知し、チャージが必要であることを伝える"
             },
             {
-              "content": "多重決済(短時間に同一userAuthorizationId・同一金額で決済があった場合)が発生する場合に備えて、詳細リンクを参照し、適切にエラーハンドリングする。詳細はこちら<br/><a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+              "content": "多重決済(短時間に同一userAuthorizationId・同一金額で決済があった場合)が発生する場合に備えて、詳細リンクを参照し、適切にエラーハンドリングする。詳細はこちら<br/><a href='https://paypay-corp.ent.box.com/s/f5kv4x206blmwvodmcaa456gfwzka3r7' target='_blank' >https://paypay-corp.ent.box.com/s/f5kv4x206blmwvodmcaa456gfwzka3r7</a>"
             },
             {
-              "content": "paymentをリクエストした結果、タイムアウト、https 500 番台が返却された場合、getpaymentdetails でステータスを参照、もしくはキャンセルが実施する。詳細はこちら<br/><a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
+              "content": "paymentをリクエストした結果、タイムアウト、https 500 番台が返却された場合、getpaymentdetails でステータスを参照、もしくはキャンセルが実施する。詳細はこちら<br/><a href='https://paypay-corp.ent.box.com/s/o6084do3hh2hl3kty52rkmuml4f7yzce' target='_blank' >https://paypay-corp.ent.box.com/s/o6084do3hh2hl3kty52rkmuml4f7yzce</a>"
             }
           ]
         },
