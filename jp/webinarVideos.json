@@ -27,7 +27,7 @@
 						"python": "",
 						"php": "",
 						"node": "",
-						"java": "private static ApiClient createApiClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  apiClient.setProductionMode( \n false); // Set True for Production Environment. By Default this is set False for Sandbox \n  // Environment. \n apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
+						"java": "private static ApiClient createApiClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  apiClient.setProductionMode( \n false); //production_mode : Set the connection destination of the sandbox environment / production environment. The default false setting connects to the sandbox environment. The True setting connects to the production environment. \n apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
 					}]
 				}, {
 					"title": "Create a Payment",
@@ -98,7 +98,7 @@
 						"python": "",
 						"php": "",
 						"node": "",
-						"java": "private static ApiClient createClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  //Set True for Production Environment. By Default this is set False for Sandbox Environment. \n  apiClient.setProductionMode(false); \n  apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
+						"java": "private static ApiClient createClient() { \n  ApiClient apiClient = new Configuration().getDefaultApiClient(); \n  //production_mode : Set the connection destination of the sandbox environment / production environment. The default false setting connects to the sandbox environment. The True setting connects to the production environment. \n  apiClient.setProductionMode(false); \n  apiClient.setApiKey(\"API_KEY\"); \n  apiClient.setApiSecretKey(\"API_SECRET\"); \n  return apiClient; \n  }"
 					}]
 				},
 				{
