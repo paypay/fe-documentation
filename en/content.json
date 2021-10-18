@@ -721,7 +721,7 @@
 		"integrating_sub": "Installation",
 		"build_title": "Build your Client",
 		"build_desc_1": "Build your client by adding your API Key and Secret like defined below. We enable API Authentication using HMAC, however the SDK will take care of the authentication by itself.",
-		"build_desc_2": "if you want to know more about the authentication.",
+		"build_desc_2": "if you want to know more about the authentication. The Production_mode sets the destination for the sandbox / production environment. The default false setting connects to the sandbox environment. The True setting connects to the production environment.",
 		"build_desc_3": "Click here",
 		"create_qr_title": "Create a QR Code",
 		"create_qr_desc": "In order to receive payments using this flow, first of all you will need to create a QR Code. Following are the important parameters that you can provide for this method:",
@@ -861,20 +861,29 @@
 				"row_category_5" : "Notification time",
 				"row_category_6" : "format",
 				"row_category_7" : "File retention period",
+				"row_category_8" : "Character Code(content)",
+				"row_category_9" : "Character Code(filename)",
+				"row_category_10" : "newline code",
 				"row_desc_1" : "Webhook",
 				"row_desc_2" : "preauth_transaction_＜merchant_id＞_＜from＞_＜to＞.csv",
 				"row_desc_3" : "merchant_id",
 				"row_desc_4" : "Daily",
 				"row_desc_5" : "after 4:00 AM",
 				"row_desc_6" : "CSV",
-				"row_desc_7" : "1 Week",								
+				"row_desc_7" : "1 Week",
+				"row_desc_8" : "SHIFT-JIS",
+				"row_desc_9" : "UTF-8",
+				"row_desc_10" : "CRLF",	
 				"row_note_1" : "",
 				"row_note_2" : "",
 				"row_note_3" : "",
 				"row_note_4" : "Transactions from 00:00:00 to 23:59:59.",
 				"row_note_5" : "",
 				"row_note_6" : "",
-				"row_note_7" : ""
+				"row_note_7" : "",
+				"row_note_8" : "",
+				"row_note_9" : "",
+				"row_note_10" : ""
 			},
 			"table_2" : {
 				"row_category_1" : "File linkage method",
@@ -884,20 +893,29 @@
 				"row_category_5" : "Notification time",
 				"row_category_6" : "format",
 				"row_category_7" : "File retention period",
+				"row_category_8" : "Character Code(content)",
+				"row_category_9" : "Character Code(filename)",
+				"row_category_10" : "newline code",
 				"row_desc_1" : "Webhook",
 				"row_desc_2" : "transaction_＜merchant_id＞_＜from＞_＜to＞.csv",
 				"row_desc_3" : "merchant_id",
 				"row_desc_4" : "Daily",
 				"row_desc_5" : "after 4:00 AM",
 				"row_desc_6" : "CSV",
-				"row_desc_7" : "1 Week",				
+				"row_desc_7" : "1 Week",
+				"row_desc_8" : "SHIFT-JIS",
+				"row_desc_9" : "UTF-8",
+				"row_desc_10" : "CRLF",					
 				"row_note_1" : "",
 				"row_note_2" : "",
 				"row_note_3" : "",
 				"row_note_4" : "Transactions from 00:00:00 to 23:59:59.",
 				"row_note_5" : "",
 				"row_note_6" : "",
-				"row_note_7" : ""
+				"row_note_7" : "",
+				"row_note_8" : "",
+				"row_note_9" : "",
+				"row_note_10" : ""
 			},
 			"table_3" : {
 				"row_key_1" : "orderId",
@@ -3368,10 +3386,10 @@
 						"content": "For the error code, NO_SUFFICIENT_FUND handling has been done appropriately by telling the user the user does not have sufficient funds."
 					},
 					{
-						"content": "Proper handling has been made for possible duplicate transactions <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_37</a>"
+						"content": "Proper handling has been made for possible duplicate transactions <a href='https://paypay-corp.ent.box.com/s/f5kv4x206blmwvodmcaa456gfwzka3r7' target='_blank' >https://paypay-corp.ent.box.com/s/f5kv4x206blmwvodmcaa456gfwzka3r7</a>"
 					},
 					{
-						"content": "Handling Error Codes with unknown status has been handled properly <a href='https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122' target='_blank' >https://docs.google.com/presentation/d/1b9iuRjb3m7_A2pDyY-qIP1PNDxj9lRHPaaOj2ick2sY/edit#slide=id.g5123a14de4_0_122</a>"
+						"content": "Handling Error Codes with unknown status has been handled properly <a href='https://paypay-corp.ent.box.com/s/o6084do3hh2hl3kty52rkmuml4f7yzce' target='_blank' >https://paypay-corp.ent.box.com/s/o6084do3hh2hl3kty52rkmuml4f7yzce</a>"
 					}
 				]
 			},
