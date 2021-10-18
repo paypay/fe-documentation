@@ -92,8 +92,8 @@
 		},
 		"getPaymentDetails": {
 			"default": {
-				"python":"# Calling the method to get payment details\nresponse = client.Payment.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response['resultInfo']['code'])\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response['data']['status'])",
-				"php": "/*\n.....initialize SDK\n*/\n\n$response =  $client->payment->getPaymentDetails('MERCHANT_PAYMENT_ID');\n$data = $response['data'];",
+				"python":"# Calling the method to get payment details\nresponse = client.Code.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response['resultInfo']['code'])\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response['data']['status'])",
+				"php": "/*\n.....initialize SDK\n*/\n\n$response =  $client->code->getPaymentDetails('MERCHANT_PAYMENT_ID');\n$data = $response['data'];",
 				"node": "// Calling the method to get payment details\n'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\nlet merchantPaymentId = 'merchantPaymentId';\n  PAYPAY.GetCodePaymentDetails(Array(merchantPaymentId), (response) => {\n    // Printing if the method call was SUCCESS, this does not mean the payment was a success\n    console.log(response.BODY.resultInfo.code);\n    // Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\n    console.log(response.BODY.data.status);\n  });",
 				"java": "// Calling the method to get payment details\nPaymentApi apiInstance = new PaymentApi(apiClient);\nPaymentDetails response = apiInstance.getPaymentDetails(\"merchantPaymentId\");\n// Printing if the method call was SUCCESS, this does not mean the payment was a success\nSystem.out.println(response.getResultInfo().getCode());\n// Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nSystem.out.println(response.getData().getStatus());"
 			},
@@ -105,7 +105,7 @@
 			},
 			"pendingPayment": {
 				"python":"# Calling the method to get payment details\nresponse = client.Pending.get_payment_details(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS, this does not mean the payment was a success\nprint(response['resultInfo']['code'])\n# Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\nprint(response['data']['status'])",
-				"php": "/*\n.....initialize SDK\n*/\n\n$paymentDetails = $client->payment->getPaymentDetails(\"MERCHANT_PAYMENT_ID\", 'pending');",
+				"php": "/*\n.....initialize SDK\n*/\n\n$paymentDetails = $client->code->getPaymentDetails(\"MERCHANT_PAYMENT_ID\", 'pending');",
 				"node": "// Calling the method to get payment details\n'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\nlet merchantPaymentId = 'merchantPaymentId';\n  PAYPAY.GetPaymentDetails(Array(merchantPaymentId), (response) => {\n    // Printing if the method call was SUCCESS, this does not mean the payment was a success\n    console.log(response.BODY.resultInfo.code);\n    // Printing if the transaction status for the code has COMPLETED/ AUTHORIZED\n    console.log(response.BODY.data.status);\n  });",
 				"java": "// Calling the method to get payment details\nPendingPaymentApi apiInstance = new PendingPaymentApi(apiClient);\nPaymentDetails response = apiInstance.getPaymentDetails(\"merchantPaymentId\");\n// Printing if the method call was SUCCESS, this does not mean the payment was a success\nSystem.out.println(response.getResultInfo().getCode());\n// Printing if the transaction status for the code is CREATED\nSystem.out.println(response.getData().getStatus());"
 			}
@@ -113,7 +113,7 @@
 		"cancelPayment": {
 			"default": {
 				"python":"# Calling the method to cancel a Payment\nresponse = client.Payment.cancel_payment(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS\nprint(response['resultInfo']['code'])",
-				"php": "// Calling the method to cancel a Payment\n$response =  $client->code->cancelPayment('merchantPaymentId');\n// Printing if the method call was SUCCESS\nvar_dump($response['resultInfo']['code']);",
+				"php": "// Calling the method to cancel a Payment\n $response =  $client->payment->cancelPayment('merchantPaymentId');\n// Printing if the method call was SUCCESS\nvar_dump($response['resultInfo']['code']);",
 				"node": "// Calling the method to cancel a Payment\n 'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\n  PAYPAY.PaymentCancel(Array(merchantPaymentId), (response) => {\n  console.log(result);\n  // Printing if the method call was SUCCESS\n  console.log(response.BODY.resultInfo.code);\n  });",
 				"java": "// Calling the method to cancel a Payment\nPaymentApi apiInstance = new PaymentApi(apiClient);\nNotDataResponse response = apiInstance.cancelPayment(\"merchantPaymentId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
 			},
