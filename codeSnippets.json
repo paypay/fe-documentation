@@ -113,7 +113,7 @@
 		"cancelPayment": {
 			"default": {
 				"python":"# Calling the method to cancel a Payment\nresponse = client.Payment.cancel_payment(\"<merchantPaymentId>\")\n# Printing if the method call was SUCCESS\nprint(response['resultInfo']['code'])",
-				"php": "// Calling the method to cancel a Payment\n$response =  $client->code->cancelPayment('merchantPaymentId');\n// Printing if the method call was SUCCESS\nvar_dump($response['resultInfo']['code']);",
+				"php": "// Calling the method to cancel a Payment\n$response =  $client->payment->cancelPayment('merchantPaymentId');\n// Printing if the method call was SUCCESS\nvar_dump($response['resultInfo']['code']);",
 				"node": "// Calling the method to cancel a Payment\n 'use strict';\nconst PAYPAY = require('@paypayopa/paypayopa-sdk-node');\n  PAYPAY.PaymentCancel(Array(merchantPaymentId), (response) => {\n  console.log(result);\n  // Printing if the method call was SUCCESS\n  console.log(response.BODY.resultInfo.code);\n  });",
 				"java": "// Calling the method to cancel a Payment\nPaymentApi apiInstance = new PaymentApi(apiClient);\nNotDataResponse response = apiInstance.cancelPayment(\"merchantPaymentId\");\n// Printing if the method call was SUCCESS\nSystem.out.println(response.getResultInfo().getCode());"
 			},
