@@ -580,7 +580,7 @@
         "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture"
       },
       "pendingPayment": {
-        "name": "支払いリクエスト",
+        "name": "支払リクエスト",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
         "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
       }
@@ -1187,7 +1187,7 @@
         }
       },
       "pendingPayment": {
-        "name": "支払いリクエスト",
+        "name": "支払リクエスト",
         "demo_desc": "Demo of Request Money",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
         "pendingPayment_desc_1": "一定期間経過後にユーザーに支払いリクエストを送る可能性がある",
