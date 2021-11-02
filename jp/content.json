@@ -580,7 +580,7 @@
         "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/preauth_capture"
       },
       "pendingPayment": {
-        "name": "支払いリクエスト",
+        "name": "支払リクエスト",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
         "doc_url": "https://www.paypay.ne.jp/opa/doc/jp/v1.0/pending_payments"
       }
@@ -1187,12 +1187,12 @@
         }
       },
       "pendingPayment": {
-        "name": "支払いリクエスト",
+        "name": "支払リクエスト",
         "demo_desc": "Demo of Request Money",
         "description": "事前にユーザーの認可を取得することで、対象のユーザーに対して支払いを要求するプッシュ通知を送信することができます。ユーザーの操作から一定期間が経過していても支払いを促すことができるため、料金の回収を簡単に行うことが可能です。※法人のお客様のみご利用いただけます。",
-        "pendingPayment_desc_1": "一定期間経過後にユーザーに支払いリクエストを送る可能性がある",
+        "pendingPayment_desc_1": "一定期間経過後にユーザーに支払リクエストを送る可能性がある",
         "pendingPayment_desc_2": "ユーザーへの支払いの督促を簡潔に行いたい",
-        "when_to_use": "支払いリクエストを使用する場合",
+        "when_to_use": "支払リクエストを使用する場合",
         "integrating_title": "支払リクエストを開発する",
         "createPayment_title": "Create a Request Money",
         "createPayment_desc": "支払リクエストを実施する場合には、以下のパラメーターを使用してリクエストしてください",
@@ -2721,7 +2721,7 @@
       "txt_api_ref_func_bal_title": "pp.getBalance",
       "txt_api_ref_func_bal_desc": "現在のユーザーの残高を取得します。",
       "txt_api_ref_func_mp_title": "pp.makePayment",
-      "txt_api_ref_func_mp_desc": "支払いリクエストを開始します。 この関数を呼び出すと、PayPayアプリはチェックアウトシートをユーザー画面に表示させ、支払い方法の変更や残高のチャージ、支払いの実行などの処理を開始します。",
+      "txt_api_ref_func_mp_desc": "支払リクエストを開始します。 この関数を呼び出すと、PayPayアプリはチェックアウトシートをユーザー画面に表示させ、支払い方法の変更や残高のチャージ、支払いの実行などの処理を開始します。",
       "txt_api_ref_func_tu_title": "pp.topup",
       "txt_api_ref_func_tu_desc": "トップアップのフローです。",
       "txt_balance": "balance",
