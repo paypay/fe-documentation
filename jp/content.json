@@ -698,7 +698,7 @@
       "title_payment_flow": "支払いフローについて",
       "payment_flow_desc_1": "次の図は、",
       "payment_flow_desc_2": "の統合フローを定義しています。",
-      "payment_flow_sub": "取引のステータスを確認するために、マーチャントは4〜5秒間隔でGet payment Details APIのポーリングを実装することをお勧めします。",
+      "payment_flow_sub": "取引のステータスを確認するために、マーチャントは2〜3秒間隔でGet payment Details APIのポーリングを実装することをお勧めします。",
       "start_title": "でははじめていきましょう",
       "start_desc_1": "実際の開発を開始する前に、",
       "start_desc_2": "事前作業として以下の作業が完了しているか確認ください。",
