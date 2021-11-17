@@ -999,6 +999,9 @@
 			"subtitle_1": "Webhook Setup",
 			"subtitle_2": "Webhook notifications",
 			"desc_1": "PayPay can send webhook events that notify your application at the time when event happens on your account. To be able receiving the notification the client need to setup a webhook url where we will use POST method to send data to client. All the notification data will have one notification_type field which could be used by client service to determine what event has happend. When your application receives the notification via webhook, it should respond with a HTTP 200 OK status code. Although not required, a response body with short text message(like \"OK\") is recommended.",
+			"desc_1_1": "Refer #here# about Customer Events.",
+			"desc_1_2": "Refer #here# about Transaction Events.",
+			"desc_1_3": "Refer #here# about Recon File Events.",
 			"desc_2": "Get the file from the path notified by the webhook.",
 			"desc_3": "You can directly check the Webhook Configurations by clicking on the button below",
 			"desc_4": "Webhook Configurations"
