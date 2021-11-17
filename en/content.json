@@ -701,7 +701,7 @@
 		"title_payment_flow": "Understanding the Payment Flow",
 		"payment_flow_desc_1": "Following diagram defines the flow for",
 		"payment_flow_desc_2": "",
-		"payment_flow_sub": "We recommend that the merchant implements a Polling of the Get payment Details API with a 4-5 second interval in order to know the status of the transaction.",
+		"payment_flow_sub": "We recommend that the merchant implements a Polling of the Get payment Details API with a 2-3 second interval in order to know the status of the transaction.",
 		"start_title": "Lets get Started",
 		"start_desc_1": "Once you have understood the payment flow, before we start the integration make sure you have:",
 		"start_desc_2": "Before integrating with the SDK, run through this checklist:",
@@ -760,7 +760,7 @@
 		"delete_qr_desc_5_3": "",
 		"get_payment_details": {
 			"title": "Get Payment Details",
-			"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+			"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 2-3 second interval between requests. Following are the important parameters that you can provide for this method:",
 			"table": {
 				"desc_1": "The unique payment transaction id provided by merchant"
 			},
@@ -1156,7 +1156,7 @@
 				"desc_1": "So the user has decided to return the goods they have purchased and needs to be given a refund. Following are the important parameters that you can provide for this method:"
 			},
 			"get_payment_details": {
-				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:"
+				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 2-3 second interval between requests. Following are the important parameters that you can provide for this method:"
 			}
 		},
 		"preAuthCapture": {
@@ -1178,7 +1178,7 @@
 			},
 			"createPayment_desc_1": "Did you get SUCCESS in the print statement above and status is 'AUTHORIZED', if yes then the API execution has happened correctly.",
 			"get_payment_details": {
-				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+				"desc_1": "Now that you have created a Code, the next step is to implement polling to get Payment Details. We recommend a 2-3 second interval between requests. Following are the important parameters that you can provide for this method:",
 				"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful payment authorization, the status will be AUTHORIZED. Once the payment is captured, the status will be COMPLETED."
 			},
 			"capture_payment_auth": {
@@ -1207,7 +1207,7 @@
 			"createPayment_desc": "In order to create a Request Money, you will need to send a request to us with the following parameters:",
 			"createPayment_desc_1": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly.",
 			"get_payment_details": {
-				"desc_1": "Now that you have created a Request Money, the next step is to implement polling to get Payment Details. We recommend a 4-5 second interval between requests. Following are the important parameters that you can provide for this method:",
+				"desc_1": "Now that you have created a Request Money, the next step is to implement polling to get Payment Details. We recommend a 2-3 second interval between requests. Following are the important parameters that you can provide for this method:",
 				"desc_2": "Did you get SUCCESS in the print statement above, if yes then the API execution has happened correctly. On successful creation of request money, the status will be CREATED. If the pending order is cancelled, the status will be CANCELED. Once the user completes the payment, the status will be COMPLETED."
 			},
 			"cancel_a_payment": {
