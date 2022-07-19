@@ -1679,7 +1679,7 @@
 				"row_key_1" : "jws",
 				"row_value_1_1" : "string",
 				"row_value_1_2_1" : "Encrypted result of payment execution",
-				"row_value_1_2_2": "[Important] It is mandatory for merchant to validate the payment amount and timestamp encrypted in jws with the data on merchant server side. ",
+				"row_value_1_2_2": "[Important] It is mandatory for merchant to validate the payment amount and timestamp encrypted in jws with the data on merchant server side. "
 			},	
 			"ip_pac_ec": "Error code",		
 			"table_21" : {
@@ -1782,7 +1782,7 @@
 				"row_value_8_4" : "Order information of the transaction",	
 				"row_value_9_4_1": "Determine if payment half screen is automatically invoked without user action or not",
 				"row_value_9_4_2": "true - Payment half screen auto invoked when rendering the button",
-				"row_value_9_4_3": "false - Payment half screen not auto invoked when rendering the button", 
+				"row_value_9_4_3": "false - Payment half screen not auto invoked when rendering the button"
 			},				
 			"mpspb_desc_6": "*Note: When defining ‘lg’ the component is filled in the parent container and can be resized to the merchant’s demands (height, width).",
 			"mpspd_ou_obj": "orderInfo object",
