@@ -189,6 +189,69 @@
 			"php": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}",
 			"node": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}",
 			"java": "{\n  \"notification_type\":\"file.created\",\n  \"notification_id\":\"<UUID>\",\n  \"fileType\":\"transaction_recon\",\n  \"path\":\"https:\/\/<server_path>\/<filename>?parameters\",\n  \"requestedAt\":\"<epoch time>\"\n}"
+		},
+		"smartPayment": {
+			"callback": {
+				"node": "pp.someApiCall({\n    success(res) {\n        // called when operation succeeds\n    },\n    fail(res) {\n        // called when operation fails\n    },\n    complete() {\n        // called when operations completes\n    }\n})"
+			},
+			"callbackFailure": {
+				"node": "pp.someApiCall({\n    fail(res) {\n            console.log(res.errorCode)\n    }\n})"	
+			},
+			"include": {
+				"node": "HTML code to include JS and CSS files - \n<script src=\"https://static.paypay.ne.jp/libs/smart-payment-js-sdk/1.29.0/smart-payment-js-sdk.js\"></script>\n<link rel=\"stylesheet\"\nhref=\"https://static.paypay.ne.jp/libs/smart-payment-js-sdk/1.29.0/smart-payment-js-sdk.min.css\"/>"
+			},
+			"loginStatus": {
+				"node": "pp.getAuthStatus({\n  success: () => {\n    // connected\n  },\n  fail: (response) => {\n    let errorCode = response.errorCode // e.g. NOT_AUTHORIZED, TOKEN_EXPIRED,  PERMISSION_REQUIRED...\n    let code = response.code\n    // pass 'code' object to paypay backend to get login url \n  }\n})"
+			},
+			"loginUrlRequest": {
+				"node": "curl --location --request POST 'https://stg-api.sandbox.paypay.ne.jp/v1/smartpayment/qr/sessions' \\\n--header 'Content-Type: application/json' \\\n-d '{\n    \"scopes\": [\n        \"mini_app_user_address\"\n    ],\n    \"redirectUrl\": \"https://bad.domain/hoge.html\",\n    \"nonce\": \"12345\"\n}' \\\n| jq"
+			},
+			"loginUrlResponse": {
+				"node": "{\n  \"unsigned\": {\n    \"resultInfo\": {\n      \"code\": \"SUCCESS\",\n      \"message\": \"Success\",\n      \"codeId\": \"08400001\"\n    },\n    \"data\": {\n      \"loginUrl\": \"https://stg-www.sandbox.paypay.ne.jp/app/smartpayment/web/link?code=https%3A%2F%2Fqr-stg.paypay-corp.co.jp%2F28180110b71174dd-994f-4a00-96d1-8155e6175aee\"\n    }\n  }\n}"
+			},
+			"initJsSdk": {
+				"node": "pp.init({\n    clientId: 'm_abCdEfghiJ', \n    env: 'sandbox',\n    success(res) {\n        console.log(res)\n    },\n    fail(res) {\n        console.log(res)\n    },\n})"
+			},
+			"preauthCapture" : {
+				"node": "pp.createOrder({\n    merchantPaymentId: \"merchant_id\",\n    amount: {\n        amount: 1500,\n        currency: \"JPY\"\n    },\n    orderDescription: \"order description\",\n    orderItems: [{\n        name: \"item 1\",\n        category: \"category 1\",\n        quantity: 1,\n        productId: \"product id 1\",\n        unitPrice: {\n            amount: 1000,\n            currency: \"JPY\"\n        }\n    },{\n        name: \"item 2\",\n        category: \"category 2\",\n        quantity: 2,\n        productId: \"product id 2\",\n        unitPrice: {\n            amount: 250,\n            currency: \"JPY\"\n        }\n    }],\n    additionalUserInfo: {\n      userAddress: {\n        visible: true,\n        mandatory: true\n      }\n    },\n    storeId: \"store_id\",\n    requestedAt: 1580465541,\n    isAuthorization: true,\n    success(res) {\n        console.log(res.jws)\n    },\n    fail(res) {\n        console.log(res.errorCode)\n       \n    }\n})"
+			},
+			"sampleJws": {
+				"node": "{\"jws\":\"eyJraWQiOiJjZjliMDk1NS0wZmVlLTQwYTktODM2Mi1mMGJmMmQ5NjU5NDQiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3VzZXItbW9kdWxlLnBheXBheS5jby5qcCIsImV4cCI6MTYzNTI4NjUyNSwiYXVkIjoiYV92ZnduZ0ZvOWRjIiwiaWF0IjoxNjM1Mjg1NjI1LCJwYXlsb2FkIjoie1wicmVzdWx0SW5mb1wiOntcImNvZGVcIjpcIlNVQ0NFU1NcIixcIm1lc3NhZ2VcIjpcIlN1Y2Nlc3NcIixcImNvZGVJZFwiOlwiMDg0MDAwMDFcIn0sXCJkYXRhXCI6e1wicGF5bWVudElkXCI6XCIwMzc0NjQxNDI3OTIyOTcyNjcyMFwiLFwic3RhdHVzXCI6XCJDT01QTEVURURcIixcImFjY2VwdGVkQXRcIjoxNjM1Mjg1NjI1LFwibWVyY2hhbnRQYXltZW50SWRcIjpcImh6bmtjZFwiLFwidXNlckF1dGhvcml6YXRpb25JZFwiOlwiMjBmYmUyMTctYzA0NC00ODE2LWFjZGEtMGI3MmE5N2I5YzhlXCIsXCJhbW91bnRcIjp7XCJhbW91bnRcIjoxMDAsXCJjdXJyZW5jeVwiOlwiSlBZXCJ9LFwicmVxdWVzdGVkQXRcIjoxNjM1Mjg1NjIyOCxcInN0b3JlSWRcIjpcIlwiLFwib3JkZXJEZXNjcmlwdGlvblwiOlwibmV3IG9yZGVyIHRlc3RcIixcIm9yZGVySXRlbXNcIjpbe1wibmFtZVwiOlwiYXNkZlwiLFwicXVhbnRpdHlcIjoxLFwidW5pdFByaWNlXCI6e1wiYW1vdW50XCI6MTAwLFwiY3VycmVuY3lcIjpcIkpQWVwifX1dLFwibWVyY2hhbnRJZFwiOjQxNzkzODM2Mjk3MTg5Nzg1NixcInN0YXR1c0xhYmVsU3RyaW5nXCI6XCLmlK_miZXjgYTlrozkuoZcIixcInN0YXR1c0xhYmVsQ29sb3JcIjpcIkdSRUVOXCIsXCJtZXJjaGFudE5hbWVcIjpcIuODluODqeODs-ODieWQje-8muODhuOCueODiOODluODqeODs-ODiVwiLFwicmVzcG9uc2VWYWxpZFRpbGxcIjoxNjM1Mjg2NTI1fSxcInJlc3BvbnNlVmFsaWRUaWxsXCI6MTYzNTI4NjUyNX0ifQ.lm7xIhLU1q-u0PUnh3S06yWnhYil_agJedasdLtMD9VmEoYl9iXMsYnaRgFO6KKodIemN026Fi4l_DPC3q40uJs5aBnJuURl82SJoYuGwCcOI8rtSAozA7dPTcHfM3pItdOPKH-ydp5UTGd8q60lNa1HkUHil0EGhdEE-vNflOwHfLg9fefbEjMdpt3A-xHixQt9QW9v08rA4dYVHc99YqYQHqrbNxf11Pcp2BK0Q7OFAv3CjZl6BN3S8KKXIiJkL0FLULOJL2IdJLc_wq0hzTqsAeJT8hqHUWU8dSj9QPC1Yn07E4_nd0XZ6ADOBO4Vb-1gBOOaM4ofWCJtbK946Q\"}"
+			},
+			"sampleJwdDecoded": {
+				"node": "{\n  \"iss\": \"https://user-module.paypay.co.jp\",\n  \"exp\": 1631002726,\n  \"aud\": \"m_ybQykxzcwM\",\n  \"iat\": 1631001826,\n  \"payload\": \"{\\\"resultInfo\\\":{\\\"code\\\":\\\"SUCCESS\\\",\\\"message\\\":\\\"Success\\\",\\\"codeId\\\":\\\"08400001\\\"},\\\"data\\\":{\\\"paymentId\\\":\\\"03709616734602346496\\\",\\\"status\\\":\\\"COMPLETED\\\",\\\"acceptedAt\\\":1631001826,\\\"merchantPaymentId\\\":\\\"asdf555588881\\\",\\\"amount\\\":{\\\"amount\\\":21,\\\"currency\\\":\\\"JPY\\\"},\\\"requestedAt\\\":16309951513,\\\"storeId\\\":\\\"s11\\\",\\\"orderDescription\\\":\\\"nasdfasfasdfasfds\\\",\\\"merchantId\\\":297709687027253248,\\\"statusLabelString\\\":\\\"支払い完了\\\",\\\"statusLabelColor\\\":\\\"GREEN\\\",\\\"merchantName\\\":\\\"ブランド名：smart payment test\\\",\\\"responseValidTill\\\":1631002726},\\\"responseValidTill\\\":1631002726}\"\n}"
+			},
+			"authStatusConnected": {
+				"node": "pp.render({\n  type: \"pay\",\n  containerId: \"<your container Id>\",\n  locale: \"ja\",\n  autoInvoke: false,\n  orderInfo: {\n    merchantPaymentId: \"<your payment id>\",\n    amount: {\n      amount: 100,\n      currency: \"JPY\",\n    },\n    agreeSimilarTransaction: true,\n    merchantAlias: \"<your merchant alias>\",\n    productType: \"DEFAULT\",\n    additionalUserInfo: {\n      userAddress: {\n        visible: true,\n        mandatory: true,\n      },\n    },\n    requestedAt: 1635284859,\n  },\n  success: (res) => {\n    console.log(res);\n},\n  fail: (res) => {\n    console.log(res);\n  },\n});"
+			},
+			"authStatusNotConnected": {
+				"node": "pp.render({\n  type: \"pay\",\n  containerId: \"<your container Id>\",\n  locale: \"ja\",\n  url: \"<loginUrl>\",\n});"
+			},
+			"authStatusJwt": {
+				"node": "{\"jws\":\"eyJraWQiOiJjZjliMDk1NS0wZmVlLTQwYTktODM2Mi1mMGJmMmQ5NjU5NDQiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3VzZXItbW9kdWxlLnBheXBheS5jby5qcCIsImV4cCI6MTYzNTI4NjUyNSwiYXVkIjoiYV92ZnduZ0ZvOWRjIiwiaWF0IjoxNjM1Mjg1NjI1LCJwYXlsb2FkIjoie1wicmVzdWx0SW5mb1wiOntcImNvZGVcIjpcIlNVQ0NFU1NcIixcIm1lc3NhZ2VcIjpcIlN1Y2Nlc3NcIixcImNvZGVJZFwiOlwiMDg0MDAwMDFcIn0sXCJkYXRhXCI6e1wicGF5bWVudElkXCI6XCIwMzc0NjQxNDI3OTIyOTcyNjcyMFwiLFwic3RhdHVzXCI6XCJDT01QTEVURURcIixcImFjY2VwdGVkQXRcIjoxNjM1Mjg1NjI1LFwibWVyY2hhbnRQYXltZW50SWRcIjpcImh6bmtjZFwiLFwidXNlckF1dGhvcml6YXRpb25JZFwiOlwiMjBmYmUyMTctYzA0NC00ODE2LWFjZGEtMGI3MmE5N2I5YzhlXCIsXCJhbW91bnRcIjp7XCJhbW91bnRcIjoxMDAsXCJjdXJyZW5jeVwiOlwiSlBZXCJ9LFwicmVxdWVzdGVkQXRcIjoxNjM1Mjg1NjIyOCxcInN0b3JlSWRcIjpcIlwiLFwib3JkZXJEZXNjcmlwdGlvblwiOlwibmV3IG9yZGVyIHRlc3RcIixcIm9yZGVySXRlbXNcIjpbe1wibmFtZVwiOlwiYXNkZlwiLFwicXVhbnRpdHlcIjoxLFwidW5pdFByaWNlXCI6e1wiYW1vdW50XCI6MTAwLFwiY3VycmVuY3lcIjpcIkpQWVwifX1dLFwibWVyY2hhbnRJZFwiOjQxNzkzODM2Mjk3MTg5Nzg1NixcInN0YXR1c0xhYmVsU3RyaW5nXCI6XCLmlK_miZXjgYTlrozkuoZcIixcInN0YXR1c0xhYmVsQ29sb3JcIjpcIkdSRUVOXCIsXCJtZXJjaGFudE5hbWVcIjpcIuODluODqeODs-ODieWQje-8muODhuOCueODiOODluODqeODs-ODiVwiLFwicmVzcG9uc2VWYWxpZFRpbGxcIjoxNjM1Mjg2NTI1fSxcInJlc3BvbnNlVmFsaWRUaWxsXCI6MTYzNTI4NjUyNX0ifQ.lm7xIhLU1q-u0PUnh3S06yWnhYil_agJedasdLtMD9VmEoYl9iXMsYnaRgFO6KKodIemN026Fi4l_DPC3q40uJs5aBnJuURl82SJoYuGwCcOI8rtSAozA7dPTcHfM3pItdOPKH-ydp5UTGd8q60lNa1HkUHil0EGhdEE-vNflOwHfLg9fefbEjMdpt3A-xHixQt9QW9v08rA4dYVHc99YqYQHqrbNxf11Pcp2BK0Q7OFAv3CjZl6BN3S8KKXIiJkL0FLULOJL2IdJLc_wq0hzTqsAeJT8hqHUWU8dSj9QPC1Yn07E4_nd0XZ6ADOBO4Vb-1gBOOaM4ofWCJtbK946Q\"}"
+			},
+			"authStatusJwtDecoded": {
+				"node": "{\n  \"iss\": \"https://user-module.paypay.co.jp\",\n  \"exp\": 1631002726,\n  \"aud\": \"m_ybQykxzcwM\",\n  \"iat\": 1631001826,\n  \"payload\": \"{\\\"resultInfo\\\":{\\\"code\\\":\\\"SUCCESS\\\",\\\"message\\\":\\\"Success\\\",\\\"codeId\\\":\\\"08400001\\\"},\\\"data\\\":{\\\"paymentId\\\":\\\"03709616734602346496\\\",\\\"status\\\":\\\"COMPLETED\\\",\\\"acceptedAt\\\":1631001826,\\\"merchantPaymentId\\\":\\\"asdf555588881\\\",\\\"amount\\\":{\\\"amount\\\":21,\\\"currency\\\":\\\"JPY\\\"},\\\"requestedAt\\\":16309951513,\\\"storeId\\\":\\\"s11\\\",\\\"orderDescription\\\":\\\"nasdfasfasdfasfds\\\",\\\"merchantId\\\":297709687027253248,\\\"statusLabelString\\\":\\\"支払い完了\\\",\\\"statusLabelColor\\\":\\\"GREEN\\\",\\\"merchantName\\\":\\\"ブランド名：smart payment test\\\",\\\"responseValidTill\\\":1631002726},\\\"responseValidTill\\\":1631002726}\"\n}"
+			},
+			"getUserAddress": {
+				"node": "pp.getUserAddress({\n    success(res) {\n        console.log(res.address)\n    }\n    fail(res) {\n        console.log(res.errorCode) //USER_CANCELED if user cancels the selection\n    }\n})"
+			},
+			"getProfileData": {
+				"node": "pp.getUserProfile({\n    success(profile) {\n        console.log(profile.fullName)\n        console.log(profile.nickName)\n        console.log(profile.avatarUrl)\n        console.log(profile.email)\n        console.log(profile.phoneNumber)\n    }\n})"
+			},
+			"logout": {
+				"node": "pp.logout({\n    success(res) {\n        console.log(res.statusCode)\n    },\n    fail(res) {\n        console.log(res.errorCode)\n    },\n})"
+			},
+			"authGrantNotification": {
+				"node": "{\n  \"notification_type\": \"customer.authroization.succeeded\",\n  \"notification_id\": \"evt_aXnbdeFt2Ke\",\n  \"createdAt\": \"1349654313\",\n  \"scopes\": [\"direct_debit\",\"pending_payment\"],\n  \"userAuthorizationId\": \"xxxxx\",\n  \"expiry\": 1234567  // the authorization id expiration epoch timestamp in seconds\n}"
+			},
+			"authRevokeNotification": {
+				"node": "{\n  \"notification_type\": \"customer.authroization.revoked\",\n  \"notification_id\": \"evt_aXnbdeFt2Ke\",\n  \"createdAt\": \"1349654313\",\n  \"userAuthorizationId\": \"xxxxx\"\n}"
+			}
+
+
+
+
 		}
 	}
 }
