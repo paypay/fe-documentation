@@ -146,7 +146,11 @@
 		"responseCodeList": "Response code list",
 		"userAuth": "User Authorization",
 		"unlinkUser": "Unlink User",
-		"createPayment": "Create a Payment"
+		"createPayment": "Create a Payment",
+		"overview": "Overview",
+		"userJourney": "User Journey",
+		"specifications": "Specifications",
+		"changeLogs": "Change Logs"
 	},  	
 	"product": {
 		"app-invoke": {

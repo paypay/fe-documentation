@@ -147,7 +147,11 @@
       "responseCodeList": "コードリスト",
       "userAuth": "ユーザー許諾の取得",
       "unlinkUser": "ユーザー許諾の解除",
-      "createPayment": "決済処理"
+      "createPayment": "決済処理",
+      "overview": "Overview",
+      "userJourney": "User Journey",
+      "specifications": "Specifications",
+      "changeLogs": "Change Logs"
     },    
     "product": {
       "app-invoke": {
