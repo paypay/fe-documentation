@@ -248,10 +248,6 @@
 			"authRevokeNotification": {
 				"node": "{\n  \"notification_type\": \"customer.authroization.revoked\",\n  \"notification_id\": \"evt_aXnbdeFt2Ke\",\n  \"createdAt\": \"1349654313\",\n  \"userAuthorizationId\": \"xxxxx\"\n}"
 			}
-
-
-
-
 		}
 	}
 }
