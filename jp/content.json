@@ -1721,6 +1721,7 @@
         "ip_pac_sample_desc_1": "復号前のサンプルJWS",
         "ip_pac_sample_desc_2": "復号後にJWSから抽出されたサンプルペイロード",
         "ip_pac_sample_desc_3": "Retrieving Public Key API Docsはこちらを参照 - $Link$",
+        "ip_pac_sample_desc_3_url": ["", "https://www.paypay.ne.jp/opa/doc/v1.0/get_public_key"],
         "ip_pac_sample_desc_4": "Get payment details、Cancel preauth、Revert preauth、およびCaptureは、加盟店バックエンドからPayPayバックエンドへのサーバー間コール経由で実施する必要があります。",
         "ip_pac_sample_li_1": "Get payment details documentation$はこちらを参照$。",
         "ip_pac_sample_li_1_url": ["", "https://www.paypay.ne.jp/opa/doc/v1.0/preauth_capture#tag/Payment/operation/getPaymentDetails"],
