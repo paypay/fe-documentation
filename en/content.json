@@ -146,7 +146,23 @@
 		"responseCodeList": "Response code list",
 		"userAuth": "User Authorization",
 		"unlinkUser": "Unlink User",
-		"createPayment": "Create a Payment"
+		"createPayment": "Create a Payment",
+		"overview": "Overview",
+		"userJourney": "User Journey",
+		"specifications": "Specifications",
+		"changeLogs": "Change Logs",
+		"makePayment": "Make a Payment",
+		"getUserAddress": "Get User Address",
+		"getUserAddressPayment": "Get User Address on Payment",
+		"commonSpecs": "Common Sepecifications",
+		"filesToInclude": "3.1 Files to include",
+		"loginUser": "3.2 Login a User with PayPay",
+		"makeSpecsPayment": "3.3 Make a Payment",
+		"makeaPaymentSmartPayment": "3.4 Make a Payment with Smart Payment Button",
+		"getSpecsUserAddress": "3.5 Get User Address",
+		"getProfileData": "3.6 Get User Profile Data from PayPay",
+		"logoutPayPay": "3.7 Logout a User with PayPay",
+		"webhookEvent": "3.8 Webhook Event"		
 	},  	
 	"product": {
 		"app-invoke": {

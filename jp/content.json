@@ -147,7 +147,23 @@
       "responseCodeList": "コードリスト",
       "userAuth": "ユーザー許諾の取得",
       "unlinkUser": "ユーザー許諾の解除",
-      "createPayment": "決済処理"
+      "createPayment": "決済処理",
+      "overview": "概要",
+      "userJourney": "ユーザージャーニー",
+      "specifications": "仕様",
+      "changeLogs": "Change Logs",
+      "makePayment": "支払い",
+      "getUserAddress": "ユーザーアドレスを取得",
+      "getUserAddressPayment": "支払時にユーザーアドレスを取得",
+      "commonSpecs": "共通仕様",
+      "filesToInclude": "3.1 含めるファイル",
+      "loginUser": "3.2 PayPayでのユーザーログイン",
+      "makeSpecsPayment": "3.3 支払い",
+      "makeaPaymentSmartPayment": "3.4 スマートペイメントボタンでの支払い",
+      "getSpecsUserAddress": "3.5 ユーザーアドレスの取得",
+      "getProfileData": "3.6 PayPayからユーザープロファイルデータを取得",
+      "logoutPayPay": "3.7 PayPayでのユーザーログアウト",
+      "webhookEvent": "3.8 Webhook Event"	      
     },    
     "product": {
       "app-invoke": {
