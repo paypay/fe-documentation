@@ -163,7 +163,6 @@
 		"getProfileData": "3.6 Get User Profile Data from PayPay",
 		"logoutPayPay": "3.7 Logout a User with PayPay",
 		"webhookEvent": "3.8 Webhook Event"		
-
 	},  	
 	"product": {
 		"app-invoke": {
