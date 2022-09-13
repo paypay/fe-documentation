@@ -162,8 +162,9 @@
       "makeaPaymentSmartPayment": "3.4 スマートペイメントボタンでの支払い",
       "getSpecsUserAddress": "3.5 ユーザーアドレスの取得",
       "getProfileData": "3.6 PayPayからユーザープロファイルデータを取得",
-      "logoutPayPay": "3.7 PayPayでのユーザーログアウト",
-      "webhookEvent": "3.8 Webhook Event"	      
+      "getCashbackInfo": "3.7 Get User Cashback Information",
+      "logoutPayPay": "3.8 PayPayでのユーザーログアウト",
+      "webhookEvent": "3.9 Webhook Event"	      
     },    
     "product": {
       "app-invoke": {
