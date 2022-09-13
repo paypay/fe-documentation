@@ -161,8 +161,9 @@
 		"makeaPaymentSmartPayment": "3.4 Make a Payment with Smart Payment Button",
 		"getSpecsUserAddress": "3.5 Get User Address",
 		"getProfileData": "3.6 Get User Profile Data from PayPay",
-		"logoutPayPay": "3.7 Logout a User with PayPay",
-		"webhookEvent": "3.8 Webhook Event"		
+		"getCashbackInfo": "3.7 Get User Cashback Information",
+		"logoutPayPay": "3.8 Logout a User with PayPay",
+		"webhookEvent": "3.9 Webhook Event"		
 	},  	
 	"product": {
 		"app-invoke": {
@@ -2157,7 +2158,7 @@
 				"row_value_4_3" : "mini_app_user_signup_date"
 			},			
 			"gupdp_sample": "Sample Code",
-			"lup": "3.7 Logout a User with PayPay",
+			"lup": "3.8 Logout a User with PayPay",
 			"lup_desc_1": "Merchants can use the JS function pp.logout to logout the user from PayPay Login.",
 			"lup_sample": "Sample Code",
 			"lup_sucess_code": "Success callback status Code",
@@ -2174,7 +2175,7 @@
 				"row_key_1" : "COOKIE_ERROR",
 				"row_value_1_1" : "Unable to clear authentication cookies"
 			},				
-			"wh": "3.8 Webhook Event",
+			"wh": "3.9 Webhook Event",
 			"wh_desc_1": "PayPay can send webhook events that notify your application at the time when event happens on your account. To be able receiving the notification the client need to setup a webhook url where we will use POST method to send data to client. All the notification data will have one notification_type field which could be used by client service to determine what event has happened.",
 			"wh_desc_2": "When your application receives the notification via webhook, it should respond with a HTTP 200 OK status code. Although not required, a response body with short text Description(like \"OK\") is recommended.",
 			"wh_desc_3": "With the security concerns, it is highly recommended that client whitelist PayPay IP address to receive notifications.PayPay IP address is here.",
