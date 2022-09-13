@@ -2295,7 +2295,7 @@
 			  "row_value_6_4_2" : "Enum: \"SUCCESS\" \"PENDING\" \"LOCKED\""
 			},  
 			"guci_error_codes": "Error code",          
-			"table 41": {
+			"table_41": {
 			  "row_title_1" : "Value",
 			  "row_title_2" : "Description",
 			  "row_value_1_1" : "INVALID_PAYMENT_IDENTIFIER",
