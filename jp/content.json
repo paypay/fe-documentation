@@ -2281,7 +2281,7 @@
 
         },  
         "guci_error_codes": "エラーコード",          
-        "table 41": {
+        "table_41": {
           "row_title_1" : "Value",
           "row_title_2" : "Description",
           "row_value_1_1" : "INVALID_PAYMENT_IDENTIFIER",
