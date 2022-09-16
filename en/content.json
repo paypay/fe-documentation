@@ -155,15 +155,15 @@
 		"getUserAddress": "Get User Address",
 		"getUserAddressPayment": "Get User Address on Payment",
 		"commonSpecs": "Common Sepecifications",
-		"filesToInclude": "3.1 Files to include",
-		"loginUser": "3.2 Login a User with PayPay",
-		"makeSpecsPayment": "3.3 Make a Payment",
-		"makeaPaymentSmartPayment": "3.4 Make a Payment with Smart Payment Button",
-		"getSpecsUserAddress": "3.5 Get User Address",
-		"getProfileData": "3.6 Get User Profile Data from PayPay",
-		"getCashbackInfo": "3.7 Get User Cashback Information",
-		"logoutPayPay": "3.8 Logout a User with PayPay",
-		"webhookEvent": "3.9 Webhook Event"		
+		"filesToInclude": "Files to include",
+		"loginUser": "Login a User with PayPay",
+		"makeSpecsPayment": "Make a Payment",
+		"makeaPaymentSmartPayment": "Make a Payment with Smart Payment Button",
+		"getSpecsUserAddress": "Get User Address",
+		"getProfileData": "Get User Profile Data from PayPay",
+		"getCashbackInfo": "Get User Cashback Information",
+		"logoutPayPay": "Logout a User with PayPay",
+		"webhookEvent": "Webhook Event"		
 	},  	
 	"product": {
 		"app-invoke": {
