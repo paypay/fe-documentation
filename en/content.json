@@ -1236,6 +1236,7 @@
 		},
 		"smartPayment" : {
 			"title" : "Smart Payment",
+			"version" : "Version 1.7",
 			"overview" : "Overview",
 			"desc_1" : "Smart Payment is a new addition of integration methods to PayPay’s current offerings (native payment, web payment, dynamic QR, app invoke, etc.). It is a JS SDK that allows merchants to invoke various PayPay features (payment, address, etc.) in their UI only without transitioning to PayPay. As a frontend based integration, only small backend effort is required, which reduces merchant side of work a lot.",
 			"desc_2" : "As it is a JS SDK, merchants can use it in its web application or webview of its native app.",
